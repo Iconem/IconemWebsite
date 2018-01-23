@@ -1,13 +1,13 @@
-<section class="no-padding" id="about">
+<section class="no-padding" id="projects">
     <section>
         <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
-                {{ with .Site.Params.about.title }}
+                {{ with .Site.Params.projects.title }}
                     <h3 class="section-heading text-center">{{ . }}</h3>
                 {{ end }}
                     <br>
-                {{ with .Site.Params.about.description }}
+                {{ with .Site.Params.projects.description }}
                     <p class="text-justify">{{ . | markdownify }}</p>
                 {{ end }}
             </div>

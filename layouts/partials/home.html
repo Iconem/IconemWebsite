@@ -2,22 +2,22 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            {{ if .Site.Params.hero.draw }}
-                <img class="header-draw" src="{{.Site.Params.hero.draw}}"/>
+            {{ if .Site.Params.home.draw }}
+                <img class="header-draw" src="{{.Site.Params.home.draw}}"/>
             {{ end }}
-            {{ if and .Site.Params.hero.draw .Site.Params.hero.slogan }}
+            {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
                 <hr>
             {{ end }}
             {{ "<!-- Slogan font-size is calculated in the script creative.js -->" | safeHTML }}
-            {{ with .Site.Params.hero.slogan }}
+            {{ with .Site.Params.home.slogan }}
                 <h1>{{ . | markdownify }}</h1>
             {{ end }}
         </div>
     </div>
 
     <div class="header-footer">
-        {{ range .Site.Params.hero.social }}
-            <a href="{{ .link }}">
+        {{ range .Site.Params.home.social }}
+            <a href="{{ .link }}" target="_blank">
                 <img src="{{ .icon }}"/>
             </a>
         {{ end }}

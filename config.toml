@@ -37,72 +37,52 @@ googleAnalytics = ""
 			contact   = "Contact"
 
 
-	# Hero section
-	[params.hero]
+	# Home section
+	[params.home]
 		slogan     = "Explore human heritage"
 		draw = "img/home/home_draw.png"
 
-		[[params.hero.social]]
+		[[params.home.social]]
             title = "Tumblr"
             icon = "img/home/social/tumblr.png"
             link = "http://iconem.tumblr.com/"
 
-		[[params.hero.social]]
+		[[params.home.social]]
             title = "Facebook"
             icon = "img/home/social/facebook.png"
             link = "https://fr-fr.facebook.com/Iconem.corp/"
 
-        [[params.hero.social]]
+        [[params.home.social]]
             title = "Twitter"
             icon = "img/home/social/twitter.png"
             link = "https://twitter.com/iconem"
 
-        [[params.hero.social]]
+        [[params.home.social]]
             title = "Youtube"
             icon = "img/home/social/youtube.png"
             link = "https://www.youtube.com/user/iconem"
 
-        [[params.hero.social]]
+        [[params.home.social]]
             title = "Vimeo"
             icon = "img/home/social/vimeo.png"
             link = "https://vimeo.com/iconem"
 
-        [[params.hero.social]]
+        [[params.home.social]]
             title = "Sketchfab"
             icon = "img/home/social/sketchfab.png"
             link = "https://sketchfab.com/iconem"
 
 
+    # Projects section
+    [params.projects]
+    	title="Our mission/projects"
+    	description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
-
-
-	# Service section
-	[params.services]
-		headline = "At your service"
-
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+		title    = "About"
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 
 
     # Portfolio modals
