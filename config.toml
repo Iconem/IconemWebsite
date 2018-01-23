@@ -1,7 +1,6 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
-theme = "hugo-creative-theme"
+title = "Iconem"
 googleAnalytics = ""
 
 [params]
@@ -29,12 +28,12 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		brand = "Iconem"
 
 		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
+			projects = "Projects"
+			map  = "Map"
+			about = "About"
 			contact   = "Contact"
 
 
