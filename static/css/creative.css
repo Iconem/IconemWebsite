@@ -11,7 +11,8 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Arial,'Helvetica Neue',sans-serif;
+    color:  #887d87;
 }
 
 hr {
@@ -25,7 +26,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #887d87;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,16 +34,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
-}
-
-#about a {
-    color: rgba(52, 52, 52, .7);
-}
-
-#about a:hover,
-#about a:focus {
-    color: rgb(52, 52, 52);
+    color: #555;
 }
 
 h1,
@@ -51,26 +43,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Arial,'Helvetica Neue',sans-serif;
+    font-weight: bold;
 }
 
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
-}
-
-.bg-primary {
-    background-color: #f05f40;
-}
-
-.bg-dark {
-    color: #fff;
-    background-color: #222;
-}
-
-.text-faded {
-    color: rgba(255,255,255,.7);
 }
 
 .text-justify {
@@ -91,7 +71,8 @@ aside {
 
 .navbar-default {
     border-color: white;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Arial,'Helvetica Neue',sans-serif;
+    font-weight: bold;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -122,12 +103,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color:  #887d87;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color:  #555!important;
     background-color: transparent;
 }
 
@@ -158,7 +139,7 @@ aside {
     }
 
     .navbar-default.affix {
-        border-color: rgba(0,0,0,0.5);
+        border-color:  #887d87;
         background-color: #fff;
     }
 
@@ -168,12 +149,12 @@ aside {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: rgba(0,0,0,0.5);
+        color:  #887d87;
     }
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color:  #555;
     }
 }
 
@@ -222,10 +203,16 @@ header .header-footer {
     background-color: white;
 }
 
+header .header-footer a:hover,
+header .header-footer a:focus,
+header .header-footer a:visited{
+    text-decoration: none;
+}
+
 header .header-footer a img {
     height: 22px;
     width: 22px;
-    margin: 14px 2px;
+    margin: 14px 6px;
 }
 
 @media(min-width:768px) {
@@ -287,12 +274,13 @@ header .header-footer a img {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
     text-align: center;
-    color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -309,7 +297,7 @@ header .header-footer a img {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Arial,'Helvetica Neue',sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -493,8 +481,7 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-#map {
-    height: 300px;
-    overflow: visible;
-    position: relative;
+#map img {
+    width: 100%;
+    height: auto;
 }
