@@ -18,7 +18,10 @@
     <div class="header-footer">
         {{ range .Site.Params.home.social }}
             <a href="{{ .link }}" target="_blank">
-                <img src="{{ .icon }}"/>
+                <img src="{{ .icon}}" 
+                    onmouseenter="this.src={{ .icon_active}}" 
+                    onmouseleave="this.src={{ .icon}}"
+                />
             </a>
         {{ end }}
     </div>

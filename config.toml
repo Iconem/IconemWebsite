@@ -43,33 +43,39 @@ googleAnalytics = ""
 		draw = "img/home/home_draw.png"
 
 		[[params.home.social]]
-            title = "Tumblr"
+            id = "tumblr"
             icon = "img/home/social/tumblr.png"
+            icon_active = "img/home/social/tumblr_active.png"
             link = "http://iconem.tumblr.com/"
 
 		[[params.home.social]]
-            title = "Facebook"
+            id = "facebook"
             icon = "img/home/social/facebook.png"
+            icon_active = "img/home/social/facebook_active.png"
             link = "https://fr-fr.facebook.com/Iconem.corp/"
 
         [[params.home.social]]
-            title = "Twitter"
+            id = "twitter"
             icon = "img/home/social/twitter.png"
+            icon_active = "img/home/social/twitter_active.png"
             link = "https://twitter.com/iconem"
 
         [[params.home.social]]
-            title = "Youtube"
+            id = "youtube"
             icon = "img/home/social/youtube.png"
+            icon_active = "img/home/social/youtube_active.png"
             link = "https://www.youtube.com/user/iconem"
 
         [[params.home.social]]
-            title = "Vimeo"
+            id = "vimeo"
             icon = "img/home/social/vimeo.png"
+            icon_active = "img/home/social/vimeo_active.png"
             link = "https://vimeo.com/iconem"
 
         [[params.home.social]]
-            title = "Sketchfab"
+            id = "sketchfab"
             icon = "img/home/social/sketchfab.png"
+            icon_active = "img/home/social/sketchfab_active.png"
             link = "https://sketchfab.com/iconem"
 
 
@@ -77,6 +83,13 @@ googleAnalytics = ""
     [params.projects]
     	title="Our mission/projects"
     	description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+   	# Projects modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
 
     # Map section
     [params.map]
@@ -86,22 +99,6 @@ googleAnalytics = ""
 	[params.about]
 		title    = "About"
 		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-
-
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
-
-    # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
-
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
