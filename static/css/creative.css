@@ -58,10 +58,6 @@ p {
 }
 
 section {
-    padding: 30px 0;
-}
-
-aside {
     padding: 50px 0;
 }
 
@@ -205,11 +201,16 @@ header .header-footer {
 
 header .header-footer a:hover,
 header .header-footer a:focus,
-header .header-footer a:visited{
+header .header-footer a:visited,
+#partners a:hover,
+#partners a:focus,
+#partners a:visited
+{
     text-decoration: none;
 }
 
-header .header-footer a img {
+header .header-footer a img,
+#partners a img {
     height: 22px;
     width: 22px;
     margin: 14px 6px;
@@ -274,10 +275,10 @@ header .header-footer a img {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 90%;
-    height: 90%;
-    top: 5%;
-    left: 5%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
     text-align: center;
     opacity: 0;
     background: white;
