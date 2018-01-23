@@ -26,9 +26,18 @@
             {{ partial "contact.html" . }}
         {{ end }}
 
-        {{ if .Site.Data.projects }}
-            {{ partial "modals.html" . }}
+        {{ if .Site.Params.footer }}
+            {{ partial "footer.html" . }}
         {{ end }}
+
+        {{ if .Site.Data.projects }}
+            {{ partial "project-modals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.about }}
+            {{ partial "about-modals.html" . }}
+        {{ end }}
+
 
         {{ partial "js.html" . }}
 

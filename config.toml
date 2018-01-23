@@ -102,13 +102,12 @@ googleAnalytics = ""
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		adress = "6 rue Jules Chaplain, 75006 Paris"
+		email = "contact@iconem.com"
+		business_plan = "pdf/business_plan.pdf"
+		press_kit = "pdf/press_kit.pdf"
 
-	# Google Maps section
-	# [params.location]
-	# 	latitude  = "34.007850"
-	# 	longitude = "-118.499305"
-	# 	maps_api_key = ""
+	# Footer
+	[params.footer]
+		content = "Copyright @Iconem 2018"

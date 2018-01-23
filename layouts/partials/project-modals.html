@@ -18,7 +18,7 @@
                         {{ if and .title .description }}
                             <hr class="star-primary">
                         {{ end }}
-                        <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
+                        <img src="{{ .img }}" class="img-responsive img-centered" alt="">
                         {{ with .description }}
                             <p>{{ . | markdownify }}</p>
                         {{ end }}

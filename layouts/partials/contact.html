@@ -3,62 +3,32 @@
     <div class="container">
         <div class="row">
             {{ if .Site.Params.contact.phone }}
-                <div class="
-                {{ if .Site.Params.contact.email }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8
-                {{ end }}
-                col-lg-offset-2 text-center">
+                <div class="col-sm-2 col-sm-offset-1 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>{{ .Site.Params.contact.phone }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.adress }}
-                <div class="
-                {{ if .Site.Params.contact.email }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8
-                {{ end }}
-                col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <div class="col-sm-2 text-center">
+                    <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
                     <p>{{ .Site.Params.contact.adress }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
-                <div class="
-                {{ if .Site.Params.contact.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
+                <div class="col-sm-2 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.business_plan }}
-                <div class="
-                {{ if .Site.Params.contact.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <div class="col-sm-2 text-center">
+                    <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:{{ .Site.Params.contact.email }}">Business Plan</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.press_kit }}
-                <div class="
-                {{ if .Site.Params.contact.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <div class="col-sm-2 text-center">
+                    <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:{{ .Site.Params.contact.email }}">Press Kit</a></p>
                 </div>
             {{ end }}
