@@ -2,18 +2,24 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            {{ with .Site.Params.hero.slogan }}
-                <h1>{{ . | markdownify  }}</h1>
+            {{ if .Site.Params.hero.draw }}
+                <img class="header-draw" src="{{.Site.Params.hero.draw}}"/>
             {{ end }}
-            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
+            {{ if and .Site.Params.hero.draw .Site.Params.hero.slogan }}
                 <hr>
             {{ end }}
-            {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
-            {{ end }}
-            {{ with .Site.Params.hero.buttonText }}
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+            {{ "<!-- Slogan font-size is calculated in the script creative.js -->" | safeHTML }}
+            {{ with .Site.Params.hero.slogan }}
+                <h1>{{ . | markdownify }}</h1>
             {{ end }}
         </div>
+    </div>
+
+    <div class="header-footer">
+        {{ range .Site.Params.hero.social }}
+            <a href="{{ .link }}">
+                <img src="{{ .icon }}"/>
+            </a>
+        {{ end }}
     </div>
 </header>

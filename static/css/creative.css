@@ -15,9 +15,9 @@ body {
 }
 
 hr {
-    max-width: 50px;
-    border-color: #f05f40;
-    border-width: 3px;
+    max-width: 180px;
+    border-color: white;
+    border-width: 1px;
 }
 
 hr.light {
@@ -96,7 +96,7 @@ aside {
 
 .navbar-default.navbar-fixed-top {
     border-color: rgba(255,255,255,0.8);
-    border-width: 0 0 1.5px;
+    border-width: 0 0 1px;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -142,10 +142,6 @@ aside {
         background-image: url('../img/navbar/navbar_logo_white.png');
     }
 
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
-    }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
@@ -158,7 +154,7 @@ aside {
     }
 
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
+        border-color: rgba(0,0,0,0.5);
         background-color: #fff;
     }
 
@@ -166,14 +162,9 @@ aside {
         background-image: url('../img/navbar/navbar_logo_grey.png');
     }
 
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
-    }
-
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: rgba(0,0,0,0.5);
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -214,11 +205,23 @@ header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
-header .header-content .header-content-inner p {
-    margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+header .header-content .header-content-inner .header-draw {
+    width: 45%;
+}
+
+header .header-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+header .header-footer a img {
+    height: 22px;
+    width: 22px;
+    margin: 14px 2px;
 }
 
 @media(min-width:768px) {
