@@ -70,6 +70,7 @@ body {
 
 .projects-modal .carousel .carousel-indicators {
     bottom: 60px;
+    transition: all 0.5 linear;
 }
 
 .projects-modal .carousel .carousel-type {
@@ -91,29 +92,29 @@ body {
     border: none;
 }
 
-#carousel-type-img {
+.carousel-type-img {
     background-image: url('../img/projects/icons/img_black.png')
 }
 
-#carousel-type-img.active {
+.carousel-type-img.type-active {
     background-color: transparent;
     background-image: url('../img/projects/icons/img_white.png')
 }
 
-#carousel-type-video {
+.carousel-type-video {
     background-image: url('../img/projects/icons/video_black.png')
 }
 
-#carousel-type-video.active {
+.carousel-type-video.type-active {
     background-color: transparent;
     background-image: url('../img/projects/icons/video_white.png')
 }
 
-#carousel-type-3ds {
+.carousel-type-3ds {
     background-image: url('../img/projects/icons/3ds_black.png')
 }
 
-#carousel-type-3ds.active {
+.carousel-type-3ds.type-active {
     background-color: transparent;
     background-image: url('../img/projects/icons/3ds_white.png')
 }

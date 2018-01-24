@@ -29,36 +29,63 @@
 
                     {{ "<!-- Slides -->" | safeHTML }}
                     <div class="carousel-inner" role="listbox">
-                        {{ range $index, $element := .img }}
-                            <div class="item {{ if eq $index 0 }} active {{ end }}">
-                                <img src="{{ . }}">
+                        {{ range $imageIndex, $image := $project.img }}
+                            <div class="item {{ if eq $imageIndex 0 }} active {{ end }}">
+                                <img src="{{ $image }}">
                             </div>
+                        {{ end }}
+                        {{ if $project.video }}
+                            {{ range $videoIndex, $video := $project.video }}
+                                <div class="item"
+                                    style="border:2px solid red;">
+                                    <img src="{{ $video }}">
+                                </div>
+                            {{ end }}
                         {{ end }}
                     </div>
 
                     {{ "<!-- Indicators -->" | safeHTML }}
                     <ol class="carousel-indicators">
-                        {{ range $index, $element := .img }}
-                            <li data-target="#carousel-example-generic-{{ $project.modalID }}" 
-                                data-slide-to="{{ $index }}" 
-                                class="{{ if eq $index 0 }} active {{ end }}">
+                        {{ range $imageIndex, $image := $project.img }}
+                            <li 
+                                data-target="#carousel-example-generic-{{ $project.modalID }}"
+                                data-slide-to="{{ $imageIndex }}" 
+                                class="carousel-indicator-img {{ if eq $imageIndex 0 }} active {{ end }}">
                             </li>
+                        {{ end }}
+                        {{ if $project.video }}
+                            {{ range $videoIndex, $video := $project.video }}
+                                <li 
+                                    data-target="#carousel-example-generic-{{ $project.modalID }}"
+                                    data-slide-to="{{ add (len $project.img) $videoIndex }}" 
+                                    class="carousel-indicator-video {{ if eq $videoIndex 0 }} active {{ end }}"
+                                    style="display:none;">
+                                </li>
+                            {{ end }}
                         {{ end }}
                     </ol>
 
-                    {{ "<!-- Type Idicators -->" | safeHTML }}
-                    <div class="carousel-type text-center">Picture</div>
+                    {{ "<!-- Type Selectors -->" | safeHTML }}
+                    <div class="carousel-type text-center">
+                        Pictures
+                    </div>
 
                     <ol class="carousel-indicators carousel-type-indicators">
-                        <li id="carousel-type-img"
-                            data-target="#carousel-example-generic-{{ $project.modalID }}" 
-                            class="active"
+                        <li 
+                            class="carousel-type-img type-active"
+                            onclick="display({{ $project.modalID }}, 'img', 0)"
                         />
                         {{ if .video }}
-                            <li id="carousel-type-video">
+                            <li 
+                                class="carousel-type-video"
+                                onclick="display({{ $project.modalID }}, 'video', {{ len $project.img }})"
+                            />
                         {{ end }}
                         {{ if .three_ds }}
-                            <li id="carousel-type-3ds">
+                            <li 
+                                class="carousel-type-3ds"
+                                onclick="display({{ $project.modalID }}, '3ds')"
+                            />
                         {{ end }}
                     </ol>
 
@@ -75,3 +102,54 @@
     </div>
 </div>
 {{ end }}
+
+<script type="text/javascript">
+    function display(projectId, type, firstIndexOfType) {
+        var carouselId = '#carousel-example-generic-' + projectId;
+        var carouselElement = $(carouselId);
+
+        // remove class type-active from every type icon
+        carouselElement
+            .find('.carousel-type-indicators')
+            .find('li')
+            .removeClass('type-active');
+
+        // add class type-active to selected type icon
+        carouselElement
+            .find('.carousel-type-' + type)
+            .addClass('type-active');
+
+        // modify type element content
+        var textType = '';
+        switch (type) {
+            case 'img':
+                textType = 'Pictures';
+                break;
+            case 'video':
+                textType = 'Videos';
+                break;
+            case '3ds':
+                textType = '3Ds';
+                break;
+            default:
+                break;
+        }
+        carouselElement
+            .find('.carousel-type')
+            .text(textType);
+
+        // set display:none for all carousel indicators
+        carouselElement
+            .find('.carousel-indicators:not(.carousel-type-indicators)')
+            .find('li')
+            .css('display', 'none');
+
+        // set display:block for all indicators corresponding to $type
+        carouselElement
+            .find('.carousel-indicator-' + type)
+            .css('display', 'inline-block');
+
+        // slides carousel to first element of correspont $type
+        carouselElement.carousel(firstIndexOfType);
+    }
+</script>
