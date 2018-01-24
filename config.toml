@@ -92,7 +92,7 @@ googleAnalytics = ""
 
     # Map section
     [params.map]
-    	src="img/home/home_background.png"
+    	src="img/map/map.png"
 
 	# About section
 	[params.about]

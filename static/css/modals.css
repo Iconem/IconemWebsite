@@ -59,8 +59,25 @@ body {
     margin-bottom: 15px;
 }
 
-.projects-modal .modal-content .modal-body .modal-title img {
+.projects-modal .modal-content .modal-body .modal-title .modal-img-simple,
+.projects-modal .modal-content .modal-body .modal-title .carousel {
     margin: 30px 0;
+}
+
+.projects-modal .carousel .carousel-indicators {
+    bottom: 60px;
+}
+
+.projects-modal .carousel .carousel-type {
+    position: absolute;
+    width: 100%;
+    color: white;
+    bottom: 45px;
+    text-transform: uppercase;
+}
+
+.projects-modal .carousel .carousel-indicators.carousel-type-indicators {
+    bottom: 10px;
 }
 
 .projects-modal .modal-content .modal-body .modal-description {
