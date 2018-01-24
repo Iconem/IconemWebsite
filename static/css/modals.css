@@ -64,6 +64,10 @@ body {
     margin: 30px 0;
 }
 
+.projects-modal .modal-content .modal-body .modal-title .carousel img {
+    margin: auto;
+}
+
 .projects-modal .carousel .carousel-indicators {
     bottom: 60px;
 }
@@ -78,6 +82,40 @@ body {
 
 .projects-modal .carousel .carousel-indicators.carousel-type-indicators {
     bottom: 10px;
+}
+
+.projects-modal .carousel .carousel-indicators.carousel-type-indicators li {
+    height: 22px;
+    width: 22px;
+    border-radius: 0;
+    border: none;
+}
+
+#carousel-type-img {
+    background-image: url('../img/projects/icons/img_black.png')
+}
+
+#carousel-type-img.active {
+    background-color: transparent;
+    background-image: url('../img/projects/icons/img_white.png')
+}
+
+#carousel-type-video {
+    background-image: url('../img/projects/icons/video_black.png')
+}
+
+#carousel-type-video.active {
+    background-color: transparent;
+    background-image: url('../img/projects/icons/video_white.png')
+}
+
+#carousel-type-3ds {
+    background-image: url('../img/projects/icons/3ds_black.png')
+}
+
+#carousel-type-3ds.active {
+    background-color: transparent;
+    background-image: url('../img/projects/icons/3ds_white.png')
 }
 
 .projects-modal .modal-content .modal-body .modal-description {
