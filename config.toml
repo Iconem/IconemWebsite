@@ -55,16 +55,16 @@ googleAnalytics = ""
             link = "https://fr-fr.facebook.com/Iconem.corp/"
 
         [[params.home.social]]
+            id = "sketchfab"
+            icon = "img/home/social/sketchfab.png"
+            icon_active = "img/home/social/sketchfab_active.png"
+            link = "https://sketchfab.com/iconem"
+
+        [[params.home.social]]
             id = "twitter"
             icon = "img/home/social/twitter.png"
             icon_active = "img/home/social/twitter_active.png"
             link = "https://twitter.com/iconem"
-
-        [[params.home.social]]
-            id = "youtube"
-            icon = "img/home/social/youtube.png"
-            icon_active = "img/home/social/youtube_active.png"
-            link = "https://www.youtube.com/user/iconem"
 
         [[params.home.social]]
             id = "vimeo"
@@ -73,10 +73,10 @@ googleAnalytics = ""
             link = "https://vimeo.com/iconem"
 
         [[params.home.social]]
-            id = "sketchfab"
-            icon = "img/home/social/sketchfab.png"
-            icon_active = "img/home/social/sketchfab_active.png"
-            link = "https://sketchfab.com/iconem"
+            id = "youtube"
+            icon = "img/home/social/youtube.png"
+            icon_active = "img/home/social/youtube_active.png"
+            link = "https://www.youtube.com/user/iconem"
 
 
     # Projects section
