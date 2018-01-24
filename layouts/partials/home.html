@@ -6,7 +6,7 @@
                 <img class="header-draw" src="{{.Site.Params.home.draw}}"/>
             {{ end }}
             {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
-                <hr>
+                <hr class="light">
             {{ end }}
             {{ "<!-- Slogan font-size is calculated in the script creative.js -->" | safeHTML }}
             {{ with .Site.Params.home.slogan }}

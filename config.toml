@@ -89,7 +89,6 @@ googleAnalytics = ""
         client = "Client"
         date = "Date"
         category = "Category"
-        buttonText = "Close"
 
     # Map section
     [params.map]
