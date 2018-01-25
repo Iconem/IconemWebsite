@@ -1,7 +1,7 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
 {{ range $projectIndex, $project := .Site.Data.projects }}
 <div class="projects-modal modal fade" id="portfolioModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-xl-6 col-xl-offset-3">
+    <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
                 <div class="rl">
@@ -31,14 +31,14 @@
                     <div class="carousel-inner" role="listbox">
                         {{ range $imageIndex, $image := $project.img }}
                             <div class="item {{ if eq $imageIndex 0 }} active {{ end }}">
-                                <img src="{{ $image }}">
+                                <img src="{{ $image }}" class="img-responsive">
                             </div>
                         {{ end }}
                         {{ if $project.video }}
                             {{ range $videoIndex, $video := $project.video }}
                                 <div class="item"
                                     style="border:2px solid red;">
-                                    <img src="{{ $video }}">
+                                    <img src="{{ $video }}" class="img-responsive">
                                 </div>
                             {{ end }}
                         {{ end }}
@@ -46,7 +46,7 @@
                             {{ range $modelIndex, $model := $project.models }}
                                 <div class="item"
                                     style="border:2px solid blue;">
-                                    <img src="{{ $model }}">
+                                    <img src="{{ $model }}" class="img-responsive">
                                 </div>
                             {{ end }}
                         {{ end }}
