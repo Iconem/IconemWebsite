@@ -8,6 +8,7 @@
                 </div>
             </div>
         </div>
+
         <div class="col-sm-10 col-sm-offset-1 modal-body">
             <div class="modal-title">
                 {{ with .title }}
@@ -17,19 +18,21 @@
                     <hr/>
                 </div>
                 <h5>
-                    {{ if .date }}
-                        <div>{{ .date }}</div>
-                    {{ end }}
-                    {{ if .place }}
-                        <div>{{ .place }}</div>
-                    {{ end }}
+                    <div>{{ .date }}</div>
+                    <div>{{ .place }}</div>
                 </h5>
-                <img src="{{ .img }}" class="img-responsive img-centered modal-img-simple" alt="">
+                {{ if not (eq .modalID "team") }}
+                    <img src="{{ .img }}" class="img-responsive img-centered modal-img-simple" alt="">
+                {{ end }}
             </div>
-            {{ with .description }}
-                <div class="modal-description">
-                    <p class="text-justify">{{ . | markdownify }}</p>
-                </div>
+            {{ if eq .modalID "team" }}
+                {{ partial "team.html" . }}
+            {{ else }}
+                {{ with .description }}
+                    <div class="modal-description">
+                        <p class="text-justify">{{ . | markdownify }}</p>
+                    </div>
+                {{ end }}
             {{ end }}
         </div>
     </div>

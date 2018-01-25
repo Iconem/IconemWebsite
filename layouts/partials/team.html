@@ -1,0 +1,33 @@
+{{ "<!-- Team Modal content-->" | safeHTML }}
+<section class="no-padding" id="team">
+    <div class="container team-img-container">
+        <div class="row no-gutter">
+            {{ range $memberIndex, $member := .members }}
+                <div class="col-md-3">
+                    <a role="button" 
+                        data-toggle="collapse" 
+                        href="#team-member-{{ $memberIndex }}"
+                        aria-expanded="false">
+                        <img src="{{ $member.params.img }}" class="img-responsive" 
+                            style="height:120px"/>
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    
+    {{ range $memberIndex, $member := .members }}
+        <div id="team-member-{{ $memberIndex }}" class="collapse">
+            <div class="team-member-header">
+                <h3>{{ $member.params.name }}</h3>
+                <h4>{{ $member.params.job }}</h4>
+            </div>
+            <div class="modal-description">
+                <p class="text-justify">
+                    {{ $member.params.description }}
+                </p>
+            </div>
+        </div>
+    {{ end }}
+
+</section>
