@@ -208,16 +208,25 @@ header .header-footer a:focus,
 header .header-footer a:visited,
 #partners a:hover,
 #partners a:focus,
-#partners a:visited
+#partners a:visited,
+#clients a:hover,
+#clients a:focus,
+#clients a:visited
 {
     text-decoration: none;
 }
 
-header .header-footer a img,
-#partners a img {
-    height: 28px;
+header .header-footer a img {
+    height:28px;
     width: 28px;
     margin: 11px 7px;
+}
+
+#partners a img,
+#clients a img {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
 }
 
 @media(min-width:768px) {

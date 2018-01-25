@@ -22,6 +22,17 @@
                     {{ end }}
                 </div>
 
+                <div id="clients" class="text-center">
+                    {{ range .Site.Data.clients }}
+                        <a href="{{ .link }}" target="_blank">
+                            <img src="{{ .icon}}" 
+                                onmouseenter="this.src={{ .icon_active}}" 
+                                onmouseleave="this.src={{ .icon}}"
+                            />
+                        </a>
+                    {{ end }}
+                </div>
+
             </div>
         </div>
     </div>
