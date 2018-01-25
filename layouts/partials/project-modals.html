@@ -31,14 +31,14 @@
                     <div class="carousel-inner" role="listbox">
                         {{ range $imageIndex, $image := $project.img }}
                             <div class="item {{ if eq $imageIndex 0 }} active {{ end }}">
-                                <img src="{{ $image }}">
+                                <img src="{{ $image }}" class="img-responsive">
                             </div>
                         {{ end }}
                         {{ if $project.video }}
                             {{ range $videoIndex, $video := $project.video }}
                                 <div class="item"
                                     style="border:2px solid red;">
-                                    <img src="{{ $video }}">
+                                    <img src="{{ $video }}" class="img-responsive">
                                 </div>
                             {{ end }}
                         {{ end }}
@@ -46,7 +46,7 @@
                             {{ range $modelIndex, $model := $project.models }}
                                 <div class="item"
                                     style="border:2px solid blue;">
-                                    <img src="{{ $model }}">
+                                    <img src="{{ $model }}" class="img-responsive">
                                 </div>
                             {{ end }}
                         {{ end }}
