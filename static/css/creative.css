@@ -57,6 +57,10 @@ p {
     text-align: justify;
 }
 
+.img-responsive {
+    width: 100%;
+}
+
 section {
     padding: 50px 0;
 }
