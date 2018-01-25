@@ -3363,21 +3363,21 @@ input[type="button"].btn-block {
 .fade.in {
   opacity: 1;
 }
-.collapse {
+/*.collapse {
   display: none;
   visibility: hidden;
 }
 .collapse.in {
   display: block;
   visibility: visible;
-}
+}*/
 tr.collapse.in {
   display: table-row;
 }
 tbody.collapse.in {
   display: table-row-group;
 }
-.collapsing {
+/*.collapsing {
   position: relative;
   height: 0;
   overflow: hidden;
@@ -3390,7 +3390,7 @@ tbody.collapse.in {
   -webkit-transition-property: height, visibility;
        -o-transition-property: height, visibility;
           transition-property: height, visibility;
-}
+}*/
 .caret {
   display: inline-block;
   width: 0;
