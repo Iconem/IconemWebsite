@@ -1,25 +1,19 @@
 {{ "<!-- Team Modal content-->" | safeHTML }}
-<section class="no-padding col-lg-8 col-lg-offset-2" id="team">
+<section class="no-padding" id="team">
 
-    <!-- <div class="row no-gutter"> -->
-        <!-- <div class="col-lg-8 col-lg-offset-2"> -->
-            <div class="container team-img-container">
-                <div class="row no-gutter">
-                    {{ range $memberIndex, $member := .members }}
-                        <div class="col-md-3">
-                            <a role="button" 
-                                data-toggle="collapse"
-                                href="#team-member-{{ $memberIndex }}"
-                                data-parent='#team-accordion'
-                                aria-expanded="false">
-                                <img src="{{ $member.params.img }}" class="img-responsive" />
-                            </a>
-                        </div>
-                    {{ end }}
+    <div class="team-img-container">
+            {{ range $memberIndex, $member := .members }}
+                <div class="team-img">
+                    <a role="button" 
+                        data-toggle="collapse"
+                        href="#team-member-{{ $memberIndex }}"
+                        data-parent='#team-accordion'
+                        aria-expanded="false">
+                        <img src="{{ $member.params.img }}" class="img-responsive" />
+                    </a>
                 </div>
-            </div>
-        <!-- </div> -->
-    <!-- </div> -->
+            {{ end }}
+    </div>
 
     <div class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
         {{ range $memberIndex, $member := .members }}
