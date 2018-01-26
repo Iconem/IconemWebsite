@@ -17,6 +17,7 @@
 <script type="text/javascript">
   // Handle interactive svg map
   var projects = Object.values({{.Site.Data.projects}});
+  var lang = {{.Site.Language.Lang}};
 
   projects.map((project)=>{
     if(project.mapId){
@@ -31,8 +32,8 @@
     
     if(project){
       $('#iconem-map-info').css('display','block');
-      $('#iconem-map-info > #iconem-map-info-title').html(project.title);
-      $('#iconem-map-info > #iconem-map-info-description').html(project.description);
+      $('#iconem-map-info > #iconem-map-info-title').html(project.title[lang]);
+      $('#iconem-map-info > #iconem-map-info-description').html(project.description[lang]);
     }
   });
 

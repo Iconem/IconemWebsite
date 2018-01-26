@@ -1,8 +1,8 @@
 {{ "<!-- Team Modal content-->" | safeHTML }}
+{{ $lang := .Site.Language.Lang }}
 <section class="no-padding" id="team">
-
     <div class="team-img-container">
-            {{ range $memberIndex, $member := .members }}
+            {{ range $memberIndex, $member := .Site.Data.about.team.members }}
                 <div class="team-img">
                     <a role="button" 
                         data-toggle="collapse"
@@ -16,23 +16,20 @@
     </div>
 
     <div class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
-        {{ range $memberIndex, $member := .members }}
+        {{ range $memberIndex, $member := .Site.Data.about.team.members }}
           <div class="panel team-member-panel">
             <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse" role="tabpanel">
               <div class="team-member-header">
                     <h3>{{ $member.params.name }}</h3>
-                    <h4>{{ $member.params.job }}</h4>
+                    <h4> {{ index $member.params.job $lang }}</h4>
                 </div>
                 <div class="modal-description">
-                    <p class="text-justify">
-                        {{ $member.params.description }}
-                    </p>
+                    <p class="text-justify"> {{ index $member.params.description $lang | markdownify}} </p>
                 </div>
             </div>
         </div>
         {{ end }}
     </div>
-
 </section>
 
 <script type="text/javascript">

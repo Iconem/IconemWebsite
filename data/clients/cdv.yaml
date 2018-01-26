@@ -1,4 +1,4 @@
 name: Casa de Velazquez
 link: https://www.casadevelazquez.org/
-icon: img/clients/cdv.png
-icon_active: img/clients/cdv.png
+icon: ../img/clients/cdv.png
+icon_active: ../img/clients/cdv.png

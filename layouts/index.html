@@ -34,6 +34,10 @@
             {{ partial "project-modals.html" . }}
         {{ end }}
 
+        {{ if .Site.Data.about }}
+            {{ partial "about-modals.html" . }}
+        {{ end }}
+
         {{ partial "js.html" . }}
 
         {{ template "_internal/google_analytics.html" . }}

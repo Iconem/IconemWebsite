@@ -1,3 +1,4 @@
+{{ $lang := .Site.Language.Lang }}
 <section class="no-padding" id="about">
     <section>
         <div class="container">
@@ -45,17 +46,13 @@
             <div class="col-sm-4">
                 <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                     <img src="{{ .img }}" class="img-responsive" alt="">
-                    {{ if .title }}
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                {{ with .title }}
-                                    <div class="project-category">
-                                        {{ . }}
-                                    </div>
-                                {{ end }}
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category">
+                                {{ index .title $lang }}
                             </div>
                         </div>
-                    {{ end }}
+                    </div>
                 </a>
             </div>
         {{ end }}

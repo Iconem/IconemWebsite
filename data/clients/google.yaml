@@ -1,4 +1,4 @@
 name: Google
 link: https://www.google.org/
-icon: img/clients/google.png
-icon_active: img/clients/google.png
+icon: ../img/clients/google.png
+icon_active: ../img/clients/google.png

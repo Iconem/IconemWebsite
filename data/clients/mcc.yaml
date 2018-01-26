@@ -1,4 +1,4 @@
 name: Ministère de la culture français
 link: http://www.culturecommunication.gouv.fr/
-icon: img/clients/mcc.png
-icon_active: img/clients/mcc.png
+icon: ../img/clients/mcc.png
+icon_active: ../img/clients/mcc.png
