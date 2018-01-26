@@ -1,36 +1,36 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
 <section id="contact">
     <div class="container">
-        <div class="row">
+        <div class="contact-container">
             {{ if .Site.Params.contact.phone }}
-                <div class="col-sm-2 col-sm-offset-1 text-center">
+                <div class="text-center contact-item">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>{{ .Site.Params.contact.phone }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.adress }}
-                <div class="col-sm-2 text-center">
+                <div class="text-center contact-item">
                     <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
                     <p>{{ .Site.Params.contact.adress }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
-                <div class="col-sm-2 text-center">
+                <a class="text-center contact-item" href="mailto:{{ .Site.Params.contact.email }}">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
-                </div>
+                    <p>{{ .Site.Params.contact.email }}</p>
+                </a>
             {{ end }}
             {{ if .Site.Params.contact.business_plan }}
-                <div class="col-sm-2 text-center">
+                <a class="text-center contact-item" href="{{ .Site.Params.contact.business_plan }}" target="_blank">
                     <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">Business Plan</a></p>
-                </div>
+                    <p>Business Plan</p>
+                </a>
             {{ end }}
             {{ if .Site.Params.contact.press_kit }}
-                <div class="col-sm-2 text-center">
+                <a class="text-center contact-item" href="{{ .Site.Params.contact.press_kit }}" target="_blank">
                     <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">Press Kit</a></p>
-                </div>
+                    <p>Press Kit</p>
+                </a>
             {{ end }}
         </div>
     </div>

@@ -35,6 +35,7 @@ a {
 a:hover,
 a:focus {
     color: #555;
+    text-decoration: none;
 }
 
 h1,
@@ -504,10 +505,27 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    -webkit-tap-highlight-color: #222;
 }
 
 #map img {
     width: 100%;
     height: auto;
+}
+
+#contact .contact-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+#contact .contact-container .contact-item {
+    min-width: 180px;
+    max-width: 180px;
+    padding: 10px;
+}
+
+#contact .contact-container .contact-item i {
+    margin-bottom: 10px;
 }

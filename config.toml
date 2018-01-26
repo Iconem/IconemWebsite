@@ -101,12 +101,12 @@ googleAnalytics = ""
 
 	# Contact section
 	[params.contact]
-		phone = "123-456-6789"
-		adress = "6 rue Jules Chaplain, 75006 Paris"
+		phone = "+33 (0)1 42 49 76 04"
+		adress = "6 rue Jules Chaplain 75006 Paris, France"
 		email = "contact@iconem.com"
 		business_plan = "pdf/business_plan.pdf"
 		press_kit = "pdf/press_kit.pdf"
 
 	# Footer
 	[params.footer]
-		content = "Copyright @Iconem 2018"
+		content = "@ 2018 Iconem All rights reserved"
