@@ -1,5 +1,7 @@
 modalID: team
-title: Team
+title: 
+  en: Team
+  fr: Equipe
 img: img/about/team.png
 members:
   - params:

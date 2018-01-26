@@ -4,14 +4,16 @@ date: 2017
 place: Grand Palais
 client: Start Bootstrap
 clientLink: "#"
-category: Exposition
+category:
+  en: Exhibition
+  fr: Exposition
 img: 
-  - img/projects/03/01.png
-  - img/projects/03/02.png
-  - img/projects/03/03.png
-  - img/projects/03/04.png
+  - ../img/projects/03/01.png
+  - ../img/projects/03/02.png
+  - ../img/projects/03/03.png
+  - ../img/projects/03/04.png
 models:
-  - img/projects/03/01.png
-  - img/projects/03/02.png
+  - ../img/projects/03/01.png
+  - ../img/projects/03/02.png
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
 mapId: IRQ

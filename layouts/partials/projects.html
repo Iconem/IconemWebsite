@@ -1,3 +1,4 @@
+{{ $lang := .Site.Language.Lang }}
 <section class="no-padding" id="projects">
     <section>
         <div class="container">
@@ -15,18 +16,15 @@
     </div>
     </section>
     <div class="row no-gutter">
-        {{ range .Site.Data.projects }}
+        {{ range $projectIndex, $project := .Site.Data.projects }}
             <div class=" col-lg-3 col-md-4 col-sm-6">
                 <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                     <img src="{{ index .img 0 }}" class="img-responsive" alt="">
-                    {{ if .title }}
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                {{ with .category }}
                                     <div class="project-category">
-                                        {{ . }}
+                                        {{ index $project.category $lang }}
                                     </div>
-                                {{ end }}
                                 {{ with .title }}
                                     <div class="project-name">
                                         {{ . }}
@@ -44,7 +42,6 @@
                                 {{ end }}
                             </div>
                         </div>
-                    {{ end }}
                 </a>
             </div>
         {{ end }}

@@ -4,15 +4,17 @@ date: 2017
 place: Grand Palais
 client: Start Bootstrap
 clientLink: "#"
-category: Exposition
+category:
+  en: Exhibition
+  fr: Exposition
 img: 
-  - img/projects/06/01.png
-  - img/projects/06/02.png
-  - img/projects/06/03.png
-  - img/projects/06/04.png
+  - ../img/projects/06/01.png
+  - ../img/projects/06/02.png
+  - ../img/projects/06/03.png
+  - ../img/projects/06/04.png
 video: 
-  - img/projects/02/01.png
-  - img/projects/02/02.png
-  - img/projects/02/03.png
+  - ../img/projects/02/01.png
+  - ../img/projects/02/02.png
+  - ../img/projects/02/03.png
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
 mapId: AFG

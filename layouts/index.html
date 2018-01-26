@@ -3,7 +3,7 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body id="page-top">
+    <body id="page-top">        
         {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
             {{ partial "nav.html" . }}
         {{ end }}
@@ -33,11 +33,6 @@
         {{ if .Site.Data.projects }}
             {{ partial "project-modals.html" . }}
         {{ end }}
-
-        {{ if .Site.Data.about }}
-            {{ partial "about-modals.html" . }}
-        {{ end }}
-
 
         {{ partial "js.html" . }}
 
