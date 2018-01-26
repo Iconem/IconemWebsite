@@ -1,3 +1,24 @@
+/* ICONEM VIDEO */
+body > section {
+  position:relative;
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#video_wrapper {
+  margin:0px;
+  padding:0px;
+}
+#iconem-video-wrapper video {
+  position: fixed;
+  top: 50%; left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+/* ICONEM MAP*/
 #iconem-map-container {
   position:relative;
   background-image: url(../img/map/map_background.png);
