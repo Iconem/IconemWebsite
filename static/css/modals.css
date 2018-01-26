@@ -205,27 +205,25 @@ body {
 }
 
 #team .team-member-panel .panel-collapse {
-    transition: opacity .35s linear;
-    -webkit-transition: opacity .35s linear;
-    -moz-transition: opacity .35s linear;
+    transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
 }
 
-#team .team-member-panel .panel-collapse .collapse {
-    border: 2px solid red;
-      opacity: 0.5;
-  -webkit-transition: opacity .15s linear;
-       -o-transition: opacity .15s linear;
-          transition: opacity .15s linear;
-  /*display: none;*/
+#team .team-member-panel .panel-collapse.collapse {
+    position: absolute;
+    opacity: 0;
+    height: 0;
 }
 
-#team .team-member-panel .panel-collapse .collapse.in {
-    border: 2px solid blue;
-  /*display: block;*/
-  opacity: 1;
+#team .team-member-panel .panel-collapse.collapse.in {
+    height: initial;
+    opacity: 1;
 }
 
 #team .collapsing {
-  /*opacity: 0;*/
-  /*background-color: red;*/
+    position: absolute;
+    height: 0;
+    opacity: 0;
+    overflow: initial;
 }
