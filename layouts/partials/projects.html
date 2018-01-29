@@ -15,29 +15,41 @@
         </div>
     </div>
     </section>
-    <div class="row no-gutter">
-        {{ range $projectIndex, $project := .Site.Data.projects }}
-            <div class=" col-lg-3 col-md-4 col-sm-6">
-                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                    <img src="{{ index $project.img 0 }}" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category">
-                                {{index $project.category $lang}}
+    <div class="owl-carousel">
+        {{ $nb_per_page := 8}}
+        {{ range $i := seq (mod (len .Site.Data.projects) $nb_per_page) }}
+
+            {{ if gt (len $.Site.Data.projects) (mul (sub $i 1) $nb_per_page) }}
+                <div class="no-gutter">
+                    {{ range $projectIndex, $project := $.Site.Data.projects }}
+                        {{ if and (lt $project.index (mul $i $nb_per_page)) (ge $project.index (mul (sub $i 1) $nb_per_page))}}
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                                    <img src="{{ index $project.img 0 }}" class="img-responsive" alt="">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category">
+                                                {{index $project.category $lang}}
+                                            </div>
+                                            <div class="project-name">
+                                                {{index $project.title $lang}}
+                                            </div>
+                                            <div>
+                                                {{index $project.date $lang}}
+                                            </div>
+                                            <div>
+                                                {{index $project.place $lang}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="project-name">
-                                {{index $project.title $lang}}
-                            </div>
-                            <div>
-                                {{index $project.date $lang}}
-                            </div>
-                            <div>
-                                {{index $project.place $lang}}
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            {{ end }}
+
+
         {{ end }}
     </div>
 </section>

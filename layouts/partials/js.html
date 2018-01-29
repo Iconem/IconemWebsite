@@ -13,8 +13,18 @@
 {{ end }}
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "js/creative.js" | absURL }}"></script>
+<script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
 <script type="text/javascript">
+  $(document).ready(function() {
+        console.log('INIT CAROUSEL');
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          // autoHeight: true
+        });
+    });
+
+
   // Handle interactive svg map
   var projects = Object.values({{.Site.Data.projects}});
   var lang = {{.Site.Language.Lang}};
