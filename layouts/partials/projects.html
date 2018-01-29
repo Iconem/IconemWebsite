@@ -15,9 +15,9 @@
         </div>
     </div>
     </section>
-    <div class="row no-gutter">
+    <div id="main-projects-carousel">
         {{ range $projectIndex, $project := .Site.Data.projects }}
-            <div class=" col-lg-3 col-md-4 col-sm-6">
+            <div>
                 <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                     <img src="{{ index $project.img 0 }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
