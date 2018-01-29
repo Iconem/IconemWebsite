@@ -15,6 +15,7 @@
                 {{ end }}
 
                 <div id="partners" class="text-center">
+                    <h5 class="section-heading">{{ .Site.Params.about.partners }}</h5>
                     {{ range .Site.Data.partners }}
                         <a href="{{ .link }}" target="_blank">
                             <img src="{{ .icon}}" 
@@ -24,8 +25,9 @@
                         </a>
                     {{ end }}
                 </div>
-
+                <hr>
                 <div id="clients" class="text-center">
+                    <h5 class="section-heading">{{ .Site.Params.about.clients }}</h5>
                     {{ range .Site.Data.clients }}
                         <a href="{{ .link }}" target="_blank">
                             <img src="{{ .icon}}" 

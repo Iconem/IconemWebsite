@@ -108,10 +108,14 @@ DefaultContentLanguage = "en"
 	[languages.en.about]
 		title    = "About"
 		description = "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		clients = "Clients"
+		partners = "Partners"
 
 	[languages.fr.about]
 		title    = "A propos"
 		description = "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		clients = "Clients"
+		partners = "Partenaires"
 
 	# Contact section
 	[params.contact]

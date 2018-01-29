@@ -241,6 +241,10 @@ header .header-footer a img {
     margin: 10px;
 }
 
+#partners, #clients {
+    margin-top: 30px;
+}
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
