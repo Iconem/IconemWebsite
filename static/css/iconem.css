@@ -57,19 +57,22 @@ body > section {
   left: 0;
   width: 100%;
   height: 100%;
-  stroke-width= 2px;
-  fill: #000000 !important;
+  /*stroke-width: 0.5px;
+  stroke: white;*/
+  fill: black !important;
   mix-blend-mode: soft-light !important;
   shape-rendering: geometricPrecision !important;
 }
 
 #iconem-map-svg path.visited {
-  mix-blend-mode: normal !important;
-  fill: #392535 !important;
+  /*stroke-width: 1px;
+  stroke: black;*/
+  mix-blend-mode: soft-light !important;
+  fill: white !important;
 }
 
 #iconem-map-svg path:hover, circle:hover {
-  fill: #ffffff !important;
+  fill: white !important;
   mix-blend-mode: normal !important;
   cursor: pointer;
 }
