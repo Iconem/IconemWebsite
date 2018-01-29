@@ -13,16 +13,40 @@
 {{ end }}
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "js/creative.js" | absURL }}"></script>
-<script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
+<script src="{{ "js/slick.min.js" | absURL }}"></script>
 
 <script type="text/javascript">
   $(document).ready(function() {
-        console.log('INIT CAROUSEL');
-        $(".owl-carousel").owlCarousel({
-          items: 1,
-          // autoHeight: true
-        });
+    $('#main-projects-carousel').slick({
+      rows: 3,
+      slidesPerRow: 4,
+      infinite: false,
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            rows: 3,
+            slidesPerRow: 3
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            rows: 3,
+            slidesPerRow: 2
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            rows: 3,
+            slidesPerRow: 1
+          }
+        }
+      ]
     });
+  });
 
 
   // Handle interactive svg map

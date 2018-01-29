@@ -529,3 +529,7 @@ body {
 #contact .contact-container .contact-item i {
     margin-bottom: 10px;
 }
+
+#main-projects-carousel .slick-slide > div{
+    display: flex;
+}
