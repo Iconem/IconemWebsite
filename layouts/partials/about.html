@@ -13,9 +13,67 @@
                 {{ with .Site.Params.about.description }}
                     <p class="text-justify">{{ . | markdownify }}</p>
                 {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="row no-gutter">
+       <!--  {{ range .Site.Data.about }}
+            <div class="col-sm-4">
+                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="{{ .img }}" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category">
+                                {{ index .title $lang }}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {{ end }} -->
+        {{ range $aboutIndex, $about := .Site.Data.about }}
+        {{ if eq $aboutIndex "hardware"}}
+        <div>
+            <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                <img src="{{ .img }}" class="img-responsive" alt="">
+                <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                        <div class="project-category">
+                            {{ index .title $lang }}
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="row no-gutter">
+        {{ range $aboutIndex, $about := .Site.Data.about }}
+        {{ if ne $aboutIndex "hardware"}}
+        <div class="col-md-6">
+            <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                <img src="{{ .img }}" class="img-responsive" alt="">
+                <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                        <div class="project-category">
+                            {{ index .title $lang }}
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
                 <div id="partners" class="text-center">
                     <h5 class="section-heading">{{ .Site.Params.about.partners }}</h5>
+                <hr>
+
                     {{ range .Site.Data.partners }}
                         <a href="{{ .link }}" target="_blank">
                             <img src="{{ .icon}}" 
@@ -25,9 +83,10 @@
                         </a>
                     {{ end }}
                 </div>
-                <hr>
                 <div id="clients" class="text-center">
                     <h5 class="section-heading">{{ .Site.Params.about.clients }}</h5>
+                <hr>
+
                     {{ range .Site.Data.clients }}
                         <a href="{{ .link }}" target="_blank">
                             <img src="{{ .icon}}" 
@@ -43,20 +102,5 @@
     </div>
     </section>
 
-    <div class="row no-gutter">
-        {{ range .Site.Data.about }}
-            <div class="col-sm-4">
-                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                    <img src="{{ .img }}" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category">
-                                {{ index .title $lang }}
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        {{ end }}
-    </div>
+    
 </section>
