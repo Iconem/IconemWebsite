@@ -541,7 +541,9 @@ body {
     display: flex;
 }
 
-.main-projects-carousel-dots {
+.main-projects-carousel-dots,
+.project-modal-carousel-dots {
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -558,24 +560,59 @@ body {
 
 .main-projects-carousel-dots li {
     display: block;
-    margin: 10px 5px;
 }
 
 .main-projects-carousel-dots li button {
-    display: block;
-    background-color: transparent;
-    color: transparent;
-    border: 2px solid  #887d87;
-    box-sizing: border-box;
-    height: 16px;
-    width: 16px;
-    border-radius: 10%;
+    opacity: 0;
 }
 
-.main-projects-carousel-dots li.slick-active button {
+.main-projects-carousel-dots li,
+.owl-dots .owl-dot {
+    display: block;
+    margin: 10px 5px;
     background-color: #887d87;
+    color: transparent;
+    box-sizing: border-box;
+    height: 10px;
+    min-width: 10px!important;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.projects-modal {
+    color: black;
+}
+
+.projects-modal .owl-theme .owl-dots {
+    margin: 0!important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transform: translateY(-100%);
+}
+
+.projects-modal .owl-theme .owl-dots .owl-dot span {
+    display: none;
+}
+
+.main-projects-carousel-dots li.slick-active,
+.owl-dots .owl-dot.active {
+    background-color: black;
 }
 
 .main-projects-carousel-dots li button:focus {
     outline: none;
+}
+
+.project-icons-container a img{
+    margin: 0 5px 10px;
+}
+
+.project-icons-container a.collapsed img {
+    opacity: 0.5;
+}
+
+.project-media-type {
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }

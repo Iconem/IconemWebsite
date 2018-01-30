@@ -15,52 +15,51 @@
                 <div>
                     <hr/>
                 </div>
-                <h5>
-                    <div>{{ index $project.date $lang }}</div>
-                    <div>{{ index $project.place $lang}}</div>
-                </h5>
-
-                <div style="margin-bottom:30px;">
+                <div class="project-icons-container">
                     {{ if (or $project.video $project.models) }}
-                         <a role="button" 
-                             data-toggle="collapse"
-                             href="#project-{{ $projectIndex }}-img-carousel"
-                             data-parent='#project-{{$projectIndex}}-accordion'
-                             aria-expanded="true">
-                             Image
-                         </a>
-                         {{ if $project.video }}
-                             <a role="button" 
-                                 data-toggle="collapse"
-                                 href="#project-{{ $projectIndex }}-video-carousel"
-                                 data-parent='#project-{{$projectIndex}}-accordion'
-                                 aria-expanded="false">
-                                 Video
-                             </a>
-                         {{ end }}
-                         {{ if $project.models }}
-                             <a role="button" 
-                                 data-toggle="collapse"
-                                 href="#project-{{ $projectIndex }}-models-carousel"
-                                 data-parent='#project-{{$projectIndex}}-accordion'
-                                 aria-expanded="false">
-                                 3D
-                             </a>
-                         {{ end }}
+                        <a role="button" 
+                            data-toggle="collapse"
+                            href="#project-{{ $projectIndex }}-img-carousel"
+                            data-parent='#project-{{$projectIndex}}-accordion'
+                            aria-expanded="true">
+                            <img src="../img/projects/icons/img_black.png">
+                        </a>
+                        {{ if $project.video }}
+                            <a role="button" 
+                                data-toggle="collapse"
+                                class="collapsed"
+                                href="#project-{{ $projectIndex }}-video-carousel"
+                                data-parent='#project-{{$projectIndex}}-accordion'
+                                aria-expanded="false">
+                                <img src="../img/projects/icons/video_black.png">
+                            </a>
+                        {{ end }}
+                        {{ if $project.models }}
+                            <a role="button" 
+                                data-toggle="collapse"
+                                class="collapsed"
+                                href="#project-{{ $projectIndex }}-models-carousel"
+                                data-parent='#project-{{$projectIndex}}-accordion'
+                                aria-expanded="false">
+                                <img src="../img/projects/icons/3ds_black.png">
+                            </a>
+                        {{ end }}
                     {{ end }}
                 </div>
 
-
                 <div class="project-accordion-container">
                     {{ with (index $project.img 0) }}
-                        <img class="img-responsive" src="{{ .src }}" style='opacity: 0;'>
+                        <img class="img-responsive" src="{{ .src }}" style='opacity: 0;margin-top:50px;'>
                     {{ end }}
                     <div class="panel-group project-accordion" id="project-{{$projectIndex}}-accordion" role="tablist" aria-multiselectable="false">
 
                         {{ "<!-- Image carousel -->" | safeHTML }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-img-carousel" class="panel-collapse collapse in" role="tabpanel">
-                                <div class="owl-carousel">
+                                <div class="project-media-type">
+                                    {{ $.Site.Params.projects.modal.pictures }}
+                                </div>
+                                <div class="owl-carousel owl-theme">
                                     {{ range $project.img }}
                                         <div>
                                             <img src="{{ .src }}" class="img-responsive">
@@ -75,7 +74,10 @@
                         {{ if $project.video }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
-                                <div class="owl-carousel">
+                                <div class="project-media-type">
+                                    {{ $.Site.Params.projects.modal.videos }}
+                                </div>
+                                <div class="owl-carousel owl-theme">
                                     {{ range $project.video }}
                                         <div>
                                             <img src="{{ . }}" class="img-responsive">
@@ -91,7 +93,10 @@
                         {{ if $project.models }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-models-carousel" class="panel-collapse collapse" role="tabpanel">
-                                <div class="owl-carousel">
+                                <div class="project-media-type">
+                                    {{ $.Site.Params.projects.modal.models }}
+                                </div>
+                                <div class="owl-carousel owl-theme">
                                     {{ range $project.models }}
                                         <div>
                                             <img src="{{ . }}" class="img-responsive">
@@ -105,8 +110,17 @@
                     </div>
                 </div>
             </div>
-            <div class="modal-description">
-                <p class="text-justify">{{ index $project.description $lang | markdownify }}</p>
+            <div class="modal-description text-justify">
+                <strong>2017</strong>
+                <i>Exposition au Grand Palais</i>
+                <div>
+                    <strong>{{ $.Site.Params.projects.modal.actors }}</strong><span>RMNG, Louvre, Sylvain Roca, Google, DGAM</span>
+                </div>
+                <div>
+                    <strong>{{ $.Site.Params.projects.modal.partners }}</strong><span>Google, Unesco</span>
+                </div>
+                <hr align="left">
+                <p>{{ index $project.description $lang | markdownify }}</p>
             </div>
         </div>
     </div>
