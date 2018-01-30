@@ -5,6 +5,7 @@
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
 <script src="{{ "js/jquery.easing.min.js" | absURL }}"></script>
 <script src="{{ "js/jquery.fittext.js" | absURL }}"></script>
+<script src="{{ "js/jquery.touchSwipe.min.js" | absURL }}"></script>
 <script src="{{ "js/wow.min.js" | absURL }}"></script>
 {{ if .Site.Params.location }}
 <script src="//maps.googleapis.com/maps/api/js?key={{ .Site.Params.location.maps_api_key }}&v=3.exp"></script>
@@ -14,8 +15,38 @@
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "js/creative.js" | absURL }}"></script>
 <script src="{{ "js/slick.min.js" | absURL }}"></script>
+<script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
 <script type="text/javascript">
+  // Handle interactive svg map
+  var projects = Object.values({{.Site.Data.projects}});
+  var lang = {{.Site.Language.Lang}};
+
+  projects.map((project)=>{
+    if(project.mapId){
+      $('#' + project.mapId).attr("class", "visited");
+    }
+  });
+
+  $('#iconem-map-svg path').hover(function(e) {
+    var project = projects.find((project) => {
+      return project.mapId === this.id;
+    });
+    
+    if(project){
+      $('#iconem-map-info').css('display','block');
+      $('#iconem-map-info > #iconem-map-info-title').html(project.title[lang]);
+      $('#iconem-map-info > #iconem-map-info-description').html(project.description[lang]);
+    }
+  });
+
+  $("#iconem-map-svg path").mouseleave(function(e) {
+    $('#iconem-map-info').css('display','none');
+  });
+</script>
+
+<script type="text/javascript">
+  // config projects section carousel
   $(document).ready(function() {
     $('#main-projects-carousel').slick({
       rows: 3,
@@ -50,31 +81,13 @@
       ]
     });
   });
+</script>
 
-
-  // Handle interactive svg map
-  var projects = Object.values({{.Site.Data.projects}});
-  var lang = {{.Site.Language.Lang}};
-
-  projects.map((project)=>{
-    if(project.mapId){
-      $('#' + project.mapId).attr("class", "visited");
-    }
-  });
-
-  $('#iconem-map-svg path').hover(function(e) {
-    var project = projects.find((project) => {
-      return project.mapId === this.id;
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      loop: true
     });
-    
-    if(project){
-      $('#iconem-map-info').css('display','block');
-      $('#iconem-map-info > #iconem-map-info-title').html(project.title[lang]);
-      $('#iconem-map-info > #iconem-map-info-description').html(project.description[lang]);
-    }
-  });
-
-  $("#iconem-map-svg path").mouseleave(function(e) {
-    $('#iconem-map-info').css('display','none');
   });
 </script>

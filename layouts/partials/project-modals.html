@@ -20,110 +20,42 @@
                     <div>{{ index $project.place $lang}}</div>
                 </h5>
 
-                {{ "<!-- Project carousel -->" | safeHTML }}
-                <div id="carousel-example-generic-{{ $project.modalID }}" 
-                    class="carousel slide"
-                    data-ride="carousel"
-                    data-interval="false">
-
-                    {{ "<!-- Slides -->" | safeHTML }}
-                    <div class="carousel-inner" role="listbox">
-                        {{ range $imageIndex, $image := $project.img }}
-                            <div class="item {{ if eq $imageIndex 0 }} active {{ end }}">
-                                <img src="{{ $image }}" class="img-responsive">
-                            </div>
-                        {{ end }}
-                        {{ if $project.video }}
-                            {{ range $videoIndex, $video := $project.video }}
-                                <div class="item"
-                                    style="border:2px solid red;">
-                                    <img src="{{ $video }}" class="img-responsive">
-                                </div>
-                            {{ end }}
-                        {{ end }}
-                        {{ if $project.models }}
-                            {{ range $modelIndex, $model := $project.models }}
-                                <div class="item"
-                                    style="border:2px solid blue;">
-                                    <img src="{{ $model }}" class="img-responsive">
-                                </div>
-                            {{ end }}
-                        {{ end }}
-                    </div>
-
-                    {{ "<!-- Indicators -->" | safeHTML }}
-                    <ol class="carousel-indicators">
-                        {{ range $imageIndex, $image := $project.img }}
-                            <li 
-                                data-target="#carousel-example-generic-{{ $project.modalID }}"
-                                data-slide-to="{{ $imageIndex }}" 
-                                class="carousel-indicator-img {{ if eq $imageIndex 0 }} active {{ end }}">
-                            </li>
-                        {{ end }}
-                        {{ if $project.video }}
-                            {{ range $videoIndex, $video := $project.video }}
-                                <li 
-                                    data-target="#carousel-example-generic-{{ $project.modalID }}"
-                                    data-slide-to="{{ add (len $project.img) $videoIndex }}" 
-                                    class="carousel-indicator-video {{ if eq $videoIndex 0 }} active {{ end }}"
-                                    style="display:none;">
-                                </li>
-                            {{ end }}
-                        {{ end }}
-                        {{ if and $project.models $project.video}}
-                            {{ range $modelIndex, $model := $project.models }}
-                                <li 
-                                    data-target="#carousel-example-generic-{{ $project.modalID }}"
-                                    data-slide-to="{{ add ( add (len $project.img) (len $project.video) ) $modelIndex }}" 
-                                    class="carousel-indicator-3ds {{ if eq $modelIndex 0 }} active {{ end }}"
-                                    style="display:none;">
-                                </li>
-                            {{ end }}
-                        {{ end }}
-                        {{ if and $project.models (not $project.video) }}
-                            {{ range $modelIndex, $model := $project.models }}
-                                <li 
-                                    data-target="#carousel-example-generic-{{ $project.modalID }}"
-                                    data-slide-to="{{ add (len $project.img) $modelIndex }}" 
-                                    class="carousel-indicator-3ds {{ if eq $modelIndex 0 }} active {{ end }}"
-                                    style="display:none;">
-                                </li>
-                            {{ end }}
-                        {{ end }}
-                    </ol>
-
-                    {{ "<!-- Type Selectors -->" | safeHTML }}
-                    <div class="carousel-type text-center">
-                        Pictures
-                    </div>
-
-                    <ol class="carousel-indicators carousel-type-indicators">
-                        <li 
-                            class="carousel-type-img type-active"
-                            onclick="display({{ $project.modalID }}, 'img', 0)"
-                        />
-                        {{ if $project.video }}
-                            <li 
-                                class="carousel-type-video"
-                                onclick="display({{ $project.modalID }}, 'video', {{ len $project.img }})"
-                            />
-                        {{ end }}
-                        {{ if and $project.models $project.video}}
-                            <li 
-                                class="carousel-type-3ds"
-                                onclick="display({{ $project.modalID }}, '3ds', {{ len $project.img }} +  {{ len $project.video }})"
-                            />
-                        {{ end }}
-                        {{ if and $project.models (not $project.video) }}
-                            <li 
-                                class="carousel-type-3ds"
-                                onclick="display({{ $project.modalID }}, '3ds', {{ len $project.img }})"
-                            />
-                        {{ end }}
-                    </ol>
-
+                {{ "<!-- Image carousel -->" | safeHTML }}
+                <div class="owl-carousel carousel">
+                    {{ range $project.img }}
+                    <img src="{{ . }}" class="img-responsive">
+                    {{ end }}
                 </div>
 
+                {{ "<!-- Video carousel -->" | safeHTML }}
+                <!-- {{ if $project.video }}
+                    <div class="owl-carousel carousel">
+                        {{ range $project.video }}
+                        <img src="{{ . }}" class="img-responsive">
+                        {{ end }}
+                    </div>
+                {{ end }} -->
+
+                {{ "<!-- 3D Models carousel -->" | safeHTML }}
+                <!-- {{ if $project.models }}
+                    <div class="owl-carousel carousel">
+                        {{ range $project.img }}
+                        <img src="{{ . }}" class="img-responsive">
+                        {{ end }}
+                    </div>
+                {{ end }} -->
+
+               <div style="margin-bottom:30px;">
+                   {{ if (or $project.video $project.models) }}
+                        <button>Image</button>
+                        {{ if $project.video }}
+                            <button>Video</button>
+                        {{ end }}
+                        {{ if $project.models }}
+                            <button>3D</button>
+                        {{ end }}
+                   {{ end }}
+               </div>
 
             </div>
             <div class="modal-description">
