@@ -548,6 +548,10 @@ body {
     margin: 0;
 }
 
+.main-projects-carousel-dots ul {
+    padding: 0;
+}
+
 .main-projects-carousel-dots li:only-child {
     display: none;
 }
