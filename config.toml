@@ -24,7 +24,7 @@ DefaultContentLanguage = "en"
 	description = "Your description"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "img/favicons/favicon.ico"
 
 
 	# Navigation
@@ -37,11 +37,19 @@ DefaultContentLanguage = "en"
 			about = "About"
 			contact   = "Contact"
 
+		[[languages.en.navigation.lang]]
+			code = "fr"
+			link = "/fr"
+
 		[languages.fr.navigation.links]
 			projects = "Projets"
 			map  = "Carte"
 			about = "A propos"
 			contact   = "Contact"
+
+		[[languages.fr.navigation.lang]]
+			code = "en"
+			link = "/"
 
 
 	# Home section
@@ -127,6 +135,7 @@ DefaultContentLanguage = "en"
 
 	# Contact section
 	[params.contact]
+		title = "Contact"
 		phone = "+33 (0)1 42 49 76 04"
 		adress = "6 rue Jules Chaplain 75006 Paris, France"
 		email = "contact@iconem.com"

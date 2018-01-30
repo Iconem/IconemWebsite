@@ -34,9 +34,17 @@
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
                     </li>
                 {{ end }}
-                    <li>
-                        <a class="page-scroll">FR/EN</a>
-                    </li>
+                <li>
+                    <button id="lang-menu-toggle" data-toggle="collapse" data-target='#lang-menu' aria-expanded="false">
+                        {{ .Site.Language.Lang }}
+                        <span class="caret"></span>
+                    </button>
+                    <ul id="lang-menu" class="collapse">
+                        {{ range .Site.Params.navigation.lang}}
+                            <li><a class="page-scroll" href="{{ .link }}">{{ .code }}</a></li>
+                        {{ end }}
+                    </ul>
+                </li>
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

@@ -1,6 +1,12 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
 <section id="contact">
     <div class="container">
+        {{ with .Site.Params.contact.title }}
+            <h3 class="section-heading text-center">
+                {{ . }}
+            </h3>
+            <br>
+        {{ end }}
         <div class="contact-container">
             {{ if .Site.Params.contact.phone }}
                 <div class="text-center contact-item">

@@ -2,35 +2,22 @@
 <section class="no-padding" id="about">
     <section>
         <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                {{ with .Site.Params.about.title }}
-                    <h3 class="section-heading text-center">
-                        {{ . }}
-                    </h3>
-                {{ end }}
-                    <br>
-                {{ with .Site.Params.about.description }}
-                    <p class="text-justify">{{ . | markdownify }}</p>
-                {{ end }}
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    {{ with .Site.Params.about.title }}
+                        <h3 class="section-heading text-center">
+                            {{ . }}
+                        </h3>
+                    {{ end }}
+                        <br>
+                    {{ with .Site.Params.about.description }}
+                        <p class="text-justify">{{ . | markdownify }}</p>
+                    {{ end }}
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <div class="row no-gutter">
-       <!--  {{ range .Site.Data.about }}
-            <div class="col-sm-4">
-                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                    <img src="{{ .img }}" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category">
-                                {{ index .title $lang }}
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        {{ end }} -->
         {{ range $aboutIndex, $about := .Site.Data.about }}
         {{ if eq $aboutIndex "hardware"}}
         <div>
@@ -67,40 +54,39 @@
         {{ end }}
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <div id="partners" class="text-center">
-                    <h5 class="section-heading">{{ .Site.Params.about.partners }}</h5>
-                <hr>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div id="partners" class="text-center">
+                        <h5 class="section-heading">{{ .Site.Params.about.partners }}</h5>
+                    <hr>
 
-                    {{ range .Site.Data.partners }}
-                        <a href="{{ .link }}" target="_blank">
-                            <img src="{{ .icon}}" 
-                                onmouseenter="this.src={{ .icon_active}}" 
-                                onmouseleave="this.src={{ .icon}}"
-                            />
-                        </a>
-                    {{ end }}
+                        {{ range .Site.Data.partners }}
+                            <a href="{{ .link }}" target="_blank">
+                                <img src="{{ .icon}}" 
+                                    onmouseenter="this.src={{ .icon_active}}" 
+                                    onmouseleave="this.src={{ .icon}}"
+                                />
+                            </a>
+                        {{ end }}
+                    </div>
+                    <div id="clients" class="text-center">
+                        <h5 class="section-heading">{{ .Site.Params.about.clients }}</h5>
+                    <hr>
+
+                        {{ range .Site.Data.clients }}
+                            <a href="{{ .link }}" target="_blank">
+                                <img src="{{ .icon}}" 
+                                    onmouseenter="this.src={{ .icon_active}}" 
+                                    onmouseleave="this.src={{ .icon}}"
+                                />
+                            </a>
+                        {{ end }}
+                    </div>
+
                 </div>
-                <div id="clients" class="text-center">
-                    <h5 class="section-heading">{{ .Site.Params.about.clients }}</h5>
-                <hr>
-
-                    {{ range .Site.Data.clients }}
-                        <a href="{{ .link }}" target="_blank">
-                            <img src="{{ .icon}}" 
-                                onmouseenter="this.src={{ .icon_active}}" 
-                                onmouseleave="this.src={{ .icon}}"
-                            />
-                        </a>
-                    {{ end }}
-                </div>
-
             </div>
         </div>
-    </div>
     </section>
-
-    
 </section>
