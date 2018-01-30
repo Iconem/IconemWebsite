@@ -532,3 +532,46 @@ body {
 #contact .contact-container .contact-item i {
     margin-bottom: 10px;
 }
+
+#main-projects-carousel {
+    margin: 0;
+}
+
+#main-projects-carousel .slick-slide > div{
+    display: flex;
+}
+
+.main-projects-carousel-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.main-projects-carousel-dots li:only-child {
+    display: none;
+}
+
+.main-projects-carousel-dots li {
+    display: block;
+    margin: 10px 5px;
+}
+
+.main-projects-carousel-dots li button {
+    display: block;
+    background-color: transparent;
+    color: transparent;
+    border: 2px solid  #887d87;
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    border-radius: 10%;
+}
+
+.main-projects-carousel-dots li.slick-active button {
+    background-color: #887d87;
+}
+
+.main-projects-carousel-dots li button:focus {
+    outline: none;
+}

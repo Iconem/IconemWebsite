@@ -1,5 +1,6 @@
 {
   "modalID": "project-01",
+  "index": 0,
   "title": {
     "en": "Sites Eternels (en)",
     "fr": "Sites Eternels (fr)"
@@ -19,7 +20,9 @@
   "img": [
   	"../img/projects/01/01.png",
   	"../img/projects/01/02.png",
-  	"../img/projects/01/03.png"
+  	"../img/projects/01/03.png",
+    "../img/projects/02/01.png",
+    "../img/projects/02/02.png"
   ],
   "video": [ 
     "../img/projects/02/01.png",
