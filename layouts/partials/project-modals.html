@@ -51,10 +51,9 @@
                 </div>
 
 
-                <div style='border:2px solid black;box-sizing:border-box;position:relative;'>
+                <div class="project-accordion-container">
                     <img class="img-responsive" src="{{ index $project.img 0 }}" style='opacity: 0;'>
-
-                    <div class="panel-group project-accordion" id="project-{{$projectIndex}}-accordion" role="tablist" aria-multiselectable="false" style="border:2px solid red;">
+                    <div class="panel-group project-accordion" id="project-{{$projectIndex}}-accordion" role="tablist" aria-multiselectable="false">
 
                         {{ "<!-- Image carousel -->" | safeHTML }}
                         <div class="panel">
@@ -73,7 +72,10 @@
                             <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
                                 <div class="owl-carousel">
                                     {{ range $project.video }}
-                                    <img src="{{ . }}" class="img-responsive" style="border: 1px solid red;box-sizing:border-box;">
+                                        <div>
+                                            <img src="{{ . }}" class="img-responsive">
+                                            <div style="position: absolute;z-index: 2;color:white;font-size:50px;top:50%;left:50%;transform:translateX(-50%) translateY(-50%)">VIDEO</div>
+                                        </div>
                                     {{ end }}
                                 </div>
                             </div>
@@ -86,7 +88,10 @@
                             <div id="project-{{ $projectIndex }}-models-carousel" class="panel-collapse collapse" role="tabpanel">
                                 <div class="owl-carousel">
                                     {{ range $project.models }}
-                                    <img src="{{ . }}" class="img-responsive" style="border: 1px solid blue;box-sizing:border-box;">
+                                        <div>
+                                            <img src="{{ . }}" class="img-responsive">
+                                            <div style="position: absolute;z-index: 2;color:white;font-size:50px;top:50%;left:50%;transform:translateX(-50%) translateY(-50%)">3D</div>
+                                        </div>
                                     {{ end }}
                                 </div>
                             </div>
