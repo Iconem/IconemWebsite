@@ -18,9 +18,34 @@
     "fr": "Exposition"
   },
   "img": [
-  	"../img/projects/02/01.png",
-  	"../img/projects/02/02.png",
-  	"../img/projects/02/03.png"
+    {
+      "src": "../img/projects/02/01.png",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "src": "../img/projects/02/02.png",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "src": "../img/projects/02/03.png",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "src": "../img/projects/02/04.png",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    }
   ],
   "video": [ 
     "../img/projects/03/01.png",

@@ -52,7 +52,9 @@
 
 
                 <div class="project-accordion-container">
-                    <img class="img-responsive" src="{{ index $project.img 0 }}" style='opacity: 0;'>
+                    {{ with (index $project.img 0) }}
+                        <img class="img-responsive" src="{{ .src }}" style='opacity: 0;'>
+                    {{ end }}
                     <div class="panel-group project-accordion" id="project-{{$projectIndex}}-accordion" role="tablist" aria-multiselectable="false">
 
                         {{ "<!-- Image carousel -->" | safeHTML }}
@@ -60,7 +62,10 @@
                             <div id="project-{{ $projectIndex }}-img-carousel" class="panel-collapse collapse in" role="tabpanel">
                                 <div class="owl-carousel">
                                     {{ range $project.img }}
-                                    <img src="{{ . }}" class="img-responsive">
+                                        <div>
+                                            <img src="{{ .src }}" class="img-responsive">
+                                            <div class="img-caption">{{ index .caption $lang }}</div>
+                                        </div>
                                     {{ end }}
                                 </div>
                             </div>
