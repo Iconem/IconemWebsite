@@ -36,11 +36,11 @@
                 {{ end }}
                 <li>
                     <button id="lang-menu-toggle" data-toggle="collapse" data-target='#lang-menu' aria-expanded="false">
-                        {{ .Site.Language.Lang }}
+                        {{ .Site.Params.navigation.links.language }}
                         <span class="caret"></span>
                     </button>
                     <ul id="lang-menu" class="collapse">
-                        {{ range .Site.Params.navigation.lang}}
+                        {{ range .Site.Params.navigation.lang }}
                             <li><a class="page-scroll" href="{{ .link }}">{{ .code }}</a></li>
                         {{ end }}
                     </ul>

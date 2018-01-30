@@ -36,6 +36,7 @@ DefaultContentLanguage = "en"
 			map  = "Map"
 			about = "About"
 			contact   = "Contact"
+			language = "Language"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
@@ -46,6 +47,7 @@ DefaultContentLanguage = "en"
 			map  = "Carte"
 			about = "A propos"
 			contact   = "Contact"
+			language = "Langue"
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
