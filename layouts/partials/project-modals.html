@@ -20,43 +20,80 @@
                     <div>{{ index $project.place $lang}}</div>
                 </h5>
 
-                {{ "<!-- Image carousel -->" | safeHTML }}
-                <div class="owl-carousel carousel">
-                    {{ range $project.img }}
-                    <img src="{{ . }}" class="img-responsive">
+                <div style="margin-bottom:30px;">
+                    {{ if (or $project.video $project.models) }}
+                         <a role="button" 
+                             data-toggle="collapse"
+                             href="#project-{{ $projectIndex }}-img-carousel"
+                             data-parent='#project-{{$projectIndex}}-accordion'
+                             aria-expanded="true">
+                             Image
+                         </a>
+                         {{ if $project.video }}
+                             <a role="button" 
+                                 data-toggle="collapse"
+                                 href="#project-{{ $projectIndex }}-video-carousel"
+                                 data-parent='#project-{{$projectIndex}}-accordion'
+                                 aria-expanded="false">
+                                 Video
+                             </a>
+                         {{ end }}
+                         {{ if $project.models }}
+                             <a role="button" 
+                                 data-toggle="collapse"
+                                 href="#project-{{ $projectIndex }}-models-carousel"
+                                 data-parent='#project-{{$projectIndex}}-accordion'
+                                 aria-expanded="false">
+                                 3D
+                             </a>
+                         {{ end }}
                     {{ end }}
                 </div>
 
-                {{ "<!-- Video carousel -->" | safeHTML }}
-                <!-- {{ if $project.video }}
-                    <div class="owl-carousel carousel">
-                        {{ range $project.video }}
-                        <img src="{{ . }}" class="img-responsive">
-                        {{ end }}
-                    </div>
-                {{ end }} -->
 
-                {{ "<!-- 3D Models carousel -->" | safeHTML }}
-                <!-- {{ if $project.models }}
-                    <div class="owl-carousel carousel">
-                        {{ range $project.img }}
-                        <img src="{{ . }}" class="img-responsive">
-                        {{ end }}
-                    </div>
-                {{ end }} -->
+                <div style='border:2px solid black;box-sizing:border-box;position:relative;'>
+                    <img class="img-responsive" src="{{ index $project.img 0 }}" style='opacity: 0;'>
 
-               <div style="margin-bottom:30px;">
-                   {{ if (or $project.video $project.models) }}
-                        <button>Image</button>
+                    <div class="panel-group project-accordion" id="project-{{$projectIndex}}-accordion" role="tablist" aria-multiselectable="false" style="border:2px solid red;">
+
+                        {{ "<!-- Image carousel -->" | safeHTML }}
+                        <div class="panel">
+                            <div id="project-{{ $projectIndex }}-img-carousel" class="panel-collapse collapse in" role="tabpanel">
+                                <div class="owl-carousel">
+                                    {{ range $project.img }}
+                                    <img src="{{ . }}" class="img-responsive">
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+
+                        {{ "<!-- Video carousel -->" | safeHTML }}
                         {{ if $project.video }}
-                            <button>Video</button>
+                        <div class="panel">
+                            <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
+                                <div class="owl-carousel">
+                                    {{ range $project.video }}
+                                    <img src="{{ . }}" class="img-responsive" style="border: 1px solid red;box-sizing:border-box;">
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
                         {{ end }}
-                        {{ if $project.models }}
-                            <button>3D</button>
-                        {{ end }}
-                   {{ end }}
-               </div>
 
+                        {{ "<!-- 3D models carousel -->" | safeHTML }}
+                        {{ if $project.models }}
+                        <div class="panel">
+                            <div id="project-{{ $projectIndex }}-models-carousel" class="panel-collapse collapse" role="tabpanel">
+                                <div class="owl-carousel">
+                                    {{ range $project.models }}
+                                    <img src="{{ . }}" class="img-responsive" style="border: 1px solid blue;box-sizing:border-box;">
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
             <div class="modal-description">
                 <p class="text-justify">{{ index $project.description $lang | markdownify }}</p>
@@ -65,54 +102,3 @@
     </div>
 </div>
 {{ end }}
-
-<script type="text/javascript">
-    function display(projectId, type, firstIndexOfType) {
-        var carouselId = '#carousel-example-generic-' + projectId;
-        var carouselElement = $(carouselId);
-
-        // remove class type-active from every type icon
-        carouselElement
-            .find('.carousel-type-indicators')
-            .find('li')
-            .removeClass('type-active');
-
-        // add class type-active to selected type icon
-        carouselElement
-            .find('.carousel-type-' + type)
-            .addClass('type-active');
-
-        // modify type element content
-        var textType = '';
-        switch (type) {
-            case 'img':
-                textType = 'Pictures';
-                break;
-            case 'video':
-                textType = 'Videos';
-                break;
-            case '3ds':
-                textType = '3Ds';
-                break;
-            default:
-                break;
-        }
-        carouselElement
-            .find('.carousel-type')
-            .text(textType);
-
-        // set display:none for all carousel indicators
-        carouselElement
-            .find('.carousel-indicators:not(.carousel-type-indicators)')
-            .find('li')
-            .css('display', 'none');
-
-        // set display:block for all indicators corresponding to $type
-        carouselElement
-            .find('.carousel-indicator-' + type)
-            .css('display', 'inline-block');
-
-        // slides carousel to first element of correspont $type
-        carouselElement.carousel(firstIndexOfType);
-    }
-</script>
