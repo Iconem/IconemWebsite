@@ -18,23 +18,14 @@
     <div class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
         {{ range $memberIndex, $member := .Site.Data.about.team.members }}
           <div class="panel team-member-panel">
-            <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse" role="tabpanel">
-              <div class="team-member-header">
-                    <h3>{{ $member.params.name }}</h3>
-                    <h4> {{ index $member.params.job $lang }}</h4>
-                </div>
-                <div class="modal-description">
-                    <p class="text-justify"> {{ index $member.params.description $lang | markdownify}} </p>
-                </div>
+            <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse text-justify" role="tabpanel">
+                <h3 class="text-uppercase text-bold">{{ $member.params.name }}</h3>
+                <br>
+                <h4 class="text-uppercase"> {{ index $member.params.job $lang }}</h4>
+                <br>
+                <div class="modal-scrollable no-margin">{{ index $member.params.description $lang | markdownify}}</div>
             </div>
         </div>
         {{ end }}
     </div>
 </section>
-
-<script type="text/javascript">
-    function collapse(index) {
-        $('.collapse.in').collapse('hide');
-        $("#team-member-" + index).collapse('toggle');
-    }
-</script>

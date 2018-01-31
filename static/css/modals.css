@@ -1,13 +1,4 @@
-/*!
- * The code below adds the modal functionality of the Freelancer Bootstrap Theme
- * and was originally part of this theme.
- *
- *
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
+/* MODAL - GENERAL */
 body {
     overflow-x: hidden;
     padding-right: 0 !important;
@@ -17,15 +8,15 @@ body {
     opacity: 0.8;
 }
 
-.img-centered {
-    margin: 0 auto;
-}
-
-.modal-open .projects-modal {
+.modal-open .iconem-modal {
     overflow: hidden;
 }
 
-.projects-modal .modal-content {
+.iconem-modal {
+    color: black;
+}
+
+.iconem-modal .modal-content {
     height: 100%;
     border: 0;
     border-radius: 0;
@@ -36,7 +27,7 @@ body {
     position: relative;
 }
 
-.projects-modal .modal-content .modal-body {
+.iconem-modal .modal-content .modal-body {
     height: 100%;
     overflow-y: hidden;
     padding: 30px 15px;
@@ -44,118 +35,154 @@ body {
     flex-direction: column;
 }
 
-.projects-modal .modal-content .modal-body .modal-title {
-    display:flex;
-    flex-direction:column;
-    flex-shrink: 0;
-    min-height: 0;
-    border: none;
-}
-
-.projects-modal .modal-content .modal-body .modal-title h3,
-.projects-modal .modal-content .modal-body .modal-title h5 {
-    margin: 0;
-    font-weight: normal;
-}
-
-.projects-modal hr {
-    width: 60px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-}
-
-.projects-modal .modal-content .modal-body .modal-title .modal-img-simple,
-.projects-modal .modal-content .modal-body .modal-title .carousel {
-    margin: 30px 0;
-}
-
-.projects-modal .modal-content .modal-body .modal-title .carousel img {
-    margin: auto;
-}
-
-.projects-modal .carousel .carousel-indicators {
-    bottom: 60px;
-    transition: all 0.5 linear;
-}
-
-.projects-modal .carousel .carousel-type {
-    position: absolute;
-    width: 100%;
-    color: white;
-    bottom: 45px;
-    text-transform: uppercase;
-}
-
-.projects-modal .carousel .carousel-indicators.carousel-type-indicators {
-    bottom: 10px;
-}
-
-.projects-modal .carousel .carousel-indicators.carousel-type-indicators li {
-    height: 28px;
-    width: 28px;
-    border-radius: 0;
-    border: none;
-    margin: 0 7px;
-}
-
-.projects-modal .modal-content .modal-body .modal-description {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    overflow-y: scroll;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.modal-content .modal-body .modal-description::-webkit-scrollbar {
-    width: 14px;
-}
-
-.modal-content .modal-body .modal-description::-webkit-scrollbar-track {
-    background-color: black;
-    border-left: 9px solid transparent;
-    border-right: 3px solid transparent;
-    background-clip: content-box;
-}
-
-.modal-content .modal-body .modal-description::-webkit-scrollbar-thumb {
-    border-left: 6px solid transparent;
-    background-clip: content-box;
-    background-color: black;
-}
-
-.projects-modal .close-modal {
+.iconem-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
     cursor: pointer;
 }
 
-.projects-modal .close-modal:hover {
+.iconem-modal .close-modal:hover {
     opacity: .3;
 }
 
-.projects-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+.iconem-modal hr {
+    width: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
 }
 
-.projects-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+/* MODAL SCROLLABLE CONTENT */
+.iconem-modal .modal-content .modal-body .modal-scrollable {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    overflow-y: scroll;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 30px;
 }
+
+.modal-content .modal-body .modal-scrollable::-webkit-scrollbar {
+    width: 14px;
+}
+
+.modal-content .modal-body .modal-scrollable::-webkit-scrollbar-track {
+    background-color: black;
+    border-left: 9px solid transparent;
+    border-right: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.modal-content .modal-body .modal-scrollable::-webkit-scrollbar-thumb {
+    border-left: 6px solid transparent;
+    background-clip: content-box;
+    background-color: black;
+}
+
+
+/* MODAL FIXED CONTENT */
+.iconem-modal .modal-content .modal-body .modal-fixed {
+    display:flex;
+    flex-direction:column;
+    flex-shrink: 0;
+    min-height: 0;
+    border: none;
+    padding: 0;
+}
+
+.iconem-modal .modal-content .modal-body .modal-fixed .modal-img-simple {
+    margin-top: 30px;
+}
+
+/* MEDIAS CAROUSEL */
+.iconem-modal .project-media-icons-container a img{
+    margin: 0 5px 10px;
+}
+
+.iconem-modal .project-media-icons-container a.collapsed img {
+    opacity: 0.5;
+}
+
+.iconem-modal .project-media-type {
+    margin-bottom: 30px;
+}
+
+.iconem-modal .project-media-container {
+    position:relative;
+}
+
+.iconem-modal .project-media-container .dummy {
+    opacity: 0;
+    margin-top: 50px;
+}
+
+.iconem-modal .project-media.panel-group {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.iconem-modal .project-media.panel-group .panel {
+    border: none;
+}
+
+.iconem-modal .project-media .panel-collapse {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+}
+
+.iconem-modal .project-media.panel-group .panel+.panel {
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.iconem-modal .project-media .panel .panel-collapse.collapse {
+    opacity: 0;
+    height: 0;
+}
+
+.iconem-modal .project-media .panel-collapse.collapse.in {
+    height: 100%;
+    opacity: 1;
+}
+
+.iconem-modal .project-media .collapsing {
+    height: 0;
+    opacity: 0;
+    overflow: initial;
+}
+
+.iconem-modal .project-media .img-caption {
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    color:white;
+}
+
+.iconem-modal .owl-theme .owl-dots {
+    margin: 0!important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transform: translateY(-100%);
+}
+
+/* TEAM PANEL */
 
 #team .team-img-container {
     margin: 30px 0;
@@ -201,67 +228,4 @@ body {
     opacity: 0;
     overflow: initial;
     padding-right: 15px;
-}
-
-#team .team-member-header h3,
-#team .team-member-header h4 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-
-.project-accordion-container {
-    position:relative;
-    margin-bottom: 30px;
-}
-
-.project-accordion.panel-group {
-    margin: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.project-accordion .panel-collapse {
-    position: absolute;
-    box-sizing: border-box;
-    width: 100%;
-    transition: opacity .2s linear;
-    -webkit-transition: opacity .2s linear;
-    -moz-transition: opacity .2s linear;
-}
-
-.project-accordion.panel-group .panel+.panel {
-    margin: 0;
-    box-sizing: border-box;
-    max-height: 100%;
-    width: 100%;
-}
-
-.project-accordion .panel .panel-collapse.collapse {
-    opacity: 0;
-    height: 0;
-}
-
-.project-accordion .panel-collapse.collapse.in {
-    height: 100%;
-    opacity: 1;
-}
-
-.project-accordion .collapsing {
-    height: 0;
-    opacity: 0;
-    overflow: initial;
-}
-
-.img-caption {
-    background-color: rgba(0,0,0,0.4);
-    padding: 10px;
-    position:absolute;
-    bottom:0;
-    left:0;
-    width: 100%;
-    color:white;
 }
