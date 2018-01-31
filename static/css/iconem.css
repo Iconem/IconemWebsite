@@ -39,7 +39,7 @@ body > section {
   margin: 0px auto;
   left: 0; 
   right: 0; 
-  width: 100px;
+  width: 200px;
   height: 300px;
   /*background-color:#cccccc;*/
   /*opacity:0.5;*/
@@ -50,6 +50,12 @@ body > section {
 #iconem-map-info-title, #iconem-map-info-description{
   color:#ffffff;
 }
+
+#iconem-map-info-description ul{  
+  margin: 0;  
+  padding: 0;  
+  list-style-type: none;  
+}  
 
 #iconem-map-svg path {
   display: block;

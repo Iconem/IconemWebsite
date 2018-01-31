@@ -1,0 +1,18 @@
+{  
+  "SYR": { 
+    "en": "Syria", 
+    "fr": "Syrie" 
+  }, 
+  "FRA": { 
+    "en": "France", 
+    "fr": "France" 
+  },
+  "ITA": {
+    "en": "Italia",
+    "fr": "Italie"
+  },
+  "RUS": {
+    "en": "Russia",
+    "fr": "Russie"
+  }
+}
