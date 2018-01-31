@@ -17,9 +17,10 @@
     </section>
     <div id="main-projects-carousel-dots-container"></div>
     <div id="main-projects-carousel">
-        {{ range $projectIndex, $project := .Site.Data.projects }}
+        {{ range $projectIndex := .Site.Data.carousel.projectList }}
+            {{ $project := (index $.Site.Data.projects $projectIndex) }}
             <div>
-                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                <a href="#portfolioModal{{ $project.modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                     {{ with index $project.img 0 }}
                         <img src="{{ .src }}" class="img-responsive" alt="">
                     {{ end }}
@@ -33,9 +34,6 @@
                             </div>
                             <div>
                                 {{index $project.date $lang}}
-                            </div>
-                            <div>
-                                {{index $project.place $lang}}
                             </div>
                         </div>
                     </div>

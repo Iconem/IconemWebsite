@@ -1,6 +1,5 @@
 {
-  "modalID": "project-01",
-  "index": 0,
+  "modalID": "project-02",
   "title": {
     "en": "Sites Eternels (en)",
     "fr": "Sites Eternels (fr)"
@@ -9,38 +8,34 @@
     "en": "2017 (en)",
     "fr": "2017 (fr)"
   },
-  "place": { 
-    "en": "Grand Palais (en)",
-    "fr": "Grand Palais (fr)"
-  },
   "category": {
     "en": "Exhibition",
     "fr": "Exposition"
   },
   "img": [
-  	{
-      "src": "../img/projects/01/01.png",
+    {
+      "src": "../img/projects/02/01.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "src": "../img/projects/01/02.png",
+      "src": "../img/projects/02/02.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "src": "../img/projects/01/03.png",
+      "src": "../img/projects/02/03.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "src": "../img/projects/01/04.png",
+      "src": "../img/projects/02/04.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
@@ -48,18 +43,17 @@
     }
   ],
   "video": [ 
-    "../img/projects/02/01.png",
-    "../img/projects/02/02.png",
-    "../img/projects/02/03.png"
-  ],
-  "models": [ 
     "../img/projects/03/01.png",
     "../img/projects/03/02.png",
     "../img/projects/03/03.png"
   ],
+  "models": [ 
+    "../img/projects/04/01.png",
+    "../img/projects/04/02.png",
+    "../img/projects/04/03.png"
+  ],
   "description": { 
     "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",
     "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
-  },
-  "mapId": "RUS"
+  }
 }

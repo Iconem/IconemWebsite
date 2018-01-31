@@ -1,18 +1,21 @@
 {  
-  "SYR": { 
-    "en": "Syria", 
-    "fr": "Syrie" 
-  }, 
-  "FRA": { 
-    "en": "France", 
-    "fr": "France" 
-  },
-  "ITA": {
-    "en": "Italia",
-    "fr": "Italie"
-  },
-  "RUS": {
-    "en": "Russia",
-    "fr": "Russie"
-  }
+  "SYR": {
+    "name": {
+      "en": "Syria", 
+      "fr": "Syrie"
+    },
+    "places" : [{
+      "name" : {
+        "en" : "Palmyra",
+        "fr" : "Palmyre"
+      },
+      "sites": [{
+        "name" : {
+          "en" : "Citadel of Palmyra",
+          "fr" : "Citadel de Palmyre"
+        },
+        "projectsId": ["01_project_name", "02_project_name", "03"]
+      }]
+    }] 
+  } 
 }

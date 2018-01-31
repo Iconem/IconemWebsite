@@ -20,23 +20,15 @@
   // Handle interactive svg map
   var lang = {{.Site.Language.Lang}};
   var countries = {{.Site.Data.map.countries}};
-  var projects = Object.values({{.Site.Data.projects}});
-
-  var projectsByCountry = projects.reduce((groups, item) => {
-    var val = item['mapId'];
-    groups[val] = groups[val] || [];
-    groups[val].push(item);
-    return groups;
-  }, {});
 
   // Initialize all interaction and display of projects within a country on the map
-  Object.keys(projectsByCountry).map((mapId) => {
+  Object.keys(countries).map((mapId) => {
     $('#' + mapId).attr("class", "visited");
     
     $('#iconem-map-svg path#' + mapId).hover((e) => {
-      $('#iconem-map-info > #iconem-map-info-title').append(countries[mapId][lang]);
-      Object.values(projectsByCountry[mapId]).map((project) => {
-        $('#iconem-map-info > #iconem-map-info-description ul').append("<li>" + project.place[lang] + "</li>");
+      $('#iconem-map-info > #iconem-map-info-title').append(countries[mapId].name[lang]);
+      countries[mapId].places.map((place) => {
+        $('#iconem-map-info > #iconem-map-info-description ul').append("<li>" + place.name[lang] + "</li>");
       });
       $('#iconem-map-info').css('display','block');
     });
