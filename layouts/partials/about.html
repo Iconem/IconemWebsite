@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     {{ with .Site.Params.about.title }}
-                        <h3 class="section-heading text-center">
+                        <h3 class="text-center text-uppercase text-bolder">
                             {{ . }}
                         </h3>
                     {{ end }}
@@ -19,38 +19,18 @@
     </section>
     <div class="row no-gutter">
         {{ range $aboutIndex, $about := .Site.Data.about }}
-        {{ if eq $aboutIndex "hardware"}}
-        <div>
-            <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+        <div class="col-md-4">
+            <a href="#portfolioModal{{ .modalID }}" class="photo-box" data-toggle="modal">
                 <img src="{{ .img }}" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category">
+                <div class="photo-box-caption">
+                    <div class="photo-box-caption-content">
+                        <div class="text-center text-uppercase text-bolder">
                             {{ index .title $lang }}
                         </div>
                     </div>
                 </div>
             </a>
         </div>
-        {{ end }}
-        {{ end }}
-    </div>
-    <div class="row no-gutter">
-        {{ range $aboutIndex, $about := .Site.Data.about }}
-        {{ if ne $aboutIndex "hardware"}}
-        <div class="col-md-6">
-            <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                <img src="{{ .img }}" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category">
-                            {{ index .title $lang }}
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {{ end }}
         {{ end }}
     </div>
 
@@ -59,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div id="partners" class="text-center">
-                        <h5 class="section-heading">{{ .Site.Params.about.partners }}</h5>
+                        <h5 class="text-bold text-uppercase">{{ .Site.Params.about.partners }}</h5>
                     <hr>
 
                         {{ range .Site.Data.partners }}
@@ -72,7 +52,7 @@
                         {{ end }}
                     </div>
                     <div id="clients" class="text-center">
-                        <h5 class="section-heading">{{ .Site.Params.about.clients }}</h5>
+                        <h5 class="text-bold text-uppercase">{{ .Site.Params.about.clients }}</h5>
                     <hr>
 
                         {{ range .Site.Data.clients }}
