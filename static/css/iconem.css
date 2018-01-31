@@ -30,17 +30,21 @@ body > section {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  padding: 2% 12.5% 0% 12.5%;
+}
+
+#iconem-map-container svg {
+  display:block;
 }
 
 #iconem-map-info{
   display:none;
   position:absolute;
-  bottom:20%;
+  bottom:100px;
   margin: 0px auto;
   left: 0; 
   right: 0; 
-  width: 200px;
-  height: 300px;
+  width: 400px;
   /*background-color:#cccccc;*/
   /*opacity:0.5;*/
   overflow:hidden;
@@ -49,13 +53,59 @@ body > section {
 
 #iconem-map-info-title, #iconem-map-info-description{
   color:#ffffff;
+  overflow:hidden;
 }
 
-#iconem-map-info-description ul{  
+#iconem-map-info-description{
+  height:300px;
+  padding-top:20px;
+}
+
+#iconem-map-info-description .crawl {
+  position: relative;
+  animation: crawl 300s linear;
+}
+
+@keyframes crawl {
+  0% {
+    /* The element starts below the screen */
+    top: 50px;
+    transform: translateZ(0);
+  }
+  100% { 
+    /* This is a magic number, but using a big one to make sure the text is fully off the screen at the end */
+    top: -6000px;
+    /* Slightly increasing the rotation at the end and moving the text far away from the viewer */
+    transform: translateZ(-2500px);
+  }
+}
+
+#iconem-map-info-description ul{
   margin: 0;  
   padding: 0;  
   list-style-type: none;  
-}  
+}
+
+#iconem-map-info-description .iconem-map-info-description-place{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:20px; 
+}
+
+#iconem-map-info-description .iconem-map-info-description-place-name{
+  width:50%;
+  text-align:right;
+  font-weight: bold;
+  padding-right:20px;
+}
+
+#iconem-map-info-description .iconem-map-info-description-site{
+  text-align: left;
+  width:50%;
+  padding-left:20px;
+}
 
 #iconem-map-svg path {
   display: block;
