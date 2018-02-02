@@ -16,25 +16,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <div class="row no-gutter">
-        {{ range $aboutIndex, $about := .Site.Data.about }}
-        <div class="col-md-4">
-            <a href="#portfolioModal{{ .modalID }}" class="photo-box" data-toggle="modal">
-                <img src="{{ .img }}" class="img-responsive" alt="">
-                <div class="photo-box-caption">
-                    <div class="photo-box-caption-content">
-                        <div class="text-center text-uppercase text-bolder">
-                            {{ index .title $lang }}
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {{ end }}
-    </div>
 
-    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -69,4 +51,20 @@
             </div>
         </div>
     </section>
+    <div class="row no-gutter" style="margin:0">
+        {{ range $aboutIndex, $about := .Site.Data.about }}
+        <div class="col-md-4">
+            <a href="#portfolioModal{{ .modalID }}" class="photo-box" data-toggle="modal">
+                <img src="{{ .img }}" class="img-responsive" alt="">
+                <div class="photo-box-caption">
+                    <div class="photo-box-caption-content">
+                        <div class="text-center text-uppercase text-bolder">
+                            {{ index .title $lang }}
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
 </section>
