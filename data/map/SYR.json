@@ -1,0 +1,187 @@
+{
+  "name": {
+    "en": "Syria",
+    "fr": "Syrie"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Damascus",
+        "fr": "Palmyre"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Citadel of Damascus",
+            "fr": "Citadel de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Ancient villas of Damascus",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Azem palace",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Umayyad mosque of Damascus",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Damascus museum",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Damascus old town",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Khan Assad Bacha",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Damascus",
+        "fr": "Palmyre"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Citadel of Damascus",
+            "fr": "Citadel de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Ancient villas of Damascus",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Azem palace",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Umayyad mosque of Damascus",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Damascus museum",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Damascus old town",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Khan Assad Bacha",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Palmyra",
+        "fr": "Palmyre"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Citadel of Palmyra",
+            "fr": "Citadel de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Museum of Palmyra",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Palmyra site in its entirety",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Temple of Baalshamin",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Temple of Bel",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        },
+        {
+          "name": {
+            "en": "Valley of Tombs",
+            "fr": "Musée de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Palmyra",
+        "fr": "Palmyre"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Monumental Arch",
+            "fr": "Citadel de Palmyre"
+          },
+          "projectsId": ["01_project_name", "02_project_name", "03"]
+        }
+      ]
+    }
+  ]
+}

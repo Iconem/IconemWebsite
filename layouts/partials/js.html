@@ -19,40 +19,41 @@
 <script type="text/javascript">
   // Handle interactive svg map
   var lang = {{.Site.Language.Lang}};
-  var countries = {{.Site.Data.map.countries}};
+  var countries = {{.Site.Data.map}};
 
   // Initialize all interaction and display of projects within a country on the map
   Object.keys(countries).map((mapId) => {
     $('#' + mapId).attr("class", "visited");
     
     $('#iconem-map-svg path#' + mapId).hover((e) => {
-      $('#iconem-map-info > #iconem-map-info-title').append(countries[mapId].name[lang]);
+      $('#iconem-map-info-content > #iconem-map-info-title').append(countries[mapId].name[lang]);
       var toAppend = '';
       countries[mapId].places.map((place) => {
-        // $('#iconem-map-info > #iconem-map-info-description ul').append("<li>" + place.name[lang] + "</li>");
+        // $('#iconem-map-info-content > #iconem-map-info-description ul').append("<li>" + place.name[lang] + "</li>");
+        
         toAppend = toAppend + '<li class="iconem-map-info-description-place"> <div class="iconem-map-info-description-place-name">' + place.name[lang] +  '</div> <ul class="iconem-map-info-description-site">';
         place.sites.map((site) => {
           toAppend = toAppend + '<li class="iconem-map-info-description-site-name">' + site.name[lang] + '</li>';
         });
         toAppend = toAppend + '</ul> </li>';
       });
-      $('#iconem-map-info > #iconem-map-info-description ul').append(toAppend);
+      $('#iconem-map-info-content > #iconem-map-info-description ul').append(toAppend);
 
-      $('#iconem-map-info').css('display','block');
+      $('#iconem-map-info-content').css('display','flex');
 
       //Add text animation (vertical scroll) if necessary
-      var element = $('#iconem-map-info > #iconem-map-info-description')[0];
+      var element = $('#iconem-map-info-content > #iconem-map-info-description')[0];
       if (element.offsetHeight < element.scrollHeight) {
-        $('#iconem-map-info > #iconem-map-info-description > ul').addClass('crawl');
+        $('#iconem-map-info-content > #iconem-map-info-description > ul').addClass('crawl');
       } 
 
     });
  
     $('#iconem-map-svg path#' + mapId).mouseleave((e) => {
-      $('#iconem-map-info > #iconem-map-info-title').empty();
-      $('#iconem-map-info > #iconem-map-info-description ul').empty();
-      $('#iconem-map-info > #iconem-map-info-description > ul').removeClass('crawl');
-      $('#iconem-map-info').css('display','none');
+      $('#iconem-map-info-content > #iconem-map-info-title').empty();
+      $('#iconem-map-info-content > #iconem-map-info-description > ul').empty();
+      $('#iconem-map-info-content > #iconem-map-info-description > ul').removeClass('crawl');
+      $('#iconem-map-info-content').css('display','none');
     });
   });
 </script>
