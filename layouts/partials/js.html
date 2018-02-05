@@ -70,6 +70,7 @@
       appendDots: $('#main-projects-carousel-dots-container'),
       dotsClass: 'main-projects-carousel-dots',
       arrows:false,
+      setPosition:true,
       responsive: [
         {
           breakpoint: 1200,
@@ -94,6 +95,12 @@
         }
       ]
     });
+
+    // Resize projects slider when opening a modal so that we do not display next projects when the scrollbar disappear
+    $(window).on('show.bs.modal', () => {
+      $('#main-projects-carousel').slick('resize');
+    });
+
   });
 </script>
 

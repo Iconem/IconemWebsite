@@ -147,3 +147,12 @@ body > section {
   mix-blend-mode: normal !important;
   cursor: pointer;
 }
+
+/* ICONEM SLICK SLIDER INITIALISATION FIX */
+#main-projects-carousel {
+    display:none;
+}
+
+#main-projects-carousel.slick-initialized { 
+    display: block;
+}
