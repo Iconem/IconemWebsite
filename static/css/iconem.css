@@ -156,3 +156,11 @@ body > section {
 #main-projects-carousel.slick-initialized { 
     display: block;
 }
+
+.owl-carousel {
+  display:none;
+}
+
+.owl-carousel.owl-loaded {
+  display: block;
+}

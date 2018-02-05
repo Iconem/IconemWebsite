@@ -96,7 +96,7 @@
       ]
     });
 
-    // Resize projects slider when opening a modal so that we do not display next projects when the scrollbar disappear
+    // Resize projects slider when opening a modal so that we do not display next projects below the scrollbar when it disappear
     $(window).on('show.bs.modal', () => {
       $('#main-projects-carousel').slick('resize');
     });
@@ -106,10 +106,28 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-      items: 1,
-      loop: true,
-      dots: true
+    /* Fix owl-carousel bad behaviour */
+    // $(window).on('shown.bs.modal', (e) => {
+    // Previous line do not work using a fade class on the modal element. This is just a fix so that we can init carousel once the modal is displayed, after fade animation
+    $(document).on($.support.transition.end, '.modal.fade.in', function(e) {
+      var $target = $(e.target);
+      if ($(e.target).is(".iconem-modal")) {
+        // We init the first carrousel element of the modal, once is is visible
+        $(e.target).find(".collapse.in .owl-carousel").owlCarousel({
+          items: 1,
+          loop: true,
+          dots: true
+        });
+      }
+    });
+
+    $('.panel').on('shown.bs.collapse',  (e) => {
+      // We init the carrousel element of the tab we are currently displaying, once it is visible
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        dots: true
+      });
     });
   });
 </script>
