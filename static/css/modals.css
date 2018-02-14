@@ -17,7 +17,8 @@ body {
     padding-right: 0 !important;
 }
 
-.iconem-modal .modal-content {
+.iconem-modal .modal-content,
+.iconem-modal .fullscreen-modal-content {
     height: 100%;
     border: 0;
     border-radius: 0;
@@ -26,6 +27,11 @@ body {
     -webkit-box-shadow: none;
     box-shadow: none;
     position: relative;
+}
+
+.iconem-modal .fullscreen-modal-content {
+    width: 100%;
+    background-color: black;
 }
 
 .iconem-modal .modal-content .modal-body {
@@ -173,6 +179,16 @@ body {
     left:0;
     width: 100%;
     color:white;
+    border: 2px solid red
+}
+
+.iconem-modal .project-media .img-fullscreen-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: red;
 }
 
 .iconem-modal .owl-carousel.owl-theme {

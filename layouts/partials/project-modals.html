@@ -58,10 +58,15 @@
                                     {{ $.Site.Params.projects.modal.pictures }}
                                 </div>
                                 <div class="owl-carousel owl-theme">
-                                    {{ range $project.img }}
+                                    {{ range $imgIndex, $img := $project.img }}
                                         <div>
-                                            <img src="{{ .src }}" class="img-responsive">
-                                            <div class="img-caption">{{ index .caption $lang }}</div>
+                                            <img src="{{ $img.src }}" class="img-responsive">
+                                            <div class="img-caption">
+                                                {{ index $img.caption $lang }}
+                                            </div>
+                                            <a href="#fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" class="img-fullscreen-btn" data-toggle="modal"
+                                                onclick="stopImageCarousel({{ $projectIndex }})">
+                                            </a>
                                         </div>
                                     {{ end }}
                                 </div>
