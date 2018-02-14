@@ -4,10 +4,18 @@
     {{ range $imgIndex, $img := $project.img }}
         <div class="iconem-modal modal fade" id="fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="fullscreen-modal-content">
-                <img src="../img/home/cross.png" class="close-modal" data-dismiss="modal">
+                <img src="../img/home/cross.png" class="close-modal" data-dismiss="modal"
+                    onclick="restartImageCarousel({{ $projectIndex }})"
+                >
                 <img src="{{ $img.src }}">
             </div>
         </div>
     {{ end }}
 {{ end }}
 
+<script type="text/javascript">
+    function restartImageCarousel(projectIndex) {
+        var imgCarouselId = `#project-${projectIndex}-img-carousel`;
+        $(imgCarouselId).find('.owl-carousel').trigger('play.owl.autoplay');
+    }
+</script>
