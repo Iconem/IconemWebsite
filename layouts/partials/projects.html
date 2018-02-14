@@ -21,8 +21,8 @@
             {{ $project := (index $.Site.Data.projects $projectIndex) }}
             <div class="project-slide">
                 <a href="#portfolioModal{{ $project.modalID }}" class="photo-box" data-toggle="modal">
-                    {{ with index $project.img 0 }}
-                        <img src="{{ .src }}" class="img-responsive" alt="">
+                    {{ with $project.thumbnail }}
+                        <img src="{{ . }}" class="img-responsive" alt="">
                     {{ end }}
                     <div class="photo-box-caption">
                         <div class="photo-box-caption-content">
