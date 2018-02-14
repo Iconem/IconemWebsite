@@ -57,6 +57,7 @@ a:focus,
 a:visited {
     color: #555;
     text-decoration: none;
+    outline: none;
 }
 
 p {

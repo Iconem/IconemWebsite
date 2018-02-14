@@ -111,10 +111,12 @@
                 <strong>2017</strong>
                 <i>Exposition au Grand Palais</i>
                 <div>
-                    <strong>{{ $.Site.Params.projects.modal.actors }}</strong><span>RMNG, Louvre, Sylvain Roca, Google, DGAM</span>
+                    <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
+                    <span>{{ index $project.actors $lang }}</span>
                 </div>
                 <div>
-                    <strong>{{ $.Site.Params.projects.modal.partners }}</strong><span>Google, Unesco</span>
+                    <strong>{{ $.Site.Params.projects.modal.partners }}</strong>
+                    <span>{{ index $project.partners $lang }}</span>
                 </div>
                 <hr align="left">
                 <div>{{ index $project.description $lang | markdownify }}</div>

@@ -13,6 +13,14 @@
     "fr": "Exposition"
   },
   "thumbnail": "../img/projects/01/01.png",
+  "actors": {
+    "en": "Actors",
+    "fr": "Acteurs"
+  },
+  "partners": {
+    "en": "Partners",
+    "fr": "Partenaires"
+  },
   "img": [
   	{
       "src": "../img/projects/01/01.png",

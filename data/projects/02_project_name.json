@@ -13,6 +13,14 @@
     "fr": "Exposition"
   },
   "thumbnail": "../img/projects/02/01.png",
+  "actors": {
+    "en": "RMNG, Louvre, Sylvain Roca, Google, DGAM",
+    "fr": "RMNG, Louvre, Sylvain Roca, Google, DGAM"
+  },
+  "partners": {
+    "en": "Google, Unesco",
+    "fr": "Google, Unesco"
+  },
   "img": [
     {
       "src": "../img/projects/02/01.png",
