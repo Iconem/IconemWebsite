@@ -106,6 +106,17 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
+
+    var modalsCarouselConfig = {
+      items: 1,
+      loop: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      nav: true,
+      navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>']
+    }
+
     /* Fix owl-carousel bad behaviour */
     // $(window).on('shown.bs.modal', (e) => {
     // Previous line do not work using a fade class on the modal element. This is just a fix so that we can init carousel once the modal is displayed, after fade animation
@@ -113,21 +124,13 @@
       var $target = $(e.target);
       if ($(e.target).is(".iconem-modal")) {
         // We init the first carrousel element of the modal, once is is visible
-        $(e.target).find(".collapse.in .owl-carousel").owlCarousel({
-          items: 1,
-          loop: true,
-          dots: true
-        });
+        $(e.target).find(".collapse.in .owl-carousel").owlCarousel(modalsCarouselConfig);
       }
     });
 
     $('.panel').on('shown.bs.collapse',  (e) => {
       // We init the carrousel element of the tab we are currently displaying, once it is visible
-      $('.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        dots: true
-      });
+      $('.owl-carousel').owlCarousel(modalsCarouselConfig);
     });
   });
 </script>

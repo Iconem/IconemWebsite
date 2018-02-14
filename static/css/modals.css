@@ -30,7 +30,6 @@ body {
 
 .iconem-modal .modal-content .modal-body {
     height: 100%;
-    overflow-y: hidden;
     padding: 30px 15px;
     display: flex;
     flex-direction: column;
@@ -174,6 +173,52 @@ body {
     left:0;
     width: 100%;
     color:white;
+}
+
+.iconem-modal .owl-carousel.owl-theme {
+    position: relative;
+}
+
+.iconem-modal .owl-theme .owl-nav {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.iconem-modal .owl-theme .owl-nav .owl-prev,
+.iconem-modal .owl-theme .owl-nav .owl-next {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+    color: black;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.iconem-modal .owl-theme .owl-nav .owl-prev:hover,
+.iconem-modal .owl-theme .owl-nav .owl-next:hover {
+    color: black;
+    opacity: 0.3;
+    background-color: transparent;
+}
+
+.iconem-modal .owl-theme .owl-nav .owl-prev {
+    transform: translateX(-100%);
+}
+
+.iconem-modal .owl-theme .owl-nav .owl-next {
+    transform: translateX(100%);
 }
 
 .iconem-modal .owl-theme .owl-dots {
