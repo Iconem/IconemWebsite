@@ -113,8 +113,8 @@
       dots: true,
       autoplay: true,
       autoplayTimeout: 4000,
-      // nav: true,
-      // navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>']
+      nav: true,
+      navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>']
     }
 
     /* Fix owl-carousel bad behaviour */
@@ -132,5 +132,28 @@
       // We init the carrousel element of the tab we are currently displaying, once it is visible
       $('.owl-carousel').owlCarousel(modalsCarouselConfig);
     });
+
+    // $(document).on($.support.transition.end, '.modal.fade.in', function(e) {
+    //   var $target = $(e.target);
+    //   if ($(e.target).is(".iconem-modal")) {
+
+    //     // We init the canvas
+    //     const test = $(e.target).find("canvas");
+    //     if (test.length > 0) {
+    //         console.log("INIT CANVAS ", test);
+    //     }
+    //   }
+    // });
   });
+</script>
+
+<script type="text/javascript">
+  // Init interactive fullscreen images
+  var projects = {{.Site.Data.projects}};
+
+  // Initialize all interaction and display of projects within a country on the map
+  Object.keys(projects).map((projectId) => {
+    
+  });
+
 </script>

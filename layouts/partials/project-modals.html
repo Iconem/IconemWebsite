@@ -28,7 +28,8 @@
                                 class="collapsed"
                                 href="#project-{{ $projectIndex }}-video-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
-                                aria-expanded="false">
+                                aria-expanded="false"
+                                onclick="stopImageCarousel({{ $projectIndex }})">
                                 <img src="../img/projects/icons/video_black.png">
                             </a>
                         {{ end }}
@@ -38,7 +39,8 @@
                                 class="collapsed"
                                 href="#project-{{ $projectIndex }}-models-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
-                                aria-expanded="false">
+                                aria-expanded="false"
+                                onclick="stopImageCarousel({{ $projectIndex }})">
                                 <img src="../img/projects/icons/3ds_black.png">
                             </a>
                         {{ end }}
