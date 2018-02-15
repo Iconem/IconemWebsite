@@ -1,0 +1,469 @@
+{
+  "name": {
+    "en": "IRAQ (KURDISTAN)",
+    "fr": "IRAQ (KURDISTAN)"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Akhre (KU)",
+        "fr": "Akhre (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Akhre village",
+            "fr": "Akhre village"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Akhre (KU)",
+        "fr": "Akhre (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Arbil minaret",
+            "fr": "Arbil minaret"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Alqosh (KU)",
+        "fr": "Alqosh (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Naoun tomb",
+            "fr": "Naoun tomb"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Amadiya (KU)",
+        "fr": "Amadiya (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Amadiya village",
+            "fr": "Amadiya village"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Arbil (KU)",
+        "fr": "Arbil (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Jewish area",
+            "fr": "Jewish area"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Baghdad",
+        "fr": "Baghdad"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Al-Bab Al-Wastani",
+            "fr": "Al-Bab Al-Wastani"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Abbasid Palace",
+            "fr": "Abbasid Palace"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Al-Madrassa Al-Mustansiriya",
+            "fr": "Al-Madrassa Al-Mustansiriya"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Baghdad region",
+        "fr": "Baghdad region"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Taq Kisra",
+            "fr": "Taq Kisra"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bakhdida",
+        "fr": "Bakhdida"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Karakoch",
+            "fr": "Karakoch"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Barzan village (KU)",
+        "fr": "Barzan village (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Barzan village",
+            "fr": "Barzan village"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bora (KU)",
+        "fr": "Bora (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bora valley",
+            "fr": "Bora valley"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bulbul-Shashk (KU)",
+        "fr": "Bulbul-Shashk (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bulbul-Shashk",
+            "fr": "Bulbul-Shashk"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Deween (KU)",
+        "fr": "Deween (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Deween village",
+            "fr": "Deween village"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Grdy Bngrd Muani (KU)",
+        "fr": "Grdy Bngrd Muani (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Grdy Bngrd Muani",
+            "fr": "Grdy Bngrd Muani"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jerwan (KU)",
+        "fr": "Jerwan (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Aqueduct remains",
+            "fr": "Aqueduct remains"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Khinis (KU)",
+        "fr": "Khinis (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Khinis cliff and aqueduct",
+            "fr": "Khinis cliff and aqueduct"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Khorsabad",
+        "fr": "Khorsabad"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Khorsabad",
+            "fr": "Khorsabad"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kongra Serchia (KU)",
+        "fr": "Kongra Serchia (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Kongra Serchia valley",
+            "fr": "Kongra Serchia valley"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mosul",
+        "fr": "Mosul"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Mosul city center (in process)",
+            "fr": "Mosul city center (in process)"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Nineveh (aerial view)",
+            "fr": "Nineveh (aerial view)"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Nineveh (Nabi Yunus tunnels)",
+            "fr": "Nineveh (Nabi Yunus tunnels)"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Nineveh district",
+        "fr": "Nineveh district"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Nimrud",
+            "fr": "Nimrud"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Qalat-i-Dinka (KU)",
+        "fr": "Qalat-i-Dinka (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Qalat-i-Dinka valley",
+            "fr": "Qalat-i-Dinka valley"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Qasr Shamamok (KU)",
+        "fr": "Qasr Shamamok (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Qasr Shamamok",
+            "fr": "Qasr Shamamok"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rawanduz (KU)",
+        "fr": "Rawanduz (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Rawanduz",
+            "fr": "Rawanduz"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Samarra",
+        "fr": "Samarra"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Al-Qubba Al-Sulaybia",
+            "fr": "Al-Qubba Al-Sulaybia"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Great Mosque and Al-Malwiya",
+            "fr": "Great Mosque and Al-Malwiya"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Old City",
+            "fr": "Old City"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Qasr Al-Ashiq",
+            "fr": "Qasr Al-Ashiq"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Sur Ashnas (Ashnas Wall)",
+            "fr": "Sur Ashnas (Ashnas Wall)"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Satu Qala (KU)",
+        "fr": "Satu Qala (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Satu Qala valley",
+            "fr": "Satu Qala valley"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shanidar cave (KU)",
+        "fr": "Shanidar cave (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Shanidar cave",
+            "fr": "Shanidar cave"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Taajeel (KU)",
+        "fr": "Taajeel (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Taajeel",
+            "fr": "Taajeel"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Tapa Kura (KU)",
+        "fr": "Tapa Kura (KU)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Tapa Kura",
+            "fr": "Tapa Kura"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

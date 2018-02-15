@@ -1,0 +1,141 @@
+{
+  "name": {
+    "en": "AFGHANISTAN",
+    "fr": "AFGHANISTAN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Balkh",
+        "fr": "Balkh"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bala Hissar",
+            "fr": "Bala Hissar"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Hadji Piada",
+            "fr": "Hadji Piada"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bamiyan region",
+        "fr": "Bamiyan region"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bamiyan cliff",
+            "fr": "Bamiyan cliff"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Kakrak",
+            "fr": "Kakrak"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Shar-e-Gholgola",
+            "fr": "Shar-e-Gholgola"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Shar-e-Zohak",
+            "fr": "Shar-e-Zohak"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Dara",
+        "fr": "Dara"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Top Dara",
+            "fr": "Top Dara"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "District of Shahrak",
+        "fr": "District of Shahrak"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Djâm minaret",
+            "fr": "Djâm minaret"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Herat",
+        "fr": "Herat"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Musalla Complex",
+            "fr": "Musalla Complex"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kabul",
+        "fr": "Kabul"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Tepe Naranj",
+            "fr": "Tepe Naranj"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Logar region",
+        "fr": "Logar region"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Mes Aynak",
+            "fr": "Mes Aynak"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

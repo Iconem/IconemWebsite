@@ -1,0 +1,83 @@
+{
+  "name": {
+    "en": "OMAN",
+    "fr": "OMAN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Al Ain",
+        "fr": "Al Ain"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Al Ain",
+            "fr": "Al Ain"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Al Khutm",
+        "fr": "Al Khutm"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Al Khutm",
+            "fr": "Al Khutm"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ash Agar",
+        "fr": "Ash Agar"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Ash Agar",
+            "fr": "Ash Agar"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bat",
+        "fr": "Bat"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bat",
+            "fr": "Bat"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Qalhat",
+        "fr": "Qalhat"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Qalhat",
+            "fr": "Qalhat"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

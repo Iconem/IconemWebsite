@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "CAMBODIA",
+    "fr": "CAMBODIA"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Angkor",
+        "fr": "Angkor"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Angkor Mebon Temple",
+            "fr": "Angkor Mebon Temple"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

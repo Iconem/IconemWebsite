@@ -1,0 +1,38 @@
+{
+  "name": {
+    "en": "PAKISTAN",
+    "fr": "PAKISTAN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Balochistan",
+        "fr": "Balochistan"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Zhob Valley dinosaur footprint",
+            "fr": "Zhob Valley dinosaur footprint"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sindh",
+        "fr": "Sindh"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Fortified town of Banbhore",
+            "fr": "Fortified town of Banbhore"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

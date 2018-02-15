@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "TURKEY",
+    "fr": "TURKEY"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Manisa province",
+        "fr": "Manisa province"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Aigai",
+            "fr": "Aigai"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

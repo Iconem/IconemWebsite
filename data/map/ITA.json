@@ -1,0 +1,30 @@
+{
+  "name": {
+    "en": "ITALY",
+    "fr": "ITALY"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Naples",
+        "fr": "Naples"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Diomede villa",
+            "fr": "Diomede villa"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Pompeii",
+            "fr": "Pompeii"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

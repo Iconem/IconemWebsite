@@ -1,0 +1,67 @@
+{
+  "name": {
+    "en": "FRANCE",
+    "fr": "FRANCE"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Beaucaire",
+        "fr": "Beaucaire"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Baucaire castle",
+            "fr": "Baucaire castle"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Saint Roman abbey",
+            "fr": "Saint Roman abbey"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Paris",
+        "fr": "Paris"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Lamasus in the Louvre",
+            "fr": "Lamasus in the Louvre"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Saint-Jacques tower",
+            "fr": "Saint-Jacques tower"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Nevers",
+        "fr": "Nevers"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Nevers Ramparts",
+            "fr": "Nevers Ramparts"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}
