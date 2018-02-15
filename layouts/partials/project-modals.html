@@ -65,10 +65,11 @@
                                             <img src="{{ $img.src }}" class="img-responsive">
                                             <div class="img-caption">
                                                 {{ index $img.caption $lang }}
-                                            </div>
-                                            <a href="#fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" class="img-fullscreen-btn" data-toggle="modal"
+                                                <a href="#fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" class="img-fullscreen-btn" data-toggle="modal"
                                                 onclick="stopImageCarousel({{ $projectIndex }})">
-                                            </a>
+                                                    <i class="fa fa-expand fa"></i>
+                                                </a>
+                                            </div>
                                         </div>
                                     {{ end }}
                                 </div>

@@ -132,28 +132,81 @@
       // We init the carrousel element of the tab we are currently displaying, once it is visible
       $('.owl-carousel').owlCarousel(modalsCarouselConfig);
     });
-
-    // $(document).on($.support.transition.end, '.modal.fade.in', function(e) {
-    //   var $target = $(e.target);
-    //   if ($(e.target).is(".iconem-modal")) {
-
-    //     // We init the canvas
-    //     const test = $(e.target).find("canvas");
-    //     if (test.length > 0) {
-    //         console.log("INIT CANVAS ", test);
-    //     }
-    //   }
-    // });
   });
 </script>
 
 <script type="text/javascript">
   // Init interactive fullscreen images
-  var projects = {{.Site.Data.projects}};
+  var projects = {{ .Site.Data.projects }};
 
   // Initialize all interaction and display of projects within a country on the map
   Object.keys(projects).map((projectId) => {
-    
+    var project = projects[projectId];
+    var images = project.img;
+    images.map((image, imageIndex)=> {
+      var fullscreenModalId = `#fullscreenModal${project.modalID}-img-${imageIndex}`;
+      var canvasElement = $(fullscreenModalId).find('canvas')[0];
+      var img = new Image();
+      img.src = image.src;
+      img.onload = function () {
+        initCanvas(img, canvasElement);
+      }
+    });
   });
+
+  function initCanvas(image, canvasElement) {
+    canvasElement.width = window.innerWidth;
+    canvasElement.height = window.innerHeight;
+    redrawCanvas(image, canvasElement);
+    window.addEventListener('resize', function() {
+      canvasElement.width = window.innerWidth;
+      canvasElement.height = window.innerHeight;
+      redrawCanvas(image, canvasElement);
+    });
+    // this.trackTransforms(context);
+    // this.lastX = canvasElement.width / 2;
+    // this.lastY = canvasElement.height / 2;
+    // this.dragStart = null;
+    // this.dragged = null;
+    // this.scaleFactor = 1.1;
+
+    // canvasElement.addEventListener('mousedown', this.handleMouseDown.bind(this), false);
+    // canvasElement.addEventListener('mousemove', this.handleMouseMove.bind(this), false);
+    // canvasElement.addEventListener('mouseup', this.handleMouseUp.bind(this), false);
+    // canvasElement.addEventListener('DOMMouseScroll', this.handleScroll.bind(this), false);
+    // canvasElement.addEventListener('mousewheel', this.handleScroll.bind(this), false);
+  }
+
+  function redrawCanvas(image, canvasElement) {
+    var context = canvasElement.getContext('2d');
+
+    // Clear the entire canvas
+    // const p1 = context.transformedPoint(0, 0);
+    // const p2 = context.transformedPoint(canvasElement.width, canvasElement.height);
+    // context.clearRect(p1.x, p1.y, p2.x - p1.x, p2.y - p1.y);
+    // context.save();
+    // context.setTransform(1, 0, 0, 1, 0, 0);
+    context.clearRect(0, 0, canvasElement.width, canvasElement.height);
+    context.restore();
+
+    //We draw the image fitting and centering it in the canvas
+    const hRatio = canvasElement.width / image.width;
+    const vRatio = canvasElement.height / image.height;
+    const ratio = Math.min(hRatio, vRatio);
+    const centerShift_x = (canvasElement.width - image.width * ratio) / 2;
+    const centerShift_y = (canvasElement.height - image.height * ratio) / 2;
+    context.clearRect(0, 0, canvasElement.width, canvasElement.height);
+    context.drawImage(
+        image,
+        0,
+        0,
+        image.width,
+        image.height,
+        centerShift_x,
+        centerShift_y,
+        image.width * ratio,
+        image.height * ratio
+    );
+  }
 
 </script>
