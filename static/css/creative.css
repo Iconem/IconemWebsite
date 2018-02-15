@@ -40,13 +40,14 @@ h6 {
 }
 
 hr {
-    max-width: 400;
-    border-color: #887d87;
-    border-width: 1px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid #887d87!important;
 }
 
 hr.light {
-    border-color: #fff;
+    border: none;
+    border-bottom: 1px solid white!important;
 }
 
 a {
@@ -344,6 +345,7 @@ header .header-footer a img {
     -moz-transition: all .5s;
     transition: all .5s;
     padding: 30px;
+    color: #555;
 }
 
 .photo-box:hover .photo-box-caption {
@@ -358,6 +360,11 @@ header .header-footer a img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.photo-box .photo-box-caption .photo-box-caption-content hr {
+    border: none;
+    border-bottom: 1px solid #555!important;
 }
 
 #main-projects-carousel {
