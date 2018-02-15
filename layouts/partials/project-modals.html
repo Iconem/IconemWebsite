@@ -5,7 +5,7 @@
     <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         
         <img src="../img/home/cross.png" class="close-modal" data-dismiss="modal"
-            onclick="stopImageCarousel({{ $projectIndex }})">
+            onclick="stopPreviewCarousel({{ $projectIndex }})">
         
         <div class="col-sm-10 col-sm-offset-1 modal-body">
             <div class="modal-fixed">
@@ -29,7 +29,7 @@
                                 href="#project-{{ $projectIndex }}-video-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopImageCarousel({{ $projectIndex }})">
+                                onclick="stopPreviewCarousel({{ $projectIndex }})">
                                 <img src="../img/projects/icons/video_black.png">
                             </a>
                         {{ end }}
@@ -40,7 +40,7 @@
                                 href="#project-{{ $projectIndex }}-models-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopImageCarousel({{ $projectIndex }})">
+                                onclick="stopPreviewCarousel({{ $projectIndex }})">
                                 <img src="../img/projects/icons/3ds_black.png">
                             </a>
                         {{ end }}
@@ -59,14 +59,14 @@
                                 <div class="project-media-type text-uppercase">
                                     {{ $.Site.Params.projects.modal.pictures }}
                                 </div>
-                                <div class="owl-carousel owl-theme">
+                                <div class="owl-carousel owl-theme preview-img-carousel">
                                     {{ range $imgIndex, $img := $project.img }}
                                         <div>
                                             <img src="{{ $img.preview }}" class="img-responsive">
                                             <div class="img-caption">
                                                 {{ index $img.caption $lang }}
-                                                <a href="#fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" class="img-fullscreen-btn" data-toggle="modal"
-                                                onclick="stopImageCarousel({{ $projectIndex }})">
+                                                <a href="#fullscreenModal{{ $project.modalID }}" class="img-fullscreen-btn" data-toggle="modal"
+                                                onclick="stopPreviewCarousel({{ $projectIndex }});initFullCarousel({{ $project.modalID }}, {{ $imgIndex }})">
                                                     <i class="fa fa-expand fa"></i>
                                                 </a>
                                             </div>
@@ -83,7 +83,7 @@
                                 <div class="project-media-type text-uppercase">
                                     {{ $.Site.Params.projects.modal.videos }}
                                 </div>
-                                <div class="owl-carousel owl-theme">
+                                <div class="owl-carousel owl-theme video-carousel">
                                     {{ range $project.video }}
                                         <div>
                                             <img src="{{ . }}" class="img-responsive">
@@ -102,7 +102,7 @@
                                 <div class="project-media-type text-uppercase">
                                     {{ $.Site.Params.projects.modal.models }}
                                 </div>
-                                <div class="owl-carousel owl-theme">
+                                <div class="owl-carousel owl-theme 3d-carousel">
                                     {{ range $project.models }}
                                         <div>
                                             <img src="{{ . }}" class="img-responsive">
@@ -137,8 +137,27 @@
 
 
 <script type="text/javascript">
-    function stopImageCarousel(projectIndex) {
+    function stopPreviewCarousel(projectIndex) {
         var imgCarouselId = `#project-${projectIndex}-img-carousel`;
         $(imgCarouselId).find('.owl-carousel').trigger('stop.owl.autoplay');
+    }
+
+    function initFullCarousel(projectModalId, imageIndex) {
+        console.log('INIT FULL CAROUSEL');
+        // var modalFullCarouselConfig = {
+        //   items: 1,
+        //   loop: true,
+        //   nav: true,
+        //   navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
+        //   startPosition: imageIndex
+        // };
+
+        // var fullScreenCarouselId = `#fullscreenModal${projectModalID }`; 
+
+        // $(fullScreenCarouselId).one($.support.transition.end, '.modal.fade.in', function(e) {
+        //     console.log('coucou');
+        //     $(e.target).find(".fullscreen-modal-content .owl-carousel").owlCarousel(modalFullCarouselConfig);
+        //     $(document).off($.support.transition.end, '.modal.fade.in', this);
+        // });
     }
 </script>

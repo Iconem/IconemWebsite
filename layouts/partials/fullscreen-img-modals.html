@@ -1,5 +1,5 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
-{{ $lang := .Site.Language.Lang }}
+<!-- {{ $lang := .Site.Language.Lang }}
 {{ range $projectIndex, $project := .Site.Data.projects }}
     {{ range $imgIndex, $img := $project.img }}
         <div class="iconem-modal modal fade" id="fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" tabindex="-1" role="dialog" aria-hidden="true">
@@ -11,11 +11,37 @@
             </div>
         </div>
     {{ end }}
+{{ end }} -->
+
+
+{{ $lang := .Site.Language.Lang }}
+{{ range $projectIndex, $project := .Site.Data.projects }}
+    <div class="iconem-modal modal fade" id="fullscreenModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="fullscreen-modal-content">
+            <img src="../img/home/cross.png" class="close-modal" data-dismiss="modal"
+                onclick="restartPreviewCarousel({{ $projectIndex }})"
+            >
+
+            <div class="owl-carousel owl-theme">
+                {{ range $imgIndex, $img := $project.img }}
+                    <div>
+                        <img src="{{ $img.full }}" class="img-responsive">
+                        <div class="img-caption">
+                            {{ index $img.caption $lang }}
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+
+        </div>
+    </div>
 {{ end }}
 
+
 <script type="text/javascript">
-    function restartImageCarousel(projectIndex) {
+    function restartPreviewCarousel(projectIndex) {
         var imgCarouselId = `#project-${projectIndex}-img-carousel`;
+        // $(imgCarouselId).find('.owl-carousel').trigger('to.owl.carousel', []);
         $(imgCarouselId).find('.owl-carousel').trigger('play.owl.autoplay');
     }
 </script>
