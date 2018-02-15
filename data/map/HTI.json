@@ -1,0 +1,30 @@
+{
+  "name": {
+    "en": "HAITI",
+    "fr": "HAITI"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Milot",
+        "fr": "Milot"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Sans-Souci Palace",
+            "fr": "Sans-Souci Palace"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Citadelle Henry christophe",
+            "fr": "Citadelle Henry christophe"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

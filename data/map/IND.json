@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "INDIA",
+    "fr": "INDIA"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Hyderabad",
+        "fr": "Hyderabad"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Qutb Shah",
+            "fr": "Qutb Shah"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "ALBANIA",
+    "fr": "ALBANIA"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Agio Kirikos",
+        "fr": "Agio Kirikos"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Lissos",
+            "fr": "Lissos"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

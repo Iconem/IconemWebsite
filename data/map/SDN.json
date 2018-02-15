@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "SUDAN",
+    "fr": "SUDAN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Sai Island",
+        "fr": "Sai Island"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Sai Island",
+            "fr": "Sai Island"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

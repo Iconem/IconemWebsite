@@ -1,0 +1,65 @@
+{
+  "name": {
+    "en": "UZBEKISTAN",
+    "fr": "UZBEKISTAN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Bukhara oasis",
+        "fr": "Bukhara oasis"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Iskijkat",
+            "fr": "Iskijkat"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Kakishtuvan",
+            "fr": "Kakishtuvan"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Leylac Tepe",
+            "fr": "Leylac Tepe"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Paykend",
+            "fr": "Paykend"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Romitan",
+            "fr": "Romitan"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Shargh",
+            "fr": "Shargh"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Zandani",
+            "fr": "Zandani"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

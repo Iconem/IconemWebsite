@@ -1,185 +1,299 @@
 {
   "name": {
-    "en": "Syria",
-    "fr": "Syrie"
+    "en": "SYRIA",
+    "fr": "SYRIA"
   },
   "places": [
     {
       "name": {
-        "en": "Damascus",
-        "fr": "Palmyre"
+        "en": "Aleppo",
+        "fr": "Aleppo"
       },
       "sites": [
         {
           "name": {
-            "en": "Citadel of Damascus",
-            "fr": "Citadel de Palmyre"
+            "en": "Citadel of Aleppo",
+            "fr": "Citadel of Aleppo"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
-            "en": "Ancient villas of Damascus",
-            "fr": "Musée de Palmyre"
+            "en": "Old City",
+            "fr": "Old City"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
-            "en": "Azem palace",
-            "fr": "Musée de Palmyre"
+            "en": "Suk",
+            "fr": "Suk"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
-            "en": "Umayyad mosque of Damascus",
-            "fr": "Musée de Palmyre"
+            "en": "Umayyad mosque",
+            "fr": "Umayyad mosque"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
-        },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Arouad",
+        "fr": "Arouad"
+      },
+      "sites": [
         {
           "name": {
-            "en": "Damascus museum",
-            "fr": "Musée de Palmyre"
+            "en": "Arouad (in process)",
+            "fr": "Arouad (in process)"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
-        },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Crac des Chevaliers",
+        "fr": "Crac des Chevaliers"
+      },
+      "sites": [
         {
           "name": {
-            "en": "Damascus old town",
-            "fr": "Musée de Palmyre"
+            "en": "Crac des Chevaliers",
+            "fr": "Crac des Chevaliers"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
-        },
-        {
-          "name": {
-            "en": "Khan Assad Bacha",
-            "fr": "Musée de Palmyre"
-          },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         }
       ]
     },
     {
       "name": {
         "en": "Damascus",
-        "fr": "Palmyre"
+        "fr": "Damascus"
       },
       "sites": [
         {
           "name": {
-            "en": "Citadel of Damascus",
-            "fr": "Citadel de Palmyre"
-          },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
-        },
-        {
-          "name": {
             "en": "Ancient villas of Damascus",
-            "fr": "Musée de Palmyre"
+            "fr": "Ancient villas of Damascus"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
             "en": "Azem palace",
-            "fr": "Musée de Palmyre"
+            "fr": "Azem palace"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
-            "en": "Umayyad mosque of Damascus",
-            "fr": "Musée de Palmyre"
+            "en": "Citadel of Damascus",
+            "fr": "Citadel of Damascus"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
-        },
-        {
-          "name": {
-            "en": "Damascus museum",
-            "fr": "Musée de Palmyre"
-          },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
             "en": "Damascus old town",
-            "fr": "Musée de Palmyre"
+            "fr": "Damascus old town"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
-            "en": "Khan Assad Bacha",
-            "fr": "Musée de Palmyre"
+            "en": "Khan Assad Bacha (in process)",
+            "fr": "Khan Assad Bacha (in process)"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Umayyad mosque",
+            "fr": "Umayyad mosque"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fortress of Saladin",
+        "fr": "Fortress of Saladin"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Fortress of Saladin",
+            "fr": "Fortress of Saladin"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hosn Suleiman",
+        "fr": "Hosn Suleiman"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Hosn Suleiman (in process)",
+            "fr": "Hosn Suleiman (in process)"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jableh theatre",
+        "fr": "Jableh theatre"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Jableh theatre",
+            "fr": "Jableh theatre"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Latakia",
+        "fr": "Latakia"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Latakia museum",
+            "fr": "Latakia museum"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Masyaf",
+        "fr": "Masyaf"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Masyaf",
+            "fr": "Masyaf"
+          },
+          "projectsId": []
         }
       ]
     },
     {
       "name": {
         "en": "Palmyra",
-        "fr": "Palmyre"
+        "fr": "Palmyra"
       },
       "sites": [
         {
           "name": {
             "en": "Citadel of Palmyra",
-            "fr": "Citadel de Palmyre"
+            "fr": "Citadel of Palmyra"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Monumental Arch",
+            "fr": "Monumental Arch"
+          },
+          "projectsId": []
         },
         {
           "name": {
             "en": "Museum of Palmyra",
-            "fr": "Musée de Palmyre"
+            "fr": "Museum of Palmyra"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
             "en": "Palmyra site in its entirety",
-            "fr": "Musée de Palmyre"
+            "fr": "Palmyra site in its entirety"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
             "en": "Temple of Baalshamin",
-            "fr": "Musée de Palmyre"
+            "fr": "Temple of Baalshamin"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
             "en": "Temple of Bel",
-            "fr": "Musée de Palmyre"
+            "fr": "Temple of Bel"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         },
         {
           "name": {
             "en": "Valley of Tombs",
-            "fr": "Musée de Palmyre"
+            "fr": "Valley of Tombs"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
         }
       ]
     },
     {
       "name": {
-        "en": "Palmyra",
-        "fr": "Palmyre"
+        "en": "Safita",
+        "fr": "Safita"
       },
       "sites": [
         {
           "name": {
-            "en": "Monumental Arch",
-            "fr": "Citadel de Palmyre"
+            "en": "Safita (in process)",
+            "fr": "Safita (in process)"
           },
-          "projectsId": ["01_project_name", "02_project_name", "03"]
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Tartus",
+        "fr": "Tartus"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Amrit",
+            "fr": "Amrit"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ugarit",
+        "fr": "Ugarit"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Ugarit",
+            "fr": "Ugarit"
+          },
+          "projectsId": []
         }
       ]
     }
