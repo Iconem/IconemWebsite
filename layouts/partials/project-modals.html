@@ -49,7 +49,7 @@
 
                 <div class="project-media-container">
                     {{ with (index $project.img 0) }}
-                        <img class="img-responsive dummy" src="{{ .src }}">
+                        <img class="img-responsive dummy" src="{{ .preview }}">
                     {{ end }}
                     <div class="panel-group project-media" id="project-{{$projectIndex}}-media" role="tablist" aria-multiselectable="false">
 
@@ -62,7 +62,7 @@
                                 <div class="owl-carousel owl-theme">
                                     {{ range $imgIndex, $img := $project.img }}
                                         <div>
-                                            <img src="{{ $img.src }}" class="img-responsive">
+                                            <img src="{{ $img.preview }}" class="img-responsive">
                                             <div class="img-caption">
                                                 {{ index $img.caption $lang }}
                                                 <a href="#fullscreenModal{{ $project.modalID }}-img-{{$imgIndex}}" class="img-fullscreen-btn" data-toggle="modal"

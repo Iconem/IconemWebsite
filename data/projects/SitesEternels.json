@@ -23,70 +23,80 @@
   },
   "img": [
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture01.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture01.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture01.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture02.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture02.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture02.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture03.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture03.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture03.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture04.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture04.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture04.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture05.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture05.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture05.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture06.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture06.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture06.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture07.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture07.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture07.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture08.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture08.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture08.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture09.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture09.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture09.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"
       }
     },
     {
-      "src": "../img/projects/SitesEternels/SitesEternels_Picture10.jpg",
+      "preview": "../img/projects/SitesEternels/SitesEternels_Picture10.jpg",
+      "full": "../img/projects/SitesEternels/SitesEternels_Picture10.jpg",
       "caption": {
         "en": "© Sylvain Roca",
         "fr": "© Sylvain Roca"

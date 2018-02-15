@@ -23,28 +23,32 @@
   },
   "img": [
   	{
-      "src": "../img/projects/01/01.png",
+      "preview": "../img/projects/01/01.png",
+      "full": "../img/projects/01/01.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "src": "../img/projects/01/02.png",
+      "preview": "../img/projects/01/02.png",
+      "full": "../img/projects/01/02.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "src": "../img/projects/01/03.png",
+      "preview": "../img/projects/01/03.png",
+      "full": "../img/projects/01/03.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "src": "../img/projects/01/04.png",
+      "preview": "../img/projects/01/04.png",
+      "full": "../img/projects/01/04.png",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
