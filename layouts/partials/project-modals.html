@@ -65,10 +65,11 @@
                                             <img src="{{ $img.preview }}" class="img-responsive">
                                             <div class="img-caption">
                                                 {{ index $img.caption $lang }}
-                                                <a href="#fullscreenModal{{ $project.modalID }}" class="img-fullscreen-btn" data-toggle="modal"
-                                                onclick="stopPreviewCarousel({{ $projectIndex }});initFullCarousel({{ $project.modalID }}, {{ $imgIndex }})">
+                                                <div class="img-fullscreen-btn"
+                                                onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
+                                                >
                                                     <i class="fa fa-expand fa"></i>
-                                                </a>
+                                                </div>
                                             </div>
                                         </div>
                                     {{ end }}
@@ -138,26 +139,42 @@
 
 <script type="text/javascript">
     function stopPreviewCarousel(projectIndex) {
-        var imgCarouselId = `#project-${projectIndex}-img-carousel`;
-        $(imgCarouselId).find('.owl-carousel').trigger('stop.owl.autoplay');
+        var id = `#project-${projectIndex }-img-carousel`;
+        $(id).find('.owl-carousel.preview-img-carousel').trigger('stop.owl.autoplay');
     }
 
-    function initFullCarousel(projectModalId, imageIndex) {
-        console.log('INIT FULL CAROUSEL');
-        // var modalFullCarouselConfig = {
-        //   items: 1,
-        //   loop: true,
-        //   nav: true,
-        //   navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
-        //   startPosition: imageIndex
-        // };
+    function toggleFullScreenCarousel(carouselId) {
+        $(carouselId).find('.owl-carousel').trigger('stop.owl.autoplay');
 
-        // var fullScreenCarouselId = `#fullscreenModal${projectModalID }`; 
+        if ($(carouselId).find('.owl-carousel').hasClass('full')) {
+            $(carouselId).find('.owl-carousel')
+            .removeClass('full')
+            .css('width', 'initial')
+            .css('height', 'initial')
+            .css('position', 'initial')
+            .css('top', 'initial')
+            .css('left', 'initial');
 
-        // $(fullScreenCarouselId).one($.support.transition.end, '.modal.fade.in', function(e) {
-        //     console.log('coucou');
-        //     $(e.target).find(".fullscreen-modal-content .owl-carousel").owlCarousel(modalFullCarouselConfig);
-        //     $(document).off($.support.transition.end, '.modal.fade.in', this);
-        // });
+            $(carouselId).find('.owl-carousel .owl-item')
+            .css('width', 'initial')
+            .css('height', 'initial')
+
+            $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
+        } else {
+            $(carouselId).find('.owl-carousel')
+            .addClass('full')
+            .css('width', window.innerWidth)
+            .css('height', window.innerHeight)
+            .css('position', 'fixed')
+            .css('top', 0)
+            .css('left', 0);
+
+            $(carouselId).find('.owl-carousel .owl-item')
+            .css('width', window.innerWidth)
+            .css('height', window.innerHeight)
+            .css('background-color', 'black')
+
+            $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
+        }
     }
 </script>

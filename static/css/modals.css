@@ -210,6 +210,10 @@ body {
     position: relative;
 }
 
+.iconem-modal .owl-carousel.owl-theme.jojo {
+    border: 2px solid red;
+}
+
 .iconem-modal .owl-theme .owl-nav {
     height: 100%;
     position: absolute;
