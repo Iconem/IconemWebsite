@@ -159,15 +159,12 @@
         $(carouselId).find('.owl-carousel').trigger('stop.owl.autoplay');
 
         if ($(carouselId).find('.owl-carousel').hasClass('full')) {
-            window.removeEventListener('resize', toRemove, true);
+            window.removeEventListener('resize', resizeHandler, true);
 
             $(carouselId).find('.owl-carousel')
             .removeClass('full')
             .css('width', 'initial')
             .css('height', 'initial')
-            .css('position', 'initial')
-            .css('top', 'initial')
-            .css('left', 'initial');
 
             $(carouselId).find('.owl-carousel .owl-item')
             .css('width', 'initial')
@@ -191,9 +188,6 @@
         } else {
             $(carouselId).find('.owl-carousel')
             .addClass('full')
-            .css('position', 'fixed')
-            .css('top', 0)
-            .css('left', 0);
 
             $(carouselId).find('.owl-carousel .owl-item > div')
             .css('position', 'relative')
@@ -211,7 +205,7 @@
 
             resizeFull(carouselId);
 
-            window.addEventListener('resize', toRemove=function(){ resizeFull(carouselId); }, true);
+            window.addEventListener('resize', resizeHandler=function(){ resizeFull(carouselId); }, true);
         }
     }
 </script>

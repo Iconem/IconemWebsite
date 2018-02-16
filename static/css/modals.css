@@ -211,11 +211,17 @@ body {
     z-index:11 !important;
 }
 
+.iconem-modal .owl-carousel.owl-theme.full {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .iconem-modal .owl-carousel.owl-theme .owl-item {
     background-color: black;
 }
 
-.iconem-modal .owl-theme .owl-nav {
+.iconem-modal .owl-carousel.owl-theme .owl-nav {
     height: 100%;
     position: absolute;
     top: 0;
@@ -228,8 +234,8 @@ body {
     pointer-events: none;
 }
 
-.iconem-modal .owl-theme .owl-nav .owl-prev,
-.iconem-modal .owl-theme .owl-nav .owl-next {
+.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev,
+.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-next {
     margin: 0;
     height: 50px;
     width: 50px;
@@ -244,22 +250,39 @@ body {
     pointer-events: initial;
 }
 
-.iconem-modal .owl-theme .owl-nav .owl-prev:hover,
-.iconem-modal .owl-theme .owl-nav .owl-next:hover {
-    color: black;
-    opacity: 0.3;
-    background-color: transparent;
+.iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-prev,
+.iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-next {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
 }
 
-.iconem-modal .owl-theme .owl-nav .owl-prev {
+.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev:hover,
+.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-next:hover {
+    color: rgba(0,0,0,0.4);
+}
+
+.iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-prev:hover,
+.iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-next:hover {
+    color: rgba(255,255,255,0.4);
+}
+
+.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev {
     transform: translateX(-100%);
 }
 
-.iconem-modal .owl-theme .owl-nav .owl-next {
+.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-next {
     transform: translateX(100%);
 }
 
-.iconem-modal .owl-theme .owl-dots {
+.iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-prev {
+    transform: unset;
+}
+
+.iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-next {
+    transform: unset;
+}
+
+.iconem-modal .owl-carousel.owl-theme .owl-dots {
     margin: 0!important;
     position: absolute;
     top: 0;
