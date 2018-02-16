@@ -208,10 +208,11 @@ body {
 
 .iconem-modal .owl-carousel.owl-theme {
     position: relative;
+    z-index:11 !important;
 }
 
-.iconem-modal .owl-carousel.owl-theme.jojo {
-    border: 2px solid red;
+.iconem-modal .owl-carousel.owl-theme .owl-item {
+    background-color: black;
 }
 
 .iconem-modal .owl-theme .owl-nav {

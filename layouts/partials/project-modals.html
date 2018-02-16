@@ -62,13 +62,13 @@
                                 <div class="owl-carousel owl-theme preview-img-carousel">
                                     {{ range $imgIndex, $img := $project.img }}
                                         <div>
-                                            <img src="{{ $img.preview }}" class="img-responsive">
+                                            <img src="{{ $img.full }}" class="img-responsive">
                                             <div class="img-caption">
                                                 {{ index $img.caption $lang }}
                                                 <div class="img-fullscreen-btn"
                                                 onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
                                                 >
-                                                    <i class="fa fa-expand fa"></i>
+                                                    <i class="fa fa-expand"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,10 +143,24 @@
         $(id).find('.owl-carousel.preview-img-carousel').trigger('stop.owl.autoplay');
     }
 
+    function resizeFull(carouselId) {
+        $(carouselId).find('.owl-carousel')
+        .css('width', window.innerWidth)
+        .css('height', window.innerHeight);
+
+        $(carouselId).find('.owl-carousel .owl-item')
+        .css('width', window.innerWidth)
+        .css('height', window.innerHeight);
+
+        $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
+    }
+
     function toggleFullScreenCarousel(carouselId) {
         $(carouselId).find('.owl-carousel').trigger('stop.owl.autoplay');
 
         if ($(carouselId).find('.owl-carousel').hasClass('full')) {
+            window.removeEventListener('resize', toRemove, true);
+
             $(carouselId).find('.owl-carousel')
             .removeClass('full')
             .css('width', 'initial')
@@ -157,24 +171,47 @@
 
             $(carouselId).find('.owl-carousel .owl-item')
             .css('width', 'initial')
-            .css('height', 'initial')
+            .css('height', 'initial');
+
+            $(carouselId).find('.owl-carousel .owl-item > div')
+            .css('position', 'initial')
+            .css('height', 'initial');
+
+            $(carouselId).find('.owl-carousel .owl-item div img')
+            .css('position', 'initial')
+            .css('top', 'initial')
+            .css('left', 'initial')
+            .css('transform', 'initial');
+
+            $(carouselId).find('.owl-carousel i')
+            .removeClass('fa-compress')
+            .addClass('fa-expand');
 
             $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
         } else {
             $(carouselId).find('.owl-carousel')
             .addClass('full')
-            .css('width', window.innerWidth)
-            .css('height', window.innerHeight)
             .css('position', 'fixed')
             .css('top', 0)
             .css('left', 0);
 
-            $(carouselId).find('.owl-carousel .owl-item')
-            .css('width', window.innerWidth)
-            .css('height', window.innerHeight)
-            .css('background-color', 'black')
+            $(carouselId).find('.owl-carousel .owl-item > div')
+            .css('position', 'relative')
+            .css('height', '100%');
 
-            $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
+            $(carouselId).find('.owl-carousel .owl-item div img')
+            .css('position', 'absolute')
+            .css('top', '50%')
+            .css('left', '50%')
+            .css('transform', 'translateY(-50%) translateX(-50%)');
+
+            $(carouselId).find('.owl-carousel i')
+            .removeClass('fa-expand')
+            .addClass('fa-compress');
+
+            resizeFull(carouselId);
+
+            window.addEventListener('resize', toRemove=function(){ resizeFull(carouselId); }, true);
         }
     }
 </script>

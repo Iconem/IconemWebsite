@@ -17,10 +17,6 @@ body {
     -webkit-tap-highlight-color: #222;
 }
 
-body.modal-open {
-    overflow: initial;
-}
-
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
