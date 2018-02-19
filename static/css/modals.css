@@ -190,6 +190,20 @@ body {
     align-items: center;
 }
 
+.iconem-modal .owl-carousel.owl-theme + .img-cross {
+    position:fixed;
+    top:10px;
+    right:10px;
+    display: none;
+    color: white;
+    z-index: 12;
+    cursor: pointer;
+}
+
+.iconem-modal .owl-carousel.owl-theme.full + .img-cross {
+    display: block;
+}
+
 .iconem-modal .project-media .img-caption .img-fullscreen-btn {
     width: 30px;
     height: 30px;
@@ -198,8 +212,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    border: 1px solid white;
     border-radius: 15%;
+    cursor: pointer;
 }
 
 .iconem-modal .project-media .img-caption .img-fullscreen-btn:hover {

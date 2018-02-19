@@ -20,7 +20,7 @@
         {{ range $projectIndex := .Site.Data.carousel.projectList }}
             {{ $project := (index $.Site.Data.projects $projectIndex) }}
             <div class="project-slide">
-                <a href="#portfolioModal{{ $project.modalID }}" class="photo-box" data-toggle="modal">
+                <a href="#portfolioModal{{ $project.modalID }}" class="photo-box" data-toggle="modal" data-keyboard="false">
                     {{ with $project.thumbnail }}
                         <img src="{{ . }}" class="img-responsive" alt="">
                     {{ end }}

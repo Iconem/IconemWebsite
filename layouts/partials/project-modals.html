@@ -68,11 +68,14 @@
                                                 <div class="img-fullscreen-btn"
                                                 onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
                                                 >
-                                                    <i class="fa fa-expand"></i>
+                                                    <img src="../img/projects/icons/fullScreen_white.png">
                                                 </div>
                                             </div>
                                         </div>
                                     {{ end }}
+                                </div>
+                                <div class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
+                                    COUCOU
                                 </div>
                             </div>
                         </div>
@@ -160,6 +163,7 @@
 
         if ($(carouselId).find('.owl-carousel').hasClass('full')) {
             window.removeEventListener('resize', resizeHandler, true);
+            window.removeEventListener('keyup', keyupHandler, true);
 
             $(carouselId).find('.owl-carousel')
             .removeClass('full')
@@ -180,32 +184,37 @@
             .css('left', 'initial')
             .css('transform', 'initial');
 
-            $(carouselId).find('.owl-carousel i')
-            .removeClass('fa-compress')
-            .addClass('fa-expand');
+            // $(carouselId).find('.owl-carousel i')
+            // .removeClass('fa-compress')
+            // .addClass('fa-expand');
 
             $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
         } else {
             $(carouselId).find('.owl-carousel')
-            .addClass('full')
+            .addClass('full');
 
             $(carouselId).find('.owl-carousel .owl-item > div')
             .css('position', 'relative')
             .css('height', '100%');
 
-            $(carouselId).find('.owl-carousel .owl-item div img')
+            $(carouselId).find('.owl-carousel .owl-item > div > img')
             .css('position', 'absolute')
             .css('top', '50%')
             .css('left', '50%')
             .css('transform', 'translateY(-50%) translateX(-50%)');
 
-            $(carouselId).find('.owl-carousel i')
-            .removeClass('fa-expand')
-            .addClass('fa-compress');
+            // $(carouselId).find('.owl-carousel i')
+            // .removeClass('fa-expand')
+            // .addClass('fa-compress');
 
             resizeFull(carouselId);
 
             window.addEventListener('resize', resizeHandler=function(){ resizeFull(carouselId); }, true);
+            window.addEventListener('keyup', keyupHandler=function (e) {
+                if (e.keyCode === 27 && $(carouselId).find('.owl-carousel').hasClass('full')) {
+                    toggleFullScreenCarousel(carouselId);
+                }
+            }, true);
         }
     }
 </script>

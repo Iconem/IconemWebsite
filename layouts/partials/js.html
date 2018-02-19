@@ -155,11 +155,31 @@
       }
     });
 
+    // We init the carrousel element of the tab we are currently displaying, once it is visible
     $('.panel').on('shown.bs.collapse',  (e) => {
-      // We init the carrousel element of the tab we are currently displaying, once it is visible
-      $('.owl-carousel.preview-carousel').owlCarousel(modalPreviewCarouselConfig);
-      $('.owl-carousel.video-carousel').owlCarousel(modalVideoCarouselConfig);
-      $('.owl-carousel.3d-carousel').owlCarousel(modal3DCarouselConfig);
+      var panelCarousel = $(e.target).find('.owl-carousel').first();
+      if (panelCarousel.hasClass('preview-carousel')) {
+        panelCarousel.owlCarousel(modalPreviewCarouselConfig);
+      } else if (panelCarousel.hasClass('video-carousel')) {
+        panelCarousel.owlCarousel(modalVideoCarouselConfig);
+      } else if (panelCarousel.hasClass('3d-carousel')) {
+        panelCarousel.owlCarousel(modal3DCarouselConfig);
+      }
     });
+
+    // handle carousel navigation using keyboard arrows
+    $(document).keyup(function (e) {
+      if (e.keyCode === 37) {
+        //left arrow
+        var currentlyOpenCarousel = $('.modal.fade.in .collapse.in .owl-carousel').first();
+        currentlyOpenCarousel.trigger('prev.owl.carousel');
+      }
+      if (e.keyCode === 39) {
+        //rightarrow
+        var currentlyOpenCarousel = $('.modal.fade.in .collapse.in .owl-carousel').first();
+        currentlyOpenCarousel.trigger('next.owl.carousel');
+      }
+    });
+
   });
 </script>
