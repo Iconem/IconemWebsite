@@ -101,4 +101,23 @@ The file `./data/about/team.yaml` contains the list of all team members (in orde
 Main page's texts can be found in the file `./config.toml` (in French & in English). Other page's texts can be found in `./data` files. For example, the "Hardware" page's text is in `./data/about/hardware.yaml`.
 
 
+## 2. Developer's guide
+
+### 2.1. Installation
+
+This site was built using Hugo v0.32.4 for windows.
+<br/>
+To launch the dev mode : `hugo server`
+To build site into `./dist` folder : `hugo`
+
+### 2.2. Folder organization
+
+- **\_mockups** : Mockups & .psd for image generation (not used by Hugo for building site)
+- **archetypes** : Generic Hugo folder. Useless here but should be kept.
+- **content** : Generic Hugo folder. Useless here but should be kept.
+- **data** : Front-matter files.
+- **layouts** : GoJS/HTML templates.
+- **static** : Static files.
+- **config.toml** : Main configuration file (languages, sections, etc)
+
 
