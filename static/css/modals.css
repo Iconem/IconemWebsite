@@ -43,6 +43,7 @@ body {
     height: 100%;
     padding: 30px 15px;
     display: flex;
+    min-height: 0;
     flex-direction: column;
 }
 
@@ -68,6 +69,7 @@ body {
 /* MODAL SCROLLABLE CONTENT */
 .iconem-modal .modal-content .modal-body .modal-scrollable {
     display: flex;
+    min-height: 0;
     flex-direction: column;
     flex-grow: 0;
     overflow-y: scroll;
@@ -125,6 +127,7 @@ body {
 .iconem-modal .project-media-container {
     position:relative;
     display: flex;
+    min-height: 0;
 }
 
 .iconem-modal .project-media-container .dummy {
@@ -187,6 +190,7 @@ body {
     width: 100%;
     color:rgba(255,255,255,0.5);
     display: flex;
+    min-height: 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -210,6 +214,7 @@ body {
     width: 28px;
     height: 28px;
     display: flex;
+    min-height: 0;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -235,6 +240,7 @@ body {
 
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item > div {
     display: flex;
+    min-height: 0;
 }
 
 .iconem-modal .owl-carousel.owl-theme.full {
@@ -258,6 +264,7 @@ body {
     top: 0;
     width: 100%;
     display: flex;
+    min-height: 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -271,6 +278,7 @@ body {
     height: 50px;
     width: 50px;
     display: flex;
+    min-height: 0;
     flex-direction: row;
     align-items: center;
     justify-content: center;
