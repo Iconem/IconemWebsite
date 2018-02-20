@@ -56,14 +56,12 @@
     }
   ],
   "video": [ 
-    "../img/projects/02/01.png",
-    "../img/projects/02/02.png",
-    "../img/projects/02/03.png"
+    "https://vimeo.com/196717531",
+    "https://www.youtube.com/watch?v=O9iFGZYFJ3o"
   ],
   "models": [ 
-    "../img/projects/03/01.png",
-    "../img/projects/03/02.png",
-    "../img/projects/03/03.png"
+    "https://sketchfab.com/models/c4a136bd27f94bcaa4502079c40b158c",
+    "https://sketchfab.com/models/02c4e194c6d64a4385a30990ed9899bf"
   ],
   "description": { 
     "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",

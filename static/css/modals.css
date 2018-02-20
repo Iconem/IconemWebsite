@@ -223,6 +223,13 @@ body {
 .iconem-modal .owl-carousel.owl-theme {
     position: relative;
     z-index:11 !important;
+    height: calc(100% - 50px);
+}
+
+.iconem-modal .owl-carousel.owl-theme .owl-stage-outer,
+.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage,
+.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item {
+    height: 100%;
 }
 
 .iconem-modal .owl-carousel.owl-theme.full {
