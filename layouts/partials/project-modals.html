@@ -163,22 +163,12 @@
 
             $(carouselId).find('.owl-carousel')
             .removeClass('full')
-            .css('width', 'initial')
-            .css('height', 'initial')
+            .css('width', '')
+            .css('height', '')
 
             $(carouselId).find('.owl-carousel .owl-item')
-            .css('width', 'initial')
-            .css('height', 'initial');
-
-            $(carouselId).find('.owl-carousel .owl-item > div')
-            .css('position', 'initial')
-            .css('height', 'initial');
-
-            $(carouselId).find('.owl-carousel .owl-item div img')
-            .css('position', 'initial')
-            .css('top', 'initial')
-            .css('left', 'initial')
-            .css('transform', 'initial');
+            .css('width', '')
+            .css('height', '');
 
             // $(carouselId).find('.owl-carousel i')
             // .removeClass('fa-compress')
@@ -188,16 +178,6 @@
         } else {
             $(carouselId).find('.owl-carousel')
             .addClass('full');
-
-            $(carouselId).find('.owl-carousel .owl-item > div')
-            .css('position', 'relative')
-            .css('height', '100%');
-
-            $(carouselId).find('.owl-carousel .owl-item > div > img')
-            .css('position', 'absolute')
-            .css('top', '50%')
-            .css('left', '50%')
-            .css('transform', 'translateY(-50%) translateX(-50%)');
 
             // $(carouselId).find('.owl-carousel i')
             // .removeClass('fa-expand')

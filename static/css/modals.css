@@ -102,6 +102,7 @@ body {
     min-height: 0;
     border: none;
     padding: 0;
+    max-height: 50%;
 }
 
 .iconem-modal .modal-content .modal-body .modal-fixed .modal-img-simple {
@@ -123,6 +124,7 @@ body {
 
 .iconem-modal .project-media-container {
     position:relative;
+    display: flex;
 }
 
 .iconem-modal .project-media-container .dummy {
@@ -226,8 +228,13 @@ body {
 
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer,
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage,
-.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item {
+.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item,
+.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item > div {
     height: 100%;
+}
+
+.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item > div {
+    display: flex;
 }
 
 .iconem-modal .owl-carousel.owl-theme.full {
@@ -235,6 +242,11 @@ body {
     top: 0;
     left: 0;
 }
+
+.iconem-modal .owl-carousel.owl-theme .owl-item img {
+    object-fit: contain;
+}
+
 
 .iconem-modal .owl-carousel.owl-theme .owl-item {
     background-color: black;
