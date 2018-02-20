@@ -105,10 +105,11 @@ Main page's texts can be found in the file `./config.toml` (in French & in Engli
 
 ### 2.1. Installation
 
-This site was built using Hugo v0.32.4 for windows.
+This site was built using Hugo `v0.32.4` for windows.
 <br/>
-To launch the dev mode : `hugo server`
-To build site into `./dist` folder : `hugo`
+To launch the dev mode : `hugo server`.
+<br/>
+To build site into `./dist` folder : `hugo`.
 
 ### 2.2. Folder organization
 
@@ -118,6 +119,11 @@ To build site into `./dist` folder : `hugo`
 - **data** : Front-matter files.
 - **layouts** : GoJS/HTML templates.
 - **static** : Static files.
-- **config.toml** : Main configuration file (languages, sections, etc)
+- **config.toml** : Main configuration file (baseUrl, languages, sections, etc)
+
+### 2.3. Add a language
+
+In `./config.toml`, search for any field of the type `[languages.en.$param]`. Simply copy it under the name `[languages.$language_code.$param]` to add a new language to the site.
+
 
 
