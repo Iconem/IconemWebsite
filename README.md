@@ -1,8 +1,8 @@
 # Iconem Website
 
-## Howtos
+## 1. Howtos
 
-### Add a project to the main page
+### 1.1. Add a project to the main page
 
 1. Go to the folder `./data/projects` and copy any of the existing `.json` file into `${new-project}.json`.
 2. Modify each field of the file to fit your needs :
@@ -42,9 +42,20 @@
 ]
 ```
 
-### Add a project to the map
+### 1.2. Add a project to the map
 
-### Add a client to the main page
+Map projects are listed by country in the folder `./data/map`. There is one file per country, that looks like :
+- **name**\* : The country's name (in French & in English)
+- **places**\* : A list of regions/cities where projects took place
+  - **place.name**\* : The place's name, in French & in English (ex : "Aleppo/Alep")
+  - **place.sites**\* : A list of sites in this place 
+    - **place.site.name**\* : The site's name, in French & in English (ex : "Citadel/Citadelle", "Old City/Vieille Ville", etc)
+    
+ <br/>
+ 
+ - **/!\ Country files should be named `${countryID}.json`, with `${countryId}` the id of the corresponding svg map element**
+
+### 1.3. Add a client to the main page
 
 1. Go to the folder `./data/clients` and copy any of the existing `.yaml` file into `${new-client}.yaml`.
 2. Modify each field of the file to fit your needs :
@@ -60,13 +71,16 @@
 - **/!\ The logos should**
     - **be in .png format (with transparent background)**
     - **be 100x50px**
+    
+<br/>
+    
 Clients are displayed in `./data/clients` file order. 
 
-### Add a partner to the main page
+### 1.4. Add a partner to the main page
 
 Idem clients, but in folder `./data/partners`.
 
-### Modify team members
+### 1.5. Modify team members
 
 The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
 - **name**\*
@@ -82,9 +96,9 @@ The file `./data/about/team.yaml` contains the list of all team members (in orde
     - **be black & white**
     - **be 300x300px**
 
-### Modify texts
+### 1.6. Modify texts
 
-
+Main page's texts can be found in the file `./config.toml` (in French & in English). Other page's texts can be found in `./data` files. For example, the "Hardware" page's text is in `./data/about/hardware.yaml`.
 
 
 
