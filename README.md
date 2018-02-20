@@ -19,6 +19,7 @@
 - **models** : A list of links to Sketchfab models to display on the project's page
 - **description**\* : The project's description (in French & in English)
 
+<br />
 
 - **/!\ All fields marked with \* are mandatory.**
 - **/!\ Images should be located in the folder `./static/img/projects/${new-project}`**
@@ -52,6 +53,7 @@
 - **icon**\* : The location of the client's logo (with "website-friendly" colors)
 - **icon\_active**\* : The location of the client's logo (with "real" colors)
 
+<br />
 
 - **/!\ All fields marked with \* are mandatory.**
 - **/!\ Logos should be located in the folder `./static/img/clients`**
@@ -65,6 +67,20 @@ Clients are displayed in `./data/clients` file order.
 Idem clients, but in folder `./data/partners`.
 
 ### Modify team members
+
+The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
+- **name**\*
+- **job**\* (in French & in English)
+- **img**\* : The location of the photo
+- **description**\* (in French & in English)
+
+<br/>
+
+- **/!\ All fields marked with \* are mandatory.**
+- **/!\ Photos should be located in the folder `./static/img/about/team_members`**
+- **/!\ The photos should**
+    - **be black & white**
+    - **be 300x300px**
 
 ### Modify texts
 
