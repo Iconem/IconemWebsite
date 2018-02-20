@@ -1,8 +1,19 @@
-# Creative Theme
+# Iconem Website
 
-Creative Theme is a one page portfolio for creatives based on the [original Bootstrap theme](//github.com/IronSummitMedia/startbootstrap-creative) by [David Miller](//github.com/davidtmiller). Noteworthy features of this Hugo theme are several content sections and a responsive portfolio grid with hover effects and full page portfolio item modals.
-
-![Hugo Creative Theme Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-creative-theme/dev/images/screenshot.png)
+## Add a project
+To add a project, go to folder ./data/projects and copy any of the existing .json file.
+Modify each field of the file to fit your needs :
+- modalID\* : An identifier for the project
+- title\* : The project's title (in French & in English)
+- date : The project's date 
+- category : The project's category (ex: "Exhibition")
+- thumbnail\* : The photo that should appear on the site in the "OUR MISSIONS/PROJECTS" section
+- img : A list of images to display along with the project's description
+    - img.src\* : the location of the image (image should be located in the folder ./static/img)
+    - img.caption : the image's description (in French & in English)
+- video : A list of links to Youtube/Vimeo videos to display along with the project's description
+- models : A list of links to Sketchfab models to display along with project's description (/!\ Don't forget the "/embed" at the end of the link)
+- description\* : The project's description (in French & in English)
 
 
 ## Installation
