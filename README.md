@@ -26,6 +26,10 @@
 - **/!\ The thumbnail image should**
     - **be 720x405px**
     - **be desaturated (cf .psd files in the folder ./templates)**
+    - **be in .jpg format, with 75% compression**
+- **/!\ The project images should**
+    - **be 1920x800px(landscape) or 608x1080px (portrait)**
+    - **be in .jpg format, with 75% compression**
 - **/!\ Don't forget the "/embed" at the end Sketchfab links**
 
 3. Add your new project's file name into the file `./data/carousel/projectList.json`. The projects are displayed according to this list's order. For example, if you want to add your `${new-project}.json`in third, `./data/carousel/projectList.json` should look like :
