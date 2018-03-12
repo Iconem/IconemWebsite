@@ -198,8 +198,8 @@ body {
 
 .iconem-modal .owl-carousel.owl-theme + .img-cross {
     position:fixed;
-    top:10px;
-    right:10px;
+    top:25px;
+    right:25px;
     display: none;
     color: white;
     z-index: 12;
@@ -210,6 +210,11 @@ body {
     display: block;
 }
 
+.iconem-modal .owl-carousel.owl-theme.full + .img-cross:hover {
+    opacity: 0.3;
+}
+
+
 .iconem-modal .project-media .img-caption .img-fullscreen-btn {
     width: 28px;
     height: 28px;
@@ -219,10 +224,15 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background: url('../img/projects/icons/fullScreen_white.png')  
 }
 
 .iconem-modal .project-media .img-caption .img-fullscreen-btn:hover {
-    /*background-color: rgba(255,255,255,0.2);*/
+    opacity: 0.3;
+}
+
+.iconem-modal .owl-carousel.owl-theme.full .img-caption .img-fullscreen-btn {
+    background: url('../img/projects/icons/fullScreenExit_white.png');
 }
 
 .iconem-modal .owl-carousel.owl-theme {
