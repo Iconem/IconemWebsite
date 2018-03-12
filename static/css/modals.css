@@ -104,7 +104,7 @@ body {
     min-height: 0;
     border: none;
     padding: 0;
-    max-height: 50%;
+    /*max-height: 50%;*/
 }
 
 .iconem-modal .modal-content .modal-body .modal-fixed .modal-img-simple {
@@ -112,6 +112,10 @@ body {
 }
 
 /* MEDIAS CAROUSEL */
+.iconem-modal .project-media-icons-container {
+    margin-bottom: 30px;
+}
+
 .iconem-modal .project-media-icons-container a img{
     margin: 0 5px 10px;
 }
@@ -126,13 +130,12 @@ body {
 
 .iconem-modal .project-media-container {
     position:relative;
-    display: flex;
-    min-height: 0;
 }
 
 .iconem-modal .project-media-container .dummy {
+    width: 100%;
+    height: auto;
     opacity: 0;
-    margin-top: 50px;
 }
 
 .iconem-modal .project-media.panel-group {
@@ -238,7 +241,7 @@ body {
 .iconem-modal .owl-carousel.owl-theme {
     position: relative;
     z-index:11 !important;
-    height: calc(100% - 50px);
+    height: 100%;
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer,
@@ -260,6 +263,13 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-item img {
+    height: 100%;
+    width: auto;
+    margin: auto;
+    object-fit: unset;
+}
+
+.iconem-modal .owl-carousel.owl-theme.full .owl-item img {
     object-fit: contain;
 }
 
