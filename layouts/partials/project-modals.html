@@ -68,7 +68,6 @@
                                                 <div class="img-fullscreen-btn"
                                                 onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
                                                 >
-                                                    <!-- <img src="../img/projects/icons/fullScreen_white.png"> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -116,7 +115,9 @@
             </div>
             <div class="modal-scrollable text-justify">
                 <strong>2017</strong>
-                <i>Exposition au Grand Palais</i>
+                {{ with $project.subtitle }}
+                    <i>{{ index . $lang }}</i>
+                {{ end }}
                 <div>
                     <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
                     <span>{{ index $project.actors $lang }}</span>
@@ -168,18 +169,10 @@
             .css('width', '')
             .css('height', '');
 
-            // $(carouselId).find('.owl-carousel i')
-            // .removeClass('fa-compress')
-            // .addClass('fa-expand');
-
             $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
         } else {
             $(carouselId).find('.owl-carousel')
             .addClass('full');
-
-            // $(carouselId).find('.owl-carousel i')
-            // .removeClass('fa-expand')
-            // .addClass('fa-compress');
 
             resizeFull(carouselId);
 
