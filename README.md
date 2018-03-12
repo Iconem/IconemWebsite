@@ -26,6 +26,10 @@
 - **/!\ The thumbnail image should**
     - **be 720x405px**
     - **be desaturated (cf .psd files in the folder ./templates)**
+    - **be in .jpg format, with 75% compression**
+- **/!\ The project images should**
+    - **be 1920x800px(landscape) or 608x1080px (portrait)**
+    - **be in .jpg format, with 75% compression**
 - **/!\ Don't forget the "/embed" at the end Sketchfab links**
 
 3. Add your new project's file name into the file `./data/carousel/projectList.json`. The projects are displayed according to this list's order. For example, if you want to add your `${new-project}.json`in third, `./data/carousel/projectList.json` should look like :
@@ -33,7 +37,7 @@
 [
   "01",
   "02",
-  "new-project",
+  "${new-project}",
   "03",
   "04",
   "05",
@@ -41,6 +45,7 @@
   "07"
 ]
 ```
+<<<<<<< HEAD
 
 ### 1.2. Add a project to the map
 
@@ -80,7 +85,26 @@ Clients are displayed in `./data/clients` file order.
 
 Idem clients, but in folder `./data/partners`.
 
+
 ### 1.5. Modify team members
+
+The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
+- **name**\*
+- **job**\* (in French & in English)
+- **img**\* : The location of the photo
+- **description**\* (in French & in English)
+
+<br/>
+
+- **/!\ All fields marked with \* are mandatory.**
+- **/!\ Photos should be located in the folder `./static/img/about/team_members`**
+- **/!\ The photos should**
+    - **be black & white**
+    - **be 300x300px**
+
+### 1.6. Modify texts
+
+Main page's texts can be found in the file `./config.toml` (in French & in English). Other page's texts can be found in `./data` files. For example, the "Hardware" page's text is in `./data/about/hardware.yaml`.
 
 The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
 - **name**\*
@@ -105,10 +129,11 @@ Main page's texts can be found in the file `./config.toml` (in French & in Engli
 
 ### 2.1. Installation
 
-This site was built using Hugo v0.32.4 for windows.
+This site was built using Hugo `v0.32.4` for windows.
 <br/>
-To launch the dev mode : `hugo server`
-To build site into `./dist` folder : `hugo`
+To launch the dev mode : `hugo server`.
+<br/>
+To build site into `./dist` folder : `hugo`.
 
 ### 2.2. Folder organization
 
@@ -118,4 +143,8 @@ To build site into `./dist` folder : `hugo`
 - **data** : Front-matter files.
 - **layouts** : GoJS/HTML templates.
 - **static** : Static files.
-- **config.toml** : Main configuration file (languages, sections, etc)
+- **config.toml** : Main configuration file (baseUrl, languages, sections, etc)
+
+### 2.3. Add a language
+
+In `./config.toml`, search for any field of the type `[languages.en.$param]`. Simply copy it under the name `[languages.$language_code.$param]` to add a new language to the site.
