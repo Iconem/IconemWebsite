@@ -13,6 +13,10 @@
     "fr": "Exposition"
   },
   "thumbnail": "../img/projects/SitesEternels/SitesEternels_thumbnail.jpg",
+    "subtitle": {
+    "en": "Exhibition at Big Palais",
+    "fr": "Exposition au Grand Palais"
+  },
   "actors": {
     "en": "RMNG, Louvre, Sylvain Roca, Google, DGAM",
     "fr": "RMNG, Louvre, Sylvain Roca, Google, DGAM"
