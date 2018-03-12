@@ -124,6 +124,10 @@ body {
     opacity: 0.5;
 }
 
+.iconem-modal .project-media-icons-container a.collapsed:hover img {
+    opacity: 1;
+}
+
 .iconem-modal .project-media-type {
     margin-bottom: 30px;
 }
