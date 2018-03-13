@@ -23,7 +23,7 @@
                             <img src="../img/projects/icons/img_black.png" 
                                 data-toggle="tooltip"
                                 data-placement="top"
-                                title="Pictures" 
+                                title="{{ $.Site.Params.projects.modal.pictures }}" 
                             />
                         </a>
                         {{ if $project.video }}
@@ -37,7 +37,7 @@
                                 <img src="../img/projects/icons/video_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
-                                    title="Videos" 
+                                    title="{{ $.Site.Params.projects.modal.videos }}" 
                                 />
                             </a>
                         {{ end }}
@@ -52,7 +52,7 @@
                                 <img src="../img/projects/icons/3ds_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
-                                    title="3D Models"
+                                    title="{{ $.Site.Params.projects.modal.models }}"
                                 />
                             </a>
                         {{ end }}
@@ -68,15 +68,16 @@
                         {{ "<!-- Image carousel -->" | safeHTML }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-img-carousel" class="panel-collapse collapse in" role="tabpanel">
-<!--                                 <div class="project-media-type text-uppercase">
-                                    {{ $.Site.Params.projects.modal.pictures }}
-                                </div> -->
                                 <div class="owl-carousel owl-theme preview-img-carousel">
                                     {{ range $imgIndex, $img := $project.img }}
                                         <div>
                                             <img src="{{ $img.full }}" class="img-responsive">
-                                            <div class="img-caption">
-                                                {{ index $img.caption $lang }}
+                                            <div class="img-toolbar">
+                                                <div class="img-caption">
+                                                    {{with $img.caption }}
+                                                        {{ index $img.caption $lang }}
+                                                    {{end}}
+                                                </div>
                                                 <div class="img-fullscreen-btn"
                                                 onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
                                                 >
@@ -93,9 +94,6 @@
                         {{ if $project.video }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
-<!--                                 <div class="project-media-type text-uppercase">
-                                    {{ $.Site.Params.projects.modal.videos }}
-                                </div> -->
                                 <div class="owl-carousel owl-theme video-carousel">
                                     {{ range $project.video }}
                                         <a class="owl-video" href="{{ . }}"></a>
@@ -109,9 +107,6 @@
                         {{ if $project.models }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-models-carousel" class="panel-collapse collapse" role="tabpanel">
-<!--                                 <div class="project-media-type text-uppercase">
-                                    {{ $.Site.Params.projects.modal.models }}
-                                </div> -->
                                 <div class="owl-carousel owl-theme 3d-carousel">
                                     {{ range $project.models }}
                                         <iframe width="100%" height="100%" 

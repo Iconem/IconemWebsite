@@ -28,11 +28,7 @@
   "img": [
     {
       "preview": "../img/projects/SitesEternels/SitesEternels_preview01.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_full01.jpg",
-      "caption": {
-        "en": "© Sylvain Roca",
-        "fr": "© Sylvain Roca"
-      }
+      "full": "../img/projects/SitesEternels/SitesEternels_full01.jpg"
     },
     {
       "preview": "../img/projects/SitesEternels/SitesEternels_preview02.jpg",

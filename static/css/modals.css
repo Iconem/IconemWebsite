@@ -188,7 +188,7 @@ body {
     overflow: initial;
 }
 
-.iconem-modal .project-media .img-caption {
+.iconem-modal .project-media .img-toolbar {
     background-color: rgba(0,0,0,0.3);
     padding: 10px 15px;
     position:absolute;
@@ -201,6 +201,11 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.iconem-modal .project-media .img-toolbar .img-caption {
+    display: flex;
+    flex-grow: 1;
 }
 
 .iconem-modal .owl-carousel.owl-theme + .img-cross {
@@ -222,7 +227,7 @@ body {
 }
 
 
-.iconem-modal .project-media .img-caption .img-fullscreen-btn {
+.iconem-modal .project-media .img-toolbar .img-fullscreen-btn {
     width: 28px;
     height: 28px;
     display: flex;
@@ -234,11 +239,11 @@ body {
     background: url('../img/projects/icons/fullScreen_white.png')  
 }
 
-.iconem-modal .project-media .img-caption .img-fullscreen-btn:hover {
+.iconem-modal .project-media .img-toolbar .img-fullscreen-btn:hover {
     opacity: 0.3;
 }
 
-.iconem-modal .owl-carousel.owl-theme.full .img-caption .img-fullscreen-btn {
+.iconem-modal .owl-carousel.owl-theme.full .img-toolbar .img-fullscreen-btn {
     background: url('../img/projects/icons/fullScreenExit_white.png');
 }
 
