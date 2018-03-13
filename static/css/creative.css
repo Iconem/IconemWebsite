@@ -337,15 +337,14 @@ header .header-footer a img {
     left: 0;
     text-align: center;
     opacity: 0;
-    -webkit-transition: padding 0.215s ease-in-out 0s, opacity 0.215s ease-in-out 0s;
-    -moz-transition: padding 0.215s ease-in-out 0s, opacity 0.215s ease-in-out 0s;
-    transition: padding 0.215s ease-in-out 0s, opacity 0.215s ease-in-out 0s;
-    padding: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    padding: 30px;
     color: #555;
 }
 
 .photo-box:hover .photo-box-caption {
-    padding: 20px;
     opacity: 1;
 }
 
