@@ -445,7 +445,9 @@ header .header-footer a img {
 }
 
 .main-projects-carousel-dots li.slick-active,
-.owl-dots .owl-dot.active {
+.owl-dots .owl-dot.active,
+.main-projects-carousel-dots li:hover,
+.owl-dots .owl-dot:hover {
     background-color: black;
 }
 

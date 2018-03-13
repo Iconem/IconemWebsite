@@ -104,7 +104,7 @@ body {
     min-height: 0;
     border: none;
     padding: 0;
-    max-height: 50%;
+    /*max-height: 50%;*/
 }
 
 .iconem-modal .modal-content .modal-body .modal-fixed .modal-img-simple {
@@ -112,6 +112,10 @@ body {
 }
 
 /* MEDIAS CAROUSEL */
+.iconem-modal .project-media-icons-container {
+    margin-bottom: 30px;
+}
+
 .iconem-modal .project-media-icons-container a img{
     margin: 0 5px 10px;
 }
@@ -120,19 +124,22 @@ body {
     opacity: 0.5;
 }
 
+.iconem-modal .project-media-icons-container a.collapsed:hover img {
+    opacity: 1;
+}
+
 .iconem-modal .project-media-type {
     margin-bottom: 30px;
 }
 
 .iconem-modal .project-media-container {
     position:relative;
-    display: flex;
-    min-height: 0;
 }
 
 .iconem-modal .project-media-container .dummy {
+    width: 100%;
+    height: auto;
     opacity: 0;
-    margin-top: 50px;
 }
 
 .iconem-modal .project-media.panel-group {
@@ -198,8 +205,8 @@ body {
 
 .iconem-modal .owl-carousel.owl-theme + .img-cross {
     position:fixed;
-    top:10px;
-    right:10px;
+    top:25px;
+    right:25px;
     display: none;
     color: white;
     z-index: 12;
@@ -210,6 +217,11 @@ body {
     display: block;
 }
 
+.iconem-modal .owl-carousel.owl-theme.full + .img-cross:hover {
+    opacity: 0.3;
+}
+
+
 .iconem-modal .project-media .img-caption .img-fullscreen-btn {
     width: 28px;
     height: 28px;
@@ -219,16 +231,21 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background: url('../img/projects/icons/fullScreen_white.png')  
 }
 
 .iconem-modal .project-media .img-caption .img-fullscreen-btn:hover {
-    /*background-color: rgba(255,255,255,0.2);*/
+    opacity: 0.3;
+}
+
+.iconem-modal .owl-carousel.owl-theme.full .img-caption .img-fullscreen-btn {
+    background: url('../img/projects/icons/fullScreenExit_white.png');
 }
 
 .iconem-modal .owl-carousel.owl-theme {
     position: relative;
     z-index:11 !important;
-    height: calc(100% - 50px);
+    height: 100%;
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer,
@@ -250,6 +267,13 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-item img {
+    height: 100%;
+    width: auto;
+    margin: auto;
+    object-fit: unset;
+}
+
+.iconem-modal .owl-carousel.owl-theme.full .owl-item img {
     object-fit: contain;
 }
 

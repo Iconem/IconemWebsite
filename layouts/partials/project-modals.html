@@ -4,7 +4,7 @@
 <div class="iconem-modal modal fade" id="portfolioModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         
-        <img src="../img/home/cross.png" class="close-modal" data-dismiss="modal"
+        <img src="../img/home/cross_black.png" class="close-modal" data-dismiss="modal"
             onclick="stopPreviewCarousel({{ $projectIndex }})">
         
         <div class="col-sm-10 col-sm-offset-1 modal-body">
@@ -20,7 +20,11 @@
                             href="#project-{{ $projectIndex }}-img-carousel"
                             data-parent='#project-{{$projectIndex}}-media'
                             aria-expanded="true">
-                            <img src="../img/projects/icons/img_black.png">
+                            <img src="../img/projects/icons/img_black.png" 
+                                data-toggle="tooltip"
+                                data-placement="top"
+                                title="Pictures" 
+                            />
                         </a>
                         {{ if $project.video }}
                             <a role="button" 
@@ -30,7 +34,11 @@
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
                                 onclick="stopPreviewCarousel({{ $projectIndex }})">
-                                <img src="../img/projects/icons/video_black.png">
+                                <img src="../img/projects/icons/video_black.png"
+                                    data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="Videos" 
+                                />
                             </a>
                         {{ end }}
                         {{ if $project.models }}
@@ -41,7 +49,11 @@
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
                                 onclick="stopPreviewCarousel({{ $projectIndex }})">
-                                <img src="../img/projects/icons/3ds_black.png">
+                                <img src="../img/projects/icons/3ds_black.png"
+                                    data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="3D Models"
+                                />
                             </a>
                         {{ end }}
                     {{ end }}
@@ -56,9 +68,9 @@
                         {{ "<!-- Image carousel -->" | safeHTML }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-img-carousel" class="panel-collapse collapse in" role="tabpanel">
-                                <div class="project-media-type text-uppercase">
+<!--                                 <div class="project-media-type text-uppercase">
                                     {{ $.Site.Params.projects.modal.pictures }}
-                                </div>
+                                </div> -->
                                 <div class="owl-carousel owl-theme preview-img-carousel">
                                     {{ range $imgIndex, $img := $project.img }}
                                         <div>
@@ -68,15 +80,12 @@
                                                 <div class="img-fullscreen-btn"
                                                 onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
                                                 >
-                                                    <img src="../img/projects/icons/fullScreen_white.png">
                                                 </div>
                                             </div>
                                         </div>
                                     {{ end }}
                                 </div>
-                                <div class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
-                                    COUCOU
-                                </div>
+                                <img src="../img/home/cross_white.png" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
                             </div>
                         </div>
 
@@ -84,9 +93,9 @@
                         {{ if $project.video }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
-                                <div class="project-media-type text-uppercase">
+<!--                                 <div class="project-media-type text-uppercase">
                                     {{ $.Site.Params.projects.modal.videos }}
-                                </div>
+                                </div> -->
                                 <div class="owl-carousel owl-theme video-carousel">
                                     {{ range $project.video }}
                                         <a class="owl-video" href="{{ . }}"></a>
@@ -100,9 +109,9 @@
                         {{ if $project.models }}
                         <div class="panel">
                             <div id="project-{{ $projectIndex }}-models-carousel" class="panel-collapse collapse" role="tabpanel">
-                                <div class="project-media-type text-uppercase">
+<!--                                 <div class="project-media-type text-uppercase">
                                     {{ $.Site.Params.projects.modal.models }}
-                                </div>
+                                </div> -->
                                 <div class="owl-carousel owl-theme 3d-carousel">
                                     {{ range $project.models }}
                                         <iframe width="100%" height="100%" 
@@ -118,7 +127,9 @@
             </div>
             <div class="modal-scrollable text-justify">
                 <strong>2017</strong>
-                <i>Exposition au Grand Palais</i>
+                {{ with $project.subtitle }}
+                    <i>{{ index . $lang }}</i>
+                {{ end }}
                 <div>
                     <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
                     <span>{{ index $project.actors $lang }}</span>
@@ -170,18 +181,10 @@
             .css('width', '')
             .css('height', '');
 
-            // $(carouselId).find('.owl-carousel i')
-            // .removeClass('fa-compress')
-            // .addClass('fa-expand');
-
             $(carouselId).find('.owl-carousel').trigger('refresh.owl.carousel');
         } else {
             $(carouselId).find('.owl-carousel')
             .addClass('full');
-
-            // $(carouselId).find('.owl-carousel i')
-            // .removeClass('fa-expand')
-            // .addClass('fa-compress');
 
             resizeFull(carouselId);
 

@@ -45,6 +45,7 @@
   "07"
 ]
 ```
+<<<<<<< HEAD
 
 ### 1.2. Add a project to the map
 
@@ -84,7 +85,26 @@ Clients are displayed in `./data/clients` file order.
 
 Idem clients, but in folder `./data/partners`.
 
+
 ### 1.5. Modify team members
+
+The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
+- **name**\*
+- **job**\* (in French & in English)
+- **img**\* : The location of the photo
+- **description**\* (in French & in English)
+
+<br/>
+
+- **/!\ All fields marked with \* are mandatory.**
+- **/!\ Photos should be located in the folder `./static/img/about/team_members`**
+- **/!\ The photos should**
+    - **be black & white**
+    - **be 300x300px**
+
+### 1.6. Modify texts
+
+Main page's texts can be found in the file `./config.toml` (in French & in English). Other page's texts can be found in `./data` files. For example, the "Hardware" page's text is in `./data/about/hardware.yaml`.
 
 The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
 - **name**\*
@@ -128,6 +148,3 @@ To build site into `./dist` folder : `hugo`.
 ### 2.3. Add a language
 
 In `./config.toml`, search for any field of the type `[languages.en.$param]`. Simply copy it under the name `[languages.$language_code.$param]` to add a new language to the site.
-
-
-

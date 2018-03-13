@@ -13,6 +13,10 @@
     "fr": "Exposition"
   },
   "thumbnail": "../img/projects/01/01.png",
+  "subtitle": {
+    "en": "Exhibition at Big Palais",
+    "fr": "Exposition au Grand Palais"
+  },
   "actors": {
     "en": "Actors",
     "fr": "Acteurs"
