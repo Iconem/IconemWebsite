@@ -17,6 +17,9 @@
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
 <script type="text/javascript">
+    var projects = {{.Site.Data.projects}};
+    console.log(projects);
+    
   // Handle interactive svg map
   var lang = {{.Site.Language.Lang}};
   var countries = {{.Site.Data.map}};
