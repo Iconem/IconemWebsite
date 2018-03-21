@@ -60,8 +60,8 @@
                 </div>
 
                 <div class="project-media-container">
-                    {{ with (index $project.img 0) }}
-                        <img class="img-responsive dummy" src="{{ .preview }}">
+                    {{ with $project.thumbnail }}
+                        <img class="img-responsive dummy" src="{{ . }}">
                     {{ end }}
                     <div class="panel-group project-media" id="project-{{$projectIndex}}-media" role="tablist" aria-multiselectable="false">
 
@@ -125,11 +125,11 @@
                 {{ with $project.subtitle }}
                     <i>{{ index . $lang }}</i>
                 {{ end }}
-                <div>
+                <div class="text-sm">
                     <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
                     <span>{{ index $project.actors $lang }}</span>
                 </div>
-                <div>
+                <div class="text-sm">
                     <strong>{{ $.Site.Params.projects.modal.partners }}</strong>
                     <span>{{ index $project.partners $lang }}</span>
                 </div>
