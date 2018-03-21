@@ -83,21 +83,29 @@ p {
     font-weight: bolder;
 }
 
+.text-sm {
+    font-size: 12px!important;
+}
+
 .text-md {
-    font-size: 14px;
+    font-size: 14px!important;
 }
 
 .text-lg {
-    font-size: 18px;
+    font-size: 18px!important;
 }
 
 @media(min-width:768px) {
+    .text-sm {
+        font-size: 14px!important;
+    }
+
     .text-md {
-        font-size: 16px;
+        font-size: 16px!important;
     }
 
     .text-lg {
-        font-size: 22px;
+        font-size: 22px!important;
     }
 }
 
@@ -403,6 +411,16 @@ header .header-footer a img {
 
 
 /* CAROUSEL DOTS */
+.owl-dots {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .owl-dots {
+        display: block;
+    }
+}
+
 .main-projects-carousel-dots {
     padding: 0;
     display: flex;
