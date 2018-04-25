@@ -6,21 +6,28 @@
   "places": [
     {
       "name": {
-        "en": "Beaucaire",
-        "fr": "Beaucaire"
+        "en": "Paris",
+        "fr": "Paris"
       },
       "sites": [
         {
           "name": {
-            "en": "Beaucaire castle",
-            "fr": "Château de Beaucaire"
+            "en": "Saint Trinity Church",
+            "fr": "Saint Trinity Church"
           },
           "projectsId": []
         },
-        {
+		{
           "name": {
-            "en": "Saint Roman abbey",
-            "fr": "Abbaye de Saint Roman"
+            "en": "Lamasus in the Louvre",
+            "fr": "Lamasus in the Louvre"
+          },
+          "projectsId": []
+        },
+		{
+          "name": {
+            "en": "Saint-Jacques tower",
+            "fr": "Tour Saint-Jacques"
           },
           "projectsId": []
         }
@@ -28,28 +35,21 @@
     },
     {
       "name": {
-        "en": "Paris",
-        "fr": "Paris"
+        "en": "Beaucaire",
+        "fr": "Beaucaire"
       },
       "sites": [
         {
           "name": {
-            "en": "Lamasus in the Louvre",
-            "fr": "Lamasus in the Louvre"
+            "en": "Beaucaire castle",
+            "fr": "Chateau de Beaucaire"
           },
           "projectsId": []
         },
-        {
-          "name": {
-            "en": "Saint-Jacques tower",
-            "fr": "Tour Saint-Jacques"
-          },
-          "projectsId": []
-        }
 		{
           "name": {
-            "en": "Saint Trinity Church",
-            "fr": "Saint Trinity Church"
+            "en": "Saint Roman abbey",
+            "fr": "Abbaye de Saint Roman"
           },
           "projectsId": []
         }
