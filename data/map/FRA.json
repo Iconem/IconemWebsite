@@ -12,15 +12,15 @@
       "sites": [
         {
           "name": {
-            "en": "BeauCaire castle",
-            "fr": "Beaucaire castle"
+            "en": "Beaucaire castle",
+            "fr": "Château de Beaucaire"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Saint Roman abbey",
-            "fr": "Saint Roman abbey"
+            "fr": "Abbaye de Saint Roman"
           },
           "projectsId": []
         }
@@ -42,10 +42,17 @@
         {
           "name": {
             "en": "Saint-Jacques tower",
-            "fr": "Saint-Jacques tower"
+            "fr": "Tour Saint-Jacques"
           },
           "projectsId": []
         }
+		{
+          "name": {
+            "en": "Saint Trinity Church",
+            "fr": "Saint Trinity Church"
+          },
+          "projectsId": []
+        },
       ]
     },
     {

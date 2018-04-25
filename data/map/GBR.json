@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "GREAT BRITAIN",
+    "fr": "GREAT BRITAIN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "London",
+        "fr": "London"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Nereid Monument in the British Museum",
+            "fr": "Nereid Monument in the British Museum"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

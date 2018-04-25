@@ -18,6 +18,56 @@
           "projectsId": []
         }
       ]
+    },
+	{
+      "name": {
+        "en": "North Sudan",
+        "fr": "North Sudan"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "El Khasali",
+            "fr": "El Khasali"
+          },
+          "projectsId": []
+        },
+		{
+          "name": {
+            "en": "El Kurru",
+            "fr": "El Kurru"
+          },
+          "projectsId": []
+        },
+		{
+          "name": {
+            "en": "El Musarawat",
+            "fr": "El Musarawat"
+          },
+          "projectsId": []
+        },
+		{
+          "name": {
+            "en": "Méroé pyramids",
+            "fr": "Méroé pyramids"
+          },
+          "projectsId": []
+        },
+		{
+          "name": {
+            "en": "Naga",
+            "fr": "Naga"
+          },
+          "projectsId": []
+        },
+		{
+          "name": {
+            "en": "Nuri",
+            "fr": "Nuri"
+          },
+          "projectsId": []
+        }
+      ]
     }
   ]
 }
