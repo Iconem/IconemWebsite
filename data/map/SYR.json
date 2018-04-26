@@ -1,40 +1,40 @@
 {
   "name": {
     "en": "SYRIA",
-    "fr": "SYRIA"
+    "fr": "SYRIE"
   },
   "places": [
     {
       "name": {
         "en": "Aleppo",
-        "fr": "Aleppo"
+        "fr": "Alep"
       },
       "sites": [
         {
           "name": {
             "en": "Citadel of Aleppo",
-            "fr": "Citadel of Aleppo"
+            "fr": "Citadelle d'Alep"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Old City",
-            "fr": "Old City"
+            "fr": "Vieille Ville"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Suk",
-            "fr": "Suk"
+            "fr": "Souk"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Umayyad mosque",
-            "fr": "Umayyad mosque"
+            "fr": "Mosquée omeyyade d'Alep"
           },
           "projectsId": []
         }
@@ -73,7 +73,7 @@
     {
       "name": {
         "en": "Damascus",
-        "fr": "Damascus"
+        "fr": "Damas"
       },
       "sites": [
         {
@@ -86,21 +86,21 @@
         {
           "name": {
             "en": "Azem palace",
-            "fr": "Azem palace"
+            "fr": "Palais Azem"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Citadel of Damascus",
-            "fr": "Citadel of Damascus"
+            "fr": "Citadelle de Damas"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Damascus old town",
-            "fr": "Damascus old town"
+            "fr": "Vieille ville de Damas"
           },
           "projectsId": []
         },
@@ -114,7 +114,7 @@
         {
           "name": {
             "en": "Umayyad mosque",
-            "fr": "Umayyad mosque"
+            "fr": "Grande Mosquée des Omeyyades"
           },
           "projectsId": []
         }
@@ -123,13 +123,13 @@
     {
       "name": {
         "en": "Fortress of Saladin",
-        "fr": "Fortress of Saladin"
+        "fr": "Forteresse de Saladin"
       },
       "sites": [
         {
           "name": {
             "en": "Fortress of Saladin",
-            "fr": "Fortress of Saladin"
+            "fr": "Forteresse de Saladin"
           },
           "projectsId": []
         }
@@ -153,13 +153,13 @@
     {
       "name": {
         "en": "Jableh theatre",
-        "fr": "Jableh theatre"
+        "fr": "Théâtre de Jableh"
       },
       "sites": [
         {
           "name": {
             "en": "Jableh theatre",
-            "fr": "Jableh theatre"
+            "fr": "Théâtre de Jableh"
           },
           "projectsId": []
         }
@@ -174,7 +174,7 @@
         {
           "name": {
             "en": "Latakia museum",
-            "fr": "Latakia museum"
+            "fr": "Musée de Latakia"
           },
           "projectsId": []
         }
@@ -198,27 +198,27 @@
     {
       "name": {
         "en": "Palmyra",
-        "fr": "Palmyra"
+        "fr": "Palmyre"
       },
       "sites": [
         {
           "name": {
             "en": "Citadel of Palmyra",
-            "fr": "Citadel of Palmyra"
+            "fr": "Citadelle de Palmyre"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Monumental Arch",
-            "fr": "Monumental Arch"
+            "fr": "Arc monumental de Palmyre"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Museum of Palmyra",
-            "fr": "Museum of Palmyra"
+            "fr": "Musée de Palmyre"
           },
           "projectsId": []
         },
@@ -232,21 +232,21 @@
         {
           "name": {
             "en": "Temple of Baalshamin",
-            "fr": "Temple of Baalshamin"
+            "fr": "Temple de Baalshamin"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Temple of Bel",
-            "fr": "Temple of Bel"
+            "fr": "Temple de Bel"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Valley of Tombs",
-            "fr": "Valley of Tombs"
+            "fr": "Vallée des Tombes"
           },
           "projectsId": []
         }

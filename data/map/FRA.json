@@ -13,14 +13,14 @@
         {
           "name": {
             "en": "Saint Trinity Church",
-            "fr": "Saint Trinity Church"
+            "fr": "Église de la Sainte-Trinité"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Lamasus in the Louvre",
-            "fr": "Lamasus in the Louvre"
+            "fr": "Lamassus du palais de Khorsabad au Louvre"
           },
           "projectsId": []
         },
@@ -63,8 +63,8 @@
       "sites": [
         {
           "name": {
-            "en": "Nevers Ramparts",
-            "fr": "Nevers Ramparts"
+            "en": "Nevers Battlements",
+            "fr": "Remparts de Nevers"
           },
           "projectsId": []
         }

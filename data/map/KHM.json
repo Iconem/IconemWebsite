@@ -1,7 +1,7 @@
 {
   "name": {
     "en": "CAMBODIA",
-    "fr": "CAMBODIA"
+    "fr": "CAMBODGE"
   },
   "places": [
     {
@@ -13,56 +13,56 @@
         {
           "name": {
             "en": "Angkor Mebon Temple",
-            "fr": "Angkor Mebon Temple"
+            "fr": "Temple Angkor Mebon"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Chaw Srei Vibol temple",
-            "fr": "Chaw Srei Vibol temple"
+            "fr": "Temple Chaw Srei Vibol"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Buddha gate & Victory gate",
-            "fr": "Buddha gate & Victory gate"
+            "fr": "Porte de Buddha & Porte de la Victoire"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Preah Khan temple",
-            "fr": "Preah Khan temple"
+            "fr": "Temple Preah Khan"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Small temple",
-            "fr": "Small temple"
+            "fr": "Petit temple"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Banteay thom Temple",
-            "fr": "Banteay thom Temple"
+            "en": "Banteay Thom Temple",
+            "fr": "Temple Banteay Thom"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Baphûon Temple",
-            "fr": "Baphûon Temple"
+            "fr": "Temple Baphûon"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Sculptures at the north entrance of Angkor Thom",
-            "fr": "Sculptures at the north entrance of Angkor Thom"
+            "fr": "Sculptures à l'entrée nord d'Angkor Thom"
           },
           "projectsId": []
         }

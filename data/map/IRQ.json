@@ -1,7 +1,7 @@
 {
   "name": {
     "en": "IRAQ (KURDISTAN)",
-    "fr": "IRAQ (KURDISTAN)"
+    "fr": "IRAK (KURDISTAN)"
   },
   "places": [
     {
@@ -13,7 +13,7 @@
         {
           "name": {
             "en": "Akhre village",
-            "fr": "Akhre village"
+            "fr": "Village d'Akhre"
           },
           "projectsId": []
         }
@@ -28,7 +28,7 @@
         {
           "name": {
             "en": "Arbil minaret",
-            "fr": "Arbil minaret"
+            "fr": "Minaret d'Arbil"
           },
           "projectsId": []
         }
@@ -43,7 +43,7 @@
         {
           "name": {
             "en": "Naoun tomb",
-            "fr": "Naoun tomb"
+            "fr": "Tombe de Naoun"
           },
           "projectsId": []
         }
@@ -58,7 +58,7 @@
         {
           "name": {
             "en": "Amadiya village",
-            "fr": "Amadiya village"
+            "fr": "Village d'Amadiya"
           },
           "projectsId": []
         }
@@ -95,7 +95,7 @@
         {
           "name": {
             "en": "Abbasid Palace",
-            "fr": "Abbasid Palace"
+            "fr": "Palais Abbaside"
           },
           "projectsId": []
         },
@@ -111,7 +111,7 @@
     {
       "name": {
         "en": "Baghdad region",
-        "fr": "Baghdad region"
+        "fr": "Région de Baghdad"
       },
       "sites": [
         {
@@ -141,13 +141,13 @@
     {
       "name": {
         "en": "Barzan village (KU)",
-        "fr": "Barzan village (KU)"
+        "fr": "Village de Barzan (KU)"
       },
       "sites": [
         {
           "name": {
             "en": "Barzan village",
-            "fr": "Barzan village"
+            "fr": "Village de Barzan"
           },
           "projectsId": []
         }
@@ -162,7 +162,7 @@
         {
           "name": {
             "en": "Bora valley",
-            "fr": "Bora valley"
+            "fr": "Vallée de Bora"
           },
           "projectsId": []
         }
@@ -222,7 +222,7 @@
         {
           "name": {
             "en": "Aqueduct remains",
-            "fr": "Aqueduct remains"
+            "fr": "Restes d'Aqueduc"
           },
           "projectsId": []
         }
@@ -237,7 +237,7 @@
         {
           "name": {
             "en": "Khinis cliff and aqueduct",
-            "fr": "Khinis cliff and aqueduct"
+            "fr": "Falaise de Khinis et aqueduc"
           },
           "projectsId": []
         }
@@ -267,7 +267,7 @@
         {
           "name": {
             "en": "Kongra Serchia valley",
-            "fr": "Kongra Serchia valley"
+            "fr": "Vallée de Kongra Serchia"
           },
           "projectsId": []
         }
@@ -276,27 +276,27 @@
     {
       "name": {
         "en": "Mosul",
-        "fr": "Mosul"
+        "fr": "Mossoul"
       },
       "sites": [
         {
           "name": {
             "en": "Mosul city center (in process)",
-            "fr": "Mosul city center (in process)"
+            "fr": "Centre ville de Mossoul (in process)"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Nineveh (aerial view)",
-            "fr": "Nineveh (aerial view)"
+            "fr": "Ninive (vue aérienne)"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Nineveh (Nabi Yunus tunnels)",
-            "fr": "Nineveh (Nabi Yunus tunnels)"
+            "fr": "Ninive (tunnels de Nabi Yunus)"
           },
           "projectsId": []
         }
@@ -305,13 +305,13 @@
     {
       "name": {
         "en": "Nineveh district",
-        "fr": "Nineveh district"
+        "fr": "Faubourg de Ninive"
       },
       "sites": [
         {
           "name": {
             "en": "Nimrud",
-            "fr": "Nimrud"
+            "fr": "Nimroud"
           },
           "projectsId": []
         }
@@ -365,7 +365,7 @@
     {
       "name": {
         "en": "Samarra",
-        "fr": "Samarra"
+        "fr": "Sāmarrā"
       },
       "sites": [
         {
@@ -378,14 +378,14 @@
         {
           "name": {
             "en": "Great Mosque and Al-Malwiya",
-            "fr": "Great Mosque and Al-Malwiya"
+            "fr": "Grande Mosquée et Al-Malwiya"
           },
           "projectsId": []
         },
         {
           "name": {
             "en": "Old City",
-            "fr": "Old City"
+            "fr": "Vieille ville"
           },
           "projectsId": []
         },
@@ -399,7 +399,7 @@
         {
           "name": {
             "en": "Sur Ashnas (Ashnas Wall)",
-            "fr": "Sur Ashnas (Ashnas Wall)"
+            "fr": "Sur Ashnas (Mur Ashnas)"
           },
           "projectsId": []
         }
@@ -414,7 +414,7 @@
         {
           "name": {
             "en": "Satu Qala valley",
-            "fr": "Satu Qala valley"
+            "fr": "Vallée de Satu Qala"
           },
           "projectsId": []
         }
@@ -423,13 +423,13 @@
     {
       "name": {
         "en": "Shanidar cave (KU)",
-        "fr": "Shanidar cave (KU)"
+        "fr": "Cave de Shanidar (KU)"
       },
       "sites": [
         {
           "name": {
             "en": "Shanidar cave",
-            "fr": "Shanidar cave"
+            "fr": "Cave de Shanidar"
           },
           "projectsId": []
         }

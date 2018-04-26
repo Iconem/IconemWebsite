@@ -1,19 +1,19 @@
 {
   "name": {
     "en": "GREECE",
-    "fr": "GREECE"
+    "fr": "GRÈCE"
   },
   "places": [
     {
       "name": {
         "en": "Delos island",
-        "fr": "Delos island"
+        "fr": "Île de Délos"
       },
       "sites": [
         {
           "name": {
             "en": "Delos island",
-            "fr": "Delos island"
+            "fr": "Île de Délos"
           },
           "projectsId": []
         }

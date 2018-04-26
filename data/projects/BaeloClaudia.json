@@ -1,45 +1,45 @@
 {
-  "modalID": "Delos",
+  "modalID": "BaeloClaudia",
   "title": {
-    "en": "DELOS",
-    "fr": "DELOS"
+    "en": "BAELO CLAUDIA",
+    "fr": "BAELO CLAUDIA"
   },
   "date": {
-    "en": "2016",
-    "fr": "2016"
+    "en": "2017",
+    "fr": "2017"
   },
   "category": {
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Delos/Delos_thumbnail.jpg",
+  "thumbnail": "../img/projects/03/01.png",
   "subtitle": {
-    "en": "Digitisation of the island of Delos",
-    "fr": "Numérisation de l'île de Delos"
+    "en": "Exhibition at Big Palais",
+    "fr": "Exposition au Grand Palais"
   },
   "actors": {
-    "en": "Iconem and the Ecole française d’Athènes",
-    "fr": "Iconem et l’Ecole française d’Athènes"
+    "en": "Iconem, Institut de recherche sur l'architecture antique and Casa de Velasquez",
+    "fr": "Iconem, l'Institut de recherche sur l'architecture antique et la Casa de Velasquez"
   },
   "partners": {
-    "en": "",
-    "fr": ""
+    "en": "Google, Unesco",
+    "fr": "Google, Unesco"
   },
   "img": [
     {
-      "preview": "../img/projects/Delos/Delos_01.jpg",
-      "full": "../img/projects/Delos/Delos_01.jpg",
+      "preview": "../img/projects/03/01.png",
+      "full": "../img/projects/03/01.png",
       "caption": {
-        "en": "3D digitisation of the Villa Fourni",
-        "fr": "Numérisation 3D de la Villa Fourni"
+        "en": "Caption",
+        "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Delos/Delos_02.jpg",
-      "full": "../img/projects/Delos/Delos_02.jpg",
+      "preview": "../img/projects/03/02.png",
+      "full": "../img/projects/03/02.png",
       "caption": {
-        "en": "3D digitisation of Theophrastus",
-        "fr": "Numérisation 3D du Théophrastus"
+        "en": "Caption",
+        "fr": "Légende"
       }
     },
     {

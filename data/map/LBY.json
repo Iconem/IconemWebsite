@@ -1,26 +1,26 @@
 {
   "name": {
-    "en": "HAITI",
-    "fr": "HAÏTI"
+    "en": "LIBYA",
+    "fr": "LIBYE"
   },
   "places": [
     {
       "name": {
-        "en": "Milot",
-        "fr": "Milot"
+        "en": "...",
+        "fr": "..."
       },
       "sites": [
         {
           "name": {
-            "en": "Citadelle Henry Christophe",
-            "fr": "Citadelle Henri Christophe"
+            "en": "...",
+            "fr": "..."
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Sans-Souci Palace",
-            "fr": "Palais Sans-Souci"
+            "en": "---",
+            "fr": "---"
           },
           "projectsId": []
         }
