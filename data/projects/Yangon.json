@@ -14,8 +14,8 @@
   },
   "thumbnail": "../img/projects/05/01.png",
   "subtitle": {
-    "en": "Exhibition at Big Palais",
-    "fr": "Exposition au Grand Palais"
+    "en": "------",
+    "fr": "------"
   },
   "actors": {
     "en": "Iconem and the French Institute of Myanmar",
@@ -69,6 +69,6 @@
   ],
   "description": { 
     "en": "The iconic Supreme Court Tower of Yangon and its famous clock face dominate the skyline of Myanmar’s largest city. Its revival Queen Anne style recalls the city’s colonial past and it is still an important landmark for its residents.",
-    "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
+    "fr": "L'iconique Tour de la Cour Suprême de Yangon et sa fameuse horloge dominent l'horizon de la plus large agglomération du Myanmar. Son style Queen Anne rappelle le passé colonial de la ville et elle demeure un point de repère important pour ses résidents."
   }
 }
