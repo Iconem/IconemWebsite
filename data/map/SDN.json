@@ -1,19 +1,19 @@
 {
   "name": {
     "en": "SUDAN",
-    "fr": "SUDAN"
+    "fr": "SOUDAN"
   },
   "places": [
     {
       "name": {
         "en": "Sai Island",
-        "fr": "Sai Island"
+        "fr": "Île de Saï"
       },
       "sites": [
         {
           "name": {
             "en": "Sai Island",
-            "fr": "Sai Island"
+            "fr": "Île de Saï"
           },
           "projectsId": []
         }
@@ -22,7 +22,7 @@
 	{
       "name": {
         "en": "North Sudan",
-        "fr": "North Sudan"
+        "fr": "Soudan du Nord"
       },
       "sites": [
         {
@@ -49,7 +49,7 @@
 		{
           "name": {
             "en": "Méroé Pyramids",
-            "fr": "Méroé Pyramids"
+            "fr": "Pyramides Méroé"
           },
           "projectsId": []
         },

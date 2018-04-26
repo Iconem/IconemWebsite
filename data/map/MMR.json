@@ -1,19 +1,19 @@
 {
   "name": {
     "en": "BURMA",
-    "fr": "BURMA"
+    "fr": "MYANMAR"
   },
   "places": [
     {
       "name": {
         "en": "Rangoon",
-        "fr": "Rangoon"
+        "fr": "Yangon"
       },
       "sites": [
         {
           "name": {
             "en": "Rangoon High Court Tower",
-            "fr": "Rangoon High Court Tower"
+            "fr": "Tour de la Cour Suprême de Yangon"
           },
           "projectsId": []
         }
