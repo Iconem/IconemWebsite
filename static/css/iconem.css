@@ -54,7 +54,7 @@ body > section {
 }
 
 #iconem-map-info-content{
-  pointer-events: auto;
+  pointer-events: none;
   display:flex;
   flex-direction: column;
   margin: 0 auto 20px auto;
@@ -112,14 +112,15 @@ body > section {
   width:45%;
   text-align:right;
   font-weight: bold;
-  padding-right:5%;
+  padding-right:10px;
 }
 
 #iconem-map-info-description .iconem-map-info-description-site{
   align-items:center;
   text-align: left;
   width:45%;
-  padding-left:5%;
+  padding-left:10px;
+  white-space: nowrap;
 }
 
 #iconem-map-svg path {
