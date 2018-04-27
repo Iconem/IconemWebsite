@@ -18,7 +18,6 @@
 
 <script type="text/javascript">
     var projects = {{.Site.Data.projects}};
-    console.log(projects);
     
   // Handle interactive svg map
   var lang = {{.Site.Language.Lang}};
@@ -29,34 +28,53 @@
     $('#' + mapId).attr("class", "visited");
     
     $('#iconem-map-svg path#' + mapId).hover((e) => {
-      $('#iconem-map-info-content > #iconem-map-info-title').append(countries[mapId].name[lang]);
-      var toAppend = '';
-      countries[mapId].places.map((place) => {
-        // $('#iconem-map-info-content > #iconem-map-info-description ul').append("<li>" + place.name[lang] + "</li>");
-        
-        toAppend = toAppend + '<div class="iconem-map-info-description-place"> <div class="iconem-map-info-description-place-name">' + place.name[lang] +  '</div> <div class="iconem-map-info-description-site">';
-        place.sites.map((site) => {
-          toAppend = toAppend + '<div class="iconem-map-info-description-site-name">' + site.name[lang] + '</div>';
-        });
-        toAppend = toAppend + '</div> </div>';
-      });
-      $('#iconem-map-info-content > #iconem-map-info-description').append(toAppend);
+      $('#iconem-map-infos-country').append(countries[mapId].name[lang]);
 
-      $('#iconem-map-info-content').css('display','flex');
+      var cityCellsToAppend = '';
+      var siteCellsToAppend = '';
+
+      countries[mapId].places.map((place) => {
+        cityCellsToAppend += 
+        '<div class="iconem-map-infos-city-cell">' +
+          '<div class="iconem-map-infos-city">' + place.name[lang] + '</div>';
+
+        siteCellsToAppend += '<div class="iconem-map-infos-site-cell">';
+
+        place.sites.map((site, index)=> {
+          if (index === 0) {
+            var name;
+            if (site.name[lang].length > place.name[lang].length) {
+              name = site.name[lang];
+            } else {
+              name = place.name[lang];
+            }
+            cityCellsToAppend += '<div class="iconem-map-infos-site">' + name + '</div>';
+          } else {
+            cityCellsToAppend += '<div class="iconem-map-infos-site">' + site.name[lang] + '</div>';
+          }
+          siteCellsToAppend += '<div class="iconem-map-infos-site">' + site.name[lang] + '</div>';
+        });
+
+        cityCellsToAppend += '</div>';
+        siteCellsToAppend += '</div>';
+      });
+      $('#iconem-map-infos-city-col').append(cityCellsToAppend);
+      $('#iconem-map-infos-site-col').append(siteCellsToAppend);
+      $('#iconem-map-infos').css('display','flex');
 
       //Add text animation (vertical scroll) if necessary
-      var element = $('#iconem-map-info-content > #iconem-map-info-description')[0];
+      var element = $('#iconem-map-infos-description-container > div')[0];
       if (element.offsetHeight < element.scrollHeight) {
-        $('#iconem-map-info-content > #iconem-map-info-description').addClass('crawl');
+        $('#iconem-map-infos-description').addClass('crawl');
       } 
-
     });
  
     $('#iconem-map-svg path#' + mapId).mouseleave((e) => {
-      $('#iconem-map-info-content > #iconem-map-info-title').empty();
-      $('#iconem-map-info-content > #iconem-map-info-description').empty();
-      $('#iconem-map-info-content > #iconem-map-info-description').removeClass('crawl');
-      $('#iconem-map-info-content').css('display','none');
+      $('#iconem-map-infos-country').empty();
+      $('#iconem-map-infos-city-col').empty();
+      $('#iconem-map-infos-site-col').empty();
+      $('#iconem-map-infos-description').removeClass('crawl');
+      $('#iconem-map-infos').css('display','none');
     });
   });
 </script>
