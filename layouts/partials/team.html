@@ -1,14 +1,19 @@
 {{ "<!-- Team Modal content-->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
 <section class="no-padding" id="team">
-    <div class="team-img-container">
+    <div id="team-img-container">
             {{ range $memberIndex, $member := .Site.Data.about.team.members }}
-                <div class="team-img">
+                {{ if eq $memberIndex 0 }}
+                    <div class="team-img in" id="team-img-{{ $memberIndex }}">
+                {{ else }}
+                    <div class="team-img" id="team-img-{{ $memberIndex }}">
+                {{ end }}
                     <a role="button" 
                         data-toggle="collapse"
                         href="#team-member-{{ $memberIndex }}"
                         data-parent='#team-accordion'
-                        aria-expanded="false">
+                        aria-expanded="false"
+                        onclick="test({{ $memberIndex }});">
                         <img src="{{ $member.params.img }}" class="img-responsive" />
                     </a>
                 </div>
@@ -18,7 +23,11 @@
     <div class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
         {{ range $memberIndex, $member := .Site.Data.about.team.members }}
           <div class="panel team-member-panel">
-            <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse text-justify" role="tabpanel">
+            {{ if eq $memberIndex  0 }}
+                <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse in text-justify" role="tabpanel">
+            {{ else }}
+                <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse text-justify" role="tabpanel">
+            {{ end }}
                 <h3 class="text-uppercase text-bold">{{ $member.params.name }}</h3>
                 <br>
                 <h4 class="text-uppercase"> {{ index $member.params.job $lang }}</h4>
@@ -29,3 +38,12 @@
         {{ end }}
     </div>
 </section>
+
+<script type="text/javascript">
+    function test(memberIndex) {
+        $('.team-img').each(function() {
+            $(this).removeClass('in');
+        });
+        $('#team-img-' + memberIndex).addClass('in');
+    }
+</script>

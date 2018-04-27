@@ -16,40 +16,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div id="partners" class="text-center">
-                        <h5 class="text-bold text-uppercase">{{ .Site.Params.about.partners }}</h5>
-                    <hr>
-
-                        {{ range .Site.Data.partners }}
-                            <a href="{{ .link }}" target="_blank">
-                                <img src="{{ .icon}}" 
-                                    onmouseenter="this.src={{ .icon_active}}" 
-                                    onmouseleave="this.src={{ .icon}}"
-                                />
-                            </a>
-                        {{ end }}
-                    </div>
-                    <div id="clients" class="text-center">
-                        <h5 class="text-bold text-uppercase">{{ .Site.Params.about.clients }}</h5>
-                    <hr>
-
-                        {{ range .Site.Data.clients }}
-                            <a href="{{ .link }}" target="_blank">
-                                <img src="{{ .icon}}" 
-                                    onmouseenter="this.src={{ .icon_active}}" 
-                                    onmouseleave="this.src={{ .icon}}"
-                                />
-                            </a>
-                        {{ end }}
-                    </div>
-
-                </div>
-            </div>
-        </div> -->
     </section>
     <div class="row no-gutter" style="margin:0">
         {{ range sort .Site.Data.about "order"}}

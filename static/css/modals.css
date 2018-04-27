@@ -366,7 +366,7 @@ body {
 
 /* TEAM PANEL */
 
-#team .team-img-container {
+#team #team-img-container {
     margin: 30px 0;
     display:flex;
     flex-direction:row;
@@ -375,6 +375,10 @@ body {
 
 #team .team-img {
     width: 20%;
+}
+
+#team .team-img.in {
+    border: 1px solid red;
 }
 
 #team .team-member-panel {

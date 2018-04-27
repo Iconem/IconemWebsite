@@ -19,6 +19,8 @@
             </div>
             {{ if eq .modalID "team" }}
                 {{ partial "team.html" $root }}
+            {{ else if eq .modalID "philo" }}
+                {{ partial "philo.html" $root }}
             {{ else }}
                 <div class="modal-scrollable text-justify">
                     {{ index .description $lang | markdownify }}
