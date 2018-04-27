@@ -1,9 +1,9 @@
-modalID: philo
-order: 2
+modalID: foundation
+order: 4
 title: 
-  en: Philosophy
-  fr: Philosophie
-img: ../img/about/philo.png
+  en: Foundation
+  fr: Fonds de Dotation
+img: ../img/about/hardware.png
 description: 
   en: (en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
   fr: (fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.

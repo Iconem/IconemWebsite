@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div id="partners" class="text-center">
@@ -49,12 +49,12 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     <div class="row no-gutter" style="margin:0">
-        {{ range $aboutIndex, $about := .Site.Data.about }}
-        <div class="col-md-4">
-            <a href="#portfolioModal{{ .modalID }}" class="photo-box" data-toggle="modal">
+        {{ range sort .Site.Data.about "order"}}
+        <div class="col-md-3">
+            <a href="#aboutModal{{ .modalID }}" class="photo-box" data-toggle="modal">
                 <img src="{{ .img }}" class="img-responsive" alt="">
                 <div class="photo-box-caption">
                     <div class="photo-box-caption-content">

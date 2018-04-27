@@ -34,28 +34,28 @@
       countries[mapId].places.map((place) => {
         // $('#iconem-map-info-content > #iconem-map-info-description ul').append("<li>" + place.name[lang] + "</li>");
         
-        toAppend = toAppend + '<li class="iconem-map-info-description-place"> <div class="iconem-map-info-description-place-name">' + place.name[lang] +  '</div> <ul class="iconem-map-info-description-site">';
+        toAppend = toAppend + '<div class="iconem-map-info-description-place"> <div class="iconem-map-info-description-place-name">' + place.name[lang] +  '</div> <div class="iconem-map-info-description-site">';
         place.sites.map((site) => {
-          toAppend = toAppend + '<li class="iconem-map-info-description-site-name">' + site.name[lang] + '</li>';
+          toAppend = toAppend + '<div class="iconem-map-info-description-site-name">' + site.name[lang] + '</div>';
         });
-        toAppend = toAppend + '</ul> </li>';
+        toAppend = toAppend + '</div> </div>';
       });
-      $('#iconem-map-info-content > #iconem-map-info-description ul').append(toAppend);
+      $('#iconem-map-info-content > #iconem-map-info-description').append(toAppend);
 
       $('#iconem-map-info-content').css('display','flex');
 
       //Add text animation (vertical scroll) if necessary
       var element = $('#iconem-map-info-content > #iconem-map-info-description')[0];
       if (element.offsetHeight < element.scrollHeight) {
-        $('#iconem-map-info-content > #iconem-map-info-description > ul').addClass('crawl');
+        $('#iconem-map-info-content > #iconem-map-info-description').addClass('crawl');
       } 
 
     });
  
     $('#iconem-map-svg path#' + mapId).mouseleave((e) => {
       $('#iconem-map-info-content > #iconem-map-info-title').empty();
-      $('#iconem-map-info-content > #iconem-map-info-description > ul').empty();
-      $('#iconem-map-info-content > #iconem-map-info-description > ul').removeClass('crawl');
+      $('#iconem-map-info-content > #iconem-map-info-description').empty();
+      $('#iconem-map-info-content > #iconem-map-info-description').removeClass('crawl');
       $('#iconem-map-info-content').css('display','none');
     });
   });

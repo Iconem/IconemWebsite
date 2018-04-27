@@ -411,3 +411,15 @@ body {
     overflow: initial;
     padding-right: 15px;
 }
+
+#team .team-img {
+    overflow: hidden;
+}
+
+#team .team-img img {
+    transition: all 0.25s ease-in-out;
+}
+
+#team .team-img a:hover img {
+    transform: scale(1.1);
+}
