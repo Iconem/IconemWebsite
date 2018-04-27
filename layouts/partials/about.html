@@ -54,22 +54,16 @@
     <div class="row no-gutter" style="margin:0">
         {{ range sort .Site.Data.about "order"}}
         <div class="col-md-3">
-            {{ if .modalID }}
-                <a href="#aboutModal{{ .modalID }}" class="photo-box" data-toggle="modal">
-            {{ end }}
-            {{ if .link }}
-                <a href="{{ .link }}" target="_blank" class="photo-box" data-toggle="modal">
-            {{ end }}
-                    <img src="{{ .img }}" class="img-responsive" alt="">
-                    <div class="photo-box-caption">
-                        <div class="photo-box-caption-content">
-                            <div class="text-center text-uppercase text-bolder">
-                                {{ index .title $lang }}
-                            </div>
+            <a href="#aboutModal{{ .modalID }}" class="photo-box" data-toggle="modal">
+                <img src="{{ .img }}" class="img-responsive" alt="">
+                <div class="photo-box-caption">
+                    <div class="photo-box-caption-content">
+                        <div class="text-center text-uppercase text-bolder">
+                            {{ index .title $lang }}
                         </div>
                     </div>
-                </a>
-            
+                </div>
+            </a>
         </div>
         {{ end }}
     </div>

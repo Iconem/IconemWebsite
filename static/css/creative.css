@@ -338,11 +338,11 @@ header .header-footer a img {
 }
 
 a.photo-box img {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.25s ease-in-out;
 } 
 
 a.photo-box:hover img {
-    transform:  scale(1.2);
+    transform:  scale(1.1);
 }
 
 .photo-box .photo-box-caption {
