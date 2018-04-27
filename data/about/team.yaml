@@ -16,8 +16,8 @@ members:
   - params:
       name: Khalila Hassouna
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Head of Sales
+        fr: Directrice Commerciale
       img: ../img/about/team_members/khalila.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -25,8 +25,8 @@ members:
   - params:
       name: Yves Ubelman
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Founder & CEO
+        fr: Fondateur et Président
       img: ../img/about/team_members/yves.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -34,8 +34,8 @@ members:
   - params:
       name: Gaël Labousse
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Art Director & PhD Student
+        fr: Directeur Artistique et Doctorant
       img: ../img/about/team_members/gael.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -43,8 +43,8 @@ members:
   - params:
       name: Issanou Kamardine
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Graphic Designer
+        fr: Designer Graphique
       img: ../img/about/team_members/issanou.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -52,8 +52,8 @@ members:
   - params:
       name: Paul Aubineau
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Software Engineer
+        fr: Ingénieur Développement Logiciel
       img: ../img/about/team_members/paul.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -61,8 +61,8 @@ members:
   - params:
       name: Xavier Gérard
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Project Manager
+        fr: Gestion de Projet
       img: ../img/about/team_members/xavier.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -70,8 +70,8 @@ members:
   - params:
       name: Clémence Prudot d'Avigny
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Head of Development, Iconem funds
+        fr: Head of Development, Iconem funds
       img: ../img/about/team_members/clemence.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -79,8 +79,8 @@ members:
   - params:
       name: Caroline Ramond
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Software Engineer
+        fr: Ingénieur Développement Logiciel
       img: ../img/about/team_members/caroline.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -88,8 +88,8 @@ members:
   - params:
       name: Vincent Tournadre
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Photogrammetry Expert
+        fr: Expert Photogrammétrie
       img: ../img/about/team_members/vincent.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -97,8 +97,8 @@ members:
   - params:
       name: Layla Abdulkarim
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Architect
+        fr: Architecte
       img: ../img/about/team_members/layla.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -106,17 +106,17 @@ members:
   - params:
       name: Hillary Naiberk
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: Community Manager
+        fr: Community Manager
       img: ../img/about/team_members/hillary.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
         fr: "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
   - params:
-      name: étienne Tellier
+      name: Étienne Tellier
       job: 
-        en: CTO
-        fr: Directeur technique
+        en: CFO & Head of Production
+        fr: CFO
       img: ../img/about/team_members/etienne.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
