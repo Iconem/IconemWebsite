@@ -35,7 +35,7 @@
         {
           "name": {
             "en": "Bamiyan cliff",
-            "fr": "Bamiyan cliff"
+            "fr": "Falaise de Bamiyan"
           },
           "projectsId": []
         },
@@ -80,13 +80,13 @@
     {
       "name": {
         "en": "District of Shahrak",
-        "fr": "District of Shahrak"
+        "fr": "Quartier de Shahrak"
       },
       "sites": [
         {
           "name": {
             "en": "Djâm minaret",
-            "fr": "Djâm minaret"
+            "fr": "Minaret de Djâm"
           },
           "projectsId": []
         }
@@ -101,7 +101,7 @@
         {
           "name": {
             "en": "Musalla Complex",
-            "fr": "Musalla Complex"
+            "fr": "Complexe de Musalla"
           },
           "projectsId": []
         }
@@ -110,7 +110,7 @@
     {
       "name": {
         "en": "Kabul",
-        "fr": "Kabul"
+        "fr": "Kaboul"
       },
       "sites": [
         {
@@ -125,7 +125,7 @@
     {
       "name": {
         "en": "Logar region",
-        "fr": "Logar region"
+        "fr": "Région de Logar"
       },
       "sites": [
         {
