@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/04/03.png",
+  "thumbnail": "../img/projects/Delos/Delos_thumbnail.jpg",
   "subtitle": {
     "en": "Digitisation of the island of Delos",
     "fr": "Numérisation de l'île de Delos"
@@ -43,16 +43,88 @@
       }
     },
     {
-      "preview": "../img/projects/03/03.png",
-      "full": "../img/projects/03/03.png",
+      "preview": "../img/projects/Delos/Delos_03.jpg",
+      "full": "../img/projects/Delos/Delos_03.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/03/04.png",
-      "full": "../img/projects/03/04.png",
+      "preview": "../img/projects/Delos/Delos_04.jpg",
+      "full": "../img/projects/Delos/Delos_04.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_05.jpg",
+      "full": "../img/projects/Delos/Delos_05.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_06.jpg",
+      "full": "../img/projects/Delos/Delos_06.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_07.jpg",
+      "full": "../img/projects/Delos/Delos_07.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_05.jpg",
+      "full": "../img/projects/Delos/Delos_05.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_06.jpg",
+      "full": "../img/projects/Delos/Delos_06.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_07.jpg",
+      "full": "../img/projects/Delos/Delos_07.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_08.jpg",
+      "full": "../img/projects/Delos/Delos_08.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_09.jpg",
+      "full": "../img/projects/Delos/Delos_09.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_10.jpg",
+      "full": "../img/projects/Delos/Delos_10.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"

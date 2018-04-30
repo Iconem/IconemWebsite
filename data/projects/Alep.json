@@ -1,122 +1,146 @@
 {
-  "modalID": "HYDERABAD",
+  "modalID": "ALEP",
   "title": {
-    "en": "Hyderabad",
-    "fr": "Hyderabad"
+    "en": "Aleppo",
+    "fr": "Alep"
   },
   "date": {
-    "en": "****",
-    "fr": "****"
+    "en": "datedatedate",
+    "fr": "datedatedate"
   },
   "category": {
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Hyderabad/Hyderabad_thumbnail.jpg",
+  "thumbnail": "../img/projects/Alep/Alep_thumbnail.jpg",
   "subtitle": {
-    "en": "***",
-    "fr": "***"
+    "en": "captioncaption",
+    "fr": "légendelégendaire"
   },
   "actors": {
-    "en": "*/*/*/*/",
-    "fr": "*/*/*/*/"
+    "en": "/-/-/-/-/-/-/-/-",
+    "fr": "/-/-/-/-/-/-/-/-"
   },
   "partners": {
-    "en": "*-*-*-*-",
-    "fr": "*-*-*-*-*"
+    "en": "/+/+/+/+/+/+//+",
+    "fr": "/+/+/++/+/+//+"
   },
   "img": [
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_01.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_01.jpg",
+      "preview": "../img/projects/Alep/Alep_01.jpg",
+      "full": "../img/projects/Alep/Alep_01.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_02.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_02.jpg",
+      "preview": "../img/projects/Alep/Alep_02.jpg",
+      "full": "../img/projects/Alep/Alep_02.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_03.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_03.jpg",
+      "preview": "../img/projects/Alep/Alep_03.jpg",
+      "full": "../img/projects/Alep/Alep_03.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_04.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_04.jpg",
+      "preview": "../img/projects/Alep/Alep_04.jpg",
+      "full": "../img/projects/Alep/Alep_04.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_05.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_05.jpg",
+      "preview": "../img/projects/Alep/Alep_05.jpg",
+      "full": "../img/projects/Alep/Alep_05.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_06.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_06.jpg",
+      "preview": "../img/projects/Alep/Alep_06.jpg",
+      "full": "../img/projects/Alep/Alep_06.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_07.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_07.jpg",
+      "preview": "../img/projects/Alep/Alep_07.jpg",
+      "full": "../img/projects/Alep/Alep_07.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_08.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_08.jpg",
+      "preview": "../img/projects/Alep/Alep_08.jpg",
+      "full": "../img/projects/Alep/Alep_08.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_09.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_09.jpg",
+      "preview": "../img/projects/Alep/Alep_09.jpg",
+      "full": "../img/projects/Alep/Alep_09.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_10.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_10.jpg",
+      "preview": "../img/projects/Alep/Alep_10.jpg",
+      "full": "../img/projects/Alep/Alep_10.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_11.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_11.jpg",
+      "preview": "../img/projects/Alep/Alep_11.jpg",
+      "full": "../img/projects/Alep/Alep_11.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_12.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_12.jpg",
+      "preview": "../img/projects/Alep/Alep_12.jpg",
+      "full": "../img/projects/Alep/Alep_12.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Alep/Alep_13.jpg",
+      "full": "../img/projects/Alep/Alep_13.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Alep/Alep_14.jpg",
+      "full": "../img/projects/Alep/Alep_14.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/Alep/Alep_15.jpg",
+      "full": "../img/projects/Alep/Alep_15.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"

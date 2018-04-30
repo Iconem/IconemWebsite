@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/03/01.png",
+  "thumbnail": "../img/projects/SaintRoman/SaintRoman_thumbnail.jpg",
   "subtitle": {
     "en": "Exhibition at Big Palais",
     "fr": "Exposition au Grand Palais"
@@ -27,37 +27,101 @@
   },
   "img": [
     {
-      "preview": "../img/projects/03/01.png",
-      "full": "../img/projects/03/01.png",
+      "preview": "../img/projects/SaintRoman/SaintRoman_01.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_01.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/03/02.png",
-      "full": "../img/projects/03/02.png",
+      "preview": "../img/projects/SaintRoman/SaintRoman_02.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_02.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/03/03.png",
-      "full": "../img/projects/03/03.png",
+      "preview": "../img/projects/SaintRoman/SaintRoman_03.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_03.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/03/04.png",
-      "full": "../img/projects/03/04.png",
+      "preview": "../img/projects/SaintRoman/SaintRoman_04.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_04.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
-    }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_05.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_05.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_06.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_06.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_07.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_07.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_08.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_08.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_09.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_09.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_10.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_10.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_11.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_11.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_12.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_12.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
   ],
   "video": [ 
     "https://vimeo.com/196717531",
