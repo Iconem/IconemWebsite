@@ -14,16 +14,16 @@
   },
   "thumbnail": "../img/projects/02/01.png",
   "subtitle": {
-    "en": "Exhibition at Big Palais",
-    "fr": "Exposition au Grand Palais"
+    "en": "captionCaptionnaire",
+    "fr": "legendeLegendaire"
   },
   "actors": {
     "en": "Iconem, Institut de recherche sur l'architecture antique and Casa de Velasquez",
     "fr": "Iconem, l'Institut de recherche sur l'architecture antique et la Casa de Velasquez"
   },
   "partners": {
-    "en": "Google, Unesco",
-    "fr": "Google, Unesco"
+    "en": "test",
+    "fr": "test"
   },
   "img": [
     {
@@ -124,7 +124,7 @@
     "https://sketchfab.com/models/02c4e194c6d64a4385a30990ed9899bf/embed"
   ],
   "description": { 
-    "en": "In 2016, Iconem started a project on the island of Delos, one of Greece’s most ancient cultural heritage sites. The mythological birthplace of Apollo and Artemis, Delos’s archaeological heritage dates as far back as the third millennium B.C.E. Iconem digitised the island for the l’Ecole française d’Athènes, recording the current state of its stunning mosaics and extensive ruins. Using small drone-planes, Iconem’s team scanned the entire island: its theatre, agora, and ancient villas. Ground level photographs taken with a multicamera pole were integrated with the drone images to build the final 3D model, which is used to create cross-sections and other architectural surveys to study the site for restoration. Iconem’s model is also an efficient and precise tool for measuring distances, area and volumes of this UNESCO World Heritage site. Finally, the extremely precise model allows people to remotely explore the remains of this incredible ancient capital of Mediterranean trade.",
-    "fr": "En 2016, Iconem a commencé un projet sur l’île de Délos, l’un des sites patrimoniaux les plus anciens de la Grèce. Le berceau mythologique d’Apollon et d’Artémis, le patrimoine archéologique de Délos date dès le troisième millénaire av. J.-C. Iconem a numérisé l’île pour l’Ecole française d’Athènes, enregistrer l’état actuel des mosaïques magnifiques et les ruines étendues. Utilisant des petits drone-avions, l’équipe d’Iconem a scanné l’île complète : son théâtre, son agora et ses villas anciens. Les photographes prises au niveau du sol avec une perche multi-appareil étaient intégrées aux images drones pour construire le modèle 3D final qui est utilisé pour produire des coupes et d’autres relevés architecturaux pour étudier le site et sa restauration. Le modèle d’Iconem est également un outil efficace et précis pour mesurer des distances, des surfaces et des volumes de ce site patrimoine mondial d’UNESCO. Enfin, le modèle d’une grande précision permet les personnes d’explorer à distance les vestiges de cette ancienne capitale remarquable du commerce méditerranéen."
+    "en": "Baelo Claudia, a city emblematic of Roman architecture, overlooks a bay near the coastal town Tarifa in southern Spain. This magnificent ancient city, its basilica, and its theatre endured an earthquake in the 3rd century C.E. and are affected by strong winds and erosion. In 2017, Iconem digitised the archaeological site’s grandest monuments for the Institut de recherche sur l'architecture antique and the Casa de Velasquez. Our 3D model was constructed with data collected by drone and ground-level scans. Archival documents and technical drawings are integrated into the model to facilitate scientific research. The model is a digital scientific tool for studying the site’s current state, its degradation, and its buildings’ restauration. This digital replica can also be used to curate museum content for raising awareness of this Monumento Histórico Nacional designated site among the general public.",
+    "fr": "Baelo Claudia, une ville romaine emblématique, domine une baie sur la côte méridionale près de Tarifa en Espagne. Cette magnifique ville antique, sa basilique et son théâtre ont subi un séisme au cours du IIIe siècle ap. J.-C. et sont touchés par le fort vent et l’érosion. En 2017, Iconem a numérisé les grands monuments du site archéologique pour l’Institut de recherche sur l'architecture antique et Casa de Velasquez. Notre modèle 3D était construit grâce aux données collectées par des relevés de drones et du sol. Des documents d’archives et des coupes sont y intégrés afin de faciliter la recherche scientifique. La maquette est un outil numérique architectural pour étudier le site dans son état actuel, sa dégradation et la restitution de ses bâtiments. Ce modèle numérique pourra également nourrir des contenus muséographiques pour diffuser et valoriser ce site classé Monumento Histórico Nacional au grand public."
   }
 }
