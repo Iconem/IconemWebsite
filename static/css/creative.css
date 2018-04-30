@@ -253,6 +253,7 @@ section {
 
     .navbar-default.affix #lang-menu {
         border-bottom: 1px solid #887d87;
+        background-color: white;
     }
 }
 
