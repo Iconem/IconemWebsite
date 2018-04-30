@@ -1,8 +1,8 @@
 {
-  "modalID": "ANGKOR",
+  "modalID": "Angkor",
   "title": {
-    "en": "Angkor",
-    "fr": "Angkor"
+    "en": "ANGKOR",
+    "fr": "ANGKOR"
   },
   "date": {
     "en": "*d*dd*d*d",
@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Angkor/Angkor_thumbnail.jpg",
+  "thumbnail": "../img/projects/05/01.png",
   "subtitle": {
     "en": "*//*/**//*",
     "fr": "*//*/**//*"

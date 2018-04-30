@@ -1,8 +1,8 @@
 {
-  "modalID": "ALEP",
+  "modalID": "Alep",
   "title": {
-    "en": "Aleppo",
-    "fr": "Alep"
+    "en": "ALEPPO",
+    "fr": "ALEP"
   },
   "date": {
     "en": "datedatedate",
@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Alep/Alep_thumbnail.jpg",
+  "thumbnail": "../img/projects/03/01.png",
   "subtitle": {
     "en": "captioncaption",
     "fr": "légendelégendaire"

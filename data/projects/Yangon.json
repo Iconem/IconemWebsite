@@ -1,8 +1,8 @@
 {
-  "modalID": "Yangon",
+  "modalID": "YANGON",
   "title": {
-    "en": "YANGON",
-    "fr": "YANGON"
+    "en": "Yangon",
+    "fr": "Yangon"
   },
   "date": {
     "en": "2017",
@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Yangon/Yangon_thumbnail.jpg",
+  "thumbnail": "../img/projects/06/01.png",
   "subtitle": {
     "en": "------",
     "fr": "------"

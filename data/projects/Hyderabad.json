@@ -1,8 +1,8 @@
 {
-  "modalID": "HYDERABAD",
+  "modalID": "Hyderabad",
   "title": {
-    "en": "Hyderabad",
-    "fr": "Hyderabad"
+    "en": "HYDERABAD",
+    "fr": "HYDERABAD"
   },
   "date": {
     "en": "****",
@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Hyderabad/Hyderabad_thumbnail.jpg",
+  "thumbnail": "../img/projects/07/01.png",
   "subtitle": {
     "en": "***",
     "fr": "***"

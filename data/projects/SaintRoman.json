@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/SaintRoman/SaintRoman_thumbnail.jpg",
+  "thumbnail": "../img/projects/01/01.png",
   "subtitle": {
     "en": "Exhibition at Big Palais",
     "fr": "Exposition au Grand Palais"
@@ -121,7 +121,7 @@
         "en": "Caption",
         "fr": "Légende"
       }
-    },
+    }
   ],
   "video": [ 
     "https://vimeo.com/196717531",
