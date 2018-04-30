@@ -2,11 +2,11 @@ modalID: team
 order: 3
 title: 
   en: Team
-  fr: Equipe
+  fr: Équipe
 img: ../img/about/team.png
 members:
   - params:
-      name: Yves Ubelman
+      name: Yves Ubelmann
       job: 
         en: Founder & CEO
         fr: Fondateur et Président
@@ -14,6 +14,15 @@ members:
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
         fr: "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
+  - params:
+      name: Layla Abdul Karim
+      job: 
+        en: Architect
+        fr: Architecte
+      img: ../img/about/team_members/layla.png
+      description: 
+        en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
+        fr: "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
   - params:
       name: Paul Aubineau
       job: 
@@ -24,19 +33,10 @@ members:
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
         fr: "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
   - params:
-      name: Layla Abdulkarim
-      job: 
-        en: Architect
-        fr: Architecte
-      img: ../img/about/team_members/layla.png
-      description: 
-        en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
-        fr: "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
-  - params:
       name: Jonathan Chemla
       job: 
         en: CTO
-        fr: Directeur technique
+        fr: Directeur Technique
       img: ../img/about/team_members/jonathan.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -90,7 +90,7 @@ members:
       name: Clémence Prudot d'Avigny
       job: 
         en: Head of Development, Iconem funds
-        fr: Head of Development, Iconem funds
+        fr: trad needed
       img: ../img/about/team_members/clemence.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
@@ -108,7 +108,7 @@ members:
       name: Étienne Tellier
       job: 
         en: CFO & Head of Production
-        fr: CFO
+        fr: trad needed 
       img: ../img/about/team_members/etienne.png
       description: 
         en: "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."

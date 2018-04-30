@@ -2,7 +2,7 @@
   "modalID": "Delos",
   "title": {
     "en": "DELOS",
-    "fr": "DELOS"
+    "fr": "DÉLOS"
   },
   "date": {
     "en": "2016",
@@ -15,7 +15,7 @@
   "thumbnail": "../img/projects/Delos/Delos_thumbnail.jpg",
   "subtitle": {
     "en": "Digitisation of the island of Delos",
-    "fr": "Numérisation de l'île de Delos"
+    "fr": "Numérisation de l'île de Délos"
   },
   "actors": {
     "en": "Iconem and the École française d’Athènes",
@@ -53,30 +53,6 @@
     {
       "preview": "../img/projects/Delos/Delos_04.jpg",
       "full": "../img/projects/Delos/Delos_04.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_05.jpg",
-      "full": "../img/projects/Delos/Delos_05.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_06.jpg",
-      "full": "../img/projects/Delos/Delos_06.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_07.jpg",
-      "full": "../img/projects/Delos/Delos_07.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"

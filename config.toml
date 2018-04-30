@@ -46,7 +46,7 @@ baseUrl = "iconem.com"
 		[languages.fr.navigation.links]
 			projects = "Projets"
 			map  = "Carte"
-			about = "A propos"
+			about = "À propos"
 			contact   = "Contact"
 			language = "Langue"
 
@@ -99,11 +99,11 @@ baseUrl = "iconem.com"
     # Projects section
     [languages.en.projects]
     	title="Our mission/projects"
-    	description = "(en) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    	description = "Our world’s cultural heritage is threatened. Looting, urbanisation, mass tourism, armed conflict, and climate change damage and destroy irreplaceable sites where cultures emerged, languages developed, civilisations thrived. These imperilled heritage sites embody humanity’s rich cultural diversity. It is crucial that we document and preserve them now. Iconem’s mission is to further conservation of these endangered places by digitising them for exploration and study, today and tomorrow. Our expert team travels the globe, combining the largescale scanning capacity of drones and the photorealistic quality of 3D to create digital replicas of our most treasured places, record them for future generations, and champion them today."
 
     [languages.fr.projects]
     	title="Nos missions"
-    	description = "(fr) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    	description = "Le patrimoine mondial est en danger. Le pillage, l’urbanisation, les conflits armés et le changement climatique endommagent et détruisent des sites irremplaçables où des cultures ont émergé, des langues se sont développées, des civilisations ont prospéré. Ces sites patrimoniaux mis en péril incarnent l’incroyable diversité culturelle de l’humanité. Il est essentiel que nous les documentions et les préservions maintenant. La mission d’Iconem est de contribuer à la conservation de ces endroits en danger en les numérisant pour l’exploration et l’étude, aujourd’hui et demain. Notre équipe expérimentée travaille à travers le monde, associant la capacité de scan à grand échelle des drones et le photoréalisme de la 3D afin de réaliser des doubles numériques des sites les plus précieux, afin d’assurer leur transmission aux générations futures et leur défense aujourd’hui."
 
    	# Projects modals
 	[languages.en.projects.modal]
@@ -125,13 +125,13 @@ baseUrl = "iconem.com"
 	# About section
 	[languages.en.about]
 		title    = "About"
-		description = "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		description = "Founded in 2013, Iconem is an innovative startup that specialises in the digitisation of endangered cultural heritage sites in 3D. We work with international organisations and companies, including UNESCO, the Aga Khan Trust for Culture, Microsoft, and the drone manufacturer Parrot, as well as the world class museums such as the Louvre. We design site-specific architectural 3D models; large-scale urban and rural 3D models; museum exhibitions; and training for local professionals."
 		clients = "Clients"
 		partners = "Partners"
 
 	[languages.fr.about]
-		title    = "A propos"
-		description = "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		title    = "À propos"
+		description = "Fondée en 2013, Iconem est une startup innovante spécialisée en numérisation 3D des sites patrimoniaux. Nous travaillons avec des organisations internationales, des gouvernements et collectivités ou des musées d’envergure internationale tels que l’UNESCO, l’Agha Khan Trust for Culture, le Sultanat d’Oman, la Mairie de Paris ou le Musée du Louvre. Nous réalisons des modèles 3D de monuments, de patrimoine urbain ou rural à grand-échelle, des expositions immersives et des formations pour les professionnels."
 		clients = "Clients"
 		partners = "Partenaires"
 
