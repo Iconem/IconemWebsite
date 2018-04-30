@@ -14,16 +14,16 @@
   },
   "thumbnail": "../img/projects/06/01.png",
   "subtitle": {
-    "en": "------",
-    "fr": "------"
+    "en": "yangonCaption",
+    "fr": "yangonCaption"
   },
   "actors": {
     "en": "Iconem and the French Institute of Myanmar",
     "fr": "Iconem et l'Institut Français de Birmanie"
   },
   "partners": {
-    "en": "",
-    "fr": ""
+    "en": "yangonPartner",
+    "fr": "yangonPartner"
   },
   "img": [
     {

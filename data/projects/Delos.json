@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/04/01.png",
+  "thumbnail": "../img/projects/Delos/Delos_thumbnail.jpg",
   "subtitle": {
     "en": "Digitisation of the island of Delos",
     "fr": "Numérisation de l'île de Delos"
@@ -22,8 +22,8 @@
     "fr": "Iconem et l’École française d’Athènes"
   },
   "partners": {
-    "en": "",
-    "fr": ""
+    "en": "delosPartners",
+    "fr": "delosPartners"
   },
   "img": [
     {
