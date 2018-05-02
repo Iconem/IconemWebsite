@@ -5,8 +5,8 @@
     "fr": "ANGKOR"
   },
   "date": {
-    "en": "*d*dd*d*d",
-    "fr": "*d*dd*d*d"
+    "en": "2017",
+    "fr": "2017"
   },
   "category": {
     "en": "Project",
@@ -18,8 +18,8 @@
     "fr": "*//*/**//*"
   },
   "actors": {
-    "en": "-+-+-+-+-+-+-+-+",
-    "fr": "-+-+-+-+-+-+-+-+"
+    "en": "Iconem, French Embassy of Cambodia and the CICI Angkor",
+    "fr": "Iconem, l'Ambassade de France au Cambodge et le CICI Angkor"
   },
   "partners": {
     "en": "*+*+*+*+*+*+*",
@@ -148,7 +148,7 @@
     "https://sketchfab.com/models/02c4e194c6d64a4385a30990ed9899bf/embed"
   ],
   "description": { 
-    "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",
-    "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
+    "en": "Perhaps the most iconic cultural heritage site of south east Asia, Angkor’s spectacular temples and sculptures dot 400 square kilometres in northern Cambodia. Vestiges of the great Khmer Empire are scattered throughout the archaeological park that is still home to many Cambodians. The stunning temples are visited by millions of tourists each year, threatening the centuries old site. Iconem scanned temples, sculptures, and gates for the French Embassy of Cambodia and the CICI Angkor in 2017 to further the site’s promotion and scientific study. A high-altitude drone scan recorded an overview of the site and was complimented by a lower altitude flight. The data collected from the flights will facilitate archaeological research and the site’s 3D reconstitution. Our team then photographed the monuments’ stone blocks with pole-mounted cameras to collect millimetre precise data for future 3D models.",
+    "fr": "Peut-être le site patrimonial le plus emblématique de l’Asie du Sud-Est, 400 kilomètres carrés du nord du Cambodge sont parsemés des temples et des sculptures incroyables d’Angkor. Des vestiges du grand Empire Khmer sont dispersés sur le parc archéologique où habitent toujours beaucoup de cambodgiens. Des millions de touristes visitent ces temples magnifiques chaque année, menaçant le site classé patrimoine mondial UNESCO vieux de plusieurs siècles. Iconem a scanné des temples, des sculptures et des portails pour l’Ambassade de France au Cambodge et le CICI Angkor en 2017 pour faire avancer la promotion du site et son étude scientifique. Des données étaient acquises grâce aux relevés drones de haute et de basse altitude. Le modèle 3D réalisé des données de drone facilitera la recherche archéologique. Ensuite, notre équipe a pris des photographies à la perche des blocs des monuments pour collecter des données millimétriques pour des modèles 3D photoréalistes supplémentaires."
   }
 }
