@@ -26,16 +26,16 @@
                     <p>{{ .Site.Params.contact.email }}</p>
                 </a>
             {{ end }}
-            {{ if .Site.Params.contact.business_plan }}
-                <a class="text-center contact-item" href="{{ .Site.Params.contact.business_plan }}" target="_blank">
+            {{ if .Site.Params.brochure }}
+                <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
                     <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>Business Plan</p>
+                    <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
             {{ end }}
-            {{ if .Site.Params.contact.press_kit }}
-                <a class="text-center contact-item" href="{{ .Site.Params.contact.press_kit }}" target="_blank">
+            {{ if .Site.Params.press_kit }}
+                <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
                     <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>Press Kit</p>
+                    <p>{{ .Site.Params.press_kit.title }}</p>
                 </a>
             {{ end }}
         </div>

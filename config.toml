@@ -141,8 +141,22 @@ baseUrl = "iconem.com"
 		phone = "+33 (0)1 42 49 76 04"
 		adress = "6 rue Jules Chaplain 75006 Paris, France"
 		email = "contact@iconem.com"
-		business_plan = "pdf/business_plan.pdf"
-		press_kit = "pdf/press_kit.pdf"
+
+	[languages.en.brochure]
+		title = "Brochure"
+		pdf = "pdf/press_kit.pdf"
+
+	[languages.fr.brochure]
+		title = "Brochure"
+		pdf = "pdf/press_kit.pdf"
+
+	[languages.en.press_kit]
+		title = "Press Kit"
+		pdf = "pdf/press_kit.pdf"
+
+	[languages.fr.press_kit]
+		title = "Dossier de Presse"
+		pdf = "pdf/press_kit.pdf"
 
 	# Footer
 	[params.footer]
