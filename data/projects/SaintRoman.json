@@ -121,6 +121,30 @@
         "en": "Caption",
         "fr": "Légende"
       }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_13.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_13.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_14.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_14.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    },
+    {
+      "preview": "../img/projects/SaintRoman/SaintRoman_15.jpg",
+      "full": "../img/projects/SaintRoman/SaintRoman_15.jpg",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
     }
   ],
   "video": [ 
