@@ -130,14 +130,18 @@
                 {{ with $project.subtitle }}
                     <i>{{ index . $lang }}</i>
                 {{ end }}
+                {{ with $project.actors }}
                 <div class="text-sm">
                     <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
                     <span>{{ index $project.actors $lang }}</span>
                 </div>
+                {{ end }}
+                {{ with $project.partners }}
                 <div class="text-sm">
                     <strong>{{ $.Site.Params.projects.modal.partners }}</strong>
                     <span>{{ index $project.partners $lang }}</span>
                 </div>
+                {{ end }}
                 <hr align="left">
                 <div>{{ index $project.description $lang | markdownify }}</div>
             </div>

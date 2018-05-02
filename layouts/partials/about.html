@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     {{ with .Site.Params.about.title }}
-                        <h3 class="text-center text-uppercase text-bolder">
+                        <h3 class="text-center text-uppercase text-bolder section-title">
                             {{ . }}
                         </h3>
                     {{ end }}
@@ -17,10 +17,14 @@
             </div>
         </div>
     </section>
-    <div class="row no-gutter" style="margin:0">
+    <div class="about-row">
         {{ range sort .Site.Data.about "order"}}
-        <div class="col-md-3">
+        <div class="about-item">
+            {{ if .modalID }}
             <a href="#aboutModal{{ .modalID }}" class="photo-box" data-toggle="modal">
+            {{ else }}
+            <a href="{{ .link }}" class="photo-box" data-toggle="modal" target="_blank">
+            {{ end }}
                 <img src="{{ .img }}" class="img-responsive" alt="">
                 <div class="photo-box-caption">
                     <div class="photo-box-caption-content">

@@ -35,6 +35,10 @@ h6 {
     margin: 0;
 }
 
+h3.section-title {
+    margin-bottom: 10px;
+}
+
 hr {
     width: 100px;
     border: none;
@@ -387,6 +391,24 @@ a.photo-box:hover img {
 
 #main-projects-carousel .slick-slide > div{
     display: flex;
+}
+
+#about .about-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media(min-width:1200px) {
+    #about .about-row .about-item {
+        width: 25%;
+    }
+}
+
+@media (min-width:600px) and (max-width:1199px) {
+    #about .about-row .about-item {
+        width: 50%;
+    }
 }
 
 /* PARTNERS / CLIENTS SECTION */

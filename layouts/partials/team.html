@@ -13,8 +13,12 @@
                         href="#team-member-{{ $memberIndex }}"
                         data-parent='#team-accordion'
                         aria-expanded="false"
-                        onclick="test({{ $memberIndex }});">
-                        <img src="{{ $member.params.img }}" class="img-responsive" />
+                        onclick="changePhotoSrc({{ $member.params }});">
+                        {{ if eq $memberIndex 0 }}
+                            <img src="{{ $member.params.img_color }}" class="img-responsive" />
+                        {{ else }}
+                            <img src="{{ $member.params.img }}" class="img-responsive" />
+                        {{ end }}
                     </a>
                 </div>
             {{ end }}
@@ -40,10 +44,15 @@
 </section>
 
 <script type="text/javascript">
-    function test(memberIndex) {
-        $('.team-img').each(function() {
-            $(this).removeClass('in');
-        });
-        $('#team-img-' + memberIndex).addClass('in');
+    function changePhotoSrc(member) {
+        // console.log('change photo src ', members);
+        // console.log(memberIndex);
+        console.log(member);
+
+        // $('#team-img-' + memberIndex).addClass('in');
+        // $('#team-img-' + memberIndex).find('img').first().src = member.img_color;
+
+        // $('#team-img-' + index).removeClass('in');
+        // $('#team-img-' + index).find('img').first().src = member.img; 
     }
 </script>
