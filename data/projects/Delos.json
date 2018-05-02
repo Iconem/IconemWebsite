@@ -46,64 +46,72 @@
       "preview": "../img/projects/Delos/Delos_03.jpg",
       "full": "../img/projects/Delos/Delos_03.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Digitisation of the island of Delos",
+        "fr": "Numérisation de l'île de Délos"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_04.jpg",
       "full": "../img/projects/Delos/Delos_04.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "",
+        "fr": ""
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_05.jpg",
       "full": "../img/projects/Delos/Delos_05.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Launching the Ebee drone",
+        "fr": "Lancement de l'Ebee"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_06.jpg",
       "full": "../img/projects/Delos/Delos_06.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Fly over of the island of Delos",
+        "fr": "Survol de l'île de Delos"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_07.jpg",
       "full": "../img/projects/Delos/Delos_07.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "",
+        "fr": ""
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_08.jpg",
       "full": "../img/projects/Delos/Delos_08.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Preparing the drone",
+        "fr": "Préparation du drone"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_09.jpg",
       "full": "../img/projects/Delos/Delos_09.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Video feed from the drone",
+        "fr": "Retour vidéo du drone"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_10.jpg",
       "full": "../img/projects/Delos/Delos_10.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Drone aerial view",
+        "fr": "Vue aérienne du drone"
+      }
+    },
+    {
+      "preview": "../img/projects/Delos/Delos_11.jpg",
+      "full": "../img/projects/Delos/Delos_11.jpg",
+      "caption": {
+        "en": "Aerial view from a kite",
+        "fr": "Vue aérienne du cerf-volant"
       }
     }
   ],
