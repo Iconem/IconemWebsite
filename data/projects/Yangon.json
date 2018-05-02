@@ -21,11 +21,7 @@
     "en": "Iconem and the French Institute of Myanmar",
     "fr": "Iconem et l'Institut Français de Birmanie"
   },
-  "partners": {
-    "en": "yangonPartner",
-    "fr": "yangonPartner"
-  },
-  "img": [
+   "img": [
     {
       "preview": "../img/projects/Yangon/Yangon_01.jpg",
       "full": "../img/projects/Yangon/Yangon_01.jpg",
