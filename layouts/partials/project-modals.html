@@ -36,7 +36,8 @@
                                 href="#project-{{ $projectIndex }}-video-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});">
+                                onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});
+                                    loadVideoPreviews({{ $projectIndex }})">
                                 <img src="../img/projects/icons/video_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
@@ -223,5 +224,8 @@
         if (!$(imgCarouselId).hasClass('in')) {
             $(imgCarouselTogglerId).click();
         }
+    }
+
+    function loadVideoPreviews(projectIndex) {
     }
 </script>

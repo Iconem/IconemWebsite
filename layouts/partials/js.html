@@ -156,7 +156,15 @@
       nav: true,
       video: true,
       lazyLoad: true,
-      navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>']
+      navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
+      onInitialized: function() {
+        var carousel = this.$element;
+        carousel.find('.owl-video-wrapper').each(function(){
+          var previewContainer = document.createElement('div');
+          previewContainer.classList.add('project-video-preview');
+          this.appendChild(previewContainer);
+        });
+      }
     };
 
     var modal3DCarouselConfig = {
@@ -217,22 +225,23 @@
       nav: false,
       dots: false,
       autoplay: true,
-      autoWidth: true,
-      loop: true
-      // responsive : {
-      //   // breakpoint from 0 up
-      //   0 : {
-      //     items: 2
-      //   },
-      //   // breakpoint from 480 up
-      //   480 : {
-      //     items: 4
-      //   },
-      //   // breakpoint from 768 up
-      //   768 : {
-      //     items: 8
-      //   }
-      // }
+      // autoWidth: true,
+      // loop: true,
+      autoplayHoverPause: true,
+      responsive : {
+        // breakpoint from 0 up
+        0 : {
+          items: 2
+        },
+        // breakpoint from 480 up
+        480 : {
+          items: 4
+        },
+        // breakpoint from 768 up
+        768 : {
+          items: 8
+        }
+      }
     });
   });
 </script>

@@ -364,6 +364,12 @@ body {
     transform: translateY(-100%);
 }
 
+.iconem-modal .owl-carousel.owl-theme .owl-video-wrapper .project-video-preview {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/projects/SitesEternels/SitesEternels_01.jpg')
+}
 /* TEAM PANEL */
 
 #team #team-img-container {
