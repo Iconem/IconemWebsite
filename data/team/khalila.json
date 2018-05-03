@@ -1,0 +1,15 @@
+{
+  "id": "khalila",
+  "name": "Khalila Hassouna",
+  "order": 6,
+  "job": {
+    "en": "Head of Sales",
+    "fr": "Directrice Commerciale"
+  },
+  "img": "../img/about/team_members/khalila.png",
+  "img_color": "../img/about/team_members/khalila_color.png",
+  "description": { 
+    "en": "After graduating in political science with a specialisation on the Balkans, Khalila Hassouna worked for the Council of Europe and UN agencies. She then devoted herself to raising funds for various charities, in France and in the United Kingdom, during 15 years. In 2016, she joined ICONEM, a French startup specialised in the 3D reconstruction of endangered archaeological sites, to take on its business development and set up its Fund for Endangered Heritage.",
+    "fr": "Diplômée en science politique, spécialiste des Balkans, Khalila Hassouna a travaillé pour le Conseil de l'Europe et pour des agences des Nations Unies, avant de se consacrer au mécénat. Pendant 15 ans, elle a levé des fonds privés et publics pour plusieurs fondations et associations, en France et en Grande-Bretagne. En 2016, elle rejoint la startup ICONEM, spécialisée dans la reconstruction 3D de sites archéologiques en danger, pour prendre en charge son développement commercial, ainsi que la création de son fonds de dotation."  
+  }
+}

@@ -1,23 +1,24 @@
 {{ "<!-- Team Modal content-->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
+{{ $team_members := .Site.Data.team }}
 <section class="no-padding" id="team">
     <div id="team-img-container">
-            {{ range $memberIndex, $member := .Site.Data.about.team.members }}
-                {{ if eq $memberIndex 0 }}
-                    <div class="team-img in" id="team-img-{{ $memberIndex }}">
+            {{ range sort .Site.Data.team "order" }}
+                {{ if eq .id "yves" }}
+                    <div class="team-img in" id="team-img-{{ .id }}">
                 {{ else }}
-                    <div class="team-img" id="team-img-{{ $memberIndex }}">
+                    <div class="team-img" id="team-img-{{ .id }}">
                 {{ end }}
                     <a role="button" 
                         data-toggle="collapse"
-                        href="#team-member-{{ $memberIndex }}"
+                        href="#team-member-{{ .id }}"
                         data-parent='#team-accordion'
                         aria-expanded="false"
-                        onclick="changePhotoSrc({{ $member.params }});">
-                        {{ if eq $memberIndex 0 }}
-                            <img src="{{ $member.params.img_color }}" class="img-responsive" />
+                        onclick="changePhotoSrc({{ $team_members }}, {{ .id }});">
+                        {{ if eq .id "yves" }}
+                            <img src="{{ .img_color }}" class="img-responsive" />
                         {{ else }}
-                            <img src="{{ $member.params.img }}" class="img-responsive" />
+                            <img src="{{ .img }}" class="img-responsive" />
                         {{ end }}
                     </a>
                 </div>
@@ -25,18 +26,18 @@
     </div>
 
     <div class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
-        {{ range $memberIndex, $member := .Site.Data.about.team.members }}
+        {{ range sort .Site.Data.team "order" }}
           <div class="panel team-member-panel">
-            {{ if eq $memberIndex  0 }}
-                <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse in text-justify" role="tabpanel">
+            {{ if eq .id "yves" }}
+                <div id="team-member-{{ .id }}" class="panel-collapse collapse in text-justify" role="tabpanel">
             {{ else }}
-                <div id="team-member-{{ $memberIndex }}" class="panel-collapse collapse text-justify" role="tabpanel">
+                <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
             {{ end }}
-                <h3 class="text-uppercase text-bold">{{ $member.params.name }}</h3>
+                <h3 class="text-uppercase text-bold">{{ .name }}</h3>
                 <br>
-                <h4 class="text-uppercase"> {{ index $member.params.job $lang }}</h4>
+                <h4 class="text-uppercase"> {{ index .job $lang }}</h4>
                 <br>
-                <div class="modal-scrollable no-margin">{{ index $member.params.description $lang | markdownify}}</div>
+                <div class="modal-scrollable no-margin">{{ index .description $lang | markdownify}}</div>
             </div>
         </div>
         {{ end }}
@@ -44,15 +45,17 @@
 </section>
 
 <script type="text/javascript">
-    function changePhotoSrc(member) {
-        // console.log('change photo src ', members);
-        // console.log(memberIndex);
-        console.log(member);
-
-        // $('#team-img-' + memberIndex).addClass('in');
-        // $('#team-img-' + memberIndex).find('img').first().src = member.img_color;
-
-        // $('#team-img-' + index).removeClass('in');
-        // $('#team-img-' + index).find('img').first().src = member.img; 
+    function changePhotoSrc(teamMembers, index) {
+        Object.keys(teamMembers).map(function (key) {
+            var teamMember = teamMembers[key];
+            var id = '#team-img-' + key;
+            if (key === index) {
+                $(id).addClass('in');
+                $(id + ' img').attr('src', teamMember.img_color);
+            } else {
+                $(id).removeClass('in');
+                $(id + ' img').attr('src', teamMember.img); 
+            }
+        });
     }
 </script>

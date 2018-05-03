@@ -1,0 +1,15 @@
+{
+  "id": "vincent",
+  "name": "Vincent Tournadre",
+  "order": 13,
+  "job": {
+    "en": "Photogrammetry Expert",
+    "fr": "Expert Photogrammétrie"
+  },
+  "img": "../img/about/team_members/vincent.png",
+  "img_color": "../img/about/team_members/vincent_color.png",
+  "description": { 
+    "en": "Clemence is business developer at Iconem. As a graduate from Paris 1 - Sorbonne in History and Art History, Centre Michel Serres (ENSAM - ESCP) in “Innovation management”, and Dauphine University in “Cultural organisations management”, she is in charge of the various development of Iconem and Iconem Funds. Clemence has worked on various exhibitions, in Jordan, Lebanon, Hong Kong or in France, and for Iconem also, in Mynamar, Cambodia etc, and was inviting to speak in the National Museum of Singapore on VR and AR. Her master thesis was on the creation of a museum ecosystem around the Arab World Institute.",
+    "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
+  }
+}

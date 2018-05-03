@@ -1,0 +1,15 @@
+{
+  "id": "hillary",
+  "name": "Hillary Naiberk",
+  "order": 9,
+  "job": {
+    "en": "Community Manager",
+    "fr": "Community Manager"
+  },
+  "img": "../img/about/team_members/hillary.png",
+  "img_color": "../img/about/team_members/hillary_color.png",
+  "description": { 
+    "en": "Gael is Artistic director at Iconem and currently writing his doctoral thesis in the Digital images and Virtual reality laboratory (INReV) in Paris 8 University. His main subject of study is “Alternative proposals to the Preservation and Safeguarding of Three-dimensional Digital Archives”. He’s graduated in a master in Art and images technologies with honors in Paris 8 university, and he also have a master degree in Art from the EESAB (Brest). He has been at Iconem since 2015 and previously has been in residence for several months at the animation studio Supamonks. He recently spoke at the seminar “what exhibiting means” and took an active part in the creation of a few exhibition at Iconem : “Sites Eternels” at the Grand Palais and “Syrian Symphony” at the Aga Khan Museum of Toronto.",
+    "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
+  }
+}

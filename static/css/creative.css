@@ -36,7 +36,7 @@ h6 {
 }
 
 h3.section-title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -399,13 +399,13 @@ a.photo-box:hover img {
     flex-wrap: wrap;
 }
 
-@media(min-width:1200px) {
+@media(min-width:800px) {
     #about .about-row .about-item {
         width: 25%;
     }
 }
 
-@media (min-width:600px) and (max-width:1199px) {
+@media (min-width:600px) and (max-width:799px) {
     #about .about-row .about-item {
         width: 50%;
     }
