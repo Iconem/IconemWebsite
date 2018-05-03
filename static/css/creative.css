@@ -43,7 +43,7 @@ hr {
     width: 100px;
     border: none;
     border-bottom: 1px solid #887d87!important;
-    margin: 8px;
+    margin: 8px auto;
 }
 
 hr.light {

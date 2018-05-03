@@ -4,6 +4,7 @@
     <div class="row text-center">
         <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.partners }}</h3>
+            <hr class="light">
             <div class="owl-carousel partners-carousel">
                 {{ range .Site.Data.partners }}
                     <div class="item">
@@ -22,6 +23,7 @@
     <div class="row text-center">
         <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.clients }}</h3>
+            <hr class="light">
             <div class="owl-carousel partners-carousel">
                 {{ range .Site.Data.clients }}
                     <div class="item">
