@@ -126,14 +126,10 @@ baseUrl = "iconem.com"
 	[languages.en.about]
 		title    = "About"
 		description = "Founded in 2013, Iconem is an innovative startup that specialises in the digitisation of endangered cultural heritage sites in 3D. We work with international organisations and companies, including UNESCO, the Aga Khan Trust for Culture, Microsoft, and the drone manufacturer Parrot, as well as the world class museums such as the Louvre. We design site-specific architectural 3D models; large-scale urban and rural 3D models; museum exhibitions; and training for local professionals."
-		clients = "Clients"
-		partners = "Partners"
 
 	[languages.fr.about]
 		title    = "À propos"
 		description = "Fondée en 2013, Iconem est une startup innovante spécialisée en numérisation 3D des sites patrimoniaux. Nous travaillons avec des organisations internationales, des gouvernements et collectivités ou des musées d’envergure internationale tels que l’UNESCO, l’Aga Khan Trust for Culture, le Sultanat d’Oman, la Mairie de Paris ou le Musée du Louvre. Nous réalisons des modèles 3D de monuments, de patrimoine urbain ou rural à grand-échelle, des expositions immersives et des formations pour les professionnels."
-		clients = "Clients"
-		partners = "Partenaires"
 
 	# Contact section
 	[params.contact]
@@ -157,6 +153,16 @@ baseUrl = "iconem.com"
 	[languages.fr.press_kit]
 		title = "Dossier de Presse"
 		pdf = "pdf/press_kit.pdf"
+
+	# Partners
+	[params.partners]
+		enabled = true
+	[languages.en.partners]
+		clients = "Clients"
+		partners = "Partners"
+	[languages.fr.partners]
+		clients = "Clients"
+		partners = "Partenaires"
 
 	# Footer
 	[params.footer]

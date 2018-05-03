@@ -1,0 +1,36 @@
+{{ "<!-- Partners and Clients -->" | safeHTML }}
+{{ $lang := .Site.Language.Lang }}
+<section id="partners">
+    <div id="partners" class="text-center">
+        <h5 class="text-bold text-uppercase">{{ .Site.Params.partners.partners }}</h5>
+        <hr>
+        <div class="owl-carousel partners-carousel">
+            {{ range .Site.Data.partners }}
+                <div class="item">
+                    <a href="{{ .link }}" target="_blank">
+                        <img src="{{ .icon}}" 
+                            onmouseenter="this.src={{ .icon_active}}" 
+                            onmouseleave="this.src={{ .icon}}"
+                        />
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    <div id="clients" class="text-center">
+        <h5 class="text-bold text-uppercase">{{ .Site.Params.partners.clients }}</h5>
+        <hr>
+        <div class="owl-carousel partners-carousel">
+            {{ range .Site.Data.clients }}
+                <div class="item">
+                    <a href="{{ .link }}" target="_blank">
+                        <img src="{{ .icon}}" 
+                            onmouseenter="this.src={{ .icon_active}}" 
+                            onmouseleave="this.src={{ .icon}}"
+                        />
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
