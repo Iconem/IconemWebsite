@@ -14,11 +14,11 @@
   },
   "thumbnail": "../img/projects/Alep/Alep_thumbnail.jpg",
   "subtitle": {
-    "en": "captioncaption",
-    "fr": "légendelégendaire"
+    "en": "Digitisation of Aleppo",
+    "fr": "Numérisation d'Alep"
   },
   "actors": {
-    "en": "Iconem and Syrian Directorate-General of Antiquities & Museums",
+    "en": "Iconem and Syrian Directorate-General of Antiquities & Museums (DGAM)",
     "fr": "Iconem et Direction Générale des Antiquités et des Musées de Syrie (DGAM)"
   },
   "img": [
@@ -26,72 +26,72 @@
       "preview": "../img/projects/Alep/Alep_01.jpg",
       "full": "../img/projects/Alep/Alep_01.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Multi-level 3D models of Aleppo",
+        "fr": "Modèles 3D à multi-échelles d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_02.jpg",
       "full": "../img/projects/Alep/Alep_02.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "3D Cross-section of Aleppo’s souk",
+        "fr": "Coupe 3D du souk d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_03.jpg",
       "full": "../img/projects/Alep/Alep_03.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "3D interior of Aleppo’s souk",
+        "fr": "Intérieur 3D du souk d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_04.jpg",
       "full": "../img/projects/Alep/Alep_04.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Drone flyover of Aleppo’s Old City",
+        "fr": "Survol drone de la vieille ville d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_05.jpg",
       "full": "../img/projects/Alep/Alep_05.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Drone flyover of Aleppo’s Citadel",
+        "fr": "Survol drone de la Citadelle d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_06.jpg",
       "full": "../img/projects/Alep/Alep_06.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Drone flyover of Aleppo’s Old City",
+        "fr": "Survol drone de la vieille ville d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_07.jpg",
       "full": "../img/projects/Alep/Alep_07.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "Drone flyover of Aleppo’s Old City",
+        "fr": "Survol drone de la vieille ville d’Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_08.jpg",
       "full": "../img/projects/Alep/Alep_08.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "The Citadel of Aleppo",
+        "fr": "La Citadelle d'Alep"
       }
     },
     {
       "preview": "../img/projects/Alep/Alep_09.jpg",
       "full": "../img/projects/Alep/Alep_09.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "The Great Ummayyad Mosque",
+        "fr": "La Grande Mosquée des Omeyyades"
       }
     }
   ],
