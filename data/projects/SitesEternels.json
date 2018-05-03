@@ -173,9 +173,18 @@
     }
   ],
   "video": [
-    "https://vimeo.com/196717531",
-    "https://www.youtube.com/watch?v=eD3vZbfss8w",
-    "https://www.youtube.com/watch?v=h2a1u8idW-Q"
+    {
+      "src": "https://vimeo.com/196717531",
+      "preview": "../img/projects/SitesEternels/SitesEternels_01.jpg"
+    },
+    {
+      "src": "https://www.youtube.com/watch?v=eD3vZbfss8w",
+      "preview": "../img/projects/SitesEternels/SitesEternels_02.jpg"
+    },
+    {
+      "src": "https://www.youtube.com/watch?v=h2a1u8idW-Q",
+      "preview": "../img/projects/SitesEternels/SitesEternels_03.jpg"
+    }
   ],
   "models": [
     "https://sketchfab.com/models/002167355899450f838d58b729d83190/embed",

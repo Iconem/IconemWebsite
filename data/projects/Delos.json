@@ -112,7 +112,10 @@
     }
   ],
   "video": [ 
-    "https://www.youtube.com/watch?v=O9iFGZYFJ3o"
+    {
+      "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
+      "preview": "../img/projects/Delos/Delos_01.jpg"
+    }
   ],
   "models": [
     ""

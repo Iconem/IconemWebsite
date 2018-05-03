@@ -136,6 +136,7 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
+    var projects = {{.Site.Data.projects}};
 
     // carousel config for preview images in project modals
     var modalPreviewCarouselConfig = {
@@ -152,16 +153,22 @@
 
     var modalVideoCarouselConfig = {
       items: 1, 
-      loop: true,
+      loop: false,
       nav: true,
       video: true,
       lazyLoad: true,
       navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
       onInitialized: function() {
         var carousel = this.$element;
-        carousel.find('.owl-video-wrapper').each(function(){
+        var carouselId = carousel.parent().attr('id');
+        var projectId = carouselId.split('-')[1];
+        var project = projects[projectId];
+        carousel.find('.owl-video-wrapper').each(function(index){
           var previewContainer = document.createElement('div');
           previewContainer.classList.add('project-video-preview');
+          var img = document.createElement('img');
+          img.src = project.video[index].preview;
+          previewContainer.appendChild(img);
           this.appendChild(previewContainer);
         });
       }

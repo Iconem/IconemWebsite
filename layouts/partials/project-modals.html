@@ -36,8 +36,7 @@
                                 href="#project-{{ $projectIndex }}-video-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});
-                                    loadVideoPreviews({{ $projectIndex }})">
+                                onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});">
                                 <img src="../img/projects/icons/video_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
@@ -101,7 +100,7 @@
                             <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
                                 <div class="owl-carousel owl-theme video-carousel">
                                     {{ range $project.video }}
-                                        <a class="owl-video" href="{{ . }}"></a>
+                                        <a class="owl-video" href="{{ .src }}"></a>
                                     {{ end }}
                                 </div>
                             </div>
@@ -224,8 +223,5 @@
         if (!$(imgCarouselId).hasClass('in')) {
             $(imgCarouselTogglerId).click();
         }
-    }
-
-    function loadVideoPreviews(projectIndex) {
     }
 </script>

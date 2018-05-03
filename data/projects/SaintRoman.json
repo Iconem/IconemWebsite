@@ -144,7 +144,10 @@
     }
   ],
   "video": [ 
-    "https://www.youtube.com/watch?v=BALYb8gUuW8"
+    {
+      "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
+      "preview": "../img/projects/SaintRoman/SaintRoman_01.jpg"
+    }
   ],
   "models": [
     ""
