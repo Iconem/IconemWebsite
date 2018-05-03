@@ -43,6 +43,7 @@ hr {
     width: 100px;
     border: none;
     border-bottom: 1px solid #887d87!important;
+    margin: 8px;
 }
 
 hr.light {
@@ -99,7 +100,7 @@ p {
     font-size: 18px!important;
 }
 
-@media(min-width:768px) {
+@media(min-width:1200px) {
     .text-sm {
         font-size: 14px!important;
     }
@@ -343,7 +344,7 @@ header .header-footer a img {
 }
 
 a.photo-box img {
-    transition: all 0.25s ease-in-out;
+    transition: all .5s ease-in-out;
 } 
 
 a.photo-box:hover img {
@@ -359,9 +360,9 @@ a.photo-box:hover img {
     left: 0;
     text-align: center;
     opacity: 0;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
     padding: 30px;
     color: #555;
 }
