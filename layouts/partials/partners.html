@@ -1,36 +1,39 @@
-{{ "<!-- Partners and Clients -->" | safeHTML }}
+{{ "<!-- Partners -->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
 <section id="partners">
-    <div id="partners" class="text-center">
-        <h5 class="text-bold text-uppercase">{{ .Site.Params.partners.partners }}</h5>
-        <hr>
-        <div class="owl-carousel partners-carousel">
-            {{ range .Site.Data.partners }}
-                <div class="item">
-                    <a href="{{ .link }}" target="_blank">
-                        <img src="{{ .icon}}" 
-                            onmouseenter="this.src={{ .icon_active}}" 
-                            onmouseleave="this.src={{ .icon}}"
-                        />
-                    </a>
-                </div>
-            {{ end }}
+    <div class="row text-center">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.partners }}</h3>
+            <div class="owl-carousel partners-carousel">
+                {{ range .Site.Data.partners }}
+                    <div class="item">
+                        <a href="{{ .link }}" target="_blank">
+                            <img src="{{ .icon}}" 
+                                onmouseenter="this.src={{ .icon_active}}" 
+                                onmouseleave="this.src={{ .icon}}"
+                            />
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
         </div>
     </div>
-    <div id="clients" class="text-center">
-        <h5 class="text-bold text-uppercase">{{ .Site.Params.partners.clients }}</h5>
-        <hr>
-        <div class="owl-carousel partners-carousel">
-            {{ range .Site.Data.clients }}
-                <div class="item">
-                    <a href="{{ .link }}" target="_blank">
-                        <img src="{{ .icon}}" 
-                            onmouseenter="this.src={{ .icon_active}}" 
-                            onmouseleave="this.src={{ .icon}}"
-                        />
-                    </a>
-                </div>
-            {{ end }}
+    <br>
+    <div class="row text-center">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.clients }}</h3>
+            <div class="owl-carousel partners-carousel">
+                {{ range .Site.Data.clients }}
+                    <div class="item">
+                        <a href="{{ .link }}" target="_blank">
+                            <img src="{{ .icon}}" 
+                                onmouseenter="this.src={{ .icon_active}}" 
+                                onmouseleave="this.src={{ .icon}}"
+                            />
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 </section>

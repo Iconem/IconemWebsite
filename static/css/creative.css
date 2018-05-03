@@ -504,3 +504,23 @@ a.photo-box:hover img {
 .main-projects-carousel-dots li button:focus {
     outline: none;
 }
+
+/* PARTNERS / CLIENTS */
+#partners {
+    background-image: url('../img/home/home_background.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#partners .partners-carousel {
+    margin-bottom: 30px;
+}
+
+#partners .partners-carousel .owl-stage {
+    margin: auto;
+}
