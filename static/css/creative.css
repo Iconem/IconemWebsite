@@ -289,6 +289,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner .header-draw {
     width: 45%;
+    max-width: 237px;
 }
 
 header .header-footer {
