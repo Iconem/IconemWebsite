@@ -258,8 +258,8 @@ body {
     opacity: 0.3;
 }
 
-.iconem-modal .owl-carousel.owl-theme .img-toolbar .img-fullscreen-btn {
-    background: url('../img/projects/icons/fullScreen_white.png');
+.iconem-modal .owl-carousel.owl-theme.full .img-toolbar .img-fullscreen-btn {
+    background: url('../img/projects/icons/fullScreenExit_white.png');
 }
 
 .iconem-modal .owl-carousel.owl-theme {
