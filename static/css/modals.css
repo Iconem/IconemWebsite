@@ -15,7 +15,16 @@ body {
 .iconem-modal {
     color: black;
     padding-right: 0 !important;
+    padding-bottom:20px;
+    padding-top:20px;
 }
+
+@media (max-width: 768px) {
+    .iconem-modal  {
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+} 
 
 .iconem-modal .modal-content,
 .iconem-modal .fullscreen-modal-content {
