@@ -55,6 +55,7 @@ body > section {
 }
 
 #iconem-map-infos-country {
+  padding:10px;
   border-bottom:1px solid white;
   text-align:center;
 }
