@@ -153,7 +153,7 @@
 
     var modalVideoCarouselConfig = {
       items: 1, 
-      loop: false,
+      loop: true,
       nav: true,
       video: true,
       lazyLoad: true,
@@ -164,10 +164,13 @@
         var projectId = carouselId.split('-')[1];
         var project = projects[projectId];
         carousel.find('.owl-video-wrapper').each(function(index){
+          console.log('\n', index)
+          var i = (index + Math.floor(project.video.length / 2)) % project.video.length;
+          console.log(i);
           var previewContainer = document.createElement('div');
           previewContainer.classList.add('project-video-preview');
           var img = document.createElement('img');
-          img.src = project.video[index].preview;
+          img.src = project.video[i].preview;
           previewContainer.appendChild(img);
           this.appendChild(previewContainer);
         });

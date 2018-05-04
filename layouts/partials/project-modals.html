@@ -5,7 +5,7 @@
     <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         
         <img src="../img/home/cross_black.png" class="close-modal" data-dismiss="modal"
-            onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});returnToImgCarousel({{ $projectIndex }})">
+            onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});returnToImgCarousel({{ $projectIndex }});stopVideos()">
         
         <div class="col-sm-10 col-sm-offset-1 modal-body">
             <div class="modal-fixed">
@@ -21,7 +21,7 @@
                             href="#project-{{ $projectIndex }}-img-carousel"
                             data-parent='#project-{{$projectIndex}}-media'
                             aria-expanded="true"
-                            onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});">
+                            onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});stopVideos();">
                             <img src="../img/projects/icons/img_black.png" 
                                 data-toggle="tooltip"
                                 data-placement="top"
@@ -52,7 +52,7 @@
                                 href="#project-{{ $projectIndex }}-models-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopPreviewCarousel({{ $projectIndex }});loadIFrames({{ $projectIndex }}, {{$project.models}})">
+                                onclick="stopPreviewCarousel({{ $projectIndex }});loadIFrames({{ $projectIndex }}, {{$project.models}});stopVideos();">
                                 <img src="../img/projects/icons/3ds_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
@@ -224,4 +224,13 @@
             $(imgCarouselTogglerId).click();
         }
     }
-</script>
+
+    function stopVideos() {
+        var eventNext = $.Event('keyup');
+        eventNext.keyCode = 39; // right arrow
+        var eventPrev = $.Event('keyup');
+        eventPrev.keyCode = 37; // left arrow
+        $(document).trigger(eventNext);
+        $(document).trigger(eventPrev);
+    }
+</script> 
