@@ -157,7 +157,7 @@ body > section {
   white-space: nowrap;
 }
 
-#iconem-map-svg path {
+#iconem-map-svg path, #iconem-map-svg polygon {
   display: block;
   top: 0;
   left: 0;
@@ -170,14 +170,14 @@ body > section {
   shape-rendering: geometricPrecision !important;
 }
 
-#iconem-map-svg path.visited {
+#iconem-map-svg path.visited, #iconem-map-svg polygon.visited {
   /*stroke-width: 1px;
   stroke: black;*/
   mix-blend-mode: soft-light !important;
   fill: white !important;
 }
 
-#iconem-map-svg path:hover, circle:hover {
+#iconem-map-svg path:hover, circle:hover, #iconem-map-svg polygon:hover {
   fill: white !important;
   mix-blend-mode: normal !important;
   cursor: pointer;
