@@ -289,6 +289,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner .header-draw {
     width: 45%;
+    max-width: 237px;
 }
 
 header .header-footer {
@@ -482,13 +483,12 @@ a.photo-box:hover img {
 .owl-dots .owl-dot {
     display: block;
     margin: 10px 5px;
-    background-color: #887d87;
+    background-color: #999999bd;
     color: transparent;
     box-sizing: border-box;
     height: 10px;
     min-width: 10px!important;
     width: 10px;
-    border-radius: 50%;
 }
 
 .owl-theme .owl-dots .owl-dot span {
