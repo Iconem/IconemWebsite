@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/fr/categories/</loc>
+    <loc>/IconemWebsite/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/IconemWebsite/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="/IconemWebsite/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>/fr/</loc>
+    <loc>/IconemWebsite/fr/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/IconemWebsite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="/IconemWebsite/fr/"
                 />
   </url>
   
   <url>
-    <loc>/fr/tags/</loc>
+    <loc>/IconemWebsite/fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/IconemWebsite/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags/"
+                href="/IconemWebsite/fr/tags/"
                 />
   </url>
   
