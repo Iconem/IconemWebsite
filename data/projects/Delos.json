@@ -74,37 +74,29 @@
       "preview": "../img/projects/Delos/Delos_07.jpg",
       "full": "../img/projects/Delos/Delos_07.jpg",
       "caption": {
-        "en": "",
-        "fr": ""
+        "en": "Preparing the drone",
+        "fr": "Préparation du drone"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_08.jpg",
       "full": "../img/projects/Delos/Delos_08.jpg",
       "caption": {
-        "en": "Preparing the drone",
-        "fr": "Préparation du drone"
+        "en": "Video feed from the drone",
+        "fr": "Retour vidéo du drone"
       }
     },
     {
       "preview": "../img/projects/Delos/Delos_09.jpg",
       "full": "../img/projects/Delos/Delos_09.jpg",
       "caption": {
-        "en": "Video feed from the drone",
-        "fr": "Retour vidéo du drone"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_10.jpg",
-      "full": "../img/projects/Delos/Delos_10.jpg",
-      "caption": {
         "en": "Drone aerial view",
         "fr": "Vue aérienne du drone"
       }
     },
     {
-      "preview": "../img/projects/Delos/Delos_11.jpg",
-      "full": "../img/projects/Delos/Delos_11.jpg",
+      "preview": "../img/projects/Delos/Delos_10.jpg",
+      "full": "../img/projects/Delos/Delos_10.jpg",
       "caption": {
         "en": "Aerial view from a kite",
         "fr": "Vue aérienne du cerf-volant"

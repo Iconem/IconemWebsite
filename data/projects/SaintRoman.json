@@ -114,17 +114,13 @@
       "preview": "../img/projects/SaintRoman/SaintRoman_12.jpg",
       "full": "../img/projects/SaintRoman/SaintRoman_12.jpg",
       "caption": {
-        "en": "Caption",
-        "fr": "Légende"
+        "en": "",
+        "fr": ""
       }
     },
     {
       "preview": "../img/projects/SaintRoman/SaintRoman_13.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_13.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/SaintRoman/SaintRoman_13.jpg"
     },
     {
       "preview": "../img/projects/SaintRoman/SaintRoman_14.jpg",
