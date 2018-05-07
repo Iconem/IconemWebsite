@@ -11,31 +11,36 @@
         <div class="contact-container">
             {{ if .Site.Params.contact.phone }}
                 <div class="text-center contact-item">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <img src="img/contact/phone.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/phone_hover.png'"
+                    onmouseleave="this.src='img/contact/phone.png'">
                     <p>{{ .Site.Params.contact.phone }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.adress }}
                 <div class="text-center contact-item">
-                    <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
+                    <img src="img/contact/location.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/location_hover.png'"
+                    onmouseleave="this.src='img/contact/location.png'">
                     <p>{{ .Site.Params.contact.adress }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
                 <a class="text-center contact-item" href="mailto:{{ .Site.Params.contact.email }}">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <img src="img/contact/mail.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.png'"
+                    onmouseleave="this.src='img/contact/mail.png'">
                     <p>{{ .Site.Params.contact.email }}</p>
                 </a>
             {{ end }}
             {{ if .Site.Params.brochure }}
                 <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
-                    <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <img src="img/contact/brochure.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/brochure_hover.png'"
+                    onmouseleave="this.src='img/contact/brochure.png'">
                     <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
             {{ end }}
             {{ if .Site.Params.press_kit }}
                 <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
-                    <i class="fa fa-file-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <img src="img/contact/presskit.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/presskit_hover.png'"
+                    onmouseleave="this.src='img/contact/presskit.png'">
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </a>
             {{ end }}
