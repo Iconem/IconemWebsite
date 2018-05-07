@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>iconem.com/categories/</loc>
+    <loc>iconem.github.io/IconemWebsite/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="iconem.com/fr/categories/"
+                href="iconem.github.io/IconemWebsite/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="iconem.com/categories/"
+                href="iconem.github.io/IconemWebsite/categories/"
                 />
   </url>
   
   <url>
-    <loc>iconem.com/</loc>
+    <loc>iconem.github.io/IconemWebsite/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="iconem.com/fr/"
+                href="iconem.github.io/IconemWebsite/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="iconem.com/"
+                href="iconem.github.io/IconemWebsite/"
                 />
   </url>
   
   <url>
-    <loc>iconem.com/tags/</loc>
+    <loc>iconem.github.io/IconemWebsite/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="iconem.com/fr/tags/"
+                href="iconem.github.io/IconemWebsite/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="iconem.com/tags/"
+                href="iconem.github.io/IconemWebsite/tags/"
                 />
   </url>
   
