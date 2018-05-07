@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/SaintRoman/SaintRoman_thumbnail.jpg",
+  "thumbnail": "img/projects/SaintRoman/SaintRoman_thumbnail.jpg",
   "subtitle": {
     "en": "Digitisation of Saint Roman",
     "fr": "Nummérisation de Saint Roman"
@@ -23,116 +23,116 @@
   },
   "img": [
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_01.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_01.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_01.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_01.jpg",
       "caption": {
         "en": "Plan and section of the 3D model",
         "fr": "Plan et section dans le modèle 3D"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_02.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_02.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_02.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_02.jpg",
       "caption": {
         "en": "Photorealistic rendering with and without texture (from left to right)",
         "fr": "Rendu photoréaliste sans et avec texture (de gauche à droite)"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_03.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_03.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_03.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_03.jpg",
       "caption": {
         "en": "3D model of the abbey’s exterior",
         "fr": "Numérisation 3D de l’extérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_04.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_04.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_04.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_04.jpg",
       "caption": {
         "en": "3D model of the abbey’s exterior",
         "fr": "Numérisation 3D de l’extérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_05.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_05.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_05.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_05.jpg",
       "caption": {
         "en": "3D model of the abbey’s interior",
         "fr": "Numérisation 3D de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_06.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_06.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_06.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_06.jpg",
       "caption": {
         "en": "3D model of the abbey’s interior",
         "fr": "Numérisation 3D de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_07.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_07.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_07.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_07.jpg",
       "caption": {
         "en": "3D model of the abbey’s interior",
         "fr": "Numérisation 3D de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_08.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_08.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_08.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_08.jpg",
       "caption": {
         "en": "3D model of the abbey’s interior",
         "fr": "Numérisation 3D de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_09.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_09.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_09.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_09.jpg",
       "caption": {
         "en": "Scanning the abbey’s interior by drone",
         "fr": "Relevé drone de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_10.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_10.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_10.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_10.jpg",
       "caption": {
         "en": "Scanning the abbey’s interior by drone",
         "fr": "Relevé drone de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_11.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_11.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_11.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_11.jpg",
       "caption": {
         "en": "Scanning the abbey’s interior by drone",
         "fr": "Relevé drone de l’intérieur de l’abbaye"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_12.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_12.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_12.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_12.jpg",
       "caption": {
         "en": "",
         "fr": ""
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_13.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_13.jpg"
+      "preview": "img/projects/SaintRoman/SaintRoman_13.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_13.jpg"
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_14.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_14.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_14.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_14.jpg",
       "caption": {
         "en": "Drone aerial view",
         "fr": "Vue aérienne du drone"
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_15.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_15.jpg",
+      "preview": "img/projects/SaintRoman/SaintRoman_15.jpg",
+      "full": "img/projects/SaintRoman/SaintRoman_15.jpg",
       "caption": {
         "en": "Drone aerial view",
         "fr": "Vue aérienne du drone"
@@ -142,7 +142,7 @@
   "video": [ 
     {
       "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "../img/projects/SaintRoman/SaintRoman_01.jpg"
+      "preview": "img/projects/SaintRoman/SaintRoman_01.jpg"
     }
   ],
   "models": [

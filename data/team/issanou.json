@@ -6,8 +6,8 @@
     "en": "Graphic Designer",
     "fr": "Designer Graphique"
   },
-  "img": "../img/about/team_members/issanou.png",
-  "img_color": "../img/about/team_members/issanou_color.png",
+  "img": "img/about/team_members/issanou.png",
+  "img_color": "img/about/team_members/issanou_color.png",
   "description": { 
     "en": "IssanoubioEN",
     "fr": "IssanoubioFR"  

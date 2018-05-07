@@ -3,7 +3,7 @@ order: 1
 title: 
   en: Technology
   fr: Technologie
-img: ../img/about/hardware.png
+img: img/about/hardware.png
 description: 
   en: We combine the latest in drone, laser, and photogrammetric technology with the power of super computers to produce the highest quality images and 3D models.<br>
       <br>Iconem has developed an innovative processing method exclusively for recording threatened cultural heritage sites. The result of our partnerships with INRIA, France’s national computer science research centre, and Microsoft Research, our technology seamlessly integrates multiple levels of data to build extremely precise 3D models of cultural heritage sites. Our smart merging functionality flawlessly combines laser scanner, photogrammetry, and Lidar data in one model, ensuring the highest quality data and images. Infinite data processing integrates details, accurate to the millimetre, into site-wide scans, enabling new applications for big data in the cultural heritage field. Our technology uses faster processing speeds and reduces costs while producing a more photorealistic 3D model.<br>

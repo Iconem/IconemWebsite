@@ -6,8 +6,8 @@
     "en": "Project Manager",
     "fr": "Gestion de Projets"
   },
-  "img": "../img/about/team_members/xavier.png",
-  "img_color": "../img/about/team_members/xavier_color.png",
+  "img": "img/about/team_members/xavier.png",
+  "img_color": "img/about/team_members/xavier_color.png",
   "description": { 
     "en": "XavierbioEN",
     "fr": "XavierbioFR"  

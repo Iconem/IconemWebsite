@@ -6,8 +6,8 @@
     "en": "Photogrammetry Expert",
     "fr": "Expert Photogrammétrie"
   },
-  "img": "../img/about/team_members/vincent.png",
-  "img_color": "../img/about/team_members/vincent_color.png",
+  "img": "img/about/team_members/vincent.png",
+  "img_color": "img/about/team_members/vincent_color.png",
   "description": { 
     "en": "VincentbioEN",
     "fr": "VincentbioFR"  

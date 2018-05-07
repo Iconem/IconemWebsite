@@ -12,7 +12,7 @@
     "en": "Exhibition",
     "fr": "Exposition"
   },
-  "thumbnail": "../img/projects/SitesEternels/SitesEternels_thumbnail.jpg",
+  "thumbnail": "img/projects/SitesEternels/SitesEternels_thumbnail.jpg",
     
   "subtitle": {
     "en": "Exhibition at the Grand Palais, Paris",
@@ -28,144 +28,144 @@
   },
   "img": [
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_01.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_01.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_01.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_01.jpg",
       "caption": {
         "en": "The Grand Palais’s entrance.",
         "fr": "Le parvis du Grand Palais."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_02.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_02.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_02.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_02.jpg",
       "caption": {
         "en": "3D exhibition design plan created by Sylvain Roca.",
         "fr": "Schéma 3D de la scénographie réalisé par Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_03.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_03.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_03.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_03.jpg",
       "caption": {
         "en": "Exhibition design © Sylvain Roca.",
         "fr": "Scénographie © Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_04.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_04.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_04.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_04.jpg",
       "caption": {
         "en": "Exhibition design © Sylvain Roca.",
         "fr": "Scénographie © Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_05.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_05.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_05.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_05.jpg",
       "caption": {
         "en": "Exhibition design © Sylvain Roca.",
         "fr": "Scénographie © Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_06.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_06.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_06.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_06.jpg",
       "caption": {
         "en": "Exhibition design © Sylvain Roca.",
         "fr": "Scénographie © Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_07.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_07.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_07.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_07.jpg",
       "caption": {
         "en": "Exhibition design © Sylvain Roca.",
         "fr": "Scénographie © Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_08.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_08.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_08.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_08.jpg",
       "caption": {
         "en": "Exhibition design © Sylvain Roca.",
         "fr": "Scénographie © Sylvain Roca."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_09.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_09.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_09.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_09.jpg",
       "caption": {
         "en": "The Cité de l’Architecture’s model of the Crac des Chevaliers, digitised in 3D.",
         "fr": "Numérisation 3D de la maquette du Crac des Chevaliers située à la Cité de l'Architecture."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_10.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_10.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_10.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_10.jpg",
       "caption": {
         "en": "Detail in digital 3D of the Arch of Triumph at Palmyra after its destruction.",
         "fr": "Numérisation 3D de l'Arche de Palmyre après destruction."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_11.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_11.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_11.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_11.jpg",
       "caption": {
         "en": "The RMN-GP’s digital 3D model of a Sultan al-‘Adil II bowl",
         "fr": "Numérisation 3D par la RMN-GP du Bassin au nom du sultan al-'Adil II."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_12.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_12.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_12.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_12.jpg",
       "caption": {
         "en": "The RMN-GP’s digital 3D bronze lion model.",
         "fr": "Numérisation 3D par la RMN-GP du Lion de Bronze."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_13.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_13.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_13.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_13.jpg",
       "caption": {
         "en": "Digital 3D model of the shrine of the Great Mosque of the Umayyads in Damascus, Syria.",
         "fr": "Numérisation 3D de l’Édicule de la Grande Mosquée des Omeyyades de Damas."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_14.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_14.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_14.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_14.jpg",
       "caption": {
         "en": "3D digitisation of a winged human-headed bull from the Louvre.",
         "fr": "Numérisation 3D du Taureau Androcéphale du musée du Louvre."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_15.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_15.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_15.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_15.jpg",
       "caption": {
         "en": "Textures used for the 3D digital renderings.",
         "fr": "Ensemble de textures utilisées pour le rendu 3D des numérisations."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_16.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_16.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_16.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_16.jpg",
       "caption": {
         "en": "Layer arrangement to produce the exhibition poster.",
         "fr": "Composition de calques afin de réaliser l'affiche de l'exposition."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_17.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_17.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_17.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_17.jpg",
       "caption": {
         "en": "Exhibition opening invitation.",
         "fr": "Invitation pour le vernissage de l'exposition."
       }
     },
     {
-      "preview": "../img/projects/SitesEternels/SitesEternels_18.jpg",
-      "full": "../img/projects/SitesEternels/SitesEternels_18.jpg",
+      "preview": "img/projects/SitesEternels/SitesEternels_18.jpg",
+      "full": "img/projects/SitesEternels/SitesEternels_18.jpg",
       "caption": {
         "en": "Iconem’s Sites Eternels exhibition team.",
         "fr": "L'équipe Iconem ayant travaillé sur l'exposition."
@@ -175,15 +175,15 @@
   "video": [
     {
       "src": "https://vimeo.com/196717531",
-      "preview": "../img/projects/SitesEternels/SitesEternels_YoutubeThumbnail1.jpg"
+      "preview": "img/projects/SitesEternels/SitesEternels_YoutubeThumbnail1.jpg"
     },
     {
       "src": "https://www.youtube.com/watch?v=eD3vZbfss8w",
-      "preview": "../img/projects/SitesEternels/SitesEternels_YoutubeThumbnail2.jpg"
+      "preview": "img/projects/SitesEternels/SitesEternels_YoutubeThumbnail2.jpg"
     },
     {
       "src": "https://www.youtube.com/watch?v=h2a1u8idW-Q",
-      "preview": "../img/projects/SitesEternels/SitesEternels_YoutubeThumbnail3.jpg"
+      "preview": "img/projects/SitesEternels/SitesEternels_YoutubeThumbnail3.jpg"
     }
   ],
   "models": [

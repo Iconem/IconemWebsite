@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/Angkor/Angkor_thumbnail.jpg",
+  "thumbnail": "img/projects/Angkor/Angkor_thumbnail.jpg",
   "subtitle": {
     "en": "*//*/**//*",
     "fr": "*//*/**//*"
@@ -23,112 +23,112 @@
   },
   "img": [
     {
-      "preview": "../img/projects/Angkor/Angkor_01.jpg",
-      "full": "../img/projects/Angkor/Angkor_01.jpg",
+      "preview": "img/projects/Angkor/Angkor_01.jpg",
+      "full": "img/projects/Angkor/Angkor_01.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_02.jpg",
-      "full": "../img/projects/Angkor/Angkor_02.jpg",
+      "preview": "img/projects/Angkor/Angkor_02.jpg",
+      "full": "img/projects/Angkor/Angkor_02.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_03.jpg",
-      "full": "../img/projects/Angkor/Angkor_03.jpg",
+      "preview": "img/projects/Angkor/Angkor_03.jpg",
+      "full": "img/projects/Angkor/Angkor_03.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_04.jpg",
-      "full": "../img/projects/Angkor/Angkor_04.jpg",
+      "preview": "img/projects/Angkor/Angkor_04.jpg",
+      "full": "img/projects/Angkor/Angkor_04.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_05.jpg",
-      "full": "../img/projects/Angkor/Angkor_05.jpg",
+      "preview": "img/projects/Angkor/Angkor_05.jpg",
+      "full": "img/projects/Angkor/Angkor_05.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_06.jpg",
-      "full": "../img/projects/Angkor/Angkor_06.jpg",
+      "preview": "img/projects/Angkor/Angkor_06.jpg",
+      "full": "img/projects/Angkor/Angkor_06.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_07.jpg",
-      "full": "../img/projects/Angkor/Angkor_07.jpg",
+      "preview": "img/projects/Angkor/Angkor_07.jpg",
+      "full": "img/projects/Angkor/Angkor_07.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_08.jpg",
-      "full": "../img/projects/Angkor/Angkor_08.jpg",
+      "preview": "img/projects/Angkor/Angkor_08.jpg",
+      "full": "img/projects/Angkor/Angkor_08.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_09.jpg",
-      "full": "../img/projects/Angkor/Angkor_09.jpg",
+      "preview": "img/projects/Angkor/Angkor_09.jpg",
+      "full": "img/projects/Angkor/Angkor_09.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_10.jpg",
-      "full": "../img/projects/Angkor/Angkor_10.jpg",
+      "preview": "img/projects/Angkor/Angkor_10.jpg",
+      "full": "img/projects/Angkor/Angkor_10.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_11.jpg",
-      "full": "../img/projects/Angkor/Angkor_11.jpg",
+      "preview": "img/projects/Angkor/Angkor_11.jpg",
+      "full": "img/projects/Angkor/Angkor_11.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_12.jpg",
-      "full": "../img/projects/Angkor/Angkor_12.jpg",
+      "preview": "img/projects/Angkor/Angkor_12.jpg",
+      "full": "img/projects/Angkor/Angkor_12.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_13.jpg",
-      "full": "../img/projects/Angkor/Angkor_13.jpg",
+      "preview": "img/projects/Angkor/Angkor_13.jpg",
+      "full": "img/projects/Angkor/Angkor_13.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_14.jpg",
-      "full": "../img/projects/Angkor/Angkor_14.jpg",
+      "preview": "img/projects/Angkor/Angkor_14.jpg",
+      "full": "img/projects/Angkor/Angkor_14.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
@@ -138,7 +138,7 @@
   "video": [ 
     {
       "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "../img/projects/Angkor/Angkor_YoutubeThumbnail.jpg"
+      "preview": "img/projects/Angkor/Angkor_YoutubeThumbnail.jpg"
     }
   ],
   "models": [

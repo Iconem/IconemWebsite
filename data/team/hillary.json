@@ -6,8 +6,8 @@
     "en": "Community Manager",
     "fr": "Community Manager"
   },
-  "img": "../img/about/team_members/hillary.png",
-  "img_color": "../img/about/team_members/hillary_color.png",
+  "img": "img/about/team_members/hillary.png",
+  "img_color": "img/about/team_members/hillary_color.png",
   "description": { 
     "en": "Hilary is",
     "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  

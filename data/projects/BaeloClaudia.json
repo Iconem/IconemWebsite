@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "../img/projects/BaleoClaudia/BaleoClaudia_thumbnail.jpg",
+  "thumbnail": "img/projects/BaleoClaudia/BaleoClaudia_thumbnail.jpg",
   "subtitle": {
     "en": "captionCaptionnaire",
     "fr": "legendeLegendaire"
@@ -23,88 +23,88 @@
   },
   "img": [
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_02.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_02.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_02.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_02.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_03.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_03.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_03.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_03.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_04.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_04.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_04.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_04.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_05.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_05.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_05.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_05.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_06.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_06.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_06.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_06.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_07.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_07.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_07.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_07.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_08.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_08.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_08.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_08.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_09.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_09.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_09.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_09.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_10.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_10.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_10.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_10.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
       }
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_11.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_11.jpg",
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_11.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_11.jpg",
       "caption": {
         "en": "Caption",
         "fr": "Légende"
@@ -114,7 +114,7 @@
   "video": [ 
     {
       "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_YoutubeThumbnail.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_YoutubeThumbnail.jpg"
     }
   ],
   "models": [
