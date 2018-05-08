@@ -2,7 +2,7 @@
   "modalID": "Yangon",
   "title": {
     "en": "YANGON",
-    "fr": "YANGON"
+    "fr": "RANGOUN"
   },
   "date": {
     "en": "2017",
@@ -14,8 +14,8 @@
   },
   "thumbnail": "../img/projects/Yangon/Yangon_thumbnail.jpg",
   "subtitle": {
-    "en": "yangonCaption",
-    "fr": "yangonCaption"
+    "en": "Digitisation of the Yangon High Court Building ",
+    "fr": "Numérisation de la Cour Suprême de Rangoun"
   },
   "actors": {
     "en": "Iconem and the French Institute of Myanmar",
@@ -24,83 +24,43 @@
    "img": [
     {
       "preview": "../img/projects/Yangon/Yangon_01.jpg",
-      "full": "../img/projects/Yangon/Yangon_01.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_01.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_02.jpg",
-      "full": "../img/projects/Yangon/Yangon_02.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_02.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_03.jpg",
-      "full": "../img/projects/Yangon/Yangon_03.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_03.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_04.jpg",
-      "full": "../img/projects/Yangon/Yangon_04.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_04.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_05.jpg",
-      "full": "../img/projects/Yangon/Yangon_05.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_05.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_06.jpg",
-      "full": "../img/projects/Yangon/Yangon_06.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_06.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_07.jpg",
-      "full": "../img/projects/Yangon/Yangon_07.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_07.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_08.jpg",
-      "full": "../img/projects/Yangon/Yangon_08.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_08.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_09.jpg",
-      "full": "../img/projects/Yangon/Yangon_09.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_09.jpg"
     },
     {
       "preview": "../img/projects/Yangon/Yangon_10.jpg",
-      "full": "../img/projects/Yangon/Yangon_10.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Yangon/Yangon_10.jpg"
     }
   ],
   "video": [ 
@@ -113,7 +73,7 @@
     ""
   ],
   "description": { 
-    "en": "The iconic Supreme Court Tower of Yangon and its famous clock face dominate the skyline of Myanmar’s largest city. Its revival Queen Anne style recalls the city’s colonial past and it is still an important landmark for its residents. Our team digitised the tower for the French Institute of Myanmar in 2017. After drone and ground data acquisition, Iconem generated a photogrammetric 3D model of this Yangon City Heritage designated building. We also produced a video that highlighted the commonalities between the tower, designed by James Ransome, and the Tour Saint Jacques in Paris, which Iconem also digitised. This video was presented during Yangon’s Mingalabar Festival, organized by the municipality and the French Institute.",
+    "en": "The iconic Yangon High Court Building and its famous clock face dominate the skyline of Myanmar’s largest city. The monument and its revival Queen Anne style are symbols of the city’s colonial past and it is still an important landmark for its residents. Our team digitised the tower for the French Institute of Myanmar in 2017. After drone and ground data acquisition, Iconem generated a photogrammetric 3D model of this Yangon City Heritage designated building. We also produced a video that highlighted the commonalities between the tower, designed by James Ransome, and the Tour Saint Jacques in Paris, which Iconem also digitised. This video was presented during Yangon’s Mingalabar Festival, organized by the city and the French Institute.",
     "fr": "Construit en 1905 par James Ransome dans la ville de Yangon, le Palais de Justice, et en particulier sa tour, sont des symboiles du passé colonisé de la Birmanie. De style Queen-Anne, ce bâtiment était jusqu'en 2006 la Cour Suprême de Birmanie, et n'est plus que partiellement occupé. Appartenant à la “Yangon City Heritage List”, sa célèbre horloge monumentale est un véritable point de repère au sein de la ville, ainsi que pour les résidents. Notre équipe a numérisé la tour pour l’Institut Français de la Birmanie en 2017. À la suite de l’acquisition des données drone et terrain, Iconem a produit un modèle 3D photogrammétrique du monument classé patrimoine de la ville de Yangon. Nous avons aussi produit une vidéo qui souligne des points communs entre la tour, signé James Ransome, et la Tour Saint Jacques à Paris qu’Iconem a également numérisée. Cette vidéo était diffusée pendant le festival Mingalabar, organisé par la ville et l’Institut Français."
   }
 }

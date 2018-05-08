@@ -14,125 +14,69 @@
   },
   "thumbnail": "../img/projects/Angkor/Angkor_thumbnail.jpg",
   "subtitle": {
-    "en": "*//*/**//*",
-    "fr": "*//*/**//*"
+    "en": "Digitisation of Angkor",
+    "fr": "Numérisation d'Angkor"
   },
   "actors": {
-    "en": "Iconem, French Embassy of Cambodia and the CICI Angkor",
-    "fr": "Iconem, l'Ambassade de France au Cambodge et le CICI Angkor"
+    "en": "Iconem, the French Embassy of Cambodia, and the CIC-Angkor",
+    "fr": "Iconem, l'Ambassade de France au Cambodge et le CIC-Angkor"
   },
   "img": [
     {
       "preview": "../img/projects/Angkor/Angkor_01.jpg",
-      "full": "../img/projects/Angkor/Angkor_01.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_01.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_02.jpg",
-      "full": "../img/projects/Angkor/Angkor_02.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_02.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_03.jpg",
-      "full": "../img/projects/Angkor/Angkor_03.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_03.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_04.jpg",
-      "full": "../img/projects/Angkor/Angkor_04.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_04.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_05.jpg",
-      "full": "../img/projects/Angkor/Angkor_05.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_05.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_06.jpg",
-      "full": "../img/projects/Angkor/Angkor_06.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_06.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_07.jpg",
-      "full": "../img/projects/Angkor/Angkor_07.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_07.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_08.jpg",
-      "full": "../img/projects/Angkor/Angkor_08.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_08.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_09.jpg",
-      "full": "../img/projects/Angkor/Angkor_09.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_09.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_10.jpg",
-      "full": "../img/projects/Angkor/Angkor_10.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_10.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_11.jpg",
-      "full": "../img/projects/Angkor/Angkor_11.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_11.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_12.jpg",
-      "full": "../img/projects/Angkor/Angkor_12.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_12.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_13.jpg",
-      "full": "../img/projects/Angkor/Angkor_13.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_13.jpg"
     },
     {
       "preview": "../img/projects/Angkor/Angkor_14.jpg",
-      "full": "../img/projects/Angkor/Angkor_14.jpg",
-      "caption": {
-        "en": "Caption",
-        "fr": "Légende"
-      }
+      "full": "../img/projects/Angkor/Angkor_14.jpg"
     }
   ],
   "video": [ 
@@ -145,7 +89,7 @@
     ""
   ],
   "description": { 
-    "en": "Perhaps the most iconic cultural heritage site of south east Asia, Angkor’s spectacular temples and sculptures dot 400 square kilometres in northern Cambodia. Vestiges of the great Khmer Empire are scattered throughout the archaeological park that is still home to many Cambodians. The stunning temples are visited by millions of tourists each year, threatening the centuries old site. Iconem scanned temples, sculptures, and gates for the French Embassy of Cambodia and the CICI Angkor in 2017 to further the site’s promotion and scientific study. A high-altitude drone scan recorded an overview of the site and was complimented by a lower altitude flight. The data collected from the flights will facilitate archaeological research and the site’s 3D reconstitution. Our team then photographed the monuments’ stone blocks with pole-mounted cameras to collect millimetre precise data for future 3D models.",
+    "en": "Perhaps the most iconic cultural heritage site of south east Asia, Angkor’s spectacular temples and sculptures dot 400 square kilometres in northern Cambodia. Vestiges of the great Khmer Empire are scattered throughout the archaeological park that is still home to many Cambodians. Millions of tourists visit the stunning temples each year, threatening the centuries-old UNESCO World Heritage site. Iconem scanned temples, sculptures, and gates for the French Embassy of Cambodia and the CIC Angkor in 2017 to further the site’s promotion and scientific study. Data was collected by both high and low altitude drone scans. The 3D model built from the drone data will facilitate archaeological research. Our team then photographed the monuments’ stone blocks with pole-mounted cameras to collect millimetre precise data for additional photorealistic 3D models.",
     "fr": "Peut-être le site patrimonial le plus emblématique de l’Asie du Sud-Est, 400 kilomètres carrés du nord du Cambodge sont parsemés des temples et des sculptures incroyables d’Angkor. Des vestiges du grand Empire Khmer sont dispersés sur le parc archéologique où habitent toujours beaucoup de cambodgiens. Des millions de touristes visitent ces temples magnifiques chaque année, menaçant le site classé patrimoine mondial UNESCO vieux de plusieurs siècles. Iconem a scanné des temples, des sculptures et des portails pour l’Ambassade de France au Cambodge et le CICI Angkor en 2017 pour faire avancer la promotion du site et son étude scientifique. Des données étaient acquises grâce aux relevés drones de haute et de basse altitude. Le modèle 3D réalisé des données de drone facilitera la recherche archéologique. Ensuite, notre équipe a pris des photographies à la perche des blocs des monuments pour collecter des données millimétriques pour des modèles 3D photoréalistes supplémentaires."
   }
 }
