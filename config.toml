@@ -165,6 +165,20 @@ publishDir = "docs"
 		title = "Contact Presse"
 		pdf = "pdf/press_kit.pdf"
 
+	[languages.en.newsletter]
+		title = "Subscribe to our newsletter"
+		placeholder = "Email Adress"
+		button_label = "Subscribe"
+		link = "https://iconem.us12.list-manage.com/subscribe/post?u=749f610ff78ee22f7360e7b72&amp;id=6256e49fdb"
+		input_name="b_749f610ff78ee22f7360e7b72_6256e49fdb"
+
+	[languages.fr.newsletter]
+		title = "Inscrivez-vous pour recevoir notre newsletter"
+		placeholder = "Adresse Email"
+		button_label = "Valider"
+		link = "https://iconem.us12.list-manage.com/subscribe/post?u=749f610ff78ee22f7360e7b72&amp;id=d589848b1b"
+		input_name="b_749f610ff78ee22f7360e7b72_d589848b1b"
+
 	# Partners
 	[params.partners]
 		enabled = true
