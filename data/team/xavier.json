@@ -2,6 +2,7 @@
   "id": "xavier",
   "name": "Xavier Gérard",
   "order": 5,
+  "enabled": true,
   "job": {
     "en": "Project Manager",
     "fr": "Gestion de Projets"

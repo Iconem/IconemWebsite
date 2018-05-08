@@ -1,6 +1,7 @@
 {
   "id": "clemence",
   "name": "Clémence Prudot d'Avigny",
+  "enabled": true,
   "order": 10,
   "job": {
     "en": "Head of Development, Iconem Funds",

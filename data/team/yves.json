@@ -2,6 +2,7 @@
   "id": "yves",
   "name": "Yves Ubelmann",
   "order": 1,
+  "enabled": true,
   "job": {
     "en": "Founder & CEO",
     "fr": "Fondateur & Président"

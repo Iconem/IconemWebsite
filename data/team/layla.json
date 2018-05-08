@@ -2,6 +2,7 @@
   "id": "layla",
   "name": "Layla Abdul Karim",
   "order": 2,
+  "enabled": true,
   "job": {
     "en": "Architect",
     "fr": "Architecte"

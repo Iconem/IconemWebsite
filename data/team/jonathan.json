@@ -2,6 +2,7 @@
   "id": "jonathan",
   "name": "Jonathan Chemla",
   "order": 4,
+  "enabled": true,
   "job": {
     "en": "CTO",
     "fr": "Directeur Technique"

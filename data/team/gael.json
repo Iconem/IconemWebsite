@@ -1,6 +1,7 @@
 {
   "id": "gael",
   "name": "Gaël Labousse",
+  "enabled": true,
   "order": 8,
   "job": {
     "en": "Art Director & PhD Student",

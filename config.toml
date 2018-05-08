@@ -100,6 +100,12 @@ publishDir = "docs"
             icon_active = "img/home/social/youtube_active.png"
             link = "https://www.youtube.com/user/iconem"
 
+        [[params.home.social]]
+            id = "linkedin"
+            icon = "img/home/social/linkedin.png"
+            icon_active = "img/home/social/linkedin_active.png"
+            link = "https://fr.linkedin.com/company/iconem"
+
 
     # Projects section
     [languages.en.projects]
@@ -130,7 +136,7 @@ publishDir = "docs"
 	# About section
 	[languages.en.about]
 		title    = "About"
-		description = "Founded in 2013, Iconem is an innovative startup that specialises in the digitisation of endangered cultural heritage sites in 3D. We work with international organisations and companies, including UNESCO, the Aga Khan Trust for Culture, Microsoft, and the drone manufacturer Parrot, as well as the world class museums such as the Louvre. We design site-specific architectural 3D models; large-scale urban and rural 3D models; museum exhibitions; and training for local professionals."
+		description = "Founded in 2013, Iconem is an innovative startup that specialises in the digitisation of endangered cultural heritage sites in 3D. We work with international organisations, national governments, local authorities, and world class museums such as UNESCO, the Aga Khan Trust for Culture, the Sultanate of Oman, the City of Paris, and the Louvre. We design site-specific architectural 3D models; large-scale urban and rural 3D models; museum exhibitions; and training for local professionals."
 
 	[languages.fr.about]
 		title    = "À propos"
@@ -152,11 +158,11 @@ publishDir = "docs"
 		pdf = "pdf/press_kit.pdf"
 
 	[languages.en.press_kit]
-		title = "Press Kit"
+		title = "Press Contact"
 		pdf = "pdf/press_kit.pdf"
 
 	[languages.fr.press_kit]
-		title = "Dossier de Presse"
+		title = "Contact Presse"
 		pdf = "pdf/press_kit.pdf"
 
 	# Partners
@@ -171,4 +177,4 @@ publishDir = "docs"
 
 	# Footer
 	[params.footer]
-		content = "@ 2018 Iconem All rights reserved"
+		content = "© 2018 Iconem. All rights reserved."

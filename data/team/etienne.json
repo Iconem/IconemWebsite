@@ -1,6 +1,7 @@
 {
   "id": "etienne",
   "name": "Etienne Tellier",
+  "enabled": true,
   "order": 12,
   "job": {
     "en": "CFO & Head of Production",

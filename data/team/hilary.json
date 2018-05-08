@@ -1,6 +1,7 @@
 {
-  "id": "hillary",
-  "name": "Hillary Naiberk",
+  "id": "hilary",
+  "name": "Hilary Naiberk",
+  "enabled": false,
   "order": 9,
   "job": {
     "en": "Community Manager",

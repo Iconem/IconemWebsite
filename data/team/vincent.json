@@ -2,6 +2,7 @@
   "id": "vincent",
   "name": "Vincent Tournadre",
   "order": 13,
+  "enabled": true,
   "job": {
     "en": "Photogrammetry Expert",
     "fr": "Expert Photogrammétrie"

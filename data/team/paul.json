@@ -2,6 +2,7 @@
   "id": "paul",
   "name": "Paul Aubineau",
   "order": 3,
+  "enabled": true,
   "job": {
     "en": "Software Engineer",
     "fr": "Ingénieur Développement Logiciel"

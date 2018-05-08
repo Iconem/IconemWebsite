@@ -2,6 +2,7 @@
   "id": "marjorie",
   "name": "Marjorie Coulin",
   "order": 14,
+  "enabled": false,
   "job": {
     "en": "R&D Engineer",
     "fr": "Ingénieure R&D"

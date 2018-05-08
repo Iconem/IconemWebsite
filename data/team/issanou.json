@@ -2,6 +2,7 @@
   "id": "issanou",
   "name": "Issanou Kamardine",
   "order": 7,
+  "enabled": true,
   "job": {
     "en": "Graphic Designer",
     "fr": "Designer Graphique"
