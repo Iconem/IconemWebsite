@@ -5,6 +5,10 @@ baseUrl = "/IconemWebsite"
 publishDir = "docs"
 
 [languages]
+	[languages.en]
+	baseUrl = "/IconemWebsite"
+	[languages.fr]
+	baseUrl = "/IconemWebsite/fr"
 
 [params]
 
