@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/IconemWebsite/fr/categories/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/IconemWebsite/en/categories/"
+                href="https://iconem.github.io/IconemWebsite/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/IconemWebsite/fr/categories/"
+                href="https://iconem.github.io/IconemWebsite/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>/IconemWebsite/fr/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/fr/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/IconemWebsite/en/"
+                href="https://iconem.github.io/IconemWebsite/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/IconemWebsite/fr/"
+                href="https://iconem.github.io/IconemWebsite/fr/"
                 />
   </url>
   
   <url>
-    <loc>/IconemWebsite/fr/tags/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/IconemWebsite/en/tags/"
+                href="https://iconem.github.io/IconemWebsite/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/IconemWebsite/fr/tags/"
+                href="https://iconem.github.io/IconemWebsite/fr/tags/"
                 />
   </url>
   
