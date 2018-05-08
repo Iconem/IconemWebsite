@@ -22,6 +22,7 @@
 <br />
 
 - **/!\ All fields marked with \* are mandatory.**
+- **/!\ modalID MUST be different from the other projects'**
 - **/!\ Images should be located in the folder `./static/img/projects/${new-project}`**
 - **/!\ The thumbnail image should**
     - **be 720x405px**
@@ -45,7 +46,6 @@
   "07"
 ]
 ```
-<<<<<<< HEAD
 
 ### 1.2. Add a project to the map
 
@@ -66,7 +66,7 @@ Map projects are listed by country in the folder `./data/map`. There is one file
 2. Modify each field of the file to fit your needs :
 - **name**\* : The client's name
 - **link** : A link to the client's website
-- **icon**\* : The location of the client's logo (with "website-friendly" colors)
+- **icon**\* : The location of the client's logo (with "website-friendly" colors => white)
 - **icon\_active**\* : The location of the client's logo (with "real" colors)
 
 <br />
@@ -88,37 +88,19 @@ Idem clients, but in folder `./data/partners`.
 
 ### 1.5. Modify team members
 
-The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
+1. Go to the folder `./data/team` and copy any of the existing `.json` file into `${new-person}.json`.
+2. Modify each field of the file to fit your needs : 
 - **name**\*
 - **job**\* (in French & in English)
-- **img**\* : The location of the photo
+- **img**\* : The location of the photo (black & white)
+- **img_color**\* : The location of the photo (color)
 - **description**\* (in French & in English)
 
 <br/>
 
 - **/!\ All fields marked with \* are mandatory.**
 - **/!\ Photos should be located in the folder `./static/img/about/team_members`**
-- **/!\ The photos should**
-    - **be black & white**
-    - **be 300x300px**
-
-### 1.6. Modify texts
-
-Main page's texts can be found in the file `./config.toml` (in French & in English). Other page's texts can be found in `./data` files. For example, the "Hardware" page's text is in `./data/about/hardware.yaml`.
-
-The file `./data/about/team.yaml` contains the list of all team members (in order of appearance). You can modify each item of the list to fit your needs : 
-- **name**\*
-- **job**\* (in French & in English)
-- **img**\* : The location of the photo
-- **description**\* (in French & in English)
-
-<br/>
-
-- **/!\ All fields marked with \* are mandatory.**
-- **/!\ Photos should be located in the folder `./static/img/about/team_members`**
-- **/!\ The photos should**
-    - **be black & white**
-    - **be 300x300px**
+- **/!\ The photos should be 300x300px**
 
 ### 1.6. Modify texts
 
@@ -132,8 +114,6 @@ Main page's texts can be found in the file `./config.toml` (in French & in Engli
 This site was built using Hugo `v0.32.4` for windows.
 <br/>
 To launch the dev mode : `hugo server`.
-<br/>
-To build site into `./dist` folder : `hugo`.
 
 ### 2.2. Folder organization
 
@@ -148,3 +128,18 @@ To build site into `./dist` folder : `hugo`.
 ### 2.3. Add a language
 
 In `./config.toml`, search for any field of the type `[languages.en.$param]`. Simply copy it under the name `[languages.$language_code.$param]` to add a new language to the site.
+
+### 2.4. Deploy Site
+
+Iconem website is currently hosted as a github page (see [here](https://pages.github.com/) and [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/)) on https://iconem.github.io/IconemWebsite.
+<br>
+The English version is available at https://iconem.github.io/IconemWebsite/en and the French one at https://iconem.github.io/IconemWebsite/fr (cf params baseUrl in config.toml => DONT CHANGE THESE VALUES)
+<br>
+A redirection is made from OVH to make site available on https://iconem.com (english version) and https://iconem.fr (french version).
+<br>
+To deploy changes :
+- Stop hugo dev server
+- Erase /docs folder
+- Build site into docs folder : `hugo`
+- Push to master branch
+The changes will then be automatically deployed within 2-5 minutes.
