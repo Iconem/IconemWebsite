@@ -1,12 +1,12 @@
 title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
-baseUrl = "/IconemWebsite"
+baseUrl = "/IconemWebsite/en"
 publishDir = "docs"
 
 [languages]
 	[languages.en]
-	baseUrl = "/IconemWebsite"
+	baseUrl = "/IconemWebsite/en"
 	[languages.fr]
 	baseUrl = "/IconemWebsite/fr"
 

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/IconemWebsite/categories/</loc>
+    <loc>/IconemWebsite/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -13,12 +13,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/IconemWebsite/categories/"
+                href="/IconemWebsite/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>/IconemWebsite/</loc>
+    <loc>/IconemWebsite/en/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -28,12 +28,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/IconemWebsite/"
+                href="/IconemWebsite/en/"
                 />
   </url>
   
   <url>
-    <loc>/IconemWebsite/tags/</loc>
+    <loc>/IconemWebsite/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -43,7 +43,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/IconemWebsite/tags/"
+                href="/IconemWebsite/en/tags/"
                 />
   </url>
   
