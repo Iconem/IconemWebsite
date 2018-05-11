@@ -1,13 +1,13 @@
 {
   "name": {
-    "en": "IRAQ (KURDISTAN)",
-    "fr": "IRAK (KURDISTAN)"
+    "en": "IRAQ",
+    "fr": "IRAK"
   },
   "places": [
     {
       "name": {
-        "en": "Akhre (KU)",
-        "fr": "Akhre (KU)"
+        "en": "Akhre (Kurdistan)",
+        "fr": "Akhre (Kurdistan)"
       },
       "sites": [
         {
@@ -21,8 +21,8 @@
     },
     {
       "name": {
-        "en": "Akhre (KU)",
-        "fr": "Akhre (KU)"
+        "en": "Akhre (Kurdistan)",
+        "fr": "Akhre (Kurdistan)"
       },
       "sites": [
         {
@@ -36,8 +36,8 @@
     },
     {
       "name": {
-        "en": "Alqosh (KU)",
-        "fr": "Alqosh (KU)"
+        "en": "Alqosh (Kurdistan)",
+        "fr": "Alqosh (Kurdistan)"
       },
       "sites": [
         {
@@ -51,8 +51,8 @@
     },
     {
       "name": {
-        "en": "Amadiya (KU)",
-        "fr": "Amadiya (KU)"
+        "en": "Amadiya (Kurdistan)",
+        "fr": "Amadiya (Kurdistan)"
       },
       "sites": [
         {
@@ -66,8 +66,8 @@
     },
     {
       "name": {
-        "en": "Arbil (KU)",
-        "fr": "Erbil (KU)"
+        "en": "Arbil (Kurdistan)",
+        "fr": "Erbil (Kurdistan)"
       },
       "sites": [
         {
@@ -140,8 +140,8 @@
     },
     {
       "name": {
-        "en": "Barzan village (KU)",
-        "fr": "Village de Barzan (KU)"
+        "en": "Barzan village (Kurdistan)",
+        "fr": "Village de Barzan (Kurdistan)"
       },
       "sites": [
         {
@@ -155,8 +155,8 @@
     },
     {
       "name": {
-        "en": "Bora (KU)",
-        "fr": "Bora (KU)"
+        "en": "Bora (Kurdistan)",
+        "fr": "Bora (Kurdistan)"
       },
       "sites": [
         {
@@ -170,8 +170,8 @@
     },
     {
       "name": {
-        "en": "Bulbul-Shashk (KU)",
-        "fr": "Bulbul-Shashk (KU)"
+        "en": "Bulbul-Shashk (Kurdistan)",
+        "fr": "Bulbul-Shashk (Kurdistan)"
       },
       "sites": [
         {
@@ -185,8 +185,8 @@
     },
     {
       "name": {
-        "en": "Deween (KU)",
-        "fr": "Deween (KU)"
+        "en": "Deween (Kurdistan)",
+        "fr": "Deween (Kurdistan)"
       },
       "sites": [
         {
@@ -200,8 +200,8 @@
     },
     {
       "name": {
-        "en": "Grdy Bngrd Muani (KU)",
-        "fr": "Grdy Bngrd Muani (KU)"
+        "en": "Grdy Bngrd Muani (Kurdistan)",
+        "fr": "Grdy Bngrd Muani (Kurdistan)"
       },
       "sites": [
         {
@@ -215,8 +215,8 @@
     },
     {
       "name": {
-        "en": "Jerwan (KU)",
-        "fr": "Jerwan (KU)"
+        "en": "Jerwan (Kurdistan)",
+        "fr": "Jerwan (Kurdistan)"
       },
       "sites": [
         {
@@ -230,8 +230,8 @@
     },
     {
       "name": {
-        "en": "Khinis (KU)",
-        "fr": "Khinis (KU)"
+        "en": "Khinis (Kurdistan)",
+        "fr": "Khinis (Kurdistan)"
       },
       "sites": [
         {
@@ -260,8 +260,8 @@
     },
     {
       "name": {
-        "en": "Kongra Serchia (KU)",
-        "fr": "Kongra Serchia (KU)"
+        "en": "Kongra Serchia (Kurdistan)",
+        "fr": "Kongra Serchia (Kurdistan)"
       },
       "sites": [
         {
@@ -319,8 +319,8 @@
     },
     {
       "name": {
-        "en": "Qalat-i-Dinka (KU)",
-        "fr": "Qalat-i-Dinka (KU)"
+        "en": "Qalat-i-Dinka (Kurdistan)",
+        "fr": "Qalat-i-Dinka (Kurdistan)"
       },
       "sites": [
         {
@@ -334,8 +334,8 @@
     },
     {
       "name": {
-        "en": "Qasr Shamamok (KU)",
-        "fr": "Qasr Shamamok (KU)"
+        "en": "Qasr Shamamok (Kurdistan)",
+        "fr": "Qasr Shamamok (Kurdistan)"
       },
       "sites": [
         {
@@ -349,8 +349,8 @@
     },
     {
       "name": {
-        "en": "Rawanduz (KU)",
-        "fr": "Rawanduz (KU)"
+        "en": "Rawanduz (Kurdistan)",
+        "fr": "Rawanduz (Kurdistan)"
       },
       "sites": [
         {
@@ -407,8 +407,8 @@
     },
     {
       "name": {
-        "en": "Satu Qala (KU)",
-        "fr": "Satu Qala (KU)"
+        "en": "Satu Qala (Kurdistan)",
+        "fr": "Satu Qala (Kurdistan)"
       },
       "sites": [
         {
@@ -422,8 +422,8 @@
     },
     {
       "name": {
-        "en": "Shanidar cave (KU)",
-        "fr": "Cave de Shanidar (KU)"
+        "en": "Shanidar cave (Kurdistan)",
+        "fr": "Cave de Shanidar (Kurdistan)"
       },
       "sites": [
         {
@@ -437,8 +437,8 @@
     },
     {
       "name": {
-        "en": "Taajeel (KU)",
-        "fr": "Taajeel (KU)"
+        "en": "Taajeel (Kurdistan)",
+        "fr": "Taajeel (Kurdistan)"
       },
       "sites": [
         {
@@ -452,8 +452,8 @@
     },
     {
       "name": {
-        "en": "Tapa Kura (KU)",
-        "fr": "Tapa Kura (KU)"
+        "en": "Tapa Kura (Kurdistan)",
+        "fr": "Tapa Kura (Kurdistan)"
       },
       "sites": [
         {
