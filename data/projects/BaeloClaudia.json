@@ -12,7 +12,7 @@
     "en": "Project",
     "fr": "Projet"
   },
-  "thumbnail": "img/projects/BaleoClaudia/BaleoClaudia_thumbnail.jpg",
+  "thumbnail": "img/projects/BaeloClaudia/BaleoClaudia_thumbnail.jpg",
   "subtitle": {
     "en": "Digitisation of Baelo Claudia",
     "fr": "Numérisation de Baelo Claudia"
@@ -23,58 +23,33 @@
   },
   "img": [
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_01.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_03.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_03.jpg"
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_02.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_02.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_04.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_04.jpg"
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_03.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_03.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_05.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_05.jpg"
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_04.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_04.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_06.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_06.jpg"
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_05.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_05.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_07.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_07.jpg"
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_06.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_06.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_08.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_08.jpg"
     },
     {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_07.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_07.jpg"
-    },
-    {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_08.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_08.jpg"
-    },
-    {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_09.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_09.jpg"
-    },
-    {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_10.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_10.jpg"
-    },
-    {
-      "preview": "../img/projects/BaeloClaudia/BaeloClaudia_11.jpg",
-      "full": "../img/projects/BaeloClaudia/BaeloClaudia_11.jpg"
+      "preview": "img/projects/BaeloClaudia/BaeloClaudia_09.jpg",
+      "full": "img/projects/BaeloClaudia/BaeloClaudia_09.jpg"
     }
-  ],
-  "video": [ 
-    {
-      "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "img/projects/BaeloClaudia/BaeloClaudia_YoutubeThumbnail.jpg"
-    }
-  ],
-  "models": [
-    ""
   ],
   "description": { 
     "en": "Baelo Claudia, a city emblematic of Roman architecture, overlooks a bay near the coastal town Tarifa in southern Spain. This magnificent ancient city, its basilica, and its theatre endured an earthquake in the 3ʳᵈ century C.E. and are affected by strong winds and erosion. In 2017, Iconem digitised the archaeological site’s grandest monuments for the Institut de recherche sur l'architecture antique and Casa de Velázquez. Our 3D model was constructed with data collected by drone and ground-level scans. Archival documents and technical drawings are integrated into the model to facilitate scientific research. The model is a digital scientific tool for studying the site’s current state, its degradation, and its buildings’ restauration. This digital replica can also be used to curate museum content for raising awareness of this <i>Monumento Histórico Nacional</i> designated site among the general public.",

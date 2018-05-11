@@ -23,70 +23,49 @@
   },
   "img": [
     {
-      "preview": "../img/projects/Angkor/Angkor_01.jpg",
-      "full": "../img/projects/Angkor/Angkor_01.jpg"
+      "preview": "img/projects/Angkor/Angkor_04.jpg",
+      "full": "img/projects/Angkor/Angkor_04.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_02.jpg",
-      "full": "../img/projects/Angkor/Angkor_02.jpg"
+      "preview": "img/projects/Angkor/Angkor_05.jpg",
+      "full": "img/projects/Angkor/Angkor_05.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_03.jpg",
-      "full": "../img/projects/Angkor/Angkor_03.jpg"
+      "preview": "img/projects/Angkor/Angkor_06.jpg",
+      "full": "img/projects/Angkor/Angkor_06.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_04.jpg",
-      "full": "../img/projects/Angkor/Angkor_04.jpg"
+      "preview": "img/projects/Angkor/Angkor_07.jpg",
+      "full": "img/projects/Angkor/Angkor_07.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_05.jpg",
-      "full": "../img/projects/Angkor/Angkor_05.jpg"
+      "preview": "img/projects/Angkor/Angkor_08.jpg",
+      "full": "img/projects/Angkor/Angkor_08.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_06.jpg",
-      "full": "../img/projects/Angkor/Angkor_06.jpg"
+      "preview": "img/projects/Angkor/Angkor_09.jpg",
+      "full": "img/projects/Angkor/Angkor_09.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_07.jpg",
-      "full": "../img/projects/Angkor/Angkor_07.jpg"
+      "preview": "img/projects/Angkor/Angkor_10.jpg",
+      "full": "img/projects/Angkor/Angkor_10.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_08.jpg",
-      "full": "../img/projects/Angkor/Angkor_08.jpg"
+      "preview": "img/projects/Angkor/Angkor_11.jpg",
+      "full": "img/projects/Angkor/Angkor_11.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_09.jpg",
-      "full": "../img/projects/Angkor/Angkor_09.jpg"
+      "preview": "img/projects/Angkor/Angkor_12.jpg",
+      "full": "img/projects/Angkor/Angkor_12.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_10.jpg",
-      "full": "../img/projects/Angkor/Angkor_10.jpg"
+      "preview": "img/projects/Angkor/Angkor_13.jpg",
+      "full": "img/projects/Angkor/Angkor_13.jpg"
     },
     {
-      "preview": "../img/projects/Angkor/Angkor_11.jpg",
-      "full": "../img/projects/Angkor/Angkor_11.jpg"
-    },
-    {
-      "preview": "../img/projects/Angkor/Angkor_12.jpg",
-      "full": "../img/projects/Angkor/Angkor_12.jpg"
-    },
-    {
-      "preview": "../img/projects/Angkor/Angkor_13.jpg",
-      "full": "../img/projects/Angkor/Angkor_13.jpg"
-    },
-    {
-      "preview": "../img/projects/Angkor/Angkor_14.jpg",
-      "full": "../img/projects/Angkor/Angkor_14.jpg"
+      "preview": "img/projects/Angkor/Angkor_14.jpg",
+      "full": "img/projects/Angkor/Angkor_14.jpg"
     }
-  ],
-  "video": [ 
-    {
-      "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "img/projects/Angkor/Angkor_YoutubeThumbnail.jpg"
-    }
-  ],
-  "models": [
-    ""
   ],
   "description": { 
     "en": "Perhaps the most iconic cultural heritage site of south east Asia, Angkor’s spectacular temples and sculptures dot 400 square kilometres in northern Cambodia. Vestiges of the great Khmer Empire are scattered throughout the archaeological park that is still home to many Cambodians. Millions of tourists visit the stunning temples each year, threatening the centuries-old UNESCO World Heritage site. Iconem scanned temples, sculptures, and gates for the French Embassy of Cambodia and the CIC Angkor in 2017 to further the site’s promotion and scientific study. Data was collected by both high and low altitude drone scans. The 3D model built from the drone data will facilitate archaeological research. Our team then photographed the monuments’ stone blocks with pole-mounted cameras to collect millimetre precise data for additional photorealistic 3D models.",

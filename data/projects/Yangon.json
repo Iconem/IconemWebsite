@@ -23,54 +23,45 @@
   },
    "img": [
     {
-      "preview": "../img/projects/Yangon/Yangon_01.jpg",
-      "full": "../img/projects/Yangon/Yangon_01.jpg"
+      "preview": "img/projects/Yangon/Yangon_01.jpg",
+      "full": "img/projects/Yangon/Yangon_01.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_02.jpg",
-      "full": "../img/projects/Yangon/Yangon_02.jpg"
+      "preview": "img/projects/Yangon/Yangon_02.jpg",
+      "full": "img/projects/Yangon/Yangon_02.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_03.jpg",
-      "full": "../img/projects/Yangon/Yangon_03.jpg"
+      "preview": "img/projects/Yangon/Yangon_03.jpg",
+      "full": "img/projects/Yangon/Yangon_03.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_04.jpg",
-      "full": "../img/projects/Yangon/Yangon_04.jpg"
+      "preview": "img/projects/Yangon/Yangon_04.jpg",
+      "full": "img/projects/Yangon/Yangon_04.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_05.jpg",
-      "full": "../img/projects/Yangon/Yangon_05.jpg"
+      "preview": "img/projects/Yangon/Yangon_05.jpg",
+      "full": "img/projects/Yangon/Yangon_05.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_06.jpg",
-      "full": "../img/projects/Yangon/Yangon_06.jpg"
+      "preview": "img/projects/Yangon/Yangon_06.jpg",
+      "full": "img/projects/Yangon/Yangon_06.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_07.jpg",
-      "full": "../img/projects/Yangon/Yangon_07.jpg"
+      "preview": "img/projects/Yangon/Yangon_07.jpg",
+      "full": "img/projects/Yangon/Yangon_07.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_08.jpg",
-      "full": "../img/projects/Yangon/Yangon_08.jpg"
+      "preview": "img/projects/Yangon/Yangon_08.jpg",
+      "full": "img/projects/Yangon/Yangon_08.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_09.jpg",
-      "full": "../img/projects/Yangon/Yangon_09.jpg"
+      "preview": "img/projects/Yangon/Yangon_09.jpg",
+      "full": "img/projects/Yangon/Yangon_09.jpg"
     },
     {
-      "preview": "../img/projects/Yangon/Yangon_10.jpg",
-      "full": "../img/projects/Yangon/Yangon_10.jpg"
+      "preview": "img/projects/Yangon/Yangon_10.jpg",
+      "full": "img/projects/Yangon/Yangon_10.jpg"
     }
-  ],
-  "video": [ 
-    {
-      "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "img/projects/Yangon/Yangon_YoutubeThumbnail.jpg"
-    }
-  ],
-  "models": [
-    ""
   ],
   "description": { 
     "en": "The iconic Yangon High Court Building and its famous clock face dominate the skyline of Myanmar’s largest city. The monument and its revival Queen Anne style are symbols of the city’s colonial past and it is still an important landmark for its residents. Our team digitised the tower for the French Institute of Myanmar in 2017. After drone and ground data acquisition, Iconem generated a photogrammetric 3D model of this Yangon City Heritage designated building. We also produced a video that highlighted the commonalities between the tower, designed by James Ransome, and the Tour Saint Jacques in Paris, which Iconem also digitised. This video was presented during Yangon’s Mingalabar Festival, organized by the city and the French Institute.",

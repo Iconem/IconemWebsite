@@ -23,62 +23,53 @@
   },
   "img": [
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_01.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_01.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_01.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_01.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_02.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_02.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_02.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_02.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_03.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_03.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_03.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_03.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_04.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_04.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_04.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_04.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_05.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_05.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_05.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_05.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_06.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_06.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_06.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_06.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_07.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_07.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_07.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_07.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_08.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_08.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_08.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_08.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_09.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_09.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_09.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_09.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_10.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_10.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_10.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_10.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_11.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_11.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_11.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_11.jpg"
     },
     {
-      "preview": "../img/projects/Hyderabad/Hyderabad_12.jpg",
-      "full": "../img/projects/Hyderabad/Hyderabad_12.jpg"
+      "preview": "img/projects/Hyderabad/Hyderabad_12.jpg",
+      "full": "img/projects/Hyderabad/Hyderabad_12.jpg"
     }
-  ],
-  "video": [ 
-    {
-      "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-      "preview": "img/projects/Hyderabad/Hyderabad_YoutubeThumbnail.jpg"
-    }
-  ],
-  "models": [
-    ""
   ],
   "description": { 
     "en": "In June 2017, Iconem’s team travelled to southern India to scan an ensemble of ancient mausoleums. The Qutb Shai Heritage Park in Hyderbad, India is a vast historic necropolis dating from the 16th-17th centuries. A project for the Agha Khan Trust for Culture, Iconem digitised the exterior of the tomb of Abdullah Qutb Shah, king of the Qutb Shai dynasty; the exterior and interior of Kulsoom Begum’s mausoleum; and a “bird’s eye view” of the entire complex. Our team scanned the two burial sites, the compound’s other monuments, and their surroundings with drones and pole-mounted cameras to col-lect data for three 3D models. The two individual tombs were also documented with high-resolution and pole-mounted cameras to ensure an exceptionally high resolution. Our engineers merged the site-wide model with the two higher resolution 3D tomb models into one single 3D model. This multi-level data approach allows viewers to switch between large scale overviews and details of the site’s unique architecture. These models can provide valuable information to restoration experts.",

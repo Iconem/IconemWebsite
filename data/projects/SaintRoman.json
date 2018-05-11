@@ -111,14 +111,6 @@
       }
     },
     {
-      "preview": "../img/projects/SaintRoman/SaintRoman_12.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_12.jpg"
-    },
-    {
-      "preview": "../img/projects/SaintRoman/SaintRoman_13.jpg",
-      "full": "../img/projects/SaintRoman/SaintRoman_13.jpg"
-    },
-    {
       "preview": "img/projects/SaintRoman/SaintRoman_14.jpg",
       "full": "img/projects/SaintRoman/SaintRoman_14.jpg",
       "caption": {
@@ -140,9 +132,6 @@
       "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
       "preview": "img/projects/SaintRoman/SaintRoman_01.jpg"
     }
-  ],
-  "models": [
-    ""
   ],
   "description": { 
     "en": "The impressive Saint Roman cave abbey in the south of France was digitised by Iconem in 2017 for the Beaucaire Terre d’Argence municipalities (CCBTA). The abbatial church, winding corridors, and former hermit cells dug into the limestone of this protected historical monument date back to the Middle Ages. This true jewel of French cultural heritage is threatened by erosion and formerly of clandestine limestone mining. Iconem’s digitisation is vital to preparation for the monastery’s stabilisation and redevelopment by the CCBTA. Iconem carried out a drone and ground scan to best capture the site’s rocky façades and interiors. This 3D model is a key resource for archaeological study of the monastery as well as conservation and promotional work. Iconem’s model will also serve as a base for digital content so the general public and experts alike may remotely study Saint Roman in all its majesty.",

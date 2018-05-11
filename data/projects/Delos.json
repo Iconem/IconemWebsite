@@ -23,30 +23,6 @@
   },
   "img": [
     {
-      "preview": "img/projects/Delos/Delos_01.jpg",
-      "full": "img/projects/Delos/Delos_01.jpg",
-      "caption": {
-        "en": "3D digitisation of the Villa Fourni",
-        "fr": "Numérisation 3D de la Villa Fourni"
-      }
-    },
-    {
-      "preview": "img/projects/Delos/Delos_02.jpg",
-      "full": "img/projects/Delos/Delos_02.jpg",
-      "caption": {
-        "en": "3D digitisation of Theophrastus",
-        "fr": "Numérisation 3D du Théophrastus"
-      }
-    },
-    {
-      "preview": "img/projects/Delos/Delos_03.jpg",
-      "full": "img/projects/Delos/Delos_03.jpg",
-      "caption": {
-        "en": "Digitisation of the island of Delos",
-        "fr": "Numérisation de l'île de Délos"
-      }
-    },
-    {
       "preview": "img/projects/Delos/Delos_04.jpg",
       "full": "img/projects/Delos/Delos_04.jpg",
       "caption": {
@@ -71,46 +47,13 @@
       }
     },
     {
-      "preview": "../img/projects/Delos/Delos_07.jpg",
-      "full": "../img/projects/Delos/Delos_07.jpg",
+      "preview": "img/projects/Delos/Delos_03.jpg",
+      "full": "img/projects/Delos/Delos_03.jpg",
       "caption": {
-        "en": "Preparing the drone",
-        "fr": "Préparation du drone"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_08.jpg",
-      "full": "../img/projects/Delos/Delos_08.jpg",
-      "caption": {
-        "en": "Video feed from the drone",
-        "fr": "Retour vidéo du drone"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_09.jpg",
-      "full": "../img/projects/Delos/Delos_09.jpg",
-      "caption": {
-        "en": "Drone aerial view",
-        "fr": "Vue aérienne du drone"
-      }
-    },
-    {
-      "preview": "../img/projects/Delos/Delos_10.jpg",
-      "full": "../img/projects/Delos/Delos_10.jpg",
-      "caption": {
-        "en": "Aerial view from a kite",
-        "fr": "Vue aérienne du cerf-volant"
+        "en": "Digitisation of the island of Delos",
+        "fr": "Numérisation de l'île de Délos"
       }
     }
-  ],
-  "video": [ 
-    {
-      "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
-      "preview": "img/projects/Delos/Delos_YoutubeThumbnail.jpg"
-    }
-  ],
-  "models": [
-    ""
   ],
   "description": { 
     "en": "In 2016, Iconem started a project on the island of Delos, one of Greece’s most ancient cultural heritage sites. The mythological birthplace of Apollo and Artemis, Delos’s archaeological heritage dates as far back as the third millennium B.C.E. Iconem digitised the island for the Ecole française d’Athènes, recording the current state of its stunning mosaics and extensive ruins. Using small drone-planes, Iconem’s team scanned the entire island: its theatre, agora, and ancient villas. Ground level photographs taken with a multicamera pole were integrated with the drone images to build the final 3D model, which is used to create cross-sections and other architectural surveys to study the site for restoration. Iconem’s model is also an efficient and precise tool for measuring distances, area and volumes of this UNESCO World Heritage site. Finally, the extremely precise model allows people to remotely explore the remains of this incredible ancient capital of Mediterranean trade.",
