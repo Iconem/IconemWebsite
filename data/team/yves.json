@@ -4,8 +4,8 @@
   "order": 1,
   "enabled": true,
   "job": {
-    "en": "Founder & CEO",
-    "fr": "Fondateur & Président"
+    "en": "President & Founder",
+    "fr": "Président & Fondateur"
   },
   "img": "img/about/team_members/yves.png",
   "img_color": "img/about/team_members/yves_color.png",

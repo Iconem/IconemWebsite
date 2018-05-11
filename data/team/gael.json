@@ -4,8 +4,8 @@
   "enabled": true,
   "order": 8,
   "job": {
-    "en": "Art Director & PhD Student",
-    "fr": "Directeur Artistique & Doctorant"
+    "en": "Art Director",
+    "fr": "Directeur Artistique"
   },
   "img": "img/about/team_members/gael.png",
   "img_color": "img/about/team_members/gael_color.png",

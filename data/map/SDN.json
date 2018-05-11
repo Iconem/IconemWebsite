@@ -7,13 +7,13 @@
     {
       "name": {
         "en": "Sai Island",
-        "fr": "Île de Saï"
+        "fr": "Ile de Saï"
       },
       "sites": [
         {
           "name": {
             "en": "Sai Island",
-            "fr": "Île de Saï"
+            "fr": "Ile de Saï"
           },
           "projectsId": []
         }
@@ -48,8 +48,15 @@
         },
 		{
           "name": {
-            "en": "Méroé Pyramids",
-            "fr": "Pyramides Méroé"
+            "en": "Gebel Barkal",
+            "fr": "Gebel Barkal"
+          },
+          "projectsId": []
+        },
+    {
+          "name": {
+            "en": "Pyramids of Meroe ",
+            "fr": "Pyramides de Méroé"
           },
           "projectsId": []
         },

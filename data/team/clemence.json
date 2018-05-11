@@ -4,8 +4,8 @@
   "enabled": true,
   "order": 10,
   "job": {
-    "en": "Head of Development, Iconem Funds",
-    "fr": "Responsable Développement, Fonds de Dotation Iconem"
+    "en": "Head of Development<br>Iconem Fund for Endangered Heritage",
+    "fr": "Responsable Développement<br>Fonds Iconem pour la Protection du Patrimoine Menacé"
   },
   "img": "img/about/team_members/clemence.png",
   "img_color": "img/about/team_members/clemence_color.png",

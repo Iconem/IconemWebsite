@@ -13,20 +13,20 @@
         {
           "name": {
             "en": "Saint Trinity Church",
-            "fr": "Église de la Sainte-Trinité"
+            "fr": "Eglise de la Sainte-Trinité"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Lamasus in the Louvre",
+            "en": "Lamassi in the Louvre",
             "fr": "Lamassus du palais de Khorsabad au Louvre"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Saint-Jacques tower",
+            "en": "Saint-Jacques Tower",
             "fr": "Tour Saint-Jacques"
           },
           "projectsId": []
@@ -41,14 +41,14 @@
       "sites": [
         {
           "name": {
-            "en": "Beaucaire castle",
-            "fr": "Chateau de Beaucaire"
+            "en": "Beaucaire Castle",
+            "fr": "Château de Beaucaire"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Saint Roman abbey",
+            "en": "Saint Roman Abbey",
             "fr": "Abbaye de Saint Roman"
           },
           "projectsId": []
@@ -63,7 +63,7 @@
       "sites": [
         {
           "name": {
-            "en": "Nevers Battlements",
+            "en": "Nevers Ramparts",
             "fr": "Remparts de Nevers"
           },
           "projectsId": []

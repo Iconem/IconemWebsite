@@ -19,22 +19,22 @@
         },
         {
           "name": {
-            "en": "Old City",
-            "fr": "Vieille Ville"
+            "en": "Old city",
+            "fr": "Vieille ville"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Suk",
+            "en": "Souk",
             "fr": "Souk"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Umayyad mosque",
-            "fr": "Mosquée omeyyade d'Alep"
+            "en": "Great Umayyad Mosque of Aleppo",
+            "fr": "Grande Mosquée des Omeyyades d'Alep"
           },
           "projectsId": []
         }
@@ -42,14 +42,14 @@
     },
     {
       "name": {
-        "en": "Arouad",
+        "en": "Arwad",
         "fr": "Arouad"
       },
       "sites": [
         {
           "name": {
-            "en": "Arouad (in process)",
-            "fr": "Arouad (en cours)"
+            "en": "Arwad",
+            "fr": "Arouad"
           },
           "projectsId": []
         }
@@ -85,7 +85,7 @@
         },
         {
           "name": {
-            "en": "Azem palace",
+            "en": "Azem Palace",
             "fr": "Palais Azem"
           },
           "projectsId": []
@@ -99,22 +99,22 @@
         },
         {
           "name": {
-            "en": "Damascus old town",
-            "fr": "Vieille ville de Damas"
+            "en": "Old city",
+            "fr": "Vieille ville"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Khan Assad Bacha (in process)",
-            "fr": "Khan Assad Bacha (en cours)"
+            "en": "Khan As'ad Pasha",
+            "fr": "Khan Assad Pacha"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Umayyad mosque",
-            "fr": "Grande Mosquée des Omeyyades"
+            "en": "Great Mosque of the Umayyads of Damascus",
+            "fr": "Grande Mosquée des Omeyyades de Damas"
           },
           "projectsId": []
         }
@@ -143,8 +143,8 @@
       "sites": [
         {
           "name": {
-            "en": "Hosn Suleiman (in process)",
-            "fr": "Hosn Suleiman (en cours)"
+            "en": "Hosn Suleiman",
+            "fr": "Hosn Suleiman"
           },
           "projectsId": []
         }
@@ -152,13 +152,13 @@
     },
     {
       "name": {
-        "en": "Jableh theatre",
+        "en": "Theatre of Jableh",
         "fr": "Théâtre de Jableh"
       },
       "sites": [
         {
           "name": {
-            "en": "Jableh theatre",
+            "en": "Theatre of Jableh",
             "fr": "Théâtre de Jableh"
           },
           "projectsId": []
@@ -168,13 +168,13 @@
     {
       "name": {
         "en": "Latakia",
-        "fr": "Latakia"
+        "fr": "Lattaquié "
       },
       "sites": [
         {
           "name": {
-            "en": "Latakia museum",
-            "fr": "Musée de Latakia"
+            "en": "Latakia Museum",
+            "fr": "Musée de Lattaquié"
           },
           "projectsId": []
         }
@@ -208,6 +208,13 @@
           },
           "projectsId": []
         },
+                {
+          "name": {
+            "en": "Theatre of Palmyra",
+            "fr": "Théâtre de Palmyre"
+          },
+          "projectsId": []
+        },
         {
           "name": {
             "en": "Monumental Arch",
@@ -224,8 +231,8 @@
         },
         {
           "name": {
-            "en": "Palmyra site in its entirety",
-            "fr": "Palmyre (site complet)"
+            "en": "Palmyra, site in its entirety",
+            "fr": "Palmyre, site complet"
           },
           "projectsId": []
         },
@@ -260,8 +267,8 @@
       "sites": [
         {
           "name": {
-            "en": "Safita (in process)",
-            "fr": "Safita (en cours)"
+            "en": "Safita",
+            "fr": "Safita"
           },
           "projectsId": []
         }
@@ -270,7 +277,7 @@
     {
       "name": {
         "en": "Tartus",
-        "fr": "Tartus"
+        "fr": "Tartous"
       },
       "sites": [
         {
@@ -285,13 +292,13 @@
     {
       "name": {
         "en": "Ugarit",
-        "fr": "Ugarit"
+        "fr": "Ougarit"
       },
       "sites": [
         {
           "name": {
             "en": "Ugarit",
-            "fr": "Ugarit"
+            "fr": "Ougarit"
           },
           "projectsId": []
         }

@@ -1,19 +1,19 @@
 {
   "name": {
-    "en": "BURMA",
-    "fr": "MYANMAR"
+    "en": "MYANMAR",
+    "fr": "BIRMANIE"
   },
   "places": [
     {
       "name": {
-        "en": "Rangoon",
-        "fr": "Yangon"
+        "en": "Yangon",
+        "fr": "Rangoun"
       },
       "sites": [
         {
           "name": {
-            "en": "Rangoon High Court Tower",
-            "fr": "Tour de l’Horloge du Palais de Justice de Yangon"
+            "en": "Yangon High Court Building",
+            "fr": "Cour Suprême de Rangoun"
           },
           "projectsId": []
         }

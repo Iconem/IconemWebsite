@@ -12,50 +12,57 @@
       "sites": [
         {
           "name": {
-            "en": "Angkor Mebon Temple",
-            "fr": "Temple Angkor Mebon"
+            "en": "East Mebon Temple",
+            "fr": "Temple du Mébon Occidental"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Chaw Srei Vibol temple",
-            "fr": "Temple Chaw Srei Vibol"
+            "en": "Chau Srei Vibol Temple",
+            "fr": "Temple de Chau Srei Vibol"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Buddha gate & Victory gate",
-            "fr": "Porte de Buddha & Porte de la Victoire"
+            "en": "Buddha Gate & Victory Gate",
+            "fr": "Porte de Bouddha & Porte de la Victoire"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Preah Khan temple",
+            "en": "Preah Khan Temple",
             "fr": "Temple Preah Khan"
           },
           "projectsId": []
         },
 		{
           "name": {
-            "en": "Small temple",
-            "fr": "Petit temple"
+            "en": "Small Temple",
+            "fr": "Petit Temple"
           },
           "projectsId": []
         },
 		{
           "name": {
             "en": "Banteay Thom Temple",
-            "fr": "Temple Banteay Thom"
+            "fr": "Temple de Banteay Thom"
           },
           "projectsId": []
         },
-		{
+		    {
           "name": {
-            "en": "Baphûon Temple",
-            "fr": "Temple Baphûon"
+            "en": "Preah Palilay Temple",
+            "fr": "Temple de Preah Palilay"
+          },
+          "projectsId": []
+        },
+    {
+          "name": {
+            "en": "Baphuon Temple",
+            "fr": "Temple de Baphuon"
           },
           "projectsId": []
         },

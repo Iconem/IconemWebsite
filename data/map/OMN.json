@@ -6,14 +6,14 @@
   "places": [
     {
       "name": {
-        "en": "Al Ain",
-        "fr": "Al Ain"
+        "en": "Al-Ayn",
+        "fr": "Al-Ayn"
       },
       "sites": [
         {
           "name": {
-            "en": "Al Ain",
-            "fr": "Al Ain"
+            "en": "Al-Ayn",
+            "fr": "Al-Ayn"
           },
           "projectsId": []
         }
@@ -27,8 +27,8 @@
       "sites": [
         {
           "name": {
-            "en": "Al Khutm",
-            "fr": "Al Khutm"
+            "en": "Al-Khutm",
+            "fr": "Al-Khutm"
           },
           "projectsId": []
         }
@@ -67,13 +67,13 @@
     {
       "name": {
         "en": "Qalhat",
-        "fr": "Qalhat"
+        "fr": "Qalhât"
       },
       "sites": [
         {
           "name": {
             "en": "Qalhat",
-            "fr": "Qalhat"
+            "fr": "Qalhât"
           },
           "projectsId": []
         }

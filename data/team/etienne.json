@@ -1,11 +1,11 @@
 {
   "id": "etienne",
-  "name": "Etienne Tellier",
+  "name": "étienne Tellier",
   "enabled": true,
   "order": 12,
   "job": {
     "en": "CFO & Head of Production",
-    "fr": "Directeur Financier et Directeur de la Production"
+    "fr": "Directeur Financier & Directeur de la Production"
   },
   "img": "img/about/team_members/etienne.png",
   "img_color": "img/about/team_members/etienne_color.png",
