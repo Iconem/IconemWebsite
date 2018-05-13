@@ -16,11 +16,7 @@
                             data-parent='#team-accordion'
                             aria-expanded="false"
                             onclick="changePhotoSrc({{ $team_members }}, {{ .id }});">
-                            {{ if eq .id "yves" }}
-                                <img src="{{ .img_color }}" class="img-responsive" />
-                            {{ else }}
-                                <img src="{{ .img }}" class="img-responsive" />
-                            {{ end }}
+                            <img src="{{ .img }}" class="img-responsive" />
                         </a>
                     </div>
                 {{ end }}
@@ -55,10 +51,10 @@
             var id = '#team-img-' + key;
             if (key === index) {
                 $(id).addClass('in');
-                $(id + ' img').attr('src', teamMember.img_color);
+                // $(id + ' img').attr('src', teamMember.img_color);
             } else {
                 $(id).removeClass('in');
-                $(id + ' img').attr('src', teamMember.img); 
+                // $(id + ' img').attr('src', teamMember.img); 
             }
         });
     }

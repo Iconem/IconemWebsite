@@ -393,6 +393,7 @@ body {
 }
 
 #team .team-img.in {
+    border: 1px solid #333;
 }
 
 #team .team-member-panel {
