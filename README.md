@@ -139,21 +139,3 @@ To launch the dev mode : `hugo server`.
 ### 2.3. Add a language
 
 In `./config.toml`, search for any field of the type `[languages.en.$param]`. Simply copy it under the name `[languages.$language_code.$param]` to add a new language to the site.
-
-### 2.4. Deploy Site
-
-Iconem website is currently hosted as a github page (see [here](https://pages.github.com/) and [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/)) on https://iconem.github.io/IconemWebsite.
-<br/>
-<br/>
-The English version is available at https://iconem.github.io/IconemWebsite/en and the French one at https://iconem.github.io/IconemWebsite/fr (cf params baseUrl in config.toml => DONT CHANGE THESE VALUES)
-<br/>
-<br/>
-A redirection is made from OVH to make site available on https://iconem.com (english version) and https://iconem.fr (french version).
-<br/>
-<br/>
-To deploy changes :
-- Stop hugo dev server
-- Erase /docs folder
-- Build site into docs folder : `hugo`
-- Commit and push to master branch
-The changes will then be automatically deployed within 2-5 minutes.
