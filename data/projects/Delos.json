@@ -22,6 +22,30 @@
     "fr": "Iconem et l’Ecole française d’Athènes"
   },
   "img": [
+     {
+      "preview": "img/projects/Delos/Delos_03.jpg",
+      "full": "img/projects/Delos/Delos_03.jpg",
+      "caption": {
+        "en": "Digitisation of the island of Delos",
+        "fr": "Numérisation de l'île de Délos"
+      }
+    },
+    {
+      "preview": "img/projects/Delos/Delos_02.jpg",
+      "full": "img/projects/Delos/Delos_02.jpg",
+      "caption": {
+        "en": "Digitisation of the island of Delos",
+        "fr": "Numérisation de l'île de Délos"
+      }
+    },
+    {
+      "preview": "img/projects/Delos/Delos_01.jpg",
+      "full": "img/projects/Delos/Delos_01.jpg",
+      "caption": {
+        "en": "Digitisation of the island of Delos",
+        "fr": "Numérisation de l'île de Délos"
+      }
+    },
     {
       "preview": "img/projects/Delos/Delos_04.jpg",
       "full": "img/projects/Delos/Delos_04.jpg",
@@ -45,15 +69,20 @@
         "en": "",
         "fr": ""
       }
+    }
+  ],
+  "video": [ 
+    {
+      "src": "https://www.youtube.com/watch?v=N3g57AeQZ50",
+      "preview": "img/projects/Delos/Delos_YoutubeThumbnail2.jpg"
     },
     {
-      "preview": "img/projects/Delos/Delos_03.jpg",
-      "full": "img/projects/Delos/Delos_03.jpg",
-      "caption": {
-        "en": "Digitisation of the island of Delos",
-        "fr": "Numérisation de l'île de Délos"
-      }
+      "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
+      "preview": "img/projects/Delos/Delos_YoutubeThumbnail1.jpg"
     }
+  ],
+  "models": [
+    "https://sketchfab.com/models/9eecfcfbc43c4b58aad488367736965f/embed"
   ],
   "description": { 
     "en": "In 2016, Iconem started a project on the island of Delos, one of Greece’s most ancient cultural heritage sites. The mythological birthplace of Apollo and Artemis, Delos’s archaeological heritage dates as far back as the third millennium B.C.E. Iconem digitised the island for the Ecole française d’Athènes, recording the current state of its stunning mosaics and extensive ruins. Using small drone-planes, Iconem’s team scanned the entire island: its theatre, agora, and ancient villas. Ground level photographs taken with a multicamera pole were integrated with the drone images to build the final 3D model, which is used to create cross-sections and other architectural surveys to study the site for restoration. Iconem’s model is also an efficient and precise tool for measuring distances, area and volumes of this UNESCO World Heritage site. Finally, the extremely precise model allows people to remotely explore the remains of this incredible ancient capital of Mediterranean trade.",

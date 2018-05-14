@@ -95,6 +95,21 @@
       }
     }
   ],
+  "video": [ 
+  {
+      "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+      "preview": "img/projects/Alep/Alep_YoutubeThumbnail1.jpg"
+  },
+  {
+      "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+      "preview": "img/projects/Alep/Alep_YoutubeThumbnail2.jpg"
+  },
+  {
+      "src": "https://www.youtube.com/watch?v=rOqTeBVaceY",
+      "preview": "img/projects/Alep/Alep_YoutubeThumbnail3.jpg"
+  }
+
+  ],
   "models": [
     "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
   ],
