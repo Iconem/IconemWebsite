@@ -6,35 +6,6 @@
   "places": [
     {
       "name": {
-        "en": "Paris",
-        "fr": "Paris"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "Saint Trinity Church",
-            "fr": "Eglise de la Sainte-Trinité"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Lamassi in the Louvre",
-            "fr": "Lamassus du palais de Khorsabad au Louvre"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Saint-Jacques Tower",
-            "fr": "Tour Saint-Jacques"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Beaucaire",
         "fr": "Beaucaire"
       },
@@ -46,9 +17,9 @@
           },
           "projectsId": []
         },
-		{
+		    {
           "name": {
-            "en": "Saint Roman Abbey",
+            "en": "Saint-Roman Abbey",
             "fr": "Abbaye de Saint Roman"
           },
           "projectsId": []
@@ -65,6 +36,65 @@
           "name": {
             "en": "Nevers Ramparts",
             "fr": "Remparts de Nevers"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Normandy",
+        "fr": "Normandie"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Mont-Saint-Michel Abbey",
+            "fr": "Abbaye du Mont-Saint-Michel"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Paris",
+        "fr": "Paris"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Lamassi in the Louvre",
+            "fr": "Lamassus du palais de Khorsabad au Louvre"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Saint-Jacques Tower",
+            "fr": "Tour Saint-Jacques"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Saint Trinity Church",
+            "fr": "Eglise de la Sainte-Trinité"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Saint-Sever",
+        "fr": "Saint-Sever"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Abbatial church of Saint-Sever",
+            "fr": "Eglise abbatiale de Saint-Sever"
           },
           "projectsId": []
         }

@@ -1,0 +1,38 @@
+{
+  "name": {
+    "en": "ARMENIA",
+    "fr": "ARMENIA"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Azat Valley",
+        "fr": "Vallée d'Azat"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Monastery of Geghard",
+            "fr": "Monastère de Geghard"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Lori Marz",
+        "fr": "Région de Lori"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Monastery of Haghpat",
+            "fr": "Monastère d'Haghpat"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

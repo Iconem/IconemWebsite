@@ -24,11 +24,11 @@
                 </a>
             {{ end }}
             {{ if .Site.Params.contact.email }}
-                <a class="text-center contact-item" href="mailto:{{ .Site.Params.contact.email }}">
+                <div class="text-center contact-item">
                     <img src="img/contact/mail.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.png'"
                     onmouseleave="this.src='img/contact/mail.png'">
                     <p>{{ .Site.Params.contact.email }}</p>
-                </a>
+                </div>
             {{ end }}
            <!--  {{ if .Site.Params.brochure }}
                 <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
@@ -45,11 +45,11 @@
                 </a>
             {{ end }} -->
             {{ if .Site.Params.press_kit }}
-                <a class="text-center contact-item" href="mailto:xg@iconem.com">
+                <div class="text-center contact-item">
                     <img src="img/contact/mail.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.png'"
                     onmouseleave="this.src='img/contact/mail.png'">
                     <p>{{ .Site.Params.press_kit.title }}</p>
-                </a>
+                </div>
             {{ end }}
 
             <!-- Begin MailChimp Signup Form -->

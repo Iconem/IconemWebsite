@@ -12,8 +12,29 @@
       "sites": [
         {
           "name": {
+            "en": "Beit Achiqbash",
+            "fr": "Beit Achiqbash"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Beit Ghazaleh",
+            "fr": "Beit Ghazaleh"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
             "en": "Citadel of Aleppo",
             "fr": "Citadelle d'Alep"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Great Umayyad Mosque of Aleppo",
+            "fr": "Grande Mosquée des Omeyyades d'Alep"
           },
           "projectsId": []
         },
@@ -28,13 +49,6 @@
           "name": {
             "en": "Souk",
             "fr": "Souk"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Great Umayyad Mosque of Aleppo",
-            "fr": "Grande Mosquée des Omeyyades d'Alep"
           },
           "projectsId": []
         }

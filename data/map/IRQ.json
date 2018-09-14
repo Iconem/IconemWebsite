@@ -6,29 +6,14 @@
   "places": [
     {
       "name": {
-        "en": "Akhre (Kurdistan)",
-        "fr": "Akhre (Kurdistan)"
+        "en": "Akre (Kurdistan)",
+        "fr": "Akre (Kurdistan)"
       },
       "sites": [
         {
           "name": {
             "en": "Akre Village",
-            "fr": "Village d'Akhre"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Akhre (Kurdistan)",
-        "fr": "Akhre (Kurdistan)"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "Erbil Minaret",
-            "fr": "Minaret d'Erbil"
+            "fr": "Village d'Akre"
           },
           "projectsId": []
         }
@@ -51,29 +36,14 @@
     },
     {
       "name": {
-        "en": "Amadiya (Kurdistan)",
-        "fr": "Amadiya (Kurdistan)"
+        "en": "Amediya (Kurdistan)",
+        "fr": "Amediya (Kurdistan)"
       },
       "sites": [
         {
           "name": {
             "en": "Amediya Village",
-            "fr": "Village d'Amadiya"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Arbil (Kurdistan)",
-        "fr": "Erbil (Kurdistan)"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "Jewish Quarter",
-            "fr": "Quartier Juif"
+            "fr": "Village d'Amediya"
           },
           "projectsId": []
         }
@@ -87,15 +57,15 @@
       "sites": [
         {
           "name": {
-            "en": "Al-Bab Al-Wastani",
-            "fr": "Al-Bab Al-Wastani"
+            "en": "Abbasid Palace",
+            "fr": "Palais Abbasside"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Abbasid Palace",
-            "fr": "Palais Abbasside"
+            "en": "Al-Bab Al-Wastani",
+            "fr": "Al-Bab Al-Wastani"
           },
           "projectsId": []
         },
@@ -108,7 +78,7 @@
         }
       ]
     },
-    {
+      {
       "name": {
         "en": "Baghdad Province",
         "fr": "Province de Baghdad"
@@ -140,7 +110,7 @@
     },
     {
       "name": {
-        "en": "Barzan village (Kurdistan)",
+        "en": "Barzan Village (Kurdistan)",
         "fr": "Village de Barzan (Kurdistan)"
       },
       "sites": [
@@ -161,7 +131,7 @@
       "sites": [
         {
           "name": {
-            "en": "Bora valley",
+            "en": "Bora Valley",
             "fr": "Vallée de Bora"
           },
           "projectsId": []
@@ -200,6 +170,43 @@
     },
     {
       "name": {
+        "en": "Erbil (Kurdistan)",
+        "fr": "Erbil (Kurdistan)"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Erbil Minaret",
+            "fr": "Minaret d'Erbil"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Jewish Quarter",
+            "fr": "Quartier juif"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Governorate of Nineveh",
+        "fr": "Province de Ninive"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Nimrud",
+            "fr": "Nimroud"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
         "en": "Grdy Bngrd Muani (Kurdistan)",
         "fr": "Grdy Bngrd Muani (Kurdistan)"
       },
@@ -222,7 +229,7 @@
         {
           "name": {
             "en": "Aqueduct ruins",
-            "fr": "Restes d'Aqueduc"
+            "fr": "Restes d'aqueduc"
           },
           "projectsId": []
         }
@@ -281,8 +288,36 @@
       "sites": [
         {
           "name": {
-            "en": "City center",
+            "en": "Sa'a Canissa",
+            "fr": "Sa'a Canissa"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Bash Tapia Castle",
+            "fr": "Forteresse de Bash Tapia"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "City centre",
             "fr": "Centre ville"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Al-Nuri Mosque",
+            "fr": "Mosquée Al-Nuri"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Nabi Yunus tunnels",
+            "fr": "Tunnels de Nabi Yunus"
           },
           "projectsId": []
         },
@@ -295,23 +330,15 @@
         },
         {
           "name": {
-            "en": "Nineveh, Nabi Yunus tunnels",
-            "fr": "Ninive, tunnels de Nabi Yunus"
+            "en": "Traditional house",
+            "fr": "Maison traditionelle"
           },
           "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Governorate of Nineveh",
-        "fr": "Province de Ninive"
-      },
-      "sites": [
+        },
         {
           "name": {
-            "en": "Nimrud",
-            "fr": "Nimroud"
+            "en": "Yezidi temple",
+            "fr": "Temple Yezidi"
           },
           "projectsId": []
         }

@@ -12,64 +12,64 @@
       "sites": [
         {
           "name": {
-            "en": "East Mebon Temple",
-            "fr": "Temple du Mébon Occidental"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Chau Srei Vibol Temple",
-            "fr": "Temple de Chau Srei Vibol"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Buddha Gate & Victory Gate",
-            "fr": "Porte de Bouddha & Porte de la Victoire"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Preah Khan Temple",
-            "fr": "Temple Preah Khan"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Small Temple",
-            "fr": "Petit Temple"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
             "en": "Banteay Thom Temple",
             "fr": "Temple de Banteay Thom"
           },
           "projectsId": []
         },
-		    {
-          "name": {
-            "en": "Preah Palilay Temple",
-            "fr": "Temple de Preah Palilay"
-          },
-          "projectsId": []
-        },
-    {
+        {
           "name": {
             "en": "Baphuon Temple",
             "fr": "Temple de Baphuon"
           },
           "projectsId": []
         },
-		{
+        {
+          "name": {
+            "en": "Buddha Gate & Victory Gate",
+            "fr": "Porte de Bouddha & Porte de la Victoire"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Chau Srei Vibol Temple",
+            "fr": "Temple de Chau Srei Vibol"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "East Mebon Temple",
+            "fr": "Temple du Mébon Occidental"
+          },
+          "projectsId": []
+        },
+		    {
+          "name": {
+            "en": "Preah Khan Temple",
+            "fr": "Temple Preah Khan"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Preah Palilay Temple",
+            "fr": "Temple de Preah Palilay"
+          },
+          "projectsId": []
+        },
+        {
           "name": {
             "en": "Sculptures at the north entrance of Angkor Thom",
             "fr": "Sculptures à l'entrée nord d'Angkor Thom"
+          },
+          "projectsId": []
+        },
+		    {
+          "name": {
+            "en": "Small Temple",
+            "fr": "Petit Temple"
           },
           "projectsId": []
         }

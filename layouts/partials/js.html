@@ -17,11 +17,18 @@
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
 <script type="text/javascript">
-    var projects = {{.Site.Data.projects}};
+
+  var projects = {{.Site.Data.projects}};
     
   // Handle interactive svg map
   var lang = {{.Site.Language.Lang}};
   var countries = {{.Site.Data.map}};
+
+  function sortPlaces(a,b) {
+    if(a.name[lang] < b.name[lang]) return -1;
+    if(a.name[lang] > b.name[lang]) return 1;
+    return 0;
+  }
 
   // Initialize all interaction and display of projects within a country on the map
   Object.keys(countries).map((mapId) => {
@@ -33,14 +40,14 @@
       var cityCellsToAppend = '';
       var siteCellsToAppend = '';
 
-      countries[mapId].places.map((place) => {
+      countries[mapId].places.sort(sortPlaces).map((place) => {
         cityCellsToAppend += 
         '<div class="iconem-map-infos-city-cell">' +
           '<div class="iconem-map-infos-city">' + place.name[lang] + '</div>';
 
         siteCellsToAppend += '<div class="iconem-map-infos-site-cell">';
 
-        place.sites.map((site, index)=> {
+        place.sites.sort(sortPlaces).map((site, index)=> {
           if (index === 0) {
             var name;
             if (site.name[lang].length > place.name[lang].length) {

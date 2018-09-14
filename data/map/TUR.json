@@ -6,6 +6,21 @@
   "places": [
     {
       "name": {
+        "en": "Istanbul",
+        "fr": "Istanbul"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Koç University",
+            "fr": "Université Koç"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
         "en": "Manisa Province",
         "fr": "Province de Manisa"
       },

@@ -79,21 +79,6 @@
     },
     {
       "name": {
-        "en": "Shahrak District",
-        "fr": "District de Shahrak"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "Minaret of Jam",
-            "fr": "Minaret de Djam"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Herat",
         "fr": "Hérat"
       },
@@ -102,6 +87,21 @@
           "name": {
             "en": "Musalla Complex",
             "fr": "Complexe de Musalla"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kabul",
+        "fr": "Kaboul"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Murad Khani",
+            "fr": "Murad Khani"
           },
           "projectsId": []
         }
@@ -132,6 +132,21 @@
           "name": {
             "en": "Mes Aynak",
             "fr": "Mes Aynak"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shahrak District",
+        "fr": "District de Shahrak"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Minaret of Jam",
+            "fr": "Minaret de Djam"
           },
           "projectsId": []
         }

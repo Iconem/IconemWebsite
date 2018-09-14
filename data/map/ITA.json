@@ -12,15 +12,15 @@
       "sites": [
         {
           "name": {
-            "en": "Villa of Diomedes",
-            "fr": "Villa de Diomède"
+            "en": "Pompeii",
+            "fr": "Pompéi"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Pompeii",
-            "fr": "Pompéi"
+            "en": "Villa of Diomedes",
+            "fr": "Villa de Diomède"
           },
           "projectsId": []
         }
