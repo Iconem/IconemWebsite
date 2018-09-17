@@ -150,12 +150,12 @@ publishDir = "docs"
 		email = "contact@iconem.com"
 
 	[languages.en.brochure]
-		title = "Brochure"
-		pdf = "pdf/press_kit.pdf"
+		title = "Download our brochure"
+		pdf = "pdf/brochure_EN.pdf"
 
 	[languages.fr.brochure]
-		title = "Brochure"
-		pdf = "pdf/press_kit.pdf"
+		title = "Téléchargez notre plaquette"
+		pdf = "pdf/brochure_EN.pdf"
 
 	[languages.en.press_kit]
 		title = "Press Contact"
