@@ -147,22 +147,22 @@ publishDir = "docs"
 		title = "Contact"
 		phone = "+33 (0)1 42 49 76 04"
 		adress = "6 rue Jules Chaplain 75006 Paris, France"
-		email = "contact@iconem.com"
+		email = "contact(@)iconem.com"
 
 	[languages.en.brochure]
 		title = "Download our brochure"
-		pdf = "pdf/brochure_EN.pdf"
+		pdf = "pdf/Iconem_EN.pdf"
 
 	[languages.fr.brochure]
 		title = "Téléchargez notre plaquette"
-		pdf = "pdf/brochure_EN.pdf"
+		pdf = "pdf/Iconem_FR.pdf"
 
 	[languages.en.press_kit]
-		title = "Press Contact"
+		title = "Press Contact: xg(@)iconem.com"
 		pdf = "pdf/press_kit.pdf"
 
 	[languages.fr.press_kit]
-		title = "Contact Presse"
+		title = "Contact Presse : xg(@)iconem.com"
 		pdf = "pdf/press_kit.pdf"
 
 	[languages.en.newsletter]
