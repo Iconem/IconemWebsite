@@ -1,11 +1,11 @@
 {
   "id": "marjorie",
   "name": "Marjorie Coulin",
-  "order": 14,
-  "enabled": false,
+  "order": 5,
+  "enabled": true,
   "job": {
-    "en": "R&D Engineer",
-    "fr": "Ingénieure R&D"
+    "en": "R&D Engineer, photogrammetry expert",
+    "fr": "Ingénieure R&D, experte photogrametre"
   },
   "img": "img/about/team_members/marjorie.png",
   "img_color": "img/about/team_members/marjorie_color.png",

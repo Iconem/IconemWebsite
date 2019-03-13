@@ -2,7 +2,7 @@
   "id": "khalila",
   "name": "Khalila Hassouna",
   "order": 6,
-  "enabled": true,
+  "enabled": false,
   "job": {
     "en": "Head of Sales",
     "fr": "Directrice Commerciale"

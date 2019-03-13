@@ -29,6 +29,11 @@
                         <a class="page-scroll text-bolder text-uppercase" href="#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
+                {{ if and .Site.Params.contribute .Site.Params.navigation.links.contribute }}
+                    <li>
+                        <a class="page-scroll text-bolder text-uppercase" href="#contribute">{{ .Site.Params.navigation.links.contribute }}</a>
+                    </li>
+                {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
                         <a class="page-scroll text-bolder text-uppercase" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>

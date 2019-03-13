@@ -31,7 +31,7 @@
                     <p>{{ .Site.Params.contact.email }}</p>
                 </div>
             {{ end }}
-         <!--    {{ if .Site.Params.press_kit }}
+          <!--    {{ if .Site.Params.press_kit }}
                 <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
                     <img src="img/contact/presskit.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/presskit_hover.png'"
                     onmouseleave="this.src='img/contact/presskit.png'">
@@ -45,14 +45,13 @@
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </div>
             {{ end }}
-           {{ if .Site.Params.brochure }}
-                <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" download>
+            {{ if .Site.Params.brochure }}
+                <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
                     <img src="img/contact/brochure.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/brochure_hover.png'"
                     onmouseleave="this.src='img/contact/brochure.png'">
                     <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
             {{ end }}
-
             <!-- Begin MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
