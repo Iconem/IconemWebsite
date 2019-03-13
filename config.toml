@@ -6,32 +6,21 @@ publishDir = "docs"
 
 [languages]
 	[languages.en]
-	baseUrl = "https://iconem.github.io/IconemWebsite/en"
+	baseUrl = "http://iconem.com/en"
+	name = "Iconem"
+	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
+
 	[languages.fr]
-	baseUrl = "https://iconem.github.io/IconemWebsite/fr"
+	baseUrl = "http://iconem.com/fr"
+	name = "Iconem"
+	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
+
 
 [params]
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
-
-	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
-
-	# To provide some metadata for search engines feel free to add some
-	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
-
 	# The path must be relative to the static folder
 	favicon = "img/favicons/favicon.ico"
-
+	
 
 	# Navigation
 	[params.navigation]
