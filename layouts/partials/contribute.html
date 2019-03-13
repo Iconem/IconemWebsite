@@ -1,0 +1,15 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contribute">
+    <div class="container">
+      {{ with .Site.Params.contribute.title }}
+          <h3 class="text-center text-uppercase text-bolder section-title">
+              {{ . }}
+          </h3>
+          <hr>
+      {{ end }}
+          <br>
+      {{ with .Site.Params.contribute.description }}
+          <p class="text-justify">{{ . | markdownify }}</p>
+      {{ end }}  
+    </div>
+</section>
