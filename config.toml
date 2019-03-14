@@ -1,17 +1,17 @@
 title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
-baseUrl = "https://iconem.github.io/IconemWebsite/en"
+baseUrl = "http://iconem.com/en/"
 publishDir = "docs"
 
 [languages]
 	[languages.en]
-	baseUrl = "http://iconem.com/en"
+	baseUrl = "http://iconem.com/en/"
 	name = "Iconem"
 	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
 
 	[languages.fr]
-	baseUrl = "http://iconem.com/fr"
+	baseUrl = "http://iconem.com/fr/"
 	name = "Iconem"
 	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
 
