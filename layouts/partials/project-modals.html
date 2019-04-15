@@ -4,8 +4,7 @@
 <div class="iconem-modal modal fade" id="portfolioModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         
-        <img src="img/home/cross_black.png" class="close-modal" data-dismiss="modal"
-            onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});returnToImgCarousel({{ $projectIndex }});stopVideos()">
+        <img src="img/home/cross_black.png" class="close-modal" data-dismiss="modal">
         
         <div class="col-sm-10 col-sm-offset-1 modal-body">
             <div class="modal-fixed">
@@ -21,7 +20,7 @@
                             href="#project-{{ $projectIndex }}-img-carousel"
                             data-parent='#project-{{$projectIndex}}-media'
                             aria-expanded="true"
-                            onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});stopVideos();">
+                            onclick="goToFirstImage({{ $project }});">
                             <img src="img/projects/icons/img_black.png" 
                                 data-toggle="tooltip"
                                 data-placement="top"
@@ -36,7 +35,7 @@
                                 href="#project-{{ $projectIndex }}-video-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopPreviewCarousel({{ $projectIndex }});unloadIFrames({{ $projectIndex }});">
+                                onclick="goToFirstVideo({{ $project }});">
                                 <img src="img/projects/icons/video_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
@@ -52,7 +51,7 @@
                                 href="#project-{{ $projectIndex }}-models-carousel"
                                 data-parent='#project-{{$projectIndex}}-media'
                                 aria-expanded="false"
-                                onclick="stopPreviewCarousel({{ $projectIndex }});loadIFrames({{ $projectIndex }}, {{$project.models}});stopVideos();">
+                                onclick="goToFirstModel({{ $project }});">
                                 <img src="img/projects/icons/3ds_black.png"
                                     data-toggle="tooltip"
                                     data-placement="top"
@@ -67,66 +66,47 @@
                     {{ with $project.thumbnail }}
                         <img class="img-responsive dummy" src="{{ . }}">
                     {{ end }}
-                    <div class="panel-group project-media" id="project-{{$projectIndex}}-media" role="tablist" aria-multiselectable="false">
 
-                        {{ "<!-- Image carousel -->" | safeHTML }}
-                        <div class="panel">
-                            <div id="project-{{ $projectIndex }}-img-carousel" class="panel-collapse collapse in" role="tabpanel">
-                                <div class="owl-carousel owl-theme preview-img-carousel">
-                                    {{ range $imgIndex, $img := $project.img }}
-                                        <div>
-                                            <img src="{{ $img.full }}" class="img-responsive">
-                                            <div class="img-toolbar">
-                                                <div class="img-caption">
-                                                    {{with $img.caption }}
-                                                        {{ index $img.caption $lang }}
-                                                    {{end}}
-                                                </div>
-                                                <div class="img-fullscreen-btn"
-                                                onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
-                                                >
-                                                </div>
-                                            </div>
+                    {{ "<!-- Image carousel -->" | safeHTML }}
+                    <div class="project-media" id="project-{{ $projectIndex }}-img-carousel">
+                        <div class="owl-carousel owl-theme preview-img-carousel">
+                            {{ range $imgIndex, $img := $project.img }}
+                                <div>
+                                    <img src="{{ $img.full }}" class="img-responsive">
+                                    <div class="img-toolbar">
+                                        <div class="img-caption">
+                                            {{with $img.caption }}
+                                                {{ index $img.caption $lang }}
+                                            {{end}}
                                         </div>
-                                    {{ end }}
+                                    </div>
                                 </div>
-                                <img src="img/home/cross_white.png" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
-                            </div>
+                            {{ end }}
+                            {{ if $project.video }}
+                            {{ range $project.video }}
+                                <a class="owl-video" href="{{ .src }}"></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if $project.models }}
+                            {{ range $project.models }}
+                                <iframe width="100%" height="100%"
+                                src=''
+                                frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
+                                </iframe>
+                            {{ end }}
+                            {{ end }}
                         </div>
-
-                        {{ "<!-- Video carousel -->" | safeHTML }}
-                        {{ if $project.video }}
-                        <div class="panel">
-                            <div id="project-{{ $projectIndex }}-video-carousel" class="panel-collapse collapse" role="tabpanel">
-                                <div class="owl-carousel owl-theme video-carousel">
-                                    {{ range $project.video }}
-                                        <a class="owl-video" href="{{ .src }}"></a>
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-                        {{ end }}
-
-                        {{ "<!-- 3D models carousel -->" | safeHTML }}
-                        {{ if $project.models }}
-                        <div class="panel">
-                            <div id="project-{{ $projectIndex }}-models-carousel" class="panel-collapse collapse" role="tabpanel">
-                                <div class="owl-carousel owl-theme 3d-carousel">
-                                    {{ range $project.models }}
-                                        <iframe width="100%" height="100%"
-                                        src=''
-                                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
-                                        </iframe>
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-                        {{ end }}
+                        <img src="img/home/cross_white.png" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
+                        <div class="img-fullscreen-btn"
+                                        onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
+                                        ></div>
                     </div>
                 </div>
             </div>
             <div class="modal-scrollable text-justify">
-                <strong>2017</strong>
+                {{ with $project.date }}
+                    <strong>{{ index . $lang }}</strong>
+                {{ end }}
                 {{ with $project.subtitle }}
                     <i>{{ index . $lang }}</i>
                 {{ end }}
@@ -152,9 +132,25 @@
 
 
 <script type="text/javascript">
-    function stopPreviewCarousel(projectIndex) {
-        var id = `#project-${projectIndex }-img-carousel`;
-        $(id).find('.owl-carousel.preview-img-carousel').trigger('stop.owl.autoplay');
+
+    function goToFirstVideo(project) {
+        const projectModalCarousel = $(`#project-${project.modalID}-img-carousel`).find('.owl-carousel');
+        const firstVideoIndex = project.img.length;
+        projectModalCarousel.trigger('to.owl.carousel', [firstVideoIndex]);
+    }
+
+    function goToFirstModel(project) {
+        const projectModalCarousel = $(`#project-${project.modalID}-img-carousel`).find('.owl-carousel');
+        let firstModelIndex = project.img.length;
+        if (project.video) {
+            firstModelIndex += project.video.length;
+        }
+        projectModalCarousel.trigger('to.owl.carousel', [firstModelIndex]);
+    }
+
+    function goToFirstImage(project) {
+        const projectModalCarousel = $(`#project-${project.modalID}-img-carousel`).find('.owl-carousel');
+        projectModalCarousel.trigger('to.owl.carousel', [0]);
     }
 
     function resizeFull(carouselId) {
@@ -199,38 +195,5 @@
                 }
             }, true);
         }
-    }
-
-    function loadIFrames(projectIndex, projectModels) {
-        var carouselId = `#project-${projectIndex}-models-carousel`;
-        $(carouselId).find('iframe').each(function(index) {
-            if (($(this).attr('src')).length === 0) {
-                $(this).attr('src', projectModels[index]);
-            }
-        });
-    }
-
-    function unloadIFrames(projectIndex) {
-        var carouselId = `#project-${projectIndex}-models-carousel`;
-        $(carouselId).find('iframe').each(function() {
-            $(this).attr('src', '');
-        });
-    }
-
-    function returnToImgCarousel(projectIndex) {
-        var imgCarouselTogglerId = `#project-${projectIndex}-img-carousel-toggler`;
-        var imgCarouselId = `#project-${projectIndex}-img-carousel`;
-        if (!$(imgCarouselId).hasClass('in')) {
-            $(imgCarouselTogglerId).click();
-        }
-    }
-
-    function stopVideos() {
-        var eventNext = $.Event('keyup');
-        eventNext.keyCode = 39; // right arrow
-        var eventPrev = $.Event('keyup');
-        eventPrev.keyCode = 37; // left arrow
-        $(document).trigger(eventNext);
-        $(document).trigger(eventPrev);
     }
 </script> 

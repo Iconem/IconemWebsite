@@ -145,31 +145,22 @@
   $(document).ready(function(){
     var projects = {{.Site.Data.projects}};
 
-    // carousel config for preview images in project modals
-    var modalPreviewCarouselConfig = {
+    var modalCarouselConfig = {
       items: 1,
       loop: true,
       dots: true,
-      // autoplay: true,
-      autoplayTimeout: 4000,
-      autoplayHoverPause: true,
-      lazyLoad: true,
-      nav: true,
-      navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>']
-    };
-
-    var modalVideoCarouselConfig = {
-      items: 1, 
-      loop: true,
-      nav: true,
       video: true,
       lazyLoad: true,
+      nav: true,
       navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
       onInitialized: function() {
         var carousel = this.$element;
         var carouselId = carousel.parent().attr('id');
         var projectId = carouselId.split('-')[1];
         var project = projects[projectId];
+
+        // once media carousel is initialized,
+        // add preview images on videos
         carousel.find('.owl-video-wrapper').each(function(index){
           var i = (index + Math.floor(project.video.length / 2)) % project.video.length;
           var previewContainer = document.createElement('div');
@@ -179,53 +170,79 @@
           previewContainer.appendChild(img);
           this.appendChild(previewContainer);
         });
+
+        // add handler on carousel's change event
+        carousel.on('changed.owl.carousel', function(event) {
+          const pageIndex = event.page.index;
+          const nbPageImg = project.img ? project.img.length : 0;
+          const nbPageVideo = project.video ? project.video.length : 0; 
+          const nbPageModels = project.models ? project.models.length : 0; 
+          const pageStartImg = 0;
+          const pageStartVideo = pageStartImg + nbPageImg;
+          const pageStartModels = pageStartVideo + nbPageVideo;
+
+          const imgToggler = $(`#project-${projectId}-img-carousel-toggler`);
+          const videoToggler = $(`#project-${projectId}-video-carousel-toggler`);
+          const modelsToggler = $(`#project-${projectId}-models-carousel-toggler`);
+
+          if (pageIndex < pageStartVideo) {
+            imgToggler.removeClass('collapsed');
+            videoToggler.addClass('collapsed');
+            modelsToggler.addClass('collapsed');
+          } else if (pageIndex < pageStartModels) {
+            imgToggler.addClass('collapsed');
+            videoToggler.removeClass('collapsed');
+            modelsToggler.addClass('collapsed');
+          } else {
+            imgToggler.addClass('collapsed');
+            videoToggler.addClass('collapsed');
+            modelsToggler.removeClass('collapsed');
+          }
+        });
       }
     };
 
-    var modal3DCarouselConfig = {
-      items: 1, 
-      loop: false,
-      nav: true,
-      lazyLoad: true,
-      navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>']
-    };
+    $(document).on($.support.transition.end, '.modal.fade', function(e) {
 
-    /* Fix owl-carousel bad behaviour */
-    // $(window).on('shown.bs.modal', (e) => {
-    // Previous line do not work using a fade class on the modal element. This is just a fix so that we can init carousel once the modal is displayed, after fade animation
-    $(document).on($.support.transition.end, '.modal.fade.in', function(e) {
-      var $target = $(e.target);
+      if ($(e.target).is(".iconem-modal") && $(e.target).hasClass('in')) {
+        // a project modal has just opened :
+        // => init project carousel
+        const carousel = $(e.target).find(".owl-carousel");
+        carousel.owlCarousel(modalCarouselConfig);
 
-      if ($(e.target).is(".iconem-modal")) {
-        // an iconem modal has just opened
-
-        // We init the preview image carrousel element of the modal, once is is visible
-        $(e.target).find(".collapse.in .owl-carousel").owlCarousel(modalPreviewCarouselConfig);
+        // => load carousel's iframes (if needed)
+        if (carousel.find('iframe').length > 0) {
+          const projectModalID = $(e.target).attr('id').split('portfolioModal')[1];
+          const project = projects[projectModalID];
+          carousel.find('iframe').each(function(index) {
+            if (($(this).attr('src')).length === 0) {
+                $(this).attr('src', project.models[index % project.models.length]);
+            }
+          });
+        }
       }
-    });
 
-    // We init the carrousel element of the tab we are currently displaying, once it is visible
-    $('.panel').on('shown.bs.collapse',  (e) => {
-      var panelCarousel = $(e.target).find('.owl-carousel').first();
-      if (panelCarousel.hasClass('preview-carousel')) {
-        panelCarousel.owlCarousel(modalPreviewCarouselConfig);
-      } else if (panelCarousel.hasClass('video-carousel')) {
-        panelCarousel.owlCarousel(modalVideoCarouselConfig);
-      } else if (panelCarousel.hasClass('3d-carousel')) {
-        panelCarousel.owlCarousel(modal3DCarouselConfig);
+      if ($(e.target).is(".iconem-modal") && !$(e.target).hasClass('in')) {
+        // a project modal has just closed :
+        // => unload iframes (sketchfab embedded models)
+        const carousel = $(e.target).find(".owl-carousel");
+        carousel.find('iframe').each(function(index) {
+          $(this).attr('src', '');
+        });
       }
+
     });
 
     // handle carousel navigation using keyboard arrows
     $(document).keyup(function (e) {
       if (e.keyCode === 37) {
         //left arrow
-        var currentlyOpenCarousel = $('.modal.fade.in .collapse.in .owl-carousel').first();
+        var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
         currentlyOpenCarousel.trigger('prev.owl.carousel');
       }
       if (e.keyCode === 39) {
         //rightarrow
-        var currentlyOpenCarousel = $('.modal.fade.in .collapse.in .owl-carousel').first();
+        var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
         currentlyOpenCarousel.trigger('next.owl.carousel');
       }
     });

@@ -152,7 +152,7 @@ body {
     opacity: 0;
 }
 
-.iconem-modal .project-media.panel-group {
+.iconem-modal .project-media {
     margin: 0;
     position: absolute;
     top: 0;
