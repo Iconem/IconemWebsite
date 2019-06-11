@@ -1,9 +1,28 @@
-/* ICONEM VIDEO */
 * {
     box-sizing: border-box;
 }
+
+/* ICONEM VIDEO */
+#iconem-video-overlay video {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background: transparent url("../img/home/home_background.png") no-repeat 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -98;
+}
 .video-background {
-    background: #000;
+    background: #ffffff;
     position: fixed;
     top: 0;
     right: 0;
@@ -11,10 +30,11 @@
     left: 0;
     z-index: -99;
 }
+
 .video-foreground,
 .video-background iframe {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -30,20 +50,6 @@
     .video-foreground {
         width: 300%;
         left: -100%;
-    }
-}
-@media all and (max-width: 600px) {
-    .vid-info {
-        width: 50%;
-        padding: 0.5rem;
-    }
-    .vid-info h1 {
-        margin-bottom: 0.2rem;
-    }
-}
-@media all and (max-width: 500px) {
-    .vid-info .acronym {
-        display: none;
     }
 }
 
