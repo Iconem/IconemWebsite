@@ -1,11 +1,16 @@
 {{ "<!-- HEADER -->" | safeHTML }}
-<div id="iconem-video-wrapper">
-   <video autoplay muted loop poster="img/home/home_transparent.png">
-        <source src="video/Iconem_Rethink_Human_Heritage.mp4" type="video/mp4">
-    </video>
+<div class="video-background">
+    <div class="video-foreground">
+        <iframe
+            src="https://www.youtube.com/embed/EELW6fBNvKo?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=EELW6fBNvKo&mute=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </div>
 </div>
 <header>
-    <div class="header-content">
+    <!-- <div class="header-content">
         <div class="header-content-inner">
             {{ if .Site.Params.home.draw }}
                 <img class="header-draw" src="{{.Site.Params.home.draw}}"/>
@@ -13,21 +18,22 @@
             {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
                 <hr class="light">
             {{ end }}
-            {{ "<!-- Slogan font-size is calculated in the script creative.js -->" | safeHTML }}
+            {{ "Slogan font-size is calculated in the script creative.js" | safeHTML }}
             {{ with .Site.Params.home.slogan }}
                 <h1 class="text-uppercase text-bolder">{{ . | markdownify }}</h1>
             {{ end }}
         </div>
-    </div>
+    </div> -->
 
     <div class="header-footer">
-        {{ range .Site.Params.home.social }}
-            <a href="{{ .link }}" target="_blank">
-                <img src="{{ .icon}}" 
-                    onmouseenter="this.src={{ .icon_active}}" 
-                    onmouseleave="this.src={{ .icon}}"
-                />
-            </a>
+        {{ range.Site.Params.home.social }}
+        <a href="{{ .link }}" target="_blank">
+            <img
+                src="{{ .icon}}"
+                onmouseenter="this.src={{ .icon_active}}"
+                onmouseleave="this.src={{ .icon}}"
+            />
+        </a>
         {{ end }}
     </div>
 </header>
