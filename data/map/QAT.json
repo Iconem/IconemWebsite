@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "QATAR",
+    "fr": "QATAR"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Doha",
+        "fr": "Doha"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Museum of Islamic Art",
+            "fr": "Museum of Islamic Art"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

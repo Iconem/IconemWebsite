@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "SAUDI ARABIA",
+    "fr": "ARABIE SAOUDITE"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Riyadh",
+        "fr": "Riyad"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "National Museum",
+            "fr": "National Museum"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

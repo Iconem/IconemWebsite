@@ -1,0 +1,59 @@
+{
+  "name": {
+    "en": "EGYPT",
+    "fr": "EGYPTE"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Cairo",
+        "fr": "Le Caire"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Abu Rawash",
+            "fr": "Abou Rawash"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Saqarra",
+        "fr": "Saqarrah"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Dahshur",
+            "fr": "Dahchour"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Giza",
+            "fr": "Gizeh"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Meidum",
+            "fr": "Meïdoum"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "North Saqarra",
+            "fr": "Saqqarah Nord"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "CHINA",
+    "fr": "CHINE"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Beijing",
+        "fr": "Pékin"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Temple Hotel",
+            "fr": "Temple Hotel"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

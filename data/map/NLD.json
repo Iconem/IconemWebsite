@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "NETHERLANDS",
+    "fr": "PAYS-BAS"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Leiden",
+        "fr": "Leyde"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Rijksmuseum van Oudheden",
+            "fr": "Rijksmuseum van Oudheden"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

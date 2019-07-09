@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "MOROCCO",
+    "fr": "MAROC"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Salé",
+        "fr": "Salé"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bouregreg cultural complex",
+            "fr": "Complexe culturel Bouregreg"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}
