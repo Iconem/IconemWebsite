@@ -16,6 +16,20 @@
 <script src="{{ "js/slick.min.js" | absURL }}"></script>
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
+<script>
+  function init() {
+  var imgDefer = document.getElementsByTagName('img');
+  for (var i=0; i<imgDefer.length; i++) {
+  if(imgDefer[i].getAttribute('data-src')) {
+  imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+  imgDefer[i].onload = () => {
+    $('#main-projects-carousel').slick('resize');
+  }
+  } } 
+  }
+  window.onload = init;
+</script>
+
 <script type="text/javascript">
 
   var projects = {{.Site.Data.projects}};
@@ -321,14 +335,4 @@
     }
 }
 
-</script>
-
-<script>
-  function init() {
-  var imgDefer = document.getElementsByTagName('img');
-  for (var i=0; i<imgDefer.length; i++) {
-  if(imgDefer[i].getAttribute('data-src')) {
-  imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-  } } }
-  window.onload = init;
 </script>
