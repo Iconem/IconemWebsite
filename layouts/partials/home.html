@@ -16,7 +16,7 @@
       <div id="header-content" class="header-content">
         <div class="header-content-inner">
             {{ if .Site.Params.home.draw }}
-                <img class="header-draw" src="{{.Site.Params.home.draw}}"/>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.draw}}" class="header-draw"/>
             {{ end }}
             {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
                 <hr class="light">

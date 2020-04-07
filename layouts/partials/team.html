@@ -16,7 +16,7 @@
                             data-parent='#team-accordion'
                             aria-expanded="false"
                             onclick="changePhotoSrc({{ $team_members }}, {{ .id }});">
-                            <img src="{{ .img }}" class="img-responsive" />
+                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .img }}" class="img-responsive" />
                         </a>
                     </div>
                 {{ end }}
