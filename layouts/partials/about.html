@@ -22,7 +22,7 @@
         {{ range sort .Site.Data.about "order"}}
         <div class="about-item">
             {{ if .modalID }}
-            <a href="#aboutModal{{ .modalID }}" class="photo-box" data-toggle="modal">
+            <a href="#aboutModal{{ .modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#aboutModal{{ .modalID }}'}); return false; })();return false;" class="photo-box" data-toggle="modal">
             {{ else }}
             <a href="{{ .link }}" class="photo-box" data-toggle="modal" target="_blank">
             {{ end }}

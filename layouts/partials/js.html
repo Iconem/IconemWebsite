@@ -17,6 +17,8 @@
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
 <script>
+  // Deferring images without lazy loading or jQuery
+  // https://varvy.com/pagespeed/defer-images.html
   function init() {
   var imgDefer = document.getElementsByTagName('img');
   for (var i=0; i<imgDefer.length; i++) {
