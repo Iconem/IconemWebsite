@@ -72,6 +72,41 @@
             "fr": "Petit Temple"
           },
           "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Baksei Chamkrong Temple",
+            "fr": "Temple de Baksei Chamkrong"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Prasat Kravan Temple",
+            "fr": "Temple de Prasat Kravan"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Preah Ko Temple",
+            "fr": "Temple de Preah Ko"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Prasat Preimonti Temple",
+            "fr": "Temple de Prasat Preimonti"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Prasat Batchum Temple",
+            "fr": "Temple de Prasat Batchum"
+          },
+          "projectsId": []
         }
       ]
     }

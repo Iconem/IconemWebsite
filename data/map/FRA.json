@@ -43,14 +43,29 @@
     },
     {
       "name": {
-        "en": "Normandy",
-        "fr": "Normandie"
+        "en": "Mont-Saint-Michel",
+        "fr": "Mont-Saint-Michel"
       },
       "sites": [
         {
           "name": {
             "en": "Mont-Saint-Michel Abbey",
             "fr": "Abbaye du Mont-Saint-Michel"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Étretat",
+        "fr": "Étretat"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Étretat Cliffs",
+            "fr": "Falaises d'Étretat"
           },
           "projectsId": []
         }
@@ -95,6 +110,96 @@
           "name": {
             "en": "Abbatial church of Saint-Sever",
             "fr": "Eglise abbatiale de Saint-Sever"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Arc-et-Senans",
+        "fr": "Arc-et-Senans"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Saline Royale (Royal Saltworks)",
+            "fr": "Saline Royale"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Compiègne",
+        "fr": "Compiègne"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Compiègne City Center",
+            "fr": "Centre-ville de Compiègne"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Laval",
+        "fr": "Laval"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Maison des Maires",
+            "fr": "Maison des Maires"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Vaux-le-Vicomte",
+        "fr": "Vaux-le-Vicomte"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Palace of Vaux-le-Vicomte",
+            "fr": "Château de Vaux-le-Vicomte"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Saint-Germain-des-Prés",
+        "fr": "Saint-Germain-des-Prés"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Interior of Saint-Germain-des-Prés Church",
+            "fr": "Intérieur de l’église de Saint-Germain-des-Prés"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Saint-Germain-en-Laye",
+        "fr": "Saint-Germain-en-Laye"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Pavillon de la Muette",
+            "fr": "Pavillon de la Muette"
           },
           "projectsId": []
         }

@@ -18,6 +18,21 @@
           "projectsId": []
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Al-'Ula",
+        "fr": "Al-'Ula"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Hegra (Mada'in Salih)",
+            "fr": "Hegra (Mada'in Saleh)"
+          },
+          "projectsId": []
+        }
+      ]
     }
   ]
 }

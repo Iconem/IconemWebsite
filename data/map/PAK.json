@@ -6,21 +6,6 @@
   "places": [
     {
       "name": {
-        "en": "Balochistan",
-        "fr": "Baloutchistan"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "Dinosaur footprint, Zhob Valley",
-            "fr": "Empreinte de dinosaure, Vallée du Zhob"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Sindh",
         "fr": "Sindh"
       },

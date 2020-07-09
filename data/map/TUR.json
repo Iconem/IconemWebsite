@@ -33,6 +33,21 @@
           "projectsId": []
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Aydin Province",
+        "fr": "Province d'Aydin"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Aphrodisias",
+            "fr": "Aphrodisias"
+          },
+          "projectsId": []
+        }
+      ]
     }
   ]
 }

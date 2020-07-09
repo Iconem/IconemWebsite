@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "YEMEN",
+    "fr": "YÉMEN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Jibla",
+        "fr": "Jibla"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Qubbat Bayt az-Zum Mosque",
+            "fr": "Mosquée Qubbat Bayt az-Zum"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

@@ -33,6 +33,43 @@
           "projectsId": []
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Gegharkunik province",
+        "fr": "Région de Gegharkunik"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Monastery of Hayravank",
+            "fr": "Monastère d'Hayravank"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Noradouz Cemetery",
+            "fr": "Cimetière de Noradouz"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kotayk province",
+        "fr": "Région de Kotayk"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Temple of Garni",
+            "fr": "Temple de Garni"
+          },
+          "projectsId": []
+        }
+      ]
     }
   ]
 }

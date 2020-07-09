@@ -74,6 +74,36 @@
           "projectsId": []
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Shahhat",
+        "fr": "Shahhat"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Cyrene",
+            "fr": "Cyrène"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Susah",
+        "fr": "Susah"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Apollonia",
+            "fr": "Apollonia"
+          },
+          "projectsId": []
+        }
+      ]
     }
   ]
 }

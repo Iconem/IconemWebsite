@@ -361,14 +361,14 @@
     },
     {
       "name": {
-        "en": "Qasr Shamamok (Kurdistan)",
-        "fr": "Qasr Shamamok (Kurdistan)"
+        "en": "Qasr Shemamok (Kurdistan)",
+        "fr": "Qasr Shemamok (Kurdistan)"
       },
       "sites": [
         {
           "name": {
-            "en": "Qasr Shamamok",
-            "fr": "Qasr Shamamok"
+            "en": "Qasr Shemamok",
+            "fr": "Qasr Shemamok"
           },
           "projectsId": []
         }
