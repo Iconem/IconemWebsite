@@ -1,17 +1,17 @@
 title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
-baseUrl = "http://iconem.com/en/"
+baseUrl = "https://iconem.com/en/"
 publishDir = "docs"
 
 [languages]
 	[languages.en]
-	baseUrl = "http://iconem.com/en/"
+	baseUrl = "https://iconem.com/en/"
 	name = "Iconem"
 	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
 
 	[languages.fr]
-	baseUrl = "http://iconem.com/fr/"
+	baseUrl = "https://iconem.com/fr/"
 	name = "Iconem"
 	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
 
@@ -36,7 +36,7 @@ publishDir = "docs"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			link = "http://iconem.fr"
+			link = "https://iconem.fr"
 
 		[languages.fr.navigation.links]
 			projects = "Projets"
@@ -48,7 +48,7 @@ publishDir = "docs"
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
-			link = "http://iconem.com"
+			link = "https://iconem.com"
 
 	# Home section
 	[params.home]
