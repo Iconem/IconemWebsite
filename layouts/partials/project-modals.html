@@ -2,131 +2,130 @@
 {{ $lang := .Site.Language.Lang }}
 {{ range $projectIndex, $project := .Site.Data.projects }}
 <div class="iconem-modal modal fade" id="portfolioModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-        
-        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_black.png" class="close-modal" data-dismiss="modal">
-        
-        <div class="col-sm-10 col-sm-offset-1 modal-body">
-            <div class="modal-fixed">
-                <h3 class="text-uppercase">{{ index $project.title $lang }}</h3>
-                <div>
-                    <hr/>
-                </div>
-                <div class="project-media-icons-container">
-                    {{ if (or $project.video $project.models) }}
-                        <a role="button"
-                            id="project-{{ $projectIndex }}-img-carousel-toggler"
-                            data-toggle="collapse"
-                            href="#project-{{ $projectIndex }}-img-carousel"
-                            data-parent='#project-{{$projectIndex}}-media'
-                            aria-expanded="true"
-                            onclick="goToFirstImage({{ $project }});">
-                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/img_black.png" 
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="{{ $.Site.Params.projects.modal.pictures }}" 
-                            />
-                        </a>
-                        {{ if $project.video }}
-                            <a role="button"
-                                id="project-{{ $projectIndex }}-video-carousel-toggler"
-                                data-toggle="collapse"
-                                class="collapsed"
-                                href="#project-{{ $projectIndex }}-video-carousel"
-                                data-parent='#project-{{$projectIndex}}-media'
-                                aria-expanded="false"
-                                onclick="goToFirstVideo({{ $project }});">
-                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/video_black.png"
-                                    data-toggle="tooltip"
-                                    data-placement="top"
-                                    title="{{ $.Site.Params.projects.modal.videos }}" 
-                                />
-                            </a>
-                        {{ end }}
-                        {{ if $project.models }}
-                            <a role="button"
-                                id="project-{{ $projectIndex }}-models-carousel-toggler"
-                                data-toggle="collapse"
-                                class="collapsed"
-                                href="#project-{{ $projectIndex }}-models-carousel"
-                                data-parent='#project-{{$projectIndex}}-media'
-                                aria-expanded="false"
-                                onclick="goToFirstModel({{ $project }});">
-                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/3ds_black.png"
-                                    data-toggle="tooltip"
-                                    data-placement="top"
-                                    title="{{ $.Site.Params.projects.modal.models }}"
-                                />
-                            </a>
-                        {{ end }}
-                    {{ end }}
-                </div>
+    <div class="modal-content col-sm-12 col-sm-offset">
+      <div class="project-media-container">
+          {{ with $project.thumbnail }}
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ . }}" class="img-responsive dummy">
+          {{ end }}
 
-                <div class="project-media-container">
-                    {{ with $project.thumbnail }}
-                      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ . }}" class="img-responsive dummy">
-                    {{ end }}
-
-                    {{ "<!-- Image carousel -->" | safeHTML }}
-                    <div class="project-media" id="project-{{ $projectIndex }}-img-carousel">
-                        <div class="owl-carousel owl-theme preview-img-carousel">
-                            {{ range $imgIndex, $img := $project.img }}
-                                <div>
-                                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ $img.full }}" class="img-responsive">
-                                    <div class="img-toolbar">
-                                        <div class="img-caption">
-                                            {{with $img.caption }}
-                                                {{ index $img.caption $lang }}
-                                            {{end}}
-                                        </div>
-                                    </div>
-                                </div>
-                            {{ end }}
-                            {{ if $project.video }}
-                            {{ range $project.video }}
-                                <a class="owl-video" href="{{ .src }}"></a>
-                            {{ end }}
-                            {{ end }}
-                            {{ if $project.models }}
-                            {{ range $project.models }}
-                                <iframe width="100%" height="100%"
-                                src=''
-                                frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
-                                </iframe>
-                            {{ end }}
-                            {{ end }}
-                        </div>
-                        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_white.png" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
-                        <div class="img-fullscreen-btn"
-                                        onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
-                                        ></div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-scrollable text-justify">
-                {{ with $project.date }}
-                    <strong>{{ index . $lang }}</strong>
-                {{ end }}
-                {{ with $project.subtitle }}
-                    <i>{{ index . $lang }}</i>
-                {{ end }}
-                {{ with $project.actors }}
-                <div class="text-sm">
-                    <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
-                    <span>{{ index $project.actors $lang }}</span>
-                </div>
-                {{ end }}
-                {{ with $project.partners }}
-                <div class="text-sm">
-                    <strong>{{ $.Site.Params.projects.modal.partners }}</strong>
-                    <span>{{ index $project.partners $lang }}</span>
-                </div>
-                {{ end }}
-                <hr align="left">
-                <div>{{ index $project.description $lang | markdownify }}</div>
-            </div>
-        </div>
+          {{ "<!-- Image carousel -->" | safeHTML }}
+          <div class="project-media" id="project-{{ $projectIndex }}-img-carousel">
+              <div class="owl-carousel owl-theme preview-img-carousel">
+                  {{ range $imgIndex, $img := $project.img }}
+                      <div>
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ $img.full }}" class="cover">
+                          <div class="img-toolbar">
+                              <div class="img-caption">
+                                  {{with $img.caption }}
+                                      {{ index $img.caption $lang }}
+                                  {{end}}
+                              </div>
+                          </div>
+                      </div>
+                  {{ end }}
+                  {{ if $project.video }}
+                  {{ range $project.video }}
+                      <a class="owl-video" href="{{ .src }}"></a>
+                  {{ end }}
+                  {{ end }}
+                  {{ if $project.models }}
+                  {{ range $project.models }}
+                      <iframe width="100%" height="100%"
+                      src=''
+                      frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
+                      </iframe>
+                  {{ end }}
+                  {{ end }}
+              </div>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_white.png" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
+              <div class="img-fullscreen-btn"
+                onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
+              ></div>
+          </div>
+      </div>
+      <div class="project-media-icons-container">
+        {{ if (or $project.video $project.models) }}
+            <a role="button"
+                id="project-{{ $projectIndex }}-img-carousel-toggler"
+                href="#project-{{ $projectIndex }}-img-carousel"
+                data-parent='#project-{{$projectIndex}}-media'
+                aria-expanded="true"
+                onclick="goToFirstImage({{ $project }});">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/img_black.png" 
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="{{ $.Site.Params.projects.modal.pictures }}" 
+                />
+            </a>
+            {{ if $project.video }}
+                <a role="button"
+                    id="project-{{ $projectIndex }}-video-carousel-toggler"
+                    data-toggle="collapse"
+                    class="collapsed"
+                    href="#project-{{ $projectIndex }}-video-carousel"
+                    data-parent='#project-{{$projectIndex}}-media'
+                    aria-expanded="false"
+                    onclick="goToFirstVideo({{ $project }});">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/video_black.png"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="{{ $.Site.Params.projects.modal.videos }}" 
+                    />
+                </a>
+            {{ end }}
+            {{ if $project.models }}
+                <a role="button"
+                    id="project-{{ $projectIndex }}-models-carousel-toggler"
+                    data-toggle="collapse"
+                    class="collapsed"
+                    href="#project-{{ $projectIndex }}-models-carousel"
+                    data-parent='#project-{{$projectIndex}}-media'
+                    aria-expanded="false"
+                    onclick="goToFirstModel({{ $project }});">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/3ds_black.png"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="{{ $.Site.Params.projects.modal.models }}"
+                    />
+                </a>
+            {{ end }}
+        {{ end }}
+      </div>
     </div>
+    <div id="project-media-description" class="modal-content"> 
+      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_black.png" class="close-modal" data-dismiss="modal">
+      
+      <div class="col-sm-10 col-sm-offset-1 modal-body">
+          <div class="modal-fixed">
+              <h3 class="text-uppercase">{{ index $project.title $lang }}</h3>
+              <div>
+                  <hr/>
+              </div>
+          </div>
+          <div class="modal-scrollable text-justify">
+              {{ with $project.date }}
+                  <strong>{{ index . $lang }}</strong>
+              {{ end }}
+              {{ with $project.subtitle }}
+                  <i>{{ index . $lang }}</i>
+              {{ end }}
+              {{ with $project.actors }}
+              <div class="text-sm">
+                  <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
+                  <span>{{ index $project.actors $lang }}</span>
+              </div>
+              {{ end }}
+              {{ with $project.partners }}
+              <div class="text-sm">
+                  <strong>{{ $.Site.Params.projects.modal.partners }}</strong>
+                  <span>{{ index $project.partners $lang }}</span>
+              </div>
+              {{ end }}
+              <hr align="left">
+              <div>{{ index $project.description $lang | markdownify }}</div>
+          </div>
+      </div>
+  </div>
 </div>
 {{ end }}
 

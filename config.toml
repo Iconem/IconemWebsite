@@ -52,7 +52,7 @@ publishDir = "docs"
 
 	# Home section
 	[params.home]
-		slogan     = "Explore human heritage"
+		slogan     = "Experience human heritage"
 		draw = "img/home/home_draw.png"
 
 		[[params.home.social]]
@@ -100,7 +100,7 @@ publishDir = "docs"
 
     # Projects section
     [languages.en.projects]
-    	title="Our mission and projects"
+    	title="Projects"
     	description = "Our world’s cultural heritage is threatened. Looting, urbanisation, mass tourism, armed conflict, and climate change damage and destroy irreplaceable sites where cultures emerged, languages developed, civilisations thrived. These imperilled heritage sites embody humanity’s rich cultural diversity. It is crucial that we document and preserve them now. Iconem’s mission is to further conservation of these endangered places by digitising them for exploration and study, today and tomorrow. Our expert team travels the globe, combining the large-scale scanning capacity of drones and the photorealistic quality of 3D to create digital replicas of our most treasured places, record them for future generations, and champion them today."
 
     [languages.fr.projects]
@@ -191,4 +191,4 @@ publishDir = "docs"
 
 	# Footer
 	[params.footer]
-		content = "© 2018 Iconem. All rights reserved."
+		content = "© 2021 Iconem. All rights reserved."

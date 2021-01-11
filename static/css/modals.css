@@ -4,6 +4,10 @@ body {
     padding-right: 0 !important;
 }
 
+.modal-backdrop {
+    background: none;
+}
+
 .modal-backdrop.in {
     opacity: 0.8;
 }
@@ -14,17 +18,22 @@ body {
 
 .iconem-modal {
     color: black;
+    background-image: url(../img/home/home_background.png);
     padding-right: 0 !important;
-    padding-bottom:20px;
-    padding-top:20px;
+    /* padding-bottom: 100px;
+    padding-top: 100px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 768px) {
-    .iconem-modal  {
-        padding-top:0px;
-        padding-bottom:0px;
+    .iconem-modal {
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
-} 
+}
 
 .iconem-modal .modal-content,
 .iconem-modal .fullscreen-modal-content {
@@ -57,7 +66,7 @@ body {
 }
 
 .iconem-modal .close-modal {
-    z-index:10 !important;
+    z-index: 10 !important;
     position: absolute;
     top: 25px;
     right: 25px;
@@ -65,7 +74,7 @@ body {
 }
 
 .iconem-modal .close-modal:hover {
-    opacity: .3;
+    opacity: 0.3;
 }
 
 .iconem-modal hr {
@@ -105,16 +114,20 @@ body {
     background-color: #b3b2bbee;
 }
 
-
 /* MODAL FIXED CONTENT */
 .iconem-modal .modal-content .modal-body .modal-fixed {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     flex-shrink: 0;
     min-height: 0;
     border: none;
     padding: 0;
     /*max-height: 50%;*/
+}
+
+.iconem-modal .modal-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
 }
 
 .iconem-modal .modal-content .modal-body .modal-fixed .modal-img-simple {
@@ -123,10 +136,15 @@ body {
 
 /* MEDIAS CAROUSEL */
 .iconem-modal .project-media-icons-container {
-    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:max-content;
 }
 
-.iconem-modal .project-media-icons-container a img{
+.iconem-modal .project-media-icons-container a img {
     margin: 0 5px 10px;
 }
 
@@ -139,11 +157,19 @@ body {
 }
 
 .iconem-modal .project-media-type {
-    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.iconem-modal #project-media-description {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .iconem-modal .project-media-container {
-    position:relative;
+    position: relative;
 }
 
 .iconem-modal .project-media-container .dummy {
@@ -154,7 +180,7 @@ body {
 
 .iconem-modal .project-media {
     margin: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -169,12 +195,12 @@ body {
     position: absolute;
     box-sizing: border-box;
     width: 100%;
-    transition: opacity .2s linear;
-    -webkit-transition: opacity .2s linear;
-    -moz-transition: opacity .2s linear;
+    transition: opacity 0.2s linear;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
 }
 
-.iconem-modal .project-media.panel-group .panel+.panel {
+.iconem-modal .project-media.panel-group .panel + .panel {
     margin: 0;
     box-sizing: border-box;
     max-height: 100%;
@@ -202,9 +228,9 @@ body {
     background-color: transparent;
     color: transparent;
     padding: 10px 15px;
-    position:absolute;
-    bottom:0;
-    left:0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
     display: flex;
     min-height: 0;
@@ -214,8 +240,8 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme.full .img-toolbar {
-    background-color: rgba(0,0,0,0.3);
-    color:rgba(255,255,255,0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .iconem-modal .owl-carousel.owl-theme .img-toolbar .img-caption {
@@ -224,9 +250,9 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme + .img-cross {
-    position:fixed;
-    top:25px;
-    right:25px;
+    position: fixed;
+    top: 25px;
+    right: 25px;
     display: none;
     color: white;
     z-index: 12;
@@ -241,7 +267,6 @@ body {
     opacity: 0.3;
 }
 
-
 .iconem-modal .owl-carousel.owl-theme .img-toolbar .img-fullscreen-btn {
     width: 28px;
     height: 28px;
@@ -251,7 +276,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background: url('../img/projects/icons/fullScreen_white.png')  
+    background: url("../img/projects/icons/fullScreen_white.png");
 }
 
 .iconem-modal .owl-carousel.owl-theme .img-toolbar .img-fullscreen-btn:hover {
@@ -259,23 +284,33 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme.full .img-toolbar .img-fullscreen-btn {
-    background: url('../img/projects/icons/fullScreenExit_white.png');
+    background: url("../img/projects/icons/fullScreenExit_white.png");
 }
 
 .iconem-modal .owl-carousel.owl-theme {
     position: relative;
-    z-index:11 !important;
+    z-index: 11 !important;
     height: 100%;
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer,
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage,
 .iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item,
-.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item > div {
+.iconem-modal
+    .owl-carousel.owl-theme
+    .owl-stage-outer
+    .owl-stage
+    .owl-item
+    > div {
     height: 100%;
 }
 
-.iconem-modal .owl-carousel.owl-theme .owl-stage-outer .owl-stage .owl-item > div {
+.iconem-modal
+    .owl-carousel.owl-theme
+    .owl-stage-outer
+    .owl-stage
+    .owl-item
+    > div {
     display: flex;
     min-height: 0;
 }
@@ -288,15 +323,12 @@ body {
 
 .iconem-modal .owl-carousel.owl-theme .owl-item img {
     height: 100%;
-    width: auto;
-    margin: auto;
-    object-fit: unset;
+    object-fit: cover;
 }
 
 .iconem-modal .owl-carousel.owl-theme.full .owl-item img {
-    object-fit: contain;
+    object-fit: cover;
 }
-
 
 .iconem-modal .owl-carousel.owl-theme .owl-item {
     background-color: black;
@@ -337,17 +369,17 @@ body {
 .iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-next {
     color: white;
     /*background-color: rgba(0,0,0,0.4);*/
-    text-shadow: 2px 2px 10px black
+    text-shadow: 2px 2px 10px black;
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev:hover,
 .iconem-modal .owl-carousel.owl-theme .owl-nav .owl-next:hover {
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-prev:hover,
 .iconem-modal .owl-carousel.owl-theme.full .owl-nav .owl-next:hover {
-    color: rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev {
@@ -367,14 +399,17 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-dots {
-    margin: 0!important;
+    margin: 0 !important;
     position: absolute;
     top: 0;
     width: 100%;
-    transform: translateY(-100%);
+    /* transform: translateY(-100%); */
 }
 
-.iconem-modal .owl-carousel.owl-theme .owl-video-wrapper .project-video-preview {
+.iconem-modal
+    .owl-carousel.owl-theme
+    .owl-video-wrapper
+    .project-video-preview {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -382,21 +417,28 @@ body {
 /* TEAM PANEL */
 
 #team #team-img-container {
-    margin: 30px 0;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #team .team-img {
     width: 20%;
+    padding: 10px;
 }
 
-#team .team-img.in {
-    border: 1px solid #333;
+#team .panel {
+    background: none;
 }
+
+/* #team .team-img.in {
+    border: 1px solid #333;
+} */
 
 #team .team-member-panel {
+    width: 100%;
     margin: 0;
     border: none;
 }
@@ -406,30 +448,33 @@ body {
 }
 
 #team .team-member-panel .panel-collapse {
-    transition: opacity .2s linear;
-    -webkit-transition: opacity .2s linear;
-    -moz-transition: opacity .2s linear;
+    transition: opacity 0.2s linear;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    text-align: center;
 }
 
 #team .team-member-panel .panel-collapse.collapse {
-    position: absolute;
+    position: relative;
     opacity: 0;
     height: 0;
-    padding-right: 15px;
+    /* padding-right: 15px; */
+    /* text-align:center; */
 }
 
 #team .team-member-panel .panel-collapse.collapse.in {
     height: initial;
     opacity: 1;
+    /* text-align:center; */
 }
 
-#team .collapsing {
+/* #team .collapsing {
     position: absolute;
     height: 0;
     opacity: 0;
     overflow: initial;
     padding-right: 15px;
-}
+} */
 
 #team .team-img {
     overflow: hidden;

@@ -1,46 +1,48 @@
 {{ $lang := .Site.Language.Lang }}
 <section class="no-padding" id="projects">
     <section>
-        <div class="container">
+      <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
                 {{ with .Site.Params.projects.title }}
-                    <h3 class="text-center text-uppercase text-bolder section-title">{{ . }}</h3>
-                    <hr>
+                    <h4 class="text-center text-uppercase">{{ . }}</h4>
+                    <!-- <hr> -->
                 {{ end }}
-                    <br>
+                    <!-- <br>
                 {{ with .Site.Params.projects.description }}
                     <p class="text-justify">{{ . | markdownify }}</p>
-                {{ end }}
+                {{ end }} -->
             </div>
         </div>
-    </div>
+      </div>
     </section>
-    <div id="main-projects-carousel-dots-container"></div>
-    <div id="main-projects-carousel">
-        {{ range $projectIndex := .Site.Data.carousel.projectList }}
-            {{ $project := (index $.Site.Data.projects $projectIndex) }}
-            <div class="project-slide">
-            <a href="#portfolioModal{{ $project.modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#portfolioModal{{ $project.modalID }}'}); return false; })();return false;" class="photo-box" data-toggle="modal" data-keyboard="false">
-                    {{ with $project.thumbnail }}
-                        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ . }}" class="img-responsive" alt="">
-                    {{ end }}
-                    <div class="photo-box-caption">
-                        <div class="photo-box-caption-content">
-                            <div class="text-lg">
-                                {{ index $project.title $lang}}
-                            </div>
-                            <hr/>
-                            <div>
+    <!-- <div class="container"> -->
+      <div id="main-projects-carousel-dots-container"></div>
+      <div id="main-projects-carousel">
+          {{ range $projectIndex := .Site.Data.carousel.projectList }}
+              {{ $project := (index $.Site.Data.projects $projectIndex) }}
+              <div class="project-slide">
+              <a href="#portfolioModal{{ $project.modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#portfolioModal{{ $project.modalID }}'}); return false; })();return false;" class="photo-box" data-toggle="modal" data-keyboard="false">
+                      {{ with $project.thumbnail }}
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ . }}" class="img-responsive" alt="">
+                      {{ end }}
+                      <div class="photo-box-caption">
+                          <div class="photo-box-caption-content">
+                              <div class="text-uppercase">
+                                  {{ index $project.title $lang}}
+                              </div>
+                              <!-- <hr/> -->
+                              <div class="text-sm">
+                                  {{ index $project.category $lang}}
+                              </div>
+                              <div class="text-sm">
                                 {{ index $project.date $lang}}
                             </div>
-                            <div class="text-uppercase text-bold text-md">
-                                {{ index $project.category $lang}}
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        {{ end }}
-    </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          {{ end }}
+      </div>
+  <!-- </div> -->
 </section>

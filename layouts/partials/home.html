@@ -1,42 +1,41 @@
 {{ "<!-- HEADER -->" | safeHTML }}
-  <div id="iconem-video-overlay">
+  <!-- <div id="iconem-video-overlay">
     <video autoplay muted loop>
         <source
             src="video/Iconem_Rethink_Human_Heritage.mp4"
             type="video/mp4"
         />
     </video>
-  </div>
-    <div class="video-background">
+  </div> -->
+    <!-- <div class="video-background">
         <div class="video-foreground">
           <div id="youtubeIframe"></div>  
         </div>
-    </div>
+    </div> -->
     <header>
       <div id="header-content" class="header-content">
         <div class="header-content-inner">
             {{ if .Site.Params.home.draw }}
               <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.draw}}" class="header-draw"/>
             {{ end }}
-            {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
+            <!-- {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
                 <hr class="light">
-            {{ end }}
+            {{ end }} -->
             {{ with .Site.Params.home.slogan }}
-                <h2 class="text-uppercase text-bolder">{{ . | markdownify }}</h2>
+                <span><span class="text-uppercase">{{ . | markdownify }}</span></span>
             {{ end }}
         </div>
       </div>
-
-        <div class="header-footer">
-            {{ range.Site.Params.home.social }}
-            <a href="{{ .link }}" target="_blank">
-                <img
-                    src="{{ .icon}}"
-                    onmouseenter="this.src={{ .icon_active}}"
-                    onmouseleave="this.src={{ .icon}}"
-                />
-            </a>
-            {{ end }}
-        </div>
+      <div class="header-footer">
+          {{ range.Site.Params.home.social }}
+          <a href="{{ .link }}" target="_blank">
+              <img
+                  src="{{ .icon}}"
+                  onmouseenter="this.src={{ .icon_active}}"
+                  onmouseleave="this.src={{ .icon}}"
+              />
+          </a>
+          {{ end }}
+      </div>
     </header>
 </div>

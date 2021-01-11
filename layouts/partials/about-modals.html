@@ -3,7 +3,7 @@
 {{ $root := . }}
 {{ range .Site.Data.about }}
 {{ if .modalID }}
-<div class="iconem-modal modal fade" id="aboutModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="iconem-modal modal" id="aboutModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_black.png" class="close-modal" data-dismiss="modal">
