@@ -19,6 +19,11 @@
                         <a class="page-scroll text-uppercase" href="#projects">{{ .Site.Params.navigation.links.projects }}</a>
                     </li>
                 {{ end }}
+                {{ if eq .Type "research" }}
+                    <li>
+                      <a class="page-scroll text-uppercase" href="#map">{{ .Site.Params.navigation.links.map }}</a>
+                    </li>
+                {{ end }}
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
                         <a class="page-scroll text-uppercase" href="#about">{{ .Site.Params.navigation.links.about }}</a>
@@ -31,11 +36,15 @@
                 {{ end }}
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              {{ if .Site.Params.navigation.links.map }}
-                  <li>
-                      <a class="page-scroll text-uppercase" href="#map">{{ .Site.Params.navigation.links.map }}</a>
-                  </li>
-              {{ end }}
+              <li>
+                <a class="page-scroll text-uppercase" href="{{.Site.Params.baseUrl}}research">{{ .Site.Params.navigation.links.research }}</a>
+              </li>
+              <li>
+                <a class="page-scroll text-uppercase" href="{{.Site.Params.baseUrl}}studio">{{ .Site.Params.navigation.links.studio }}</a>
+              </li>
+              <li>
+                <a class="page-scroll text-uppercase" href="https://app.iconem.com">{{ .Site.Params.navigation.links.exploration }}</a>
+              </li>
               {{ if and .Site.Params.contribute .Site.Params.navigation.links.contribute }}
                   <li>
                       <a class="page-scroll text-uppercase" href="#contribute">{{ .Site.Params.navigation.links.contribute }}</a>

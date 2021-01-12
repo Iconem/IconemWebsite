@@ -14,7 +14,6 @@ body {
 body {
     font-family: Montserrat, Arial, "Helvetica Neue", sans-serif;
     color: white;
-    /* background-image: url("../img/home/home_background.png"); */
     -webkit-tap-highlight-color: #222;
 }
 
@@ -214,7 +213,7 @@ section {
 
 @media (min-width: 768px) {
     .navbar-default {
-        border-color:rgba(0, 0, 0, 0.9);
+        border-color: rgba(0, 0, 0, 0.9);
         background-color: transparent;
     }
 
@@ -269,7 +268,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    /* background-image: url(../img/home/home_background.png); */
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -400,72 +398,6 @@ a.photo-box:hover img {
     display: flex;
 }
 
-#about .about-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-@media (min-width: 800px) {
-    #about .about-row .about-item {
-        width: 25%;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 799px) {
-    #about .about-row .about-item {
-        width: 50%;
-    }
-}
-
-.about-content {
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0);
-    color: white;
-    padding: 10%;
-    transition: box-shadow 0.3s ease-out;
-    height: 600px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-}
-
-.about-content:hover {
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.9);
-}
-.about-content-logo {
-    display: block;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.about-content:hover .about-content-logo {
-    display: none;
-}
-.about-content-description {
-    display: none;
-}
-.about-content:hover .about-content-description {
-    display: block;
-}
-
-#team {
-    background: none;
-}
-
-#team .row {
-    display: flex;
-    display: -webkit-flex;
-    flex-wrap: wrap;
-}
-
-#about-team-left {
-    background: rgba(0, 0, 0, 0.9);
-    /* margin-bottom: 100%; */
-}
-
 /* PARTNERS / CLIENTS SECTION */
 #partners a img,
 #clients a img {
@@ -560,7 +492,6 @@ a.photo-box:hover img {
 
 /* PARTNERS / CLIENTS */
 #partners {
-    /* background-image: url("../img/home/home_background.png"); */
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;

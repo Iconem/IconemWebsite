@@ -1,17 +1,23 @@
 title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
-baseUrl = "https://iconem.com/en/"
+#baseUrl = "https://iconem.com/en/"
+baseUrl = "https://3d.iconem.com/_dev/site/en/"
+#baseUrl = "http://localhost:1313/en/"
 publishDir = "docs"
 
 [languages]
 	[languages.en]
-	baseUrl = "https://iconem.com/en/"
+	#baseUrl = "https://iconem.com/en/"
+  baseUrl = "https://3d.iconem.com/_dev/site/en/"
+  #baseUrl = "http://localhost:1313/en/"
 	name = "Iconem"
 	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
 
 	[languages.fr]
-	baseUrl = "https://iconem.com/fr/"
+	#baseUrl = "https://iconem.com/fr/"
+  baseUrl = "https://3d.iconem.com/_dev/site/en/"
+  #baseUrl = "http://localhost:1314/fr/"
 	name = "Iconem"
 	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
 
@@ -33,6 +39,9 @@ publishDir = "docs"
       contribute = "Contribute"
 			contact   = "Contact"
 			language = "Language"
+      studio = "Studio"
+      research = "Research"
+      exploration = "Exploration"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
@@ -45,6 +54,9 @@ publishDir = "docs"
       contribute = "Contribuer"
 			contact   = "Contact"
 			language = "Langue"
+      studio = "Studio"
+      research = "Recherche"
+      exploration = "Exploration"
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
@@ -52,8 +64,11 @@ publishDir = "docs"
 
 	# Home section
 	[params.home]
-		slogan     = "Experience human heritage"
-		draw = "img/home/home_draw.png"
+    slogan_research_prefix     = "Explore"
+    slogan_studio_prefix     = "Experience"
+    slogan     = " human heritage"
+		logo_research = "img/home/logo_iconem_research.png"
+    logo_studio = "img/home/logo_iconem_studio.png"
 
 		[[params.home.social]]
             id = "tumblr"

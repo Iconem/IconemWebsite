@@ -18,7 +18,7 @@ body {
 
 .iconem-modal {
     color: black;
-    background-image: url(../img/home/home_background.png);
+    background-image: url(../img/home/studio_background.png);
     padding-right: 0 !important;
     /* padding-bottom: 100px;
     padding-top: 100px; */
@@ -141,7 +141,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    width:max-content;
+    width: max-content;
 }
 
 .iconem-modal .project-media-icons-container a img {

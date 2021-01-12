@@ -20,12 +20,15 @@
         </div>
     </section> -->
     <div class="about-row">
+      {{ $baseUrl := .Site.Params.baseUrl}}
       {{ range sort .Site.Data.about "order"}}
       <div class="about-item">
           {{ if .modalID }}
           <a href="#aboutModal{{ .modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#aboutModal{{ .modalID }}'}); return false; })();return false;" data-toggle="modal">
+          {{ else if .internal }}
+          <a href="{{$baseUrl}}{{ .link }}">
           {{ else }}
-          <a href="{{ .link }}" class="" data-toggle="modal" target="_blank">
+          <a href="{{ .link }}" target="_blank">
           {{ end }}
               <!-- <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .img }}" class="img-responsive" alt=""> -->
               <div style='background-image: url("{{ .img }}");' class="about-content img-responsive">

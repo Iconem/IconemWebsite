@@ -15,14 +15,21 @@
     <header>
       <div id="header-content" class="header-content">
         <div class="header-content-inner">
-            {{ if .Site.Params.home.draw }}
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.draw}}" class="header-draw"/>
+            {{ if eq .Type "research" }}
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_studio}}" class="header-draw"/>
+            {{ else if eq .Type "studio" }}
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_research}}" class="header-draw"/>
             {{ end }}
             <!-- {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
                 <hr class="light">
             {{ end }} -->
-            {{ with .Site.Params.home.slogan }}
-                <span><span class="text-uppercase">{{ . | markdownify }}</span></span>
+            <!-- {{ $slogan := .Site.Params.home.studio_slogan }} -->
+            {{ $slogan_prefix := .Site.Params.home.slogan_research_prefix }}
+            {{ if eq .Type "studio" }}
+              {{ $slogan_prefix = .Site.Params.home.slogan_studio_prefix }}
+            {{ end }}
+            {{ with .Site.Params.home }}
+                <span><span class="text-uppercase text-bolder">{{ $slogan_prefix | markdownify }}</span><span class="text-uppercase">{{ .slogan | markdownify }}</span></span>
             {{ end }}
         </div>
       </div>

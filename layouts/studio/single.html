@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">        
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.home }}
+            {{ partial "home.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.projects }}
+            {{ partial "projects.html" . }}
+        {{ end }}
+
+        <!-- {{ partial "map.html" . }} -->
+
+        {{ if .Site.Params.about }}
+            {{ partial "about.html" . }}
+        {{ end }}
+
+        <!-- {{ if .Site.Params.contribute }}
+            {{ partial "contribute.html" . }}
+        {{ end }} -->
+
+        <!-- {{ if .Site.Params.partners }}
+            {{ partial "partners.html" . }}
+        {{ end }} -->
+
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.footer }}
+            {{ partial "footer.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.projects }}
+            {{ partial "project-modals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.about }}
+            {{ partial "about-modals.html" . }}
+        {{ end }}
+
+        {{ partial "js.html" . }}
+
+        {{ template "_internal/google_analytics.html" . }}
+    </body>
+</html>

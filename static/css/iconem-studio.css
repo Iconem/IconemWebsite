@@ -1,0 +1,391 @@
+body {
+    font-family: Montserrat, Arial, "Helvetica Neue", sans-serif;
+    color: white;
+    background-image: url("../img/home/studio_background.png");
+    -webkit-tap-highlight-color: #222;
+
+    /* Create the parallax scrolling effect */
+    /* height: 100%; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > section {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ICONEM VIDEO */
+/* #iconem-video-overlay video {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background: transparent url("../img/home/studio_background.png") no-repeat 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -98;
+}
+.video-background {
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+        height: 300%;
+        top: -100%;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .video-background {
+        top: -65%;
+    }
+} */
+
+/* PROJEDCTS */
+#projects {
+    padding: 0 10%;
+}
+
+/* ICONEM MAP*/
+#iconem-map-container {
+    position: relative;
+    background-image: url(../img/map/map_background.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#iconem-map-container svg {
+    display: block;
+    padding: 2% 12.5% 0% 12.5%;
+}
+
+#iconem-map-infos-container {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    pointer-events: none;
+}
+
+#iconem-map-infos {
+    display: none;
+    flex-direction: column;
+}
+
+#iconem-map-infos-country {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#iconem-map-infos-city-col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+#iconem-map-infos-city-col .iconem-map-infos-city-cell,
+#iconem-map-infos-site-col .iconem-map-infos-site-cell {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#iconem-map-infos-city-col .iconem-map-infos-city-cell .iconem-map-infos-site {
+    opacity: 0;
+}
+
+#iconem-map-infos-city-col .iconem-map-infos-city-cell .iconem-map-infos-city {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#iconem-map-infos-site-col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+#iconem-map-infos-description {
+    min-height: 0;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: visible;
+    flex-shrink: 0;
+}
+
+#iconem-map-infos-description-container {
+    overflow: hidden;
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#iconem-map-infos-description.crawl {
+    position: relative;
+    animation: crawl 300s linear;
+}
+
+@keyframes crawl {
+    0% {
+        /* The element starts below the screen */
+        top: 20px;
+        transform: translateZ(0);
+    }
+    100% {
+        /* This is a magic number, but using a big one to make sure the text is fully off the screen at the end */
+        top: -6000px;
+        /* Slightly increasing the rotation at the end and moving the text far away from the viewer */
+        transform: translateZ(-2500px);
+    }
+}
+
+#iconem-map-info-description ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#iconem-map-info-description .iconem-map-info-description-place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#iconem-map-info-description .iconem-map-info-description-place-name {
+    width: 45%;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#iconem-map-info-description .iconem-map-info-description-site {
+    align-items: center;
+    text-align: left;
+    width: 45%;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+#iconem-map-svg path,
+#iconem-map-svg polygon {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*stroke-width: 0.5px;
+  stroke: white;*/
+    fill: black !important;
+    mix-blend-mode: soft-light !important;
+    shape-rendering: geometricPrecision !important;
+}
+
+#iconem-map-svg path.visited,
+#iconem-map-svg polygon.visited {
+    /*stroke-width: 1px;
+  stroke: black;*/
+    mix-blend-mode: soft-light !important;
+    fill: white !important;
+}
+
+#iconem-map-svg path:hover,
+circle:hover,
+#iconem-map-svg polygon:hover {
+    fill: white !important;
+    mix-blend-mode: normal !important;
+    cursor: pointer;
+}
+
+/* ICONEM SLICK SLIDER INITIALISATION FIX */
+#main-projects-carousel {
+    display: none;
+}
+
+#main-projects-carousel.slick-initialized {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+/* navbar */
+.navbar-default .nav > li > a {
+    padding: 15px 23px;
+}
+
+/* header */
+header .header-content {
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    transform: translateX(-150%);
+    -webkit-transform: translateX(-150%);
+    padding: 0 0px;
+}
+
+header .header-content .header-content-inner {
+    float: right;
+    text-align: left;
+    margin-right: -200px;
+    display: flex;
+    align-items: center;
+    opacity: 100%;
+}
+
+header .header-content .header-content-inner > * {
+    display: inline;
+    width: 200px;
+    padding: 10px;
+}
+
+header .header-content .header-content-inner span span {
+    display: table-caption;
+}
+
+header .header-footer a img {
+    height: auto;
+    width: auto;
+    margin: 11px 7px;
+}
+
+.slide-in {
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slide-in {
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+#about .about-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 800px) {
+  #about .about-row .about-item {
+      width: 25%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  #about .about-row .about-item {
+      width: 50%;
+  }
+}
+
+.about-content {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0);
+  color: white;
+  padding: 10%;
+  transition: box-shadow 0.3s ease-out;
+  height: 600px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-content:hover {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.9);
+}
+.about-content-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-content:hover .about-content-logo {
+  display: none;
+}
+.about-content-description {
+  display: none;
+}
+.about-content:hover .about-content-description {
+  display: block;
+}
+
+#team {
+  background: none;
+}
+
+#team .row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+#about-team-left {
+  background: rgba(0, 0, 0, 0.9);
+  color:white;
+  /* margin-bottom: 100%; */
+}
