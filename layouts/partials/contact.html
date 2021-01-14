@@ -1,5 +1,6 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
+{{ $type := .Type }}
 <section id="contact">
     <div class="container">
         {{ with .Site.Params.contact.title }}
@@ -12,50 +13,71 @@
         <div class="contact-container">
             {{ if .Site.Params.contact.phone }}
                 <div class="text-center contact-item">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/phone_hover.png'"
-                    onmouseleave="this.src='img/contact/phone.png'">
+                    {{ if eq $type "research" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_black.png" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ else if eq $type "studio" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.png" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ end }}
                     <p>{{ .Site.Params.contact.phone }}</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.adress }}
                 <a class="text-center contact-item" href="https://www.google.fr/maps/place/6+Rue+Jules+Chaplain,+75006+Paris/@48.8430161,2.3282579,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671cf13f24fff:0x49c663c7aad07044!8m2!3d48.8430126!4d2.3304519" target="_blank">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/location_hover.png'"
-                    onmouseleave="this.src='img/contact/location.png'">
-                    <p>{{ .Site.Params.contact.adress }}</p>
+                  {{ if eq $type "research" }}
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_black.png" class="wow bounceIn" data-wow-delay=".1s">
+                  {{ else if eq $type "studio" }}
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_white.png" class="wow bounceIn" data-wow-delay=".1s">
+                  {{ end }}
+                  <p>{{ .Site.Params.contact.adress }}</p>
                 </a>
             {{ end }}
             {{ if .Site.Params.contact.email }}
                 <div class="text-center contact-item">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.png'"
-                    onmouseleave="this.src='img/contact/mail.png'">
-                    <p>{{ .Site.Params.contact.email }}</p>
+                  {{ if eq $type "research" }}
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_black.png" class="wow bounceIn" data-wow-delay=".1s">
+                  {{ else if eq $type "studio" }}
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_white.png" class="wow bounceIn" data-wow-delay=".1s">
+                  {{ end }}
+                  <p>{{ .Site.Params.contact.email }}</p>
                 </div>
             {{ end }}
-          <!--    {{ if .Site.Params.press_kit }}
+            {{ if .Site.Params.press_kit }}
                 <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/presskit_hover.png'"
-                    onmouseleave="this.src='img/contact/presskit.png'">
+                    {{ if eq $type "research" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_black.png" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ else if eq $type "studio" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_white.png" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ end }}
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </a>
-            {{ end }} -->
-            {{ if .Site.Params.press_kit }}
+            {{ end }}
+            <!-- {{ if .Site.Params.press_kit }}
                 <div class="text-center contact-item">
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.png'"
                     onmouseleave="this.src='img/contact/mail.png'">
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </div>
-            {{ end }}
+            {{ end }} -->
             {{ if .Site.Params.brochure }}
                 <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/brochure_hover.png'"
-                    onmouseleave="this.src='img/contact/brochure.png'">
+                    {{ if eq $type "research" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.png" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ else if eq $type "studio" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.png" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ end }}
                     <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
             {{ end }}
             <!-- Begin MailChimp Signup Form -->
-            <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
-                #mc_embed_signup{background:#fff; clear:left; font-size: 14px; width:100%;}
+                {{ if eq $type "research" }}
+                #mc_embed_signup{background:none; color:black; clear:left; font-size: 14px; width:100%;}
+                #mc-embedded-subscribe{background-color:black !important; color:white !important;}
+                {{ else if eq $type "studio" }}
+                #mc_embed_signup{background:none; color:white; clear:left; font-size: 14px; width:100%;}
+                #mc-embedded-subscribe{background-color:white !important; color:black !important;}
+                {{ end }}
                 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
             </style>
@@ -68,7 +90,7 @@
                 <div class="clear"><input type="submit" value="{{ .Site.Params.newsletter.button_label }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                 </div>
             </form>
-            </div> -->
+            </div>
             <!--End mc_embed_signup-->
         </div>
     </div>

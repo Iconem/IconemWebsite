@@ -16,14 +16,10 @@
       <div id="header-content" class="header-content">
         <div class="header-content-inner">
             {{ if eq .Type "research" }}
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_studio}}" class="header-draw"/>
-            {{ else if eq .Type "studio" }}
               <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_research}}" class="header-draw"/>
+            {{ else if eq .Type "studio" }}
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_studio}}" class="header-draw"/>
             {{ end }}
-            <!-- {{ if and .Site.Params.home.draw .Site.Params.home.slogan }}
-                <hr class="light">
-            {{ end }} -->
-            <!-- {{ $slogan := .Site.Params.home.studio_slogan }} -->
             {{ $slogan_prefix := .Site.Params.home.slogan_research_prefix }}
             {{ if eq .Type "studio" }}
               {{ $slogan_prefix = .Site.Params.home.slogan_studio_prefix }}
@@ -34,13 +30,14 @@
         </div>
       </div>
       <div class="header-footer">
+          {{ $type := .Type }}
           {{ range.Site.Params.home.social }}
           <a href="{{ .link }}" target="_blank">
-              <img
-                  src="{{ .icon}}"
-                  onmouseenter="this.src={{ .icon_active}}"
-                  onmouseleave="this.src={{ .icon}}"
-              />
+              {{ if eq $type "research" }}
+                <img src="{{ .icon_black}}" />
+              {{ else if eq $type "studio" }}
+                <img src="{{ .icon_white}}" />
+              {{ end }}
           </a>
           {{ end }}
       </div>

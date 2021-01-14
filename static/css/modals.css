@@ -68,14 +68,16 @@ body {
 .iconem-modal .close-modal {
     z-index: 10 !important;
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 0px;
+    right: -37px;
     cursor: pointer;
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.iconem-modal .close-modal:hover {
+/* .iconem-modal .close-modal:hover {
     opacity: 0.3;
-}
+} */
 
 .iconem-modal hr {
     width: 60px;

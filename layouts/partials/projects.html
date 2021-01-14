@@ -1,4 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
+{{ $type := .Type }}
 <section class="no-padding" id="projects">
     <section>
       <div class="container">
@@ -17,10 +18,10 @@
       </div>
     </section>
     <!-- <div class="container"> -->
-      <div id="main-projects-carousel-dots-container"></div>
       <div id="main-projects-carousel">
           {{ range $projectIndex := .Site.Data.carousel.projectList }}
               {{ $project := (index $.Site.Data.projects $projectIndex) }}
+              {{ if eq $project.type "studio" }}
               <div class="project-slide">
               <a href="#portfolioModal{{ $project.modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#portfolioModal{{ $project.modalID }}'}); return false; })();return false;" class="photo-box" data-toggle="modal" data-keyboard="false">
                       {{ with $project.thumbnail }}
@@ -42,7 +43,10 @@
                       </div>
                   </a>
               </div>
+              {{ end }}
           {{ end }}
       </div>
-  <!-- </div> -->
+      <div id="main-projects-carousel-dots-container"></div>
+      <br />
+      <!-- </div> -->
 </section>

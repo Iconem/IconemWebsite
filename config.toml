@@ -2,22 +2,22 @@ title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
 #baseUrl = "https://iconem.com/en/"
-baseUrl = "https://3d.iconem.com/_dev/site/en/"
-#baseUrl = "http://localhost:1313/en/"
+#baseUrl = "https://3d.iconem.com/_dev/site/en/"
+baseUrl = "http://localhost:1313/en/"
 publishDir = "docs"
 
 [languages]
 	[languages.en]
 	#baseUrl = "https://iconem.com/en/"
-  baseUrl = "https://3d.iconem.com/_dev/site/en/"
-  #baseUrl = "http://localhost:1313/en/"
+  #baseUrl = "https://3d.iconem.com/_dev/site/en/"
+  baseUrl = "http://localhost:1313/en/"
 	name = "Iconem"
 	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
 
 	[languages.fr]
 	#baseUrl = "https://iconem.com/fr/"
-  baseUrl = "https://3d.iconem.com/_dev/site/en/"
-  #baseUrl = "http://localhost:1314/fr/"
+  #baseUrl = "https://3d.iconem.com/_dev/site/en/"
+  baseUrl = "http://localhost:1314/fr/"
 	name = "Iconem"
 	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
 
@@ -67,51 +67,56 @@ publishDir = "docs"
     slogan_research_prefix     = "Explore"
     slogan_studio_prefix     = "Experience"
     slogan     = " human heritage"
-		logo_research = "img/home/logo_iconem_research.png"
-    logo_studio = "img/home/logo_iconem_studio.png"
+		logo_research = "img/home/logo_research_black.png"
+    logo_studio = "img/home/logo_studio_white.png"
+
+    [[params.home.social]]
+        id = "facebook"
+        icon_black = "img/home/social/facebook_black.png"
+        icon_white = "img/home/social/facebook_white.png"
+        link = "https://fr-fr.facebook.com/Iconem.corp/"
+
+    [[params.home.social]]
+        id = "instagram"
+        icon_black = "img/home/social/instagram_black.png"
+        icon_white = "img/home/social/instagram_white.png"
+        link = "https://www.instagram.com/ic0nem/"
+
+    [[params.home.social]]
+        id = "twitter"
+        icon_black = "img/home/social/twitter_black.png"
+        icon_white = "img/home/social/twitter_white.png"
+        link = "https://twitter.com/iconem"
+
+    [[params.home.social]]
+        id = "linkedin"
+        icon_black = "img/home/social/linkedin_black.png"
+        icon_white = "img/home/social/linkedin_white.png"
+        link = "https://fr.linkedin.com/company/iconem"
+
+    [[params.home.social]]
+        id = "youtube"
+        icon_black = "img/home/social/youtube_black.png"
+        icon_white = "img/home/social/youtube_white.png"
+        link = "https://www.youtube.com/user/iconem"
 
 		[[params.home.social]]
             id = "tumblr"
-            icon = "img/home/social/tumblr.png"
-            icon_active = "img/home/social/tumblr_active.png"
+            icon_black = "img/home/social/tumblr_black.png"
+            icon_white = "img/home/social/tumblr_white.png"
             link = "http://iconem.tumblr.com/"
 
-		[[params.home.social]]
-            id = "facebook"
-            icon = "img/home/social/facebook.png"
-            icon_active = "img/home/social/facebook_active.png"
-            link = "https://fr-fr.facebook.com/Iconem.corp/"
+    [[params.home.social]]
+        id = "vimeo"
+        icon_black = "img/home/social/vimeo_black.png"
+        icon_white = "img/home/social/vimeo_white.png"
+        link = "https://vimeo.com/iconem"
 
-        [[params.home.social]]
-            id = "sketchfab"
-            icon = "img/home/social/sketchfab.png"
-            icon_active = "img/home/social/sketchfab_active.png"
-            link = "https://sketchfab.com/iconem"
-
-        [[params.home.social]]
-            id = "twitter"
-            icon = "img/home/social/twitter.png"
-            icon_active = "img/home/social/twitter_active.png"
-            link = "https://twitter.com/iconem"
-
-        [[params.home.social]]
-            id = "vimeo"
-            icon = "img/home/social/vimeo.png"
-            icon_active = "img/home/social/vimeo_active.png"
-            link = "https://vimeo.com/iconem"
-
-        [[params.home.social]]
-            id = "youtube"
-            icon = "img/home/social/youtube.png"
-            icon_active = "img/home/social/youtube_active.png"
-            link = "https://www.youtube.com/user/iconem"
-
-        [[params.home.social]]
-            id = "linkedin"
-            icon = "img/home/social/linkedin.png"
-            icon_active = "img/home/social/linkedin_active.png"
-            link = "https://fr.linkedin.com/company/iconem"
-
+    [[params.home.social]]
+        id = "sketchfab"
+        icon_black = "img/home/social/sketchfab_black.png"
+        icon_white = "img/home/social/sketchfab_white.png"
+        link = "https://sketchfab.com/iconem"
 
     # Projects section
     [languages.en.projects]
@@ -151,18 +156,18 @@ publishDir = "docs"
   # Contribute section
 	[languages.en.contribute]
 		title    = "Contribute"
-		description = "If you want to support our work, you can help us ! Send your digitised photographies of heritage sites all around the world to <a href=\"mailto:contact@iconem.com\">contact(@)iconem.com</a>. We will use the pictures within our photogrammetric process or as scientific archives in order to protect and preserve the memory of endangered heritage sites."
+		description = "If you want to support our work, you can help us ! Send your digitised photographies of heritage sites all around the world to <a href=\"mailto:contact@iconem.com\">contact@iconem.com</a>. We will use the pictures within our photogrammetric process or as scientific archives in order to protect and preserve the memory of endangered heritage sites."
 
 	[languages.fr.contribute]
 		title    = "Contribuer"
-		description = "Si vous souhaitez soutenir notre travail, vous pouvez nous aider ! Envoyez à <a href=\"mailto:contact@iconem.com\">contact(@)iconem.com</a> vos photographies numérisées de sites patrimoniaux du monde entier. Nous utiliserons vos photos comme matériau pour nos algorithmes de photogrammétrie ou comme archives scientifiques afin de protéger et préserver la mémoire de sites historiques menacés."
+		description = "Si vous souhaitez soutenir notre travail, vous pouvez nous aider ! Envoyez à <a href=\"mailto:contact@iconem.com\">contact@iconem.com</a> vos photographies numérisées de sites patrimoniaux du monde entier. Nous utiliserons vos photos comme matériau pour nos algorithmes de photogrammétrie ou comme archives scientifiques afin de protéger et préserver la mémoire de sites historiques menacés."
 
 	# Contact section
 	[params.contact]
 		title = "Contact"
 		phone = "+33 (0)1 42 49 76 04"
 		adress = "6 rue Jules Chaplain 75006 Paris, France"
-		email = "contact(@)iconem.com"
+		email = "contact@iconem.com"
 
 	[languages.en.brochure]
 		title = "Download our brochure"
@@ -173,11 +178,11 @@ publishDir = "docs"
 		pdf = "pdf/Iconem_FR.pdf"
 
 	[languages.en.press_kit]
-		title = "Press Contact: xg(@)iconem.com"
+		title = "Document press"
 		pdf = "pdf/press_kit.pdf"
 
 	[languages.fr.press_kit]
-		title = "Contact Presse : xg(@)iconem.com"
+		title = "Document press"
 		pdf = "pdf/press_kit.pdf"
 
 	[languages.en.newsletter]
