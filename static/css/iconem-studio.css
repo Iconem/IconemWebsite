@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("../img/home/studio_background.png");
+    /* background-image: url("../img/home/studio_background.png"); */
     -webkit-tap-highlight-color: #222;
 
     /* Create the parallax scrolling effect */
@@ -19,6 +19,22 @@ body > section {
 
 * {
     box-sizing: border-box;
+}
+
+.bg-loading *,
+.bg-loading *:before,
+.bg-loading *:after {
+    animation-play-state: paused !important;
+}
+
+.bg-lazy {
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 5s ease-out;
+}
+
+.bg-loading {
+    opacity: 0;
 }
 
 a {
@@ -294,7 +310,7 @@ circle:hover,
 
 /* photo-box */
 .photo-box .photo-box-caption {
-  color: white;
+    color: white;
 }
 
 .photo-box .photo-box-caption .photo-box-caption-content {
@@ -339,6 +355,26 @@ circle:hover,
     background-color: transparent;
     color: white !important;
     font-weight: bold;
+}
+
+.navbar-default .collapsing {
+    overflow: hidden;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
+.navbar-collapse.collapsing, .navbar-collapse.collapse.in{
+background-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default.affix .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* header */
@@ -399,6 +435,10 @@ header .header-footer a img:hover {
     }
 }
 
+#about {
+    padding: 0;
+}
+
 #about .about-row {
     display: flex;
     flex-direction: row;
@@ -452,6 +492,7 @@ header .header-footer a img:hover {
 
 #team {
     background: none;
+    padding: 80px 0px;
 }
 
 #team .row {
@@ -463,6 +504,7 @@ header .header-footer a img:hover {
 #about-team-left {
     background: rgba(0, 0, 0, 0.9);
     color: white;
+    padding: 5% 10%;
     /* margin-bottom: 100%; */
 }
 

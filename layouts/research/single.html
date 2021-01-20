@@ -16,11 +16,13 @@
             {{ partial "projects.html" . }}
         {{ end }}
 
-        {{ partial "map.html" . }}
-
         {{ if .Site.Params.about }}
             {{ partial "about.html" . }}
         {{ end }}
+
+        {{ partial "map.html" . }}
+
+        {{ partial "team.html" . }}
 
         <!-- {{ if .Site.Params.contribute }}
             {{ partial "contribute.html" . }}

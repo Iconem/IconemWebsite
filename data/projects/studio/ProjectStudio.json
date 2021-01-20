@@ -1,0 +1,59 @@
+{
+    "modalID": "ProjectStudio",
+    "title": {
+        "en": "PROJECT STUDIO",
+        "fr": "PROJET STUDIO"
+    },
+    "date": {
+        "en": "2021",
+        "fr": "2021"
+    },
+    "category": {
+        "en": "Category (project, exhibition, etc.)",
+        "fr": "Categorie (projet, exposition, etc.)"
+    },
+    "thumbnail": "img/projects/ProjectStudio/ProjectStudio_thumbnail.png",
+    "subtitle": {
+        "en": "Digitisation of Project Studio",
+        "fr": "Numérisation du Project Studio"
+    },
+    "actors": {
+        "en": "Iconem and ProjectStudio Huge Corporation with BIG MONEY",
+        "fr": "Iconem et le ProjetStudio Grosse Entreprise avec GROS ARGENT",
+        "logos": ["img/projects/ProjectStudio/logos1.png", "img/projects/ProjectStudio/logos2.png"]    },
+    "img": [
+        {
+            "preview": "img/projects/ProjectStudio/ProjectStudio_01.png",
+            "full": "img/projects/ProjectStudio/ProjectStudio_01.png",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d’Alep"
+            }
+        },
+        {
+            "preview": "img/projects/ProjectStudio/ProjectStudio_02.png",
+            "full": "img/projects/ProjectStudio/ProjectStudio_02.png",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+            "preview": "img/projects/ProjectStudio/ProjectStudio_YoutubeThumbnail1.png"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+            "preview": "img/projects/ProjectStudio/ProjectStudio_YoutubeThumbnail2.png"
+        }
+    ],
+    "models": [
+        "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+    ],
+    "description": {
+        "en": "Description of project studio",
+        "fr": "Description du projet studio"
+    }
+}

@@ -17,17 +17,35 @@
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 
 <script>
+  
+  // https://css-tricks.com/making-animations-wait/
+  {{ if eq .Type "research" }}
+  const imageUrl = "img/home/research_background.png";
+  {{ else if eq .Type "studio" }}
+    const imageUrl = "img/home/studio_background.png";
+  {{ end }}
+
+  document.body.classList.add("bg-loading");
+  let preloaderImg = document.createElement("img");
+  preloaderImg.src = imageUrl;
+
+  preloaderImg.addEventListener('load', (event) => {   
+    document.body.classList.remove("bg-loading");
+    document.body.style.backgroundImage = `url(${imageUrl})`;
+    preloaderImg = null;
+  });
+  
   // Deferring images without lazy loading or jQuery
   // https://varvy.com/pagespeed/defer-images.html
   function init() {
-  var imgDefer = document.getElementsByTagName('img');
-  for (var i=0; i<imgDefer.length; i++) {
-  if(imgDefer[i].getAttribute('data-src')) {
-  imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-  imgDefer[i].onload = () => {
-    $('#main-projects-carousel').slick('resize');
-  }
-  } } 
+    var imgDefer = document.getElementsByTagName('img');
+    for (var i=0; i<imgDefer.length; i++) {
+    if(imgDefer[i].getAttribute('data-src')) {
+    imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+    imgDefer[i].onload = () => {
+      $('#main-projects-carousel').slick('resize');
+    }
+    } } 
   }
   window.onload = init;
 </script>
@@ -229,9 +247,12 @@
         // => load carousel's iframes (if needed)
         if (carousel.find('iframe').length > 0) {
           const projectModalID = $(e.target).attr('id').split('portfolioModal')[1];
+          console.log(projectModalID);
           const project = projects[projectModalID];
+          console.log(projects);
           carousel.find('iframe').each(function(index) {
             if (($(this).attr('src')).length === 0) {
+                console.log(project);
                 $(this).attr('src', project.models[index % project.models.length]);
             }
           });

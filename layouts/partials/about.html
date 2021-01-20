@@ -1,5 +1,4 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $team_members := .Site.Data.team }}
 <section id="about">
     <!-- <section>
         <div class="container">
@@ -52,78 +51,5 @@
           </a>
       </div>
       {{ end }}
-  </div>
-</section>
-<section id="team">
-  <div class="container-fluid">
-    <div class="row">
-      <div id="about-team-left" class="col-lg-6">
-          {{ with .Site.Params.about.title }}
-              <h3 class="text-center text-uppercase text-bolder section-title">
-                  {{ . }}
-              </h3>
-              <hr>
-          {{ end }}
-
-
-          <div class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
-            {{ range sort .Site.Data.team "order" }}
-                {{ if eq .enabled true }}
-                    <div class="panel team-member-panel">
-                        {{ if eq .id "yves" }}
-                            <div id="team-member-{{ .id }}" class="panel-collapse collapse in text-justify" role="tabpanel">
-                        {{ else }}
-                            <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
-                        {{ end }}
-                            <h3 class="text-uppercase text-bold">{{ .name }}</h3>
-                            <br>
-                            <h4 class="text-uppercase"> {{ index .job $lang | markdownify }}</h4>
-                            <!-- <br>
-                            <div class="modal-scrollable no-margin">{{ index .description $lang | markdownify}}</div> -->
-                            </div>
-                    </div>
-                {{ end }}
-            {{ end }}
-          </div>
-
-
-
-
-
-              <br>
-          {{ with .Site.Params.about.description }}
-              <p class="text-justify">{{ . | markdownify }}</p>
-          {{ end }}
-
-              
-          
-  
-
-
-
-      </div>
-      <div id="about-team-right" class="col-lg-6">
-        <div id="team-img-container">
-          {{ range sort .Site.Data.team "order" }}
-              {{ if eq .enabled true }}
-                  {{ if eq .id "yves" }}
-                      <div class="team-img in" id="team-img-{{ .id }}">
-                  {{ else }}
-                      <div class="team-img" id="team-img-{{ .id }}">
-                  {{ end }}
-                      <a role="button" 
-                          data-toggle="collapse"
-                          href="#team-member-{{ .id }}"
-                          data-parent='#team-accordion'
-                          aria-expanded="false"
-                          onclick="changePhotoSrc({{ $team_members }}, {{ .id }});">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .img }}" class="img-responsive" />
-                      </a>
-                  </div>
-              {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
   </div>
 </section>

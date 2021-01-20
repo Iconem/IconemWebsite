@@ -1,7 +1,12 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
 {{ $type := .Type }}
-{{ range $projectIndex, $project := .Site.Data.projects }}
+
+{{ $projects := .Site.Data.projects.research }}
+{{ if eq $type "studio" }}
+  {{ $projects = .Site.Data.projects.studio }}
+{{ end }}      
+{{ range $projectIndex, $project := $projects }}
 <div class="iconem-modal modal fade" id="portfolioModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content col-sm-12 col-sm-offset">
       <div class="project-media-container">

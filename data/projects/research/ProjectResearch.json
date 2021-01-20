@@ -1,0 +1,59 @@
+{
+    "modalID": "ProjectResearch",
+    "title": {
+        "en": "PROJECT RESEARCH",
+        "fr": "PROJET RESEARCH"
+    },
+    "date": {
+        "en": "2021",
+        "fr": "2021"
+    },
+    "category": {
+        "en": "Category (project, exhibition, etc.)",
+        "fr": "Categorie (projet, exposition, etc.)"
+    },
+    "thumbnail": "img/projects/ProjectResearch/ProjectResearch_thumbnail.png",
+    "subtitle": {
+        "en": "Digitisation of Project Research",
+        "fr": "Numérisation du Project Research"
+    },
+    "actors": {
+        "en": "Iconem and ProjectResearch Huge Corporation with BIG MONEY",
+        "fr": "Iconem et le ProjetResearch Grosse Entreprise avec GROS ARGENT",
+        "logos": ["img/projects/ProjectResearch/logos1.png", "img/projects/ProjectResearch/logos2.png"]    },
+    "img": [
+        {
+            "preview": "img/projects/ProjectResearch/ProjectResearch_01.png",
+            "full": "img/projects/ProjectResearch/ProjectResearch_01.png",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d’Alep"
+            }
+        },
+        {
+            "preview": "img/projects/ProjectResearch/ProjectResearch_02.png",
+            "full": "img/projects/ProjectResearch/ProjectResearch_02.png",
+            "caption": {
+                "en": "3D cross-section of ProjectResearch",
+                "fr": "Coupe 3D du ProjetResearch"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+            "preview": "img/projects/ProjectResearch/ProjectResearch_YoutubeThumbnail1.png"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+            "preview": "img/projects/ProjectResearch/ProjectResearch_YoutubeThumbnail2.png"
+        }
+    ],
+    "models": [
+        "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+    ],
+    "description": {
+        "en": "Description of project research",
+        "fr": "Description du projet research"
+    }
+}
