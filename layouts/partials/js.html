@@ -177,7 +177,11 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    var projects = {{.Site.Data.projects}};
+    {{ if eq .Type "research" }}
+      var projects = {{.Site.Data.projects.research}};
+    {{ else if eq .Type "studio" }}
+      var projects = {{.Site.Data.projects.studio}};
+    {{ end }}
 
     var modalCarouselConfig = {
       items: 1,
