@@ -1,0 +1,73 @@
+{
+    "modalID": "LeCracDesChevaliers",
+    "thumbnailTitle": {
+        "en": "Le Crac Des Chevaliers",
+        "fr": "Le Crac Des Chevaliers"
+    },
+    "thumbnailLocation": {
+        "en": "Cité de l'architecture & et du patrimoine",
+        "fr": "Cité de l'architecture & et du patrimoine"
+    },
+    "thumbnailDate": {
+        "en": "2018",
+        "fr": "2018"
+    },
+    "thumbnail": "img/projects/ProjectStudio/ProjectStudio_thumbnail.png",
+    "articleTitle": {
+        "en": "Le Crac Des Chevaliers: Chroniques d'un rêve de pierre",
+        "fr": "Le Crac Des Chevaliers: Chroniques d'un rêve de pierre"
+    },
+    "articleLocation": {
+        "en": "Cité de l'architecture & et du patrimoine, Paris, France",
+        "fr": "Cité de l'architecture & et du patrimoine, Paris, France"
+    },
+    "articleDate": {
+        "en": "14 septembre 2018 - 4 mars 2019",
+        "fr": "14 septembre 2018 - 4 mars 2019"
+    },
+    "text": {
+        "en": "''Crac des Chevaliers'', an exhibition co-produced by the Médiathèque de l'architecture et du patrimoine and the Cité de l'architecture et du patrimoine in collaboration with Iconem, explores this iconic Syrian monument through the prism of architecture and politics, by illustrating its symbolic place in Western imaginary. Iconem had already scanned a replica of the Crac des Chevaliers. For the exhibition, we created a 3D model of the building (accomplished on-site thanks to the support of UNESCO) and produced two videos linked to the data collection process. The first video explains this process, as well as the 3D digitization protocol. The second video offers an immersive journey through the Crac. These audiovisual productions allow visitors to explore the Crac des Chevaliers and discover some of its hidden features, like the castle's interiors.",
+        "fr": "L'exposition « Crac des Chevaliers », co-produite par la Médiathèque de l'architecture et du patrimoine et la Cité de l'architecture et du patrimoine en collaboration avec Iconem, examine le monument-phare syrien à la fois sous l'angle architectural et politique, en illustrant sa place symbolique dans l'imaginaire occidental. Iconem avait déjà numérisé la maquette du Crac des Chevaliers. Pour cette exposition, Iconem a pu mettre à disposition un modèle 3D du bâtiment (réalisé sur place grâce au soutien de l'UNESCO) et produit deux vidéos en lien avec ces relevés. La première explique le protocole de relevé et de numérisation 3D. La seconde propose un parcours immersif au sein du Crac. A travers ces productions audiovisuelles, les visiteurs peuvent explorer le Crac des Chevaliers et en découvrir certains aspects jusqu'alors inconnus du grand public, comme les intérieurs du château."
+    },
+    "actors": {
+        "en": "Commissariat général : Jean-Marc Hofman, attaché à la Conservation de la galerie des moulages de la Cité de l'architecture et du patrimoine / Emmanuel Pénicaut, conservateur du patrimoine, directeur adjoint de la Médiathèque de l'architecture et du patrimoine",
+        "fr": "Commissariat général : Jean-Marc Hofman, attaché à la Conservation de la galerie des moulages de la Cité de l'architecture et du patrimoine / Emmanuel Pénicaut, conservateur du patrimoine, directeur adjoint de la Médiathèque de l'architecture et du patrimoine",
+        "logos": [
+          "img/projects/ProjectStudio/ProjectStudio_logo_1.png",
+          "img/projects/ProjectStudio/ProjectStudio_logo_2.png",
+          "img/projects/ProjectStudio/ProjectStudio_logo_3.png",
+          "img/projects/ProjectStudio/ProjectStudio_logo_4.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/ProjectStudio/ProjectStudio_01.png",
+            "full": "img/projects/ProjectStudio/ProjectStudio_01.png",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/ProjectStudio/ProjectStudio_02.png",
+            "full": "img/projects/ProjectStudio/ProjectStudio_02.png",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+            "preview": "img/projects/ProjectStudio/ProjectStudio_YoutubeThumbnail1.png"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+            "preview": "img/projects/ProjectStudio/ProjectStudio_YoutubeThumbnail2.png"
+        }
+    ],
+    "models": [
+      "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+    ]
+}

@@ -160,7 +160,7 @@
         {
           breakpoint: 600,
           settings: {
-            rows: 2,
+            rows: 3,
             slidesPerRow: 1
           }
         }
@@ -251,12 +251,9 @@
         // => load carousel's iframes (if needed)
         if (carousel.find('iframe').length > 0) {
           const projectModalID = $(e.target).attr('id').split('portfolioModal')[1];
-          console.log(projectModalID);
           const project = projects[projectModalID];
-          console.log(projects);
           carousel.find('iframe').each(function(index) {
             if (($(this).attr('src')).length === 0) {
-                console.log(project);
                 $(this).attr('src', project.models[index % project.models.length]);
             }
           });

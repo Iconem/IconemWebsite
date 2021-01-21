@@ -150,9 +150,19 @@ a:visited {
     padding: 0 5%;
 }
 
+#projects h4 {
+    letter-spacing: 0.2em;
+}
+
 /* ICONEM MAP*/
 #map {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    #map {
+        display: none;
+    }
 }
 
 #iconem-map-container {
@@ -297,9 +307,9 @@ a:visited {
     left: 0;
     width: 100%;
     height: 100%;
-    /*stroke-width: 0.5px;
-  stroke: white;*/
-    fill: white !important;
+    stroke-width: 0.5px;
+    /* stroke: GhostWhite; */
+    fill: lightsteelblue !important;
     /* mix-blend-mode: soft-light !important; */
     shape-rendering: geometricPrecision !important;
 }
@@ -309,13 +319,13 @@ a:visited {
     /*stroke-width: 1px;
   stroke: black;*/
     /* mix-blend-mode: soft-light !important; */
-    fill: grey !important;
+    fill: slategrey !important;
 }
 
 #iconem-map-svg path:hover,
 circle:hover,
 #iconem-map-svg polygon:hover {
-    fill: black !important;
+    fill: GhostWhite !important;
     /* mix-blend-mode: normal !important; */
     cursor: pointer;
 }
@@ -417,8 +427,9 @@ circle:hover,
     border: none;
 }
 
-.navbar-collapse.collapsing, .navbar-collapse.collapse.in{
-  background-color: white;
+.navbar-collapse.collapsing,
+.navbar-collapse.collapse.in {
+    background-color: white;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -546,6 +557,10 @@ header .header-footer a img:hover {
     display: block;
 }
 
+.about-item img {
+  max-width:40%;
+}
+
 #team {
     background: none;
     padding: 80px 0px;
@@ -566,4 +581,38 @@ header .header-footer a img:hover {
 
 #contact .contact-container {
     color: black;
+}
+
+.iconem-modal .modal-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.iconem-modal .close-modal {
+    z-index: 10 !important;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30px;
+    height: 30px;
+}
+
+.iconem-modal .hide-modal-content.modal-content-hidden {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.iconem-modal .hide-modal-content {
+    z-index: 10 !important;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30px;
+    height: 30px;
 }

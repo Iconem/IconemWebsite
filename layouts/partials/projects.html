@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
                 {{ with .Site.Params.projects.title }}
-                    <h4 class="text-center text-uppercase">{{ . }}</h4>
+                    <h4 class="text-center text-uppercase text-bolder">{{ . }}</h4>
                     <!-- <hr> -->
                 {{ end }}
                     <!-- <br>
@@ -36,14 +36,14 @@
                       <div class="photo-box-caption">
                           <div class="photo-box-caption-content">
                               <div class="text-uppercase">
-                                  {{ index $project.title $lang}}
+                                  {{ index $project.thumbnailTitle $lang}}
                               </div>
                               <!-- <hr/> -->
                               <div class="text-sm">
-                                  {{ index $project.category $lang}}
+                                  {{ index $project.thumbnailLocation $lang}}
                               </div>
                               <div class="text-sm">
-                                {{ index $project.date $lang}}
+                                {{ index $project.thumbnailDate $lang}}
                             </div>
                           </div>
                       </div>

@@ -107,7 +107,6 @@ h3.section-title {
 hr {
     width: 100px;
     border: none;
-    border-bottom: 1px solid #887d87 !important;
     margin: 8px auto;
 }
 
@@ -199,7 +198,7 @@ section {
     -moz-transition: all 0.35s;
     transition: all 0.35s;
     max-height: 50px;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2em;
 }
 
 .navbar-default >div {
@@ -522,6 +521,10 @@ a.photo-box:hover img {
     margin-top: 30px;
 }
 
+#contact {
+  background:none;
+}
+
 /* CONTACT SECTION */
 #contact .contact-container {
     display: flex;
@@ -537,6 +540,8 @@ a.photo-box:hover img {
 }
 
 #contact .contact-container .contact-item img {
+    min-height: 30px;
+    max-height: 30px;  
     margin-bottom: 10px;
     opacity: 100%;
 }
