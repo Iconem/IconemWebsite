@@ -454,15 +454,22 @@ header .header-footer a img:hover {
     flex-wrap: wrap;
 }
 
+#about .about-row .about-item {
+  width: 50%;
+  height:50vh;
+}
+
 @media (min-width: 800px) {
     #about .about-row .about-item {
         width: 25%;
+        height:80vh;
     }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
     #about .about-row .about-item {
         width: 50%;
+        height:50vh;
     }
 }
 
@@ -471,10 +478,22 @@ header .header-footer a img:hover {
     color: white;
     padding: 10% 20%;
     transition: box-shadow 0.3s ease-out;
-    height: 600px;
+    height: 50vh;
     overflow: hidden;
     background-size: cover;
     background-position: center;
+}
+
+@media (min-width: 800px) {
+  .about-content {
+    height:80vh;  
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  .about-content {
+    height:50vh;  
+  }
 }
 
 .about-content:hover {
@@ -500,7 +519,7 @@ header .header-footer a img:hover {
 }
 
 .about-item img {
-  max-width:50%;
+  max-width:40%;
 }
 
 #team {

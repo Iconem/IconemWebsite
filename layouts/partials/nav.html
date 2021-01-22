@@ -19,14 +19,14 @@
                         <a class="page-scroll text-uppercase" href="#projects">{{ .Site.Params.navigation.links.projects }}</a>
                     </li>
                 {{ end }}
-                {{ if eq .Type "research" }}
-                    <li>
-                      <a class="page-scroll text-uppercase" href="#map">{{ .Site.Params.navigation.links.map }}</a>
-                    </li>
-                {{ end }}
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
                         <a class="page-scroll text-uppercase" href="#about">{{ .Site.Params.navigation.links.about }}</a>
+                    </li>
+                {{ end }}
+                {{ if eq .Type "research" }}
+                    <li>
+                      <a class="page-scroll text-uppercase" href="#map">{{ .Site.Params.navigation.links.map }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
