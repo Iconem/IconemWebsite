@@ -27,6 +27,16 @@ body > section {
     animation-play-state: paused !important;
 }
 
+.bg-lazy {
+    height: 100vh;
+    width: 100vw;
+    -webkit-transition: background 3s linear;
+    -moz-transition: background 3s linear;
+    -o-transition: background 3s linear;
+    -ms-transition: background 3s linear;
+    transition: background 3s linear;
+}
+
 a {
     color: black;
     /* -webkit-transition: all 0.35s;
@@ -88,9 +98,9 @@ a:visited {
 }
 
 @media (max-width: 1401px) {
-  #lang-menu-toggle {
-    color: black;
-  }
+    #lang-menu-toggle {
+        color: black;
+    }
 }
 /* end creative.css ovveride */
 
@@ -353,6 +363,15 @@ circle:hover,
     display: block;
 }
 
+.owl-carousel .owl-item.active .img-toolbar {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: auto;
+    left: auto;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+}
+
 .main-projects-carousel-dots li,
 .owl-dots .owl-dot {
     background-color: rgba(0, 0, 0, 0.5);
@@ -516,20 +535,20 @@ header .header-footer a img:hover {
 
 #about .about-row .about-item {
     width: 50%;
-    height:50vh;
+    height: 50vh;
 }
 
 @media (min-width: 800px) {
     #about .about-row .about-item {
         width: 25%;
-        height:80vh;
+        height: 80vh;
     }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
     #about .about-row .about-item {
         width: 50%;
-        height:50vh;
+        height: 50vh;
     }
 }
 
@@ -545,15 +564,15 @@ header .header-footer a img:hover {
 }
 
 @media (min-width: 800px) {
-  .about-content {
-    height:80vh;  
-  }
+    .about-content {
+        height: 80vh;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
-  .about-content {
-    height:50vh;  
-  }
+    .about-content {
+        height: 50vh;
+    }
 }
 
 .about-content:hover {
@@ -613,27 +632,41 @@ header .header-footer a img:hover {
     z-index: 10 !important;
     position: absolute;
     top: 0px;
-    right: -30px;
+    right: 0px;
     cursor: pointer;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.7);
+    padding: 9px;
     width: 30px;
     height: 30px;
+}
+
+@media (min-width: 600px) {
+    .iconem-modal .close-modal {
+        right: -30px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
 }
 
 .iconem-modal .hide-modal-content.modal-content-hidden {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+    right: -30px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .iconem-modal .hide-modal-content {
     z-index: 10 !important;
     position: absolute;
     top: 30px;
-    right: -30px;
+    right: 0px;
     cursor: pointer;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.7);
+    padding: 9px;
     width: 30px;
     height: 30px;
+}
+
+@media (min-width: 600px) {
+    .iconem-modal .hide-modal-content {
+        right: -30px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
 }

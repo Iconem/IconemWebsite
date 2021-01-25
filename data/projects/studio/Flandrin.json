@@ -1,0 +1,49 @@
+{
+    "modalID": "Flandrin",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Flandrin"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Musée des Beaux Arts de Lyon"
+    },
+    "thumbnailDate": {
+        "en": "soon",
+        "fr": "prochainement"
+    },
+    "thumbnail": "img/projects/Flandrin/Flandrin_thumbnail.jpg",
+    "articleTitle": {
+        "en": "",
+        "fr": "Hippolyte, Paul, Auguste : Les Flandrin, Artistes et frères "
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Musée des Beaux Arts de Lyon, Lyon, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "27 mars 2021 - 27 juin 2021"
+    },
+    "text": {
+        "en": "",
+        "fr": "Ancienne abbaye bénédictine de Paris fondée au milieu du VIème et restaurée au XIXème siècle par l’architecte Victor Baltard, l’église Saint-Germain-des-Près suscite depuis toujours l'intérêt de ses visiteurs. Après une restauration minutieuse de l’église achevée en 2020, l’équipe d’iconem à été missionnée par le musée des Beaux-Arts de Lyon, afin de numériser l’intérieur de ce monument comportant l’un des plus beau chef-d’oeuvre réalisé par le peintre Lyonnais, Hippolyte Flandrin assisté de son frère Paul. Une partie de l’exposition sur le thème de son décor a bénéficié des recherches et des analyses techniques menées par Iconem en accompagnement du chantier de restauration de Saint-Germain-des-Prés. Une projection immersive, s’appuyant sur la numérisation de l’intégralité des décors intérieurs de l’église réalisée par nos équipes, est proposée en point d’orgue, afin de restituer ceux-ci aux visiteurs pour leur en livrer les clés et les relier aux études préparatoires exposées."
+    },
+    "actors": {
+        "en": "",
+        "fr": "",
+        "logos": [
+          "img/projects/Flandrin/Flandrin_logo_1.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/Flandrin/Flandrin_01.jpg",
+            "full": "img/projects/Flandrin/Flandrin_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        }
+    ]
+}

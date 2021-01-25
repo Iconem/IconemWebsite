@@ -1,0 +1,90 @@
+{
+    "modalID": "SitesEternels",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Sites éternels"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Le Grand Palais"
+    },
+    "thumbnailDate": {
+        "en": "2016",
+        "fr": "2016"
+    },
+    "thumbnail": "img/projects/SitesEternels/SitesEternels_thumbnail.jpg",
+    "articleTitle": {
+        "en": "",
+        "fr": "Sites éternels : De Bâmiyân à Palmyre"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Le Grand Palais, Paris, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "14 décembre 2016 - 9 janvier 2017"
+    },
+    "text": {
+        "en": "The touring exhibition ‘‘Eternal Sites’’, produced by the Réunion des Musées Nationaux - Grand Palais and the Louvre Museum, in collaboration with Iconem, offers an immersion in the heart of four major endangered archaeological sites: the former capital of King Sargon in Khorsabad in Iraq, the Palmyra site, the Crac des Chevaliers and the Umayyad Great Mosque in Damascus, Syria. The mainly digital character of the exhibition facilitates its adaptation to new places. This 360° experience transports visitors to historic sites to raise awareness of heritage threatened or destroyed by armed conflict. The exhibition at the Grand Palais is organized into two sections, the Universal Site and the Images Laboratory. In the Universal Site, four films are screened, revealing on four major archeological sites, in a wide 360° panorama, allowing for an unprecedented immersive experience of the visitor.",
+        "fr": "L’exposition itinérante « Sites Eternels », produite par la Réunion des Musées Nationaux – Grand Palais et le Musée du Louvre, en collaboration avec Iconem, propose une immersion au cœur de quatre grands sites archéologiques en danger : l’ancienne capitale du roi Sargon à Khorsabad en Irak, le site de Palmyre, le Crac des Chevaliers et la Grande Mosquée des Omeyyades à Damas, en Syrie. Le caractère essentiellement numérique de l’exposition facilite son adaptation à de nouveaux lieux. Cette expérience transporte les visiteurs jusqu’aux sites historiques afin de les sensibiliser au patrimoine menacé ou détruit par les conflits armés. L’exposition au Grand Palais s’organise en deux sections, le Site Universel et le Laboratoire des images. Dans le Site Universel, sont projetés quatre films sur quatre sites archéologiques majeurs, dans un vaste panorama à 360°, permettant une expérience immersive inédite du visiteur."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre. Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre. Scénographie : Sylvain Roca et Nicolas Groult. Réalisateur : Olivier Brunet. Documentation scientifique : Thomas Sagory.",
+        "logos": [
+          "img/projects/SitesEternels/SitesEternels_logo_1.png",
+          "img/projects/SitesEternels/SitesEternels_logo_2.png",
+          "img/projects/SitesEternels/SitesEternels_logo_3.png",
+          "img/projects/SitesEternels/SitesEternels_logo_4.png",
+		  "img/projects/SitesEternels/SitesEternels_logo_5.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/SitesEternels/SitesEternels_01.jpg",
+            "full": "img/projects/SitesEternels/SitesEternels_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/SitesEternels/SitesEternels_01.jpg",
+            "full": "img/projects/SitesEternels/SitesEternels_02.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/SitesEternels/SitesEternels_03.jpg",
+            "full": "img/projects/SitesEternels/SitesEternels_03.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/SitesEternels/SitesEternels_04.jpg",
+            "full": "img/projects/SitesEternels/SitesEternels_04.jpg",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+            "preview": "img/projects/SitesEternels/SitesEternels_YoutubeThumbnail1.jpg"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+            "preview": "img/projects/SitesEternels/SitesEternels_YoutubeThumbnail2.jpg"
+        }
+    ],
+    "models": [
+      "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+    ]
+}

@@ -553,14 +553,14 @@ a.photo-box:hover img {
 
 /* CAROUSEL DOTS */
 .owl-dots {
-    display: none;
+    display: block;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .owl-dots {
         display: block;
     }
-}
+} */
 
 .main-projects-carousel-dots {
     padding: 0;

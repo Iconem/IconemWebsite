@@ -1,0 +1,82 @@
+{
+    "modalID": "LeMontSaintMichel",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Le Mont Saint-Michel"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Musée des Plans-Reliefs"
+    },
+    "thumbnailDate": {
+        "en": "2018",
+        "fr": "2018"
+    },
+    "thumbnail": "img/projects/LeMontSaintMichel/LeMontSaintMichel_thumbnail.jpg",
+    "articleTitle": {
+        "en": "",
+        "fr": "Le Mont Saint-Michel, Regards numérique sur la maquette"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Musée des Plans-Reliefs, Paris, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "1 octobre 2018 - 14 janvier 2019"
+    },
+    "text": {
+        "en": "In 2018, the Paris-based Museum of Plans-Reliefs exhibited a mixed-reality experience for the first time. The “Mont St-Michel, regards numériques sur la maquette” exhibition enabled a renewed and innovative exploration of the scale model representing the Abbey and the city. Thanks to an exceptional partnership with Microsoft, supported by Iconem and Holoforge Interactive, the Museum offered a digital discovery of the Mont Saint-Michel and its scale model through a Hololens helmet (an independent holographic computer) to its visitors. The 12-minute experience superposed Iconem-produced images of the Mont Saint-Michel 3D model onto the physical model, exhibited in front of visitors.",
+        "fr": "En 2018, le Musée des Plans-Reliefs a enrichi pour la première fois l’une de ses expositions temporaires d’une expérience en réalité mixte. L’exposition « Mont St-Michel, regards numériques sur la maquette » permet une exploration renouvelée et novatrice de la maquette de l’abbaye et de la ville. Grâce à un partenariat exceptionnel avec Microsoft, qui a fait appel pour cela à Iconem et Holoforge Interactive, le musée a offert à ses visiteurs une découverte du Mont et de sa maquette à travers un casque HoloLens (un ordinateur holographique autonome). L’expérience de 12 minutes superpose aux yeux des utilisateurs la maquette face à eux et le modèle 3D du véritable Mont Saint-Michel numérisé par Iconem."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Commissariat général : Emmanuel Starcky, conservateur général du patrimoine, directeur du musée des Plans-Reliefs, Commissaires : Isabelle Warmoes, ingénieur d’études, adjointe au directeur du musée des Plans-Reliefs, Scénographie : Loretta Gaïtis, assistée d’Irène Charrat, Documentation scientifique : Mathilde de Vallée, Historienne de l’art.",
+        "logos": [
+          "img/projects/LeMontSaintMichel/LeMontSaintMichel_logo_1.png",
+          "img/projects/LeMontSaintMichel/LeMontSaintMichel_logo_2.png",
+          "img/projects/LeMontSaintMichel/LeMontSaintMichel_logo_3.png",
+          "img/projects/LeMontSaintMichel/LeMontSaintMichel_logo_4.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_02.jpg",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_02.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_03.jpg",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_03.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_04.jpg",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_04.jpg",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://youtu.be/eajawgk3Fd8",
+            "preview": ""
+        }
+    ]
+}

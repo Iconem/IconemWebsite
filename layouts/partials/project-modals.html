@@ -20,13 +20,15 @@
                   {{ range $imgIndex, $img := $project.img }}
                       <div>
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ $img.full }}" class="cover">
-                          <div class="img-toolbar">
-                              <div class="img-caption">
-                                  {{with $img.caption }}
-                                      {{ index $img.caption $lang }}
-                                  {{end}}
-                              </div>
-                          </div>
+                          {{ if $img.caption }}
+                            <div class="img-toolbar">
+                                <div class="img-caption">
+                                    {{with $img.caption }}
+                                        {{ index $img.caption $lang }}
+                                    {{end}}
+                                </div>
+                            </div>
+                          {{ end }}
                       </div>
                   {{ end }}
                   {{ if $project.video }}
@@ -115,7 +117,6 @@
               {{ with $project.articleDate }}
                 <div class="">{{ index . $lang }}</div>
               {{ end }}
-              <hr />
             </div>
           <div class="modal-scrollable text-center">
             <div class="text-justify">{{ index $project.text $lang | markdownify }}</div>
@@ -206,9 +207,15 @@
     }
 
     function toggleContent() {
-        var modal_content = document.getElementById("project-media-description");
+        var modal_content = document.getElementsByClassName("modal-content");
         var modal_hide_button = document.getElementsByClassName("hide-modal-content");
-        modal_content.classList.toggle('modal-content-hidden');
-        modal_hide_button[0].classList.toggle('modal-content-hidden');
+        for(var i = 0; i < modal_content.length; i++)
+        {
+          modal_content[i].classList.toggle('modal-content-hidden');
+        }
+        for(var i = 0; i < modal_hide_button.length; i++)
+        {
+            modal_hide_button[i].classList.toggle('modal-content-hidden');
+        }
     }
 </script> 

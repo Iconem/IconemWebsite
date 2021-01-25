@@ -1,0 +1,76 @@
+{
+    "modalID": "BatirUnEmpire",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Bâtir un empire"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Musée de la Romanité"
+    },
+    "thumbnailDate": {
+        "en": "2020",
+        "fr": "2020"
+    },
+    "thumbnail": "img/projects/BatirUnEmpire/BatirUnEmpire_thumbnail.jpg",
+    "articleTitle": {
+        "en": "",
+        "fr": "Bâtir un empire : Une exposition virtuelle des mondes romains"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Musée de la Romanité, Nîmes, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "20 décembre 2019 – 8 mars 2020"
+    },
+    "text": {
+        "en": "The Iconem-produced exhibition “Build an empire” takes the visitor in the heart of seven archaeological sites of the ancient Roman Empire: Pompeii (Italy), Aphrodisias (Turkey), Garni (Armenia), Palmyra (Syria), Lepcis Magna (Libya), Carthago (Tunisia), Baelo Claudia (Spain). Thanks to the vast immersive projections of Iconem’s 3D models, this 100% digital exhibition is an invitation to discover the urban and architectural models of roman cities around the Mediterranean Sea. The exhibition focuses on the architectural and urban standards shared by the entire roman world, but also on their adaptation to the local culture.The triptych of projection off ers a striking and collective immersion into these roman sites. The exhibition ends with a virtual reality experience “Old Age Cities”, produced by Ubisoft and based on the Iconem data, which transport the visitor to the sites of Palmyra and Lepcis Magna.",
+        "fr": "L’exposition «Bâtir un Empire», intégralement produite par Iconem, plonge ses visiteurs au cœur de sept sites archéologiques de l’Empire romain : Pompéi (Italie), Aphrodisias (Turquie), Garni (Arménie), Palmyre (Syrie), Lepcis Magna (Libye), Carthage (Tunisie), Baelo Claudia (Espagne). Grâce aux vastes projections immersives des modèles 3D d’Iconem, l’exposition invite à découvrir les modèles urbains et architecturaux de cités romaines à travers le pourtour méditerranéen. Le discours scientifi que de cette exposition exclusivement numérique s’attache à découvrir les marqueurs architecturaux et urbains communs à l’ensemble du monde romain mais aussi leur métissage avec les cultures locales.Le triptyque de projection, point d’orgue du parcours, off re une immersion saisissante et collective dans les sites romains. L’exposition s’achève sur l’expérience de réalité virtuelle «Cités Millénaires» conçue par Ubisoft grâce auxdonnées d’Iconem et qui replace le visiteur au sein des sites de Palmyre et de Lepcis Magna."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Coordination de l’exposition : Xavier Gerard, Chef de projet Iconem Direction artistique : Gaël Labousse, Directeur artistique Iconem Conseil scientifi que : Vivien Barrière, Maître de conférences en histoire et archéologie à CY Cergy Paris Université Scénographie générale : Julien Baron (lililillilil)",
+        "logos": [
+          "img/projects/BatirUnEmpire/BatirUnEmpire_logo_1.png",
+          "img/projects/BatirUnEmpire/BatirUnEmpire_logo_2.png",
+          "img/projects/BatirUnEmpire/BatirUnEmpire_logo_3.png",
+          "img/projects/BatirUnEmpire/BatirUnEmpire_logo_4.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_01.jpg",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_02.jpg",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_02.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_03.jpg",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_03.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_04.jpg",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_04.jpg",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ]
+}

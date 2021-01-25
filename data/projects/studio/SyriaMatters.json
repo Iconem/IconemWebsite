@@ -1,0 +1,76 @@
+{
+    "modalID": "SyriaMatters",
+    "thumbnailTitle": {
+        "en": "Syria Matters",
+        "fr": "Syria Matters"
+    },
+    "thumbnailLocation": {
+        "en": "Museum of Islamic Art",
+        "fr": "Museum of Islamic Art"
+    },
+    "thumbnailDate": {
+        "en": "2018",
+        "fr": "2018"
+    },
+    "thumbnail": "img/projects/SyriaMatters/SyriaMatters_thumbnail.jpg",
+    "articleTitle": {
+        "en": "Syria Matters",
+        "fr": "Syria Matters"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Museum of Islamic Art, Doha, Qata"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "22 novembre 2018 - 30 avril 2019"
+    },
+    "text": {
+        "en": "For over seven years, Syria has undergone one of the worst human tragedies since the beginning of this century. The Museum of Islamic Art in Doha chose to highlight this country’s extraordinary cultural heritage with a cycle of events, which ended with the “Syria Matters” exhibition. Thanks to its long-term field work with local professionals, Iconem produced a series of five immersive projections for the exhibition, using its 3D scans of Syrian monuments. With these short films, visitors are able to discover the Saladin Castle, the Azm Palace, the Aleppo Citadel, Palmyra, as well as the Umayyads Mosque in Damascus. Iconem’s 3D models invite visitors into a journey across time and space to discover Syria’s treasures.",
+        "fr": "Depuis plus de sept ans, la Syrie est le théâtre d’une guerre civile meurtrière et destructrice qui restera comme une des plus grandes tragédies humanitaires de ce début de siècle. Le Musée d’Art Islamique de Doha a choisi de mettre en avant le patrimoine culturel exceptionnel du pays au cours d’un cycle d’événements clôturé par l’exposition « Syria Matters». Fort de ses années de travail sur le terrain avec des professionnels locaux, Iconem a produit pour l’exposition une série de cinq projections immersives exploitant ses numérisations 3D de monuments syriens. Grâce à ces films de quelques minutes, les visiteurs peuvent découvrir le Château de Saladin, le Palais Azm, la Citadelle d’Alep, Palmyre et la Mosquée des Omeyyades de Damas. Les modèles 3D d’Iconem explorés par ces vidéos font voyager les visiteurs entre les époques et les lieux pour découvrir toute la richesse de la Syrie."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Commissariat général : Dr Julia Gonnella, Directrice du Museum of Islamic Art, Commissaires : Rania Abdellatif, commissaire spéciale, Scénographie : Marc Pelletreau",
+        "logos": [
+          "img/projects/SyriaMatters/SyriaMatters_logo_1.png",
+          "img/projects/SyriaMatters/SyriaMatters_logo_2.png",
+          "img/projects/SyriaMatters/SyriaMatters_logo_3.png",
+          "img/projects/SyriaMatters/SyriaMatters_logo_4.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/SyriaMatters/SyriaMatters_01.jpg",
+            "full": "img/projects/SyriaMatters/SyriaMatters_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		        {
+            "preview": "img/projects/SyriaMatters/SyriaMatters_02.jpg",
+            "full": "img/projects/SyriaMatters/SyriaMatters_02.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		        {
+            "preview": "img/projects/SyriaMatters/SyriaMatters_03.jpg",
+            "full": "img/projects/SyriaMatters/SyriaMatters_03.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/SyriaMatters/SyriaMatters_04.jpg",
+            "full": "img/projects/SyriaMatters/SyriaMatters_04.jpg",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ]
+}

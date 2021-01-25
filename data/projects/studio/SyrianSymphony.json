@@ -1,0 +1,82 @@
+{
+    "modalID": "SyrianSymphony",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Syrian Symphony"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Aga Khan Museum"
+    },
+    "thumbnailDate": {
+        "en": "2017",
+        "fr": "2017"
+    },
+    "thumbnail": "img/projects/SyrianSymphony/SyrianSymphony_thumbnail.jpg",
+    "articleTitle": {
+        "en": "Syrian Symphony : New Compositions in Sight And Sound",
+        "fr": "Syrian Symphony : New Compositions in Sight And Sound"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Aga Khan Museum, Toronto, Canada"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "20 mai 2017 - 13 août 2017"
+    },
+    "text": {
+        "en": "The exhibition ‘‘Syrian Symphony: new compositions in sight and sound” aims at exploring the roles of art and artists during conflicts, especially in Syria, through interactive and immersive works. ‘‘Syrian symphony: new compositions in sight and sound” is presented in association with Silkroad, the artistic organization created by reknown cellist Yo-Yo Ma. Similar to an orchestral symphony, the exhibition is divided into four distinct but connected ‘‘movements’’, including an immersive virtual creation entitled ‘‘Third Movement’’ and produced by Iconem. This experience presents monuments of the ancient Syrian city of Palmyra. The Temples of Bel and Baalshamin are presented, using the data collected during the intervention of Iconem on site, just days after the departure of ISIS. The video is synchronized to a soundscape composed and performed by the Silk Road Ensemble.",
+        "fr": "L’exposition « Syrian Symphony : New compositions in sight and sound » souhaite explorer les rôles de l’art et des artistes en temps de conflits, notamment en Syrie, à travers des œuvres interactives et immersives. Elle est présentée en association avec Silkroad, l’organisation artistique créée par le violoncelliste Yo-Yo Ma. Semblable à une symphonie orchestrale, l’exposition est divisée en quatre « mouvements » distincts mais liés, y compris une création virtuelle immersive, appelée « Third Movement » faite par les équipes d’Iconem, et présentant des monuments de la ville antique Syrienne de Palmyre. Le temple de Bel et le temple de Baalshamin sont présentés à partir des données collectées lors de l’intervention d’Iconem sur le site quelques jours seulement après le départ d’ISIS. La vidéo est synchronisée sur un paysage sonore composé et interprété par le Silk Road Ensemble."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Commissariat général : Amirali Alibhai, directrice des arts performatifs de l’Aga Khan Museum, Scénographie : Origin Studio, Réalisation sonore : Silk Road Ensemble",
+        "logos": [
+          "img/projects/SyrianSymphony/SyrianSymphony_logo_1.png",
+          "img/projects/SyrianSymphony/SyrianSymphony_logo_2.png",
+          "img/projects/SyrianSymphony/SyrianSymphony_logo_3.png",
+          "img/projects/SyrianSymphony/SyrianSymphony_logo_4.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/SyrianSymphony/SyrianSymphony_01.jpg",
+            "full": "img/projects/SyrianSymphony/SyrianSymphony_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/SyrianSymphony/SyrianSymphony_02.jpg",
+            "full": "img/projects/SyrianSymphony/SyrianSymphony_02.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/SyrianSymphony/SyrianSymphony_03.jpg",
+            "full": "img/projects/SyrianSymphony/SyrianSymphony_03.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/SyrianSymphony/SyrianSymphony_04.jpg",
+            "full": "img/projects/SyrianSymphony/SyrianSymphony_04.jpg",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://vimeo.com/273333818",
+            "preview": ""
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "modalID": "CitesMillenaires",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Cités Millénaires"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Institut du Monde Arabe"
+    },
+    "thumbnailDate": {
+        "en": "2018",
+        "fr": "2018"
+    },
+    "thumbnail": "img/projects/CitesMillenaires/CitesMillenaires_thumbnail.jpg",
+    "articleTitle": {
+        "en": "",
+        "fr": "Cités Millénaires: Voyage Virtuel de Palmyre à Mossoul"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Institut du Monde Arabe, Paris, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": "10 octobre 2018 - 17 février 2019"
+    },
+    "text": {
+        "en": "This exhibition is organized in collaboration with Iconem, who produced all the 3D models recreating the four archaeological sites presented in the exhibition: Aleppo, Mosul, Palmyra, Leptis Magna, the ‘‘Age-Old Cities’’. The exhibition is truly immersive, in that it doesn’t showcase objects, but shows projections which alternatively display virtual reconstructions and 3D images of the damaged cities. The purpose of the exhibition is to raise public awareness on the destruction of universal heritage in times of conflict, while allowing visitors to explore these archaeological sites that are difficult to access. The exhibition also highlights the work of local communities to preserve the sites through several testimonies. Ubisoft, French video game studio, used Iconem’s data to curate a virtual reality experience which immerses visitors inside these sites.",
+        "fr": "Cette exposition est organisée en collaboration avec Iconem, qui a réalisé l’ensemble des modèles 3D reconstituant les quatre sites archéologiques présentés dans l’exposition : Alep, Mossoul, Palmyre, Leptis Magna, les « Cités Millénaires ». Aucun objet n’est présenté, seulement des projections immersives destinées à toucher le plus large public possible, alternant reconstitutions virtuelles et images 3D des cités endommagées. L’exposition a pour objectif de sensibiliser le public aux destructions qui touchent le patrimoine universel en période de conflit, tout en permettant aux visiteurs une immersion dans des sites archéologiques difficiles d’accès. L’exposition met également en lumière le travail de personnes œuvrant à la préservation des sites à travers plusieurs témoignages, ainsi que des habitants de ces villes. Ubisoft, éditeur français de jeu vidéo, propose une expérience en réalité virtuelle grâce aux données d’Iconem à la fin de l’exposition, qui nous plonge à l’intérieur de ces sites."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Scénographie : Sylvain Roca, Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
+        "logos": [
+          "img/projects/CitesMillenaires/CitesMillenaires_logo_1.png",
+          "img/projects/CitesMillenaires/CitesMillenaires_logo_2.png",
+          "img/projects/CitesMillenaires/CitesMillenaires_logo_3.png",
+          "img/projects/CitesMillenaires/CitesMillenaires_logo_4.png"
+        ]     
+    },
+    "img": [
+        {
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_01.jpg",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_01.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_02.jpg",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_02.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+		{
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_03.jpg",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_03.jpg",
+            "caption": {
+                "en": "Multi-level 3D models of Aleppo",
+                "fr": "Modèles 3D à multi-échelles d'Alep"
+            }
+        },
+        {
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_04.jpg",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_04.jpg",
+            "caption": {
+                "en": "3D cross-section of ProjectStudio",
+                "fr": "Coupe 3D du ProjetStudio"
+            }
+        }
+    ],
+    "video": [
+        {
+            "src": "https://youtu.be/BHjcPITLcqw",
+            "preview": ""
+        }
+    ]
+}
