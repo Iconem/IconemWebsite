@@ -45,7 +45,7 @@ publishDir = "docs"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			link = "/fr"
+			link = "fr"
 
 		[languages.fr.navigation.links]
 			projects = "Projets"
@@ -60,7 +60,7 @@ publishDir = "docs"
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
-			link = "/en"
+			link = "en"
 
 	# Home section
 	[params.home]
