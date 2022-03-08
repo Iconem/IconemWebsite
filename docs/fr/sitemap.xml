@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://iconem.github.io/en/research/</loc>
+    <loc>https://iconem.github.io/fr/research/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -13,12 +13,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/en/research/"
+                href="https://iconem.github.io/fr/research/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/studio/</loc>
+    <loc>https://iconem.github.io/fr/studio/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -28,12 +28,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/en/studio/"
+                href="https://iconem.github.io/fr/studio/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/categories/</loc>
+    <loc>https://iconem.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,12 +42,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/en/categories/"
+                href="https://iconem.github.io/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/</loc>
+    <loc>https://iconem.github.io/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -56,12 +56,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/en/"
+                href="https://iconem.github.io/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/tags/</loc>
+    <loc>https://iconem.github.io/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,7 +70,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/en/tags/"
+                href="https://iconem.github.io/fr/tags/"
                 />
   </url>
   
