@@ -1,0 +1,46 @@
+{
+    "modalID": "PavillonLaMuette",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Pavillon de la Muette"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2019"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation du Pavillon de la Muette"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Édifié en 1767 à la demande du roi Louis XV par Ange-Jacques Gabriel sur l’emplacement d’un ancien château construit pour François Ier, la Muette, situé au nord de la forêt royale de Saint-Germain-en-Laye, il s’agit d’un des plus imposants pavillon de chasse de l’Ancien régime. Abandonné et privé de toutes fonctions à partir de 1970, le Pavillon royal de la Muette est attribué à l’Office National des Forêts (ONF) en 1984 qui n’aura malheureusement pas les moyens de l’entretenir, en dépit de son histoire prestigieuse et de son inscription au titre des Monuments Historiques en 1921. Ayant subi les outrages du temps, le pavillon de la Muette nécessite désormais une restauration conséquente. Sous l’égide d’un programme de rénovation ambitieux entrepris par Emmanuel Basse et Benoît d’Halluin, deux mécènes passionnés d’histoire, notre équipe a eu la chance de numériser l’édifice. Grâce aux techniques de la photogrammétrie, Iconem a réalisé une maquette 3D très précise permettant de fournir une précieuse documentation aux spécialistes chargés de restaurer le bâtiment. Ainsi, le pavillon pourra retrouver son rayonnement culturel d’autrefois et accueillir ses premiers visiteurs d’ici 2022."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem, Esprimme",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

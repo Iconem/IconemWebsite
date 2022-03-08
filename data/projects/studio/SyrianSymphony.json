@@ -1,11 +1,11 @@
 {
     "modalID": "SyrianSymphony",
     "thumbnailTitle": {
-        "en": "",
+        "en": "Syrian Symphony",
         "fr": "Syrian Symphony"
     },
     "thumbnailLocation": {
-        "en": "",
+        "en": "Aga Khan Museum",
         "fr": "Aga Khan Museum"
     },
     "thumbnailDate": {
@@ -18,11 +18,11 @@
         "fr": "Syrian Symphony : New Compositions in Sight And Sound"
     },
     "articleLocation": {
-        "en": "",
+        "en": "Aga Khan Museum, Toronto, Canada",
         "fr": "Aga Khan Museum, Toronto, Canada"
     },
     "articleDate": {
-        "en": "",
+        "en": " May 20, 2017 - August 13, 2017",
         "fr": "20 mai 2017 - 13 août 2017"
     },
     "text": {
@@ -30,46 +30,41 @@
         "fr": "L’exposition « Syrian Symphony : New compositions in sight and sound » souhaite explorer les rôles de l’art et des artistes en temps de conflits, notamment en Syrie, à travers des œuvres interactives et immersives. Elle est présentée en association avec Silkroad, l’organisation artistique créée par le violoncelliste Yo-Yo Ma. Semblable à une symphonie orchestrale, l’exposition est divisée en quatre « mouvements » distincts mais liés, y compris une création virtuelle immersive, appelée « Third Movement » faite par les équipes d’Iconem, et présentant des monuments de la ville antique Syrienne de Palmyre. Le temple de Bel et le temple de Baalshamin sont présentés à partir des données collectées lors de l’intervention d’Iconem sur le site quelques jours seulement après le départ d’ISIS. La vidéo est synchronisée sur un paysage sonore composé et interprété par le Silk Road Ensemble."
     },
     "actors": {
-        "en": "",
+        "en": "General curator: Amirali Alibhai, director of performing arts at the Aga Khan Museum, Scenography: Origin Studio, Sound production: Silk Road Ensemble",
         "fr": "Commissariat général : Amirali Alibhai, directrice des arts performatifs de l’Aga Khan Museum, Scénographie : Origin Studio, Réalisation sonore : Silk Road Ensemble",
-        "logos": [
-          "img/projects/SyrianSymphony/SyrianSymphony_logo_1.png",
-          "img/projects/SyrianSymphony/SyrianSymphony_logo_2.png",
-          "img/projects/SyrianSymphony/SyrianSymphony_logo_3.png",
-          "img/projects/SyrianSymphony/SyrianSymphony_logo_4.png"
-        ]     
+        "logos": ["https://via.placeholder.com/80x80"]
     },
     "img": [
         {
             "preview": "img/projects/SyrianSymphony/SyrianSymphony_01.jpg",
             "full": "img/projects/SyrianSymphony/SyrianSymphony_01.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         },
 		{
             "preview": "img/projects/SyrianSymphony/SyrianSymphony_02.jpg",
             "full": "img/projects/SyrianSymphony/SyrianSymphony_02.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         },
 		{
             "preview": "img/projects/SyrianSymphony/SyrianSymphony_03.jpg",
             "full": "img/projects/SyrianSymphony/SyrianSymphony_03.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         },
         {
             "preview": "img/projects/SyrianSymphony/SyrianSymphony_04.jpg",
             "full": "img/projects/SyrianSymphony/SyrianSymphony_04.jpg",
             "caption": {
-                "en": "3D cross-section of ProjectStudio",
-                "fr": "Coupe 3D du ProjetStudio"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         }
     ],

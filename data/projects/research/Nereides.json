@@ -1,0 +1,46 @@
+{
+    "modalID": "Nereides",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Monument des Néréides"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2018"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation Monument des Néréides"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Ancienne cité-État grecque de Lycie établie au sud de la Lydie en Anatolie, Xanthos est connue pour ses monuments funéraires dont certains figurent au British Museum. Ramenés par l’archéologue britannique, Charles Fellows, lors de ses fouilles entreprises au XIXe siècle, les décombres du monument des Néréides  - daté du début du IVe siècle av J-C - et du tombeau de Pavaya - ( 375 - 360 av J-C) ont fait l’objet d’une reconstruction minutieuse. Dans le cadre d’un projet en collaboration avec l’Université de Bordeaux-Montaigne, notre équipe a été chargée de réaliser des relevés photogrammétriques visant à restituer grâce aux outils actuels de la 3D, le monument des Néréides et la tombe de Payava.  Ce projet à également permis de créer une interface Web de visualisation permettant au public de consulter des modèles 3D plus précis de ces monuments. Réalisé en étroite collaboration avec des historiens, notre travail permet d’établir à l’aide d’une technologie innovante, une meilleure compréhension du matériel archéologique qui tend à renouveler notre perception de ces monuments hors du commun..."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem, Université Bordeaux Montaigne, British Museum",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

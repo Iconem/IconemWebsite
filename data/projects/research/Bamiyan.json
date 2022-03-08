@@ -1,0 +1,46 @@
+{
+    "modalID": "Bamiyan",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Bamiyan"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2015"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation de Bamiyan"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Les vestiges des Bouddhas sculptés dans les falaises afghanes de Bamiyan sont les symboles des destructions infligées par les Talibans en 2001 à notre patrimoine mondial. Aujourd’hui, il est urgent de les numériser pour en préserver leur mémoire. En 2015,  dans le cadre d’un projet réalisé par l’artiste français Pascal Convert, notre équipe est partie en Afghanistan afin de numériser en 3D les falaises et les traces de ces statues. Cette documentation précieuse constituera la mémoire de la falaise et celle des destructions qui y furent commises. Pour le compte de l’ONG Turquoise Mountain soutenue par le British Council, notre équipe s’est à nouveau rendue à Bamiyan début septembre, afin d’effectuer un relevé photogrammétrique d’un caravansérail à l’aide d’appareils photographiques et d’un drone. La vallée de Bâmiyân est riche de nombreux sites archéologiques, comme ce caravansérail dont les premières traces semblent remonter au XVe siècle ap. J.-C. Comme la falaise, ce site construit en adobe est menacé par le changement climatique provoquant son érosion et sa dégradation. Notre mission consiste à créer une cartographie du site et de son érosion, qui sera utilisée par les restaurateurs impliqués dans la sauvegarde de l’édifice. Lors de cette mission, Iconem a également formé des étudiants de l’université de Bâmiyân aux techniques de la photogrammétrie."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem, Turquoise Mountain",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

@@ -1,0 +1,46 @@
+{
+    "modalID": "Compiegne",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Compiegne"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2020"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation de la ville de Compiègne"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "A la demande de la Ville de Compiègne, notre équipe a été missionnée afin de numériser l'intégralité de son centre historique en février 2020. Situé dans l’Oise, au nord-est de Paris, le centre-ville historique de Compiègne a servi dès le VIème siècle de résidence pour la couronne française et comprend de nombreux monuments patrimoniaux emblématiques tels que le palais impérial, l'hôtel de ville, les écuries du roi ou encore l'église Saint-Jacques. Les maisons à colombages, pour certaines datées du XVème siècle, témoignent elles aussi du passé florissant de cette partie de la ville. Notre mission a eu recours à l’aide d’un drone et de captations par hélicoptère afin de couvrir une zone de 150  ha. Une partie de ces édifices classés au titre des monuments historiques ont bénéficié d’une numérisation d’une plus grande précision dont la mairie de Compiègne, érigée au XVIème siècle. Dans un souci de préservation, le modèle 3D de Compiègne créé par Iconem servira de documentation visuelle aux acteurs du patrimoine et sera également présenté au grand public au Musée Antoine-Vivenel."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem, Ville de Compiègne",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

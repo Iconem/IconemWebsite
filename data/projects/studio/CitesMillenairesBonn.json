@@ -1,0 +1,46 @@
+{
+    "modalID": "CitesMillenairesBonn",
+    "thumbnailTitle": {
+        "en": "Age-Old Cities - Bonn",
+        "fr": "Cités Millénaires - Bonn"
+    },
+    "thumbnailLocation": {
+        "en": "Bundeskunsthalle",
+        "fr": "Bundeskunsthalle"
+    },
+    "thumbnailDate": {
+        "en": "2019",
+        "fr": "2019"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "Age-Old Cities",
+        "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
+    },
+    "articleLocation": {
+        "en": "Bundeskunsthalle, Bonn, Germany",
+        "fr": "Bundeskunsthalle, Bonn, Allemagne"
+    },
+    "articleDate": {
+        "en": "August 30, 2019 - November 3, 2019",
+        "fr": "30 août 2019 - 3 novembre 2019"
+    },
+    "text": {
+        "en": "",
+        "fr": "Cette exposition temporaire organisée en collaboration avec le Centre National d’Art et d’Exposition de la République fédérale d’Allemagne (Kunstmuseum Bonn), propose à partir de modèles 3D réalisés par Iconem, une itinérance de quatre sites archéologiques : Alep, Mossoul, Palmyre, Leptis Magna. (souvenez-vous) En 2018, l’institut du Monde Arabe en collaboration avec Iconem présentait la reconstitution de ces sites sous forme de projection immersive destinée à toucher le grand public. A nouveau, nous souhaitons partager avec vous ce voyage d’exception qui alterne entre reconstitution virtuelle et image 3D, avec pour objectif de sensibiliser le public le plus large possible aux dommages qui touche le patrimoine en temps de conflit."
+    },
+    "actors": {
+        "en": "",
+        "fr": "",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

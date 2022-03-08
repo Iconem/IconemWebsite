@@ -1,11 +1,11 @@
 {
     "modalID": "SitesEternels",
     "thumbnailTitle": {
-        "en": "",
+        "en": "Eternal Sites",
         "fr": "Sites éternels"
     },
     "thumbnailLocation": {
-        "en": "",
+        "en": "The Grand Palais",
         "fr": "Le Grand Palais"
     },
     "thumbnailDate": {
@@ -14,15 +14,15 @@
     },
     "thumbnail": "img/projects/SitesEternels/SitesEternels_thumbnail.jpg",
     "articleTitle": {
-        "en": "",
+        "en": "Eternal Sites : From Bâmiyân to Palmyra",
         "fr": "Sites éternels : De Bâmiyân à Palmyre"
     },
     "articleLocation": {
-        "en": "",
+        "en": "The Grand Palais, Paris, France",
         "fr": "Le Grand Palais, Paris, France"
     },
     "articleDate": {
-        "en": "",
+        "en": "December 14, 2016 - January 9, 2017",
         "fr": "14 décembre 2016 - 9 janvier 2017"
     },
     "text": {
@@ -30,7 +30,7 @@
         "fr": "L’exposition itinérante « Sites Eternels », produite par la Réunion des Musées Nationaux – Grand Palais et le Musée du Louvre, en collaboration avec Iconem, propose une immersion au cœur de quatre grands sites archéologiques en danger : l’ancienne capitale du roi Sargon à Khorsabad en Irak, le site de Palmyre, le Crac des Chevaliers et la Grande Mosquée des Omeyyades à Damas, en Syrie. Le caractère essentiellement numérique de l’exposition facilite son adaptation à de nouveaux lieux. Cette expérience transporte les visiteurs jusqu’aux sites historiques afin de les sensibiliser au patrimoine menacé ou détruit par les conflits armés. L’exposition au Grand Palais s’organise en deux sections, le Site Universel et le Laboratoire des images. Dans le Site Universel, sont projetés quatre films sur quatre sites archéologiques majeurs, dans un vaste panorama à 360°, permettant une expérience immersive inédite du visiteur."
     },
     "actors": {
-        "en": "",
+        "en": "General curator: Jean-Luc Martinez, president and director of the Louvre museum. Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum. Scenography: Sylvain Roca and Nicolas Groult. Director: Olivier Brunet. Scientific documentation: Thomas Sagory.",
         "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre. Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre. Scénographie : Sylvain Roca et Nicolas Groult. Réalisateur : Olivier Brunet. Documentation scientifique : Thomas Sagory.",
         "logos": [
           "img/projects/SitesEternels/SitesEternels_logo_1.png",
@@ -45,32 +45,32 @@
             "preview": "img/projects/SitesEternels/SitesEternels_01.jpg",
             "full": "img/projects/SitesEternels/SitesEternels_01.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         },
 		{
             "preview": "img/projects/SitesEternels/SitesEternels_01.jpg",
             "full": "img/projects/SitesEternels/SitesEternels_02.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         },
 		{
             "preview": "img/projects/SitesEternels/SitesEternels_03.jpg",
             "full": "img/projects/SitesEternels/SitesEternels_03.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         },
         {
             "preview": "img/projects/SitesEternels/SitesEternels_04.jpg",
             "full": "img/projects/SitesEternels/SitesEternels_04.jpg",
             "caption": {
-                "en": "3D cross-section of ProjectStudio",
-                "fr": "Coupe 3D du ProjetStudio"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         }
     ],

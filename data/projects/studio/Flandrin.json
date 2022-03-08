@@ -9,8 +9,8 @@
         "fr": "Musée des Beaux Arts de Lyon"
     },
     "thumbnailDate": {
-        "en": "soon",
-        "fr": "prochainement"
+        "en": "2021",
+        "fr": "2021"
     },
     "thumbnail": "img/projects/Flandrin/Flandrin_thumbnail.jpg",
     "articleTitle": {
@@ -33,7 +33,7 @@
         "en": "",
         "fr": "",
         "logos": [
-          "img/projects/Flandrin/Flandrin_logo_1.png"
+            "https://via.placeholder.com/80x80"
         ]     
     },
     "img": [
@@ -41,8 +41,8 @@
             "preview": "img/projects/Flandrin/Flandrin_01.jpg",
             "full": "img/projects/Flandrin/Flandrin_01.jpg",
             "caption": {
-                "en": "Multi-level 3D models of Aleppo",
-                "fr": "Modèles 3D à multi-échelles d'Alep"
+                "en": "Placeholder caption",
+                "fr": "Placeholder caption"
             }
         }
     ]

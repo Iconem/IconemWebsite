@@ -1,0 +1,46 @@
+{
+    "modalID": "Mossoul",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Mossoul"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2018"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation de la vieille ville de Mossoul"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Situé dans la région de Ninive, sur les rives du Tigre, Mossoul fut un centre important de l’empire Ottoman au VIIe siècle et dont l’héritage architectural témoigne d’une grande richesse. Les interventions militaires contre l’organisation Etat Islamique ont gravement endommagé la vieille ville, en particulier dans la partie ouest. Près de 20 000 bâtiments ont subi des dégradations ou ont été détruits, contraignant ainsi les habitants à quitter la ville. À l’initiative de l’UNESCO, Iconem a été mobilisé afin de produire en urgence un scan 3D de la vieille ville. Lors de cette mission, Iconem a également effectué des mesures GPS très précises de la zone et numérisé plusieurs monuments emblématiques de la ville comme le musée de Mossoul ou l’ancienne église de Tahira. Cette documentation cartographique sera utilisée dans le cadre d’une réhabilitation et d’une restauration de la ville avec pour objectif de « faire revivre l’esprit de Mossoul »."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem et l’Unesco",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

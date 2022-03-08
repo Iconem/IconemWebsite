@@ -1,0 +1,47 @@
+{
+    "modalID": "SitesEternelsMaroc",
+    "thumbnailTitle": {
+        "en": "Eternal Sites - Maroc",
+        "fr": "Sites éternels - Maroc"
+    },
+    "thumbnailLocation": {
+        "en": "Bouregreg Cultural Complex",
+        "fr": "Complexe Culturel Bouregreg"
+    },
+    "thumbnailDate": {
+        "en": "2018",
+        "fr": "2018"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "Eternal Sites : From Bâmiyân to Palmyra",
+        "fr": "Sites éternels : De Bâmiyân à Palmyre"
+    },
+    "articleLocation": {
+        "en": "Bouregreg Cultural Complex, Sale, Morocco",
+        "fr": "Complexe Culturel Bouregreg, Salé, Maroc"
+    },
+    "articleDate": {
+        "en": "October 30 - December 14, 2018",
+        "fr": "30 octobre – 14 Décembre 2018"
+    },
+    "text": {
+        "en": "The touring exhibition ‘‘Eternal Sites’’, produced by the Reunion des Musées Nationaux – Grand Palais and the Louvre Museum, in collaboration with Iconem, offers an immersion in the heart of four major archaeological sites endangered: the former capital of King Sargon in Khorsabad in Iraq, the Palmyra site, the Crac des Chevaliers and the Umayyad Great Mosque in Damascus, Syria. This Moroccan edition featured additional works from sites such as Nkhila, Banassa, Volubilis, Chellah and the Mosque of Al Quaraouiyne. Bahija Simou, director of the Royal Archives of Morocco and curator of the exhibition, explained that these additional objects allow for the understanding of “the cultural mixing between Christian and Muslim civilizations, and the extent of their influences”. Much like its Grand Palais edition, the digital nature of the exhibition makes it easily adaptable to different spaces, like the Bouregreg cultural complex.",
+        "fr": "L’exposition itinérante « Sites éternels », produite par la Réunion des Musées Nationaux – Grand Palais et le Musée du Louvre, en collaboration avec Iconem, propose une immersion au cœur de quatre grands sites archéologiques en danger : l’ancienne capitale du roi Sargon à Khorsabad en Irak, le site de Palmyre, le Crac des Chevaliers et la Grande Mosquée des Omeyyades à Damas, en Syrie. Cette édition marocaine s’enrichit d’œuvres qui proviennent de Nkhila, Banassa, Volubilis, Chellah et de la mosquée Al Quaraouiyne.  Cela permet d’appréhender « le métissage culturel entre les civilisations chrétienne et musulmane et l’étendue de leurs influences », explique Bahija Simou, directrice des Archives royales du Maroc et commissaire de l’exposition. A l’instar de la première édition de l’itinérance, le caractère essentiellement numérique de l’exposition facilite son adaptation au Complexe culturel Bouregreg."
+    },
+    "actors": {
+        "en": "General Curator: Jean-Luc Martinez, President and Director of the Louvre Museum and Bahija Simou, Director of the Royal Archives of Morocco, Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum and Marielle Pic, Director of the Department of Oriental Antiquities at the Louvre Museum, Scenography: Sylvain Roca and Nicolas Groult, Director: Olivier Brunet, Scientific documentation: Thomas Sagory, head of the digital development service",
+        "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre et Bahija Simou, Directrice des Archives Royales du Maroc, Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre et Marielle Pic, directrice du Département des Antiquités orientales du musée du Louvre, Scénographie : Sylvain Roca et Nicolas Groult, Réalisateur : Olivier Brunet, Documentation scientifique : Thomas Sagory, chef du service du développement numérique",
+        "logos": ["https://via.placeholder.com/80x80"] 
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": [],
+    "models": []
+}

@@ -1,0 +1,46 @@
+{
+    "modalID": "Pompei",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Pompéi"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2014"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation de Pompéi"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Ensevelie lors de l’éruption du vésuve en 79 après notre ère et redécouverte au 17ème siècle, la ville de pompéi est une représentation unique et précieuse de l’architecture urbaine de la période romaine. avec plus de trois millions de visiteurs chaque année, pompéi est l’une des destinations les plus populaires d’Italie. mais cet engouement a un prix. Le passage de millions de visiteurs érode le pavement en pierre des rues et monuments, et ce tourisme de masse couplé à l’érosion naturelle menace l’intégrité du site. Afin d’en préserver l’héritage et de sensibiliser le public aux problématiques rencontrées, Iconem en partenariat avec l’ENS, microsoft Research et l’INRIA s’est rendue sur place en 2014 pour établir un relevé 3d complet du site de Pompéi. Les relevés entrepris en collaboration avec nos équipes ont servi à créer le premier modèle 3d intégral du site de Pompéi. Dans le cadre du projet “Virtual Pompéi Project” Iconem à également obtenu l’autorisation de survoler le site à basse altitude, lui permettant d’obtenir des données très précises pour l’élaboration d’une documentation précieuse."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem, Microsoft Research, Inria",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

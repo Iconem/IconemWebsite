@@ -1,0 +1,46 @@
+{
+    "modalID": "SyrianHeritage",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Syrian Heritage"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2015"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisations du projet “Syrian Heritage” "
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "En 2015, Iconem s’est rendue à Damas afin d’apporter du matériel et une formation technique aux équipes de terrain, de manière à sauvegarder la mémoire des sites en péril . A l’issue de notre mission de formation, la DGAM (Direction Générale des Antiquités et des Musées de Syrie) nous a demandé d’entreprendre une vaste campagne de numérisation des sites archéologiques majeurs du territoire syrien. En effet, le conflit qui déchire la Syrie depuis 2011 a dévasté de nombreux sites historiques. Face aux destructions volontaires, pillages et dégradations, le patrimoine syrien est désormais menacé de disparition. Le projet “Syrian Heritage” avait pour ambition de créer une base de données numérique des monuments syriens par nos équipes, mais également de mettre en place une équipe nationale capable de l’enrichir continuellement. Les données des lieux scannés ont été publiées sur un site commun par Iconem et la DGAM, où l’on peut les découvrir au travers de visites virtuelles interactives, de vidéos en images de synthèse ou de documentations à usage scientifique. Grâce à ces relevés, Iconem, accompagnée de la DGAM, a constitué la plus grande base mondiale de données 3D de sites syriens afin de transmettre aux générations futures ce riche patrimoine culturel."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem et la DGAM (Direction Générale des Antiquités et des Musées de Syrie).",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

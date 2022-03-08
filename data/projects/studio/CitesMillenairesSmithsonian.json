@@ -1,0 +1,46 @@
+{
+    "modalID": "CitesMillenairesSmithsonian",
+    "thumbnailTitle": {
+        "en": "Age-Old Cities - Smithsonian",
+        "fr": "Cités Millénaires - Smithsonian"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "Age-Old Cities",
+        "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "L’expérience « Cités millénaires », conçue en partenariat avec Ubisoft a été présentée à la Smithsonian Institution de Washington, dans le cadre d’une exposition temporaire. Cette itinérance propose, à partir des modèles 3D d’Iconem, la reconstitution virtuelle de quatre sites archéologiques endommagés : Alep, Mossoul, Palmyre et Leptis Magna. L’itinérance de ce patrimoine d’exception avait déjà rencontré un grand succès à l’Institut du Monde Arabe (Paris), au National Museum de Riyadh (Arabie Saoudite) et au  Musée de la Romanité (Nîmes).  Une nouvelle fois, nous avons souhaité sensibiliser le public le plus large possible, aux destructions qui touchent notre patrimoine en période de conflit. Les visiteurs ont pu découvrir une projection immersive guidée par de nombreux témoignages des habitants de la ville et des personnes œuvrant à la préservation de ces sites. Grâce aux données d’Iconem, Ubisoft a également proposé aux visiteurs, une expérience en réalité virtuelle à la fin de l’exposition."
+    },
+    "actors": {
+        "en": "",
+        "fr": "",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

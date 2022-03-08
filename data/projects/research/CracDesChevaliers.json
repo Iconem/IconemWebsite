@@ -1,0 +1,46 @@
+{
+    "modalID": "CracDesChevaliers",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Crac des Chevaliers"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2017"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation du Crac des Chevaliers"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Joyau de l'architecture militaire des XIIe et XIIIe siècles, le Crac des Chevaliers (Qal'at al-Hosn) est la plus emblématique des forteresses construites par les croisés au Proche-Orient. Depuis 2013, le Crac fait partie des biens inscrits par l’UNESCO sur la liste du patrimoine mondial en péril. Ravagée par plusieurs années de guerre, la Syrie est aujourd’hui confrontée à un défi de taille :  la restauration et la conservation d’un  édifice hors du commun. Après plusieurs missions réalisées par nos équipes pour documenter ce monument, l’UNESCO nous a chargé d’établir un nouveau modèle 3D plus précis de l’ensemble du bâtiment, en partenariat avec la DGAM,  grâce à l’utilisation d’ensembles de données terrestres et aériennes. Compte tenu de ces dimensions gigantesques, la numérisation 3D du bâtiment représentait un défi sans précédent. Au total, le corpus visuel rassemblé est composé de 135 000 captures, un volume d'images inédit. Ce modèle 3D permet de fournir une documentation précieuses aux acteurs du patrimoine syriens chargés de préserver le monument."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Iconem, UNESCO, DGAM",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

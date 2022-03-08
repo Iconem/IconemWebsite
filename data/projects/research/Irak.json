@@ -1,0 +1,46 @@
+{
+    "modalID": "Irak",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Ninive, Khorsabad, Nimroud"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "",
+        "fr": "2017"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Numérisation de Ninive, Khorsabad, Nimroud"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Anciennes capitales de l’Assyrie situé près du Tigre dans le nord de l’Irak,  Ninive, Khorsabad et Nimrud représentent des centres culturels, religieux et économiques d’importance. Ayant connu une expansion urbaine rapide dans les années 2000, sa croissance jumelée aux destructions de Daech et aux excavations sauvages menace leur survie. En 2017, Iconem a scanné les tunnels et en a réalisé une vidéo 3D en tant que prestataire technique de l’UNESCO. En effet, les tunnels de Nabi yunus qui quadrillent l’ancienne ville, ont ramené à la lumière du jour les trésors cachés des assyriens. Alors que la reconstruction de la ville est en cours, il est important de veiller à ce qu’elle ne menace pas à nouveau (davantage) le site historique."
+    },
+    "actors": {
+        "en": "",
+        "fr": "Acteur : Iconem, UNESCO",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

@@ -1,0 +1,46 @@
+{
+    "modalID": "Carcassonnes",
+    "thumbnailTitle": {
+        "en": "",
+        "fr": "Ellipse"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "November 2020",
+        "fr": "Novembre 2020"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": ""
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "Édifiée à l’époque gallo-romaine, les fortifications de la Cité de Carcassonne ont connu au cours des siècles de nombreux bouleversements. Les visiteurs peuvent encore découvrir dans leurs matériaux et architecture les épisodes mouvementés de l’histoire de la Cité. Il est en revanche plus difficile de comprendre l’importance des remparts dans un contexte plus large. Dans cette optique, Iconem ou Yves Ubelmann ( a été sollicité(e) ou s’est proposé(e) ) afin de proposer un nouveau langage visuel de représentation du patrimoine grâce à la technique de la photogrammétrie aérienne, en numérisant l’intégralité de la Cité.  Le projet “Ellipse” propose une installation artistique contenant un espace immersif à 360°. Ce lieu de médiation a pour objectif de valoriser la création numérique locale et d'accueillir en ses murs une programmation attractive incitant mêmement les carcassonnais à re-visiter ce lieu de manière inédite."
+    },
+    "actors": {
+        "en": "",
+        "fr": "",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

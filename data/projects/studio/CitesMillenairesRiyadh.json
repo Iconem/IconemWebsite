@@ -1,0 +1,46 @@
+{
+    "modalID": "CitesMillenairesRiyadh",
+    "thumbnailTitle": {
+        "en": "Age-Old Cities - Riyadh",
+        "fr": "Age-Old Cities - Riyadh"
+    },
+    "thumbnailLocation": {
+        "en": "National Museum In Riyadh",
+        "fr": "National Museum In Riyadh"
+    },
+    "thumbnailDate": {
+        "en": "2019",
+        "fr": "2019"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "Age-Old Cities",
+        "fr": "Age-Old Cities"
+    },
+    "articleLocation": {
+        "en": "National Museum, Riyadh, Saudi Arabia",
+        "fr": "National Museum, Riyadh, Arabie Saoudite"
+    },
+    "articleDate": {
+        "en": "April 18, 2019 - May 18, 2019",
+        "fr": "18 avril 2019 – 18 mai 2019"
+    },
+    "text": {
+        "en": "The Arab World Institute exhibition travels to Riyadh for a second edition, organized in collaboration with Iconem, who created all the 3D models recreating the four archaeological sites presented in the exhibition: Aleppo, Mosul, Palmyra, Leptis Magna, the ‘Age-old Cities’’. The exhibition is truly immersive in that it doesn’t showcase objects, but shows projections which alternatively display virtual reconstructions and 3D images of the damaged cities. The purpose of the exhibition is to raise public awareness on the destruction of universal heritage in times of conflict, while allowing visitors to explore these archaeological sites that are difficult to access. The exhibition also highlights the work of local communities to preserve the sites through several testimonies. Ubisoft, French video game studio, used Iconem’s data to offer a virtual reality experience that immerses visitors inside these sites.",
+        "fr": "A l’instar de l’exposition à l’Institut du monde arabe, cette première itinérance présente l’ensemble des modèles 3D d’Iconem, reconstituant les quatre sites archéologiques présentés dans l’exposition : Alep, Mossoul, Palmyre, Leptis Magna, les « Cités Millénaires ». Aucun objet n’est présenté, seulement des projections immersives destinées à toucher le plus large public possible, alternant reconstitutions virtuelles et images 3D des cités endommagées. L’exposition a pour objectif de sensibiliser le public aux destructions qui touchent le patrimoine universel en période de conflit, tout en permettant aux visiteurs une immersion dans des sites archéologiques difficiles d’accès. L’exposition met également en lumière le travail de personnes œuvrant à la préservation des sites à travers plusieurs témoignages, ainsi que des habitants de ces villes. Ubisoft, éditeur français de jeu vidéo, propose une expérience en réalité virtuelle grâce aux données d’Iconem à la fin de l’exposition, qui nous plonge à l’intérieur de ces sites."
+    },
+    "actors": {
+        "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Director: Olivier Brunet, Audiovisual production: Mardi 8",
+        "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Réalisateur : Olivier Brunet, Réalisation Audiovisuel : Mardi 8",
+        "logos": ["https://via.placeholder.com/80x80"]     
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}

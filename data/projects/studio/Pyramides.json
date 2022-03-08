@@ -1,0 +1,46 @@
+{
+    "modalID": "Pyramides",
+    "thumbnailTitle": {
+        "en": "Pyramids",
+        "fr": "Pyramides"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": "Flyview"
+    },
+    "thumbnailDate": {
+        "en": "2021",
+        "fr": "2021"
+    },
+    "thumbnail": "https://via.placeholder.com/700x400",
+    "articleTitle": {
+        "en": "",
+        "fr": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": "Flyview, Paris, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": "En 2018, l’équipe d’Iconem s’est rendue en Egypte afin de réaliser des relevés de plusieurs groupes de pyramides, à l’aide de captations terrestres et de drones. Ces captations ont permis de numériser en 3D les pyramides, et de créer ce voyage immersif au cœur des pyramides d’Egypte. Produit en collaboration avec le site de loisir culturel Fly View Paris, cette visite en réalité virtuelle à 360° propose au grand public de découvrir des lieux hors du commun sous une perspective nouvelle. La visite s’effectue à l’aide d’un casque de réalité augmentée et dure environ 18 minutes. Plongés au cœur de trois sites majeurs classés au Patrimoine mondial de l’UNESCO, les visiteurs découvrent tour à tour Saqqarah, Meïdoum et le Plateau de Gizeh. En faisant revivre ces monuments par la magie du numérique, Iconem et FlyView entendent sensibiliser le plus large public possible aux enjeux cruciaux de la préservation et de la sauvegarde du patrimoine."
+    },
+    "actors": {
+        "en": "",
+        "fr": "",
+        "logos": ["https://via.placeholder.com/80x80"]  
+    },
+    "img": [{
+        "preview": "https://via.placeholder.com/1920x1080",
+        "full": "https://via.placeholder.com/1920x1080",
+        "caption": {
+            "en": "Placeholder caption",
+            "fr": "Placeholder caption"
+        }
+    }],
+    "video": []
+}
