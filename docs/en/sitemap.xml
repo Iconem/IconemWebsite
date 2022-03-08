@@ -3,74 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://iconem.github.io/en/research/</loc>
+    <loc>/en/research/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/fr/research/"
+                href="/fr/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iconem.github.io/en/research/"
+                href="/en/research/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/studio/</loc>
+    <loc>/en/studio/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/fr/studio/"
+                href="/fr/studio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iconem.github.io/en/studio/"
+                href="/en/studio/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/categories/</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/fr/categories/"
+                href="/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iconem.github.io/en/categories/"
+                href="/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/</loc>
+    <loc>/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/fr/"
+                href="/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iconem.github.io/en/"
+                href="/en/"
                 />
   </url>
   
   <url>
-    <loc>https://iconem.github.io/en/tags/</loc>
+    <loc>/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://iconem.github.io/fr/tags/"
+                href="/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iconem.github.io/en/tags/"
+                href="/en/tags/"
                 />
   </url>
   
