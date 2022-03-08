@@ -45,7 +45,7 @@ publishDir = "docs"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			link = "fr"
+			link = "https://iconem.github.io/IconemWebsite/fr"
 
 		[languages.fr.navigation.links]
 			projects = "Projets"
@@ -59,8 +59,8 @@ publishDir = "docs"
       		exploration = "Exploration"
 
 		[[languages.fr.navigation.lang]]
-			code = "https://iconem.github.io/IconemWebsite/en"
-			link = "https://iconem.github.io/IconemWebsite/fr"
+			code = "en"
+			link = "https://iconem.github.io/IconemWebsite/en"
 
 	# Home section
 	[params.home]
