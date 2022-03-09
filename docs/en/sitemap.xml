@@ -3,74 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/en/research/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/en/research/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/fr/research/"
+                href="https://iconem.github.io/IconemWebsite/fr/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/research/"
+                href="https://iconem.github.io/IconemWebsite/en/research/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/studio/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/en/studio/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/fr/studio/"
+                href="https://iconem.github.io/IconemWebsite/fr/studio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/studio/"
+                href="https://iconem.github.io/IconemWebsite/en/studio/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/fr/categories/"
+                href="https://iconem.github.io/IconemWebsite/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://iconem.github.io/IconemWebsite/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/fr/"
+                href="https://iconem.github.io/IconemWebsite/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://iconem.github.io/IconemWebsite/en/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://iconem.github.io/IconemWebsite/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/fr/tags/"
+                href="https://iconem.github.io/IconemWebsite/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://iconem.github.io/IconemWebsite/en/tags/"
                 />
   </url>
   
