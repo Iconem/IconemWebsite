@@ -1,9 +1,9 @@
 title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
-#baseUrl = "https://iconem.com/en/"
+#baseUrl = "https://iconem.com/fr/"
 baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
-#baseUrl = "http://localhost:1313/en/"
+#baseUrl = "http://localhost:1313/fr/"
 publishDir = "docs"
 
 [languages]
@@ -46,6 +46,7 @@ publishDir = "docs"
 		[[languages.en.navigation.lang]]
 			code = "fr"
 			link = "https://iconem.github.io/IconemWebsite/fr"
+			#link = "/fr"
 
 		[languages.fr.navigation.links]
 			projects = "Projets"
@@ -61,6 +62,7 @@ publishDir = "docs"
 		[[languages.fr.navigation.lang]]
 			code = "en"
 			link = "https://iconem.github.io/IconemWebsite/en"
+			#link = "/en"
 
 	# Home section
 	[params.home]

@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/_Placeholder/700x400.png",
+    "thumbnail": "img/projects/Placeholder/700x400.png",
     "articleTitle": {
         "en": "I am Ashurbanipal : King Of the World, King of Assyria",
         "fr": "I am Ashurbanipal : King Of the World, King of Assyria"
@@ -32,11 +32,11 @@
     "actors": {
         "en": "General curator: Gareth Brereton, archaeologist and curator in charge of the Mesopotamian collection of the British Museum",
         "fr": "Commissariat général : Gareth Brereton, archéologue et curateur en charge de la collection Mésopotamienne du British Museum",
-        "logos": ["img/projects/_Placeholder/80x80.png"]    
+        "logos": ["img/projects/Placeholder/80x80.png"]    
     },
     "img": [{
-        "preview": "img/projects/_Placeholder/1920x1080.png",
-        "full": "img/projects/_Placeholder/1920x1080.png",
+        "preview": "img/projects/Placeholder/1920x1080.png",
+        "full": "img/projects/Placeholder/1920x1080.png",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
