@@ -12,7 +12,7 @@
         "en": "",
         "fr": "2017"
     },
-    "thumbnail": "https://via.placeholder.com/700x400",
+    "thumbnail": "img/projects/_Placeholder/700x400.png",
     "articleTitle": {
         "en": "",
         "fr": "Numérisation du Crac des Chevaliers"
@@ -32,11 +32,11 @@
     "actors": {
         "en": "",
         "fr": "Iconem, UNESCO, DGAM",
-        "logos": ["https://via.placeholder.com/80x80"]     
+        "logos": ["img/projects/_Placeholder/80x80.png"]     
     },
     "img": [{
-        "preview": "https://via.placeholder.com/1920x1080",
-        "full": "https://via.placeholder.com/1920x1080",
+        "preview": "img/projects/_Placeholder/1920x1080.png",
+        "full": "img/projects/_Placeholder/1920x1080.png",
         "caption": {
             "en": "Placeholder caption",
             "fr": "Placeholder caption"

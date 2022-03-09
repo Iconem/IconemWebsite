@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "https://via.placeholder.com/700x400",
+    "thumbnail": "img/projects/_Placeholder/700x400.png",
     "articleTitle": {
         "en": "Eternal Sites : From Bâmiyân to Palmyra",
         "fr": "Sites éternels : De Bâmiyân à Palmyre"
@@ -32,11 +32,11 @@
     "actors": {
         "en": "General Curator: Jean-Luc Martinez, President and Director of the Louvre Museum and Bahija Simou, Director of the Royal Archives of Morocco, Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum and Marielle Pic, Director of the Department of Oriental Antiquities at the Louvre Museum, Scenography: Sylvain Roca and Nicolas Groult, Director: Olivier Brunet, Scientific documentation: Thomas Sagory, head of the digital development service",
         "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre et Bahija Simou, Directrice des Archives Royales du Maroc, Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre et Marielle Pic, directrice du Département des Antiquités orientales du musée du Louvre, Scénographie : Sylvain Roca et Nicolas Groult, Réalisateur : Olivier Brunet, Documentation scientifique : Thomas Sagory, chef du service du développement numérique",
-        "logos": ["https://via.placeholder.com/80x80"] 
+        "logos": ["img/projects/_Placeholder/80x80.png"] 
     },
     "img": [{
-        "preview": "https://via.placeholder.com/1920x1080",
-        "full": "https://via.placeholder.com/1920x1080",
+        "preview": "img/projects/_Placeholder/1920x1080.png",
+        "full": "img/projects/_Placeholder/1920x1080.png",
         "caption": {
             "en": "Placeholder caption",
             "fr": "Placeholder caption"
