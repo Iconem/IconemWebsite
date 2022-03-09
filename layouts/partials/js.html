@@ -225,7 +225,7 @@
           var img = document.createElement('img');
           img.src = project.video[i].preview;
           previewContainer.appendChild(img);
-          this.appendChild(previewContainer);
+          if(project.video[i].preview.length) this.appendChild(previewContainer);
         });
 
         // add handler on carousel's change event

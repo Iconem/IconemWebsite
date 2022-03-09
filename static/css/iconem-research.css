@@ -628,6 +628,14 @@ header .header-footer a img:hover {
     color: black;
 }
 
+.iconem-modal .project-media-icons-container {
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+.iconem-modal .owl-carousel.owl-theme .owl-dots {
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
 .iconem-modal .close-modal {
     z-index: 10 !important;
     position: absolute;
