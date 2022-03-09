@@ -105,7 +105,7 @@ a:visited {
 /* end creative.css ovveride */
 
 /* ICONEM VIDEO */
-/* #iconem-video-overlay video {
+#iconem-video-overlay video {
     margin: 0px;
     padding: 0px;
     position: fixed;
@@ -159,7 +159,7 @@ a:visited {
     .video-background {
         top: -65%;
     }
-} */
+}
 
 /* PROJEDCTS */
 #projects {
