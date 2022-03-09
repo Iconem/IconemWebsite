@@ -127,7 +127,6 @@ body {
     right: 0;
     margin: auto;
     width: max-content;
-    background-color:rgba(0, 0, 0, 0.7);
     padding: 0 5px;
 }
 
@@ -420,7 +419,6 @@ body {
     padding:0 5px;
     left: 50%;
     transform: translate(-50%, 0%);
-    background-color:rgba(0, 0, 0, 0.7);
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-dot {
