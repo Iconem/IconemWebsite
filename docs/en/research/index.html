@@ -128,11 +128,7 @@
         
             <!-- HEADER -->
   
-    <div class="video-background">
-        <div class="video-foreground">
-          <div id="youtubeIframe"></div>  
-        </div>
-    </div>
+    
     <header>
       <div id="header-content" class="header-content">
         <div class="header-content-inner">
@@ -2043,11 +2039,11 @@
                 
                     <div class="panel team-member-panel">
                         
-                            <div id="team-member-gael" class="panel-collapse collapse text-justify" role="tabpanel">
+                            <div id="team-member-issanou" class="panel-collapse collapse text-justify" role="tabpanel">
                         
-                            <h3 class="text-uppercase text-bold">Gaël Labousse</h3>
+                            <h3 class="text-uppercase text-bold">Issanou Kamardine Ousseni</h3>
                             <br>
-                            <h4 class="text-uppercase"> Art Director</h4>
+                            <h4 class="text-uppercase"> Graphic Designer</h4>
                             
                             </div>
                     </div>
@@ -2056,11 +2052,11 @@
                 
                     <div class="panel team-member-panel">
                         
-                            <div id="team-member-issanou" class="panel-collapse collapse text-justify" role="tabpanel">
+                            <div id="team-member-gael" class="panel-collapse collapse text-justify" role="tabpanel">
                         
-                            <h3 class="text-uppercase text-bold">Issanou Kamardine Ousseni</h3>
+                            <h3 class="text-uppercase text-bold">Gaël Labousse</h3>
                             <br>
-                            <h4 class="text-uppercase"> Graphic Designer</h4>
+                            <h4 class="text-uppercase"> Art Director</h4>
                             
                             </div>
                     </div>
@@ -4889,7 +4885,7 @@
     document.body.classList.remove("bg-loading");
     document.body.style.backgroundImage = `url(${imageUrl})`;
     preloaderImg = null;
-    
+    setTimeout(nextBackground, 10000);
   });
   
   
@@ -5159,62 +5155,7 @@
 </script>
 
 
-<script type="text/javascript">
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-  var player;
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('youtubeIframe', {
-      height: '1080',
-      width: '1920',
-      videoId: 'EELW6fBNvKo',
-      playerVars: {
-          mute: 1,
-          autoplay: 1,
-          loop: 1,
-          controls: 0,
-          showinfo: 0,
-          autohide: 0,
-          enablejsapi: 1,
-          modestbranding: 1,
-          playlist: 'EELW6fBNvKo',
-          vq: 'hd1080'
-      },
-      allowfullscreen: 1,
-      events: {
-        'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange,
-        'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
-      }
-    });
-  }
-
-  function onPlayerReady(event) {
-    onPlayerPlaybackQualityChange(event);
-    event.target.playVideo();
-  }
-
-  function onPlayerStateChange(event) {
-    onPlayerPlaybackQualityChange(event);
-    if(event.data === 1) {
-      document.getElementById('iconem-video-overlay').style.display = 'none';
-      document.getElementById('header-content').style.visibility = 'hidden';
-    }
-  }
-
-  
-  function onPlayerPlaybackQualityChange(event) {
-    var playbackQuality = event.target.getPlaybackQuality();
-    var suggestedQuality = 'hd1080';
-    if( playbackQuality !== 'hd1080') {
-        event.target.setPlaybackQuality( suggestedQuality );
-    }
-}
-
-</script>
 
 
 <script>
