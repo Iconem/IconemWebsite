@@ -40,7 +40,7 @@
   var current = 0;
   function nextBackground() {
     document.body.style.backgroundImage = backgrounds[current = ++current % backgrounds.length];
-    setTimeout(nextBackground, 10000);
+    // setTimeout(nextBackground, 10000);
   }
 
   document.body.classList.add("bg-loading");
@@ -51,7 +51,7 @@
     document.body.classList.remove("bg-loading");
     document.body.style.backgroundImage = `url(${imageUrl})`;
     preloaderImg = null;
-    setTimeout(nextBackground, 10000);
+    // setTimeout(nextBackground, 10000);
   });
   
   // Deferring images without lazy loading or jQuery
