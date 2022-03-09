@@ -1,0 +1,129 @@
+{
+    "modalID": "Delos",
+    "thumbnailTitle": {
+        "en": "Delos",
+        "fr": "Délos"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "2016",
+        "fr": "2016"
+    },
+    "thumbnail": "img/projects/Delos/Delos_thumbnail.jpg",
+    "articleTitle": {
+        "en": "Digitisation of the island of Delos",
+        "fr": "Numérisation de l'île de Délos"
+    },
+    "articleLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "In 2016, Iconem started a project on the island of Delos, one of Greece’s most ancient cultural heritage sites. The mythological birthplace of Apollo and Artemis, Delos’s archaeological heritage dates as far back as the third millennium B.C.E. Iconem digitised the island for the Ecole française d’Athènes, recording the current state of its stunning mosaics and extensive ruins. Using small drone-planes, Iconem’s team scanned the entire island: its theatre, agora, and ancient villas. Ground level photographs taken with a multicamera pole were integrated with the drone images to build the final 3D model, which is used to create cross-sections and other architectural surveys to study the site for restoration. Iconem’s model is also an efficient and precise tool for measuring distances, area and volumes of this UNESCO World Heritage site. Finally, the extremely precise model allows people to remotely explore the remains of this incredible ancient capital of Mediterranean trade.",
+        "fr": "En 2016, Iconem a mené un projet portant sur l’île de Délos, l’un des sites patrimoniaux les plus anciens de Grèce. Berceau mythologique d’Apollon et d’Artémis, le patrimoine archéologique de Délos remonte au troisième millénaire av. J.-C. Iconem a numérisé l’île pour l’Ecole française d’Athènes, afin d’enregistrer l’état actuel des mosaïques et les ruines s’étendant sur de grandes surfaces. A l’aide de drones, l’équipe d’Iconem a scanné l’île complète : son théâtre, son agora et ses villas anciennes. Les photographies prises au niveau du sol avec une perche portant plusieurs appareils ont été fusionnées avec les images drones pour bâtir le modèle 3D final. Celui-ci est utilisé pour produire des coupes et d’autres relevés architecturaux pour étudier le site et sa restauration. Le modèle d’Iconem est également un outil efficace et précis pour mesurer des distances, des surfaces et des volumes de ce site classé au patrimoine mondial de l’UNESCO. Enfin, ce modèle d’une grande précision permet d’explorer à distance les vestiges de cet ancien nœud de circulation du commerce méditerranéen."
+    },
+    "actors": {
+        "en": "Iconem and the Ecole française d’Athènes",
+        "fr": "Iconem et l’Ecole française d’Athènes",
+        "logos": ["img/projects/_Placeholder/80x80.png"]     
+    },
+    "img": [{
+            "preview": "img/projects/Delos/Delos_01.jpg",
+            "full": "img/projects/Delos/Delos_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+                }
+            },
+        {
+            "preview": "img/projects/Delos/Delos_02.jpg",
+            "full": "img/projects/Delos/Delos_02.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_03.jpg",
+            "full": "img/projects/Delos/Delos_03.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_04.jpg",
+            "full": "img/projects/Delos/Delos_04.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_05.jpg",
+            "full": "img/projects/Delos/Delos_05.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_06.jpg",
+            "full": "img/projects/Delos/Delos_06.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_07.jpg",
+            "full": "img/projects/Delos/Delos_07.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_08.jpg",
+            "full": "img/projects/Delos/Delos_08.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_09.jpg",
+            "full": "img/projects/Delos/Delos_09.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/Delos/Delos_10.jpg",
+            "full": "img/projects/Delos/Delos_10.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        }
+    ],
+    "video": [{
+        "src": "https://www.youtube.com/watch?v=N3g57AeQZ50",
+        "preview": "img/projects/Delos/Delos_YoutubeThumbnail1.jpg"
+    },
+    {
+        "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
+        "preview": "img/projects/Delos/Delos_YoutubeThumbnail2.jpg"
+    }],
+    "models": [
+        "https://sketchfab.com/models/9eecfcfbc43c4b58aad488367736965f/embed"
+    ]
+}
