@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://iconem.github.io/IconemWebsite/en/research/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="en"
                 href="https://iconem.github.io/IconemWebsite/en/research/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://iconem.github.io/IconemWebsite/en/studio/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="en"
                 href="https://iconem.github.io/IconemWebsite/en/studio/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://iconem.github.io/IconemWebsite/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -44,9 +39,7 @@
                 hreflang="en"
                 href="https://iconem.github.io/IconemWebsite/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://iconem.github.io/IconemWebsite/en/</loc>
     <xhtml:link
                 rel="alternate"
@@ -58,9 +51,7 @@
                 hreflang="en"
                 href="https://iconem.github.io/IconemWebsite/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://iconem.github.io/IconemWebsite/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -73,5 +64,4 @@
                 href="https://iconem.github.io/IconemWebsite/en/tags/"
                 />
   </url>
-  
 </urlset>

@@ -355,6 +355,12 @@ circle:hover,
     display: block;
 }
 
+#main-projects-carousel .slick-prev:before,
+#main-projects-carousel .slick-next:before
+{
+    color: black;
+}
+
 .owl-carousel {
     display: none;
 }
@@ -370,11 +376,6 @@ circle:hover,
     bottom: 10px;
     right: 10px;
     color: black;
-}
-
-.main-projects-carousel-dots li,
-.owl-dots .owl-dot {
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-projects-carousel-dots li.slick-active,
@@ -634,6 +635,16 @@ header .header-footer a img:hover {
 
 .iconem-modal .owl-carousel.owl-theme .owl-dots {
     background-color:rgba(255, 255, 255, 0.7);
+}
+
+.iconem-modal .owl-carousel.owl-theme,
+.owl-dots .owl-dot {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.iconem-modal .owl-carousel.owl-theme,
+.owl-dots .owl-dot.active {
+    background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .iconem-modal .close-modal {

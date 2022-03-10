@@ -55,7 +55,6 @@
         {{ if (or $project.video $project.models) }}
             <a role="button"
                 id="project-{{ $projectIndex }}-img-carousel-toggler"
-                href="#project-{{ $projectIndex }}-img-carousel"
                 data-parent='#project-{{$projectIndex}}-media'
                 class="collapsed"
                 aria-expanded="true"
@@ -71,7 +70,6 @@
                     id="project-{{ $projectIndex }}-video-carousel-toggler"
                     data-toggle="collapse"
                     class="collapsed"
-                    href="#project-{{ $projectIndex }}-video-carousel"
                     data-parent='#project-{{$projectIndex}}-media'
                     aria-expanded="false"
                     onclick="goToFirstVideo({{ $project }});">
@@ -87,7 +85,6 @@
                     id="project-{{ $projectIndex }}-models-carousel-toggler"
                     data-toggle="collapse"
                     class="collapsed"
-                    href="#project-{{ $projectIndex }}-models-carousel"
                     data-parent='#project-{{$projectIndex}}-media'
                     aria-expanded="false"
                     onclick="goToFirstModel({{ $project }});">
