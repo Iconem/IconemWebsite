@@ -1,4 +1,5 @@
 name: Louvre
 link: https://www.louvre.fr/
-icon: img/clients/louvre_Passif.png
+icon_research: img/clients/louvre_Passifnoir.png
+icon_studio: img/clients/louvre_Passif.png
 icon_active: img/clients/louvre.png

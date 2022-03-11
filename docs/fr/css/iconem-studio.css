@@ -627,3 +627,7 @@ header .header-footer a img:hover {
         background-color: rgba(0, 0, 0, 0.7);
     }
 }
+
+#partners h3{
+    color:white;
+}
