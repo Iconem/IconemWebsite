@@ -7,8 +7,8 @@
     "en": "Director of development",
     "fr": "Directeur du développement"
   },
-  "img": "img/about/team_members/bastien.png",
-  "img_color": "img/about/team_members/bastien_color.png",
+  "img": "img/about/team_members/bastien_bw.jpg",
+  "img_color": "img/about/team_members/bastien_color.jpg",
   "description": { 
     "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",
     "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  

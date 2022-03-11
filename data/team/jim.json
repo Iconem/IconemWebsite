@@ -1,0 +1,16 @@
+{
+    "id": "jim",
+    "name": "Jim Artinian Shart",
+    "enabled": true,
+    "order": 2,
+    "job": {
+      "en": "Artistic director",
+      "fr": "Directeur artisique"
+    },
+    "img": "img/about/team_members/jim_bw.jpg",
+    "img_color": "img/about/team_members/jim_color.jpg",
+    "description": { 
+      "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",
+      "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
+    }
+  }

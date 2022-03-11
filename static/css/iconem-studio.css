@@ -550,8 +550,12 @@ header .header-footer a img:hover {
 #about-team-left {
     background: rgba(0, 0, 0, 0.9);
     color: white;
-    padding: 5% 10%;
+    padding: 5% 5%;
     /* margin-bottom: 100%; */
+}
+
+#about-team-left .team-member-panel.panel {
+    box-shadow: none;
 }
 
 #contact .contact-container {
@@ -569,6 +573,16 @@ header .header-footer a img:hover {
 
 .iconem-modal .owl-carousel.owl-theme .owl-dots {
     background-color:rgba(0, 0, 0, 0.7);
+}
+
+.iconem-modal .owl-carousel.owl-theme,
+.owl-dots .owl-dot {
+    background-color: rgba(94, 94, 94, 0.5) !important;
+}
+
+.iconem-modal .owl-carousel.owl-theme,
+.owl-dots .owl-dot.active {
+    background-color: rgba(255, 255, 255, 1) !important;
 }
 
 .iconem-modal .close-modal {

@@ -1,7 +1,7 @@
 {
   "id": "issanou",
   "name": "Issanou Kamardine Ousseni",
-  "order": 7,
+  "order": 8,
   "enabled": true,
   "job": {
     "en": "Graphic Designer",
@@ -10,7 +10,7 @@
   "img": "img/about/team_members/issanou.png",
   "img_color": "img/about/team_members/issanou_color.png",
   "description": { 
-    "en": "IssanoubioEN",
-    "fr": "IssanoubioFR"  
+    "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",
+    "fr": "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."  
   }
 }

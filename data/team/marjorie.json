@@ -1,14 +1,14 @@
 {
   "id": "marjorie",
   "name": "Marjorie Coulin",
-  "order": 5,
+  "order": 6,
   "enabled": true,
   "job": {
     "en": "R&D Engineer, photogrammetry expert",
     "fr": "Ingénieure R&D, experte photogrametre"
   },
-  "img": "img/about/team_members/marjorie.png",
-  "img_color": "img/about/team_members/marjorie_color.png",
+  "img": "img/about/team_members/marjorie_bw.jpg",
+  "img_color": "img/about/team_members/marjorie_color.jpg",
   "description": { 
     "en": "(en) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.",
     "fr": "Marjorie est ingénieure R&D. Diplômée de l'Université de Technologie de Compiègne (UTC), elle a travaillé plusieurs années à la conception de systèmes embarqués sur drones, avant d'entamer une spécialisation en photogrammétrie, positionnement et traitement d'images à l'Ecole Nationale des Sciences Géographiques (ENSG). Elle a rejoint Iconem en 2018 et se consacre à la parallélisation et la virtualisation de la production photogrammétrique, à des fins d'accessibilité et d'optimisation de ressources."  
