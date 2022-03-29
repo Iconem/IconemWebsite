@@ -1,7 +1,7 @@
 {
     "modalID": "SyrianHeritage",
     "thumbnailTitle": {
-        "en": "",
+        "en": "Syrian Heritage",
         "fr": "Syrian Heritage"
     },
     "thumbnailLocation": {
@@ -9,13 +9,13 @@
         "fr": ""
     },
     "thumbnailDate": {
-        "en": "",
+        "en": "2015",
         "fr": "2015"
     },
     "thumbnail": "img/projects/Placeholder/700x400.png",
     "articleTitle": {
-        "en": "",
-        "fr": "Numérisations du projet “Syrian Heritage” "
+        "en": "Digitisation of the “Syrian Heritage” project",
+        "fr": "Numérisations du projet “Syrian Heritage”"
     },
     "articleLocation": {
         "en": "",
@@ -26,12 +26,12 @@
         "fr": ""
     },
     "text": {
-        "en": "",
+        "en": "In 2015, Iconem traveled to Damascus to provide equipment and technical training to local teams, in order to safeguard the memory of sites in danger. At the end of our training mission, the DGAM (General Directorate of Antiquities and Museums of Syria) asked us to undertake a vast campaign to digitize the major archaeological sites of Syrian territory. Indeed, the conflict that has been tearing Syria apart since 2011 has devastated many historic sites. Faced with deliberate destruction, looting and degradation, Syrian heritage is now threatened with disappearance. The “Syrian Heritage” project aimed to create a digital database of Syrian monuments by our teams, but also to set up a national team capable of continuously enriching it. The data from the scanned locations has been published on a common site by Iconem and the DGAM, where they can be discovered through interactive virtual tours, computer-generated image videos or documentation for scientific use. Thanks to these surveys, Iconem, accompanied by the DGAM, has created the world's largest 3D database of Syrian sites in order to transmit this rich cultural heritage to future generations.",
         "fr": "En 2015, Iconem s’est rendue à Damas afin d’apporter du matériel et une formation technique aux équipes de terrain, de manière à sauvegarder la mémoire des sites en péril . A l’issue de notre mission de formation, la DGAM (Direction Générale des Antiquités et des Musées de Syrie) nous a demandé d’entreprendre une vaste campagne de numérisation des sites archéologiques majeurs du territoire syrien. En effet, le conflit qui déchire la Syrie depuis 2011 a dévasté de nombreux sites historiques. Face aux destructions volontaires, pillages et dégradations, le patrimoine syrien est désormais menacé de disparition. Le projet “Syrian Heritage” avait pour ambition de créer une base de données numérique des monuments syriens par nos équipes, mais également de mettre en place une équipe nationale capable de l’enrichir continuellement. Les données des lieux scannés ont été publiées sur un site commun par Iconem et la DGAM, où l’on peut les découvrir au travers de visites virtuelles interactives, de vidéos en images de synthèse ou de documentations à usage scientifique. Grâce à ces relevés, Iconem, accompagnée de la DGAM, a constitué la plus grande base mondiale de données 3D de sites syriens afin de transmettre aux générations futures ce riche patrimoine culturel."
     },
     "actors": {
-        "en": "",
-        "fr": "Iconem et la DGAM (Direction Générale des Antiquités et des Musées de Syrie).",
+        "en": "Iconem, DGAM",
+        "fr": "Iconem, DGAM (Direction Générale des Antiquités et des Musées de Syrie).",
         "logos": ["img/projects/Placeholder/80x80.png"]     
     },
     "img": [{

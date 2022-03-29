@@ -1,7 +1,7 @@
 {
     "modalID": "VauxLeVicomte",
     "thumbnailTitle": {
-        "en": "",
+        "en": "Vaux-le-Vicomte",
         "fr": "Vaux-le-Vicomte"
     },
     "thumbnailLocation": {
@@ -9,12 +9,12 @@
         "fr": ""
     },
     "thumbnailDate": {
-        "en": "",
+        "en": "Septembre 2019",
         "fr": "Septembre 2019"
     },
     "thumbnail": "img/projects/Placeholder/700x400.png",
     "articleTitle": {
-        "en": "",
+        "en": "Digitisation of Vaux-le-Vicomte castle",
         "fr": "Numérisation du château de Vaux-le-Vicomte"
     },
     "articleLocation": {
@@ -26,11 +26,11 @@
         "fr": ""
     },
     "text": {
-        "en": "",
+        "en": "Located in the commune of Maincy, south-east of Paris, the Château de Vaux-le-Vicomte was designed to arouse the wonder of its visitors. This jewel of French architecture has been built in the 17th century at the request of Nicolas Fouquet, superintendent of finances of Louis XIV, and it is the fruit of the work of many renowned artists and craftsmen such as Louis Le Vau, Charles Le Brun, André Le Nôtre or Michel Villedo. During a mission carried out in September 2019, Iconem digitized the castle of Vaux-le-Vicomte using photogrammetry and laser. The combination of these two innovative techniques made it possible to produce a very precise 3D model from which we extracted the plans of the building. This survey work highlights the nerve center of the castle: the grand salon and its ovoid dome, a true technical feat of the 17th century.",
         "fr": "Situé dans la commune de Maincy, au sud-est de Paris, le château de Vaux-le-Vicomte fut conçu dès l’origine pour susciter l’émerveillement de ses visiteurs. Construit au XVII ème siècle à la demande de Nicolas Fouquet, surintendant des finances de Louis XIV, ce joyau de l’architecture française est le fruit du travail de nombreux artistes et artisans reconnus comme Louis Le Vau, Charles Le Brun, André Le Nôtre ou encore Michel Villedo. Lors d’une mission effectuée en septembre 2019, Iconem a pu numériser le château de Vaux-le-Vicomte au moyen de la photogrammétrie et du laser . La combinaison de ces deux techniques innovantes a permis de réaliser un modèle 3D d’une grande précision à partir duquel nous avons extrait les plans du bâtiment. Ce travail de relevé met ainsi à l’honneur le centre névralgique du château: le grand-salon et son dôme ovoïde, véritable prouesse technique du XVIIème siècle."
     },
     "actors": {
-        "en": "",
+        "en": "Iconem",
         "fr": "Iconem",
         "logos": ["img/projects/Placeholder/80x80.png"]     
     },

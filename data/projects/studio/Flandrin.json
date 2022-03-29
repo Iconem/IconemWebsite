@@ -1,11 +1,11 @@
 {
     "modalID": "Flandrin",
     "thumbnailTitle": {
-        "en": "",
+        "en": "Flandrin",
         "fr": "Flandrin"
     },
     "thumbnailLocation": {
-        "en": "",
+        "en": "Musée des Beaux Arts de Lyon",
         "fr": "Musée des Beaux Arts de Lyon"
     },
     "thumbnailDate": {
@@ -14,11 +14,11 @@
     },
     "thumbnail": "img/projects/Flandrin/Flandrin_thumbnail.jpg",
     "articleTitle": {
-        "en": "",
-        "fr": "Hippolyte, Paul, Auguste : Les Flandrin, Artistes et frères "
+        "en": "Hippolyte, Paul, Auguste : Les Flandrin, Artistes et frères",
+        "fr": "Hippolyte, Paul, Auguste : Les Flandrin, Artistes et frères"
     },
     "articleLocation": {
-        "en": "",
+        "en": "Musée des Beaux Arts de Lyon, Lyon, France",
         "fr": "Musée des Beaux Arts de Lyon, Lyon, France"
     },
     "articleDate": {
@@ -26,7 +26,7 @@
         "fr": "27 mars 2021 - 27 juin 2021"
     },
     "text": {
-        "en": "",
+        "en": "The Saint-Germain-des-Près church, a former Benedictine abbey in Paris founded in the middle of the 6th century and restored in the 19th century by the architect Victor Baltard,  has always aroused the interest of its visitors. After a meticulous restoration of the church completed in 2020, Iconem’s team was commissioned by the Musée des Beaux-Arts de Lyon to digitize the interior of this monument featuring one of the most beautiful masterpieces produced by the painter Hippolyte Flandrin, assisted by his brother Paul. The exhibition was about its interior, and a part of it benefited from the research and technical analysis carried out by Iconem in support of the restoration project at Saint-Germain-des-Prés. An immersive projection was proposed, based on the digitization of all the interior decorations of the church carried out by our teams, in order to present them to visitors to help them understand the preparatory studies that were presented.",
         "fr": "Ancienne abbaye bénédictine de Paris fondée au milieu du VIème et restaurée au XIXème siècle par l’architecte Victor Baltard, l’église Saint-Germain-des-Près suscite depuis toujours l'intérêt de ses visiteurs. Après une restauration minutieuse de l’église achevée en 2020, l’équipe d’iconem à été missionnée par le musée des Beaux-Arts de Lyon, afin de numériser l’intérieur de ce monument comportant l’un des plus beau chef-d’oeuvre réalisé par le peintre Lyonnais, Hippolyte Flandrin assisté de son frère Paul. Une partie de l’exposition sur le thème de son décor a bénéficié des recherches et des analyses techniques menées par Iconem en accompagnement du chantier de restauration de Saint-Germain-des-Prés. Une projection immersive, s’appuyant sur la numérisation de l’intégralité des décors intérieurs de l’église réalisée par nos équipes, est proposée en point d’orgue, afin de restituer ceux-ci aux visiteurs pour leur en livrer les clés et les relier aux études préparatoires exposées."
     },
     "actors": {

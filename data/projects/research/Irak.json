@@ -1,7 +1,7 @@
 {
     "modalID": "Irak",
     "thumbnailTitle": {
-        "en": "",
+        "en": "Ninive, Khorsabad, Nimroud",
         "fr": "Ninive, Khorsabad, Nimroud"
     },
     "thumbnailLocation": {
@@ -9,12 +9,12 @@
         "fr": ""
     },
     "thumbnailDate": {
-        "en": "",
+        "en": "2017",
         "fr": "2017"
     },
     "thumbnail": "img/projects/Placeholder/700x400.png",
     "articleTitle": {
-        "en": "",
+        "en": "Digitisation of Ninive, Khorsabad, Nimroud",
         "fr": "Numérisation de Ninive, Khorsabad, Nimroud"
     },
     "articleLocation": {
@@ -26,12 +26,12 @@
         "fr": ""
     },
     "text": {
-        "en": "",
+        "en": "Ancient capitals of Assyria and located near the Tigris in northern Iraq, Nineveh, Khorsabad and Nimrud represent cultural, religious and economic centers. After a rapid urban expansion in the 2000s, their growth coupled with Daesh destructions and uncontrolled excavations threatens their survival. In 2017, Iconem scanned the tunnels and made a 3D video of them as a technical service provider for UNESCO. Indeed, the Nabi Yunus tunnels that surround the ancient city have highlighted the hidden Assyrians treasures. While the reconstruction of the city is underway, it is important to ensure that it does not threaten the historic site again and further.",
         "fr": "Anciennes capitales de l’Assyrie situé près du Tigre dans le nord de l’Irak,  Ninive, Khorsabad et Nimrud représentent des centres culturels, religieux et économiques d’importance. Ayant connu une expansion urbaine rapide dans les années 2000, sa croissance jumelée aux destructions de Daech et aux excavations sauvages menace leur survie. En 2017, Iconem a scanné les tunnels et en a réalisé une vidéo 3D en tant que prestataire technique de l’UNESCO. En effet, les tunnels de Nabi yunus qui quadrillent l’ancienne ville, ont ramené à la lumière du jour les trésors cachés des assyriens. Alors que la reconstruction de la ville est en cours, il est important de veiller à ce qu’elle ne menace pas à nouveau (davantage) le site historique."
     },
     "actors": {
-        "en": "",
-        "fr": "Acteur : Iconem, UNESCO",
+        "en": "Iconem, UNESCO",
+        "fr": "Iconem, UNESCO",
         "logos": ["img/projects/Placeholder/80x80.png"]     
     },
     "img": [{
