@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/Mossoul/Mossoul_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitisation of the old city of Mosul",
         "fr": "Numérisation de la vieille ville de Mossoul"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, UNESCO",
         "fr": "Iconem, UNESCO",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": ["img/projects/Placeholder/80x80.png"]
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/Mossoul/Mossoul_01.jpg",
+            "full": "img/projects/Mossoul/Mossoul_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

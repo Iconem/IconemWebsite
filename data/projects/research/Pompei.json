@@ -12,7 +12,7 @@
         "en": "2014",
         "fr": "2014"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/Pompei/Pompei_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitisation of Pompeii",
         "fr": "Numérisation de Pompéi"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, Microsoft Research, Inria",
         "fr": "Iconem, Microsoft Research, Inria",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": ["img/projects/Placeholder/80x80.png"]
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/Pompei/Pompei_01.jpg",
+            "full": "img/projects/Pompei/Pompei_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }
