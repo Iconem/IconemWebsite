@@ -32,7 +32,7 @@
     "actors": {
         "en": "Iconem and the Ecole française d’Athènes",
         "fr": "Iconem et l’Ecole française d’Athènes",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": []     
     },
     "img": [{
             "preview": "img/projects/Delos/Delos_01.jpg",

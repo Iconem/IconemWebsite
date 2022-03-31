@@ -12,7 +12,7 @@
         "en": "2019",
         "fr": "2019"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/CitesMillenairesRyad/Image_thumbnail.png",
     "articleTitle": {
         "en": "Age-Old Cities",
         "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
@@ -32,11 +32,40 @@
     "actors": {
         "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Director: Olivier Brunet, Audiovisual production: Mardi 8",
         "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Réalisateur : Olivier Brunet, Réalisation Audiovisuel : Mardi 8",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": ["img/projects/CitesMillenairesRyad/Logo_Aliph.png",
+            "img/projects/CitesMillenairesRyad/Logo_IMA.png",
+            "img/projects/CitesMillenairesRyad/Logo_MuseumNationalRiyadh.png",
+            "img/projects/CitesMillenairesRyad/Logo_Ubisoft.png",
+            "img/projects/CitesMillenairesRyad/Logo_UNESCO.png",
+            "img/projects/CitesMillenairesRyad/Logo_Unil.png"]     
     },
     "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
+        "preview": "img/projects/CitesMillenairesRyad/Image_01.png",
+        "full": "img/projects/CitesMillenairesRyad/Image_01.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/CitesMillenairesRyad/Image_02.png",
+        "full": "img/projects/CitesMillenairesRyad/Image_02.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/CitesMillenairesRyad/Image_03.png",
+        "full": "img/projects/CitesMillenairesRyad/Image_03.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/CitesMillenairesRyad/Image_04.png",
+        "full": "img/projects/CitesMillenairesRyad/Image_04.png",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

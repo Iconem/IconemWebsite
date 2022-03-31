@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/ArtConnexion/Image_thumbnail.jpg",
     "articleTitle": {
         "en": "Art # Connexion",
         "fr": "Art # Connexion"
@@ -32,11 +32,35 @@
     "actors": {
         "en": "Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual Director: Mardi 8",
         "fr": "Scénographie : Sylvain Roca , Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": ["img/projects/ArtConnexion/Logo_GoogleArtEtCulture.png", "img/projects/ArtConnexion/Logo_MinistèreDeLaCulture.png", "img/projects/ArtConnexion/Logo_RMN.png"]     
     },
     "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
+        "preview": "img/projects/ArtConnexion/Image_01.png",
+        "full": "img/projects/ArtConnexion/Image_01.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/ArtConnexion/Image_02.png",
+        "full": "img/projects/ArtConnexion/Image_02.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/ArtConnexion/Image_03.png",
+        "full": "img/projects/ArtConnexion/Image_03.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/ArtConnexion/Image_04.png",
+        "full": "img/projects/ArtConnexion/image_04.png",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

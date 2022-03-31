@@ -32,7 +32,7 @@
     "actors": {
         "en": "Iconem and the French Institute of Myanmar",
         "fr": "Iconem et l'Institut Français de Birmanie",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": []     
     },
     "img": [{
             "preview": "img/projects/Yangon/Yangon_01.jpg",

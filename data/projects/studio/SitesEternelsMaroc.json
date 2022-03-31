@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/SitesEternelsMaroc/Image_thumbnail.png",
     "articleTitle": {
         "en": "Eternal Sites : From Bâmiyân to Palmyra",
         "fr": "Sites éternels : De Bâmiyân à Palmyre"
@@ -32,11 +32,39 @@
     "actors": {
         "en": "General Curator: Jean-Luc Martinez, President and Director of the Louvre Museum and Bahija Simou, Director of the Royal Archives of Morocco, Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum and Marielle Pic, Director of the Department of Oriental Antiquities at the Louvre Museum, Scenography: Sylvain Roca and Nicolas Groult, Director: Olivier Brunet, Scientific documentation: Thomas Sagory, head of the digital development service",
         "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre et Bahija Simou, Directrice des Archives Royales du Maroc, Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre et Marielle Pic, directrice du Département des Antiquités orientales du musée du Louvre, Scénographie : Sylvain Roca et Nicolas Groult, Réalisateur : Olivier Brunet, Documentation scientifique : Thomas Sagory, chef du service du développement numérique",
-        "logos": ["img/projects/Placeholder/80x80.png"] 
+        "logos": ["img/projects/SitesEternelsMaroc/Logo_ArchivesRoyalesDuMaroc.png",
+            "img/projects/SitesEternelsMaroc/Logo_GoogleArtEtCulture.png",
+            "img/projects/SitesEternelsMaroc/Logo_Louvre.png",
+            "img/projects/SitesEternelsMaroc/Logo_RMN.png",
+            "img/projects/SitesEternelsMaroc/Logo_Unesco.png"] 
     },
     "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
+        "preview": "img/projects/SitesEternelsMaroc/Image_01.png",
+        "full": "img/projects/SitesEternelsMaroc/Image_01.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/SitesEternelsMaroc/Image_02.png",
+        "full": "img/projects/SitesEternelsMaroc/Image_02.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/SitesEternelsMaroc/Image_03.png",
+        "full": "img/projects/SitesEternelsMaroc/Image_03.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/SitesEternelsMaroc/Image_04.png",
+        "full": "img/projects/SitesEternelsMaroc/Image_04.png",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

@@ -32,7 +32,8 @@
     "actors": {
         "en": "General curator: Dr Julia Gonnella, Director of the Museum of Islamic Art, Curators: Rania Abdellatif, special curator, Scenography: Marc Pelletreau",
         "fr": "Commissariat général : Dr Julia Gonnella, Directrice du Museum of Islamic Art, Commissaires : Rania Abdellatif, commissaire spéciale, Scénographie : Marc Pelletreau",
-        "logos": ["img/projects/Placeholder/80x80.png"]
+        "logos": ["img/projects/SyriaMatters/Logo_Espai.png",
+            "img/projects/SyriaMatters/Logo_MIA.png"]
     },
     "img": [
         {

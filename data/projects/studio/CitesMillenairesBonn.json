@@ -12,7 +12,7 @@
         "en": "2019",
         "fr": "2019"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/CitesMillenairesBohn/Image_thumbnail.png",
     "articleTitle": {
         "en": "Age-Old Cities",
         "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
@@ -32,11 +32,35 @@
     "actors": {
         "en": "",
         "fr": "",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": []     
     },
     "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
+        "preview": "img/projects/CitesMillenairesBohn/Image_01.png",
+        "full": "img/projects/CitesMillenairesBohn/Image_01.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/CitesMillenairesBohn/Image_02.png",
+        "full": "img/projects/CitesMillenairesBohn/Image_02.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/CitesMillenairesBohn/Image_03.png",
+        "full": "img/projects/CitesMillenairesBohn/Image_03.png",
+        "caption": {
+            "en": "©Iconem",
+            "fr": "©Iconem"
+        }
+    },
+    {
+        "preview": "img/projects/CitesMillenairesBohn/Image_04.png",
+        "full": "img/projects/CitesMillenairesBohn/Image_04.png",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

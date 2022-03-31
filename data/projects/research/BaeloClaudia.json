@@ -32,7 +32,7 @@
     "actors": {
         "en": "Iconem, the Institut de recherche sur l'architecture antique (IRAA), and the Casa de Velázquez with funding from the Fondation ARPAMED",
         "fr": "Iconem, l'Institut de recherche sur l'architecture antique (IRAA) et la Casa de Velázquez avec le soutien de la Fondation ARPAMED",
-        "logos": ["img/projects/Placeholder/80x80.png"]     
+        "logos": []     
     },
     "img": [{
             "preview": "img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
