@@ -12,7 +12,7 @@
         "en": "2020",
         "fr": "2020"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/Compiegne/Compiegne_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitasation of the city of Compiègne",
         "fr": "Numérisation de la ville de Compiègne"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, Ville de Compiègne",
         "fr": "Iconem, Ville de Compiègne",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/Compiegne/Compiegne_01.jpg",
+            "full": "img/projects/Compiegne/Compiegne_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

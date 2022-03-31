@@ -12,7 +12,7 @@
         "en": "2015",
         "fr": "2015"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/SyrianHeritage/SyrianHeritage_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitisation of the “Syrian Heritage” project",
         "fr": "Numérisations du projet “Syrian Heritage”"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, DGAM",
         "fr": "Iconem, DGAM (Direction Générale des Antiquités et des Musées de Syrie).",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/SyrianHeritage/SyrianHeritage_01.jpg",
+            "full": "img/projects/SyrianHeritage/SyrianHeritage_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

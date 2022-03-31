@@ -12,7 +12,7 @@
         "en": "Septembre 2019",
         "fr": "Septembre 2019"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/VauxLeVicomte/VauxLeVicomte_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitisation of Vaux-le-Vicomte castle",
         "fr": "Numérisation du château de Vaux-le-Vicomte"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem",
         "fr": "Iconem",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/VauxLeVicomte/VauxLeVicomte_01.jpg",
+            "full": "img/projects/VauxLeVicomte/VauxLeVicomte_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

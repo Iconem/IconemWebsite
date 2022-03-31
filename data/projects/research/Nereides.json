@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/Nereides/Nereides_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitisation of the Nereides Monuments",
         "fr": "Numérisation Monument des Néréides"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, Université Bordeaux Montaigne, British Museum",
         "fr": "Iconem, Université Bordeaux Montaigne, British Museum",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/Nereides/Nereides_01.jpg",
+            "full": "img/projects/Nereides/Nereides_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

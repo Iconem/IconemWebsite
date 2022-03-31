@@ -12,7 +12,7 @@
         "en": "2019",
         "fr": "2019"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/PavillonLaMuette/PavillonLaMuette_thumbnail.jpg",
     "articleTitle": {
         "en": "Digitisation of Pavillon de la Muette",
         "fr": "Numérisation du Pavillon de la Muette"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, Esprimme",
         "fr": "Iconem, Esprimme",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/PavillonLaMuette/PavillonLaMuette_01.jpg",
+            "full": "img/projects/PavillonLaMuette/PavillonLaMuette_01.jpg",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }
