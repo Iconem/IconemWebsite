@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 body > section {
@@ -37,6 +38,10 @@ body > section {
     transition: background 3s linear;
 }
 
+.bg-loading {
+    opacity: 0;
+}
+
 a {
     color: black;
     /* -webkit-transition: all 0.35s;
@@ -52,7 +57,7 @@ a:visited {
     outline: none;
 }
 
-/* creative.css ovveride */
+creative.css ovveride
 .navbar-default.affix {
     background-color: rgba(255, 255, 255, 0.9);
 }
@@ -60,7 +65,7 @@ a:visited {
 @media (min-width: 768px) {
     .navbar-default {
         border-color: rgba(255, 255, 255, 0.9);
-        background-color: transparent;
+        background-color: white;
     }
 
     .navbar-default .nav > li > a,
@@ -433,7 +438,7 @@ circle:hover,
 
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-    background-color: transparent;
+    background-color: white;
     color: black !important;
     font-weight: bold;
 }

@@ -1173,8 +1173,6 @@
                   
               
                   
-              
-                  
                       <div class="panel team-member-panel">
                           
                               <div id="team-member-jim" class="panel-collapse collapse text-justify" role="tabpanel">
@@ -1186,6 +1184,8 @@
                               <p class="text-justify">(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
                               </div>
                       </div>
+                  
+              
                   
               
                   
@@ -1338,6 +1338,8 @@
               
           
               
+          
+              
                   
                       <div class="team-img" id="team-img-jim">
                   
@@ -1350,8 +1352,6 @@
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/about/team_members/jim_bw.jpg" class="img-responsive" />
                       </a>
                   </div>
-              
-          
               
           
               
@@ -3863,71 +3863,77 @@
 
   
   
-    const imageUrl = "img/home/studio_background.png";
-  
-
   var body = $('body');
   var backgrounds = new Array(
     
-      
-      'url(' + "img/projects/Alep/Alep_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/ArtConnexion/Image_01.png" + ')',
+      "img/projects/Alep/Alep_01.jpg",
     
-      
-      'url(' + "img/projects/BatirUnEmpire/BatirUnEmpire_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Placeholder/1920x1080.png" + ')',
+      "img/projects/ArtConnexion/Image_01.png",
     
-      
-      'url(' + "img/projects/CitesMillenaires/CitesMillenaires_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/CitesMillenairesBohn/Image_01.png" + ')',
+      "img/projects/BatirUnEmpire/BatirUnEmpire_01.jpg",
     
-      
-      'url(' + "img/projects/CitesMillenairesRyad/Image_01.png" + ')',
     
-      
-      'url(' + "img/projects/CitesMillenairesSmithsonian/Image_01.png" + ')',
+      "img/projects/Placeholder/1920x1080.png",
     
-      
-      'url(' + "img/projects/Flandrin/Flandrin_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_01.jpg" + ')',
+      "img/projects/CitesMillenaires/CitesMillenaires_01.jpg",
     
-      
-      'url(' + "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Ninive/Image_01.png" + ')',
+      "img/projects/CitesMillenairesBohn/Image_01.png",
     
-      
-      'url(' + "img/projects/Placeholder/1920x1080.png" + ')',
     
-      
-      'url(' + "img/projects/Shurbanipal/Image_01.png" + ')',
+      "img/projects/CitesMillenairesRyad/Image_01.png",
     
-      
-      'url(' + "img/projects/SitesEternels/SitesEternels_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/SitesEternelsMaroc/Image_01.png" + ')',
+      "img/projects/CitesMillenairesSmithsonian/Image_01.png",
     
-      
-      'url(' + "img/projects/SyriaMatters/SyriaMatters_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/SyrianSymphony/SyrianSymphony_01.jpg" + ')',
+      "img/projects/Flandrin/Flandrin_01.jpg",
     
-  );
+    
+      "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_01.jpg",
+    
+    
+      "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg",
+    
+    
+      "img/projects/Ninive/Image_01.png",
+    
+    
+      "img/projects/Placeholder/1920x1080.png",
+    
+    
+      "img/projects/Shurbanipal/Image_01.png",
+    
+    
+      "img/projects/SitesEternels/SitesEternels_01.jpg",
+    
+    
+      "img/projects/SitesEternelsMaroc/Image_01.png",
+    
+    
+      "img/projects/SyriaMatters/SyriaMatters_01.jpg",
+    
+    
+      "img/projects/SyrianSymphony/SyrianSymphony_01.jpg",
+    
+    );
+
+
+    
+    
+    
+
+  const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
+
   var current = 0;
   function nextBackground() {
-    document.body.style.backgroundImage = backgrounds[current = ++current % backgrounds.length];
     
+    document.body.style.backgroundImage = 'url(' + backgrounds[Math.floor(Math.random()*backgrounds.length)] + ')';
+    setTimeout(nextBackground, 10000);
   }
 
   document.body.classList.add("bg-loading");
@@ -3938,7 +3944,7 @@
     document.body.classList.remove("bg-loading");
     document.body.style.backgroundImage = `url(${imageUrl})`;
     preloaderImg = null;
-    
+    setTimeout(nextBackground, 10000);
   });
   
   

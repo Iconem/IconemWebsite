@@ -46,7 +46,7 @@
 <![endif]-->
 
     </head>
-    <body id="page-top">        
+    <body id="page-top" class="bg-lazy">        
         
             <!-- NAVIGATION -->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -2138,8 +2138,6 @@
               
           
               
-          
-              
                   
                       <div class="team-img" id="team-img-jim">
                   
@@ -2152,6 +2150,8 @@
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/about/team_members/jim_bw.jpg" class="img-responsive" />
                       </a>
                   </div>
+              
+          
               
           
               
@@ -2351,9 +2351,9 @@
                         
                         
                             <a href="https://www.diplomatie.gouv.fr/fr/" target="_blank">
-                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/partners/MAE_Passif.png" 
+                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/partners/MAE_Passifnoir.png" 
                                     onmouseenter="this.src=&#34;img/partners/MAE.png&#34;" 
-                                    onmouseleave="this.src=&#34;img/partners/MAE_Passif.png&#34;"
+                                    onmouseleave="this.src=&#34;img/partners/MAE_Passifnoir.png&#34;"
                                 />
                             </a>
                         
@@ -5109,71 +5109,77 @@
 
   
   
-  const imageUrl = "img/home/research_background.png";
-  
-
   var body = $('body');
   var backgrounds = new Array(
     
-      
-      'url(' + "img/projects/Alep/Alep_10.jpg" + ')',
     
-      
-      'url(' + "img/projects/Angkor/Angkor_01.jpg" + ')',
+      "img/projects/Alep/Alep_10.jpg",
     
-      
-      'url(' + "img/projects/BaeloClaudia/BaeloClaudia_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Placeholder/1920x1080.png" + ')',
+      "img/projects/Angkor/Angkor_01.jpg",
     
-      
-      'url(' + "img/projects/Compiegne/Compiegne_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Placeholder/1920x1080.png" + ')',
+      "img/projects/BaeloClaudia/BaeloClaudia_01.jpg",
     
-      
-      'url(' + "img/projects/Delos/Delos_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Hyderabad/Hyderabad_01.jpg" + ')',
+      "img/projects/Placeholder/1920x1080.png",
     
-      
-      'url(' + "img/projects/Placeholder/1920x1080.png" + ')',
     
-      
-      'url(' + "img/projects/Mossoul/Mossoul_01.jpg" + ')',
+      "img/projects/Compiegne/Compiegne_01.jpg",
     
-      
-      'url(' + "img/projects/Nereides/Nereides_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Palmyre/Palmyre_01.jpg" + ')',
+      "img/projects/Placeholder/1920x1080.png",
     
-      
-      'url(' + "img/projects/PavillonLaMuette/PavillonLaMuette_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Pompei/Pompei_01.jpg" + ')',
+      "img/projects/Delos/Delos_01.jpg",
     
-      
-      'url(' + "img/projects/SaintRoman/SaintRoman_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/SyrianHeritage/SyrianHeritage_01.jpg" + ')',
+      "img/projects/Hyderabad/Hyderabad_01.jpg",
     
-      
-      'url(' + "img/projects/VauxLeVicomte/VauxLeVicomte_01.jpg" + ')',
     
-      
-      'url(' + "img/projects/Yangon/Yangon_01.jpg" + ')',
+      "img/projects/Placeholder/1920x1080.png",
     
-  );
+    
+      "img/projects/Mossoul/Mossoul_01.jpg",
+    
+    
+      "img/projects/Nereides/Nereides_01.jpg",
+    
+    
+      "img/projects/Palmyre/Palmyre_01.jpg",
+    
+    
+      "img/projects/PavillonLaMuette/PavillonLaMuette_01.jpg",
+    
+    
+      "img/projects/Pompei/Pompei_01.jpg",
+    
+    
+      "img/projects/SaintRoman/SaintRoman_01.jpg",
+    
+    
+      "img/projects/SyrianHeritage/SyrianHeritage_01.jpg",
+    
+    
+      "img/projects/VauxLeVicomte/VauxLeVicomte_01.jpg",
+    
+    
+      "img/projects/Yangon/Yangon_01.jpg",
+    
+    );
+
+
+    
+    
+    
+
+  const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
+
   var current = 0;
   function nextBackground() {
-    document.body.style.backgroundImage = backgrounds[current = ++current % backgrounds.length];
     
+    document.body.style.backgroundImage = 'url(' + backgrounds[Math.floor(Math.random()*backgrounds.length)] + ')';
+    setTimeout(nextBackground, 10000);
   }
 
   document.body.classList.add("bg-loading");
@@ -5184,7 +5190,7 @@
     document.body.classList.remove("bg-loading");
     document.body.style.backgroundImage = `url(${imageUrl})`;
     preloaderImg = null;
-    
+    setTimeout(nextBackground, 10000);
   });
   
   
