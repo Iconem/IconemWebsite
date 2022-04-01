@@ -7,16 +7,17 @@
         <div style="display:flex;justify-content: space-around;">
             <!-- grow shrink basis -->
             <div style="flex:1 1 100%;min-width:50%;">
-            {{ with .Site.Params.about.title }}
+            {{ with .Site.Params.team }}
                 <div>
                 <h3 class="text-center text-uppercase text-bolder section-title">
-                    {{ . }}
+                    {{ .title }}
                 </h3>
-                <hr>
+                <h4 class="text-center text-uppercase"> {{ .subtitle }}</h4>
+                <br />
                 </div>
             {{ end }}
 
-            {{ with .Site.Params.about.description }}
+            {{ with .Site.Params.team.description }}
                 <p class="text-justify">{{ . | markdownify }}</p>
             {{ end }}
             </div>
