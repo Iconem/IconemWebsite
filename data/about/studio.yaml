@@ -6,6 +6,8 @@ img: img/home/studio_background.png
 description:
     en: Threatened at all times by looting, urbanization, mass tourism, armed conflicts and climate change, world heritage is today in danger. It is urgent to identify it. Founded in 2013, Iconem is a startup specializing in the 3D digitization of endangered sites. Its 3D models of monuments, urban or rural heritage on a large scale and its training courses dedicated to professionals aim at essential work of heritage conservation and restoration. For the sake of raising awareness, Iconem also creates digital exhibitions in France and internationally for the general public. These experiences of virtual reality and projection of 3D models allow visitors an immersive journey in exceptional places, often difficult to access.
     fr: Menacé de tout temps par les pillages, l’urbanisation, le tourisme de masse, les conflits armés et le changement climatique, le patrimoine mondial est aujourd’hui en danger. Il est urgent de le recenser. Fondée en 2013, Iconem est une startup spécialisée dans la numérisation 3D de sites en péril. Ses modèles 3D de monuments, de patrimoine urbain ou rural à grande échelle et ses formations dédiées aux professionnels ont pour objectif de contribuer au travail essentiel de conservation et de restauration du patrimoine. Dans un souci de sensibilisation, Iconem crée également des expositions numériques en France et à l’international destinées au grand public. Ces expériences de réalité virtuelle et de projection de modèles 3D permettent aux visiteurs, un voyage immersif dans des lieux d’exception, souvent difficiles d’accès.
-logo: img/home/logo_studio_white.png
+logo: 
+    black: img/home/logo_studio_black.png
+    white: img/home/logo_studio_white.png
 internal: true
 link: studio

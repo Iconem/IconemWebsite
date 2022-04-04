@@ -1,4 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
+{{ $type := .Type }}
 <section id="about">
     <!-- <section>
         <div class="container">
@@ -30,10 +31,10 @@
           <a href="{{ .link }}" target="_blank">
           {{ end }}
               <!-- <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .img }}" class="img-responsive" alt=""> -->
-              <div style='background-image: url("{{ .img }}");' class="about-content img-responsive">
-                <div class="about-content-logo">
+              <div class="about-content img-responsive">
+                <!-- <div class="about-content-logo">
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .logo }}" />
-                </div>
+                </div> -->
                 <div class="about-content-description">
                     <!-- <h4 class="text-uppercase text-center">
                       {{ index .title $lang }}
@@ -41,7 +42,11 @@
                     <br />
                     <br />
                     <div class="text-uppercase text-center">
-                      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .logo }}" />
+                      {{ if eq $type "research" }}
+                      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .logo.black }}" />
+                      {{ else if eq $type "studio" }}
+                      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .logo.white }}" />
+                      {{ end }}
                     </div>
                     <br />
                     <br />
