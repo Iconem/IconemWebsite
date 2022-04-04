@@ -480,6 +480,7 @@ header .header-footer a img:hover {
 #about {
     margin: 80px 0;
     padding:0;
+    margin-bottom:0px;
 }
 
 #about .about-row {
@@ -513,10 +514,11 @@ header .header-footer a img:hover {
     color: white;
     padding: 0 10%;
     transition: box-shadow 0.3s ease-out;
-    height: 50vh;
+    height: 100%;
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    padding-bottom:20px;
 }
 
 @media (min-width: 800px) {
@@ -581,11 +583,12 @@ header .header-footer a img:hover {
 
 #contact {
     background: none;
+    margin-top:80px;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 #contact .contact-container {
     padding:15px;
-    background: rgba(0, 0, 0, 0.7);
     color: white;
 }
 

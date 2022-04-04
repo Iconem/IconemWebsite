@@ -66,7 +66,7 @@ a:visited {
 }
 
 #lang-menu {
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media (min-width: 768px) {
@@ -301,7 +301,7 @@ a:visited {
 
 #iconem-map-infos-country, #iconem-map-infos-description {
     color:white;
-    background:rgba(112, 128, 144, 0.8);
+    background:rgba(0, 0, 0, 0.6);
 }
 
 #iconem-map-infos-description ul {
@@ -341,8 +341,8 @@ a:visited {
     width: 100%;
     height: 100%;
     stroke-width: 0.5px;
-    stroke: slategray;
-    fill: lightsteelblue !important;
+    stroke: grey;
+    fill: lightgrey !important;
     /* mix-blend-mode: soft-light !important; */
     shape-rendering: geometricPrecision !important;
 }
@@ -352,7 +352,7 @@ a:visited {
     /*stroke-width: 1px;
   stroke: black;*/
     /* mix-blend-mode: soft-light !important; */
-    fill: slategrey !important;
+    fill: gray !important;
 }
 
 #iconem-map-svg path:hover,
@@ -577,10 +577,11 @@ header .header-footer a img:hover {
     color: black;
     padding: 0 10%;
     transition: box-shadow 0.3s ease-out;
-    height: 50vh;
+    height: 100%;
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    padding-bottom:20px;
 }
 
 @media (min-width: 800px) {
@@ -645,11 +646,12 @@ header .header-footer a img:hover {
 
 #contact {
     background: none;
+    margin-top:80px;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 #contact .contact-container {
     padding:15px;
-    background: rgba(255, 255, 255, 0.7);
     color: black;
 }
 
