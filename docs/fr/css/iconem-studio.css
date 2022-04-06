@@ -581,6 +581,16 @@ header .header-footer a img:hover {
     box-shadow: none;
 }
 
+@media (max-width: 1199px) {
+    #about-team-left > div {
+        flex-direction: column;
+    }
+
+    #about-team-right {
+        padding-top:80px;
+    }
+}
+
 #contact {
     background: none;
     margin-top:80px;

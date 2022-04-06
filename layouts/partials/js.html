@@ -298,16 +298,16 @@
 
     // handle carousel navigation using keyboard arrows
     $(document).keyup(function (e) {
-      if (e.keyCode === 37) {
-        //left arrow
-        var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
-        currentlyOpenCarousel.trigger('prev.owl.carousel');
-      }
-      if (e.keyCode === 39) {
-        //rightarrow
-        var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
-        currentlyOpenCarousel.trigger('next.owl.carousel');
-      }
+      // if (e.keyCode === 37) {
+      //   //left arrow
+      //   var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
+      //   currentlyOpenCarousel.trigger('prev.owl.carousel');
+      // }
+      // if (e.keyCode === 39) {
+      //   //rightarrow
+      //   var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
+      //   currentlyOpenCarousel.trigger('next.owl.carousel');
+      // }
     });
 
   });
@@ -322,7 +322,7 @@
       autoplay: true,
       autoWidth: true,
       autoplayHoverPause: false,
-      autoplayTimeout: 2000,
+      autoplayTimeout: 5000,
       rewind: true
     });
   });

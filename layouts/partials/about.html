@@ -19,6 +19,22 @@
             </div>
         </div>
     </section> -->
+    <section>
+      <div class="container">
+        <div class="about-row">
+            <div class="col-lg-10 col-lg-offset-1">
+                {{ with .Site.Params.about.title }}
+                    <h4 class="text-center text-uppercase text-bolder">{{ . }}</h4>
+                    <!-- <hr> -->
+                {{ end }}
+                <br>
+                {{ with .Site.Params.about.description }}
+                    <p class="text-justify">{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+      </div>
+    </section>
     <div class="about-row">
       {{ $baseUrl := .Site.Params.baseUrl}}
       {{ range sort .Site.Data.about "order"}}
