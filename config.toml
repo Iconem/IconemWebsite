@@ -168,12 +168,12 @@ publishDir = "docs"
 	[languages.en.team]
 		title = "Our team"
 		subtitle = ""
-		description = "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. (fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. (fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
+		description = "Based in Paris, Iconem currently brings together a multidisciplinary team of about ten employees: architects, computer scientists, engineers, 3D graphic designers and archeologists whose strength lies in working together to solve the complex issue of safeguarding the historical and archeological heritage."
 
 	[languages.fr.team]
 		title = "Notre équipe"
 		subtitle = ""
-		description = "(fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. (fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit. (fr) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit."
+		description = "Based in Paris, Iconem currently brings together a multidisciplinary team of about ten employees: architects, computer scientists, engineers, 3D graphic designers and archeologists whose strength lies in working together to solve the complex issue of safeguarding the historical and archeological heritage."
 
 	# Contact section
 	[params.contact]

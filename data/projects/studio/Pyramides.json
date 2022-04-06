@@ -12,7 +12,7 @@
         "en": "2021",
         "fr": "2021"
     },
-    "thumbnail": "img/projects/Placeholder/700x400.png",
+    "thumbnail": "img/projects/Pyramids/Pyramids_thumbnail.jpg",
     "articleTitle": {
         "en": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte",
         "fr": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte"
@@ -35,8 +35,8 @@
         "logos": []  
     },
     "img": [{
-        "preview": "img/projects/Placeholder/1920x1080.png",
-        "full": "img/projects/Placeholder/1920x1080.png",
+        "preview": "img/projects/Pyramids/Pyramids_01.jpg",
+        "full": "img/projects/Pyramids/Pyramids_01.jpg",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
