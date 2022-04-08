@@ -360,7 +360,7 @@ circle:hover,
 #iconem-map-svg polygon:hover {
     fill: GhostWhite !important;
     /* mix-blend-mode: normal !important; */
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* ICONEM SLICK SLIDER INITIALISATION FIX */

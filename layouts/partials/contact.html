@@ -37,7 +37,7 @@
                   {{ else if eq $type "studio" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_white.png" class="wow bounceIn" data-wow-delay=".1s">
                   {{ end }}
-                  <p>{{ .Site.Params.contact.email }}</p>
+                  <a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
                 </div>
             {{ end }}
             {{ if .Site.Params.press_kit }}
