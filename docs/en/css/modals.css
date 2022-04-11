@@ -18,7 +18,7 @@ body {
 
 .iconem-modal {
     color: black;
-    /* background-image: url(../img/home/studio_background.png); */
+    /* background-image: url(../img/home/studio_background.webp); */
     padding-right: 0 !important;
     /* padding-bottom: 100px;
     padding-top: 100px; */
@@ -289,7 +289,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background: url("../img/projects/icons/fullScreen_white.png");
+    background: url("../img/projects/icons/fullScreen_white.webp");
 }
 
 .iconem-modal .owl-carousel.owl-theme .img-toolbar .img-fullscreen-btn:hover {
@@ -297,7 +297,7 @@ body {
 }
 
 .iconem-modal .owl-carousel.owl-theme.full .img-toolbar .img-fullscreen-btn {
-    background: url("../img/projects/icons/fullScreenExit_white.png");
+    background: url("../img/projects/icons/fullScreenExit_white.webp");
 }
 
 .iconem-modal .owl-carousel.owl-theme {

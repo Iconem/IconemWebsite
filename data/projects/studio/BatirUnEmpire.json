@@ -12,7 +12,7 @@
         "en": "2020",
         "fr": "2020"
     },
-    "thumbnail": "img/projects/BatirUnEmpire/BatirUnEmpire_thumbnail.jpg",
+    "thumbnail": "img/projects/BatirUnEmpire/BatirUnEmpire_thumbnail.webp",
     "articleTitle": {
         "en": "Build an Empire : A virtual exhibition of the Roman worlds",
         "fr": "Bâtir un empire : Une exposition virtuelle des mondes romains"
@@ -33,39 +33,39 @@
         "en": "Exhibition coordination: Xavier Gerard, Iconem project manager Artistic direction: Gaël Labousse, Artistic director Iconem Scientific advisor: Vivien Barrière, Lecturer in history and archeology at CY Cergy Paris University General scenography: Julien Baron",
         "fr": "Coordination de l’exposition : Xavier Gerard, Chef de projet Iconem Direction artistique : Gaël Labousse, Directeur artistique Iconem Conseil scientifique : Vivien Barrière, Maître de conférences en histoire et archéologie à CY Cergy Paris Université Scénographie générale : Julien Baron",
         "logos": [
-          "img/projects/BatirUnEmpire/Logo_MuseeDeLaRomanite.png",
-          "img/projects/BatirUnEmpire/Logo_Ubisoft.png",
-          "img/projects/BatirUnEmpire/Logo_VilleDeNimes.png"
+          "img/projects/BatirUnEmpire/Logo_MuseeDeLaRomanite.webp",
+          "img/projects/BatirUnEmpire/Logo_Ubisoft.webp",
+          "img/projects/BatirUnEmpire/Logo_VilleDeNimes.webp"
         ]     
     },
     "img": [
         {
-            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_01.jpg",
-            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_01.jpg",
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_01.webp",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_02.jpg",
-            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_02.jpg",
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_02.webp",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_03.jpg",
-            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_03.jpg",
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_03.webp",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_04.jpg",
-            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_04.jpg",
+            "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_04.webp",
+            "full": "img/projects/BatirUnEmpire/BatirUnEmpire_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

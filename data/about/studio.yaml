@@ -2,12 +2,12 @@ order: 2
 title:
     en: Studio
     fr: Studio
-img: img/home/studio_background.png
+img: img/home/studio_background.webp
 description:
     en: Iconem Studio creates immersive exhibitions promoting heritage with major museums worldwide, produces video and images for documentaries...
     fr: Iconem Studio créés des expositions immersives afin de promouvoir le partimoine culturelle en collaboration avec des musées de renommée mondiale, produit du contenu pour des documentaires...
 logo: 
-    black: img/home/logo_studio_black.png
-    white: img/home/logo_studio_white.png
+    black: img/home/logo_studio_black.webp
+    white: img/home/logo_studio_white.webp
 internal: true
 link: studio

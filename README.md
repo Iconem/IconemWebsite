@@ -29,10 +29,10 @@
 - **/!\ The thumbnail image should**
   - **be 720x405px**
   - **be desaturated (cf .psd files in the folder ./templates)**
-  - **be in .jpg format, with 75% compression**
+  - **be in .webp format, with 75% compression**
 - **/!\ The project images should**
   - **be 1920x800px(landscape) or 608x1080px (portrait)**
-  - **be in .jpg format, with 75% compression**
+  - **be in .webp format, with 75% compression**
 - **/!\ Don't forget the "/embed" at the end Sketchfab links**
 
 <br />
@@ -77,7 +77,7 @@ Map projects are listed by country in the folder `./data/map`. There is one file
 - **/!\ All fields marked with \* are mandatory.**
 - **/!\ Logos should be located in the folder `./static/img/clients`**
 - **/!\ The logos should**
-  - **be in .png format (with transparent background)**
+  - **be in .webp format (with transparent background)**
   - **be 100x50px**
 
 <br/>

@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/SaintRoman/SaintRoman_thumbnail.jpg",
+    "thumbnail": "img/projects/SaintRoman/SaintRoman_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Saint-Roman",
         "fr": "Numérisation de Saint-Roman"
@@ -35,80 +35,80 @@
         "logos": []     
     },
     "img": [{
-            "preview": "img/projects/SaintRoman/SaintRoman_01.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_01.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_01.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
                 }
             },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_02.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_02.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_02.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_03.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_03.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_03.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_04.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_04.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_04.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_05.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_05.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_05.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_06.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_06.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_06.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_08.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_08.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_08.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_08.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_11.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_11.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_11.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_11.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_12.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_12.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_12.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_12.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SaintRoman/SaintRoman_15.jpg",
-            "full": "img/projects/SaintRoman/SaintRoman_15.jpg",
+            "preview": "img/projects/SaintRoman/SaintRoman_15.webp",
+            "full": "img/projects/SaintRoman/SaintRoman_15.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -117,6 +117,6 @@
     ],
     "video": [{
         "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-        "preview": "img/projects/SaintRoman/SaintRoman_YoutubeThumbnail1.jpg"
+        "preview": "img/projects/SaintRoman/SaintRoman_YoutubeThumbnail1.webp"
     }]
 }

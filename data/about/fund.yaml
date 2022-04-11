@@ -2,11 +2,11 @@ order: 4
 title:
     en: Fund
     fr: Fondation
-img: img/home/studio_background.png
+img: img/home/studio_background.webp
 description:
     en: Contribute to Iconem Fund for Endangered Heritage as an organization or an individual, and help preserve the most fragile icons of our heritage via emergency missions
     fr: Contribuez au Fonds Iconem pour la protection du patrimoine menacé en tant qu'organisation ou individu, afin d'aider à la préservation des symboles les plus fragiles de notre patrimoine culturel à travers des missions d'urgences
 logo: 
-    black: img/home/logo_fund_black.png
-    white: img/home/logo_fund_white.png
+    black: img/home/logo_fund_black.webp
+    white: img/home/logo_fund_white.webp
 link: "https://www.helloasso.com/associations/fonds-iconem-pour-la-protection-du-patrimoine-menace"

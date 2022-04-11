@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/Alep/Alep_thumbnail_02.jpg",
+    "thumbnail": "img/projects/Alep/Alep_thumbnail_02.webp",
     "articleTitle": {
         "en": "Digitisation of Aleppo",
         "fr": "Numérisation d'Alep"
@@ -35,80 +35,80 @@
         "logos": []     
     },
     "img": [{
-            "preview": "img/projects/Alep/Alep_10.jpg",
-            "full": "img/projects/Alep/Alep_10.jpg",
+            "preview": "img/projects/Alep/Alep_10.webp",
+            "full": "img/projects/Alep/Alep_10.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
                 }
             },
         {
-            "preview": "img/projects/Alep/Alep_11.jpg",
-            "full": "img/projects/Alep/Alep_11.jpg",
+            "preview": "img/projects/Alep/Alep_11.webp",
+            "full": "img/projects/Alep/Alep_11.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_12.jpg",
-            "full": "img/projects/Alep/Alep_12.jpg",
+            "preview": "img/projects/Alep/Alep_12.webp",
+            "full": "img/projects/Alep/Alep_12.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_13.jpg",
-            "full": "img/projects/Alep/Alep_13.jpg",
+            "preview": "img/projects/Alep/Alep_13.webp",
+            "full": "img/projects/Alep/Alep_13.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_14.jpg",
-            "full": "img/projects/Alep/Alep_14.jpg",
+            "preview": "img/projects/Alep/Alep_14.webp",
+            "full": "img/projects/Alep/Alep_14.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_15.jpg",
-            "full": "img/projects/Alep/Alep_15.jpg",
+            "preview": "img/projects/Alep/Alep_15.webp",
+            "full": "img/projects/Alep/Alep_15.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_16.jpg",
-            "full": "img/projects/Alep/Alep_16.jpg",
+            "preview": "img/projects/Alep/Alep_16.webp",
+            "full": "img/projects/Alep/Alep_16.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_17.jpg",
-            "full": "img/projects/Alep/Alep_17.jpg",
+            "preview": "img/projects/Alep/Alep_17.webp",
+            "full": "img/projects/Alep/Alep_17.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_18.jpg",
-            "full": "img/projects/Alep/Alep_18.jpg",
+            "preview": "img/projects/Alep/Alep_18.webp",
+            "full": "img/projects/Alep/Alep_18.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Alep/Alep_15.jpg",
-            "full": "img/projects/Alep/Alep_15.jpg",
+            "preview": "img/projects/Alep/Alep_15.webp",
+            "full": "img/projects/Alep/Alep_15.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -117,15 +117,15 @@
     ],
     "video": [{
         "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
-        "preview": "img/projects/Alep/Alep_YoutubeThumbnail3.jpg"
+        "preview": "img/projects/Alep/Alep_YoutubeThumbnail3.webp"
     },
     {
         "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
-        "preview": "img/projects/Alep/Alep_YoutubeThumbnail1.jpg"
+        "preview": "img/projects/Alep/Alep_YoutubeThumbnail1.webp"
     },
     {
         "src": "https://www.youtube.com/watch?v=rOqTeBVaceY",
-        "preview": "img/projects/Alep/Alep_YoutubeThumbnail2.jpg"
+        "preview": "img/projects/Alep/Alep_YoutubeThumbnail2.webp"
     }],
     "models": [
         "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"

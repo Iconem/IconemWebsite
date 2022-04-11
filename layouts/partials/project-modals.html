@@ -45,7 +45,7 @@
                   {{ end }}
                   {{ end }}
               </div>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_white.png" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_white.webp" class="img-cross" onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')">
               <div class="img-fullscreen-btn"
                 onclick="toggleFullScreenCarousel('#project-{{ $projectIndex }}-img-carousel')"
               ></div>
@@ -58,7 +58,7 @@
                 data-parent='#project-{{$projectIndex}}-media'
                 aria-expanded="true"
                 onclick="goToFirstImage({{ $project }});">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/img_black.png" 
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/img_black.webp" 
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="{{ $.Site.Params.projects.modal.pictures }}" 
@@ -72,7 +72,7 @@
                     data-parent='#project-{{$projectIndex}}-media'
                     aria-expanded="false"
                     onclick="goToFirstVideo({{ $project }});">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/video_black.png"
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/video_black.webp"
                         data-toggle="tooltip"
                         data-placement="bottom"
                         title="{{ $.Site.Params.projects.modal.videos }}" 
@@ -87,7 +87,7 @@
                     data-parent='#project-{{$projectIndex}}-media'
                     aria-expanded="false"
                     onclick="goToFirstModel({{ $project }});">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/3ds_black.png"
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/3ds_black.webp"
                         data-toggle="tooltip"
                         data-placement="bottom"
                         title="{{ $.Site.Params.projects.modal.models }}"
@@ -99,11 +99,11 @@
     </div>
     <div id="project-media-description" class="modal-content"> 
       {{ if eq $type "research" }}
-      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_black.png" class="close-modal" data-dismiss="modal">
-      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/hide_black.png" alt="" class="hide-modal-content" onclick="toggleContent()">
+      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_black.webp" class="close-modal" data-dismiss="modal">
+      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/hide_black.webp" alt="" class="hide-modal-content" onclick="toggleContent()">
       {{ else if eq $type "studio" }}
-      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_white.png" class="close-modal" data-dismiss="modal">
-      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/hide_white.png" alt="" class="hide-modal-content" onclick="toggleContent()">
+      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/cross_white.webp" class="close-modal" data-dismiss="modal">
+      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/home/hide_white.webp" alt="" class="hide-modal-content" onclick="toggleContent()">
       {{ end }}      
       <div class="col-sm-10 col-sm-offset-1 modal-body">
           <div class="modal-fixed">

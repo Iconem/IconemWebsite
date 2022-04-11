@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Nereides/Nereides_thumbnail.jpg",
+    "thumbnail": "img/projects/Nereides/Nereides_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of the Nereides Monuments",
         "fr": "Numérisation Monument des Néréides"
@@ -36,8 +36,8 @@
     },
     "img": [
         {
-            "preview": "img/projects/Nereides/Nereides_01.jpg",
-            "full": "img/projects/Nereides/Nereides_01.jpg",
+            "preview": "img/projects/Nereides/Nereides_01.webp",
+            "full": "img/projects/Nereides/Nereides_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

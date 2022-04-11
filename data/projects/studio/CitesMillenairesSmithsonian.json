@@ -12,7 +12,7 @@
         "en": "",
         "fr": ""
     },
-    "thumbnail": "img/projects/CitesMillenairesSmithsonian/Image_thumbnail.png",
+    "thumbnail": "img/projects/CitesMillenairesSmithsonian/Image_thumbnail.webp",
     "articleTitle": {
         "en": "Age-Old Cities",
         "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
@@ -35,32 +35,32 @@
         "logos": []     
     },
     "img": [{
-        "preview": "img/projects/CitesMillenairesSmithsonian/Image_01.png",
-        "full": "img/projects/CitesMillenairesSmithsonian/Image_01.png",
+        "preview": "img/projects/CitesMillenairesSmithsonian/Image_01.webp",
+        "full": "img/projects/CitesMillenairesSmithsonian/Image_01.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/CitesMillenairesSmithsonian/Image_02.png",
-        "full": "img/projects/CitesMillenairesSmithsonian/Image_02.png",
+        "preview": "img/projects/CitesMillenairesSmithsonian/Image_02.webp",
+        "full": "img/projects/CitesMillenairesSmithsonian/Image_02.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/CitesMillenairesSmithsonian/Image_03.png",
-        "full": "img/projects/CitesMillenairesSmithsonian/Image_03.png",
+        "preview": "img/projects/CitesMillenairesSmithsonian/Image_03.webp",
+        "full": "img/projects/CitesMillenairesSmithsonian/Image_03.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/CitesMillenairesSmithsonian/image_04.png",
-        "full": "img/projects/CitesMillenairesSmithsonian/image_04.png",
+        "preview": "img/projects/CitesMillenairesSmithsonian/image_04.webp",
+        "full": "img/projects/CitesMillenairesSmithsonian/image_04.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

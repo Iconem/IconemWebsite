@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/CitesMillenaires/CitesMillenaires_thumbnail.jpg",
+    "thumbnail": "img/projects/CitesMillenaires/CitesMillenaires_thumbnail.webp",
     "articleTitle": {
         "en": "Age-Old Cities",
         "fr": "Cités Millénaires: Voyage Virtuel de Palmyre à Mossoul"
@@ -33,41 +33,41 @@
         "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual director: Mardi 8",
         "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Scénographie : Sylvain Roca, Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
         "logos": [
-          "img/projects/CitesMillenaires/Logo_IMA.png",
-          "img/projects/CitesMillenaires/Logo_MinistèreDeLaCulture.png",
-          "img/projects/CitesMillenaires/Logo_Ubisoft.png",
-          "img/projects/CitesMillenaires/Logo_UNESCO.png",
-          "img/projects/CitesMillenaires/Logo_Unil.png"
+          "img/projects/CitesMillenaires/Logo_IMA.webp",
+          "img/projects/CitesMillenaires/Logo_MinistèreDeLaCulture.webp",
+          "img/projects/CitesMillenaires/Logo_Ubisoft.webp",
+          "img/projects/CitesMillenaires/Logo_UNESCO.webp",
+          "img/projects/CitesMillenaires/Logo_Unil.webp"
         ]     
     },
     "img": [
         {
-            "preview": "img/projects/CitesMillenaires/CitesMillenaires_01.jpg",
-            "full": "img/projects/CitesMillenaires/CitesMillenaires_01.jpg",
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_01.webp",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/CitesMillenaires/CitesMillenaires_02.jpg",
-            "full": "img/projects/CitesMillenaires/CitesMillenaires_02.jpg",
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_02.webp",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/CitesMillenaires/CitesMillenaires_03.jpg",
-            "full": "img/projects/CitesMillenaires/CitesMillenaires_03.jpg",
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_03.webp",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/CitesMillenaires/CitesMillenaires_04.jpg",
-            "full": "img/projects/CitesMillenaires/CitesMillenaires_04.jpg",
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_04.webp",
+            "full": "img/projects/CitesMillenaires/CitesMillenaires_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -77,7 +77,7 @@
     "video": [
         {
             "src": "https://youtu.be/BHjcPITLcqw",
-            "preview": "img/projects/CitesMillenaires/CitesMillenaires_01.jpg"
+            "preview": "img/projects/CitesMillenaires/CitesMillenaires_01.webp"
         }
     ]
 }

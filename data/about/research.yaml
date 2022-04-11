@@ -2,12 +2,12 @@ order: 1
 title:
     en: Research
     fr: Recherche
-img: img/home/research_background.png
+img: img/home/research_background.webp
 description:
     en:  Iconem Research focuses on 3D scanning heritage sites, monuments, and cities with archaeologists, architects, restorators, and institutions such as UNESCO...
     fr:  L'obectif d'Iconem Research est la numérisation 3D de sites du patrimoine, monuments, et villes avec l'appui d'archéologues, architectes, restaurateurs et des instutions tel que l'UNESCO...
 logo: 
-    black: img/home/logo_research_black.png
-    white: img/home/logo_research_white.png
+    black: img/home/logo_research_black.webp
+    white: img/home/logo_research_white.webp
 internal: true
 link: research

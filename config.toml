@@ -69,55 +69,55 @@ publishDir = "docs"
     slogan_research_prefix     = "Explore"
     slogan_studio_prefix     = "Experience"
     slogan     = " human heritage"
-		logo_research = "img/home/logo_research_black.png"
-    logo_studio = "img/home/logo_studio_white.png"
+		logo_research = "img/home/logo_research_black.webp"
+    logo_studio = "img/home/logo_studio_white.webp"
 
     [[params.home.social]]
         id = "facebook"
-        icon_black = "img/home/social/facebook_black.png"
-        icon_white = "img/home/social/facebook_white.png"
+        icon_black = "img/home/social/facebook_black.webp"
+        icon_white = "img/home/social/facebook_white.webp"
         link = "https://fr-fr.facebook.com/Iconem.corp/"
 
     [[params.home.social]]
         id = "instagram"
-        icon_black = "img/home/social/instagram_black.png"
-        icon_white = "img/home/social/instagram_white.png"
+        icon_black = "img/home/social/instagram_black.webp"
+        icon_white = "img/home/social/instagram_white.webp"
         link = "https://www.instagram.com/ic0nem/"
 
     [[params.home.social]]
         id = "twitter"
-        icon_black = "img/home/social/twitter_black.png"
-        icon_white = "img/home/social/twitter_white.png"
+        icon_black = "img/home/social/twitter_black.webp"
+        icon_white = "img/home/social/twitter_white.webp"
         link = "https://twitter.com/iconem"
 
     [[params.home.social]]
         id = "linkedin"
-        icon_black = "img/home/social/linkedin_black.png"
-        icon_white = "img/home/social/linkedin_white.png"
+        icon_black = "img/home/social/linkedin_black.webp"
+        icon_white = "img/home/social/linkedin_white.webp"
         link = "https://fr.linkedin.com/company/iconem"
 
     [[params.home.social]]
         id = "youtube"
-        icon_black = "img/home/social/youtube_black.png"
-        icon_white = "img/home/social/youtube_white.png"
+        icon_black = "img/home/social/youtube_black.webp"
+        icon_white = "img/home/social/youtube_white.webp"
         link = "https://www.youtube.com/user/iconem"
 
 		[[params.home.social]]
             id = "tumblr"
-            icon_black = "img/home/social/tumblr_black.png"
-            icon_white = "img/home/social/tumblr_white.png"
+            icon_black = "img/home/social/tumblr_black.webp"
+            icon_white = "img/home/social/tumblr_white.webp"
             link = "http://iconem.tumblr.com/"
 
     [[params.home.social]]
         id = "vimeo"
-        icon_black = "img/home/social/vimeo_black.png"
-        icon_white = "img/home/social/vimeo_white.png"
+        icon_black = "img/home/social/vimeo_black.webp"
+        icon_white = "img/home/social/vimeo_white.webp"
         link = "https://vimeo.com/iconem"
 
     [[params.home.social]]
         id = "sketchfab"
-        icon_black = "img/home/social/sketchfab_black.png"
-        icon_white = "img/home/social/sketchfab_white.png"
+        icon_black = "img/home/social/sketchfab_black.webp"
+        icon_white = "img/home/social/sketchfab_white.webp"
         link = "https://sketchfab.com/iconem"
 
     # Projects section

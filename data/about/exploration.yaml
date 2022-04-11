@@ -2,11 +2,11 @@ order: 3
 title:
     en: Exploration
     fr: Exploration
-img: img/home/research_background.png
+img: img/home/research_background.webp
 description:
     en: Discover our most recent projects on an interactive 3D platform. Used by specialists and partners, use it to access the highest-resolution data
     fr: Découvres nos projets les plus récents via notre plateforme interactive 3D. Utilisé par nos partenaires et des spécialites, elle permet d'accéder à nos données avec la plus haute résolution possible
 logo: 
-    black: img/home/logo_exploration_black.png
-    white: img/home/logo_exploration_white.png
+    black: img/home/logo_exploration_black.webp
+    white: img/home/logo_exploration_white.webp
 link: https://app.iconem.com

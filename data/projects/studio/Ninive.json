@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Ninive/Image_thumbnail.png",
+    "thumbnail": "img/projects/Ninive/Image_thumbnail.webp",
     "articleTitle": {
         "en": "Nineveh, Capital of a World Empire",
         "fr": "Niniveh, Hoofdstad van een Wereldrijk"
@@ -32,37 +32,37 @@
     "actors": {
         "en": "Curator: Lucas Petit and Daniele Morandi Bonacossi",
         "fr": "Commissariat : Lucas Petit and Daniele Morandi Bonacossi",
-        "logos": ["img/projects/Ninive/Logo_DelftUniversityOfTechnology.png",
-            "img/projects/Ninive/Logo_RijksmuseumVanOudheden.png",
-            "img/projects/Ninive/Logo_UNESCO.png"]     
+        "logos": ["img/projects/Ninive/Logo_DelftUniversityOfTechnology.webp",
+            "img/projects/Ninive/Logo_RijksmuseumVanOudheden.webp",
+            "img/projects/Ninive/Logo_UNESCO.webp"]     
     },
     "img": [{
-        "preview": "img/projects/Ninive/Image_01.png",
-        "full": "img/projects/Ninive/Image_01.png",
+        "preview": "img/projects/Ninive/Image_01.webp",
+        "full": "img/projects/Ninive/Image_01.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/Ninive/Image_02.png",
-        "full": "img/projects/Ninive/Image_02.png",
+        "preview": "img/projects/Ninive/Image_02.webp",
+        "full": "img/projects/Ninive/Image_02.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/Ninive/Image_03.png",
-        "full": "img/projects/Ninive/Image_03.png",
+        "preview": "img/projects/Ninive/Image_03.webp",
+        "full": "img/projects/Ninive/Image_03.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/Ninive/Image_04.png",
-        "full": "img/projects/Ninive/Image_04.png",
+        "preview": "img/projects/Ninive/Image_04.webp",
+        "full": "img/projects/Ninive/Image_04.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

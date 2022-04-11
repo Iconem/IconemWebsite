@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/LeMontSaintMichel/LeMontSaintMichel_thumbnail.jpg",
+    "thumbnail": "img/projects/LeMontSaintMichel/LeMontSaintMichel_thumbnail.webp",
     "articleTitle": {
         "en": "The Mont Saint-Michel, “Regards numérique sur la maquette”",
         "fr": "Le Mont Saint-Michel, Regards numérique sur la maquette"
@@ -33,40 +33,40 @@
         "en": "General curator: Emmanuel Starcky, general heritage curator, director of the Plans-Reliefs museum, Curators: Isabelle Warmoes, design engineer, assistant to the director of the Plans-Reliefs museum, Scenography: Loretta Gaïtis, assisted by Irène Charrat, Scientific documentation: Mathilde de Vallée, Art historian.",
         "fr": "Commissariat général : Emmanuel Starcky, conservateur général du patrimoine, directeur du musée des Plans-Reliefs, Commissaires : Isabelle Warmoes, ingénieur d’études, adjointe au directeur du musée des Plans-Reliefs, Scénographie : Loretta Gaïtis, assistée d’Irène Charrat, Documentation scientifique : Mathilde de Vallée, Historienne de l’art.",
         "logos": [
-          "img/projects/LeMontSaintMichel/Logo_CMN.png",
-          "img/projects/LeMontSaintMichel/Logo_Holoforge.png",
-          "img/projects/LeMontSaintMichel/logo_MAP.png",
-          "img/projects/LeMontSaintMichel/Logo_MPR.png"
+          "img/projects/LeMontSaintMichel/Logo_CMN.webp",
+          "img/projects/LeMontSaintMichel/Logo_Holoforge.webp",
+          "img/projects/LeMontSaintMichel/logo_MAP.webp",
+          "img/projects/LeMontSaintMichel/Logo_MPR.webp"
         ]     
     },
     "img": [
         {
-            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg",
-            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg",
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.webp",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_02.jpg",
-            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_02.jpg",
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_02.webp",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_03.jpg",
-            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_03.jpg",
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_03.webp",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_04.jpg",
-            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_04.jpg",
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_04.webp",
+            "full": "img/projects/LeMontSaintMichel/LeMontSaintMichel_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -76,7 +76,7 @@
     "video": [
         {
             "src": "https://youtu.be/eajawgk3Fd8",
-            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.jpg"
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.webp"
         }
     ]
 }
