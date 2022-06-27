@@ -32,9 +32,7 @@
     "actors": {
         "en": "",
         "fr": "",
-        "logos": [
-          "img/projects/Alep/Alep_logo_1.webp"
-        ]     
+        "logos": ["img/projects/Alep/Alep_logo_1.webp"]
     },
     "img": [
         {
@@ -45,7 +43,7 @@
                 "fr": "©Laurent de Broca"
             }
         },
-		{
+        {
             "preview": "img/projects/Alep/Alep_02.webp",
             "full": "img/projects/Alep/Alep_02.webp",
             "caption": {
@@ -53,7 +51,7 @@
                 "fr": "©Laurent de Broca"
             }
         },
-		{
+        {
             "preview": "img/projects/Alep/Alep_03.webp",
             "full": "img/projects/Alep/Alep_03.webp",
             "caption": {
@@ -61,7 +59,7 @@
                 "fr": "©Laurent de Broca"
             }
         },
-		{
+        {
             "preview": "img/projects/Alep/Alep_04.webp",
             "full": "img/projects/Alep/Alep_04.webp",
             "caption": {
@@ -69,7 +67,7 @@
                 "fr": "©Laurent de Broca"
             }
         },
-		{
+        {
             "preview": "img/projects/Alep/Alep_05.webp",
             "full": "img/projects/Alep/Alep_05.webp",
             "caption": {

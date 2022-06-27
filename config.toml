@@ -5,6 +5,7 @@ DefaultContentLanguage = "en"
 baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
 #baseUrl = "http://localhost:1313/fr/"
 publishDir = "docs"
+ignoreFiles = ['/data/carousel/unpublished_project.txt']
 
 [languages]
 	[languages.en]

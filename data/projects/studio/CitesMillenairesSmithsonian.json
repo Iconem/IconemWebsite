@@ -9,8 +9,8 @@
         "fr": ""
     },
     "thumbnailDate": {
-        "en": "",
-        "fr": ""
+        "en": "2020",
+        "fr": "2020"
     },
     "thumbnail": "img/projects/CitesMillenairesSmithsonian/Image_thumbnail.webp",
     "articleTitle": {
@@ -32,39 +32,41 @@
     "actors": {
         "en": "",
         "fr": "",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/CitesMillenairesSmithsonian/Image_01.webp",
-        "full": "img/projects/CitesMillenairesSmithsonian/Image_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/CitesMillenairesSmithsonian/Image_01.webp",
+            "full": "img/projects/CitesMillenairesSmithsonian/Image_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/CitesMillenairesSmithsonian/Image_02.webp",
+            "full": "img/projects/CitesMillenairesSmithsonian/Image_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/CitesMillenairesSmithsonian/Image_03.webp",
+            "full": "img/projects/CitesMillenairesSmithsonian/Image_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/CitesMillenairesSmithsonian/image_04.webp",
+            "full": "img/projects/CitesMillenairesSmithsonian/image_04.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    },
-    {
-        "preview": "img/projects/CitesMillenairesSmithsonian/Image_02.webp",
-        "full": "img/projects/CitesMillenairesSmithsonian/Image_02.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/CitesMillenairesSmithsonian/Image_03.webp",
-        "full": "img/projects/CitesMillenairesSmithsonian/Image_03.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/CitesMillenairesSmithsonian/image_04.webp",
-        "full": "img/projects/CitesMillenairesSmithsonian/image_04.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    }],
+    ],
     "video": []
 }
