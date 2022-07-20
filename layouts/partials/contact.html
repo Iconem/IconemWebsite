@@ -52,6 +52,13 @@
                     <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
             {{ end }}
+            {{ if .Site.Params.rgpd }}
+                <a class="text-center contact-item" href="{{ .Site.Params.rgpd.pdf }}" target="_blank">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure.png" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/brochure_hover.png'"
+                    onmouseleave="this.src='img/contact/brochure.png'">
+                    <p>{{ .Site.Params.rgpd.title }}</p>
+                </a>
+            {{ end }}
             <!-- Begin MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
