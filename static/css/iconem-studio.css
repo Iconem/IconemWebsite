@@ -18,7 +18,7 @@ body:not(.modal-open){
 
 body > section {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
 }
 
@@ -320,7 +320,7 @@ circle:hover,
 }
 
 .owl-carousel .owl-item.active .img-toolbar {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     width: auto;
     left: auto;
     bottom: 10px;
@@ -346,7 +346,7 @@ circle:hover,
 }
 
 .photo-box .photo-box-caption .photo-box-caption-content {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* navbar */
@@ -423,7 +423,7 @@ circle:hover,
 header .header-content {
     position: absolute;
     width: 50%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     transform: translateX(-150%);
     -webkit-transform: translateX(-150%);
     padding: 0 0px;
@@ -571,7 +571,7 @@ header .header-footer a img:hover {
 }
 
 #about-team-left {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 5% 5%;
     /* margin-bottom: 100%; */
@@ -594,7 +594,7 @@ header .header-footer a img:hover {
 #contact {
     background: none;
     margin-top:80px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 #contact .contact-container {
@@ -603,16 +603,16 @@ header .header-footer a img:hover {
 }
 
 .iconem-modal .modal-content {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
 }
 
 .iconem-modal .project-media-icons-container {
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.9);
 }
 
 .iconem-modal .owl-carousel.owl-theme .owl-dots {
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.9);
 }
 
 .iconem-modal .owl-carousel.owl-theme,
@@ -639,7 +639,7 @@ header .header-footer a img:hover {
 @media (min-width: 600px) {
     .iconem-modal .close-modal {
         right: -30px;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.9);
     }
 }
 
@@ -647,7 +647,7 @@ header .header-footer a img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     right: -30px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .iconem-modal .hide-modal-content {
@@ -664,7 +664,7 @@ header .header-footer a img:hover {
 @media (min-width: 600px) {
     .iconem-modal .hide-modal-content {
         right: -30px;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.9);
     }
 }
 
