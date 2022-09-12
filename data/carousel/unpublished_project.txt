@@ -1,26 +1,7 @@
 research.json
 [
-  "Bamiyan",
-  "CracDesChevaliers",
-  "Irak",
-  "Mossoul",
-  "Pompei"
 ]
 
 studio.json
 [ 
-  "ArtConnexion",
-  "Carcassonnes"
-  "CitesMillenaires",
-  "CitesMillenairesBonn",
-  "CitesMillenairesRiyadh",
-  "CitesMillenairesSmithsonian",
-  "Flandrin",
-  "LeCracDesChevaliers",
-  "LeMontSaintMichel",
-  "Ninive",
-  "Shurbanipal",
-  "SitesEternelsMaroc",
-  "SyriaMatters",
-  "SyrianSymphony",
 ]
