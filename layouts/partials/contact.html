@@ -11,14 +11,14 @@
         {{ end }} -->
         <div class="contact-container">
             {{ if .Site.Params.contact.phone }}
-                <div class="text-center contact-item">
+                <a class="text-center contact-item" href="tel:{{ .Site.Params.contact.phone }}">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_black.webp" class="wow bounceIn" data-wow-delay=".1s">
                     {{ else if eq $type "studio" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.webp" class="wow bounceIn" data-wow-delay=".1s">
                     {{ end }}
                     <p>{{ .Site.Params.contact.phone }}</p>
-                </div>
+                </a>
             {{ end }}
             {{ if .Site.Params.contact.adress }}
                 <a class="text-center contact-item" href="https://www.google.fr/maps/place/6+Rue+Jules+Chaplain,+75006+Paris/@48.8430161,2.3282579,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671cf13f24fff:0x49c663c7aad07044!8m2!3d48.8430126!4d2.3304519" target="_blank">
@@ -31,14 +31,14 @@
                 </a>
             {{ end }}
             {{ if .Site.Params.contact.email }}
-                <div class="text-center contact-item">
+                <a class="text-center contact-item" href="mailto:{{ .Site.Params.contact.email }}">
                   {{ if eq $type "research" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_black.webp" class="wow bounceIn" data-wow-delay=".1s">
                   {{ else if eq $type "studio" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_white.webp" class="wow bounceIn" data-wow-delay=".1s">
                   {{ end }}
-                  <a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
-                </div>
+                  {{ .Site.Params.contact.email }}
+                </a>
             {{ end }}
             {{ if .Site.Params.press_kit }}
                 <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
