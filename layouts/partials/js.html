@@ -167,6 +167,7 @@
       dotsClass: 'main-projects-carousel-dots',
       arrows:true,
       setPosition:true,
+      accessibility:false,
       responsive: [
         {
           breakpoint: 1200,
@@ -298,16 +299,23 @@
 
     // handle carousel navigation using keyboard arrows
     $(document).keyup(function (e) {
-      // if (e.keyCode === 37) {
-      //   //left arrow
-      //   var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
-      //   currentlyOpenCarousel.trigger('prev.owl.carousel');
-      // }
-      // if (e.keyCode === 39) {
-      //   //rightarrow
-      //   var currentlyOpenCarousel = $('.modal.fade.in .owl-carousel').first();
-      //   currentlyOpenCarousel.trigger('next.owl.carousel');
-      // }
+      if (e.keyCode === 27) {
+        //escape
+        var closeButton = $('.iconem-modal.fade.in').first().find('.close-modal')[0];
+        if(closeButton) {
+          closeButton.click();
+        }
+      }
+      if (e.keyCode === 37) {
+        //left arrow
+        var currentlyOpenCarousel = $('.iconem-modal.modal.fade.in .owl-carousel').first();
+        currentlyOpenCarousel.trigger('prev.owl.carousel');
+      }
+      if (e.keyCode === 39) {
+        //rightarrow
+        var currentlyOpenCarousel = $('.iconem-modal.modal.fade.in .owl-carousel').first();
+        currentlyOpenCarousel.trigger('next.owl.carousel');
+      }
     });
 
   });
