@@ -71,5 +71,13 @@
                 "fr": "©Iconem"
             }
         }
-    ]
+    ],
+    "video": [{
+        "src": "https://www.youtube.com/watch?v=-8aKhCfn5uM",
+        "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_06.jpg"
+    },
+    {
+        "src": "https://www.youtube.com/watch?v=C3idAR34quM",
+        "preview": "img/projects/BatirUnEmpire/BatirUnEmpire_05.jpg"
+    }]
 }

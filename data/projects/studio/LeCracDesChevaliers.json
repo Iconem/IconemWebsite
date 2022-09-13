@@ -73,5 +73,9 @@
                 "fr": "©Iconem"
             }
         }
-    ]
+    ],
+    "video": [{
+        "src": "https://www.youtube.com/watch?v=mv5CvCbrNiI",
+        "preview": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_05.webp"
+    }]
 }

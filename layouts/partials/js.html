@@ -225,7 +225,7 @@
         // once media carousel is initialized,
         // add preview images on videos
         carousel.find('.owl-video-wrapper').each(function(index){
-          var i = (index + Math.floor(project.video.length / 2)) % project.video.length;
+          var i = (index + Math.floor(project.video.length + 1 / 2)) % project.video.length;
           var previewContainer = document.createElement('div');
           previewContainer.classList.add('project-video-preview');
           var img = document.createElement('img');

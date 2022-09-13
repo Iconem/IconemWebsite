@@ -44,5 +44,8 @@
             }
         }
     ],
-    "video": []
+    "video": [{
+        "src": "https://www.youtube.com/watch?v=SkoJTTvP-Zs",
+        "preview": "img/projects/Pyramids/Pyramids_02.jpg"
+    }]
 }

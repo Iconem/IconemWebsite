@@ -75,6 +75,10 @@
     ],
     "video": [
         {
+            "src": "https://www.youtube.com/watch?v=MGtpe0ni_nI&t=71s",
+            "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_05.jpg"
+        },
+        {
             "src": "https://youtu.be/eajawgk3Fd8",
             "preview": "img/projects/LeMontSaintMichel/LeMontSaintMichel_01.webp"
         }

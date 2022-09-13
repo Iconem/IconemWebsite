@@ -45,5 +45,9 @@
                 "fr": "©Iconem"
             }
         }
-    ]
+    ],
+    "video": [{
+        "src": "https://www.youtube.com/watch?v=pDmYdb2LMXo",
+        "preview": "img/projects/Flandrin/Flandrin_02.jpg"
+    }]
 }
