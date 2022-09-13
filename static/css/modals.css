@@ -132,6 +132,7 @@ body {
 
 .iconem-modal .project-media-icons-container a img {
     margin: 5px 5px;
+    background: #fff;
 }
 
 .iconem-modal .project-media-icons-container a.collapsed img {
