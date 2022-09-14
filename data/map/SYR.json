@@ -275,6 +275,21 @@
     },
     {
       "name": {
+        "en": "Mari",
+        "fr": "Mari"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Mari",
+            "fr": "Mari"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
         "en": "Safita",
         "fr": "Safita"
       },

@@ -73,14 +73,44 @@
     },
     {
       "name": {
+        "en": "Tours",
+        "fr": "Tours"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Grotte préhistorique de La Roche Cotard",
+            "fr": "Grotte préhistorique de La Roche Cotard"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sauvigny les Bois",
+        "fr": "Sauvigny les Bois"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Eglise Saint-Etienne",
+            "fr": "Eglise Saint-Etienne"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
         "en": "Paris",
         "fr": "Paris"
       },
       "sites": [
         {
           "name": {
-            "en": "Lamassi in the Louvre",
-            "fr": "Lamassus du palais de Khorsabad au Louvre"
+            "en": "Sacré Coeur",
+            "fr": "Sacré Coeur"
           },
           "projectsId": []
         },
@@ -95,6 +125,84 @@
           "name": {
             "en": "Saint Trinity Church",
             "fr": "Eglise de la Sainte-Trinité"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Interior of Saint-Germain-des-Prés Church",
+            "fr": "Intérieur de l’église de Saint-Germain-des-Prés"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Lamassi in the Louvre",
+            "fr": "Lamassus du palais de Khorsabad au Louvre"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Chateaux Sentinelles",
+        "fr": "Chateaux Sentinelles"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Carcassonne",
+            "fr": "Carcassonne"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Montsegur",
+            "fr": "Montsegur"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Puilaurens",
+            "fr": "Puilaurens"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Peyrepertuse",
+            "fr": "Peyrepertuse"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Querbius",
+            "fr": "Querbius"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Aguilar",
+            "fr": "Aguilar"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Lastours",
+            "fr": "Lastours"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Termes",
+            "fr": "Termes"
           },
           "projectsId": []
         }
@@ -123,7 +231,7 @@
       "sites": [
         {
           "name": {
-            "en": "Saline Royale (Royal Saltworks)",
+            "en": "Royal Saltworks",
             "fr": "Saline Royale"
           },
           "projectsId": []
@@ -177,21 +285,6 @@
     },
     {
       "name": {
-        "en": "Saint-Germain-des-Prés",
-        "fr": "Saint-Germain-des-Prés"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "Interior of Saint-Germain-des-Prés Church",
-            "fr": "Intérieur de l’église de Saint-Germain-des-Prés"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Saint-Germain-en-Laye",
         "fr": "Saint-Germain-en-Laye"
       },
@@ -200,6 +293,28 @@
           "name": {
             "en": "Pavillon de la Muette",
             "fr": "Pavillon de la Muette"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Pouy-sur-Vannes",
+        "fr": "Pouy-sur-Vannes"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Chateau de Pouy-sur-Vannes",
+            "fr": "Chateau de Pouy-sur-Vannes"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Chateau de Glaignes",
+            "fr": "Chateau de Glaignes"
           },
           "projectsId": []
         }

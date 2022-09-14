@@ -12,6 +12,13 @@
       "sites": [
         {
           "name": {
+            "en": "Giza Plateau",
+            "fr": "Plateau de Gizeh"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
             "en": "Abu Rawash",
             "fr": "Abou Rawash"
           },
@@ -27,29 +34,45 @@
       "sites": [
         {
           "name": {
-            "en": "Dahshur",
-            "fr": "Dahchour"
+            "en": "North Saqarra complex (Djoser)",
+            "fr": "Complexe de Saqqarah Nord (Djoser)"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Meidum",
+        "fr": "Meidoum"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Meidum Pyramid",
+            "fr": "Pyramide de Meidoum"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Dahshur",
+        "fr": "Dahchour"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Red Pyramid",
+            "fr": "Pyramide Rouge"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Giza",
-            "fr": "Gizeh"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Meidum",
-            "fr": "Meïdoum"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "North Saqarra",
-            "fr": "Saqqarah Nord"
+            "en": "Bent Pyramide",
+            "fr": "Pyramide rhomboidale"
           },
           "projectsId": []
         }

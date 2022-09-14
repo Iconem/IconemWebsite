@@ -18,6 +18,21 @@
           "projectsId": []
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Olympia",
+        "fr": "Olympia"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Olympia",
+            "fr": "Olympia"
+          },
+          "projectsId": []
+        }
+      ]
     }
   ]
 }

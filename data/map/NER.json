@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "NIGER",
+    "fr": "NIGER"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Agadez",
+        "fr": "Agadez"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Agadez",
+            "fr": "Agadez"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

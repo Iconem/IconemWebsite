@@ -1,33 +1,33 @@
 {
   "name": {
-    "en": "ITALY",
-    "fr": "ITALIE"
+    "en": "COLOMBIA",
+    "fr": "COLOMBIE"
   },
   "places": [
     {
       "name": {
-        "en": "Naples",
-        "fr": "Naples"
+        "en": "Serrania de la Lindosa",
+        "fr": "Serrania de la Lindosa"
       },
       "sites": [
         {
           "name": {
-            "en": "Venezzia",
-            "fr": "Venise"
+            "en": "Cerro Azul",
+            "fr": "Cerro Azul"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Pompeii",
-            "fr": "Pompéi"
+            "en": "Nuevo Tolima",
+            "fr": "Nuevo Tolima"
           },
           "projectsId": []
         },
         {
           "name": {
-            "en": "Villa of Diomedes",
-            "fr": "Villa de Diomède"
+            "en": "Tuneles",
+            "fr": "Tuneles"
           },
           "projectsId": []
         }

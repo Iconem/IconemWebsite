@@ -4,6 +4,56 @@
     "fr": "SOUDAN"
   },
   "places": [
+	{
+      "name": {
+        "en": "North Sudan",
+        "fr": "Soudan du Nord"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Pyramids of Meroe ",
+            "fr": "Pyramides de Méroé"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Naga",
+            "fr": "Naga"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "El Khasali",
+            "fr": "El Khasali"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "El Kurru",
+            "fr": "El Kurru"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "El Musarawat",
+            "fr": "El Musarawat"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Gebel Barkal",
+            "fr": "Gebel Barkal"
+          },
+          "projectsId": []
+        }
+      ]
+    }, 
     {
       "name": {
         "en": "Sai Island",
@@ -18,56 +68,14 @@
           "projectsId": []
         }
       ]
-    },
-	{
+    }, 
+    {
       "name": {
-        "en": "North Sudan",
-        "fr": "Soudan du Nord"
+        "en": "Nuri",
+        "fr": "Nuri"
       },
       "sites": [
         {
-          "name": {
-            "en": "El Khasali",
-            "fr": "El Khasali"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "El Kurru",
-            "fr": "El Kurru"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "El Musarawat",
-            "fr": "El Musarawat"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Gebel Barkal",
-            "fr": "Gebel Barkal"
-          },
-          "projectsId": []
-        },
-    {
-          "name": {
-            "en": "Pyramids of Meroe ",
-            "fr": "Pyramides de Méroé"
-          },
-          "projectsId": []
-        },
-		{
-          "name": {
-            "en": "Naga",
-            "fr": "Naga"
-          },
-          "projectsId": []
-        },
-		{
           "name": {
             "en": "Nuri",
             "fr": "Nuri"
@@ -76,5 +84,8 @@
         }
       ]
     }
+
+
+    
   ]
 }

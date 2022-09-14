@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "MALI",
+    "fr": "MALI"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Timbuktu",
+        "fr": "Tombouctou"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Timbuktu",
+            "fr": "Tombouctou"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

@@ -12,64 +12,8 @@
       "sites": [
         {
           "name": {
-            "en": "Amphiteatre",
-            "fr": "Amphithéâtre"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Arch of Septimius Severus",
-            "fr": "Arc de Septime Sévère"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Basilica",
-            "fr": "Basilique"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Doric temple",
-            "fr": "Temple dorique"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Forum",
-            "fr": "Forum"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Hadrianic Baths",
-            "fr": "Thermes d'Hadrien"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Lighthouse",
-            "fr": "Phare"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Market",
-            "fr": "Marché"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Theatre",
-            "fr": "Théâtre"
+            "en": "Leptis Magna",
+            "fr": "Leptis Magna"
           },
           "projectsId": []
         }

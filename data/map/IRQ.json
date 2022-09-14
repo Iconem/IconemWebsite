@@ -288,22 +288,8 @@
       "sites": [
         {
           "name": {
-            "en": "Sa'a Canissa",
-            "fr": "Sa'a Canissa"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Bash Tapia Castle",
-            "fr": "Forteresse de Bash Tapia"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "City centre",
-            "fr": "Centre ville"
+            "en": "Old City",
+            "fr": "Vieille Ville"
           },
           "projectsId": []
         },
@@ -325,20 +311,6 @@
           "name": {
             "en": "Nineveh, aerial view",
             "fr": "Ninive, vue aérienne"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Traditional house",
-            "fr": "Maison traditionelle"
-          },
-          "projectsId": []
-        },
-        {
-          "name": {
-            "en": "Yezidi temple",
-            "fr": "Temple Yezidi"
           },
           "projectsId": []
         }

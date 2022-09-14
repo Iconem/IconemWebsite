@@ -1,0 +1,30 @@
+{
+  "name": {
+    "en": "GEORGIA",
+    "fr": "GEORGIE"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Georgia",
+        "fr": "Georgia"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Mestia Towers - Svaneti",
+            "fr": "Mestia Towers - Svaneti"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Svetitskhoveli Cathedral - Mtskheta",
+            "fr": "Svetitskhoveli Cathedral - Mtskheta"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

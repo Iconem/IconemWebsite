@@ -16,6 +16,130 @@
             "fr": "Mosquée Qubbat Bayt az-Zum"
           },
           "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Sheikh Yaqub Mosque",
+            "fr": "Mosquée Sheikh Yaqub"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Al Askndrih Mosque - Zabid",
+            "fr": "Mosquée Al Askndrih - Zabid"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Al-Basha Mosque - Zabid",
+            "fr": "Mosquée Al-Basha - Zabid"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Alaidaroos Dome",
+            "fr": "Dome Alaidaroos"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jibla",
+        "fr": "Jibla"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Qubbat Bayt az-Zum Mosque",
+            "fr": "Mosquée Qubbat Bayt az-Zum"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Sheikh Yaqub Mosque",
+            "fr": "Mosquée Sheikh Yaqub"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Zabid",
+        "fr": "Zabid"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Al Askndrih Mosque",
+            "fr": "Mosquée Al Askndrih"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Al-Basha Mosque",
+            "fr": "Mosquée Al-Basha"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Garen Maged",
+        "fr": "Garen Maged"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Garen Maged",
+            "fr": "Garen Maged"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shibam",
+        "fr": "Shibam"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Shibam",
+            "fr": "Shibam"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Tarim",
+        "fr": "Tarim"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Hamtot Palace",
+            "fr": "Palais Hamtot"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Al Qubbah Palace",
+            "fr": "Palais Al Qubbah"
+          },
+          "projectsId": []
         }
       ]
     }

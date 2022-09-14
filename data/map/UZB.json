@@ -19,6 +19,13 @@
         },
         {
           "name": {
+            "en": "Varakhsha",
+            "fr": "Varakhsha"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
             "en": "Kakishtuvan",
             "fr": "Kakishtuvan"
           },
@@ -56,6 +63,49 @@
           "name": {
             "en": "Zandani",
             "fr": "Zandani"
+          },
+          "projectsId": []
+        }
+      ]
+    }, 
+    {
+      "name": {
+        "en": "Samarkand",
+        "fr": "Samarkand"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Gur Emir",
+            "fr": "Gur Emir"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Ulug Bek",
+            "fr": "Ulug Bek"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Shahr-e Zinda",
+            "fr": "Shahr-e Zinda"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Registan",
+            "fr": "Registan"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Bibi Khanym",
+            "fr": "Bibi Khanym"
           },
           "projectsId": []
         }

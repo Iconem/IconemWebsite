@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "LEBANON",
+    "fr": "LIBAN"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "Beirut",
+        "fr": "Beyrouth"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Beirut",
+            "fr": "Beyrouth"
+          },
+          "projectsId": []
+        }
+      ]
+    }
+  ]
+}

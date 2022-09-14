@@ -6,21 +6,6 @@
   "places": [
     {
       "name": {
-        "en": "Riyadh",
-        "fr": "Riyad"
-      },
-      "sites": [
-        {
-          "name": {
-            "en": "National Museum",
-            "fr": "National Museum"
-          },
-          "projectsId": []
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Al-'Ula",
         "fr": "Al-'Ula"
       },
@@ -29,6 +14,41 @@
           "name": {
             "en": "Hegra (Mada'in Salih)",
             "fr": "Hegra (Mada'in Saleh)"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Old Town",
+            "fr": "Vieille Ville"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Dadan",
+            "fr": "Dadan"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Umm Daraj",
+            "fr": "Umm Daraj"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Mustatil",
+            "fr": "Mustatil"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Qurh",
+            "fr": "Qurh"
           },
           "projectsId": []
         }
