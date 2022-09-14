@@ -240,6 +240,28 @@
     },
     {
       "name": {
+        "en": "Corsica",
+        "fr": "Corsica"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "Bastia Old City",
+            "fr": "Vieille ville de Bastia"
+          },
+          "projectsId": []
+        },
+        {
+          "name": {
+            "en": "Bonifacio",
+            "fr": "Bonifacio"
+          },
+          "projectsId": []
+        }
+      ]
+    },
+    {
+      "name": {
         "en": "Compiègne",
         "fr": "Compiègne"
       },
