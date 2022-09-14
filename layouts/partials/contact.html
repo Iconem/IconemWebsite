@@ -11,13 +11,13 @@
         {{ end }} -->
         <div class="contact-container">
             {{ if .Site.Params.contact.phone }}
-                <a class="text-center contact-item" href="tel:{{ .Site.Params.contact.phone }}">
+                <a class="text-center contact-item" href="tel:{{ .Site.Params.contact.href }}">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_black.webp" class="wow bounceIn" data-wow-delay=".1s">
                     {{ else if eq $type "studio" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.webp" class="wow bounceIn" data-wow-delay=".1s">
                     {{ end }}
-                    <a class="text-center contact-item" href="tel:{{ .Site.Params.contact.href }}">{{ .Site.Params.contact.phone }}</a>
+                    <p>{{ .Site.Params.contact.phone }}</p>
                 </a>
             {{ end }}
             {{ if .Site.Params.contact.adress }}
