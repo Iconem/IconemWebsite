@@ -12,7 +12,7 @@
         "en": "2021",
         "fr": "2021"
     },
-    "thumbnail": "img/projects/Pyramids/_MAIN__00009_thumbnail.webp",
+    "thumbnail": "img/projects/Pyramids/main_00009_thumbnail.webp",
     "articleTitle": {
         "en": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte",
         "fr": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte"
@@ -36,56 +36,56 @@
     },
     "img": [
         {
-            "preview": "img/projects/Pyramids/_MAIN__00008.webp",
-            "full": "img/projects/Pyramids/_MAIN__00008.webp",
+            "preview": "img/projects/Pyramids/main_00008.webp",
+            "full": "img/projects/Pyramids/main_00008.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00009.webp",
-            "full": "img/projects/Pyramids/_MAIN__00009.webp",
+            "preview": "img/projects/Pyramids/main_00009.webp",
+            "full": "img/projects/Pyramids/main_00009.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00011.webp",
-            "full": "img/projects/Pyramids/_MAIN__00011.webp",
+            "preview": "img/projects/Pyramids/main_00011.webp",
+            "full": "img/projects/Pyramids/main_00011.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00012.webp",
-            "full": "img/projects/Pyramids/_MAIN__00012.webp",
+            "preview": "img/projects/Pyramids/main_00012.webp",
+            "full": "img/projects/Pyramids/main_00012.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00004.webp",
-            "full": "img/projects/Pyramids/_MAIN__00004.webp",
+            "preview": "img/projects/Pyramids/main_00004.webp",
+            "full": "img/projects/Pyramids/main_00004.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00006.webp",
-            "full": "img/projects/Pyramids/_MAIN__00006.webp",
+            "preview": "img/projects/Pyramids/main_00006.webp",
+            "full": "img/projects/Pyramids/main_00006.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00007.webp",
-            "full": "img/projects/Pyramids/_MAIN__00007.webp",
+            "preview": "img/projects/Pyramids/main_00007.webp",
+            "full": "img/projects/Pyramids/main_00007.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -100,24 +100,24 @@
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00000.webp",
-            "full": "img/projects/Pyramids/_MAIN__00000.webp",
+            "preview": "img/projects/Pyramids/main_00000.webp",
+            "full": "img/projects/Pyramids/main_00000.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00002.webp",
-            "full": "img/projects/Pyramids/_MAIN__00002.webp",
+            "preview": "img/projects/Pyramids/main_00002.webp",
+            "full": "img/projects/Pyramids/main_00002.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Pyramids/_MAIN__00003.webp",
-            "full": "img/projects/Pyramids/_MAIN__00003.webp",
+            "preview": "img/projects/Pyramids/main_00003.webp",
+            "full": "img/projects/Pyramids/main_00003.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -131,7 +131,7 @@
         }, 
         {
             "src": "https://youtu.be/a_LQP0nbn4o",
-            "preview": "img/projects/Pyramids/_MAIN__00007.jpg"
+            "preview": "img/projects/Pyramids/main_00007.jpg"
         }
         
     ]
