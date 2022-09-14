@@ -34,7 +34,6 @@ body > section {
 
 .bg-lazy {
     height: 100vh;
-    width: 100vw;
     -webkit-transition: background 3s linear;
     -moz-transition: background 3s linear;
     -o-transition: background 3s linear;
