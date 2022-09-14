@@ -1395,7 +1395,7 @@
                     
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.webp" class="wow bounceIn" data-wow-delay=".1s">
                     
-                    <p>&#43;33 (0)1 42 49 76 04</p>
+                    <a class="text-center contact-item" href="tel:&#43;33142497604">&#43;33 (0)1 42 49 76 04</a>
                 </a>
             
             
@@ -1415,13 +1415,6 @@
                 </a>
             
             
-                <a class="text-center contact-item" href="pdf/press_kit.pdf" target="_blank">
-                    
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_white.webp" class="wow bounceIn" data-wow-delay=".1s">
-                    
-                    <p>Document press</p>
-                </a>
-            
             
             
                 <a class="text-center contact-item" href="pdf/Iconem_FR.pdf" target="_blank">
@@ -1429,6 +1422,14 @@
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" class="wow bounceIn" data-wow-delay=".1s">
                     
                     <p>Téléchargez notre plaquette</p>
+                </a>
+            
+            
+                <a class="text-center contact-item" href="pdf/charte_rgpd.pdf" target="_blank">
+                    
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    
+                    <p>Charte de Protection des Données</p>
                 </a>
             
             
@@ -4294,8 +4295,9 @@
     if(imgDefer[i].getAttribute('data-src')) {
     imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
     imgDefer[i].onload = () => {
-      $('#main-projects-carousel').slick('resize');
+      
     }
+    $('#main-projects-carousel').slick('resize');
     } } 
   }
   window.onload = init;

@@ -180,6 +180,7 @@ ignoreFiles = ['/data/carousel/unpublished_project.txt']
 	[params.contact]
 		title = "Contact"
 		phone = "+33 (0)1 42 49 76 04"
+		href = "+33142497604"
 		adress = "6 rue Jules Chaplain 75006 Paris, France"
 		email = "contact@iconem.com"
 
