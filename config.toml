@@ -191,6 +191,14 @@ ignoreFiles = ['/data/carousel/unpublished_project.txt']
 		title = "Téléchargez notre plaquette"
 		pdf = "pdf/Iconem_FR.pdf"
 
+	[languages.en.rgpd]
+		title = "Data Protection Policy"
+		pdf = "pdf/charte_rgpd.pdf"
+
+	[languages.fr.rgpd]
+		title = "Charte de Protection des Données"
+		pdf = "pdf/charte_rgpd.pdf"
+
 	[languages.en.press_kit]
 		title = "Document press"
 		pdf = "pdf/press_kit.pdf"

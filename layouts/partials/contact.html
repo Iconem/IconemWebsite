@@ -40,7 +40,7 @@
                   {{ .Site.Params.contact.email }}
                 </a>
             {{ end }}
-            {{ if .Site.Params.press_kit }}
+            <!-- {{ if .Site.Params.press_kit }}
                 <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_black.webp" class="wow bounceIn" data-wow-delay=".1s">
@@ -49,7 +49,7 @@
                     {{ end }}
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </a>
-            {{ end }}
+            {{ end }} -->
             <!-- {{ if .Site.Params.press_kit }}
                 <div class="text-center contact-item">
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail.webp" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.webp'"
@@ -65,6 +65,16 @@
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" class="wow bounceIn" data-wow-delay=".1s">
                     {{ end }}
                     <p>{{ .Site.Params.brochure.title }}</p>
+                </a>
+            {{ end }}
+            {{ if .Site.Params.rgpd }}
+                <a class="text-center contact-item" href="{{ .Site.Params.rgpd.pdf }}" target="_blank">
+                    {{ if eq $type "research" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ else if eq $type "studio" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    {{ end }}
+                    <p>{{ .Site.Params.rgpd.title }}</p>
                 </a>
             {{ end }}
             <!-- Begin MailChimp Signup Form -->
