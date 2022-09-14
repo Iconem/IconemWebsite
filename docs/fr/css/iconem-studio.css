@@ -432,7 +432,7 @@ header .header-content {
 header .header-content .header-content-inner {
     float: right;
     text-align: left;
-    margin-right: -200px;
+    margin-right: -150px;
     display: flex;
     align-items: center;
     opacity: 100%;
@@ -441,7 +441,7 @@ header .header-content .header-content-inner {
 
 header .header-content .header-content-inner > * {
     display: inline;
-    width: 200px;
+    width: 150px;
     padding: 10px;
 }
 
