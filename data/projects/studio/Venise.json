@@ -1,0 +1,48 @@
+{
+    "modalID": "Venise",
+    "thumbnailTitle": {
+        "en": "Venise",
+        "fr": "Venise"
+    },
+    "thumbnailLocation": {
+        "en": "",
+        "fr": ""
+    },
+    "thumbnailDate": {
+        "en": "2022",
+        "fr": "2022"
+    },
+    "thumbnail": "img/projects/Placeholder/700x400.webp",
+    "articleTitle": {
+        "en": "Venise Révélée",
+        "fr": "Venise Révélée"
+    },
+    "articleLocation": {
+        "en": "Paris, France",
+        "fr": "Paris, France"
+    },
+    "articleDate": {
+        "en": "",
+        "fr": ""
+    },
+    "text": {
+        "en": "",
+        "fr": ""
+    },
+    "actors": {
+        "en": "",
+        "fr": "",
+        "logos": []
+    },
+    "img": [
+        {
+            "preview": "img/projects/Placeholder/1920x1080.webp",
+            "full": "img/projects/Placeholder/1920x1080.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        }
+    ],
+    "video": []
+}
