@@ -46,8 +46,8 @@ ignoreFiles = ['/data/carousel/unpublished_project.txt']
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			link = "https://iconem.github.io/IconemWebsite/fr"
-			#link = "/fr"
+			#link = "https://iconem.github.io/IconemWebsite/fr"
+			link = "/fr"
 
 		[languages.fr.navigation.links]
 			projects = "Projets"
@@ -62,8 +62,8 @@ ignoreFiles = ['/data/carousel/unpublished_project.txt']
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
-			link = "https://iconem.github.io/IconemWebsite/en"
-			#link = "/en"
+			#link = "https://iconem.github.io/IconemWebsite/en"
+			link = "/en"
 
 	# Home section
 	[params.home]
