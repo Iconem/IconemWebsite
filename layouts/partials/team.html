@@ -21,7 +21,7 @@
                 <p class="text-justify">{{ . | markdownify }}</p>
             {{ end }}
             </div>
-            <div style="flex:1 1 auto;margin-left:50px;" class="panel-group" id="team-accordion" role="tablist" aria-multiselectable="false">
+            <div class="panel-group team" id="team-accordion" role="tablist" aria-multiselectable="false">
               {{ range sort .Site.Data.team "order" }}
                   {{ if eq .enabled true }}
                       <div class="panel team-member-panel">

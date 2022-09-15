@@ -464,6 +464,15 @@ body {
 
 #team-accordion.panel-group {
     margin: 0;
+    flex:1 1 auto;
+    margin-left:50px;
+}
+
+@media (max-width: 1200px) {
+    #team-accordion.panel-group {
+        flex:1 1 auto;
+        margin-left:0px;
+    }
 }
 
 #team .team-member-panel .panel-collapse {
