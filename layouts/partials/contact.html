@@ -13,9 +13,9 @@
             {{ if .Site.Params.contact.phone }}
                 <a class="text-center contact-item" href="tel:{{ .Site.Params.contact.href }}">
                     {{ if eq $type "research" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_black.webp" >
                     {{ else if eq $type "studio" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.webp" >
                     {{ end }}
                     <p>{{ .Site.Params.contact.phone }}</p>
                 </a>
@@ -23,9 +23,9 @@
             {{ if .Site.Params.contact.adress }}
                 <a class="text-center contact-item" href="https://www.google.fr/maps/place/6+Rue+Jules+Chaplain,+75006+Paris/@48.8430161,2.3282579,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671cf13f24fff:0x49c663c7aad07044!8m2!3d48.8430126!4d2.3304519" target="_blank">
                   {{ if eq $type "research" }}
-                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_black.webp" >
                   {{ else if eq $type "studio" }}
-                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_white.webp" >
                   {{ end }}
                   <p>{{ .Site.Params.contact.adress }}</p>
                 </a>
@@ -33,26 +33,26 @@
             {{ if .Site.Params.contact.email }}
                 <a class="text-center contact-item" href="mailto:{{ .Site.Params.contact.email }}">
                   {{ if eq $type "research" }}
-                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_black.webp" >
                   {{ else if eq $type "studio" }}
-                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_white.webp" >
                   {{ end }}
-                  {{ .Site.Params.contact.email }}
+                  <p>{{ .Site.Params.contact.email }}</p> 
                 </a>
             {{ end }}
             <!-- {{ if .Site.Params.press_kit }}
                 <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
                     {{ if eq $type "research" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_black.webp" >
                     {{ else if eq $type "studio" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_white.webp" >
                     {{ end }}
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </a>
             {{ end }} -->
             <!-- {{ if .Site.Params.press_kit }}
                 <div class="text-center contact-item">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail.webp" class="wow bounceIn" data-wow-delay=".1s" onmouseenter="this.src='img/contact/mail_hover.webp'"
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail.webp"  onmouseenter="this.src='img/contact/mail_hover.webp'"
                     onmouseleave="this.src='img/contact/mail.webp'">
                     <p>{{ .Site.Params.press_kit.title }}</p>
                 </div>
@@ -60,9 +60,9 @@
             {{ if .Site.Params.brochure }}
                 <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
                     {{ if eq $type "research" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" >
                     {{ else if eq $type "studio" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" >
                     {{ end }}
                     <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
@@ -70,9 +70,9 @@
             {{ if .Site.Params.rgpd }}
                 <a class="text-center contact-item" href="{{ .Site.Params.rgpd.pdf }}" target="_blank">
                     {{ if eq $type "research" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" >
                     {{ else if eq $type "studio" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" class="wow bounceIn" data-wow-delay=".1s">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" >
                     {{ end }}
                     <p>{{ .Site.Params.rgpd.title }}</p>
                 </a>
