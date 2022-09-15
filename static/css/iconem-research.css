@@ -715,6 +715,13 @@ header .header-footer a img:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+.iconem-modal .close-modal.modal-content-hidden {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    right: -30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
 .iconem-modal .hide-modal-content {
     z-index: 10 !important;
     position: absolute;

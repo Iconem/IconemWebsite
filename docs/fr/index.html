@@ -4559,6 +4559,7 @@
     function toggleContent() {
         var modal_content = document.getElementsByClassName("modal-content");
         var modal_hide_button = document.getElementsByClassName("hide-modal-content");
+        var close_modal_button = document.getElementsByClassName("close-modal");
         for(var i = 0; i < modal_content.length; i++)
         {
           modal_content[i].classList.toggle('modal-content-hidden');
@@ -4566,6 +4567,10 @@
         for(var i = 0; i < modal_hide_button.length; i++)
         {
             modal_hide_button[i].classList.toggle('modal-content-hidden');
+        }
+        for(var i = 0; i < close_modal_button.length; i++)
+        {
+            close_modal_button[i].classList.toggle('modal-content-hidden');
         }
     }
 </script> 
