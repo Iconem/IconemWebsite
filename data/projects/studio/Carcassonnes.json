@@ -1,5 +1,5 @@
 {
-    "modalID": "Carcassonnes",
+    "modalID": "Carcassonne",
     "thumbnailTitle": {
         "en": "Carcassonne",
         "fr": "Carcassonne"
@@ -9,10 +9,10 @@
         "fr": ""
     },
     "thumbnailDate": {
-        "en": "November 2020",
-        "fr": "Novembre 2020"
+        "en": "2020",
+        "fr": "2020"
     },
-    "thumbnail": "img/projects/Carcassonnes/Rendu_00008_thumbnail.webp",
+    "thumbnail": "img/projects/Carcassonne/Rendu_00008_thumbnail.webp",
     "articleTitle": {
         "en": "",
         "fr": ""
@@ -37,64 +37,64 @@
     "img": [
 
         {
-            "preview": "img/projects/Carcassonnes/Rendu_00008.webp",
-            "full": "img/projects/Carcassonnes/Rendu_00008.webp",
+            "preview": "img/projects/Carcassonne/Rendu_00008.webp",
+            "full": "img/projects/Carcassonne/Rendu_00008.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Rendu_00001.webp",
-            "full": "img/projects/Carcassonnes/Rendu_00001.webp",
+            "preview": "img/projects/Carcassonne/Rendu_00001.webp",
+            "full": "img/projects/Carcassonne/Rendu_00001.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Rendu_00002.webp",
-            "full": "img/projects/Carcassonnes/Rendu_00002.webp",
+            "preview": "img/projects/Carcassonne/Rendu_00002.webp",
+            "full": "img/projects/Carcassonne/Rendu_00002.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Rendu_00003.webp",
-            "full": "img/projects/Carcassonnes/Rendu_00003.webp",
+            "preview": "img/projects/Carcassonne/Rendu_00003.webp",
+            "full": "img/projects/Carcassonne/Rendu_00003.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Rendu_00005.webp",
-            "full": "img/projects/Carcassonnes/Rendu_00005.webp",
+            "preview": "img/projects/Carcassonne/Rendu_00005.webp",
+            "full": "img/projects/Carcassonne/Rendu_00005.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Rendu_00007.webp",
-            "full": "img/projects/Carcassonnes/Rendu_00007.webp",
+            "preview": "img/projects/Carcassonne/Rendu_00007.webp",
+            "full": "img/projects/Carcassonne/Rendu_00007.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Carcassonnes_01.webp",
-            "full": "img/projects/Carcassonnes/Carcassonnes_01.webp",
+            "preview": "img/projects/Carcassonne/Carcassonne_01.webp",
+            "full": "img/projects/Carcassonne/Carcassonne_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/Carcassonnes/Carcassonnes_02.jpg",
-            "full": "img/projects/Carcassonnes/Carcassonnes_02.jpg",
+            "preview": "img/projects/Carcassonne/Carcassonne_02.jpg",
+            "full": "img/projects/Carcassonne/Carcassonne_02.jpg",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
