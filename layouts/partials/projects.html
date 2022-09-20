@@ -19,9 +19,9 @@
     </section>
     <!-- <div class="container"> -->
       <div id="main-projects-carousel">
-        {{ $projects := .Site.Data.carousel.research }}
+        {{ $projects := .Site.Data.carousel.research.carouselList }}
         {{ if eq $type "studio" }}
-          {{ $projects = .Site.Data.carousel.studio }}
+          {{ $projects = .Site.Data.carousel.studio.carouselList }}
         {{ end }}   
         {{ range $projectIndex := $projects }}
               {{ $project := (index $.Site.Data.projects.research $projectIndex) }}

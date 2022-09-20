@@ -1,20 +1,22 @@
-[
-    "Compiegne",
-    "PavillonLaMuette",
-    "VauxLeVicomte",
-    "Mossoul",
-    "Nereides",
-    "Alep",
-    "Angkor",
-    "BaeloClaudia",
-    "CracDesChevaliers",
-    "Hyderabad",
-    "Irak",
-    "SaintRoman",
-    "Yangon",
-    "Delos",
-    "Palmyre",
-    "SyrianHeritage",
-    "Bamiyan",
-    "Pompei"
-]
+{
+    "carouselList": [
+        "Compiegne",
+        "PavillonLaMuette",
+        "VauxLeVicomte",
+        "Mossoul",
+        "Nereides",
+        "Alep",
+        "Angkor",
+        "BaeloClaudia",
+        "CracDesChevaliers",
+        "Hyderabad",
+        "Irak",
+        "SaintRoman",
+        "Yangon",
+        "Delos",
+        "Palmyre",
+        "SyrianHeritage",
+        "Bamiyan",
+        "Pompei"
+    ]
+}

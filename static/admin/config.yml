@@ -6,21 +6,45 @@ site_url: https://radiant-zabaione-e92fa0.netlify.app/en/
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: "projects"
-    label: "Projects"
-    folder: "data/projects/research"
+  - name: "studioProjectsCarousel"
+    label: "Studio projects carousel"
+    folder: "data/carousel/studio"
+    format: "json"
+    extension: "json"
+    editor:
+      preview: true
+    identifier_field: carouselList
+    fields:
+      - label: "projects"
+        name: "projects"
+        widget: "list"
+  - name: "researchProjectsCarousel"
+    label: "Research projects carousel"
+    folder: "data/carousel/research"
+    format: "json"
+    extension: "json"
+    editor:
+      preview: true
+    identifier_field: carouselList
+    fields:
+      - label: "projects"
+        name: "projects"
+        widget: "list"
+  - name: "studioProjects"
+    label: "Studio projects"
+    folder: "data/projects/studio"
     format: "json"
     extension: "json"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     identifier_field: modalID
     fields:
       - label: "modalID"
         name: "modalID"
         widget: "string"
-      - label: "ThumbnailTitle"
+      - label: "thumbnailTitle"
         name: "thumbnailTitle"
         widget: "object"
         summary: "{{fields.en}}: {{fields.fr}}"
@@ -33,6 +57,7 @@ collections:
             widget: "string"
       - label: "thumbnailLocation"
         name: "thumbnailLocation"
+        required: false
         widget: "object"
         summary: "{{fields.en}}: {{fields.fr}}"
         fields:
@@ -69,6 +94,7 @@ collections:
             widget: "string"
       - label: "articleLocation"
         name: "articleLocation"
+        required: false
         widget: "object"
         summary: "{{fields.en}}: {{fields.fr}}"
         fields:
@@ -80,6 +106,7 @@ collections:
             widget: "string"
       - label: "articleDate"
         name: "articleDate"
+        required: false
         widget: "object"
         summary: "{{fields.en}}: {{fields.fr}}"
         fields:
@@ -111,6 +138,155 @@ collections:
           - label: "Fr"
             name: "fr"
             widget: "string"
+          - label: "logos"
+            name: "logos"
+            widget: "list"
+      - label: "img"
+        name: "img"
+        widget: "list"
+        summary: "{{fields.full}}"
+        fields:
+          - label: preview
+            name: preview
+            widget: string
+          - label: full
+            name: full
+            widget: string
+          - label: caption
+            name: caption
+            widget: object
+            fields:
+              - label: en
+                name: en
+                widget: string
+              - label: fr
+                name: fr
+                widget: string
+      - label: "video"
+        name: "video"
+        widget: "list"
+        summary: "{{fields.src}}"
+        fields:
+          - label: preview
+            name: preview
+            widget: string
+          - label: src
+            name: src
+            widget: string
+      - label: "models"
+        name: "models"
+        widget: "list"
+  - name: "researchProjects"
+    label: "Research projects"
+    folder: "data/projects/research"
+    format: "json"
+    extension: "json"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    identifier_field: modalID
+    fields:
+      - label: "modalID"
+        name: "modalID"
+        widget: "string"
+      - label: "thumbnailTitle"
+        name: "thumbnailTitle"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "thumbnailLocation"
+        name: "thumbnailLocation"
+        required: false
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "thumbnailDate"
+        name: "thumbnailDate"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "thumbnail"
+        name: "thumbnail"
+        widget: "string"
+      - label: "articleTitle"
+        name: "articleTitle"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "articleLocation"
+        name: "articleLocation"
+        required: false
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "articleDate"
+        name: "articleDate"
+        required: false
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "text"
+        name: "text"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "actors"
+        name: "actors"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+          - label: "logos"
+            name: "logos"
+            widget: "list"
       - label: "img"
         name: "img"
         widget: "list"
