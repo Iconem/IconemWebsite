@@ -31,3 +31,104 @@ collections:
           - label: "Fr"
             name: "fr"
             widget: "string"
+      - label: "thumbnailLocation"
+        name: "thumbnailLocation"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "thumbnailDate"
+        name: "thumbnailDate"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "thumbnail"
+        name: "thumbnail"
+        widget: "string"
+      - label: "articleTitle"
+        name: "articleTitle"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "articleLocation"
+        name: "articleLocation"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "articleDate"
+        name: "articleDate"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "text"
+        name: "text"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "actors"
+        name: "actors"
+        widget: "object"
+        summary: "{{fields.en}}: {{fields.fr}}"
+        fields:
+          - label: "En"
+            name: "en"
+            widget: "string"
+          - label: "Fr"
+            name: "fr"
+            widget: "string"
+      - label: "img"
+        name: "img"
+        widget: "list"
+        summary: "{{fields.full}}}}"
+        fields:
+          - label: preview
+            name: preview
+            widget: string
+          - label: full
+            name: full
+            widget: string
+          - label: caption
+            name: caption
+            widget: object
+            fields:
+              - label: en
+                name: en
+                widget: string
+              - label: fr
+                name: fr
+                widget: string
