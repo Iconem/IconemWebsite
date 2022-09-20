@@ -6,8 +6,8 @@ site_url: https://radiant-zabaione-e92fa0.netlify.app/en/
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: "carousel"
-    label: "Carousel"
+  - name: "projectCarousel"
+    label: "Projects carousel"
     files:
       - label: "Studio"
         name: "studio"
@@ -21,18 +21,18 @@ collections:
           - label: "carouselList"
             name: "carouselList"
             widget: "list"
-  - name: "researchProjectsCarousel"
-    label: "Research projects carousel"
-    folder: "data/carousel/research"
-    format: "json"
-    extension: "json"
-    editor:
-      preview: true
-    identifier_field: carouselList
-    fields:
-      - label: "projects"
-        name: "projects"
-        widget: "list"
+      - label: "Reasearch"
+        name: "research"
+        file: "data/carousel/research.json"
+        format: json
+        extension: json
+        editor:
+          preview: true
+        identifier_field: carouselList
+        fields:
+          - label: "carouselList"
+            name: "carouselList"
+            widget: "list"
   - name: "studioProjects"
     label: "Studio projects"
     folder: "data/projects/studio"
