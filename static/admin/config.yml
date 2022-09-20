@@ -14,10 +14,10 @@ collections:
     identifier_field: modalID
     fields:
       - { label: "modalID", name: "modalID", widget: "string" }
-      - { label: "ThumbnailTitle"
-        name: "thumbnailTitle"
-        widget: "object"
-        summary: "{{fields.en}}: {{fields.fr}}"
+      - { label: "ThumbnailTitle",
+        name: "thumbnailTitle",
+        widget: "object",
+        summary: "{{fields.en}}: {{fields.fr}}",
         fields:
           - { label: "En", name: "en", widget: "string" }
           - { label: "Fr", name: "fr", widget: "string" } }
