@@ -1,19 +1,20 @@
 {
-    "carouselList": [
-        "Venise",
-        "Pyramides",
-        "Flandrin",
-        "Alep",
-        "BatirUnEmpire",
-        "Carcassonnes",
-        "ArtConnexion",
-        "CitesMillenaires",
-        "LeCracDesChevaliers",
-        "LeMontSaintMichel",
-        "Ninive",
-        "Shurbanipal",
-        "SyriaMatters",
-        "SyrianSymphony",
-        "SitesEternels"
-    ]
+  "carouselList": [
+    "test",
+    "Venise",
+    "Pyramides",
+    "Flandrin",
+    "Alep",
+    "BatirUnEmpire",
+    "Carcassonnes",
+    "ArtConnexion",
+    "CitesMillenaires",
+    "LeCracDesChevaliers",
+    "LeMontSaintMichel",
+    "Ninive",
+    "Shurbanipal",
+    "SyriaMatters",
+    "SyrianSymphony",
+    "SitesEternels"
+  ]
 }
