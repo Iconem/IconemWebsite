@@ -10,5 +10,21 @@
     <body>
         <!-- Include the script that builds the page and powers Netlify CMS -->
         <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+        <script>
+            CMS.registerPreviewStyle("/static/css/iconem-research.css");
+
+            var studioProjectsPreview = createClass({
+                render: function () {
+                    var entry = this.props.entry;
+                    console.log(
+                        "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+                    );
+                    console.log(entry);
+                    return <>Hello</>;
+                },
+            });
+
+            CMS.registerPreviewTemplate("posts", studioProjectsPreview);
+        </script>
     </body>
 </html>
