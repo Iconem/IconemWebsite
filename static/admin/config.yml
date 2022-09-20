@@ -14,15 +14,13 @@ collections:
         file: "data/carousel/studio.json"
         format: json
         extension: json
-        fields:
-        - label: "carouselList"
-          name: "carouselList"
-          widget: "list"
-        format: "json"
-        extension: "json"
         editor:
           preview: true
         identifier_field: carouselList
+        fields:
+          - label: "carouselList"
+            name: "carouselList"
+            widget: "list"
   - name: "researchProjectsCarousel"
     label: "Research projects carousel"
     folder: "data/carousel/research"
