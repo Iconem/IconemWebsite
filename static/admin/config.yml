@@ -39,7 +39,7 @@ collections:
     format: "json"
     extension: "json"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     editor:
       preview: true
     identifier_field: modalID
@@ -185,7 +185,7 @@ collections:
     format: "json"
     extension: "json"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     editor:
       preview: true
     identifier_field: modalID
