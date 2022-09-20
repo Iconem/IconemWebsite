@@ -20,7 +20,11 @@
                         "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
                     );
                     console.log(entry);
-                    return <>Hello</>;
+                    return h(
+                        "div",
+                        { className: "content" },
+                        h("h1", {}, "hello")
+                    );
                 },
             });
 
