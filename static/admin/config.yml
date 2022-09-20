@@ -7,6 +7,8 @@ collections:
   - name: "projects"
     label: "Projects"
     folder: "data/projects/research"
+    format: "json"
+    extension: "json"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
