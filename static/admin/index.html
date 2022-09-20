@@ -16,15 +16,8 @@
             var studioProjectsPreview = createClass({
                 render: function () {
                     var entry = this.props.entry;
-                    console.log(
-                        "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-                    );
-                    console.log(entry);
-                    return h(
-                        "div",
-                        { className: "content" },
-                        h("h1", {}, "hello")
-                    );
+                    const articleTitle = entry.getIn(["data", "articleTitle"]);
+                    return h("div", {}, h("div", {}, articleTitle));
                 },
             });
 
