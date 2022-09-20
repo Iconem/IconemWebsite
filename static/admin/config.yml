@@ -114,7 +114,7 @@ collections:
       - label: "img"
         name: "img"
         widget: "list"
-        summary: "{{fields.full}}}}"
+        summary: "{{fields.full}}"
         fields:
           - label: preview
             name: preview
@@ -132,3 +132,17 @@ collections:
               - label: fr
                 name: fr
                 widget: string
+      - label: "video"
+        name: "video"
+        widget: "list"
+        summary: "{{fields.src}}"
+        fields:
+          - label: preview
+            name: preview
+            widget: string
+          - label: src
+            name: src
+            widget: string
+      - label: "models"
+        name: "models"
+        widget: "list"
