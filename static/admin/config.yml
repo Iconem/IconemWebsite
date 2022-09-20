@@ -4,15 +4,20 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: "IconemWebsite"
-    label: "IconemWebsite"
-    folder: "content"
+  - name: "projects"
+    label: "Projects"
+    folder: "data/projects/research"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: false
+    identifier_field: modalID
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "modalID", name: "modalID", widget: "string" }
+  - label: "ThumbnailTitle"
+    name: "thumbnailTitle"
+    widget: "object"
+    summary: "{{fields.en}}: {{fields.fr}}"
+    fields:
+      - { label: "En", name: "en", widget: "string" }
+      - { label: "Fr", name: "fr", widget: "string" }
