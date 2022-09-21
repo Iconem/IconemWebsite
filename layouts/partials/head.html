@@ -37,14 +37,13 @@
   (resources.Get "css/owl.theme.default.min.css")
   | resources.Concat "css/vendors.css"
   | minify 
-  | fingerprint
 }}
 
 {{ $iconemCSS := resources.Get "css/iconem-studio.css" }}
 {{ if eq .Type "research" }}
   {{ $iconemCSS = resources.Get "css/iconem-research.css" }}
 {{ end }}
-{{ $iconemCSS = $iconemCSS | minify | fingerprint }}
+{{ $iconemCSS = $iconemCSS | minify }}
 
   <link rel="stylesheet" href="{{ $vendorsCSS.RelPermalink }}" type="text/css">
   <link rel="stylesheet" href="{{ $iconemCSS.RelPermalink }}" type="text/css">
