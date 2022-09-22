@@ -10,7 +10,7 @@ ignoreFiles = ['/data/carousel/unpublished_project.txt']
 	[languages.en]
 	  #baseUrl = "https://iconem.com/en/"
   	#baseUrl = "https://iconem.github.io/IconemWebsite/en/"
-  	baseUrl = "https://radiant-zabaione-e92fa0.netlify.app//en/"
+  	baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/en/"
 	name = "Iconem"
 	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
 
