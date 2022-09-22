@@ -3,8 +3,7 @@ backend:
   branch: new # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 site_url: https://radiant-zabaione-e92fa0.netlify.app/en/
-media_folder: static/img
-public_folder: /img
+media_folder: static
 collections:
   - name: "projectCarousel"
     label: "Projects carousel"
@@ -154,7 +153,8 @@ collections:
             widget: string
           - label: full
             name: full
-            widget: string
+            widget: "image"
+            choose_url: true
           - label: caption
             name: caption
             widget: object
