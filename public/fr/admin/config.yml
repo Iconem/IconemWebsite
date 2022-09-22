@@ -155,7 +155,8 @@ collections:
           - label: full
             name: full
             widget: "image"
-            media_folder: static/img/projects
+            media_folder: static/img
+            public_folder: "/en/img"
           - label: caption
             name: caption
             widget: object
