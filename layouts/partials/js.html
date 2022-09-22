@@ -1,20 +1,24 @@
-{{ "<!-- jQuery -->" | safeHTML }}
-<script src="{{ "js/jquery.js" | absURL }}"></script>
-{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
-<script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
-{{ "<!-- Plugin JavaScript -->" | safeHTML }}
-<script src="{{ "js/jquery.easing.min.js" | absURL }}"></script>
-<script src="{{ "js/jquery.fittext.js" | absURL }}"></script>
-<script src="{{ "js/wow.min.js" | absURL }}"></script>
 {{ if .Site.Params.location }}
 <script src="//maps.googleapis.com/maps/api/js?key={{ .Site.Params.location.maps_api_key }}&v=3.exp"></script>
 <script src="{{ "js/hpneo.gmaps.js" | absURL }}"></script>
 <script src="{{ "js/gmaps.init.js" | absURL }}"></script>
 {{ end }}
-{{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
-<script src="{{ "js/creative.js" | absURL }}"></script>
-<script src="{{ "js/slick.min.js" | absURL }}"></script>
-<script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
+
+{{ 
+  $vendorsJS := slice 
+  (resources.Get "js/jquery.js") 
+  (resources.Get "js/bootstrap.min.js") 
+  (resources.Get "js/jquery.easing.min.js") 
+  (resources.Get "js/jquery.fittext.js") 
+  (resources.Get "js/wow.min.js") 
+  (resources.Get "js/creative.js") 
+  (resources.Get "js/slick.min.js") 
+  (resources.Get "js/owl.carousel.min.js")
+  | resources.Concat "js/vendors.js"
+  | minify 
+}}
+
+<script src="{{ $vendorsJS.RelPermalink }}"></script>
 
 <script>
   {{ $type := .Type }}
