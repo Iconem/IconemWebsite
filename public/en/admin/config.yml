@@ -43,8 +43,6 @@ collections:
     editor:
       preview: true
     identifier_field: modalID
-    media_folder: "static/img/projects/{{slug}}"
-    public_folder: "/en/img/projects/{{slugs}}"
     fields:
       - label: "modalID"
         name: "modalID"
@@ -158,7 +156,7 @@ collections:
             name: full
             widget: "image"
             media_folder: "static/img/projects/{{slug}}"
-            public_folder: "/en/img/projects/{{slugs}}"
+            public_folder: "/en/img/projects/{{slug}}"
           - label: caption
             name: caption
             widget: object
