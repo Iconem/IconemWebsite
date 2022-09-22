@@ -4,6 +4,7 @@ backend:
 publish_mode: editorial_workflow
 site_url: https://radiant-zabaione-e92fa0.netlify.app/en/
 media_folder: static
+public_folder: "/en/"
 collections:
   - name: "projectCarousel"
     label: "Projects carousel"
