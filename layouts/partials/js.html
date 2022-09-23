@@ -235,7 +235,7 @@
           var previewContainer = document.createElement('div');
           previewContainer.classList.add('project-video-preview');
           var img = document.createElement('img');
-          img.src = project.video[i].preview;
+          img.src = '/' + project.video[i].preview;
           previewContainer.appendChild(img);
           if(project.video[i].preview.length) this.appendChild(previewContainer);
         });
