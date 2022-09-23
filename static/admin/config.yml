@@ -174,7 +174,9 @@ collections:
         fields:
           - label: preview
             name: preview
-            widget: string
+            widget: "image"
+            media_folder: "/static/img/projects/{{fields.modalID}}"
+            public_folder: "en/img/projects/{{fields.modalID}}"
           - label: src
             name: src
             widget: string
