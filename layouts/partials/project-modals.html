@@ -19,7 +19,7 @@
               <div class="owl-carousel owl-theme preview-img-carousel">
                   {{ range $imgIndex, $img := $project.img }}
                       <div>
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ $img.full }}" class="cover">
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/{{ $img.full }}" class="cover">
                           {{ if $img.caption }}
                             <div class="img-toolbar">
                                 <div class="img-caption">
