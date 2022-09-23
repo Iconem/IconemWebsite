@@ -11,13 +11,13 @@
         <!-- Include the script that builds the page and powers Netlify CMS -->
         <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
         <script>
-            CMS.registerPreviewStyle("/en/css/vendors.min.css");
-            CMS.registerPreviewStyle("/en/css/iconem-studio.min.css");
+            CMS.registerPreviewStyle("/css/vendors.min.css");
+            CMS.registerPreviewStyle("/css/iconem-studio.min.css");
             var studioProjectsPreview = createClass({
                 componentDidUpdate(props) {
                     const { document, window } = this.props;
                     const script = document.createElement("script");
-                    script.src = "/en/js/vendors.min.js";
+                    script.src = "/js/vendors.min.js";
                     document.head.appendChild(script);
 
                     // var waitForJQuery = setInterval(function () {
@@ -62,7 +62,7 @@
                     //                 //         var img =
                     //                 //             document.createElement("img");
                     //                 //         img.src =
-                    //                 //             "/en/" +
+                    //                 //             "/" +
                     //                 //             project.video[i].preview;
                     //                 //         previewContainer.appendChild(img);
                     //                 //         if (project.video[i].preview.length)
@@ -274,34 +274,34 @@
                 <div class="iconem-modal modal in fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="false" style="display:block">
                 <div class="modal-content col-sm-12 col-sm-offset">
                   <div class="project-media-container">
-                      <img src="/en/${thumbnail}" class="img-responsive dummy">
+                      <img src="/${thumbnail}" class="img-responsive dummy">
                       <div class="project-media" id="project-${modalID}-img-carousel">
                           <div class="owl-carousel owl-theme preview-img-carousel">
                                   ${img
                                       .map(
                                           (el) => `
                                     <div>
-                                      <img src=/en/${el.full} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
+                                      <img src=/${el.full} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
                                     </div>`
                                       )
                                       .join("")}
                                   ${video
                                       .map(
                                           (el) => `
-                                    <a class="owl-video" href="/en/${el.src}"></a>
+                                    <a class="owl-video" href="/${el.src}"></a>
                                   `
                                       )
                                       .join("")}
                                   ${models
                                       .map(
                                           (el) => `
-                                    <iframe width="100%" height="100%" src='/en/${el}' frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
+                                    <iframe width="100%" height="100%" src='/${el}' frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
                                     </iframe>
                                     `
                                       )
                                       .join("")}
                           </div>
-                          <img src="/en/img/home/cross_white.webp" class="img-cross" onclick="toggleFullScreenCarousel('#project-${modalID}-img-carousel')">
+                          <img src="/img/home/cross_white.webp" class="img-cross" onclick="toggleFullScreenCarousel('#project-${modalID}-img-carousel')">
                           <div class="img-fullscreen-btn"
                             onclick="toggleFullScreenCarousel('#project-${modalID}-img-carousel')"
                           ></div>
@@ -316,7 +316,7 @@
                             data-parent='#project-${modalID}-media'
                             aria-expanded="true"
                             onclick="(function () { this.goToFirstImage({modalID: '${modalID}'}) })();">
-                            <img src="/en/img/projects/icons/img_black.webp" 
+                            <img src="/img/projects/icons/img_black.webp" 
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="Pictures" 
@@ -332,7 +332,7 @@
                             data-parent='#project-${modalID}-media'
                             aria-expanded="false"
                             onclick="(function () { this.goToFirstVideo({modalID: '${modalID}', img: {length: ${img.length}}}) })();">
-                            <img src="/en/img/projects/icons/video_black.webp"
+                            <img src="/img/projects/icons/video_black.webp"
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="Videos" 
@@ -351,7 +351,7 @@
                             data-parent='#project-${modalID}-media'
                             aria-expanded="false"
                             onclick="(function () { this.goToFirstModel({modalID: '${modalID}', img: {length: ${img.length}}, video: {length: ${video.length}}}) })();">
-                            <img src="/en/img/projects/icons/3ds_black.webp"
+                            <img src="/img/projects/icons/3ds_black.webp"
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="{{ Models }}"
@@ -367,8 +367,8 @@
                 </div>
                 <div id="project-media-description" class="modal-content"> 
                   
-                  <img src="/en/img/home/cross_white.webp" class="close-modal" data-dismiss="modal">
-                  <img src="/en/img/home/hide_white.webp" alt="" class="hide-modal-content" onclick='(function () { this.toggleContent() })();'>
+                  <img src="/img/home/cross_white.webp" class="close-modal" data-dismiss="modal">
+                  <img src="/img/home/hide_white.webp" alt="" class="hide-modal-content" onclick='(function () { this.toggleContent() })();'>
                         
                   <div class="col-sm-10 col-sm-offset-1 modal-body">
                       <div class="modal-fixed">
@@ -393,7 +393,7 @@
                               ${logos
                                   .map(
                                       (el) => `
-                                <img src="/en/${el}" />
+                                <img src="/${el}" />
                               `
                                   )
                                   .join("")} 
