@@ -62,7 +62,6 @@
                                             var img =
                                                 document.createElement("img");
                                             img.src =
-                                                "/en/" +
                                                 project.video[i].preview;
                                             previewContainer.appendChild(img);
                                             if (project.video[i].preview.length)
@@ -251,7 +250,7 @@
                             };
                             clearInterval(waitForJQuery);
                         }
-                    }, 100);
+                    }, 5000);
                 },
                 render: function () {
                     const entry = this.props.entry.toJS().data;
@@ -272,7 +271,7 @@
                 <div class="iconem-modal modal in fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="false" style="display:block">
                 <div class="modal-content col-sm-12 col-sm-offset">
                   <div class="project-media-container">
-                      <img src="/en/${thumbnail}" class="img-responsive dummy">
+                      <img src="${thumbnail}" class="img-responsive dummy">
                       <div class="project-media" id="project-${modalID}-img-carousel">
                           <div class="owl-carousel owl-theme preview-img-carousel">
                                   ${img
@@ -391,7 +390,7 @@
                               ${logos
                                   .map(
                                       (el) => `
-                                <img src="/en/${el}" />
+                                <img src="${el}" />
                               `
                                   )
                                   .join("")} 
