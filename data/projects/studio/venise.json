@@ -233,10 +233,10 @@
     "en": "Chief curator: Gabriella Belli, Director of the Fondazione Musei Civici di Venezia, with the collaboration of Elena Marchetti, Curator, Fondazione Musei Civici di Venezia. Associate curator: Yves Ubelmann, President of ICONEM. Music: David Chalmin. Set design: Agence Clémence Farrell. Graphics: Bénédicte Rolland. Lighting design: Aura studio. Audiovisual production: ICONEM. Audiovisual production of interactives: Museomaniac. Imaginary Acqua Alta production: Elisabeth Jonniaux and Yves Ubelmann. Tours of 15th century Venice, produced in partnership with Ubisoft using the models of the game Assassin’s Creed, amplify the public’s immersion by virtually projecting them into the city’s spaces.",
     "fr": "Commissariat général : Gabriella Belli, directrice de la Fondazione Musei Civici di Venezia, avec la collaboration d'Elena Marchetti, conservatrice, Fondazione Musei Civici di Venezia. Commissaire associé : Yves Ubelmann, président d'ICONEM. Musique : David Chalmin. Scénographie : Agence Clémence Farrell. Graphisme : Bénédicte Rolland. Conception lumière : Aura studio. Réalisation audiovisuelle : ICONEM. Réalisation audiovisuelle des interactifs : Museomaniac. Réalisation de l’Aqua Alta imaginaire : Elisabeth Jonniaux et Yves Ubelmann. Réalisation de l’Expérience Assassin’s Creed : Ubisoft",
     "logos": [
-      "/img/projects/venise/rmn_120p.webp",
-      "/img/projects/venise/MUVE_120p.webp",
-      "/img/projects/venise/Citta_di_Venezia_120p.webp",
-      "/img/projects/venise/Opéra_national_de_Paris_120p.webp"
+      "en/img/projects/venise/rmn_120p.webp",
+      "en/img/projects/venise/MUVE_120p.webp",
+      "en/img/projects/venise/Citta_di_Venezia_120p.webp",
+      "en/img/projects/venise/Opéra_national_de_Paris_120p.webp"
     ]
   }
 }
