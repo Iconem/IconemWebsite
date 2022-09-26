@@ -257,9 +257,9 @@
                     if (typeof props.window.$ != "undefined") {
                             var entry = props.entry.toJS();
                             entry.data.img.forEach(el => {
-                                console.log(props.getAsset(el.full));
+                                console.log(props.getAsset(el.full).toString());
                                 console.log(el.toString());
-                                el.url = props.getAsset(el.full).url;
+                                el.url = props.getAsset(el.full).toString();
                             });
                             console.log(entry.data.img);
                             
@@ -386,7 +386,7 @@
                     const thumbnailTitle = entry.thumbnailTitle.en;
                     const img = entry.img;                   
                     img.forEach(el => {
-                        el.url = this.props.getAsset(el.full).url;
+                        el.url = this.props.getAsset(el.full).toString();
                     });
                     
                     const video = entry.video || [];
