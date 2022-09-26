@@ -269,9 +269,12 @@
                     if (typeof this.props.window.$ != "undefined") {
                         console.log(parent);
                         console.log(this.props.window.$('img'));
+                        this.props.window.$('img').map(el => {
+                            console.log(el);
+                        });
                         console.log(this.props.window.$('img', window.parent.document));
                         console.log(this.props.document);
-                        console.lgo(this.props.window);
+                        console.log(this.props.window);
                         console.log(this.props.window.$('img', this.props.document));
                         console.log(this.props.window.$('img', this.props.window));
                     }
