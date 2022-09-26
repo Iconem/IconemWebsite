@@ -361,6 +361,10 @@ body {
     pointer-events: none;
 }
 
+.iconem-modal .owl-carousel.owl-theme .owl-nav.disabled {
+    display:none;
+}
+
 .iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev,
 .iconem-modal .owl-carousel.owl-theme .owl-nav .owl-next {
     margin: 0;
