@@ -23,9 +23,10 @@
                     var waitForJQuery = setInterval(() => {
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
-                            // entry.data.img.forEach(el => {
-                            //     el.url = el.full;
-                            // });
+                            console.log('hm');
+                            entry.data.img.forEach(el => {
+                                el.url = el.full;
+                            });
                             
                             var projects = { [entry.slug]: entry.data };
 
@@ -259,9 +260,9 @@
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
                     const img = entry.img;                   
-                    // img.forEach(el => {
-                    //     el.url = this.props.getAsset(el.full).url;
-                    // });
+                    img.forEach(el => {
+                        el.url = this.props.getAsset(el.full).url;
+                    });
                     
                     const video = entry.video || [];
                     const models = entry.models || [];
