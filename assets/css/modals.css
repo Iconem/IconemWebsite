@@ -395,11 +395,11 @@ body {
     color: rgba(255, 255, 255, 0.4);
 }
 
-.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-prev {
+.iconem-modal .owl-carousel.owl-theme .owl-nav:not(.disabled) .owl-prev {
     transform: translateX(-100%);
 }
 
-.iconem-modal .owl-carousel.owl-theme .owl-nav .owl-next {
+.iconem-modal .owl-carousel.owl-theme .owl-nav:not(.disabled) .owl-next {
     transform: translateX(100%);
 }
 

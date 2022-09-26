@@ -267,7 +267,9 @@
                     console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
                     console.log(img);
                     if (typeof window.$ != "undefined") {
+                        console.log(parent);
                         console.log(window.$('img'));
+                        console.log($('img', window.parent.document));
                     }
 
                     const html = `
