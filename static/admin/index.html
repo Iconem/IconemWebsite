@@ -31,11 +31,11 @@
                                 dots: true,
                                 video: true,
                                 lazyLoad: true,
-                                nav: true,
-                                navText: [
-                                    '<i class="fa fa-angle-left fa-2x"></i>',
-                                    '<i class="fa fa-angle-right fa-2x"></i>',
-                                ],
+                                nav: false,
+                                // navText: [
+                                //     '<i class="fa fa-angle-left fa-2x"></i>',
+                                //     '<i class="fa fa-angle-right fa-2x"></i>',
+                                // ],
                                 onInitialized: function () {
                                     var carousel = this.$element;
                                     var carouselId = carousel
@@ -267,6 +267,11 @@
                     const text = entry.text.en;
                     const actors = entry.actors.en;
                     const logos = entry.actors.logos || [];
+
+
+                    console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+                    console.log(img);
+                    console.log(window.$('#'));
 
                     const html = `
                 <div class="iconem-modal modal in fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="false" style="display:block">
