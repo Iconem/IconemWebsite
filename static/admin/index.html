@@ -258,7 +258,7 @@
                             var entry = props.entry.toJS();
                             entry.data.img.forEach(el => {
                                 console.log(props.getAsset(el.full));
-                                console.log(bg.toString());
+                                console.log(el.toString());
                                 el.url = props.getAsset(el.full).url;
                             });
                             console.log(entry.data.img);
