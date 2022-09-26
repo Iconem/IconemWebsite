@@ -279,10 +279,10 @@
                                     <div class="owl-carousel owl-theme preview-img-carousel">
                                             ${img
                                                 .map(
-                                                    (el) => `
+                                                    (el) => {console.log(el.url); return `
                                                 <div>
                                                 <img src=${el.url} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
-                                                </div>`
+                                                </div>`}
                                                 )
                                                 .join("")}
                                             ${video
