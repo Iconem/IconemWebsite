@@ -257,7 +257,7 @@
                     if (typeof props.window.$ != "undefined") {
                             var entry = props.entry.toJS();
                             entry.data.img.forEach(el => {
-                                el.url = el.full;
+                                el.url = props.getAsset(el.full).url;
                             });
                             console.log(entry.data.img);
                             
