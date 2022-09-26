@@ -267,6 +267,8 @@
                     console.log('zzzzzz@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
                     console.log(img);
                     if (typeof this.props.window.$ != "undefined") {
+                        console.log(el);
+                        console.log(el.src);
                         console.log(this.props.window.$('img', window.parent.document).filter(el => el.src.startsWith('blob')));
                     }
 
