@@ -23,14 +23,11 @@
                     var waitForJQuery = setInterval(() => {
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
-                            entry.data.img.forEach(el => {
-                                el.url = el.full;
-                                // this.props.getAsset(el.full).url;
-                            });
+                            // entry.data.img.forEach(el => {
+                            //     el.url = el.full;
+                            // });
                             
                             var projects = { [entry.slug]: entry.data };
-                            console.log('aaaaaaa');
-                            console.log(projects);
 
                             var modalCarouselConfig = {
                                 items: 1,
@@ -260,13 +257,11 @@
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
-                    const img = entry.img;
-                    // const img = entry.img.map(el => this.props.getAsset(el.full));
-                    console.log('uuuuu');
-                    img.forEach(el => {
-                        el.url = this.props.getAsset(el.full).url;
-                    });
-                    console.log(img);
+                    const img = entry.img;                   
+                    // img.forEach(el => {
+                    //     el.url = this.props.getAsset(el.full).url;
+                    // });
+                    
                     const video = entry.video || [];
                     const models = entry.models || [];
                     const articleTitle = entry.articleTitle.en;
@@ -287,7 +282,7 @@
                                                 .map(
                                                     (el) => `
                                                 <div>
-                                                <img src=${el.url} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
+                                                <img src=${el.full} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
                                                 </div>`
                                                 )
                                                 .join("")}
