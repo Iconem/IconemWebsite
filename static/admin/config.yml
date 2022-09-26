@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: new # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-site_url: https://radiant-zabaione-e92fa0.netlify.app/en/
+site_url: https://radiant-zabaione-e92fa0.netlify.app/
 media_folder: "/static"
 public_folder: "/"
 collections:
