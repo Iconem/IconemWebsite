@@ -23,6 +23,11 @@
                     var waitForJQuery = setInterval(() => {
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
+                            console.log('ololol');
+                            console.log(entry);
+                            entry.data.img = entry.data.img.map(el => this.props.getAsset(el.full));
+                            console.log(entry);
+                            
                             var projects = { [entry.slug]: entry.data };
 
                             var modalCarouselConfig = {
@@ -249,12 +254,13 @@
                     }, 100);
                 },
                 render: function () {
-                    console.log(this.props);
                     const entry = this.props.entry.toJS().data;
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
                     const img = entry.img.map(el => this.props.getAsset(el.full));
+                    console.log('uuuuu');
+                    console.log(img);
                     const video = entry.video || [];
                     const models = entry.models || [];
                     const articleTitle = entry.articleTitle.en;
@@ -263,17 +269,6 @@
                     const text = entry.text.en;
                     const actors = entry.actors.en;
                     const logos = entry.actors.logos || [];
-
-
-                    // console.log('zzzzzz@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
-                    // console.log(img);
-                    // if (typeof this.props.window.$ != "undefined") {
-                    //     const test = this.props.window.$.makeArray(this.props.window.$('img', window.parent.document).filter((index, el) => {
-                    //         return el.src.startsWith('blob');
-                    //     }));
-                    //     console.log(test);
-                        
-                    // }
 
                     const html = `
                         <div class="iconem-modal modal in fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="false" style="display:block">
