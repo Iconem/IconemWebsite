@@ -251,17 +251,7 @@
                             };
                             clearInterval(waitForJQuery);
                         }
-                    }, 100);
-                },
-                componentDidUpdate(props){
-                    console.log('alalala');
-                    console.log(props);
-                    console.log(props.window.$);
-                    if (typeof props.window.$ != "undefined") {
-                        console.log('ouloulou');    
-                        const carousel = props.window.$(".owl-carousel");
-                        carousel.trigger('refresh.owl.carousel');
-                    }
+                    }, 5000);
                 },
                 render: function () {
                     const entry = this.props.entry.toJS().data;
