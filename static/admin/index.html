@@ -23,7 +23,6 @@
                     var waitForJQuery = setInterval(() => {
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
-                            console.log('hm');
                             entry.data.img.forEach(el => {
                                 el.url = el.full;
                             });
@@ -252,7 +251,11 @@
                             };
                             clearInterval(waitForJQuery);
                         }
-                    }, 5000);
+                    }, 100);
+                },
+                componentDidUpdate(){
+                    const carousel = window.$(".owl-carousel");
+                    carousel.trigger('refresh.owl.carousel');
                 },
                 render: function () {
                     const entry = this.props.entry.toJS().data;
