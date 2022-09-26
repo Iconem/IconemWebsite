@@ -14,8 +14,8 @@
             CMS.registerPreviewStyle("/css/vendors.min.css");
             CMS.registerPreviewStyle("/css/iconem-studio.min.css");
             var studioProjectsPreview = createClass({
-                componentDidUpdate(props) {
-                    const { document, window } = props;
+                componentDidMount() {
+                    const { document, window } = this.props;
                     const script = document.createElement("script");
                     script.src = "/js/vendors.min.js";
                     document.head.appendChild(script);
