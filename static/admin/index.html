@@ -23,10 +23,10 @@
                     var waitForJQuery = setInterval(() => {
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
-                            console.log('ololol');
-                            console.log(entry);
-                            entry.data.img = entry.data.img.map(el => this.props.getAsset(el.full));
-                            console.log(entry);
+                            // console.log('ololol');
+                            // console.log(entry);
+                            // entry.data.img = entry.data.img.map(el => this.props.getAsset(el.full));
+                            // console.log(entry);
                             
                             var projects = { [entry.slug]: entry.data };
 
@@ -258,8 +258,8 @@
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
+                    console.log(entry.img);
                     const img = entry.img.map(el => this.props.getAsset(el.full));
-                    console.log('uuuuu');
                     console.log(img);
                     const video = entry.video || [];
                     const models = entry.models || [];
