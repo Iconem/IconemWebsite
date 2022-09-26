@@ -24,7 +24,8 @@
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
                             entry.data.img.forEach(el => {
-                                el.url = this.props.getAsset(el.full).url;
+                                el.url = el.full;
+                                // this.props.getAsset(el.full).url;
                             });
                             
                             var projects = { [entry.slug]: entry.data };
