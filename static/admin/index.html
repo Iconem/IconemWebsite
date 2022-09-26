@@ -24,7 +24,7 @@
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
                             entry.data.img.forEach(el => {
-                                el.url = this.props.getAsset(el.full);
+                                el.url = this.props.getAsset(el.full).url;
                             });
                             
                             var projects = { [entry.slug]: entry.data };
@@ -261,7 +261,7 @@
                     // const img = entry.img.map(el => this.props.getAsset(el.full));
                     console.log('uuuuu');
                     img.forEach(el => {
-                        el.url = this.props.getAsset(el.full);
+                        el.url = this.props.getAsset(el.full).url;
                     });
                     console.log(img);
                     const video = entry.video || [];
