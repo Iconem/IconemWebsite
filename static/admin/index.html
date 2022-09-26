@@ -14,8 +14,8 @@
             CMS.registerPreviewStyle("/css/vendors.min.css");
             CMS.registerPreviewStyle("/css/iconem-studio.min.css");
             var studioProjectsPreview = createClass({
-                componentDidMount() {
-                    const { document, window } = this.props;
+                componentDidUpdate(props) {
+                    const { document, window } = props;
                     const script = document.createElement("script");
                     script.src = "/js/vendors.min.js";
                     document.head.appendChild(script);
@@ -303,11 +303,6 @@
                                                 )
                                                 .join("")}
                                     </div>
-                                    
-                                    <img src="/img/home/cross_white.webp" class="/img-cross" onclick="toggleFullScreenCarousel('#project-${modalID}-img-carousel')">
-                                    <div class="/img-fullscreen-btn"
-                                        onclick="toggleFullScreenCarousel('#project-${modalID}-img-carousel')"
-                                    ></div>
                                 </div>
                             </div>
                             <div class="project-media-icons-container">
