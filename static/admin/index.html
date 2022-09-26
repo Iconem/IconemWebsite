@@ -249,6 +249,7 @@
                     }, 100);
                 },
                 render: function () {
+                    console.log(this.props);
                     const entry = this.props.entry.toJS().data;
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
