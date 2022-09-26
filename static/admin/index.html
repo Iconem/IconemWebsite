@@ -267,10 +267,9 @@
                     console.log('zzzzzz@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
                     console.log(img);
                     if (typeof this.props.window.$ != "undefined") {
-                        const test = this.props.window.$('img', window.parent.document).filter((index, el) => {
-                            console.log(el);
+                        const test = this.props.window.$.makeArray(this.props.window.$('img', window.parent.document).filter((index, el) => {
                             return el.src.startsWith('blob');
-                        });
+                        }));
                         console.log(test);
                         
                     }
