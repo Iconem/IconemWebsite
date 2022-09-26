@@ -267,12 +267,16 @@
                     console.log('zzzzzz@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
                     console.log(img);
                     if (typeof this.props.window.$ != "undefined") {
-                        console.log(parent);
-                        console.log(this.props.window.$('img'));
-                        console.log(this.props.window.$('img', window.parent.document));
-                        console.log(this.props.document);
-                        console.log(this.props.window);
-                        console.log(this.props.window.$('img', this.props.document));
+                        // console.log(parent);
+                        // console.log(this.props.window.$('img'));
+                        // console.log(this.props.window.$('img', window.parent.document));
+                        // console.log(this.props.document);
+                        // console.log(this.props.window);
+                        // console.log(this.props.window.$('img', this.props.document));
+                        this.props.window.$('img', window.parent.document).map(el => {
+                            console.log(el);
+                            console.log(el.src.startsWidth('blob'));
+                        });
                         
                     }
 
