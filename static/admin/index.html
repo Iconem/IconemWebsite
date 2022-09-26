@@ -258,10 +258,8 @@
                             var entry = props.entry.toJS();
                             entry.data.img.forEach(el => {
                                 console.log(props.getAsset(el.full).toString());
-                                console.log(el.toString());
-                                el.url = props.getAsset(el.full).toString();
+                                el.url = props.getAsset(el.full).url;
                             });
-                            console.log(entry.data.img);
                             
                             var projects = { [entry.slug]: entry.data };
 
@@ -386,7 +384,7 @@
                     const thumbnailTitle = entry.thumbnailTitle.en;
                     const img = entry.img;                   
                     img.forEach(el => {
-                        el.url = this.props.getAsset(el.full).toString();
+                        el.url = this.props.getAsset(el.full).url;
                     });
                     
                     const video = entry.video || [];
