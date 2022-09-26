@@ -254,8 +254,10 @@
                     }, 100);
                 },
                 componentDidUpdate(){
+                    console.log('alalala');
+                    console.log(window.$);
                     if (typeof window.$ != "undefined") {
-                        console.log('ouloulou');
+                        console.log('ouloulou');    
                         const carousel = window.$(".owl-carousel");
                         carousel.trigger('refresh.owl.carousel');
                     }
