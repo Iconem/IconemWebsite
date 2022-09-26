@@ -255,6 +255,7 @@
                 },
                 componentDidUpdate(){
                     if (typeof window.$ != "undefined") {
+                        console.log('ouloulou');
                         const carousel = window.$(".owl-carousel");
                         carousel.trigger('refresh.owl.carousel');
                     }
