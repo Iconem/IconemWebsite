@@ -141,35 +141,35 @@
                             const carousel = window.$(".owl-carousel");
                             carousel.owlCarousel(modalCarouselConfig);
 
-                            //     if (carousel.find('iframe').length > 0) {
-                            //       const projectModalID = window.$(e.target).attr('id').split('portfolioModal')[1];
-                            //       const project = projects[projectModalID];
-                            //       carousel.find('iframe').each(function(index) {
-                            //         if ((window.$(this).attr('src')).length === 0) {
-                            //             window.$(this).attr('src', project.models[index % project.models.length]);
-                            //         }
-                            //       });
-                            //     }
+                                if (carousel.find('iframe').length > 0) {
+                                  const projectModalID = window.$(e.target).attr('id').split('portfolioModal')[1];
+                                  const project = projects[projectModalID];
+                                  carousel.find('iframe').each(function(index) {
+                                    if ((window.$(this).attr('src')).length === 0) {
+                                        window.$(this).attr('src', project.models[index % project.models.length]);
+                                    }
+                                  });
+                                }
 
-                            // window.$(document).keyup(function (e) {
-                            //   if (e.keyCode === 27) {
+                            window.$(document).keyup(function (e) {
+                              if (e.keyCode === 27) {
 
-                            //     var closeButton = window.$('.iconem-modal.fade.in').first().find('.close-modal')[0];
-                            //     if(closeButton) {
-                            //       closeButton.click();
-                            //     }
-                            //   }
-                            //   if (e.keyCode === 37) {
+                                var closeButton = window.$('.iconem-modal.fade.in').first().find('.close-modal')[0];
+                                if(closeButton) {
+                                  closeButton.click();
+                                }
+                              }
+                              if (e.keyCode === 37) {
 
-                            //     var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
-                            //     currentlyOpenCarousel.trigger('prev.owl.carousel');
-                            //   }
-                            //   if (e.keyCode === 39) {
+                                var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
+                                currentlyOpenCarousel.trigger('prev.owl.carousel');
+                              }
+                              if (e.keyCode === 39) {
 
-                            //     var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
-                            //     currentlyOpenCarousel.trigger('next.owl.carousel');
-                            //   }
-                            // });
+                                var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
+                                currentlyOpenCarousel.trigger('next.owl.carousel');
+                              }
+                            });
 
                             window.toggleContent = () => {
                                 var modal_content =
