@@ -393,6 +393,9 @@
                 //     }
                 },
                 render: function () {
+
+
+
                     const entry = this.props.entry.toJS().data;
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
@@ -428,6 +431,12 @@
                         // console.log(this.props.getAsset(el.get('full')).toString());
                         console.log(this.props.widgetsFor('img'));
                     });
+
+                    const test2 = this.props.entry.getIn(['data', 'img']);
+                    const test3 = this.props.entry.getIn(test2, 'full');
+                    console.log('bloblob');
+                    console.log(test3);
+
 
                     const html = `
                         <div class="iconem-modal modal in fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="false" style="display:block">
