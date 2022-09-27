@@ -255,10 +255,20 @@
                         }
                     }, 5000);
                 },
-                componentDidUpdate(prevProps, nextProps){
+                componentDidUpdate(prevProps){
                     console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
                     console.log(prevProps);
-                    console.log(nextProps);
+                    var entry = prevProps.entry.toJS();
+                    entry.data.img.forEach(el => {
+                        el.url = el.full;
+                    });
+                    console.log(entry);
+                    console.log('-----------------------------------------------');
+                    var entry2 = this.props.entry2.toJS();
+                    entry2.data.img.forEach(el => {
+                        el.url = el.full;
+                    });
+                    console.log(entry2);
                     console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
                 //     if (typeof props.window.$ != "undefined") {
                 //             var entry = props.entry.toJS();
