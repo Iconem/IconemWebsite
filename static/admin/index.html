@@ -146,16 +146,6 @@
                             // const carousel = window.$(".owl-carousel");
                             // carousel.owlCarousel(modalCarouselConfig);
 
-                            if (carousel.find('iframe').length > 0) {
-                                const projectModalID = window.$(e.target).attr('id').split('portfolioModal')[1];
-                                const project = projects[projectModalID];
-                                carousel.find('iframe').each(function(index) {
-                                if ((window.$(this).attr('src')).length === 0) {
-                                    window.$(this).attr('src', project.models[index % project.models.length]);
-                                }
-                                });
-                            }
-
                             window.$(document).keyup(function (e) {
                               if (e.keyCode === 27) {
 
@@ -381,6 +371,16 @@
                         const carousel = this.props.window.$(".owl-carousel");
                         carousel.trigger("destroy.owl.carousel"); 
                         carousel.owlCarousel(modalCarouselConfig);
+
+                        if (carousel.find('iframe').length > 0) {
+                            const projectModalID = window.$(e.target).attr('id').split('portfolioModal')[1];
+                            const project = projects[projectModalID];
+                            carousel.find('iframe').each(function(index) {
+                            if ((window.$(this).attr('src')).length === 0) {
+                                window.$(this).attr('src', project.models[index % project.models.length]);
+                            }
+                            });
+                        }
                     }
                 },
                 render: function () {
