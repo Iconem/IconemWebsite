@@ -250,6 +250,7 @@
                 },
                 componentDidUpdate(){
                     if (typeof this.props.window.$ != "undefined") {
+                            const { window } = this.props;
                             var entry = this.props.entry.toJS();
                             const img = this.props.widgetsFor('img').map((el, index) => {
                                 const imgFullWidget = el.getIn(['widgets', 'full']);
@@ -320,9 +321,6 @@
                                             const pageStartModels =
                                                 pageStartVideo + nbPageVideo;
 
-                                            console.log('alalala');
-                                            console.log(window);
-                                            console.log(this);
                                             const imgToggler = window.$(
                                                 `#project-${projectId}-img-carousel-toggler`
                                             );
