@@ -385,6 +385,115 @@
                         const carousel = this.props.window.$(".owl-carousel");
                         carousel.trigger("destroy.owl.carousel"); 
                         carousel.owlCarousel(modalCarouselConfig);
+
+                        if (carousel.find('iframe').length > 0) {
+                            const projectModalID = this.props.window.$(e.target).attr('id').split('portfolioModal')[1];
+                            const project = projects[projectModalID];
+                            carousel.find('iframe').each(function(index) {
+                            if ((this.props.window.$(this).attr('src')).length === 0) {
+                                this.props.window.$(this).attr('src', project.models[index % project.models.length]);
+                            }
+                            });
+                        }
+
+                        this.props.window.$(document).keyup(function (e) {
+                            if (e.keyCode === 27) {
+
+                            var closeButton = this.props.window.$('.iconem-modal.fade.in').first().find('.close-modal')[0];
+                            if(closeButton) {
+                                closeButton.click();
+                            }
+                            }
+                            if (e.keyCode === 37) {
+
+                            var currentlyOpenCarousel = this.props.window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
+                            currentlyOpenCarousel.trigger('prev.owl.carousel');
+                            }
+                            if (e.keyCode === 39) {
+
+                            var currentlyOpenCarousel = this.props.window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
+                            currentlyOpenCarousel.trigger('next.owl.carousel');
+                            }
+                        });
+
+                        window.toggleContent = () => {
+                            var modal_content =
+                                document.getElementsByClassName(
+                                    "modal-content"
+                                );
+                            var modal_hide_button =
+                                document.getElementsByClassName(
+                                    "hide-modal-content"
+                                );
+                            var close_modal_button =
+                                document.getElementsByClassName(
+                                    "close-modal"
+                                );
+                            for (var i = 0; i < modal_content.length; i++) {
+                                modal_content[i].classList.toggle(
+                                    "modal-content-hidden"
+                                );
+                            }
+                            for (
+                                var i = 0;
+                                i < modal_hide_button.length;
+                                i++
+                            ) {
+                                modal_hide_button[i].classList.toggle(
+                                    "modal-content-hidden"
+                                );
+                            }
+                            for (
+                                var i = 0;
+                                i < close_modal_button.length;
+                                i++
+                            ) {
+                                close_modal_button[i].classList.toggle(
+                                    "modal-content-hidden"
+                                );
+                            }
+                        };
+
+                        window.goToFirstVideo = (project) => {
+                            const projectModalCarousel = window
+                                .$(
+                                    `#project-${project.modalID}-img-carousel`
+                                )
+                                .find(".owl-carousel");
+                            const firstVideoIndex = project.img.length;
+                            projectModalCarousel.trigger(
+                                "to.owl.carousel",
+                                [firstVideoIndex]
+                            );
+                        };
+
+                        window.goToFirstModel = (project) => {
+                            const projectModalCarousel = window
+                                .$(
+                                    `#project-${project.modalID}-img-carousel`
+                                )
+                                .find(".owl-carousel");
+                            let firstModelIndex = project.img.length;
+                            if (project.video) {
+                                firstModelIndex += project.video.length;
+                            }
+                            projectModalCarousel.trigger(
+                                "to.owl.carousel",
+                                [firstModelIndex]
+                            );
+                        };
+
+                        window.goToFirstImage = (project) => {
+                            const projectModalCarousel = window
+                                .$(
+                                    `#project-${project.modalID}-img-carousel`
+                                )
+                                .find(".owl-carousel");
+                            projectModalCarousel.trigger(
+                                "to.owl.carousel",
+                                [0]
+                            );
+                        };
                     }
                 },
                 render: function () {
