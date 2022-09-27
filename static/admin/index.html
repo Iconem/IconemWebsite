@@ -255,7 +255,11 @@
                         }
                     }, 5000);
                 },
-                // componentDidUpdate(props){
+                componentDidUpdate(prevProps, nextProps){
+                    console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
+                    console.log(prevProps);
+                    console.log(nextProps);
+                    console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
                 //     if (typeof props.window.$ != "undefined") {
                 //             var entry = props.entry.toJS();
                 //             entry.data.img.forEach(el => {
@@ -377,7 +381,7 @@
                 //         carousel.trigger("destroy.owl.carousel"); 
                 //         carousel.owlCarousel(modalCarouselConfig);
                 //     }
-                // },
+                },
                 render: function () {
                     const entry = this.props.entry.toJS().data;
                     const modalID = entry.modalID;
