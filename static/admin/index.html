@@ -20,256 +20,19 @@
                     script.src = "/js/vendors.min.js";
                     document.head.appendChild(script);
 
-                //     var waitForJQuery = setInterval(() => {
-                //         if (typeof window.$ != "undefined") {
-                //             var entry = this.props.entry.toJS();
-
-                //             const img = this.props.widgetsFor('img').map((el, index) => {
-                //                 const imgFullWidget = el.getIn(['widgets', 'full']);
-                //                 return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
-                //             });
-                //             entry.data.img = img;
-
-                //             // entry.data.img.forEach(el => {
-                //             //     el.url = el.full;
-                //             // });
-                            
-                //             var projects = { [entry.slug]: entry.data };
-
-                //             var modalCarouselConfig = {
-                //                 items: 1,
-                //                 loop: false,
-                //                 dots: true,
-                //                 video: true,
-                //                 lazyLoad: true,
-                //                 nav: false,
-                //                 onInitialized: function () {
-                //                     var carousel = this.$element;
-                //                     var carouselId = carousel
-                //                         .parent()
-                //                         .attr("id");
-                //                     var projectId = carouselId.split("-")[1];
-                //                     var project = projects[projectId];
-
-                //                     if(project && project.video){
-                //                     carousel
-                //                         .find(".owl-video-wrapper")
-                //                         .each(function (index) {
-                //                             var i =
-                //                                 (index +
-                //                                     Math.floor(
-                //                                         project.video.length +
-                //                                             1 / 2
-                //                                     )) %
-                //                                 project.video.length;
-                //                             var previewContainer =
-                //                                 document.createElement("div");
-                //                             previewContainer.classList.add(
-                //                                 "project-video-preview"
-                //                             );
-                //                             var img =
-                //                                 document.createElement("img");
-                //                             img.src =
-                //                                 "" +
-                //                                 project.video[i].preview;
-                //                             previewContainer.appendChild(img);
-                //                             if (project.video[i].preview.length)
-                //                                 this.appendChild(
-                //                                     previewContainer
-                //                                 );
-                //                         });
-                //                     }
-
-                //                     carousel.on(
-                //                         "changed.owl.carousel",
-                //                         function (event) {
-                //                             const pageIndex = event.page.index;
-                //                             const nbPageImg = project.img
-                //                                 ? project.img.length
-                //                                 : 0;
-                //                             const nbPageVideo = project.video
-                //                                 ? project.video.length
-                //                                 : 0;
-                //                             const nbPageModels = project.models
-                //                                 ? project.models.length
-                //                                 : 0;
-                //                             const pageStartImg = 0;
-                //                             const pageStartVideo =
-                //                                 pageStartImg + nbPageImg;
-                //                             const pageStartModels =
-                //                                 pageStartVideo + nbPageVideo;
-
-                //                             const imgToggler = window.$(
-                //                                 `#project-${projectId}-img-carousel-toggler`
-                //                             );
-                //                             const videoToggler = window.$(
-                //                                 `#project-${projectId}-video-carousel-toggler`
-                //                             );
-                //                             const modelsToggler = window.$(
-                //                                 `#project-${projectId}-models-carousel-toggler`
-                //                             );
-
-                //                             if (pageIndex < pageStartVideo) {
-                //                                 imgToggler.removeClass(
-                //                                     "collapsed"
-                //                                 );
-                //                                 videoToggler.addClass(
-                //                                     "collapsed"
-                //                                 );
-                //                                 modelsToggler.addClass(
-                //                                     "collapsed"
-                //                                 );
-                //                             } else if (
-                //                                 pageIndex < pageStartModels
-                //                             ) {
-                //                                 imgToggler.addClass(
-                //                                     "collapsed"
-                //                                 );
-                //                                 videoToggler.removeClass(
-                //                                     "collapsed"
-                //                                 );
-                //                                 modelsToggler.addClass(
-                //                                     "collapsed"
-                //                                 );
-                //                             } else {
-                //                                 imgToggler.addClass(
-                //                                     "collapsed"
-                //                                 );
-                //                                 videoToggler.addClass(
-                //                                     "collapsed"
-                //                                 );
-                //                                 modelsToggler.removeClass(
-                //                                     "collapsed"
-                //                                 );
-                //                             }
-                //                         }
-                //                     );
-                //                 },
-                //             };
-
-                //             const carousel = window.$(".owl-carousel");
-                //             carousel.owlCarousel(modalCarouselConfig);
-
-                //             if (carousel.find('iframe').length > 0) {
-                //                 const projectModalID = window.$(e.target).attr('id').split('portfolioModal')[1];
-                //                 const project = projects[projectModalID];
-                //                 carousel.find('iframe').each(function(index) {
-                //                 if ((window.$(this).attr('src')).length === 0) {
-                //                     window.$(this).attr('src', project.models[index % project.models.length]);
-                //                 }
-                //                 });
-                //             }
-
-                //             window.$(document).keyup(function (e) {
-                //               if (e.keyCode === 27) {
-
-                //                 var closeButton = window.$('.iconem-modal.fade.in').first().find('.close-modal')[0];
-                //                 if(closeButton) {
-                //                   closeButton.click();
-                //                 }
-                //               }
-                //               if (e.keyCode === 37) {
-
-                //                 var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
-                //                 currentlyOpenCarousel.trigger('prev.owl.carousel');
-                //               }
-                //               if (e.keyCode === 39) {
-
-                //                 var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
-                //                 currentlyOpenCarousel.trigger('next.owl.carousel');
-                //               }
-                //             });
-
-                //             window.toggleContent = () => {
-                //                 var modal_content =
-                //                     document.getElementsByClassName(
-                //                         "modal-content"
-                //                     );
-                //                 var modal_hide_button =
-                //                     document.getElementsByClassName(
-                //                         "hide-modal-content"
-                //                     );
-                //                 var close_modal_button =
-                //                     document.getElementsByClassName(
-                //                         "close-modal"
-                //                     );
-                //                 for (var i = 0; i < modal_content.length; i++) {
-                //                     modal_content[i].classList.toggle(
-                //                         "modal-content-hidden"
-                //                     );
-                //                 }
-                //                 for (
-                //                     var i = 0;
-                //                     i < modal_hide_button.length;
-                //                     i++
-                //                 ) {
-                //                     modal_hide_button[i].classList.toggle(
-                //                         "modal-content-hidden"
-                //                     );
-                //                 }
-                //                 for (
-                //                     var i = 0;
-                //                     i < close_modal_button.length;
-                //                     i++
-                //                 ) {
-                //                     close_modal_button[i].classList.toggle(
-                //                         "modal-content-hidden"
-                //                     );
-                //                 }
-                //             };
-
-                //             window.goToFirstVideo = (project) => {
-                //                 const projectModalCarousel = window
-                //                     .$(
-                //                         `#project-${project.modalID}-img-carousel`
-                //                     )
-                //                     .find(".owl-carousel");
-                //                 const firstVideoIndex = project.img.length;
-                //                 projectModalCarousel.trigger(
-                //                     "to.owl.carousel",
-                //                     [firstVideoIndex]
-                //                 );
-                //             };
-
-                //             window.goToFirstModel = (project) => {
-                //                 const projectModalCarousel = window
-                //                     .$(
-                //                         `#project-${project.modalID}-img-carousel`
-                //                     )
-                //                     .find(".owl-carousel");
-                //                 let firstModelIndex = project.img.length;
-                //                 if (project.video) {
-                //                     firstModelIndex += project.video.length;
-                //                 }
-                //                 projectModalCarousel.trigger(
-                //                     "to.owl.carousel",
-                //                     [firstModelIndex]
-                //                 );
-                //             };
-
-                //             window.goToFirstImage = (project) => {
-                //                 const projectModalCarousel = window
-                //                     .$(
-                //                         `#project-${project.modalID}-img-carousel`
-                //                     )
-                //                     .find(".owl-carousel");
-                //                 projectModalCarousel.trigger(
-                //                     "to.owl.carousel",
-                //                     [0]
-                //                 );
-                //             };
-                //             clearInterval(waitForJQuery);
-                //         }
-                //     }, 100);
-                },
-                componentDidUpdate(){
-                    if (typeof this.props.window.$ != "undefined") {
+                    var waitForJQuery = setInterval(() => {
+                        if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
+
                             const img = this.props.widgetsFor('img').map((el, index) => {
                                 const imgFullWidget = el.getIn(['widgets', 'full']);
                                 return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
                             });
                             entry.data.img = img;
+
+                            // entry.data.img.forEach(el => {
+                            //     el.url = el.full;
+                            // });
                             
                             var projects = { [entry.slug]: entry.data };
 
@@ -288,6 +51,7 @@
                                     var projectId = carouselId.split("-")[1];
                                     var project = projects[projectId];
 
+                                    if(project && project.video){
                                     carousel
                                         .find(".owl-video-wrapper")
                                         .each(function (index) {
@@ -314,10 +78,11 @@
                                                     previewContainer
                                                 );
                                         });
+                                    }
 
                                     carousel.on(
                                         "changed.owl.carousel",
-                                        (event) => {
+                                        function (event) {
                                             const pageIndex = event.page.index;
                                             const nbPageImg = project.img
                                                 ? project.img.length
@@ -334,10 +99,6 @@
                                             const pageStartModels =
                                                 pageStartVideo + nbPageVideo;
 
-
-                                            console.log('ouloulou');
-                                            console.log(this.props.window.$);
-                                            console.log(window.$);
                                             const imgToggler = window.$(
                                                 `#project-${projectId}-img-carousel-toggler`
                                             );
@@ -386,118 +147,244 @@
                                 },
                             };
 
+                            const carousel = window.$(".owl-carousel");
+                            carousel.owlCarousel(modalCarouselConfig);
+
+                            if (carousel.find('iframe').length > 0) {
+                                const projectModalID = window.$(e.target).attr('id').split('portfolioModal')[1];
+                                const project = projects[projectModalID];
+                                carousel.find('iframe').each(function(index) {
+                                if ((window.$(this).attr('src')).length === 0) {
+                                    window.$(this).attr('src', project.models[index % project.models.length]);
+                                }
+                                });
+                            }
+
+                            window.$(document).keyup(function (e) {
+                              if (e.keyCode === 27) {
+
+                                var closeButton = window.$('.iconem-modal.fade.in').first().find('.close-modal')[0];
+                                if(closeButton) {
+                                  closeButton.click();
+                                }
+                              }
+                              if (e.keyCode === 37) {
+
+                                var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
+                                currentlyOpenCarousel.trigger('prev.owl.carousel');
+                              }
+                              if (e.keyCode === 39) {
+
+                                var currentlyOpenCarousel = window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
+                                currentlyOpenCarousel.trigger('next.owl.carousel');
+                              }
+                            });
+
+                            window.toggleContent = () => {
+                                var modal_content =
+                                    document.getElementsByClassName(
+                                        "modal-content"
+                                    );
+                                var modal_hide_button =
+                                    document.getElementsByClassName(
+                                        "hide-modal-content"
+                                    );
+                                var close_modal_button =
+                                    document.getElementsByClassName(
+                                        "close-modal"
+                                    );
+                                for (var i = 0; i < modal_content.length; i++) {
+                                    modal_content[i].classList.toggle(
+                                        "modal-content-hidden"
+                                    );
+                                }
+                                for (
+                                    var i = 0;
+                                    i < modal_hide_button.length;
+                                    i++
+                                ) {
+                                    modal_hide_button[i].classList.toggle(
+                                        "modal-content-hidden"
+                                    );
+                                }
+                                for (
+                                    var i = 0;
+                                    i < close_modal_button.length;
+                                    i++
+                                ) {
+                                    close_modal_button[i].classList.toggle(
+                                        "modal-content-hidden"
+                                    );
+                                }
+                            };
+
+                            window.goToFirstVideo = (project) => {
+                                const projectModalCarousel = window
+                                    .$(
+                                        `#project-${project.modalID}-img-carousel`
+                                    )
+                                    .find(".owl-carousel");
+                                const firstVideoIndex = project.img.length;
+                                projectModalCarousel.trigger(
+                                    "to.owl.carousel",
+                                    [firstVideoIndex]
+                                );
+                            };
+
+                            window.goToFirstModel = (project) => {
+                                const projectModalCarousel = window
+                                    .$(
+                                        `#project-${project.modalID}-img-carousel`
+                                    )
+                                    .find(".owl-carousel");
+                                let firstModelIndex = project.img.length;
+                                if (project.video) {
+                                    firstModelIndex += project.video.length;
+                                }
+                                projectModalCarousel.trigger(
+                                    "to.owl.carousel",
+                                    [firstModelIndex]
+                                );
+                            };
+
+                            window.goToFirstImage = (project) => {
+                                const projectModalCarousel = window
+                                    .$(
+                                        `#project-${project.modalID}-img-carousel`
+                                    )
+                                    .find(".owl-carousel");
+                                projectModalCarousel.trigger(
+                                    "to.owl.carousel",
+                                    [0]
+                                );
+                            };
+                            clearInterval(waitForJQuery);
+                        }
+                    }, 100);
+                },
+                componentDidUpdate(){
+                    if (typeof this.props.window.$ != "undefined") {
+                            var entry = this.props.entry.toJS();
+                            const img = this.props.widgetsFor('img').map((el, index) => {
+                                const imgFullWidget = el.getIn(['widgets', 'full']);
+                                return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
+                            });
+                            entry.data.img = img;
+                            
+                            var projects = { [entry.slug]: entry.data };
+
+                            var modalCarouselConfig = {
+                                items: 1,
+                                loop: false,
+                                dots: true,
+                                video: true,
+                                lazyLoad: true,
+                                nav: false,
+                                onInitialized: function () {
+                                    var carousel = this.$element;
+                                    var carouselId = carousel
+                                        .parent()
+                                        .attr("id");
+                                    var projectId = carouselId.split("-")[1];
+                                    var project = projects[projectId];
+
+                                    // carousel
+                                    //     .find(".owl-video-wrapper")
+                                    //     .each(function (index) {
+                                    //         var i =
+                                    //             (index +
+                                    //                 Math.floor(
+                                    //                     project.video.length +
+                                    //                         1 / 2
+                                    //                 )) %
+                                    //             project.video.length;
+                                    //         var previewContainer =
+                                    //             document.createElement("div");
+                                    //         previewContainer.classList.add(
+                                    //             "project-video-preview"
+                                    //         );
+                                    //         var img =
+                                    //             document.createElement("img");
+                                    //         img.src =
+                                    //             "" +
+                                    //             project.video[i].preview;
+                                    //         previewContainer.appendChild(img);
+                                    //         if (project.video[i].preview.length)
+                                    //             this.appendChild(
+                                    //                 previewContainer
+                                    //             );
+                                    //     });
+
+                                    // carousel.on(
+                                    //     "changed.owl.carousel",
+                                    //     function (event) {
+                                    //         const pageIndex = event.page.index;
+                                    //         const nbPageImg = project.img
+                                    //             ? project.img.length
+                                    //             : 0;
+                                    //         const nbPageVideo = project.video
+                                    //             ? project.video.length
+                                    //             : 0;
+                                    //         const nbPageModels = project.models
+                                    //             ? project.models.length
+                                    //             : 0;
+                                    //         const pageStartImg = 0;
+                                    //         const pageStartVideo =
+                                    //             pageStartImg + nbPageImg;
+                                    //         const pageStartModels =
+                                    //             pageStartVideo + nbPageVideo;
+
+                                    //         const imgToggler = window.$(
+                                    //             `#project-${projectId}-img-carousel-toggler`
+                                    //         );
+                                    //         const videoToggler = window.$(
+                                    //             `#project-${projectId}-video-carousel-toggler`
+                                    //         );
+                                    //         const modelsToggler = window.$(
+                                    //             `#project-${projectId}-models-carousel-toggler`
+                                    //         );
+
+                                    //         if (pageIndex < pageStartVideo) {
+                                    //             imgToggler.removeClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             videoToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             modelsToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //         } else if (
+                                    //             pageIndex < pageStartModels
+                                    //         ) {
+                                    //             imgToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             videoToggler.removeClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             modelsToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //         } else {
+                                    //             imgToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             videoToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             modelsToggler.removeClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //         }
+                                    //     }
+                                    // );
+                                },
+                            };
+
                         const carousel = this.props.window.$(".owl-carousel");
                         carousel.trigger("destroy.owl.carousel"); 
                         carousel.owlCarousel(modalCarouselConfig);
-
-                        if (carousel.find('iframe').length > 0) {
-                            const projectModalID = this.props.window.$(e.target).attr('id').split('portfolioModal')[1];
-                            const project = projects[projectModalID];
-                            carousel.find('iframe').each(function(index) {
-                            if ((this.props.window.$(this).attr('src')).length === 0) {
-                                this.props.window.$(this).attr('src', project.models[index % project.models.length]);
-                            }
-                            });
-                        }
-
-                        this.props.window.$(document).keyup(function (e) {
-                            if (e.keyCode === 27) {
-
-                            var closeButton = this.props.window.$('.iconem-modal.fade.in').first().find('.close-modal')[0];
-                            if(closeButton) {
-                                closeButton.click();
-                            }
-                            }
-                            if (e.keyCode === 37) {
-
-                            var currentlyOpenCarousel = this.props.window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
-                            currentlyOpenCarousel.trigger('prev.owl.carousel');
-                            }
-                            if (e.keyCode === 39) {
-
-                            var currentlyOpenCarousel = this.props.window.$('.iconem-modal.modal.fade.in .owl-carousel').first();
-                            currentlyOpenCarousel.trigger('next.owl.carousel');
-                            }
-                        });
-
-                        window.toggleContent = () => {
-                            var modal_content =
-                                document.getElementsByClassName(
-                                    "modal-content"
-                                );
-                            var modal_hide_button =
-                                document.getElementsByClassName(
-                                    "hide-modal-content"
-                                );
-                            var close_modal_button =
-                                document.getElementsByClassName(
-                                    "close-modal"
-                                );
-                            for (var i = 0; i < modal_content.length; i++) {
-                                modal_content[i].classList.toggle(
-                                    "modal-content-hidden"
-                                );
-                            }
-                            for (
-                                var i = 0;
-                                i < modal_hide_button.length;
-                                i++
-                            ) {
-                                modal_hide_button[i].classList.toggle(
-                                    "modal-content-hidden"
-                                );
-                            }
-                            for (
-                                var i = 0;
-                                i < close_modal_button.length;
-                                i++
-                            ) {
-                                close_modal_button[i].classList.toggle(
-                                    "modal-content-hidden"
-                                );
-                            }
-                        };
-
-                        window.goToFirstVideo = (project) => {
-                            const projectModalCarousel = window
-                                .$(
-                                    `#project-${project.modalID}-img-carousel`
-                                )
-                                .find(".owl-carousel");
-                            const firstVideoIndex = project.img.length;
-                            projectModalCarousel.trigger(
-                                "to.owl.carousel",
-                                [firstVideoIndex]
-                            );
-                        };
-
-                        window.goToFirstModel = (project) => {
-                            const projectModalCarousel = window
-                                .$(
-                                    `#project-${project.modalID}-img-carousel`
-                                )
-                                .find(".owl-carousel");
-                            let firstModelIndex = project.img.length;
-                            if (project.video) {
-                                firstModelIndex += project.video.length;
-                            }
-                            projectModalCarousel.trigger(
-                                "to.owl.carousel",
-                                [firstModelIndex]
-                            );
-                        };
-
-                        window.goToFirstImage = (project) => {
-                            const projectModalCarousel = window
-                                .$(
-                                    `#project-${project.modalID}-img-carousel`
-                                )
-                                .find(".owl-carousel");
-                            projectModalCarousel.trigger(
-                                "to.owl.carousel",
-                                [0]
-                            );
-                        };
                     }
                 },
                 render: function () {
