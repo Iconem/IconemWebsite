@@ -425,11 +425,10 @@
                     const test = this.props.entry.getIn(['data', 'img']);
                     console.log('aya');
                     this.props.widgetsFor('img').map(function(img, index) {
-                        console.log(img.toJS());
-                        const test = img.getIn(['widgets', 'full']);
-                        console.log(test);
-                        console.log('grmbl');
-                        console.log(test.props.children.props.getAsset(test.props.children.props.value, test.props.children.props.field));
+                        const imgFullWidget = img.getIn(['widgets', 'full']);
+                        console.log(imgFullWidget);
+                        const url = this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
+                        console.log(url);
                     });
 
 
