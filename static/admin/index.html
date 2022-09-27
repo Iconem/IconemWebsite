@@ -402,8 +402,8 @@
                     const thumbnailTitle = entry.thumbnailTitle.en;
                     const img = this.props.widgetsFor('img').map((img, index) => {
                         const imgFullWidget = img.getIn(['widgets', 'full']);
-                        return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
-                    }).toJS();
+                        return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field).toString();
+                    });
                     console.log(img);
                     
                     
