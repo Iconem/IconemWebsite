@@ -386,11 +386,11 @@
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
-                    const img = [];
-                    this.props.widgetsFor('img').map((el, index) => {
+                    // const img = [];
+                    const img = this.props.widgetsFor('img').map((el, index) => {
                         const imgFullWidget = el.getIn(['widgets', 'full']);
-                        console.log(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field).url);
-                        img.push(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field).toString());
+                        console.log(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field));
+                        img.push(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field));
                     });
                     console.log(img);
                     
@@ -415,7 +415,7 @@
                                                 .map(
                                                     (el) => `
                                                 <div>
-                                                <img src=${el} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
+                                                <img src=${el.url} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
                                                 </div>`
                                                 )
                                                 .join("")}
