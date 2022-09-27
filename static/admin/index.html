@@ -384,17 +384,16 @@
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
                     const img = entry.img;                   
-                    // img.forEach(el => {
-                    //     console.log(el.full);
-                    //     console.log(this.props.getAsset(el.full));
-                    //     console.log('@@@@@@@');
-                    //     console.log(el.full.substring(1));
-                    //     console.log(this.props.getAsset(el.full.substring(1)));
-                    //     console.log('oooooo');
-                    //     console.log(this.props.getAsset());
-                    //     el.url = this.props.getAsset(el.full).url;
-                        
-                    // });
+                    img.forEach(el => {
+                        // console.log(el.full);
+                        // console.log(this.props.getAsset(el.full));
+                        // console.log('@@@@@@@');
+                        // console.log(el.full.substring(1));
+                        // console.log(this.props.getAsset(el.full.substring(1)));
+                        // console.log('oooooo');
+                        // console.log(this.props.getAsset());
+                        el.url = this.props.getAsset(el.full).url;                    
+                    });
                     
                     const video = entry.video || [];
                     const models = entry.models || [];
