@@ -404,13 +404,13 @@
                     const actors = entry.actors.en;
                     const logos = entry.actors.logos || [];
 
-                    console.log('olololol');
-                    console.log(this.props);
-                    console.log(this.field);
+                    // console.log('olololol');
+                    // console.log(this.props);
+                    // console.log(this.field);
                     const test = this.props.entry.getIn(['data', 'img']);
                     test.map(el => {
-                        console.log(el);
-                        console.log(el.get('full'));
+                        // console.log(el);
+                        // console.log(el.get('full'));
                         console.log(this.props.getAsset(el.get('full')).toString());
                     });
 
