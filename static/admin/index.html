@@ -256,20 +256,6 @@
                     }, 5000);
                 },
                 componentDidUpdate(prevProps){
-                    // console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
-                    // console.log(prevProps);
-                    // var entry = prevProps.entry.toJS();
-                    // entry.data.img.forEach(el => {
-                    //     el.url = el.full;
-                    // });
-                    // console.log(entry);
-                    // console.log('-----------------------------------------------');
-                    // var entry2 = this.props.entry.toJS();
-                    // entry2.data.img.forEach(el => {
-                    //     el.url = el.full;
-                    // });
-                    // console.log(entry2);
-                    // console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
                 //     if (typeof props.window.$ != "undefined") {
                 //             var entry = props.entry.toJS();
                 //             entry.data.img.forEach(el => {
@@ -428,7 +414,7 @@
                                                 .map(
                                                     (el) => `
                                                 <div>
-                                                <img src=${el.url} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
+                                                <img src=${el} class="cover"> <div class="img-toolbar"> <div class="img-caption"> ©Iconem </div> </div> 
                                                 </div>`
                                                 )
                                                 .join("")}
