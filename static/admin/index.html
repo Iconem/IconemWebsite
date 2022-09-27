@@ -400,12 +400,12 @@
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
-                    const test = [];
-                    this.props.widgetsFor('img').map((img, index) => {
-                        const imgFullWidget = img.getIn(['widgets', 'full']);
-                        test.push(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field).toString());
+                    const img = [];
+                    this.props.widgetsFor('img').map((el, index) => {
+                        const imgFullWidget = el.getIn(['widgets', 'full']);
+                        img.push(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field).toString());
                     });
-                    console.log(test);
+                    console.log(img);
                     
                     
                     const video = entry.video || [];
