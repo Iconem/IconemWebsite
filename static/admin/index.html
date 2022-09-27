@@ -256,20 +256,20 @@
                     }, 5000);
                 },
                 componentDidUpdate(prevProps){
-                    console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
-                    console.log(prevProps);
-                    var entry = prevProps.entry.toJS();
-                    entry.data.img.forEach(el => {
-                        el.url = el.full;
-                    });
-                    console.log(entry);
-                    console.log('-----------------------------------------------');
-                    var entry2 = this.props.entry.toJS();
-                    entry2.data.img.forEach(el => {
-                        el.url = el.full;
-                    });
-                    console.log(entry2);
-                    console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
+                    // console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
+                    // console.log(prevProps);
+                    // var entry = prevProps.entry.toJS();
+                    // entry.data.img.forEach(el => {
+                    //     el.url = el.full;
+                    // });
+                    // console.log(entry);
+                    // console.log('-----------------------------------------------');
+                    // var entry2 = this.props.entry.toJS();
+                    // entry2.data.img.forEach(el => {
+                    //     el.url = el.full;
+                    // });
+                    // console.log(entry2);
+                    // console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
                 //     if (typeof props.window.$ != "undefined") {
                 //             var entry = props.entry.toJS();
                 //             entry.data.img.forEach(el => {
@@ -425,9 +425,7 @@
                     const test = this.props.entry.getIn(['data', 'img']);
                     console.log('aya');
                     this.props.widgetsFor('img').map(function(img, index) {
-                        console.log(img);
-                        const full = img.getIn(['full']);
-                        console.log(full);
+                        console.log(img.toJS());
                     });
 
 
