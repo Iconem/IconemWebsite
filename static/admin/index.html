@@ -390,7 +390,7 @@
                     const img = this.props.widgetsFor('img').map((el, index) => {
                         const imgFullWidget = el.getIn(['widgets', 'full']);
                         console.log(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field));
-                        img.push(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field));
+                        return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
                     });
                     console.log(img);
                     
