@@ -400,17 +400,12 @@
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
-                    const img = entry.img;                   
-                    img.forEach(el => {
-                        // console.log(el.full);
-                        // console.log(this.props.getAsset(el.full));
-                        // console.log('@@@@@@@');
-                        // console.log(el.full.substring(1));
-                        // console.log(this.props.getAsset(el.full.substring(1)));
-                        // console.log('oooooo');
-                        // console.log(this.props.getAsset());
-                        el.url = this.props.getAsset(el.full).url;                    
+                    const img = this.props.widgetsFor('img').map((img, index) => {
+                        const imgFullWidget = img.getIn(['widgets', 'full']);
+                        return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
                     });
+                    console.log(img);
+                    
                     
                     const video = entry.video || [];
                     const models = entry.models || [];
@@ -420,18 +415,6 @@
                     const text = entry.text.en;
                     const actors = entry.actors.en;
                     const logos = entry.actors.logos || [];
-
-                    
-                    const test = this.props.entry.getIn(['data', 'img']);
-                    console.log('aya');
-                    this.props.widgetsFor('img').map((img, index) => {
-                        const imgFullWidget = img.getIn(['widgets', 'full']);
-                        console.log(imgFullWidget);
-                        const url = this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
-                        console.log(url);
-                    });
-
-
 
                     const html = `
                         <div class="iconem-modal modal in fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="false" style="display:block">
