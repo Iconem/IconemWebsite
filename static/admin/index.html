@@ -424,7 +424,7 @@
                     
                     const test = this.props.entry.getIn(['data', 'img']);
                     console.log('aya');
-                    this.props.widgetsFor('img').map(function(img, index) {
+                    this.props.widgetsFor('img').map((img, index) => {
                         const imgFullWidget = img.getIn(['widgets', 'full']);
                         console.log(imgFullWidget);
                         const url = this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
