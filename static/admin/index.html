@@ -421,21 +421,14 @@
                     const actors = entry.actors.en;
                     const logos = entry.actors.logos || [];
 
-                    // console.log('olololol');
-                    // console.log(this.props);
-                    // console.log(this.field);
+                    
                     const test = this.props.entry.getIn(['data', 'img']);
-                    test.map(el => {
-                        // console.log(el);
-                        // console.log(el.get('full'));
-                        // console.log(this.props.getAsset(el.get('full')).toString());
-                        console.log(this.props.widgetsFor('img'));
+                    console.log('aya');
+                    this.props.widgetsFor('img').map(function(img, index) {
+                        console.log(img);
+                        const full = img.getIn(['full']);
+                        console.log(full);
                     });
-
-                    const test2 = this.props.entry.getIn(['data', 'img']);
-                    const test3 = this.props.entry.getIn(test2, 'full');
-                    console.log('bloblob');
-                    console.log(test3);
 
 
                     const html = `
