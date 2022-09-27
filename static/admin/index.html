@@ -382,7 +382,7 @@
                                 },
                             };
 
-                        const carousel = props.window.$(".owl-carousel");
+                        const carousel = this.props.window.$(".owl-carousel");
                         carousel.trigger("destroy.owl.carousel"); 
                         carousel.owlCarousel(modalCarouselConfig);
                     }
