@@ -303,7 +303,7 @@
 
                                     carousel.on(
                                         "changed.owl.carousel",
-                                        function (event) {
+                                        (event) => {
                                             const pageIndex = event.page.index;
                                             const nbPageImg = project.img
                                                 ? project.img.length
@@ -320,6 +320,9 @@
                                             const pageStartModels =
                                                 pageStartVideo + nbPageVideo;
 
+                                            console.log('alalala');
+                                            console.log(window);
+                                            console.log(this);
                                             const imgToggler = window.$(
                                                 `#project-${projectId}-img-carousel-toggler`
                                             );
