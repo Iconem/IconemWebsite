@@ -44,7 +44,7 @@
                                     var projectId = carouselId.split("-")[1];
                                     var project = projects[projectId];
 
-                                    if(project.video){
+                                    if(project && project.video){
                                     carousel
                                         .find(".owl-video-wrapper")
                                         .each(function (index) {
