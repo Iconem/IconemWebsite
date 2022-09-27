@@ -23,9 +23,16 @@
                     var waitForJQuery = setInterval(() => {
                         if (typeof window.$ != "undefined") {
                             var entry = this.props.entry.toJS();
-                            entry.data.img.forEach(el => {
-                                el.url = el.full;
+
+                            const img = this.props.widgetsFor('img').map((el, index) => {
+                                const imgFullWidget = el.getIn(['widgets', 'full']);
+                                return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
                             });
+                            entry.data.img = img;
+
+                            // entry.data.img.forEach(el => {
+                            //     el.url = el.full;
+                            // });
                             
                             var projects = { [entry.slug]: entry.data };
 
@@ -386,15 +393,10 @@
                     const modalID = entry.modalID;
                     const thumbnail = entry.thumbnail;
                     const thumbnailTitle = entry.thumbnailTitle.en;
-                    // const img = [];
                     const img = this.props.widgetsFor('img').map((el, index) => {
                         const imgFullWidget = el.getIn(['widgets', 'full']);
-                        console.log(this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field));
                         return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
-                    });
-                    console.log(img);
-                    
-                    
+                    });                    
                     const video = entry.video || [];
                     const models = entry.models || [];
                     const articleTitle = entry.articleTitle.en;
