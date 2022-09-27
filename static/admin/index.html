@@ -44,6 +44,7 @@
                                     var projectId = carouselId.split("-")[1];
                                     var project = projects[projectId];
 
+                                    if(project.video.length){
                                     carousel
                                         .find(".owl-video-wrapper")
                                         .each(function (index) {
@@ -70,6 +71,7 @@
                                                     previewContainer
                                                 );
                                         });
+                                    }
 
                                     carousel.on(
                                         "changed.owl.carousel",
@@ -388,6 +390,8 @@
                         console.log('@@@@@@@');
                         console.log(el.full.substring(1));
                         console.log(this.props.getAsset(el.full.substring(1)));
+                        console.log('oooooo');
+                        console.log(this.props.getAsset());
                         el.url = this.props.getAsset(el.full).url;
                         
                     });
