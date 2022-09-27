@@ -263,127 +263,129 @@
                     }, 5000);
                 },
                 componentDidUpdate(prevProps){
-                //     if (typeof props.window.$ != "undefined") {
-                //             var entry = props.entry.toJS();
-                //             entry.data.img.forEach(el => {
-                //                 el.url = props.getAsset(el.full).url;
-                //             });
+                    if (typeof props.window.$ != "undefined") {
+                            var entry = props.entry.toJS();
+                            const img = props.widgetsFor('img').map((el, index) => {
+                                const imgFullWidget = el.getIn(['widgets', 'full']);
+                                return props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
+                            });
+                            entry.data.img = img;
                             
-                //             var projects = { [entry.slug]: entry.data };
+                            var projects = { [entry.slug]: entry.data };
 
-                //             var modalCarouselConfig = {
-                //                 items: 1,
-                //                 loop: false,
-                //                 dots: true,
-                //                 video: true,
-                //                 lazyLoad: true,
-                //                 nav: false,
-                //                 onInitialized: function () {
-                //                     var carousel = this.$element;
-                //                     var carouselId = carousel
-                //                         .parent()
-                //                         .attr("id");
-                //                     var projectId = carouselId.split("-")[1];
-                //                     var project = projects[projectId];
+                            var modalCarouselConfig = {
+                                items: 1,
+                                loop: false,
+                                dots: true,
+                                video: true,
+                                lazyLoad: true,
+                                nav: false,
+                                onInitialized: function () {
+                                    var carousel = this.$element;
+                                    var carouselId = carousel
+                                        .parent()
+                                        .attr("id");
+                                    var projectId = carouselId.split("-")[1];
+                                    var project = projects[projectId];
 
-                //                     // carousel
-                //                     //     .find(".owl-video-wrapper")
-                //                     //     .each(function (index) {
-                //                     //         var i =
-                //                     //             (index +
-                //                     //                 Math.floor(
-                //                     //                     project.video.length +
-                //                     //                         1 / 2
-                //                     //                 )) %
-                //                     //             project.video.length;
-                //                     //         var previewContainer =
-                //                     //             document.createElement("div");
-                //                     //         previewContainer.classList.add(
-                //                     //             "project-video-preview"
-                //                     //         );
-                //                     //         var img =
-                //                     //             document.createElement("img");
-                //                     //         img.src =
-                //                     //             "" +
-                //                     //             project.video[i].preview;
-                //                     //         previewContainer.appendChild(img);
-                //                     //         if (project.video[i].preview.length)
-                //                     //             this.appendChild(
-                //                     //                 previewContainer
-                //                     //             );
-                //                     //     });
+                                    // carousel
+                                    //     .find(".owl-video-wrapper")
+                                    //     .each(function (index) {
+                                    //         var i =
+                                    //             (index +
+                                    //                 Math.floor(
+                                    //                     project.video.length +
+                                    //                         1 / 2
+                                    //                 )) %
+                                    //             project.video.length;
+                                    //         var previewContainer =
+                                    //             document.createElement("div");
+                                    //         previewContainer.classList.add(
+                                    //             "project-video-preview"
+                                    //         );
+                                    //         var img =
+                                    //             document.createElement("img");
+                                    //         img.src =
+                                    //             "" +
+                                    //             project.video[i].preview;
+                                    //         previewContainer.appendChild(img);
+                                    //         if (project.video[i].preview.length)
+                                    //             this.appendChild(
+                                    //                 previewContainer
+                                    //             );
+                                    //     });
 
-                //                     // carousel.on(
-                //                     //     "changed.owl.carousel",
-                //                     //     function (event) {
-                //                     //         const pageIndex = event.page.index;
-                //                     //         const nbPageImg = project.img
-                //                     //             ? project.img.length
-                //                     //             : 0;
-                //                     //         const nbPageVideo = project.video
-                //                     //             ? project.video.length
-                //                     //             : 0;
-                //                     //         const nbPageModels = project.models
-                //                     //             ? project.models.length
-                //                     //             : 0;
-                //                     //         const pageStartImg = 0;
-                //                     //         const pageStartVideo =
-                //                     //             pageStartImg + nbPageImg;
-                //                     //         const pageStartModels =
-                //                     //             pageStartVideo + nbPageVideo;
+                                    // carousel.on(
+                                    //     "changed.owl.carousel",
+                                    //     function (event) {
+                                    //         const pageIndex = event.page.index;
+                                    //         const nbPageImg = project.img
+                                    //             ? project.img.length
+                                    //             : 0;
+                                    //         const nbPageVideo = project.video
+                                    //             ? project.video.length
+                                    //             : 0;
+                                    //         const nbPageModels = project.models
+                                    //             ? project.models.length
+                                    //             : 0;
+                                    //         const pageStartImg = 0;
+                                    //         const pageStartVideo =
+                                    //             pageStartImg + nbPageImg;
+                                    //         const pageStartModels =
+                                    //             pageStartVideo + nbPageVideo;
 
-                //                     //         const imgToggler = window.$(
-                //                     //             `#project-${projectId}-img-carousel-toggler`
-                //                     //         );
-                //                     //         const videoToggler = window.$(
-                //                     //             `#project-${projectId}-video-carousel-toggler`
-                //                     //         );
-                //                     //         const modelsToggler = window.$(
-                //                     //             `#project-${projectId}-models-carousel-toggler`
-                //                     //         );
+                                    //         const imgToggler = window.$(
+                                    //             `#project-${projectId}-img-carousel-toggler`
+                                    //         );
+                                    //         const videoToggler = window.$(
+                                    //             `#project-${projectId}-video-carousel-toggler`
+                                    //         );
+                                    //         const modelsToggler = window.$(
+                                    //             `#project-${projectId}-models-carousel-toggler`
+                                    //         );
 
-                //                     //         if (pageIndex < pageStartVideo) {
-                //                     //             imgToggler.removeClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //             videoToggler.addClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //             modelsToggler.addClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //         } else if (
-                //                     //             pageIndex < pageStartModels
-                //                     //         ) {
-                //                     //             imgToggler.addClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //             videoToggler.removeClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //             modelsToggler.addClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //         } else {
-                //                     //             imgToggler.addClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //             videoToggler.addClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //             modelsToggler.removeClass(
-                //                     //                 "collapsed"
-                //                     //             );
-                //                     //         }
-                //                     //     }
-                //                     // );
-                //                 },
-                //             };
+                                    //         if (pageIndex < pageStartVideo) {
+                                    //             imgToggler.removeClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             videoToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             modelsToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //         } else if (
+                                    //             pageIndex < pageStartModels
+                                    //         ) {
+                                    //             imgToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             videoToggler.removeClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             modelsToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //         } else {
+                                    //             imgToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             videoToggler.addClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //             modelsToggler.removeClass(
+                                    //                 "collapsed"
+                                    //             );
+                                    //         }
+                                    //     }
+                                    // );
+                                },
+                            };
 
-                //         const carousel = props.window.$(".owl-carousel");
-                //         carousel.trigger("destroy.owl.carousel"); 
-                //         carousel.owlCarousel(modalCarouselConfig);
-                //     }
+                        const carousel = props.window.$(".owl-carousel");
+                        carousel.trigger("destroy.owl.carousel"); 
+                        carousel.owlCarousel(modalCarouselConfig);
+                    }
                 },
                 render: function () {
 
