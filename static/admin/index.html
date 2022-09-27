@@ -262,12 +262,12 @@
                         }
                     }, 5000);
                 },
-                componentDidUpdate(prevProps){
-                    if (typeof props.window.$ != "undefined") {
-                            var entry = props.entry.toJS();
-                            const img = props.widgetsFor('img').map((el, index) => {
+                componentDidUpdate(){
+                    if (typeof this.props.window.$ != "undefined") {
+                            var entry = this.props.entry.toJS();
+                            const img = this.props.widgetsFor('img').map((el, index) => {
                                 const imgFullWidget = el.getIn(['widgets', 'full']);
-                                return props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
+                                return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
                             });
                             entry.data.img = img;
                             
