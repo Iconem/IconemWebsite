@@ -426,6 +426,8 @@
                     console.log('aya');
                     this.props.widgetsFor('img').map(function(img, index) {
                         console.log(img.toJS());
+                        const test = img.getIn(['widgets', 'full']);
+                        console.log(test.toJS());
                     });
 
 
