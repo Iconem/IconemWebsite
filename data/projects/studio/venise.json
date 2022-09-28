@@ -1,16 +1,16 @@
 {
     "thumbnailLocation": {
-        "en": "Grand Palais Immersif, Parism",
+        "en": "Grand Palais Immersif, Paris",
         "fr": "Grand Palais Immersif, Paris"
     },
     "articleTitle": {
-        "en": "Venise RévéléeZ",
+        "en": "Venise Révélée",
         "fr": "Venice Revealed"
     },
     "img": [
         {
             "preview": "/img/projects/venise/sceno_2_1080p.webp",
-            "full": "/img/projects/venise/zzzzzzzuploadauboutendroit.jpg",
+            "full": "/img/projects/venise/sceno_2_1080p.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -18,7 +18,7 @@
         },
         {
             "preview": "/img/projects/venise/sceno_4_1080p.webp",
-            "full": "/img/projects/venise/carcassonnes_thumbnail.webp",
+            "full": "/img/projects/venise/sceno_4_1080p.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -220,8 +220,8 @@
         "fr": "L’invention de Venise tient du miracle. Miracle d’ingénierie, d’architecture et miracle artistique, cette ville incomparable, construite de toutes pièces sur une lagune, lutte depuis plusieurs siècles contre la mer qui fait aussi sa richesse. Percer ses mystères, découvrir ses trésors, mesurer l’étendue de sa splendeur: c’est ce que permet Venise Révélée, au moyen d’images inédites et surprenantes, de projections géantes et immersives et de dispositifs interactifs ludiques et innovants. Cette exposition est coproduite par Grand Palais Immersif, et Iconem en collaboration avec la Fondazione Musei Civici di Venezia. Filiale de la Rmn – Grand Palais, Grand Palais Immersif est un nouveau lieu dédié à la programmation d'expositions immersives qui ouvrira ses portes en septembre à Paris."
     },
     "thumbnailDate": {
-        "en": "Open until Feb 2023!",
-        "fr": "Ouverte jusqu'en février 2023 !"
+        "en": "2022",
+        "fr": "2022"
     },
     "video": [
         {
