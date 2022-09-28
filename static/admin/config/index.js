@@ -1,5 +1,5 @@
 // Import the configuration of each collection from cms/config/collections
-import { studioProjectsCollection } from "./collections/studioProjects";
+import studioProjectsCollection from "./collections/studioProjects/index.js";
 
 // Build the Netlify JS configuration object
 const config = {
@@ -16,7 +16,7 @@ const config = {
   public_folder: "/",
   collections: [
     // Include the collections imported from cms/config/collections
-    // studioProjectsCollection,
+    studioProjectsCollection,
   ],
 };
 

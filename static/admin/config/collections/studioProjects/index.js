@@ -1,528 +1,239 @@
 export default {
-    "backend": {
-        "name": "git-gateway",
-        "branch": "new"
+    "name": "studioProjects",
+    "label": "Studio projects",
+    "folder": "data/projects/studio",
+    "format": "json",
+    "extension": "json",
+    "create": true,
+    "slug": "{{slug}}",
+    "editor": {
+        "preview": true
     },
-    "publish_mode": "editorial_workflow",
-    "site_url": "https://radiant-zabaione-e92fa0.netlify.app/",
-    "media_folder": "/static",
-    "public_folder": "/",
-    "collections": [
+    "identifier_field": "modalID",
+    "fields": [
         {
-            "name": "projectCarousel",
-            "label": "Projects carousel",
-            "files": [
+            "label": "modalID",
+            "name": "modalID",
+            "widget": "string"
+        },
+        {
+            "label": "thumbnailTitle",
+            "name": "thumbnailTitle",
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
                 {
-                    "label": "Studio",
-                    "name": "studio",
-                    "file": "data/carousel/studio.json",
-                    "format": "json",
-                    "extension": "json",
-                    "editor": {
-                        "preview": true
-                    },
-                    "identifier_field": "carouselList",
-                    "fields": [
-                        {
-                            "label": "carouselList",
-                            "name": "carouselList",
-                            "widget": "list"
-                        }
-                    ]
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
                 },
                 {
-                    "label": "Reasearch",
-                    "name": "research",
-                    "file": "data/carousel/research.json",
-                    "format": "json",
-                    "extension": "json",
-                    "editor": {
-                        "preview": true
-                    },
-                    "identifier_field": "carouselList",
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "thumbnailLocation",
+            "name": "thumbnailLocation",
+            "required": false,
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "thumbnailDate",
+            "name": "thumbnailDate",
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "thumbnail",
+            "name": "thumbnail",
+            "widget": "string"
+        },
+        {
+            "label": "articleTitle",
+            "name": "articleTitle",
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "articleLocation",
+            "name": "articleLocation",
+            "required": false,
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "articleDate",
+            "name": "articleDate",
+            "required": false,
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "text",
+            "name": "text",
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "actors",
+            "name": "actors",
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                },
+                {
+                    "label": "logos",
+                    "name": "logos",
+                    "widget": "list"
+                }
+            ]
+        },
+        {
+            "label": "img",
+            "name": "img",
+            "widget": "list",
+            "summary": "{{fields.full}}",
+            "fields": [
+                {
+                    "label": "preview",
+                    "name": "preview",
+                    "widget": "string"
+                },
+                {
+                    "label": "full",
+                    "name": "full",
+                    "widget": "image",
+                    "media_folder": "/static/img/projects/{{fields.modalID}}",
+                    "public_folder": "/img/projects/{{fields.modalID}}"
+                },
+                {
+                    "label": "caption",
+                    "name": "caption",
+                    "widget": "object",
                     "fields": [
                         {
-                            "label": "carouselList",
-                            "name": "carouselList",
-                            "widget": "list"
+                            "label": "en",
+                            "name": "en",
+                            "widget": "string"
+                        },
+                        {
+                            "label": "fr",
+                            "name": "fr",
+                            "widget": "string"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "studioProjects",
-            "label": "Studio projects",
-            "folder": "data/projects/studio",
-            "format": "json",
-            "extension": "json",
-            "create": true,
-            "slug": "{{slug}}",
-            "editor": {
-                "preview": true
-            },
-            "identifier_field": "modalID",
+            "label": "video",
+            "name": "video",
+            "widget": "list",
+            "summary": "{{fields.src}}",
             "fields": [
                 {
-                    "label": "modalID",
-                    "name": "modalID",
+                    "label": "preview",
+                    "name": "preview",
+                    "widget": "image",
+                    "media_folder": "/static/img/projects/{{fields.modalID}}",
+                    "public_folder": "img/projects/{{fields.modalID}}"
+                },
+                {
+                    "label": "src",
+                    "name": "src",
                     "widget": "string"
-                },
-                {
-                    "label": "thumbnailTitle",
-                    "name": "thumbnailTitle",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "thumbnailLocation",
-                    "name": "thumbnailLocation",
-                    "required": false,
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "thumbnailDate",
-                    "name": "thumbnailDate",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "thumbnail",
-                    "name": "thumbnail",
-                    "widget": "string"
-                },
-                {
-                    "label": "articleTitle",
-                    "name": "articleTitle",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "articleLocation",
-                    "name": "articleLocation",
-                    "required": false,
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "articleDate",
-                    "name": "articleDate",
-                    "required": false,
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "text",
-                    "name": "text",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "actors",
-                    "name": "actors",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "logos",
-                            "name": "logos",
-                            "widget": "list"
-                        }
-                    ]
-                },
-                {
-                    "label": "img",
-                    "name": "img",
-                    "widget": "list",
-                    "summary": "{{fields.full}}",
-                    "fields": [
-                        {
-                            "label": "preview",
-                            "name": "preview",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "full",
-                            "name": "full",
-                            "widget": "image",
-                            "media_folder": "/static/img/projects/{{fields.modalID}}",
-                            "public_folder": "/img/projects/{{fields.modalID}}"
-                        },
-                        {
-                            "label": "caption",
-                            "name": "caption",
-                            "widget": "object",
-                            "fields": [
-                                {
-                                    "label": "en",
-                                    "name": "en",
-                                    "widget": "string"
-                                },
-                                {
-                                    "label": "fr",
-                                    "name": "fr",
-                                    "widget": "string"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "video",
-                    "name": "video",
-                    "widget": "list",
-                    "summary": "{{fields.src}}",
-                    "fields": [
-                        {
-                            "label": "preview",
-                            "name": "preview",
-                            "widget": "image",
-                            "media_folder": "/static/img/projects/{{fields.modalID}}",
-                            "public_folder": "img/projects/{{fields.modalID}}"
-                        },
-                        {
-                            "label": "src",
-                            "name": "src",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "models",
-                    "name": "models",
-                    "widget": "list"
                 }
             ]
         },
         {
-            "name": "researchProjects",
-            "label": "Research projects",
-            "folder": "data/projects/research",
-            "format": "json",
-            "extension": "json",
-            "create": true,
-            "slug": "{{slug}}",
-            "editor": {
-                "preview": true
-            },
-            "identifier_field": "modalID",
-            "fields": [
-                {
-                    "label": "modalID",
-                    "name": "modalID",
-                    "widget": "string"
-                },
-                {
-                    "label": "thumbnailTitle",
-                    "name": "thumbnailTitle",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "thumbnailLocation",
-                    "name": "thumbnailLocation",
-                    "required": false,
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "thumbnailDate",
-                    "name": "thumbnailDate",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "thumbnail",
-                    "name": "thumbnail",
-                    "widget": "string"
-                },
-                {
-                    "label": "articleTitle",
-                    "name": "articleTitle",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "articleLocation",
-                    "name": "articleLocation",
-                    "required": false,
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "articleDate",
-                    "name": "articleDate",
-                    "required": false,
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "text",
-                    "name": "text",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "actors",
-                    "name": "actors",
-                    "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
-                    "fields": [
-                        {
-                            "label": "En",
-                            "name": "en",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "Fr",
-                            "name": "fr",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "logos",
-                            "name": "logos",
-                            "widget": "list"
-                        }
-                    ]
-                },
-                {
-                    "label": "img",
-                    "name": "img",
-                    "widget": "list",
-                    "summary": "{{fields.full}}",
-                    "fields": [
-                        {
-                            "label": "preview",
-                            "name": "preview",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "full",
-                            "name": "full",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "caption",
-                            "name": "caption",
-                            "widget": "object",
-                            "fields": [
-                                {
-                                    "label": "en",
-                                    "name": "en",
-                                    "widget": "string"
-                                },
-                                {
-                                    "label": "fr",
-                                    "name": "fr",
-                                    "widget": "string"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "video",
-                    "name": "video",
-                    "widget": "list",
-                    "summary": "{{fields.src}}",
-                    "fields": [
-                        {
-                            "label": "preview",
-                            "name": "preview",
-                            "widget": "string"
-                        },
-                        {
-                            "label": "src",
-                            "name": "src",
-                            "widget": "string"
-                        }
-                    ]
-                },
-                {
-                    "label": "models",
-                    "name": "models",
-                    "widget": "list"
-                }
-            ]
+            "label": "models",
+            "name": "models",
+            "widget": "list"
         }
     ]
 }
