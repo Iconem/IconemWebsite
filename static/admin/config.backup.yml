@@ -42,7 +42,7 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: true
-    identifier_field: modalID
+    identifier_field: "modalID"
     fields:
       - label: "modalID"
         name: "modalID"

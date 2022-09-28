@@ -7,130 +7,6 @@ export default createClass({
 
         var waitForJQuery = setInterval(() => {
             if (typeof window.$ != "undefined") {
-                // var entry = this.props.entry.toJS();
-
-                // const img = this.props.widgetsFor('img').map((el, index) => {
-                //     const imgFullWidget = el.getIn(['widgets', 'full']);
-                //     return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
-                // });
-                // entry.data.img = img;
-
-                // var projects = { [entry.slug]: entry.data };
-
-                // var modalCarouselConfig = {
-                //     items: 1,
-                //     loop: false,
-                //     dots: true,
-                //     video: true,
-                //     lazyLoad: true,
-                //     nav: false,
-                //     onInitialized: function () {
-                //         var carousel = this.$element;
-                //         var carouselId = carousel
-                //             .parent()
-                //             .attr("id");
-                //         var projectId = carouselId.split("-")[1];
-                //         var project = projects[projectId];
-
-                //         if(project && project.video){
-                //         carousel
-                //             .find(".owl-video-wrapper")
-                //             .each(function (index) {
-                //                 var i =
-                //                     (index +
-                //                         Math.floor(
-                //                             project.video.length +
-                //                                 1 / 2
-                //                         )) %
-                //                     project.video.length;
-                //                 var previewContainer =
-                //                     document.createElement("div");
-                //                 previewContainer.classList.add(
-                //                     "project-video-preview"
-                //                 );
-                //                 var img =
-                //                     document.createElement("img");
-                //                 img.src =
-                //                     "" +
-                //                     project.video[i].preview;
-                //                 previewContainer.appendChild(img);
-                //                 if (project.video[i].preview.length)
-                //                     this.appendChild(
-                //                         previewContainer
-                //                     );
-                //             });
-                //         }
-
-                //         carousel.on(
-                //             "changed.owl.carousel",
-                //             function (event) {
-                //                 const pageIndex = event.page.index;
-                //                 const nbPageImg = project.img
-                //                     ? project.img.length
-                //                     : 0;
-                //                 const nbPageVideo = project.video
-                //                     ? project.video.length
-                //                     : 0;
-                //                 const nbPageModels = project.models
-                //                     ? project.models.length
-                //                     : 0;
-                //                 const pageStartImg = 0;
-                //                 const pageStartVideo =
-                //                     pageStartImg + nbPageImg;
-                //                 const pageStartModels =
-                //                     pageStartVideo + nbPageVideo;
-
-                //                 const imgToggler = window.$(
-                //                     `#project-${projectId}-img-carousel-toggler`
-                //                 );
-                //                 const videoToggler = window.$(
-                //                     `#project-${projectId}-video-carousel-toggler`
-                //                 );
-                //                 const modelsToggler = window.$(
-                //                     `#project-${projectId}-models-carousel-toggler`
-                //                 );
-
-                //                 if (pageIndex < pageStartVideo) {
-                //                     imgToggler.removeClass(
-                //                         "collapsed"
-                //                     );
-                //                     videoToggler.addClass(
-                //                         "collapsed"
-                //                     );
-                //                     modelsToggler.addClass(
-                //                         "collapsed"
-                //                     );
-                //                 } else if (
-                //                     pageIndex < pageStartModels
-                //                 ) {
-                //                     imgToggler.addClass(
-                //                         "collapsed"
-                //                     );
-                //                     videoToggler.removeClass(
-                //                         "collapsed"
-                //                     );
-                //                     modelsToggler.addClass(
-                //                         "collapsed"
-                //                     );
-                //                 } else {
-                //                     imgToggler.addClass(
-                //                         "collapsed"
-                //                     );
-                //                     videoToggler.addClass(
-                //                         "collapsed"
-                //                     );
-                //                     modelsToggler.removeClass(
-                //                         "collapsed"
-                //                     );
-                //                 }
-                //             }
-                //         );
-                //     },
-                // };
-
-                // const carousel = window.$(".owl-carousel");
-                // carousel.owlCarousel(modalCarouselConfig);
-
                 window.$(document).keyup(function (e) {
                   if (e.keyCode === 27) {
 
@@ -235,124 +111,124 @@ export default createClass({
     },
     componentDidUpdate(){
         if (typeof this.props.window.$ != "undefined") {
-                const { window } = this.props;
-                var entry = this.props.entry.toJS();
-                const img = this.props.widgetsFor('img').map((el, index) => {
-                    const imgFullWidget = el.getIn(['widgets', 'full']);
-                    return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
-                });
-                entry.data.img = img;
-                
-                var projects = { [entry.slug]: entry.data };
+            const { window } = this.props;
+            var entry = this.props.entry.toJS();
+            const img = this.props.widgetsFor('img').map((el, index) => {
+                const imgFullWidget = el.getIn(['widgets', 'full']);
+                return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
+            });
+            entry.data.img = img;
+            
+            var projects = { [entry.slug]: entry.data };
 
-                var modalCarouselConfig = {
-                    items: 1,
-                    loop: false,
-                    dots: true,
-                    video: true,
-                    lazyLoad: true,
-                    nav: false,
-                    onInitialized: function () {
-                        var carousel = this.$element;
-                        var carouselId = carousel
-                            .parent()
-                            .attr("id");
-                        var projectId = carouselId.split("-")[1];
-                        var project = projects[projectId];
+            var modalCarouselConfig = {
+                items: 1,
+                loop: false,
+                dots: true,
+                video: true,
+                lazyLoad: true,
+                nav: false,
+                onInitialized: function () {
+                    var carousel = this.$element;
+                    var carouselId = carousel
+                        .parent()
+                        .attr("id");
+                    var projectId = carouselId.split("-")[1];
+                    var project = projects[projectId];
 
-                        carousel
-                            .find(".owl-video-wrapper")
-                            .each(function (index) {
-                                var i =
-                                    (index +
-                                        Math.floor(
-                                            project.video.length +
-                                                1 / 2
-                                        )) %
-                                    project.video.length;
-                                var previewContainer =
-                                    document.createElement("div");
-                                previewContainer.classList.add(
-                                    "project-video-preview"
+                    carousel
+                        .find(".owl-video-wrapper")
+                        .each(function (index) {
+                            var i =
+                                (index +
+                                    Math.floor(
+                                        project.video.length +
+                                            1 / 2
+                                    )) %
+                                project.video.length;
+                            var previewContainer =
+                                document.createElement("div");
+                            previewContainer.classList.add(
+                                "project-video-preview"
+                            );
+                            var img =
+                                document.createElement("img");
+                            img.src =
+                                "" +
+                                project.video[i].preview;
+                            previewContainer.appendChild(img);
+                            if (project.video[i].preview.length)
+                                this.appendChild(
+                                    previewContainer
                                 );
-                                var img =
-                                    document.createElement("img");
-                                img.src =
-                                    "" +
-                                    project.video[i].preview;
-                                previewContainer.appendChild(img);
-                                if (project.video[i].preview.length)
-                                    this.appendChild(
-                                        previewContainer
-                                    );
-                            });
+                        });
 
-                        carousel.on(
-                            "changed.owl.carousel",
-                            (event) => {
-                                const pageIndex = event.page.index;
-                                const nbPageImg = project.img
-                                    ? project.img.length
-                                    : 0;
-                                const nbPageVideo = project.video
-                                    ? project.video.length
-                                    : 0;
-                                const nbPageModels = project.models
-                                    ? project.models.length
-                                    : 0;
-                                const pageStartImg = 0;
-                                const pageStartVideo =
-                                    pageStartImg + nbPageImg;
-                                const pageStartModels =
-                                    pageStartVideo + nbPageVideo;
+                    carousel.on(
+                        "changed.owl.carousel",
+                        (event) => {
+                            const pageIndex = event.page.index;
+                            const nbPageImg = project.img
+                                ? project.img.length
+                                : 0;
+                            const nbPageVideo = project.video
+                                ? project.video.length
+                                : 0;
+                            const nbPageModels = project.models
+                                ? project.models.length
+                                : 0;
+                            const pageStartImg = 0;
+                            const pageStartVideo =
+                                pageStartImg + nbPageImg;
+                            const pageStartModels =
+                                pageStartVideo + nbPageVideo;
 
-                                const imgToggler = window.$(
-                                    `#project-${projectId}-img-carousel-toggler`
-                                );
-                                const videoToggler = window.$(
-                                    `#project-${projectId}-video-carousel-toggler`
-                                );
-                                const modelsToggler = window.$(
-                                    `#project-${projectId}-models-carousel-toggler`
-                                );
+                            const imgToggler = window.$(
+                                `#project-${projectId}-img-carousel-toggler`
+                            );
+                            const videoToggler = window.$(
+                                `#project-${projectId}-video-carousel-toggler`
+                            );
+                            const modelsToggler = window.$(
+                                `#project-${projectId}-models-carousel-toggler`
+                            );
 
-                                if (pageIndex < pageStartVideo) {
-                                    imgToggler.removeClass(
-                                        "collapsed"
-                                    );
-                                    videoToggler.addClass(
-                                        "collapsed"
-                                    );
-                                    modelsToggler.addClass(
-                                        "collapsed"
-                                    );
-                                } else if (
-                                    pageIndex < pageStartModels
-                                ) {
-                                    imgToggler.addClass(
-                                        "collapsed"
-                                    );
-                                    videoToggler.removeClass(
-                                        "collapsed"
-                                    );
-                                    modelsToggler.addClass(
-                                        "collapsed"
-                                    );
-                                } else {
-                                    imgToggler.addClass(
-                                        "collapsed"
-                                    );
-                                    videoToggler.addClass(
-                                        "collapsed"
-                                    );
-                                    modelsToggler.removeClass(
-                                        "collapsed"
-                                    );
-                                }
+                            if (pageIndex < pageStartVideo) {
+                                imgToggler.removeClass(
+                                    "collapsed"
+                                );
+                                videoToggler.addClass(
+                                    "collapsed"
+                                );
+                                modelsToggler.addClass(
+                                    "collapsed"
+                                );
+                            } else if (
+                                pageIndex < pageStartModels
+                            ) {
+                                imgToggler.addClass(
+                                    "collapsed"
+                                );
+                                videoToggler.removeClass(
+                                    "collapsed"
+                                );
+                                modelsToggler.addClass(
+                                    "collapsed"
+                                );
+                            } else {
+                                imgToggler.addClass(
+                                    "collapsed"
+                                );
+                                videoToggler.addClass(
+                                    "collapsed"
+                                );
+                                modelsToggler.removeClass(
+                                    "collapsed"
+                                );
                             }
-                        );
-                    },
-                };
+                        }
+                    );
+                },
+            };
 
             const carousel = this.props.window.$(".owl-carousel");
             carousel.trigger("destroy.owl.carousel"); 
