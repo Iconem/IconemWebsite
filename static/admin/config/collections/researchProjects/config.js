@@ -188,7 +188,7 @@ export default {
                     "label": "full",
                     "name": "full",
                     "widget": "image",
-                    "media_folder": "/static/img/projects/{{fields.modalID}}",
+                    "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
                 },
                 {
@@ -220,7 +220,7 @@ export default {
                     "label": "preview",
                     "name": "preview",
                     "widget": "image",
-                    "media_folder": "/static/img/projects/{{fields.modalID}}",
+                    "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "img/projects/{{fields.modalID}}"
                 },
                 {
