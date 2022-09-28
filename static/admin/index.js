@@ -1,6 +1,8 @@
 
 const { CMS, initCMS: init } = window;
-import config from "./config/index.js";
+import { config } from "./config";
+console.log('ololol');
+console.log(config);
 import studioProjectsPreview from "./studioProjectsPreview.js";
 initCMS({ config });
 
