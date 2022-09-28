@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/CracDesChevaliers/CracDesChevaliers_thumbnail.webp",
+    "thumbnail": "img/projects/cracdeschevaliers/CracDesChevaliers_thumbnail.webp",
     "articleTitle": {
         "en": "",
         "fr": "Numérisation du Crac des Chevaliers"
@@ -35,8 +35,8 @@
         "logos": []     
     },
     "img": [{
-        "preview": "img/projects/CracDesChevaliers/CracDesChevaliers_01.webp",
-        "full": "img/projects/CracDesChevaliers/CracDesChevaliers_01.webp",
+        "preview": "img/projects/cracdeschevaliers/CracDesChevaliers_01.webp",
+        "full": "img/projects/cracdeschevaliers/CracDesChevaliers_01.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

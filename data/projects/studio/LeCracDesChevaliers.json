@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_thumbnail.webp",
+    "thumbnail": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_thumbnail.webp",
     "articleTitle": {
         "en": "The Crac Des Chevaliers: Chronicles of a stone dream",
         "fr": "Le Crac Des Chevaliers: Chroniques d'un rêve de pierre"
@@ -33,41 +33,41 @@
         "en": "General curator: Jean-Marc Hofman, attached to the Conservation of the gallery of casts of the City of architecture and heritage / Emmanuel Pénicaut, heritage curator, deputy director of the Mediatheque of architecture and heritage",
         "fr": "Commissariat général : Jean-Marc Hofman, attaché à la Conservation de la galerie des moulages de la Cité de l’architecture et du patrimoine / Emmanuel Pénicaut, conservateur du patrimoine, directeur adjoint de la Médiathèque de l’architecture et du patrimoine",
         "logos": [
-          "img/projects/LeCracDesChevaliers/Logo_CiteDelArchitecture.webp",
-          "img/projects/LeCracDesChevaliers/logo_MAP.webp",
-          "img/projects/LeCracDesChevaliers/Logo_MCC.webp",
-          "img/projects/LeCracDesChevaliers/Logo_OeuvreOrient.webp",
-          "img/projects/LeCracDesChevaliers/Logo_UNESCO.webp"
+          "img/projects/lecracdeschevaliers/Logo_CiteDelArchitecture.webp",
+          "img/projects/lecracdeschevaliers/logo_MAP.webp",
+          "img/projects/lecracdeschevaliers/Logo_MCC.webp",
+          "img/projects/lecracdeschevaliers/Logo_OeuvreOrient.webp",
+          "img/projects/lecracdeschevaliers/Logo_UNESCO.webp"
         ]     
     },
     "img": [
         {
-            "preview": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_01.webp",
-            "full": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_01.webp",
+            "preview": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_01.webp",
+            "full": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		        {
-            "preview": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_02.webp",
-            "full": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_02.webp",
+            "preview": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_02.webp",
+            "full": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		        {
-            "preview": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_03.webp",
-            "full": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_03.webp",
+            "preview": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_03.webp",
+            "full": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_04.webp",
-            "full": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_04.webp",
+            "preview": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_04.webp",
+            "full": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -76,6 +76,6 @@
     ],
     "video": [{
         "src": "https://www.youtube.com/watch?v=mv5CvCbrNiI",
-        "preview": "img/projects/LeCracDesChevaliers/LeCracDesChevaliers_05.webp"
+        "preview": "img/projects/lecracdeschevaliers/LeCracDesChevaliers_05.webp"
     }]
 }

@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Shurbanipal/Image_thumbnail.webp",
+    "thumbnail": "img/projects/shurbanipal/Image_thumbnail.webp",
     "articleTitle": {
         "en": "I am Ashurbanipal : King Of the World, King of Assyria",
         "fr": "I am Ashurbanipal : King Of the World, King of Assyria"
@@ -32,37 +32,37 @@
     "actors": {
         "en": "General curator: Gareth Brereton, archaeologist and curator in charge of the Mesopotamian collection of the British Museum",
         "fr": "Commissariat général : Gareth Brereton, archéologue et curateur en charge de la collection Mésopotamienne du British Museum",
-        "logos": ["img/projects/Shurbanipal/Logo_BP.webp",
-            "img/projects/Shurbanipal/Logo_BritishMuseum.webp",
-            "img/projects/Shurbanipal/Logo_IAGCargo.webp"]    
+        "logos": ["img/projects/shurbanipal/Logo_BP.webp",
+            "img/projects/shurbanipal/Logo_BritishMuseum.webp",
+            "img/projects/shurbanipal/Logo_IAGCargo.webp"]    
     },
     "img": [{
-        "preview": "img/projects/Shurbanipal/Image_01.webp",
-        "full": "img/projects/Shurbanipal/Image_01.webp",
+        "preview": "img/projects/shurbanipal/Image_01.webp",
+        "full": "img/projects/shurbanipal/Image_01.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/Shurbanipal/Image_02.webp",
-        "full": "img/projects/Shurbanipal/Image_02.webp",
+        "preview": "img/projects/shurbanipal/Image_02.webp",
+        "full": "img/projects/shurbanipal/Image_02.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/Shurbanipal/Image_03.webp",
-        "full": "img/projects/Shurbanipal/Image_03.webp",
+        "preview": "img/projects/shurbanipal/Image_03.webp",
+        "full": "img/projects/shurbanipal/Image_03.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/Shurbanipal/Image_04.webp",
-        "full": "img/projects/Shurbanipal/Image_04.webp",
+        "preview": "img/projects/shurbanipal/Image_04.webp",
+        "full": "img/projects/shurbanipal/Image_04.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

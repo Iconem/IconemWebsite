@@ -12,7 +12,7 @@
         "en": "2015",
         "fr": "2015"
     },
-    "thumbnail": "img/projects/Bamiyan/Bamiyan_thumbnail.webp",
+    "thumbnail": "img/projects/bamiyan/Bamiyan_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Bamyan",
         "fr": "Numérisation de Bamiyan"
@@ -35,8 +35,8 @@
         "logos": []     
     },
     "img": [{
-        "preview": "img/projects/Bamiyan/Bamiyan_01.webp",
-        "full": "img/projects/Bamiyan/Bamiyan_01.webp",
+        "preview": "img/projects/bamiyan/Bamiyan_01.webp",
+        "full": "img/projects/bamiyan/Bamiyan_01.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

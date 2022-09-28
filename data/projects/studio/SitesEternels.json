@@ -12,7 +12,7 @@
         "en": "2016",
         "fr": "2016"
     },
-    "thumbnail": "img/projects/SitesEternels/SitesEternels_thumbnail.webp",
+    "thumbnail": "img/projects/sitesEternels/SitesEternels_thumbnail.webp",
     "articleTitle": {
         "en": "Eternal Sites : From Bâmiyân to Palmyra",
         "fr": "Sites éternels : De Bâmiyân à Palmyre"
@@ -33,41 +33,41 @@
         "en": "General curator: Jean-Luc Martinez, president and director of the Louvre museum. Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum. Scenography: Sylvain Roca and Nicolas Groult. Director: Olivier Brunet. Scientific documentation: Thomas Sagory.",
         "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre. Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre. Scénographie : Sylvain Roca et Nicolas Groult. Réalisateur : Olivier Brunet. Documentation scientifique : Thomas Sagory.",
         "logos": [
-          "img/projects/SitesEternels/SitesEternels_logo_1.webp",
-          "img/projects/SitesEternels/SitesEternels_logo_2.webp",
-          "img/projects/SitesEternels/SitesEternels_logo_3.webp",
-          "img/projects/SitesEternels/SitesEternels_logo_4.webp",
-		  "img/projects/SitesEternels/SitesEternels_logo_5.webp"
+          "img/projects/sitesEternels/SitesEternels_logo_1.webp",
+          "img/projects/sitesEternels/SitesEternels_logo_2.webp",
+          "img/projects/sitesEternels/SitesEternels_logo_3.webp",
+          "img/projects/sitesEternels/SitesEternels_logo_4.webp",
+		  "img/projects/sitesEternels/SitesEternels_logo_5.webp"
         ]     
     },
     "img": [
         {
-            "preview": "img/projects/SitesEternels/SitesEternels_01.webp",
-            "full": "img/projects/SitesEternels/SitesEternels_01.webp",
+            "preview": "img/projects/sitesEternels/SitesEternels_01.webp",
+            "full": "img/projects/sitesEternels/SitesEternels_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/SitesEternels/SitesEternels_01.webp",
-            "full": "img/projects/SitesEternels/SitesEternels_02.webp",
+            "preview": "img/projects/sitesEternels/SitesEternels_01.webp",
+            "full": "img/projects/sitesEternels/SitesEternels_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		{
-            "preview": "img/projects/SitesEternels/SitesEternels_03.webp",
-            "full": "img/projects/SitesEternels/SitesEternels_03.webp",
+            "preview": "img/projects/sitesEternels/SitesEternels_03.webp",
+            "full": "img/projects/sitesEternels/SitesEternels_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SitesEternels/SitesEternels_04.webp",
-            "full": "img/projects/SitesEternels/SitesEternels_04.webp",
+            "preview": "img/projects/sitesEternels/SitesEternels_04.webp",
+            "full": "img/projects/sitesEternels/SitesEternels_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -77,11 +77,11 @@
     "video": [
         {
             "src": "https://www.youtube.com/watch?v=h2a1u8idW-Q",
-            "preview": "img/projects/SitesEternels/SitesEternels_05.webp"
+            "preview": "img/projects/sitesEternels/SitesEternels_05.webp"
         },
         {
             "src": "https://www.youtube.com/watch?v=S4WhhFXVAwI",
-            "preview": "img/projects/SitesEternels/SitesEternels_01.webp"
+            "preview": "img/projects/sitesEternels/SitesEternels_01.webp"
         }
     ],
     "models": [

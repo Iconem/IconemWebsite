@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/SyriaMatters/SyriaMatters_thumbnail.webp",
+    "thumbnail": "img/projects/syriamatters/SyriaMatters_thumbnail.webp",
     "articleTitle": {
         "en": "Syria Matters",
         "fr": "Syria Matters"
@@ -32,37 +32,37 @@
     "actors": {
         "en": "General curator: Dr Julia Gonnella, Director of the Museum of Islamic Art, Curators: Rania Abdellatif, special curator, Scenography: Marc Pelletreau",
         "fr": "Commissariat général : Dr Julia Gonnella, Directrice du Museum of Islamic Art, Commissaires : Rania Abdellatif, commissaire spéciale, Scénographie : Marc Pelletreau",
-        "logos": ["img/projects/SyriaMatters/Logo_Espai.webp",
-            "img/projects/SyriaMatters/Logo_MIA.webp"]
+        "logos": ["img/projects/syriamatters/Logo_Espai.webp",
+            "img/projects/syriamatters/Logo_MIA.webp"]
     },
     "img": [
         {
-            "preview": "img/projects/SyriaMatters/SyriaMatters_01.webp",
-            "full": "img/projects/SyriaMatters/SyriaMatters_01.webp",
+            "preview": "img/projects/syriamatters/SyriaMatters_01.webp",
+            "full": "img/projects/syriamatters/SyriaMatters_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		        {
-            "preview": "img/projects/SyriaMatters/SyriaMatters_02.webp",
-            "full": "img/projects/SyriaMatters/SyriaMatters_02.webp",
+            "preview": "img/projects/syriamatters/SyriaMatters_02.webp",
+            "full": "img/projects/syriamatters/SyriaMatters_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
 		        {
-            "preview": "img/projects/SyriaMatters/SyriaMatters_03.webp",
-            "full": "img/projects/SyriaMatters/SyriaMatters_03.webp",
+            "preview": "img/projects/syriamatters/SyriaMatters_03.webp",
+            "full": "img/projects/syriamatters/SyriaMatters_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/SyriaMatters/SyriaMatters_04.webp",
-            "full": "img/projects/SyriaMatters/SyriaMatters_04.webp",
+            "preview": "img/projects/syriamatters/SyriaMatters_04.webp",
+            "full": "img/projects/syriamatters/SyriaMatters_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

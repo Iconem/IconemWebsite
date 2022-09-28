@@ -12,7 +12,7 @@
         "en": "2016",
         "fr": "2016"
     },
-    "thumbnail": "img/projects/Palmyre/Palmyre_thumbnail.webp",
+    "thumbnail": "img/projects/palmyre/Palmyre_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Palmyra",
         "fr": "Numérisation de Palmyre"
@@ -36,8 +36,8 @@
     },
     "img": [
         {
-            "preview": "img/projects/Palmyre/Palmyre_01.webp",
-            "full": "img/projects/Palmyre/Palmyre_01.webp",
+            "preview": "img/projects/palmyre/Palmyre_01.webp",
+            "full": "img/projects/palmyre/Palmyre_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

@@ -12,7 +12,7 @@
         "en": "2020",
         "fr": "2020"
     },
-    "thumbnail": "img/projects/Compiegne/Compiegne_thumbnail.webp",
+    "thumbnail": "img/projects/compiegne/Compiegne_thumbnail.webp",
     "articleTitle": {
         "en": "Digitasation of the city of Compiègne",
         "fr": "Numérisation du patrimoine bâti de la ville de Compiègne"
@@ -36,8 +36,8 @@
     },
     "img": [
         {
-            "preview": "img/projects/Compiegne/Compiegne_01.webp",
-            "full": "img/projects/Compiegne/Compiegne_01.webp",
+            "preview": "img/projects/compiegne/Compiegne_01.webp",
+            "full": "img/projects/compiegne/Compiegne_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

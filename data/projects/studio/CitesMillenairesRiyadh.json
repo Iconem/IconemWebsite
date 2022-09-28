@@ -12,7 +12,7 @@
         "en": "2019",
         "fr": "2019"
     },
-    "thumbnail": "img/projects/CitesMillenairesRyad/Image_thumbnail.webp",
+    "thumbnail": "img/projects/citesmillenairesryad/Image_thumbnail.webp",
     "articleTitle": {
         "en": "Age-Old Cities",
         "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
@@ -32,40 +32,40 @@
     "actors": {
         "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Director: Olivier Brunet, Audiovisual production: Mardi 8",
         "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Réalisateur : Olivier Brunet, Réalisation Audiovisuel : Mardi 8",
-        "logos": ["img/projects/CitesMillenairesRyad/Logo_Aliph.webp",
-            "img/projects/CitesMillenairesRyad/Logo_IMA.webp",
-            "img/projects/CitesMillenairesRyad/Logo_MuseumNationalRiyadh.webp",
-            "img/projects/CitesMillenairesRyad/Logo_Ubisoft.webp",
-            "img/projects/CitesMillenairesRyad/Logo_UNESCO.webp",
-            "img/projects/CitesMillenairesRyad/Logo_Unil.webp"]     
+        "logos": ["img/projects/citesmillenairesryad/Logo_Aliph.webp",
+            "img/projects/citesmillenairesryad/Logo_IMA.webp",
+            "img/projects/citesmillenairesryad/Logo_MuseumNationalRiyadh.webp",
+            "img/projects/citesmillenairesryad/Logo_Ubisoft.webp",
+            "img/projects/citesmillenairesryad/Logo_UNESCO.webp",
+            "img/projects/citesmillenairesryad/Logo_Unil.webp"]     
     },
     "img": [{
-        "preview": "img/projects/CitesMillenairesRyad/Image_01.webp",
-        "full": "img/projects/CitesMillenairesRyad/Image_01.webp",
+        "preview": "img/projects/citesmillenairesryad/Image_01.webp",
+        "full": "img/projects/citesmillenairesryad/Image_01.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/CitesMillenairesRyad/Image_02.webp",
-        "full": "img/projects/CitesMillenairesRyad/Image_02.webp",
+        "preview": "img/projects/citesmillenairesryad/Image_02.webp",
+        "full": "img/projects/citesmillenairesryad/Image_02.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/CitesMillenairesRyad/Image_03.webp",
-        "full": "img/projects/CitesMillenairesRyad/Image_03.webp",
+        "preview": "img/projects/citesmillenairesryad/Image_03.webp",
+        "full": "img/projects/citesmillenairesryad/Image_03.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"
         }
     },
     {
-        "preview": "img/projects/CitesMillenairesRyad/Image_04.webp",
-        "full": "img/projects/CitesMillenairesRyad/Image_04.webp",
+        "preview": "img/projects/citesmillenairesryad/Image_04.webp",
+        "full": "img/projects/citesmillenairesryad/Image_04.webp",
         "caption": {
             "en": "©Iconem",
             "fr": "©Iconem"

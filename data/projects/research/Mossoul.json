@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/Mossoul/Mossoul_thumbnail.webp",
+    "thumbnail": "img/projects/mossoul/Mossoul_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of the old city of Mosul",
         "fr": "Numérisation de la vieille ville de Mossoul"
@@ -36,8 +36,8 @@
     },
     "img": [
         {
-            "preview": "img/projects/Mossoul/Mossoul_01.webp",
-            "full": "img/projects/Mossoul/Mossoul_01.webp",
+            "preview": "img/projects/mossoul/Mossoul_01.webp",
+            "full": "img/projects/mossoul/Mossoul_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
