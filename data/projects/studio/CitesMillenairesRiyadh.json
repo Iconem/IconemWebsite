@@ -12,7 +12,7 @@
         "en": "2019",
         "fr": "2019"
     },
-    "thumbnail": "img/projects/citesmillenairesryad/Image_thumbnail.webp",
+    "thumbnail": "img/projects/citesmillenairesryad/image_thumbnail.webp",
     "articleTitle": {
         "en": "Age-Old Cities",
         "fr": "Cités Millénaires : Voyage virtuel de Palmyre à Mossoul"
@@ -32,44 +32,48 @@
     "actors": {
         "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Director: Olivier Brunet, Audiovisual production: Mardi 8",
         "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Réalisateur : Olivier Brunet, Réalisation Audiovisuel : Mardi 8",
-        "logos": ["img/projects/citesmillenairesryad/Logo_Aliph.webp",
-            "img/projects/citesmillenairesryad/Logo_IMA.webp",
-            "img/projects/citesmillenairesryad/Logo_MuseumNationalRiyadh.webp",
-            "img/projects/citesmillenairesryad/Logo_Ubisoft.webp",
-            "img/projects/citesmillenairesryad/Logo_UNESCO.webp",
-            "img/projects/citesmillenairesryad/Logo_Unil.webp"]     
+        "logos": [
+            "img/projects/citesmillenairesryad/logo_aliph.webp",
+            "img/projects/citesmillenairesryad/logo_ima.webp",
+            "img/projects/citesmillenairesryad/logo_museumnationalriyadh.webp",
+            "img/projects/citesmillenairesryad/logo_ubisoft.webp",
+            "img/projects/citesmillenairesryad/logo_unesco.webp",
+            "img/projects/citesmillenairesryad/logo_unil.webp"
+        ]
     },
-    "img": [{
-        "preview": "img/projects/citesmillenairesryad/Image_01.webp",
-        "full": "img/projects/citesmillenairesryad/Image_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/citesmillenairesryad/image_01.webp",
+            "full": "img/projects/citesmillenairesryad/image_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/citesmillenairesryad/image_02.webp",
+            "full": "img/projects/citesmillenairesryad/image_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/citesmillenairesryad/image_03.webp",
+            "full": "img/projects/citesmillenairesryad/image_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/citesmillenairesryad/image_04.webp",
+            "full": "img/projects/citesmillenairesryad/image_04.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    },
-    {
-        "preview": "img/projects/citesmillenairesryad/Image_02.webp",
-        "full": "img/projects/citesmillenairesryad/Image_02.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/citesmillenairesryad/Image_03.webp",
-        "full": "img/projects/citesmillenairesryad/Image_03.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/citesmillenairesryad/Image_04.webp",
-        "full": "img/projects/citesmillenairesryad/Image_04.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    }],
+    ],
     "video": []
 }

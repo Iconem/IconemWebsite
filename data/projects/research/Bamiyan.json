@@ -12,7 +12,7 @@
         "en": "2015",
         "fr": "2015"
     },
-    "thumbnail": "img/projects/bamiyan/Bamiyan_thumbnail.webp",
+    "thumbnail": "img/projects/bamiyan/bamiyan_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Bamyan",
         "fr": "Numérisation de Bamiyan"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, Turquoise Mountain",
         "fr": "Iconem, Turquoise Mountain",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/bamiyan/Bamiyan_01.webp",
-        "full": "img/projects/bamiyan/Bamiyan_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/bamiyan/bamiyan_01.webp",
+            "full": "img/projects/bamiyan/bamiyan_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

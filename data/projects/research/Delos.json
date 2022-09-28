@@ -12,7 +12,7 @@
         "en": "2016",
         "fr": "2016"
     },
-    "thumbnail": "img/projects/delos/Delos_thumbnail.webp",
+    "thumbnail": "img/projects/delos/delos_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of the island of Delos",
         "fr": "Numérisation de l'île de Délos"
@@ -32,97 +32,100 @@
     "actors": {
         "en": "Iconem and the Ecole française d’Athènes",
         "fr": "Iconem et l’Ecole française d’Athènes",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-            "preview": "img/projects/delos/Delos_01.webp",
-            "full": "img/projects/delos/Delos_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-                }
-            },
+    "img": [
         {
-            "preview": "img/projects/delos/Delos_02.webp",
-            "full": "img/projects/delos/Delos_02.webp",
+            "preview": "img/projects/delos/delos_01.webp",
+            "full": "img/projects/delos/delos_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_03.webp",
-            "full": "img/projects/delos/Delos_03.webp",
+            "preview": "img/projects/delos/delos_02.webp",
+            "full": "img/projects/delos/delos_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_04.webp",
-            "full": "img/projects/delos/Delos_04.webp",
+            "preview": "img/projects/delos/delos_03.webp",
+            "full": "img/projects/delos/delos_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_05.webp",
-            "full": "img/projects/delos/Delos_05.webp",
+            "preview": "img/projects/delos/delos_04.webp",
+            "full": "img/projects/delos/delos_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_06.webp",
-            "full": "img/projects/delos/Delos_06.webp",
+            "preview": "img/projects/delos/delos_05.webp",
+            "full": "img/projects/delos/delos_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_07.webp",
-            "full": "img/projects/delos/Delos_07.webp",
+            "preview": "img/projects/delos/delos_06.webp",
+            "full": "img/projects/delos/delos_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_08.webp",
-            "full": "img/projects/delos/Delos_08.webp",
+            "preview": "img/projects/delos/delos_07.webp",
+            "full": "img/projects/delos/delos_07.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_09.webp",
-            "full": "img/projects/delos/Delos_09.webp",
+            "preview": "img/projects/delos/delos_08.webp",
+            "full": "img/projects/delos/delos_08.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/delos/Delos_10.webp",
-            "full": "img/projects/delos/Delos_10.webp",
+            "preview": "img/projects/delos/delos_09.webp",
+            "full": "img/projects/delos/delos_09.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/delos/delos_10.webp",
+            "full": "img/projects/delos/delos_10.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         }
     ],
-    "video": [{
-        "src": "https://www.youtube.com/watch?v=N3g57AeQZ50",
-        "preview": "img/projects/delos/Delos_YoutubeThumbnail1.webp"
-    },
-    {
-        "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
-        "preview": "img/projects/delos/Delos_YoutubeThumbnail2.webp"
-    }],
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=N3g57AeQZ50",
+            "preview": "img/projects/delos/delos_youtubethumbnail1.webp"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
+            "preview": "img/projects/delos/delos_youtubethumbnail2.webp"
+        }
+    ],
     "models": [
         "https://sketchfab.com/models/9eecfcfbc43c4b58aad488367736965f/embed"
     ]

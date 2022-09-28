@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/hyderabad/Hyderabad_thumbnail.webp",
+    "thumbnail": "img/projects/hyderabad/hyderabad_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of the Qutb Shahi Heritage Park",
         "fr": "Numérisation du Qutb Shahi Heritage Park"
@@ -32,99 +32,100 @@
     "actors": {
         "en": "Iconem and the Aga Khan Trust for Culture",
         "fr": "Iconem et l'Aga Khan Trust for Culture",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-            "preview": "img/projects/hyderabad/Hyderabad_01.webp",
-            "full": "img/projects/hyderabad/Hyderabad_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-                }
-            },
+    "img": [
         {
-            "preview": "img/projects/hyderabad/Hyderabad_02.webp",
-            "full": "img/projects/hyderabad/Hyderabad_02.webp",
+            "preview": "img/projects/hyderabad/hyderabad_01.webp",
+            "full": "img/projects/hyderabad/hyderabad_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_03.webp",
-            "full": "img/projects/hyderabad/Hyderabad_03.webp",
+            "preview": "img/projects/hyderabad/hyderabad_02.webp",
+            "full": "img/projects/hyderabad/hyderabad_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_04.webp",
-            "full": "img/projects/hyderabad/Hyderabad_04.webp",
+            "preview": "img/projects/hyderabad/hyderabad_03.webp",
+            "full": "img/projects/hyderabad/hyderabad_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_05.webp",
-            "full": "img/projects/hyderabad/Hyderabad_05.webp",
+            "preview": "img/projects/hyderabad/hyderabad_04.webp",
+            "full": "img/projects/hyderabad/hyderabad_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_06.webp",
-            "full": "img/projects/hyderabad/Hyderabad_06.webp",
+            "preview": "img/projects/hyderabad/hyderabad_05.webp",
+            "full": "img/projects/hyderabad/hyderabad_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_07.webp",
-            "full": "img/projects/hyderabad/Hyderabad_07.webp",
+            "preview": "img/projects/hyderabad/hyderabad_06.webp",
+            "full": "img/projects/hyderabad/hyderabad_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_08.webp",
-            "full": "img/projects/hyderabad/Hyderabad_08.webp",
+            "preview": "img/projects/hyderabad/hyderabad_07.webp",
+            "full": "img/projects/hyderabad/hyderabad_07.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_09.webp",
-            "full": "img/projects/hyderabad/Hyderabad_09.webp",
+            "preview": "img/projects/hyderabad/hyderabad_08.webp",
+            "full": "img/projects/hyderabad/hyderabad_08.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_10.webp",
-            "full": "img/projects/hyderabad/Hyderabad_10.webp",
+            "preview": "img/projects/hyderabad/hyderabad_09.webp",
+            "full": "img/projects/hyderabad/hyderabad_09.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_11.webp",
-            "full": "img/projects/hyderabad/Hyderabad_11.webp",
+            "preview": "img/projects/hyderabad/hyderabad_10.webp",
+            "full": "img/projects/hyderabad/hyderabad_10.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/hyderabad/Hyderabad_12.webp",
-            "full": "img/projects/hyderabad/Hyderabad_12.webp",
+            "preview": "img/projects/hyderabad/hyderabad_11.webp",
+            "full": "img/projects/hyderabad/hyderabad_11.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/hyderabad/hyderabad_12.webp",
+            "full": "img/projects/hyderabad/hyderabad_12.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

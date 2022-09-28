@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/cracdeschevaliers/CracDesChevaliers_thumbnail.webp",
+    "thumbnail": "img/projects/cracdeschevaliers/cracdeschevaliers_thumbnail.webp",
     "articleTitle": {
         "en": "",
         "fr": "Numérisation du Crac des Chevaliers"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, UNESCO, DGAM",
         "fr": "Iconem, UNESCO, DGAM",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/cracdeschevaliers/CracDesChevaliers_01.webp",
-        "full": "img/projects/cracdeschevaliers/CracDesChevaliers_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/cracdeschevaliers/cracdeschevaliers_01.webp",
+            "full": "img/projects/cracdeschevaliers/cracdeschevaliers_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

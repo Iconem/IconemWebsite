@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/baeloclaudia/BaeloClaudia_thumbnail.webp",
+    "thumbnail": "img/projects/baeloclaudia/baeloclaudia_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Baelo Claudia",
         "fr": "Numérisation de Baelo Claudia"
@@ -32,75 +32,76 @@
     "actors": {
         "en": "Iconem, the Institut de recherche sur l'architecture antique (IRAA), and the Casa de Velázquez with funding from the Fondation ARPAMED",
         "fr": "Iconem, l'Institut de recherche sur l'architecture antique (IRAA) et la Casa de Velázquez avec le soutien de la Fondation ARPAMED",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_01.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-                }
-            },
+    "img": [
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_02.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_02.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_01.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_03.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_03.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_02.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_04.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_04.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_03.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_05.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_05.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_04.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_06.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_06.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_05.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_07.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_07.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_06.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_08.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_08.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_07.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_07.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/baeloclaudia/BaeloClaudia_09.webp",
-            "full": "img/projects/baeloclaudia/BaeloClaudia_09.webp",
+            "preview": "img/projects/baeloclaudia/baeloclaudia_08.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_08.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/baeloclaudia/baeloclaudia_09.webp",
+            "full": "img/projects/baeloclaudia/baeloclaudia_09.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

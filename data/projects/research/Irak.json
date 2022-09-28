@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/irak/Irak_thumbnail.webp",
+    "thumbnail": "img/projects/irak/irak_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Ninive, Khorsabad, Nimroud",
         "fr": "Numérisation de Ninive, Khorsabad, Nimroud"
@@ -32,15 +32,17 @@
     "actors": {
         "en": "Iconem, UNESCO",
         "fr": "Iconem, UNESCO",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-        "preview": "img/projects/irak/Irak_01.webp",
-        "full": "img/projects/irak/Irak_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/irak/irak_01.webp",
+            "full": "img/projects/irak/irak_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    }],
+    ],
     "video": []
 }

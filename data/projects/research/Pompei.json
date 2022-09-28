@@ -12,7 +12,7 @@
         "en": "2014",
         "fr": "2014"
     },
-    "thumbnail": "img/projects/pompei/Pompei_thumbnail.webp",
+    "thumbnail": "img/projects/pompei/pompei_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Pompeii",
         "fr": "Numérisation de Pompéi"
@@ -36,8 +36,8 @@
     },
     "img": [
         {
-            "preview": "img/projects/pompei/Pompei_01.webp",
-            "full": "img/projects/pompei/Pompei_01.webp",
+            "preview": "img/projects/pompei/pompei_01.webp",
+            "full": "img/projects/pompei/pompei_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

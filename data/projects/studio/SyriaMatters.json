@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/syriamatters/SyriaMatters_thumbnail.webp",
+    "thumbnail": "img/projects/syriamatters/syriamatters_thumbnail.webp",
     "articleTitle": {
         "en": "Syria Matters",
         "fr": "Syria Matters"
@@ -32,37 +32,39 @@
     "actors": {
         "en": "General curator: Dr Julia Gonnella, Director of the Museum of Islamic Art, Curators: Rania Abdellatif, special curator, Scenography: Marc Pelletreau",
         "fr": "Commissariat général : Dr Julia Gonnella, Directrice du Museum of Islamic Art, Commissaires : Rania Abdellatif, commissaire spéciale, Scénographie : Marc Pelletreau",
-        "logos": ["img/projects/syriamatters/Logo_Espai.webp",
-            "img/projects/syriamatters/Logo_MIA.webp"]
+        "logos": [
+            "img/projects/syriamatters/logo_espai.webp",
+            "img/projects/syriamatters/logo_mia.webp"
+        ]
     },
     "img": [
         {
-            "preview": "img/projects/syriamatters/SyriaMatters_01.webp",
-            "full": "img/projects/syriamatters/SyriaMatters_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-		        {
-            "preview": "img/projects/syriamatters/SyriaMatters_02.webp",
-            "full": "img/projects/syriamatters/SyriaMatters_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-		        {
-            "preview": "img/projects/syriamatters/SyriaMatters_03.webp",
-            "full": "img/projects/syriamatters/SyriaMatters_03.webp",
+            "preview": "img/projects/syriamatters/syriamatters_01.webp",
+            "full": "img/projects/syriamatters/syriamatters_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/syriamatters/SyriaMatters_04.webp",
-            "full": "img/projects/syriamatters/SyriaMatters_04.webp",
+            "preview": "img/projects/syriamatters/syriamatters_02.webp",
+            "full": "img/projects/syriamatters/syriamatters_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/syriamatters/syriamatters_03.webp",
+            "full": "img/projects/syriamatters/syriamatters_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/syriamatters/syriamatters_04.webp",
+            "full": "img/projects/syriamatters/syriamatters_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

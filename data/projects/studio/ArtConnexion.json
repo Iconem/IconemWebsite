@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/artconnexion/Image_thumbnail.webp",
+    "thumbnail": "img/projects/artconnexion/image_thumbnail.webp",
     "articleTitle": {
         "en": "Art # Connexion",
         "fr": "Art # Connexion"
@@ -32,39 +32,45 @@
     "actors": {
         "en": "Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual Director: Mardi 8",
         "fr": "Scénographie : Sylvain Roca , Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
-        "logos": ["img/projects/artconnexion/Logo_GoogleArtEtCulture.webp", "img/projects/artconnexion/Logo_MinistèreDeLaCulture.webp", "img/projects/artconnexion/Logo_RMN.webp"]     
+        "logos": [
+            "img/projects/artconnexion/logo_googleartetculture.webp",
+            "img/projects/artconnexion/logo_ministèredelaculture.webp",
+            "img/projects/artconnexion/logo_rmn.webp"
+        ]
     },
-    "img": [{
-        "preview": "img/projects/artconnexion/Image_01.webp",
-        "full": "img/projects/artconnexion/Image_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/artconnexion/image_01.webp",
+            "full": "img/projects/artconnexion/image_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/artconnexion/image_02.webp",
+            "full": "img/projects/artconnexion/image_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/artconnexion/image_03.webp",
+            "full": "img/projects/artconnexion/image_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/artconnexion/image_04.webp",
+            "full": "img/projects/artconnexion/image_04.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    },
-    {
-        "preview": "img/projects/artconnexion/Image_02.webp",
-        "full": "img/projects/artconnexion/Image_02.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/artconnexion/Image_03.webp",
-        "full": "img/projects/artconnexion/Image_03.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/artconnexion/Image_04.webp",
-        "full": "img/projects/artconnexion/image_04.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    }],
+    ],
     "video": []
 }

@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/shurbanipal/Image_thumbnail.webp",
+    "thumbnail": "img/projects/shurbanipal/image_thumbnail.webp",
     "articleTitle": {
         "en": "I am Ashurbanipal : King Of the World, King of Assyria",
         "fr": "I am Ashurbanipal : King Of the World, King of Assyria"
@@ -32,41 +32,45 @@
     "actors": {
         "en": "General curator: Gareth Brereton, archaeologist and curator in charge of the Mesopotamian collection of the British Museum",
         "fr": "Commissariat général : Gareth Brereton, archéologue et curateur en charge de la collection Mésopotamienne du British Museum",
-        "logos": ["img/projects/shurbanipal/Logo_BP.webp",
-            "img/projects/shurbanipal/Logo_BritishMuseum.webp",
-            "img/projects/shurbanipal/Logo_IAGCargo.webp"]    
+        "logos": [
+            "img/projects/shurbanipal/logo_bp.webp",
+            "img/projects/shurbanipal/logo_britishmuseum.webp",
+            "img/projects/shurbanipal/logo_iagcargo.webp"
+        ]
     },
-    "img": [{
-        "preview": "img/projects/shurbanipal/Image_01.webp",
-        "full": "img/projects/shurbanipal/Image_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/shurbanipal/image_01.webp",
+            "full": "img/projects/shurbanipal/image_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/shurbanipal/image_02.webp",
+            "full": "img/projects/shurbanipal/image_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/shurbanipal/image_03.webp",
+            "full": "img/projects/shurbanipal/image_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/shurbanipal/image_04.webp",
+            "full": "img/projects/shurbanipal/image_04.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    },
-    {
-        "preview": "img/projects/shurbanipal/Image_02.webp",
-        "full": "img/projects/shurbanipal/Image_02.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/shurbanipal/Image_03.webp",
-        "full": "img/projects/shurbanipal/Image_03.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/shurbanipal/Image_04.webp",
-        "full": "img/projects/shurbanipal/Image_04.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    }],
+    ],
     "video": []
 }

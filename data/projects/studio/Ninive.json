@@ -12,7 +12,7 @@
         "en": "2018",
         "fr": "2018"
     },
-    "thumbnail": "img/projects/ninive/Image_thumbnail.webp",
+    "thumbnail": "img/projects/ninive/image_thumbnail.webp",
     "articleTitle": {
         "en": "Nineveh, Capital of a World Empire",
         "fr": "Niniveh, Hoofdstad van een Wereldrijk"
@@ -32,41 +32,45 @@
     "actors": {
         "en": "Curator: Lucas Petit and Daniele Morandi Bonacossi",
         "fr": "Commissariat : Lucas Petit and Daniele Morandi Bonacossi",
-        "logos": ["img/projects/ninive/Logo_DelftUniversityOfTechnology.webp",
-            "img/projects/ninive/Logo_RijksmuseumVanOudheden.webp",
-            "img/projects/ninive/Logo_UNESCO.webp"]     
+        "logos": [
+            "img/projects/ninive/logo_delftuniversityoftechnology.webp",
+            "img/projects/ninive/logo_rijksmuseumvanoudheden.webp",
+            "img/projects/ninive/logo_unesco.webp"
+        ]
     },
-    "img": [{
-        "preview": "img/projects/ninive/Image_01.webp",
-        "full": "img/projects/ninive/Image_01.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
+    "img": [
+        {
+            "preview": "img/projects/ninive/image_01.webp",
+            "full": "img/projects/ninive/image_01.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/ninive/image_02.webp",
+            "full": "img/projects/ninive/image_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/ninive/image_03.webp",
+            "full": "img/projects/ninive/image_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/ninive/image_04.webp",
+            "full": "img/projects/ninive/image_04.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
         }
-    },
-    {
-        "preview": "img/projects/ninive/Image_02.webp",
-        "full": "img/projects/ninive/Image_02.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/ninive/Image_03.webp",
-        "full": "img/projects/ninive/Image_03.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    },
-    {
-        "preview": "img/projects/ninive/Image_04.webp",
-        "full": "img/projects/ninive/Image_04.webp",
-        "caption": {
-            "en": "©Iconem",
-            "fr": "©Iconem"
-        }
-    }],
+    ],
     "video": []
 }

@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/syriansymphony/SyrianSymphony_thumbnail.webp",
+    "thumbnail": "img/projects/syriansymphony/syriansymphony_thumbnail.webp",
     "articleTitle": {
         "en": "Syrian Symphony : New Compositions in Sight And Sound",
         "fr": "Syrian Symphony : New Compositions in Sight And Sound"
@@ -36,32 +36,32 @@
     },
     "img": [
         {
-            "preview": "img/projects/syriansymphony/SyrianSymphony_01.webp",
-            "full": "img/projects/syriansymphony/SyrianSymphony_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-		{
-            "preview": "img/projects/syriansymphony/SyrianSymphony_02.webp",
-            "full": "img/projects/syriansymphony/SyrianSymphony_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-		{
-            "preview": "img/projects/syriansymphony/SyrianSymphony_03.webp",
-            "full": "img/projects/syriansymphony/SyrianSymphony_03.webp",
+            "preview": "img/projects/syriansymphony/syriansymphony_01.webp",
+            "full": "img/projects/syriansymphony/syriansymphony_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/syriansymphony/SyrianSymphony_04.webp",
-            "full": "img/projects/syriansymphony/SyrianSymphony_04.webp",
+            "preview": "img/projects/syriansymphony/syriansymphony_02.webp",
+            "full": "img/projects/syriansymphony/syriansymphony_02.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/syriansymphony/syriansymphony_03.webp",
+            "full": "img/projects/syriansymphony/syriansymphony_03.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/syriansymphony/syriansymphony_04.webp",
+            "full": "img/projects/syriansymphony/syriansymphony_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -71,7 +71,7 @@
     "video": [
         {
             "src": "https://vimeo.com/273333818",
-            "preview": "img/projects/syriansymphony/SyrianSymphony_01.webp"
+            "preview": "img/projects/syriansymphony/syriansymphony_01.webp"
         }
     ]
 }

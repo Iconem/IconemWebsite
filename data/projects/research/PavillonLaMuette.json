@@ -12,7 +12,7 @@
         "en": "2019",
         "fr": "2019"
     },
-    "thumbnail": "img/projects/pavillonlamuette/PavillonLaMuette_thumbnail.webp",
+    "thumbnail": "img/projects/pavillonlamuette/pavillonlamuette_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Pavillon de la Muette",
         "fr": "Numérisation du Pavillon de la Muette"
@@ -36,8 +36,8 @@
     },
     "img": [
         {
-            "preview": "img/projects/pavillonlamuette/PavillonLaMuette_01.webp",
-            "full": "img/projects/pavillonlamuette/PavillonLaMuette_01.webp",
+            "preview": "img/projects/pavillonlamuette/pavillonlamuette_01.webp",
+            "full": "img/projects/pavillonlamuette/pavillonlamuette_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

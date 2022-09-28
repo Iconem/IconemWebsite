@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/alep/Alep_thumbnail_02.webp",
+    "thumbnail": "img/projects/alep/alep_thumbnail_02.webp",
     "articleTitle": {
         "en": "Digitisation of Aleppo",
         "fr": "Numérisation d'Alep"
@@ -32,101 +32,104 @@
     "actors": {
         "en": "Iconem and the Syrian Directorate-General of Antiquities & Museums (DGAM)",
         "fr": "Iconem et la Direction Générale des Antiquités et des Musées de Syrie (DGAM)",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-            "preview": "img/projects/alep/Alep_10.webp",
-            "full": "img/projects/alep/Alep_10.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-                }
-            },
+    "img": [
         {
-            "preview": "img/projects/alep/Alep_11.webp",
-            "full": "img/projects/alep/Alep_11.webp",
+            "preview": "img/projects/alep/alep_10.webp",
+            "full": "img/projects/alep/alep_10.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_12.webp",
-            "full": "img/projects/alep/Alep_12.webp",
+            "preview": "img/projects/alep/alep_11.webp",
+            "full": "img/projects/alep/alep_11.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_13.webp",
-            "full": "img/projects/alep/Alep_13.webp",
+            "preview": "img/projects/alep/alep_12.webp",
+            "full": "img/projects/alep/alep_12.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_14.webp",
-            "full": "img/projects/alep/Alep_14.webp",
+            "preview": "img/projects/alep/alep_13.webp",
+            "full": "img/projects/alep/alep_13.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_15.webp",
-            "full": "img/projects/alep/Alep_15.webp",
+            "preview": "img/projects/alep/alep_14.webp",
+            "full": "img/projects/alep/alep_14.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_16.webp",
-            "full": "img/projects/alep/Alep_16.webp",
+            "preview": "img/projects/alep/alep_15.webp",
+            "full": "img/projects/alep/alep_15.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_17.webp",
-            "full": "img/projects/alep/Alep_17.webp",
+            "preview": "img/projects/alep/alep_16.webp",
+            "full": "img/projects/alep/alep_16.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_18.webp",
-            "full": "img/projects/alep/Alep_18.webp",
+            "preview": "img/projects/alep/alep_17.webp",
+            "full": "img/projects/alep/alep_17.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_15.webp",
-            "full": "img/projects/alep/Alep_15.webp",
+            "preview": "img/projects/alep/alep_18.webp",
+            "full": "img/projects/alep/alep_18.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/alep/alep_15.webp",
+            "full": "img/projects/alep/alep_15.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         }
     ],
-    "video": [{
-        "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
-        "preview": "img/projects/alep/Alep_YoutubeThumbnail3.webp"
-    },
-    {
-        "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
-        "preview": "img/projects/alep/Alep_YoutubeThumbnail1.webp"
-    },
-    {
-        "src": "https://www.youtube.com/watch?v=rOqTeBVaceY",
-        "preview": "img/projects/alep/Alep_YoutubeThumbnail2.webp"
-    }],
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+            "preview": "img/projects/alep/alep_youtubethumbnail3.webp"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+            "preview": "img/projects/alep/alep_youtubethumbnail1.webp"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=rOqTeBVaceY",
+            "preview": "img/projects/alep/alep_youtubethumbnail2.webp"
+        }
+    ],
     "models": [
         "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
     ]

@@ -12,7 +12,7 @@
         "en": "2020",
         "fr": "2020"
     },
-    "thumbnail": "img/projects/batirunempire/BatirUnEmpire_thumbnail.webp",
+    "thumbnail": "img/projects/batirunempire/batirunempire_thumbnail.webp",
     "articleTitle": {
         "en": "Build an Empire : A virtual exhibition of the Roman worlds",
         "fr": "Bâtir un empire : Une exposition virtuelle des mondes romains"
@@ -33,51 +33,53 @@
         "en": "Exhibition coordination: Xavier Gerard, Iconem project manager Artistic direction: Gaël Labousse, Artistic director Iconem Scientific advisor: Vivien Barrière, Lecturer in history and archeology at CY Cergy Paris University General scenography: Julien Baron",
         "fr": "Coordination de l’exposition : Xavier Gerard, Chef de projet Iconem Direction artistique : Gaël Labousse, Directeur artistique Iconem Conseil scientifique : Vivien Barrière, Maître de conférences en histoire et archéologie à CY Cergy Paris Université Scénographie générale : Julien Baron",
         "logos": [
-            "img/projects/batirunempire/Logo_MuseeDeLaRomanite.webp",
-            "img/projects/batirunempire/Logo_Ubisoft.webp",
-            "img/projects/batirunempire/Logo_VilleDeNimes.webp"
+            "img/projects/batirunempire/logo_museedelaromanite.webp",
+            "img/projects/batirunempire/logo_ubisoft.webp",
+            "img/projects/batirunempire/logo_villedenimes.webp"
         ]
     },
     "img": [
         {
-            "preview": "img/projects/batirunempire/BatirUnEmpire_01.webp",
-            "full": "img/projects/batirunempire/BatirUnEmpire_01.webp",
+            "preview": "img/projects/batirunempire/batirunempire_01.webp",
+            "full": "img/projects/batirunempire/batirunempire_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/batirunempire/BatirUnEmpire_02.webp",
-            "full": "img/projects/batirunempire/BatirUnEmpire_02.webp",
+            "preview": "img/projects/batirunempire/batirunempire_02.webp",
+            "full": "img/projects/batirunempire/batirunempire_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/batirunempire/BatirUnEmpire_03.webp",
-            "full": "img/projects/batirunempire/BatirUnEmpire_03.webp",
+            "preview": "img/projects/batirunempire/batirunempire_03.webp",
+            "full": "img/projects/batirunempire/batirunempire_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/batirunempire/BatirUnEmpire_04.webp",
-            "full": "img/projects/batirunempire/BatirUnEmpire_04.webp",
+            "preview": "img/projects/batirunempire/batirunempire_04.webp",
+            "full": "img/projects/batirunempire/batirunempire_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         }
     ],
-    "video": [{
-        "src": "https://www.youtube.com/watch?v=-8aKhCfn5uM",
-        "preview": "img/projects/batirunempire/BatirUnEmpire_06.jpg"
-    },
-    {
-        "src": "https://www.youtube.com/watch?v=C3idAR34quM",
-        "preview": "img/projects/batirunempire/BatirUnEmpire_05.jpg"
-    }]
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=-8aKhCfn5uM",
+            "preview": "img/projects/batirunempire/batirunempire_06.jpg"
+        },
+        {
+            "src": "https://www.youtube.com/watch?v=C3idAR34quM",
+            "preview": "img/projects/batirunempire/batirunempire_05.jpg"
+        }
+    ]
 }

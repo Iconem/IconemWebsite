@@ -12,7 +12,7 @@
         "en": "2020",
         "fr": "2020"
     },
-    "thumbnail": "img/projects/alep/Alep_thumbnail.webp",
+    "thumbnail": "img/projects/alep/alep_thumbnail.webp",
     "articleTitle": {
         "en": "Alep - Voyage au coeur de 5.000 ans d’histoire",
         "fr": "Alep - Voyage au coeur de 5.000 ans d’histoire"
@@ -32,52 +32,52 @@
     "actors": {
         "en": "",
         "fr": "",
-        "logos": ["img/projects/alep/Alep_logo_1.webp"]
+        "logos": ["img/projects/alep/alep_logo_1.webp"]
     },
     "img": [
         {
-            "preview": "img/projects/alep/Alep_01.webp",
-            "full": "img/projects/alep/Alep_01.webp",
+            "preview": "img/projects/alep/alep_01.webp",
+            "full": "img/projects/alep/alep_01.webp",
             "caption": {
                 "en": "©Laurent de Broca",
                 "fr": "©Laurent de Broca"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_02.webp",
-            "full": "img/projects/alep/Alep_02.webp",
+            "preview": "img/projects/alep/alep_02.webp",
+            "full": "img/projects/alep/alep_02.webp",
             "caption": {
                 "en": "©Laurent de Broca",
                 "fr": "©Laurent de Broca"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_03.webp",
-            "full": "img/projects/alep/Alep_03.webp",
+            "preview": "img/projects/alep/alep_03.webp",
+            "full": "img/projects/alep/alep_03.webp",
             "caption": {
                 "en": "©Laurent de Broca",
                 "fr": "©Laurent de Broca"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_04.webp",
-            "full": "img/projects/alep/Alep_04.webp",
+            "preview": "img/projects/alep/alep_04.webp",
+            "full": "img/projects/alep/alep_04.webp",
             "caption": {
                 "en": "©Laurent de Broca",
                 "fr": "©Laurent de Broca"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_05.webp",
-            "full": "img/projects/alep/Alep_05.webp",
+            "preview": "img/projects/alep/alep_05.webp",
+            "full": "img/projects/alep/alep_05.webp",
             "caption": {
                 "en": "©Laurent de Broca",
                 "fr": "©Laurent de Broca"
             }
         },
         {
-            "preview": "img/projects/alep/Alep_06.webp",
-            "full": "img/projects/alep/Alep_06.webp",
+            "preview": "img/projects/alep/alep_06.webp",
+            "full": "img/projects/alep/alep_06.webp",
             "caption": {
                 "en": "©Laurent de Broca",
                 "fr": "©Laurent de Broca"
@@ -87,7 +87,7 @@
     "video": [
         {
             "src": "https://www.youtube.com/embed/aJbzeNmtWx8",
-            "preview": "img/projects/alep/Alep_01.webp"
+            "preview": "img/projects/alep/alep_01.webp"
         }
     ]
 }

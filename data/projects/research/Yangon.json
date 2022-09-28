@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/yangon/Yangon_thumbnail.webp",
+    "thumbnail": "img/projects/yangon/yangon_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of the Yangon High Court Building",
         "fr": "Numérisation de la Cour Suprême de Rangoun"
@@ -32,75 +32,76 @@
     "actors": {
         "en": "Iconem and the French Institute of Myanmar",
         "fr": "Iconem et l'Institut Français de Birmanie",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-            "preview": "img/projects/yangon/Yangon_01.webp",
-            "full": "img/projects/yangon/Yangon_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-                }
-            },
+    "img": [
         {
-            "preview": "img/projects/yangon/Yangon_02.webp",
-            "full": "img/projects/yangon/Yangon_02.webp",
+            "preview": "img/projects/yangon/yangon_01.webp",
+            "full": "img/projects/yangon/yangon_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_03.webp",
-            "full": "img/projects/yangon/Yangon_03.webp",
+            "preview": "img/projects/yangon/yangon_02.webp",
+            "full": "img/projects/yangon/yangon_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_04.webp",
-            "full": "img/projects/yangon/Yangon_04.webp",
+            "preview": "img/projects/yangon/yangon_03.webp",
+            "full": "img/projects/yangon/yangon_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_05.webp",
-            "full": "img/projects/yangon/Yangon_05.webp",
+            "preview": "img/projects/yangon/yangon_04.webp",
+            "full": "img/projects/yangon/yangon_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_06.webp",
-            "full": "img/projects/yangon/Yangon_06.webp",
+            "preview": "img/projects/yangon/yangon_05.webp",
+            "full": "img/projects/yangon/yangon_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_07.webp",
-            "full": "img/projects/yangon/Yangon_07.webp",
+            "preview": "img/projects/yangon/yangon_06.webp",
+            "full": "img/projects/yangon/yangon_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_08.webp",
-            "full": "img/projects/yangon/Yangon_08.webp",
+            "preview": "img/projects/yangon/yangon_07.webp",
+            "full": "img/projects/yangon/yangon_07.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/Yangon_09.webp",
-            "full": "img/projects/yangon/Yangon_09.webp",
+            "preview": "img/projects/yangon/yangon_08.webp",
+            "full": "img/projects/yangon/yangon_08.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/yangon/yangon_09.webp",
+            "full": "img/projects/yangon/yangon_09.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

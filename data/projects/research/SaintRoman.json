@@ -12,7 +12,7 @@
         "en": "2017",
         "fr": "2017"
     },
-    "thumbnail": "img/projects/saintroman/SaintRoman_thumbnail.webp",
+    "thumbnail": "img/projects/saintroman/saintroman_thumbnail.webp",
     "articleTitle": {
         "en": "Digitisation of Saint-Roman",
         "fr": "Numérisation de Saint-Roman"
@@ -32,91 +32,94 @@
     "actors": {
         "en": "Iconem and the Beaucaire Terre d’Argence municipalities",
         "fr": "Iconem et la communauté de communes de Beaucaire Terre d’Argence",
-        "logos": []     
+        "logos": []
     },
-    "img": [{
-            "preview": "img/projects/saintroman/SaintRoman_01.webp",
-            "full": "img/projects/saintroman/SaintRoman_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-                }
-            },
+    "img": [
         {
-            "preview": "img/projects/saintroman/SaintRoman_02.webp",
-            "full": "img/projects/saintroman/SaintRoman_02.webp",
+            "preview": "img/projects/saintroman/saintroman_01.webp",
+            "full": "img/projects/saintroman/saintroman_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_03.webp",
-            "full": "img/projects/saintroman/SaintRoman_03.webp",
+            "preview": "img/projects/saintroman/saintroman_02.webp",
+            "full": "img/projects/saintroman/saintroman_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_04.webp",
-            "full": "img/projects/saintroman/SaintRoman_04.webp",
+            "preview": "img/projects/saintroman/saintroman_03.webp",
+            "full": "img/projects/saintroman/saintroman_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_05.webp",
-            "full": "img/projects/saintroman/SaintRoman_05.webp",
+            "preview": "img/projects/saintroman/saintroman_04.webp",
+            "full": "img/projects/saintroman/saintroman_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_06.webp",
-            "full": "img/projects/saintroman/SaintRoman_06.webp",
+            "preview": "img/projects/saintroman/saintroman_05.webp",
+            "full": "img/projects/saintroman/saintroman_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_08.webp",
-            "full": "img/projects/saintroman/SaintRoman_08.webp",
+            "preview": "img/projects/saintroman/saintroman_06.webp",
+            "full": "img/projects/saintroman/saintroman_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_11.webp",
-            "full": "img/projects/saintroman/SaintRoman_11.webp",
+            "preview": "img/projects/saintroman/saintroman_08.webp",
+            "full": "img/projects/saintroman/saintroman_08.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_12.webp",
-            "full": "img/projects/saintroman/SaintRoman_12.webp",
+            "preview": "img/projects/saintroman/saintroman_11.webp",
+            "full": "img/projects/saintroman/saintroman_11.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/saintroman/SaintRoman_15.webp",
-            "full": "img/projects/saintroman/SaintRoman_15.webp",
+            "preview": "img/projects/saintroman/saintroman_12.webp",
+            "full": "img/projects/saintroman/saintroman_12.webp",
+            "caption": {
+                "en": "©Iconem",
+                "fr": "©Iconem"
+            }
+        },
+        {
+            "preview": "img/projects/saintroman/saintroman_15.webp",
+            "full": "img/projects/saintroman/saintroman_15.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         }
     ],
-    "video": [{
-        "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-        "preview": "img/projects/saintroman/SaintRoman_YoutubeThumbnail1.webp"
-    }]
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
+            "preview": "img/projects/saintroman/saintroman_youtubethumbnail1.webp"
+        }
+    ]
 }

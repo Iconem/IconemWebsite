@@ -92,8 +92,8 @@
             }
         },
         {
-            "preview": "img/projects/pyramids/Pyramids_01.webp",
-            "full": "img/projects/pyramids/Pyramids_01.webp",
+            "preview": "img/projects/pyramids/pyramids_01.webp",
+            "full": "img/projects/pyramids/pyramids_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
@@ -127,16 +127,15 @@
     "video": [
         {
             "src": "https://www.youtube.com/watch?v=SkoJTTvP-Zs",
-            "preview": "img/projects/pyramids/Pyramids_02.jpg"
-        }, 
+            "preview": "img/projects/pyramids/pyramids_02.jpg"
+        },
         {
             "src": "https://youtu.be/a_LQP0nbn4o",
             "preview": "img/projects/pyramids/main_00007.jpg"
-        }, 
+        },
         {
             "src": "https://youtu.be/X4x2g-MVpqU",
             "preview": "img/projects/pyramids/main_00008.webp"
         }
-        
     ]
 }
