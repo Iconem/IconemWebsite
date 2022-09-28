@@ -3,7 +3,7 @@ const { CMS, initCMS: init } = window;
 initCMS();
 
 
-import studioProjectsPreview from "./studioProjectsPreview";
+import studioProjectsPreview from "./studioProjectsPreview.js";
 // Import NetlifyCMS JS configuration object from cms/config/index.js
 // import config from "./config";
 
