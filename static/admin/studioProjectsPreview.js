@@ -1,4 +1,4 @@
-export default studioProjectsPreview = createClass({
+export default createClass({
     componentDidMount() {
         const { document, window } = this.props;
         const script = document.createElement("script");
