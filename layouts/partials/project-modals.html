@@ -10,16 +10,12 @@
 <div class="iconem-modal modal fade" id="portfolioModal{{ $project.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content col-sm-12 col-sm-offset">
       <div class="project-media-container">
-          {{ with $project.thumbnail }}
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ . }}" class="img-responsive dummy">
-          {{ end }}
-
           {{ "<!-- Image carousel -->" | safeHTML }}
           <div class="project-media" id="project-{{ $projectIndex }}-img-carousel">
               <div class="owl-carousel owl-theme preview-img-carousel">
                   {{ range $imgIndex, $img := $project.img }}
-                      <div>
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ $img.full }}" class="cover">
+                      <div>                          
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get $img.full).Fit "2560x1440 webp").RelPermalink }}" class="cover">
                           {{ if $img.caption }}
                             <div class="img-toolbar">
                                 <div class="img-caption">
@@ -58,7 +54,7 @@
                 data-parent='#project-{{$projectIndex}}-media'
                 aria-expanded="true"
                 onclick="goToFirstImage({{ $project }});">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/img_black.webp" 
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/icons/img_black.webp" 
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="{{ $.Site.Params.projects.modal.pictures }}" 
@@ -72,7 +68,7 @@
                     data-parent='#project-{{$projectIndex}}-media'
                     aria-expanded="false"
                     onclick="goToFirstVideo({{ $project }});">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/video_black.webp"
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/icons/video_black.webp"
                         data-toggle="tooltip"
                         data-placement="bottom"
                         title="{{ $.Site.Params.projects.modal.videos }}" 
@@ -87,7 +83,7 @@
                     data-parent='#project-{{$projectIndex}}-media'
                     aria-expanded="false"
                     onclick="goToFirstModel({{ $project }});">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/projects/icons/3ds_black.webp"
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/icons/3ds_black.webp"
                         data-toggle="tooltip"
                         data-placement="bottom"
                         title="{{ $.Site.Params.projects.modal.models }}"
@@ -126,7 +122,7 @@
               <hr />
               <div id="project-media-description-logos">
                 {{ range $logo := .logos }}
-                  <img src="{{ $logo }}" />
+                  <img data-src="{{ ((resources.Get $logo).Resize "x60 webp").RelPermalink }}" />
                 {{ end }}
               </div>
             {{ end }}

@@ -31,18 +31,11 @@
   
   var body = $('body');
   var backgrounds = new Array(
-    {{ range $projectIndex, $project := $projects }}
-    {{$projectImage := index ($project.img) 0}}
-      {{$projectImage.full}},
+    {{ $projects := resources.Match "img/projects/**" }}
+    {{ range $projects }}
+      {{ .RelPermalink }},
     {{ end }}
     );
-
-
-    // {{ if eq .Type "research" }}
-    //   const imageUrl = "img/home/research_background.webp";
-    // {{ else if eq .Type "studio" }}
-    //   const imageUrl = "img/home/studio_background.webp";
-    // {{ end }}
 
   const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
 
