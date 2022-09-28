@@ -1,7 +1,7 @@
 
 const { CMS, initCMS: init } = window;
 import { config } from "./config/index.js";
-import studioProjectsPreview from "./studioProjectsPreview.js";
+import studioProjectsPreview from "./config/collections/studioProjects/studioProjectsPreview.js";
 initCMS({ config });
 
 CMS.registerPreviewStyle("/css/vendors.min.css");
