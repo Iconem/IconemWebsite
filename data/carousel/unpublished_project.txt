@@ -1,7 +1,0 @@
-research.json
-[
-]
-
-studio.json
-[ 
-]

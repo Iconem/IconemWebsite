@@ -5,7 +5,6 @@ DefaultContentLanguage = "en"
 #baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
 baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
 #baseUrl = "http://localhost:1313/"
-ignoreFiles = ['/data/carousel/unpublished_project.txt']
 
 [languages]
 	[languages.en]
