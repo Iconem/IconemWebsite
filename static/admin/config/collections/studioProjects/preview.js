@@ -305,7 +305,7 @@ export default createClass({
                             data-parent='#project-${modalID}-media'
                             aria-expanded="true"
                             onclick="(function () { this.goToFirstImage({modalID: '${modalID}'}) })();">
-                            <img src="/img/projects/icons/img_black.webp" 
+                            <img src="/img/icons/img_black.webp" 
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="Pictures" 
@@ -321,7 +321,7 @@ export default createClass({
                             data-parent='#project-${modalID}-media'
                             aria-expanded="false"
                             onclick="(function () { this.goToFirstVideo({modalID: '${modalID}', img: {length: ${img.length}}}) })();">
-                            <img src="/img/projects/icons/video_black.webp"
+                            <img src="/img/icons/video_black.webp"
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="Videos" 
@@ -340,7 +340,7 @@ export default createClass({
                             data-parent='#project-${modalID}-media'
                             aria-expanded="false"
                             onclick="(function () { this.goToFirstModel({modalID: '${modalID}', img: {length: ${img.length}}, video: {length: ${video.length}}}) })();">
-                            <img src="/img/projects/icons/3ds_black.webp"
+                            <img src="/img/icons/3ds_black.webp"
                                 data-toggle="tooltip"
                                 data-placement="bottom"
                                 title="{{ Models }}"
