@@ -1,14 +1,11 @@
 {
     "id": "galdric",
     "name": "Galdric Robert",
-    "enabled": true,
-    "order": 10,
     "job": {
       "en": "Head of Production",
       "fr": "Directeur de la Production"
     },
-    "img": "img/about/team_members/galdric_bw.webp",
-    "img_color": "img/about/team_members/galdric_color.webp",
+    "img": "img/team/galdric_bw.webp",
     "description": { 
       "en": "",
       "fr": ""  

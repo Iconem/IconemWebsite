@@ -1,14 +1,11 @@
 {
   "id": "issanou",
   "name": "Issanou Kamardine Ousseni",
-  "order": 8,
-  "enabled": true,
   "job": {
     "en": "Graphic Designer",
     "fr": "Designer Graphique"
   },
-  "img": "img/about/team_members/issanou.webp",
-  "img_color": "img/about/team_members/issanou_color.webp",
+  "img": "img/team/issanou.webp",
   "description": { 
     "en": "",
     "fr": ""  

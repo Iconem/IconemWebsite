@@ -1,14 +1,11 @@
 {
   "id": "caroline",
   "name": "Caroline Ramond",
-  "order": 9,
-  "enabled": false,
   "job": {
     "en": "Software Engineer",
     "fr": "Ingénieur Développement Logiciel"
   },
-  "img": "img/about/team_members/caroline.webp",
-  "img_color": "img/about/team_members/caroline_color.webp",
+  "img": "img/team/caroline.webp",
   "description": { 
     "en": "",
     "fr": ""  

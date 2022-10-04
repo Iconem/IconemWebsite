@@ -96,11 +96,10 @@ Idem clients, but in folder `./data/partners`.
 - **name**\*
 - **job**\* (in French & in English)
 - **img**\* : The location of the photo (black & white)
-- **img_color**\* : The location of the photo (color)
 - **description**\* (in French & in English)
 
 - **/!\ All fields marked with \* are mandatory.**
-- **/!\ Photos should be located in the folder `./static/img/about/team_members`**
+- **/!\ Photos should be located in the folder `./assets/img/team`**
 - **/!\ The photos should be 300x300px**
 
 ### 1.6. Modify texts

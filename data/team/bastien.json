@@ -1,14 +1,11 @@
 {
   "id": "bastien",
   "name": "Bastien Varoutsikos",
-  "order": 12,
-  "enabled": true,
   "job": {
     "en": "Director of development",
     "fr": "Directeur du développement"
   },
-  "img": "img/about/team_members/bastien_bw.webp",
-  "img_color": "img/about/team_members/bastien_color.webp",
+  "img": "img/team/bastien_bw.webp",
   "description": { 
     "en": "",
     "fr": ""  

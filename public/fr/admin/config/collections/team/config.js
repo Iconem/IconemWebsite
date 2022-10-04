@@ -1,0 +1,70 @@
+export default {
+    "name": "team",
+    "label": "Team",
+    "folder": "data/team",
+    "format": "json",
+    "extension": "json",
+    "create": true,
+    "slug": "{{slug}}",
+    "editor": {
+        "preview": true
+    },
+    "identifier_field": "id",
+    "fields": [
+        {
+            "label": "id",
+            "name": "id",
+            "widget": "string"
+        },
+        {
+            "label": "Name",
+            "name": "name",
+            "widget": "string"
+        },
+        {
+            "label": "Job",
+            "name": "job",
+            "required": false,
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+            "label": "Photo",
+            "name": "img",
+            "widget": "image",
+                "media_folder": "/assets/img/team",
+                "public_folder": "/img/team"
+        },
+        {
+            "label": "Description",
+            "name": "description",
+            "required": false,
+            "widget": "object",
+            "summary": "{{fields.en}}: {{fields.fr}}",
+            "fields": [
+                {
+                    "label": "En",
+                    "name": "en",
+                    "widget": "string"
+                },
+                {
+                    "label": "Fr",
+                    "name": "fr",
+                    "widget": "string"
+                }
+            ]
+        }
+    ]
+}

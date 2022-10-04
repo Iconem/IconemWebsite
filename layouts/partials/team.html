@@ -22,22 +22,20 @@
             {{ end }}
             </div>
             <div class="panel-group team" id="team-accordion" role="tablist" aria-multiselectable="false">
-              {{ range sort .Site.Data.team "order" }}
-                  {{ if eq .enabled true }}
-                      <div class="panel team-member-panel">
-                          {{ if eq .id "yves" }}
-                              <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
-                          {{ else }}
-                              <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
-                          {{ end }}
-                              <h3 class="text-uppercase text-bold">{{ .name }}</h3>
-                              <br>
-                              <h4 class="text-uppercase"> {{ index .job $lang | markdownify }}</h4>
-                              <br>
-                              <p class="text-justify">{{ index .description $lang | markdownify}}</p>
-                              </div>
-                      </div>
-                  {{ end }}
+              {{ range sort .Site.Data.team "name" }}
+                    <div class="panel team-member-panel">
+                        {{ if eq .id "yves" }}
+                            <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
+                        {{ else }}
+                            <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
+                        {{ end }}
+                            <h3 class="text-uppercase text-bold">{{ .name }}</h3>
+                            <br>
+                            <h4 class="text-uppercase"> {{ index .job $lang | markdownify }}</h4>
+                            <br>
+                            <p class="text-justify">{{ index .description $lang | markdownify}}</p>
+                            </div>
+                    </div>
               {{ end }}
             </div>
           </div>
@@ -45,22 +43,16 @@
       <div id="about-team-right" class="col-lg-6">
         <div id="team-img-container">
           {{ range sort .Site.Data.team "order" }}
-              {{ if eq .enabled true }}
-                  {{ if eq .id "yves" }}
-                      <div class="team-img in" id="team-img-{{ .id }}">
-                  {{ else }}
-                      <div class="team-img" id="team-img-{{ .id }}">
-                  {{ end }}
-                      <a role="button" 
-                          data-toggle="collapse"
-                          href="#team-member-{{ .id }}"
-                          data-parent='#team-accordion'
-                          aria-expanded="false"
-                          >
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .img }}" class="img-responsive" />
-                      </a>
-                  </div>
-              {{ end }}
+            <div class="team-img" id="team-img-{{ .id }}">
+            <a role="button" 
+                data-toggle="collapse"
+                href="#team-member-{{ .id }}"
+                data-parent='#team-accordion'
+                aria-expanded="false"
+                >
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .img).Fit "228x228 webp").RelPermalink }}" class="img-responsive" />
+            </a>
+            </div>
           {{ end }}
         </div>
       </div>

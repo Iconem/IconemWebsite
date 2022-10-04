@@ -1,6 +1,7 @@
 
 import researchProjects from "./collections/projects/researchProjects.config.js";
 import studioProjects from "./collections/projects/studioProjects.config.js";
+import team from "./collections/team/config.js";
 
 const config = {
   backend: {
@@ -15,6 +16,7 @@ const config = {
   collections: [
     researchProjects,
     studioProjects,
+    team
   ],
 };
 

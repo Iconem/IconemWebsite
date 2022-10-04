@@ -39,9 +39,7 @@
       {{ $baseUrl := .Site.Params.baseUrl}}
       {{ range sort .Site.Data.about "order"}}
       <div class="about-item">
-          {{ if .modalID }}
-          <a href="#aboutModal{{ .modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#aboutModal{{ .modalID }}'}); return false; })();return false;" data-toggle="modal">
-          {{ else if .internal }}
+          {{ if .internal }}
           <a href="{{$baseUrl}}{{ .link }}">
           {{ else }}
           <a href="{{ .link }}" target="_blank">
