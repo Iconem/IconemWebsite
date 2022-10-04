@@ -33,7 +33,7 @@ export default createClass({
                     <div class="panel-group team" id="team-accordion" role="tablist" aria-multiselectable="false">
                         <div class="panel team-member-panel">
                                 <div id="team-member-${entry.id}" class="panel-collapse collapse in text-justify" role="tabpanel">
-                                <h3 class="text-uppercase text-bold">${entry.name}}</h3>
+                                <h3 class="text-uppercase text-bold">${entry.name}</h3>
                                 <br>
                                 <h4 class="text-uppercase">${entry.job.en}</h4>
                                 <br>

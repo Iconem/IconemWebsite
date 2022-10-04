@@ -11,17 +11,17 @@
                     <div class="item">
                         {{ if eq $type "studio" }}
                             <a href="{{ .link }}" target="_blank">
-                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .icon_studio}}" 
-                                    onmouseenter="this.src={{ .icon_active}}" 
-                                    onmouseleave="this.src={{ .icon_studio}}"
+                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}" 
+                                    onmouseenter="this.src={{ ((resources.Get .icon_active).Fit "100x50 webp").RelPermalink }}"
+                                    onmouseleave="this.src={{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}"
                                 />
                             </a>
                         {{ end }}
                         {{ if eq $type "research" }}
                             <a href="{{ .link }}" target="_blank">
-                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .icon_research}}" 
-                                    onmouseenter="this.src={{ .icon_active}}" 
-                                    onmouseleave="this.src={{ .icon_research}}"
+                                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}" 
+                                onmouseenter="this.src={{ ((resources.Get .icon_active).Fit "100x50 webp").RelPermalink }}"
+                                onmouseleave="this.src={{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}"
                                 />
                             </a>
                         {{ end }}
@@ -41,9 +41,9 @@
                         {{ if eq $type "studio" }}
                         <a href="{{ .link }}" target="_blank">
                             <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
-                                data-src="{{ .icon_studio}}" 
-                                onmouseenter="this.src={{ .icon_active}}" 
-                                onmouseleave="this.src={{ .icon_studio}}"
+                                data-src="{{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}"
+                                onmouseenter="this.src={{ ((resources.Get .icon_active).Fit "100x50 webp").RelPermalink }}"
+                                onmouseleave="this.src={{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}"
                             />
                         </a>
                         {{ end }}
@@ -51,8 +51,8 @@
                         <a href="{{ .link }}" target="_blank">
                             <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
                                 data-src="{{ .icon_research}}" 
-                                onmouseenter="this.src={{ .icon_active}}" 
-                                onmouseleave="this.src={{ .icon_research}}"
+                                onmouseenter="this.src={{ ((resources.Get .icon_active).Fit "100x50 webp").RelPermalink }}"
+                                onmouseleave="this.src={{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}"
                             />
                         </a>
                         {{ end }}

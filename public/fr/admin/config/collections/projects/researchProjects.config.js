@@ -9,7 +9,6 @@ export default {
     "editor": {
         "preview": true
     },
-    "identifier_field": "modalID",
     "fields": [
         {
             "label": "modalID",
