@@ -113,9 +113,10 @@ export default createClass({
         if (typeof this.props.window.$ != "undefined") {
             const { window } = this.props;
             var entry = this.props.entry.toJS();
+            
             const video = this.props.widgetsFor('video').map((el, index) => {
-                const videoFullWidget = el.getIn(['widgets', 'preview']);
-                return this.props.getAsset(videoFullWidget.props.children.props.value, videoFullWidget.props.children.props.field);
+                const videoFullWidget = el && el.getIn(['widgets', 'preview']);
+                return this.props.getAsset(videoFullWidget && videoFullWidget.props.children.props.value, videoFullWidget && videoFullWidget.props.children.props.field);
             }).toJS();
 
             var projects = { [entry.slug]: entry.data };
@@ -164,13 +165,13 @@ export default createClass({
                         "changed.owl.carousel",
                         (event) => {
                             const pageIndex = event.page.index;
-                            const nbPageImg = project.img
+                            const nbPageImg = project && project.img
                                 ? project.img.length
                                 : 0;
-                            const nbPageVideo = project.video
+                            const nbPageVideo = project && project.video 
                                 ? project.video.length
                                 : 0;
-                            const nbPageModels = project.models
+                            const nbPageModels = project && project.models
                                 ? project.models.length
                                 : 0;
                             const pageStartImg = 0;
@@ -236,9 +237,10 @@ export default createClass({
         const entry = this.props.entry.toJS().data;
         const modalID = entry.modalID;
         let img = this.props.widgetsFor('img').map((el, index) => {
-            const imgSrcWidget = el.getIn(['widgets', 'src']);
-            return this.props.getAsset(imgSrcWidget.props.children.props.value, imgSrcWidget.props.children.props.field);
-        }).toJS();
+            const imgSrcWidget = el && el.getIn(['widgets', 'src']);
+            return this.props.getAsset(imgSrcWidget && imgSrcWidget.props.children.props.value, imgSrcWidget && imgSrcWidget.props.children.props.field);
+        });
+
         const video = entry.video || [];
         const models = entry.models || [];
         const articleTitle = entry.articleTitle.en;
@@ -249,7 +251,7 @@ export default createClass({
 
         const actorsWidgets = this.props.widgetsFor('actors');
         const logosWidgets = actorsWidgets.getIn(['widgets', 'logos']);
-        const logosData = actorsWidgets.getIn(['data', 'logos']);
+        const logosData = actorsWidgets.getIn(['data', 'logos']) || [];
         const logos = logosData.map(el => {
             return this.props.getAsset(el, logosWidgets.props.field);
         });

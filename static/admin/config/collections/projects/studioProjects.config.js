@@ -14,10 +14,10 @@ export default {
         {
             "label": "modalID",
             "name": "modalID",
-            "widget": "string"
+            "widget": "string",
         },
         {
-            "label": "thumbnailTitle",
+            "label": "Thumbnail title",
             "name": "thumbnailTitle",
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
@@ -25,17 +25,19 @@ export default {
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Thumbnail title"
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Titre de la miniature",
                 }
             ]
         },
         {
-            "label": "thumbnailLocation",
+            "label": "Thumbnail location",
             "name": "thumbnailLocation",
             "required": false,
             "widget": "object",
@@ -44,17 +46,19 @@ export default {
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Thumbnail location",
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Lieu de la miniature",
                 }
             ]
         },
         {
-            "label": "thumbnailDate",
+            "label": "Thumbnail date",
             "name": "thumbnailDate",
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
@@ -62,24 +66,32 @@ export default {
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "datetime",
+                    "date_format": "MM.YYYY",
+                    "time_format": "",
+                    "default": ""
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "datetime",
+                    "date_format": "MM.YYYY",
+                    "time_format": "",
+                    "default": ""
                 }
             ]
         },
         {
-            "label": "thumbnail",
+            "label": "Thumbnail",
             "name": "thumbnail",
             "widget": "image",
                 "media_folder": "/assets/img/projects/{{fields.modalID}}",
                 "public_folder": "/img/projects/{{fields.modalID}}"
             },
         {
-            "label": "articleTitle",
+            "label": "Article title",
             "name": "articleTitle",
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
@@ -87,55 +99,67 @@ export default {
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Article title"
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Titre de l'article"
                 }
             ]
         },
         {
-            "label": "articleLocation",
+            "label": "Article location",
             "name": "articleLocation",
-            "required": false,
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
             "fields": [
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "string",
+                    "default": "Article location"
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "string",
+                    "default": "Lieu de l'article"
                 }
             ]
         },
         {
-            "label": "articleDate",
+            "label": "Article date",
             "name": "articleDate",
-            "required": false,
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
             "fields": [
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "datetime",
+                    "date_format": "MM.YYYY",
+                    "time_format": "",
+                    "default": ""
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "datetime",
+                    "date_format": "MM.YYYY",
+                    "time_format": "",
+                    "default": ""
                 }
             ]
         },
         {
-            "label": "text",
+            "label": "Text",
             "name": "text",
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
@@ -143,17 +167,19 @@ export default {
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "Text",
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "widget": "string",
+                    "default": "test",
                 }
             ]
         },
         {
-            "label": "actors",
+            "label": "Actors",
             "name": "actors",
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
@@ -161,16 +187,21 @@ export default {
                 {
                     "label": "En",
                     "name": "en",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "string",
+                    "default": "Actor names",
                 },
                 {
                     "label": "Fr",
                     "name": "fr",
-                    "widget": "string"
+                    "required": false,
+                    "widget": "string",
+                    "default": "Nom des acteurs",
                 },
                 {
                     "label": "logos",
                     "name": "logos",
+                    "required": false,
                     "widget": "image",
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
