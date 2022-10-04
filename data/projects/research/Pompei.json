@@ -26,7 +26,7 @@
         "fr": ""
     },
     "text": {
-        "en": "The city of Pompeii was buried during the eruption of Vesuvius in AD 79 and rediscovered in the 17th century. It is a unique and valuable representation of urban architecture from the Roman period. With more than three million visitors each year, Pompeii is one of the most popular destinations in Italy. But this enthusiasm has a price. The passage of millions of visitors erodes the stone pavement of the streets and monuments, and this mass tourism coupled with natural erosion threatens the integrity of the site. In order to preserve its heritage and raise public awareness of the problems encountered, Iconem, in partnership with ENS, Microsoft Research and INRIA, visited the site in 2014 to establish a complete 3D survey of the site of Pompeii. The surveys undertaken in collaboration with our teams were used to create the first full 3d model of the Pompeii site. As part of the “Virtual Pompeii Project” Iconem also obtained permission to fly over the site at low altitude, allowing it to obtain very precise data for the development of valuable documentation.",
+        "en": "The city of Pompeii was buried during the eruption of Vesuvius in AD 79 and rediscovered in the 17th century. It is a unique and valuable representation of urban architecture from the Roman period. With more than three million visitors each year, Pompeii is one of the most popular destinations in Italy. But this enthusiasm has a price. The passage of millions of visitors erodes the stone pavement of the streets and monuments, and this mass tourism coupled with natural erosion threatens the integrity of the site. In order to preserve its heritage and raise public awareness of the problems encountered, Iconem, in partnership with ENS, Microsoft Research and INRIA, visited the site in 2014 to establish a complete 3D survey of the site of Pompeii. The surveys undertaken in collaboration with our teams were used to create the first src 3d model of the Pompeii site. As part of the “Virtual Pompeii Project” Iconem also obtained permission to fly over the site at low altitude, allowing it to obtain very precise data for the development of valuable documentation.",
         "fr": "Ensevelie lors de l’éruption du vésuve en 79 après notre ère et redécouverte au 17ème siècle, la ville de pompéi est une représentation unique et précieuse de l’architecture urbaine de la période romaine. avec plus de trois millions de visiteurs chaque année, pompéi est l’une des destinations les plus populaires d’Italie. mais cet engouement a un prix. Le passage de millions de visiteurs érode le pavement en pierre des rues et monuments, et ce tourisme de masse couplé à l’érosion naturelle menace l’intégrité du site. Afin d’en préserver l’héritage et de sensibiliser le public aux problématiques rencontrées, Iconem en partenariat avec l’ENS, microsoft Research et l’INRIA s’est rendue sur place en 2014 pour établir un relevé 3d complet du site de Pompéi. Les relevés entrepris en collaboration avec nos équipes ont servi à créer le premier modèle 3d intégral du site de Pompéi. Dans le cadre du projet “Virtual Pompéi Project” Iconem à également obtenu l’autorisation de survoler le site à basse altitude, lui permettant d’obtenir des données très précises pour l’élaboration d’une documentation précieuse."
     },
     "actors": {
@@ -36,8 +36,7 @@
     },
     "img": [
         {
-            "preview": "img/projects/pompei/pompei_01.webp",
-            "full": "img/projects/pompei/pompei_01.webp",
+            "src": "img/projects/pompei/pompei_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

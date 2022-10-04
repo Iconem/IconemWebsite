@@ -42,80 +42,70 @@
     },
     "img": [
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_01.webp",
-            "full": "img/projects/citesmillenaires/citesmillenaires_01.webp",
+            "src": "img/projects/citesmillenaires/citesmillenaires_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_10.jpg",
-            "full": "img/projects/citesmillenaires/citesmillenaires_10.jpg",
+            "src": "img/projects/citesmillenaires/citesmillenaires_10.jpg",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_02.webp",
-            "full": "img/projects/citesmillenaires/citesmillenaires_02.webp",
+            "src": "img/projects/citesmillenaires/citesmillenaires_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_03.webp",
-            "full": "img/projects/citesmillenaires/citesmillenaires_03.webp",
+            "src": "img/projects/citesmillenaires/citesmillenaires_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_04.webp",
-            "full": "img/projects/citesmillenaires/citesmillenaires_04.webp",
+            "src": "img/projects/citesmillenaires/citesmillenaires_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_05.png",
-            "full": "img/projects/citesmillenaires/citesmillenaires_05.png",
+            "src": "img/projects/citesmillenaires/citesmillenaires_05.png",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_06.png",
-            "full": "img/projects/citesmillenaires/citesmillenaires_06.png",
+            "src": "img/projects/citesmillenaires/citesmillenaires_06.png",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_07.jpg",
-            "full": "img/projects/citesmillenaires/citesmillenaires_07.jpg",
+            "src": "img/projects/citesmillenaires/citesmillenaires_07.jpg",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_08.png",
-            "full": "img/projects/citesmillenaires/citesmillenaires_08.png",
+            "src": "img/projects/citesmillenaires/citesmillenaires_08.png",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenaires/citesmillenaires_09.png",
-            "full": "img/projects/citesmillenaires/citesmillenaires_09.png",
+            "src": "img/projects/citesmillenaires/citesmillenaires_09.png",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

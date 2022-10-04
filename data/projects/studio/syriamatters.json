@@ -39,32 +39,28 @@
     },
     "img": [
         {
-            "preview": "img/projects/syriamatters/syriamatters_01.webp",
-            "full": "img/projects/syriamatters/syriamatters_01.webp",
+            "src": "img/projects/syriamatters/syriamatters_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/syriamatters/syriamatters_02.webp",
-            "full": "img/projects/syriamatters/syriamatters_02.webp",
+            "src": "img/projects/syriamatters/syriamatters_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/syriamatters/syriamatters_03.webp",
-            "full": "img/projects/syriamatters/syriamatters_03.webp",
+            "src": "img/projects/syriamatters/syriamatters_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/syriamatters/syriamatters_04.webp",
-            "full": "img/projects/syriamatters/syriamatters_04.webp",
+            "src": "img/projects/syriamatters/syriamatters_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

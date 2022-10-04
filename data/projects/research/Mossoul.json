@@ -36,8 +36,7 @@
     },
     "img": [
         {
-            "preview": "img/projects/mossoul/mossoul_01.webp",
-            "full": "img/projects/mossoul/mossoul_01.webp",
+            "src": "img/projects/mossoul/mossoul_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

@@ -40,32 +40,28 @@
     },
     "img": [
         {
-            "preview": "img/projects/shurbanipal/image_01.webp",
-            "full": "img/projects/shurbanipal/image_01.webp",
+            "src": "img/projects/shurbanipal/image_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/shurbanipal/image_02.webp",
-            "full": "img/projects/shurbanipal/image_02.webp",
+            "src": "img/projects/shurbanipal/image_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/shurbanipal/image_03.webp",
-            "full": "img/projects/shurbanipal/image_03.webp",
+            "src": "img/projects/shurbanipal/image_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/shurbanipal/image_04.webp",
-            "full": "img/projects/shurbanipal/image_04.webp",
+            "src": "img/projects/shurbanipal/image_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

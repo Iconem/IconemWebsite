@@ -1,7 +1,7 @@
 export default {
-    "name": "studioProjects",
-    "label": "Studio projects",
-    "folder": "data/projects/studio",
+    "name": "researchProjects",
+    "label": "Research projects",
+    "folder": "data/projects/research",
     "format": "json",
     "extension": "json",
     "create": true,
@@ -169,9 +169,7 @@ export default {
                 {
                     "label": "logos",
                     "name": "logos",
-                    "widget": "image",
-                    "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                    "public_folder": "/img/projects/{{fields.modalID}}"
+                    "widget": "list"
                 }
             ]
         },
@@ -179,7 +177,7 @@ export default {
             "label": "img",
             "name": "img",
             "widget": "list",
-            "summary": "{{fields.full}}",
+            "summary": "{{fields.src}}",
             "fields": [
                 {
                     "label": "preview",
@@ -187,8 +185,8 @@ export default {
                     "widget": "string"
                 },
                 {
-                    "label": "full",
-                    "name": "full",
+                    "label": "src",
+                    "name": "src",
                     "widget": "image",
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"

@@ -15,7 +15,7 @@
               <div class="owl-carousel owl-theme preview-img-carousel">
                   {{ range $imgIndex, $img := $project.img }}
                       <div>                          
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get $img.full).Fit "2560x1440 webp").RelPermalink }}" class="cover">
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get $img.src).Fit "2560x1440 webp").RelPermalink }}" class="cover">
                           {{ if $img.caption }}
                             <div class="img-toolbar">
                                 <div class="img-caption">

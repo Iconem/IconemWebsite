@@ -36,24 +36,21 @@
     },
     "img": [
         {
-            "preview": "img/projects/flandrin/flandrin_01.webp",
-            "full": "img/projects/flandrin/flandrin_01.webp",
+            "src": "img/projects/flandrin/flandrin_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/flandrin/2020-04_exh_mba_da_09.webp",
-            "full": "img/projects/flandrin/2020-04_exh_mba_da_09.webp",
+            "src": "img/projects/flandrin/2020-04_exh_mba_da_09.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/flandrin/2020-04_exh_mba_da_10.webp",
-            "full": "img/projects/flandrin/2020-04_exh_mba_da_10.webp",
+            "src": "img/projects/flandrin/2020-04_exh_mba_da_10.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

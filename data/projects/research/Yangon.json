@@ -36,72 +36,63 @@
     },
     "img": [
         {
-            "preview": "img/projects/yangon/yangon_01.webp",
-            "full": "img/projects/yangon/yangon_01.webp",
+            "src": "img/projects/yangon/yangon_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_02.webp",
-            "full": "img/projects/yangon/yangon_02.webp",
+            "src": "img/projects/yangon/yangon_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_03.webp",
-            "full": "img/projects/yangon/yangon_03.webp",
+            "src": "img/projects/yangon/yangon_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_04.webp",
-            "full": "img/projects/yangon/yangon_04.webp",
+            "src": "img/projects/yangon/yangon_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_05.webp",
-            "full": "img/projects/yangon/yangon_05.webp",
+            "src": "img/projects/yangon/yangon_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_06.webp",
-            "full": "img/projects/yangon/yangon_06.webp",
+            "src": "img/projects/yangon/yangon_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_07.webp",
-            "full": "img/projects/yangon/yangon_07.webp",
+            "src": "img/projects/yangon/yangon_07.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_08.webp",
-            "full": "img/projects/yangon/yangon_08.webp",
+            "src": "img/projects/yangon/yangon_08.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/yangon/yangon_09.webp",
-            "full": "img/projects/yangon/yangon_09.webp",
+            "src": "img/projects/yangon/yangon_09.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

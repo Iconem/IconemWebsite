@@ -42,32 +42,28 @@
     },
     "img": [
         {
-            "preview": "img/projects/lecracdeschevaliers/lecracdeschevaliers_01.webp",
-            "full": "img/projects/lecracdeschevaliers/lecracdeschevaliers_01.webp",
+            "src": "img/projects/lecracdeschevaliers/lecracdeschevaliers_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/lecracdeschevaliers/lecracdeschevaliers_02.webp",
-            "full": "img/projects/lecracdeschevaliers/lecracdeschevaliers_02.webp",
+            "src": "img/projects/lecracdeschevaliers/lecracdeschevaliers_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/lecracdeschevaliers/lecracdeschevaliers_03.webp",
-            "full": "img/projects/lecracdeschevaliers/lecracdeschevaliers_03.webp",
+            "src": "img/projects/lecracdeschevaliers/lecracdeschevaliers_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/lecracdeschevaliers/lecracdeschevaliers_04.webp",
-            "full": "img/projects/lecracdeschevaliers/lecracdeschevaliers_04.webp",
+            "src": "img/projects/lecracdeschevaliers/lecracdeschevaliers_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

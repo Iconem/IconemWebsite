@@ -40,32 +40,28 @@
     },
     "img": [
         {
-            "preview": "img/projects/ninive/image_01.webp",
-            "full": "img/projects/ninive/image_01.webp",
+            "src": "img/projects/ninive/image_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/ninive/image_02.webp",
-            "full": "img/projects/ninive/image_02.webp",
+            "src": "img/projects/ninive/image_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/ninive/image_03.webp",
-            "full": "img/projects/ninive/image_03.webp",
+            "src": "img/projects/ninive/image_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/ninive/image_04.webp",
-            "full": "img/projects/ninive/image_04.webp",
+            "src": "img/projects/ninive/image_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

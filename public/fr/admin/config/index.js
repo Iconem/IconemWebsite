@@ -1,6 +1,6 @@
 
-import researchProjects from "./collections/researchProjects/config.js";
-import studioProjects from "./collections/studioProjects/config.js";
+import researchProjects from "./collections/projects/researchProjects.config.js";
+import studioProjects from "./collections/projects/studioProjects.config.js";
 
 const config = {
   backend: {

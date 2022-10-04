@@ -36,112 +36,98 @@
     },
     "img": [
         {
-            "preview": "img/projects/angkor/angkor_01.webp",
-            "full": "img/projects/angkor/angkor_01.webp",
+            "src": "img/projects/angkor/angkor_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_02.webp",
-            "full": "img/projects/angkor/angkor_02.webp",
+            "src": "img/projects/angkor/angkor_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_03.webp",
-            "full": "img/projects/angkor/angkor_03.webp",
+            "src": "img/projects/angkor/angkor_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_04.webp",
-            "full": "img/projects/angkor/angkor_04.webp",
+            "src": "img/projects/angkor/angkor_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_05.webp",
-            "full": "img/projects/angkor/angkor_05.webp",
+            "src": "img/projects/angkor/angkor_05.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_06.webp",
-            "full": "img/projects/angkor/angkor_06.webp",
+            "src": "img/projects/angkor/angkor_06.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_07.webp",
-            "full": "img/projects/angkor/angkor_07.webp",
+            "src": "img/projects/angkor/angkor_07.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_08.webp",
-            "full": "img/projects/angkor/angkor_08.webp",
+            "src": "img/projects/angkor/angkor_08.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_09.webp",
-            "full": "img/projects/angkor/angkor_09.webp",
+            "src": "img/projects/angkor/angkor_09.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_10.webp",
-            "full": "img/projects/angkor/angkor_10.webp",
+            "src": "img/projects/angkor/angkor_10.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_11.webp",
-            "full": "img/projects/angkor/angkor_11.webp",
+            "src": "img/projects/angkor/angkor_11.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_12.webp",
-            "full": "img/projects/angkor/angkor_12.webp",
+            "src": "img/projects/angkor/angkor_12.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_13.webp",
-            "full": "img/projects/angkor/angkor_13.webp",
+            "src": "img/projects/angkor/angkor_13.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/angkor/angkor_14.webp",
-            "full": "img/projects/angkor/angkor_14.webp",
+            "src": "img/projects/angkor/angkor_14.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

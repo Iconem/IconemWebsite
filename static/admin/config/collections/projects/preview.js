@@ -236,8 +236,8 @@ export default createClass({
         const entry = this.props.entry.toJS().data;
         const modalID = entry.modalID;
         let img = this.props.widgetsFor('img').map((el, index) => {
-            const imgFullWidget = el.getIn(['widgets', 'full']);
-            return this.props.getAsset(imgFullWidget.props.children.props.value, imgFullWidget.props.children.props.field);
+            const imgSrcWidget = el.getIn(['widgets', 'src']);
+            return this.props.getAsset(imgSrcWidget.props.children.props.value, imgSrcWidget.props.children.props.field);
         }).toJS();
         const video = entry.video || [];
         const models = entry.models || [];

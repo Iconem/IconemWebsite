@@ -36,8 +36,7 @@
     },
     "img": [
         {
-            "preview": "img/projects/vauxlevicomte/vauxlevicomte_01.webp",
-            "full": "img/projects/vauxlevicomte/vauxlevicomte_01.webp",
+            "src": "img/projects/vauxlevicomte/vauxlevicomte_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

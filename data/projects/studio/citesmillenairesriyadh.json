@@ -43,32 +43,28 @@
     },
     "img": [
         {
-            "preview": "img/projects/citesmillenairesryad/image_01.webp",
-            "full": "img/projects/citesmillenairesryad/image_01.webp",
+            "src": "img/projects/citesmillenairesryad/image_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenairesryad/image_02.webp",
-            "full": "img/projects/citesmillenairesryad/image_02.webp",
+            "src": "img/projects/citesmillenairesryad/image_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenairesryad/image_03.webp",
-            "full": "img/projects/citesmillenairesryad/image_03.webp",
+            "src": "img/projects/citesmillenairesryad/image_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/citesmillenairesryad/image_04.webp",
-            "full": "img/projects/citesmillenairesryad/image_04.webp",
+            "src": "img/projects/citesmillenairesryad/image_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"

@@ -40,32 +40,28 @@
     },
     "img": [
         {
-            "preview": "img/projects/artconnexion/image_01.webp",
-            "full": "img/projects/artconnexion/image_01.webp",
+            "src": "img/projects/artconnexion/image_01.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/artconnexion/image_02.webp",
-            "full": "img/projects/artconnexion/image_02.webp",
+            "src": "img/projects/artconnexion/image_02.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/artconnexion/image_03.webp",
-            "full": "img/projects/artconnexion/image_03.webp",
+            "src": "img/projects/artconnexion/image_03.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
             }
         },
         {
-            "preview": "img/projects/artconnexion/image_04.webp",
-            "full": "img/projects/artconnexion/image_04.webp",
+            "src": "img/projects/artconnexion/image_04.webp",
             "caption": {
                 "en": "©Iconem",
                 "fr": "©Iconem"
