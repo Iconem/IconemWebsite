@@ -47,8 +47,8 @@ baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			#link = "https://iconem.github.io/IconemWebsite/fr"
-			link = "/fr"
+			link = "https://regal-rugelach-154b48.netlify.app"
+			#link = "/fr"
 
 		[languages.fr.navigation.links]
 			projects = "Projets"
@@ -63,8 +63,8 @@ baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
-			#link = "https://iconem.github.io/IconemWebsite/en"
-			link = "/en"
+			link = "https://radiant-zabaione-e92fa0.netlify.app/"
+			#link = "/en"
 
 	# Home section
 	[params.home]
