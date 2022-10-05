@@ -13,7 +13,8 @@ export default {
         {
             "label": "id",
             "name": "id",
-            "widget": "string"
+            "widget": "string",
+            "pattern": ['^[a-z0-9_\-]+$', "Must be lowercase, without spaces or special characters"]
         },
         {
             "label": "Name",
