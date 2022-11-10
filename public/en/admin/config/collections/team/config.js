@@ -1,10 +1,9 @@
 export default {
     "name": "team",
     "label": "Team",
-    "folder": "data/team",
+    "file": "data/team.json",
     "format": "json",
-    "extension": "json",
-    "create": true,
+    "create": false,
     "slug": "{{slug}}",
     "editor": {
         "preview": true
