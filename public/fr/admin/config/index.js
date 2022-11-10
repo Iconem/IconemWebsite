@@ -11,6 +11,7 @@ const config = {
     branch: "new",
   },
   load_config_file: false,
+  local_backend: true,
   site_url: 'https://radiant-zabaione-e92fa0.netlify.app/',
   publish_mode: "editorial_workflow",
   media_folder: "/static",

@@ -354,7 +354,7 @@ export default createClass({
                     <div class="modal-fixed">
                         <h3 class="text-uppercase">${articleTitle}</h3>
                         
-                            <div class="text-uppercase">${articleLocation}}</div>
+                            <div class="text-uppercase">${articleLocation}</div>
                         
                         
                             <div class="">${articleDate}</div>

@@ -1,0 +1,132 @@
+[
+    {
+        "id": "bastien",
+        "name": "Bastien Varoutsikos",
+        "job": {
+            "en": "Director of development",
+            "fr": "Directeur du développement"
+        },
+        "img": "img/team/bastien_bw.webp",
+        "description": {
+            "en": "",
+            "fr": ""
+        }
+    },
+    {
+        "id": "caroline",
+        "name": "Caroline Ramond",
+        "job": {
+            "en": "Software Engineer",
+            "fr": "Ingénieur Développement Logiciel"
+        },
+        "img": "img/team/caroline.webp",
+        "description": {
+            "en": "",
+            "fr": ""
+        }
+    },
+    {
+        "id": "etienne",
+        "name": "étienne Tellier",
+        "job": {
+          "en": "CFO",
+          "fr": "Directeur Financier"
+        },
+        "img": "img/team/etienne_bw.webp",
+        "description": { 
+          "en": "",
+          "fr": "Diplômé de l’école de commerce HEC, Etienne Tellier travaille depuis treize ans dans les secteurs de l’édition, des médias et de la production de contenus. Après avoir été responsable financier au sein du groupe Flammarion, il a été journaliste et « Head of Content » auprès de plusieurs groupes de presse, avant de rejoindre Iconem en 2015. Etienne y occupe les fonctions de directeur financier et directeur de la production."  
+        }
+      },
+      {
+        "id": "galdric",
+        "name": "Galdric Robert",
+        "job": {
+          "en": "Head of Production",
+          "fr": "Directeur de la Production"
+        },
+        "img": "img/team/galdric_bw.webp",
+        "description": { 
+          "en": "",
+          "fr": ""  
+        }
+      },
+      {
+        "id": "ieva",
+        "name": "Ieva Bogušaitė",
+        "job": {
+          "en": "Architect",
+          "fr": "Architecte"
+        },
+        "img": "img/team/ieva_bw.webp",
+        "description": { 
+          "en": "Ieva is an architect graduated from the University KU Leuven in Belgium with a masters in Resilient and Sustainable Strategies in architecture. At Iconem she is working on scenography for museum exhibitions.",
+          "fr": "Ieva est une architecte diplômée de l'Université KU Leuven en Belgique avec un master en stratégies résilientes et durables en architecture. Chez Iconem, elle travaille sur la scénographie d'expositions muséales."  
+        }
+      },
+      {
+        "id": "issanou",
+        "name": "Issanou Kamardine Ousseni",
+        "job": {
+          "en": "Graphic Designer",
+          "fr": "Designer Graphique"
+        },
+        "img": "img/team/issanou.webp",
+        "description": { 
+          "en": "",
+          "fr": ""  
+        }
+      },
+      {
+        "id": "jonathan",
+        "name": "Jonathan Chemla",
+        "job": {
+          "en": "CTO",
+          "fr": "Directeur Technique"
+        },
+        "img": "img/team/jonathan_bw.webp",
+        "description": { 
+          "en": "",
+          "fr": "Jonathan is CTO at Iconem. Graduated from Supelec (France) in “Signals and systems, computer science and fundamentals science” and University college in London in “MSc Computer Graphics, Vision and Imaging”, he works mainly on data processing and the technological innovations Iconem is creating. He previously worked at Thalès, and at CEA, and was inviting to speak at the MIT as Iconem CTO. His master thesis was on the autonomous vehicles target tracking and his personal project are around robot design."  
+        }
+      },
+      {
+        "id": "marjorie",
+        "name": "Marjorie Coulin",
+        "job": {
+          "en": "R&D Engineer, photogrammetry expert",
+          "fr": "Ingénieure R&D, experte photogrammétrie"
+        },
+        "img": "img/team/marjorie_bw.webp",
+        "description": { 
+          "en": "",
+          "fr": "Marjorie est ingénieure R&D. Diplômée de l'Université de Technologie de Compiègne (UTC), elle a travaillé plusieurs années à la conception de systèmes embarqués sur drones, avant d'entamer une spécialisation en photogrammétrie, positionnement et traitement d'images à l'Ecole Nationale des Sciences Géographiques (ENSG). Elle a rejoint Iconem en 2018 et se consacre à la parallélisation et la virtualisation de la production photogrammétrique, à des fins d'accessibilité et d'optimisation de ressources."  
+        }
+      },
+      {
+        "id": "paul",
+        "name": "Paul Aubineau",
+        "job": {
+          "en": "R&D Engineer, photogrammetry expert",
+          "fr": "Ingénieur R&D, expert photogrammétrie"
+        },
+        "img": "img/team/paul_bw.webp",
+        "description": { 
+          "en": "Paul is a software engineer, graduated from the University of Technology of Troyes (UTT) with a formal education in science. He then specialized in development and information system management. After previous experiences in web and 3D development, Iconem is now the opportunity for him to apply both fields of expertise. He is working on the Iconem web platform, AR/VR product, providing archaeologists and the wider audience with new way to study and discover cultural heritage.",
+          "fr": ""  
+        }
+      },
+      {
+        "id": "yves",
+        "name": "Yves Ubelmann",
+        "job": {
+          "en": "President & Founder",
+          "fr": "Président & Fondateur"
+        },
+        "img": "img/team/yves_bw.webp",
+        "description": { 
+          "en": "Architect since 2006, Yves Ubelmann began his career working in the Middle East and Central Asia, where he carried out surveys of archeological sites using photogrammetry. In 2013, he founded the ICONEM start-up whose mission is to digitize endangered heritage sites around the world to ensure their transmission to future generations.",
+          "fr": "Yves Ubelmann est architecte de formation, et a reçu son diplôme de l’école d’architecture de Versailles en 2006. De 2006 à 2010, il a travaillé comme architecte indépendant en Syrie, Iran, Afghanistan, au Pakistan, pour le relevé, l’étude et l’interprétation de sites archéologiques. Dans ce cadre, il a développé depuis 2009 une nouvelle approche de la photogrammétrie pour le relevé des sites archéologiques. De 2010 à 2011, il a travaillé comme ingénieur spécialisé au joint center Microsoft Research – INRIA, avec le département d’informatique de l’ENS (Ecole Normale Supérieure), pour développer et utiliser des méthodes de numérisations 3D basées sur des algorithmes de reconstruction photogrammétrique récents. En 2013, il a cofondé la société ICONEM, qui développe de nouvelles solutions de numérisation 3D d’environnements ou d’architectures, et travaille entre autres pour l’UNESCO ou la Banque Mondiale sur des projets internationaux de numérisation du patrimoine archéologique."  
+        }
+      }
+]

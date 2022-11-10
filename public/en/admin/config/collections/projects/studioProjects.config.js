@@ -14,6 +14,7 @@ export default {
             "label": "modalID",
             "name": "modalID",
             "widget": "string",
+            "pattern": ['^[a-z0-9_\-]+$', "Must be lowercase, without spaces or special characters"]
         },
         {
             "label": "Thumbnail title",
