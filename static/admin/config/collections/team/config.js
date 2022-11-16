@@ -5,8 +5,8 @@ export default {
     "extension": "json",
     "files": [
         {
-            "label": "members",
-            "name": "members",
+            "label": "Members",
+            "name": "team",
             "file": "data/team.json",
             "fields": [
                 {

@@ -9,15 +9,15 @@ export default createClass({
     },
     render: function () {
         this.props.document.body.backgroundColor = 'white';
-        const entry = this.props.entry.toJS().data;
-        const imgWidget = this.props.widgetFor('img');
-        const img = this.props.getAsset(imgWidget && imgWidget.props.value, imgWidget && imgWidget.props.field);
-
-        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
-        console.log(entry);
+        const members = this.props.entry.toJS().data.members;
+        const memberWidgets = this.props.widgetsFor('members');
+        memberWidgets.map((el, index) => {
+          const imgWidget = el && el.getIn(['widgets', 'img']);
+            const test = this.props.getAsset(imgWidget && imgWidget.props.children.props.value, imgWidget && imgWidget.props.children.props.field);
+            members[index].url = test.url;
+        });
 
         const html = `
-        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         <section id="team" style="background-color:white; padding:0;">
           <div class="container-fluid">
             <div class="row">
@@ -35,30 +35,40 @@ export default createClass({
                         <p class="text-justify">Based in Paris, Iconem currently brings together a multidisciplinary team of about ten employees: architects, computer scientists, engineers, 3D graphic designers and archeologists whose strength lies in working together to solve the complex issue of safeguarding the historical and archeological heritage.</p>
                     </div>
                     <div class="panel-group team" id="team-accordion" role="tablist" aria-multiselectable="false">
-                        <div class="panel team-member-panel">
-                                <div id="team-member-${entry.id}" class="panel-collapse collapse in text-justify" role="tabpanel">
-                                <h3 class="text-uppercase text-bold">${entry.name}</h3>
+                      ${members
+                        .map(
+                            (el) => `
+                            <div class="panel team-member-panel">
+                                <div id="team-member-${el.id}" class="panel-collapse collapse text-justify" role="tabpanel">
+                                <h3 class="text-uppercase text-bold">${el.name}</h3>
                                 <br>
-                                <h4 class="text-uppercase">${entry.job.en}</h4>
+                                <h4 class="text-uppercase">${el.job.en}</h4>
                                 <br>
-                                <p class="text-justify">${entry.description.en}</p>
+                                <p class="text-justify">${el.description.en}</p>
                                 </div>
-                        </div>
+                            </div>`
+                        )
+                        .join("")}
                     </div>
                   </div>
               </div>
               <div id="about-team-right" class="col-lg-6">
                 <div id="team-img-container">
-                    <div class="team-img" id="team-img-${entry.id}">
-                    <a role="button" 
-                        data-toggle="collapse"
-                        href="#team-member-${entry.id}"
-                        data-parent='#team-accordion'
-                        aria-expanded="false"
-                        >
-                        <img src="${img.url}" class="img-responsive" />
-                    </a>
-                    </div>
+                ${members
+                  .map(
+                      (el, index) => `  
+                        <div class="team-img" id="team-img-${el.id}">
+                        <a role="button" 
+                            data-toggle="collapse"
+                            href="#team-member-${el.id}"
+                            data-parent='#team-accordion'
+                            aria-expanded="false"
+                            >
+                            <img src="${el.url}" class="img-responsive" />
+                        </a>
+                        </div>`
+                  )
+                  .join("")}
                 </div>
               </div>
             </div>
