@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $team_members := .Site.Data.team }}
+{{ $team_members := .Site.Data.team.members }}
 <section id="team">
   <div class="container-fluid">
     <div class="row">
@@ -22,7 +22,7 @@
             {{ end }}
             </div>
             <div class="panel-group team" id="team-accordion" role="tablist" aria-multiselectable="false">
-              {{ range sort .Site.Data.team "name" }}
+              {{ range sort $team_members "name" }}
                     <div class="panel team-member-panel">
                         {{ if eq .id "yves" }}
                             <div id="team-member-{{ .id }}" class="panel-collapse collapse text-justify" role="tabpanel">
@@ -42,7 +42,7 @@
       </div>
       <div id="about-team-right" class="col-lg-6">
         <div id="team-img-container">
-          {{ range sort .Site.Data.team "order" }}
+          {{ range sort $team_members "order" }}
             <div class="team-img" id="team-img-{{ .id }}">
             <a role="button" 
                 data-toggle="collapse"

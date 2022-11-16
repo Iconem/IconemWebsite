@@ -1,23 +1,21 @@
 export default {
-    "name": "team",
-    "label": "Team",
-    "slug": "{{slug}}",
-    "editor": {
-        "preview": true
-    },
-    files: [
-        {
-            "label": "Members",
-            "name": "members",
-            "file": "data/team.json",
-            "widget": "list",
-            "fields": [
-                {
-                    "label": "Team",
-                    "name": "team",
-                    "widget": "list"
-                }
-            ]
-        }
+    "label": "Teams",
+    "name": "teams",
+    "format": "json",
+    "extension": "json",
+    "files": [
+            {
+                "label": "members",
+                "name": "members",
+                "file": "data/team.json",
+                "fields": [
+                    {
+                        "label": "testlol",
+                        "name": "testlol"
+                    }
+                ]
+            }
+        
     ]
 }
+
