@@ -13,7 +13,11 @@ export default createClass({
         const imgWidget = this.props.widgetFor('img');
         const img = this.props.getAsset(imgWidget && imgWidget.props.value, imgWidget && imgWidget.props.field);
 
+        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+        console.log(entry);
+
         const html = `
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         <section id="team" style="background-color:white; padding:0;">
           <div class="container-fluid">
             <div class="row">
