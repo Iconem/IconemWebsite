@@ -25,7 +25,6 @@ export default createClass({
         const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.value, iconStudioWidget && iconStudioWidget.props.field);
         const iconActiveWidget = this.props.widgetFor('icon_active');
         const iconActive = this.props.getAsset(iconActiveWidget && iconActiveWidget.props.value, iconActiveWidget && iconActiveWidget.props.field);
-        console.log(iconActive.url);
 
         const html = `
         <section id="partners">
