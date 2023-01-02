@@ -20,12 +20,14 @@ export default createClass({
   },
   render: function () {
     this.props.document.body.backgroundColor = 'white';
-    console.log(this.props.entry.toJS().data);
     const clients = this.props.entry.toJS().data.clients;
     const clientWidgets = this.props.widgetsFor('clients');
+    console.log('@@@@@@@@@@@@@@@@@@@');
     clientWidgets.map((el, index) => {
       const iconStudioWidget = el && el.getIn(['widgets', 'img']);
+        console.log(el);
         const test = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
+        console.log(test);
         clients[index].icon_studio = test.icon_studio;
     });
 
