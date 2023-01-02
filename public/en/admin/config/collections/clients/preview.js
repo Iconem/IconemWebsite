@@ -20,7 +20,7 @@ export default createClass({
   },
   render: function () {
     this.props.document.body.backgroundColor = 'white';
-    console.log(his.props.el.toJS().data);
+    console.log(this.props.el.toJS().data);
     const clients = this.props.el.toJS().data.collaborators.clients;
     const clientWidgets = this.props.widgetsFor('clients');
     clientWidgets.map((el, index) => {
