@@ -60,7 +60,7 @@ export default {
                             "name": "img",
                             "widget": "image",
                             "media_folder": "/assets/img/team/{{fields.id}}",
-                            "public_folder": "/img/projects/{{fields.id}}"
+                            "public_folder": "/img/team/{{fields.id}}"
                         },
                     ]
                 }
