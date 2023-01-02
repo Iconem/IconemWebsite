@@ -20,8 +20,8 @@ export default createClass({
   },
   render: function () {
     this.props.document.body.backgroundColor = 'white';
-    console.log(this.props.el.toJS().data);
-    const clients = this.props.el.toJS().data.collaborators.clients;
+    console.log(this.props.entry.toJS().data);
+    const clients = this.props.entry.toJS().data.clients;
     const clientWidgets = this.props.widgetsFor('clients');
     clientWidgets.map((el, index) => {
       const iconStudioWidget = el && el.getIn(['widgets', 'img']);
