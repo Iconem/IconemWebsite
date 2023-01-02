@@ -4,7 +4,7 @@ import config from "./config/index.js";
 import projectPreview from "./config/collections/projects/preview.js";
 import teamPreview from "./config/collections/team/preview.js";
 import clientsPreview from "./config/collections/collaborators/preview_clients.js";
-import partnersPreview from "./config/collections/partners/preview.js";
+import partnersPreview from "./config/collections/collaborators/preview_partners.js";
 
 initCMS({ config });
 

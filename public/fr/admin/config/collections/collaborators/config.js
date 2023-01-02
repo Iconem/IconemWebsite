@@ -54,8 +54,58 @@ export default {
                     ]
                 }
             ]
+        },
+        {
+            "label": "Partners",
+            "name": "partners",
+            "file": "data/collaborators/partners.json",
+            "create": true,
+            "slug": "{{slug}}",
+            "editor": {
+                "preview": true
+            },
+            "fields": [
+                {
+                    "label": "Partners",
+                    "name": "partners",
+                    "widget": "list",
+                    "summary": "{{fields.name}}",
+                    "fields": [
+                        {
+                            "label": "Name",
+                            "name": "name",
+                            "widget": "string"
+                        },
+                        {
+                            "label": "Link",
+                            "name": "link",
+                            "widget": "string"
+                        },
+                        {
+                            "label": "Icon research",
+                            "name": "icon_research",
+                            "widget": "image",
+                                "media_folder": "/assets/img/partners",
+                                "public_folder": "/img/partners"
+                        },
+                        {
+                            "label": "Icon studio",
+                            "name": "icon_studio",
+                            "widget": "image",
+                                "media_folder": "/assets/img/partners",
+                                "public_folder": "/img/partners"
+                        },
+                        {
+                            "label": "Icon active",
+                            "name": "icon_active",
+                            "widget": "image",
+                                "media_folder": "/assets/img/partners",
+                                "public_folder": "/img/partners"
+                        }
+                    ]
+                }
+            ]
         }
-
     ]
 }
 

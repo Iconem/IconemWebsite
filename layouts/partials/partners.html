@@ -7,7 +7,7 @@
             <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.partners }}</h3>
             <hr class="light">
             <div class="owl-carousel partners-carousel">
-                {{ range .Site.Data.partners }}
+                {{ range .Site.Data.collaborators.partners.partners }}
                     <div class="item">
                         {{ if eq $type "studio" }}
                             <a href="{{ .link }}" target="_blank">

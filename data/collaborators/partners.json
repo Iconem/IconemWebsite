@@ -1,3 +1,74 @@
 {
-    "partners": []
+    "partners": [
+        {
+            "name": "ENS",
+            "link": "http://www.ens.fr/",
+            "icon_research": "img/partners/ens_Passifnoir.webp",
+            "icon_studio": "img/partners/ens_Passif.webp",
+            "icon_active": "img/partners/ens.webp"
+        },
+        {
+            "name": "Factum Foundation",
+            "link": "http://www.factumfoundation.org/",
+            "icon_research": "img/partners/factum_Passifnoir.webp",
+            "icon_studio": "img/partners/factum_Passif.webp",
+            "icon_active": "img/partners/factum.webp"
+        },
+        {
+            "name": "INRIA",
+            "link": "https://www.inria.fr/",
+            "icon_research": "img/partners/inria_Passifnoir.webp",
+            "icon_studio": "img/partners/inria_Passif.webp",
+            "icon_active": "img/partners/inria.webp"
+        },
+        {
+            "name": "MAE",
+            "link": "https://www.diplomatie.gouv.fr/fr/",
+            "icon_research": "img/partners/MAE_Passifnoir.webp",
+            "icon_studio": "img/partners/MAE_Passif.webp",
+            "icon_active": "img/partners/MAE.webp"
+        },
+        {
+            "name": "Microsoft",
+            "link": "https://www.microsoft.com",
+            "icon_research": "img/partners/microsoft_Passifnoir.webp",
+            "icon_studio": "img/partners/microsoft_Passif.webp",
+            "icon_active": "img/partners/microsoft.webp"
+        },
+        {
+            "name": "Parrot",
+            "link": "https://www.parrot.com",
+            "icon_research": "img/partners/parrot_Passifnoir.webp",
+            "icon_studio": "img/partners/parrot_Passif.webp",
+            "icon_active": "img/partners/parrot.webp"
+        },
+        {
+            "name": "PSL",
+            "link": "https://www.univ-psl.fr/",
+            "icon_research": "img/partners/psl_Passifnoir.webp",
+            "icon_studio": "img/partners/psl_Passif.webp",
+            "icon_active": "img/partners/psl.webp"
+        },
+        {
+            "name": "Sketchfab",
+            "link": "https://sketchfab.com/",
+            "icon_research": "img/partners/sketchfab_Passifnoir.webp",
+            "icon_studio": "img/partners/sketchfab_Passif.webp",
+            "icon_active": "img/partners/sketchfab.webp"
+        },
+        {
+            "name": "Time Machine",
+            "link": "https://timemachine.eu/",
+            "icon_research": "img/partners/timeMachine_Passifnoir.webp",
+            "icon_studio": "img/partners/timeMachine_Passif.webp",
+            "icon_active": "img/partners/timeMachine.webp"
+        },
+        {
+            "name": "Ubisoft",
+            "link": "https://www.ubisoft.com/",
+            "icon_research": "img/partners/ubisoft_Passifnoir.webp",
+            "icon_studio": "img/partners/ubisoft_Passif.webp",
+            "icon_active": "img/partners/ubisoft.webp"
+        }
+    ]
 }
