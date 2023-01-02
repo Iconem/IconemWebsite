@@ -1,5 +1,5 @@
 export default {
-    "label": "Collaboprators",
+    "label": "collaborators",
     "name": "collaborators",
     "format": "json",
     "extension": "json",
