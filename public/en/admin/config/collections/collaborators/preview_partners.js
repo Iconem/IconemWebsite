@@ -39,7 +39,7 @@ export default createClass({
                 <h3 class="text-bold text-uppercase section-title">Partners</h3>
                 <hr class="light">
                 <div class="owl-carousel partners-carousel">
-                ${clients
+                ${partners
                     .map(
                         (el) => `
                             <div class="item">
