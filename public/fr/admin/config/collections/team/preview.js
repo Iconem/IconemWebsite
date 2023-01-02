@@ -13,8 +13,8 @@ export default createClass({
         const memberWidgets = this.props.widgetsFor('members');
         memberWidgets.map((el, index) => {
           const imgWidget = el && el.getIn(['widgets', 'img']);
-            const test = this.props.getAsset(imgWidget && imgWidget.props.children.props.value, imgWidget && imgWidget.props.children.props.field);
-            members[index].url = test.url;
+            const img = this.props.getAsset(imgWidget && imgWidget.props.children.props.value, imgWidget && imgWidget.props.children.props.field);
+            members[index].url = img.url;
         });
 
         const html = `

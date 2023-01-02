@@ -22,21 +22,15 @@ export default createClass({
     this.props.document.body.backgroundColor = 'white';
     const clients = this.props.entry.toJS().data.clients;
     const clientWidgets = this.props.widgetsFor('clients');
-    console.log('@@@@@@@@@@@@@@@@@@@');
-    console.log(clients);
     clientWidgets.map((el, index) => {
       const iconStudioWidget = el && el.getIn(['widgets', 'icon_studio']);
-        console.log(el);
-        const test = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
-        console.log(test);
-        clients[index].icon_studio = test.url;
-    });
+      const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
+      clients[index].icon_studio = iconStudio.url;
 
-      // const el = this.props.el.toJS().data;
-      // const iconStudioWidget = this.props.widgetFor('icon_studio');
-      // const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.value, iconStudioWidget && iconStudioWidget.props.field);
-      // const iconActiveWidget = this.props.widgetFor('icon_active');
-      // const iconActive = this.props.getAsset(iconActiveWidget && iconActiveWidget.props.value, iconActiveWidget && iconActiveWidget.props.field);
+      const iconActiveWidget = el && el.getIn(['widgets', 'icon_active']);
+      const iconActive = this.props.getAsset(iconActiveWidget && iconActiveWidget.props.children.props.value, iconActiveWidget && iconActiveWidget.props.children.props.field);
+      clients[index].icon_studio = iconActive.url;
+    });
 
       const html = `
       <section id="partners">
