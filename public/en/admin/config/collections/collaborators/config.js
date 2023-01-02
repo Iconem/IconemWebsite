@@ -6,7 +6,7 @@ export default {
     "files": [
         {
             "label": "Clients",
-            "name": "client",
+            "name": "clients",
             "file": "data/collaborators/clients.json",
             "create": true,
             "slug": "{{slug}}",
@@ -16,7 +16,7 @@ export default {
             "fields": [
                 {
                     "label": "Clients",
-                    "name": "Clients",
+                    "name": "clients",
                     "widget": "list",
                     "summary": "{{fields.name}}",
                     "fields":[
