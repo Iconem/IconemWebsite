@@ -15,7 +15,7 @@ const config = {
   site_url: 'https://radiant-zabaione-e92fa0.netlify.app/',
   // publish_mode: "editorial_workflow",
   media_folder: "/static",
-  public_folder: "/",
+  public_folder: "/public",
   collections: [
     researchProjects,
     studioProjects,
