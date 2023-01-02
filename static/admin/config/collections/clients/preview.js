@@ -29,7 +29,7 @@ export default createClass({
 
       const iconActiveWidget = el && el.getIn(['widgets', 'icon_active']);
       const iconActive = this.props.getAsset(iconActiveWidget && iconActiveWidget.props.children.props.value, iconActiveWidget && iconActiveWidget.props.children.props.field);
-      clients[index].icon_studio = iconActive.url;
+      clients[index].icon_active = iconActive.url;
     });
 
       const html = `
