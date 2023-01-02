@@ -50,7 +50,9 @@
                 data-parent='#team-accordion'
                 aria-expanded="false"
                 >
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .img).Fit "228x228 webp").RelPermalink }}" class="img-responsive" />
+                {{ with resources.Get .img }}
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ (.Fit "228x228 webp").RelPermalink }}" class="img-responsive" />
+                {{ end }}
             </a>
             </div>
           {{ end }}
