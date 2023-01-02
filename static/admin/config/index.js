@@ -4,6 +4,7 @@ import studioProjects from "./collections/projects/studioProjects.config.js";
 import team from "./collections/team/config.js";
 import clients from "./collections/clients/config.js";
 import partners from "./collections/partners/config.js";
+import collaborators from "./collections/collaborators/config.js"
 
 const config = {
   backend: {
@@ -20,7 +21,8 @@ const config = {
     studioProjects,
     team,
     clients,
-    partners
+    partners,
+    collaborators
   ],
 };
 
