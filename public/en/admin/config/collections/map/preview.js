@@ -36,7 +36,7 @@ export default createClass({
                 window.$('#' + mapId).attr("class", "visited");
                 
                 window.$('#iconem-map-svg path#' + mapId).hover((e) => {
-                window.$('#iconem-map-infos-country').append(countries[mapId].name[lang]);
+                window.$('#iconem-map-infos-country').html(countries[mapId].name[lang]);
 
                 var cityCellsToAppend = '';
                 var siteCellsToAppend = '';
