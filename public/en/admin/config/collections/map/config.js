@@ -15,7 +15,7 @@ export default {
             "label": "Name",
             "name": "name",
             "widget": "object",
-            "summary": "{{fields.en}}: {{fields.fr}}",
+            "summary": "{{fields.en}}",
             "fields": [
                 {
                     "label": "En",
@@ -39,7 +39,7 @@ export default {
                     "label": "Name",
                     "name": "name",
                     "widget": "object",
-                    "summary": "{{fields.en}}: {{fields.fr}}",
+                    "summary": "{{fields.en}}",
                     "fields": [
                         {
                             "label": "En",
@@ -60,10 +60,10 @@ export default {
                     "summary": "{{fields.name}}",
                     "fields": [
                         {
-                            "label": "name",
-                            "name": "Name",
+                            "label": "Name",
+                            "name": "name",
                             "widget": "object",
-                            "summary": "{{fields.en}}: {{fields.fr}}",
+                            "summary": "{{fields.en}}",
                             "fields": [
                                 {
                                     "label": "En",
