@@ -12,8 +12,8 @@ export default {
     "identifier_field": "name",
     "fields": [
         {
-            "label": "name",
-            "name": "Name",
+            "label": "Name",
+            "name": "name",
             "widget": "object",
             "summary": "{{fields.en}}: {{fields.fr}}",
             "fields": [
@@ -36,8 +36,8 @@ export default {
             "summary": "{{fields.name}}",
             "fields": [
                 {
-                    "label": "name",
-                    "name": "Name",
+                    "label": "Name",
+                    "name": "name",
                     "widget": "object",
                     "summary": "{{fields.en}}: {{fields.fr}}",
                     "fields": [
