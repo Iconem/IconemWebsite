@@ -24,10 +24,10 @@ export default createClass({
 
             // Initialize all interaction and display of projects within a country on the map
             Object.keys(countries).map((mapId) => {
-                $('#' + mapId).attr("class", "visited");
+                window.$('#' + mapId).attr("class", "visited");
                 
-                $('#iconem-map-svg path#' + mapId).hover((e) => {
-                $('#iconem-map-infos-country').append(countries[mapId].name[lang]);
+                window.$('#iconem-map-svg path#' + mapId).hover((e) => {
+                window.$('#iconem-map-infos-country').append(countries[mapId].name[lang]);
 
                 var cityCellsToAppend = '';
                 var siteCellsToAppend = '';
@@ -57,23 +57,23 @@ export default createClass({
                     cityCellsToAppend += '</div>';
                     siteCellsToAppend += '</div>';
                 });
-                $('#iconem-map-infos-city-col').append(cityCellsToAppend);
-                $('#iconem-map-infos-site-col').append(siteCellsToAppend);
-                $('#iconem-map-infos').css('display','flex');
+                window.$('#iconem-map-infos-city-col').append(cityCellsToAppend);
+                window.$('#iconem-map-infos-site-col').append(siteCellsToAppend);
+                window.$('#iconem-map-infos').css('display','flex');
 
                 //Add text animation (vertical scroll) if necessary
-                var element = $('#iconem-map-infos-description-container > div')[0];
+                var element = window.$('#iconem-map-infos-description-container > div')[0];
                 if (element.offsetHeight < element.scrollHeight) {
-                    $('#iconem-map-infos-description').addClass('crawl');
+                    window.$('#iconem-map-infos-description').addClass('crawl');
                 } 
                 });
             
-                $('#iconem-map-svg path#' + mapId).mouseleave((e) => {
-                $('#iconem-map-infos-country').empty();
-                $('#iconem-map-infos-city-col').empty();
-                $('#iconem-map-infos-site-col').empty();
-                $('#iconem-map-infos-description').removeClass('crawl');
-                $('#iconem-map-infos').css('display','none');
+                window.$('#iconem-map-svg path#' + mapId).mouseleave((e) => {
+                window.$('#iconem-map-infos-country').empty();
+                window.$('#iconem-map-infos-city-col').empty();
+                window.$('#iconem-map-infos-site-col').empty();
+                window.$('#iconem-map-infos-description').removeClass('crawl');
+                window.$('#iconem-map-infos').css('display','none');
                 });
             });
         }
