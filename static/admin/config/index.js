@@ -2,7 +2,8 @@
 import researchProjects from "./collections/projects/researchProjects.config.js";
 import studioProjects from "./collections/projects/studioProjects.config.js";
 import team from "./collections/team/config.js";
-import collaborators from "./collections/collaborators/config.js"
+import collaborators from "./collections/collaborators/config.js";
+import map from "./collections/map/config.js";
 
 const config = {
   backend: {
@@ -17,8 +18,9 @@ const config = {
   collections: [
     researchProjects,
     studioProjects,
+    map,
     team,
-    collaborators
+    collaborators,
   ],
 };
 

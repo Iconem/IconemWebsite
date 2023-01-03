@@ -182,7 +182,7 @@ baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
 		title = "Contact"
 		phone = "+33 (0)1 42 49 76 04"
 		href = "+33142497604"
-		adress = "6 rue Jules Chaplain 75006 Paris, France"
+		adress = "82 rue du Faubourg St-Martin 75010 Paris"
 		email = "contact@iconem.com"
 
 	[languages.en.brochure]
