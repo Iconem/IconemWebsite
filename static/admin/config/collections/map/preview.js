@@ -9,12 +9,11 @@ export default createClass({
         if (typeof this.props.window.$ != "undefined") {
             const { window } = this.props;
             var entry = this.props.entry.toJS();
-            console.log(entry);
-            // var projects = {{.Site.Data.projects}};
     
             // Handle interactive svg map
             var lang = "en";
-            var countries = entry;
+            var countries = { [entry.slug]:entry.data};
+            console.log(countries);
 
             function sortPlaces(a,b) {
                 if(a.name[lang] < b.name[lang]) return -1;
@@ -23,7 +22,6 @@ export default createClass({
             }
 
             // Initialize all interaction and display of projects within a country on the map
-            console.log(countries);
             Object.keys(countries).map((mapId) => {
                 console.log(mapId);
                 window.$('#' + mapId).attr("class", "visited");
