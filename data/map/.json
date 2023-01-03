@@ -3,5 +3,21 @@
   "name": {
     "en": "USA",
     "fr": "USA"
-  }
+  },
+  "places": [
+    {
+      "name": {
+        "en": "place",
+        "fr": "place"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "site",
+            "fr": "site"
+          }
+        }
+      ]
+    }
+  ]
 }
