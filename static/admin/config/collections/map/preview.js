@@ -6,6 +6,9 @@ export default createClass({
         document.head.appendChild(script);
     },
     componentDidUpdate(){
+        
+    },
+    render: function () {        
         if (typeof this.props.window.$ != "undefined") {
             const { window } = this.props;
             var entry = this.props.entry.toJS();
@@ -77,8 +80,7 @@ export default createClass({
                 });
             });
         }
-    },
-    render: function () {        
+
         const html = `
         <section class="no-padding" id="map">
             <div id="iconem-map-container">

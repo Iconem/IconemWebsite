@@ -13,8 +13,8 @@ const config = {
   load_config_file: false,
   site_url: 'https://radiant-zabaione-e92fa0.netlify.app/',
   // publish_mode: "editorial_workflow",
-  media_folder: "/static",
-  public_folder: "/public",
+  media_folder: 'static/img',
+  public_folder: '/img',
   collections: [
     researchProjects,
     studioProjects,
