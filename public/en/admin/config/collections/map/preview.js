@@ -18,8 +18,7 @@ export default createClass({
             var entry = this.props.entry.toJS();
             // Handle interactive svg map
             var lang = "en";
-            console.log(entry.slug);
-            var countries = { [entry.slug]:entry.data};
+            var countries = { [entry.slug.toUpperCase()]:entry.data};
 
             function sortPlaces(a,b) {
                 if(a.name[lang] < b.name[lang]) return -1;

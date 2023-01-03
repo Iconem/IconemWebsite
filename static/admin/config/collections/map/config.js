@@ -15,6 +15,7 @@ export default {
             "label": "mapID",
             "name": "mapID",
             "widget": "string",
+            "pattern": ['^[A-Z0-9_\-]+$', "Must be uppercase, without spaces or special characters"]
         },
         {
             "label": "Name",
