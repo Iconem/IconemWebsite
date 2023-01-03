@@ -83,15 +83,15 @@
 
   // Initialize all interaction and display of projects within a country on the map
   Object.keys(countries).map((mapId) => {
-    $('#' + mapId).attr("class", "visited");
+    $('#' + mapId.toUpperCase()).attr("class", "visited");
     
-    $('#iconem-map-svg path#' + mapId).hover((e) => {
-      $('#iconem-map-infos-country').append(countries[mapId].name[lang]);
+    $('#iconem-map-svg path#' + mapId.toUpperCase()).hover((e) => {
+      $('#iconem-map-infos-country').append(countries[mapId.toUpperCase()].name[lang]);
 
       var cityCellsToAppend = '';
       var siteCellsToAppend = '';
 
-      countries[mapId].places.sort(sortPlaces).map((place) => {
+      countries[mapId.toUpperCase()].places.sort(sortPlaces).map((place) => {
         cityCellsToAppend += 
         '<div class="iconem-map-infos-city-cell">' +
           '<div class="iconem-map-infos-city">' + place.name[lang] + '</div>';
