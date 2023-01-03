@@ -87,6 +87,7 @@
     $('#' + mapId.toUpperCase()).attr("class", "visited");
     
     $('#iconem-map-svg path#' + mapId.toUpperCase()).hover((e) => {
+      console.log(contries);
       console.log(countries[mapId.toUpperCase()]);
       $('#iconem-map-infos-country').append(countries[mapId.toUpperCase()].name[lang]);
 
