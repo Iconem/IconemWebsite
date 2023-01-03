@@ -7,12 +7,15 @@ export default createClass({
 
         var waitForJQuery = setInterval(() => {
             if (typeof window.$ != "undefined") {
+                console.log('componentDidMountWithJQuery');
+                this.componentDidUpdate();
                 clearInterval(waitForJQuery);
             }
         }, 100);
     },
     componentDidUpdate(){
         if (typeof this.props.window.$ != "undefined") {
+            console.log('componentDidUpdate');
             const { window } = this.props;
             var entry = this.props.entry.toJS();
     
