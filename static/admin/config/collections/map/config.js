@@ -33,7 +33,7 @@ export default {
             "label": "Places",
             "name": "places",
             "widget": "list",
-            "summary": "{{fields.name}}",
+            "summary": "{{fields.name.en}}",
             "fields": [
                 {
                     "label": "Name",
@@ -57,7 +57,7 @@ export default {
                     "label": "Sites",
                     "name": "sites",
                     "widget": "list",
-                    "summary": "{{fields.name}}",
+                    "summary": "{{fields.name.en}}",
                     "fields": [
                         {
                             "label": "Name",
