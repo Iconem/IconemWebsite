@@ -4,11 +4,14 @@ export default createClass({
         const script = document.createElement("script");
         script.src = "/js/vendors.min.js";
         document.head.appendChild(script);
+
+        var waitForJQuery = setInterval(() => {
+            if (typeof window.$ != "undefined") {
+                clearInterval(waitForJQuery);
+            }
+        }, 100);
     },
     componentDidUpdate(){
-        
-    },
-    render: function () {        
         if (typeof this.props.window.$ != "undefined") {
             const { window } = this.props;
             var entry = this.props.entry.toJS();
@@ -80,7 +83,8 @@ export default createClass({
                 });
             });
         }
-
+    },
+    render: function () {        
         const html = `
         <section class="no-padding" id="map">
             <div id="iconem-map-container">
