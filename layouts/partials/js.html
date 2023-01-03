@@ -83,9 +83,11 @@
 
   // Initialize all interaction and display of projects within a country on the map
   Object.keys(countries).map((mapId) => {
+    console.log(mapId.toUpperCase());
     $('#' + mapId.toUpperCase()).attr("class", "visited");
     
     $('#iconem-map-svg path#' + mapId.toUpperCase()).hover((e) => {
+      console.log(countries[mapId.toUpperCase());
       $('#iconem-map-infos-country').append(countries[mapId.toUpperCase()].name[lang]);
 
       var cityCellsToAppend = '';
