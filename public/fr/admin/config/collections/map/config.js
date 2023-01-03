@@ -9,8 +9,13 @@ export default {
     "editor": {
         "preview": true
     },
-    "identifier_field": "name.en",
+    "identifier_field": "mapID",
     "fields": [
+        {
+            "label": "mapID",
+            "name": "mapID",
+            "widget": "string",
+        },
         {
             "label": "Name",
             "name": "name",
