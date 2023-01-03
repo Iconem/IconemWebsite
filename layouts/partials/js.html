@@ -28,7 +28,6 @@
   {{ end }}
 
   // https://css-tricks.com/making-animations-wait/
-  
   var body = $('body');
   var backgrounds = new Array(
     {{ $projects := resources.Match "img/projects/**" }}
@@ -36,28 +35,21 @@
       {{ .RelPermalink }},
     {{ end }}
     );
-    backgrounds = backgrounds.filter(function (str) { return str.indexOf("01" > -1); });
-    
+    backgrounds = backgrounds.filter((str) => str.indexOf("01") > -1);
 
-  const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
-
-  var current = 0;
   function nextBackground() {
-    // document.body.style.backgroundImage = backgrounds[current = ++current % backgrounds.length];
-    document.body.style.backgroundImage = 'url(' + backgrounds[Math.floor(Math.random()*backgrounds.length)] + ')';
-    setTimeout(nextBackground, 10000);
+    let preloaderImg = document.createElement("img");
+    const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
+    preloaderImg.addEventListener('load', (event) => {   
+      document.body.style.backgroundImage = `url(${imageUrl})`;
+      preloaderImg = null;
+      setTimeout(nextBackground, 10000);
+    });
+    preloaderImg.src = imageUrl;
   }
-
   document.body.classList.add("bg-loading");
-  let preloaderImg = document.createElement("img");
-  preloaderImg.src = imageUrl;
-
-  preloaderImg.addEventListener('load', (event) => {   
-    document.body.classList.remove("bg-loading");
-    document.body.style.backgroundImage = `url(${imageUrl})`;
-    preloaderImg = null;
-    setTimeout(nextBackground, 10000);
-  });
+  nextBackground();
+  document.body.classList.remove("bg-loading");
   
   // Deferring images without lazy loading or jQuery
   // https://varvy.com/pagespeed/defer-images.html
