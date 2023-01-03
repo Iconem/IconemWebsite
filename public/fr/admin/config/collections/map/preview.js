@@ -28,7 +28,7 @@ export default createClass({
 
             // Initialize all interaction and display of projects within a country on the map
             Object.keys(countries).map((mapId) => {
-                window.$('#' + mapId).attr("class", "visited");
+                window.$('#' + mapId.toUpperCase()).attr("class", "visited");
                 window.$('#iconem-map-svg path#' + mapId).hover((e) => {
                 window.$('#iconem-map-infos-country').html(countries[mapId].name[lang]);
 
