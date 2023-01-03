@@ -2,8 +2,6 @@
 import researchProjects from "./collections/projects/researchProjects.config.js";
 import studioProjects from "./collections/projects/studioProjects.config.js";
 import team from "./collections/team/config.js";
-import clients from "./collections/clients/config.js";
-import partners from "./collections/partners/config.js";
 import collaborators from "./collections/collaborators/config.js"
 
 const config = {
@@ -20,8 +18,6 @@ const config = {
     researchProjects,
     studioProjects,
     team,
-    clients,
-    partners,
     collaborators
   ],
 };
