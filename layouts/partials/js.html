@@ -86,7 +86,7 @@
     $('#' + mapId.toUpperCase()).attr("class", "visited");
     
     $('#iconem-map-svg path#' + mapId.toUpperCase()).hover((e) => {
-      $('#iconem-map-infos-country').append(countries[mapId].name[lang]);
+      $('#iconem-map-infos-country').html(countries[mapId].name[lang]);
 
       var cityCellsToAppend = '';
       var siteCellsToAppend = '';
@@ -116,8 +116,8 @@
         cityCellsToAppend += '</div>';
         siteCellsToAppend += '</div>';
       });
-      $('#iconem-map-infos-city-col').append(cityCellsToAppend);
-      $('#iconem-map-infos-site-col').append(siteCellsToAppend);
+      $('#iconem-map-infos-city-col').html(cityCellsToAppend);
+      $('#iconem-map-infos-site-col').html(siteCellsToAppend);
       $('#iconem-map-infos').css('display','flex');
 
       //Add text animation (vertical scroll) if necessary
