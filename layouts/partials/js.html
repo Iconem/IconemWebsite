@@ -85,7 +85,7 @@
   Object.keys(countries).map((mapId) => {
     $('#' + mapId.toUpperCase()).attr("class", "visited");
     
-    $('#iconem-map-svg path#' + mapId).hover((e) => {
+    $('#iconem-map-svg path#' + mapId.toUpperCase()).hover((e) => {
       $('#iconem-map-infos-country').append(countries[mapId].name[lang]);
 
       var cityCellsToAppend = '';
