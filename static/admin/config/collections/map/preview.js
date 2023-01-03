@@ -7,6 +7,8 @@ export default createClass({
 
         var waitForJQuery = setInterval(() => {
             if (typeof window.$ != "undefined") {
+                console.log(this);
+                this.componentDidUpdate();
                 clearInterval(waitForJQuery);
             }
         }, 100);
