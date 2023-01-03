@@ -113,7 +113,7 @@ export default createClass({
         if (typeof this.props.window.$ != "undefined") {
             const { window } = this.props;
             var entry = this.props.entry.toJS();
-            console.log(entry);
+            
             const video = this.props.widgetsFor('video').map((el, index) => {
                 const videoFullWidget = el && el.getIn(['widgets', 'preview']);
                 return this.props.getAsset(videoFullWidget && videoFullWidget.props.children.props.value, videoFullWidget && videoFullWidget.props.children.props.field);

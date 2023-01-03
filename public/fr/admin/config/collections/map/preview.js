@@ -14,10 +14,12 @@ export default createClass({
         }, 100);
     },
     componentDidUpdate(){
+        console.log('componentDidUpdate');
         if (typeof this.props.window.$ != "undefined") {
+            console.log('componentDidUpdateWithjQuery');
             const { window } = this.props;
             var entry = this.props.entry.toJS();
-    
+            console.log(entry);
             // Handle interactive svg map
             var lang = "en";
             var countries = { [entry.slug]:entry.data};
