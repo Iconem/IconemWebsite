@@ -15,14 +15,12 @@ export default createClass({
     },
     componentDidUpdate(){
         if (typeof this.props.window.$ != "undefined") {
-            console.log('componentDidUpdate');
             const { window } = this.props;
             var entry = this.props.entry.toJS();
     
             // Handle interactive svg map
             var lang = "en";
             var countries = { [entry.slug]:entry.data};
-            console.log(countries);
 
             function sortPlaces(a,b) {
                 if(a.name[lang] < b.name[lang]) return -1;
@@ -32,7 +30,6 @@ export default createClass({
 
             // Initialize all interaction and display of projects within a country on the map
             Object.keys(countries).map((mapId) => {
-                console.log(mapId);
                 window.$('#' + mapId).attr("class", "visited");
                 
                 window.$('#iconem-map-svg path#' + mapId).hover((e) => {
@@ -42,6 +39,7 @@ export default createClass({
                 var siteCellsToAppend = '';
 
                 countries[mapId].places.sort(sortPlaces).map((place) => {
+                    console.log(place);
                     cityCellsToAppend += 
                     '<div class="iconem-map-infos-city-cell">' +
                     '<div class="iconem-map-infos-city">' + place.name[lang] + '</div>';
