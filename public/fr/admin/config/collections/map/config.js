@@ -5,11 +5,11 @@ export default {
     "format": "json",
     "extension": "json",
     "create": true,
-    "slug": "{{slug}}",
+    "slug": "{{mapID}}",
     "editor": {
         "preview": true
     },
-    "identifier_field": "mapID",
+    "identifier_field": "name",
     "fields": [
         {
             "label": "mapID",
