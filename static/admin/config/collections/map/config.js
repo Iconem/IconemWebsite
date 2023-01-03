@@ -9,6 +9,7 @@ export default {
     "editor": {
         "preview": true
     },
+    "identifier_field": "name",
     "fields": [
         {
             "label": "name",
