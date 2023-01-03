@@ -7,19 +7,15 @@ export default createClass({
 
         var waitForJQuery = setInterval(() => {
             if (typeof window.$ != "undefined") {
-                console.log('componentDidMountWithJQuery');
                 this.componentDidUpdate();
                 clearInterval(waitForJQuery);
             }
         }, 100);
     },
     componentDidUpdate(){
-        console.log('componentDidUpdate');
         if (typeof this.props.window.$ != "undefined") {
-            console.log('componentDidUpdateWithjQuery');
             const { window } = this.props;
             var entry = this.props.entry.toJS();
-            console.log(entry);
             // Handle interactive svg map
             var lang = "en";
             var countries = { [entry.slug]:entry.data};
@@ -41,7 +37,6 @@ export default createClass({
                 var siteCellsToAppend = '';
 
                 countries[mapId].places.sort(sortPlaces).map((place) => {
-                    console.log(place);
                     cityCellsToAppend += 
                     '<div class="iconem-map-infos-city-cell">' +
                     '<div class="iconem-map-infos-city">' + place.name[lang] + '</div>';
