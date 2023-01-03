@@ -5,7 +5,7 @@ export default {
     "format": "json",
     "extension": "json",
     "create": true,
-    "slug": "{{filename}}",
+    "slug": "{{slug}}",
     "editor": {
         "preview": true
     },
