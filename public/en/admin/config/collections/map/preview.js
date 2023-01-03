@@ -66,8 +66,8 @@ export default createClass({
                     cityCellsToAppend += '</div>';
                     siteCellsToAppend += '</div>';
                 });
-                window.$('#iconem-map-infos-city-col').append(cityCellsToAppend);
-                window.$('#iconem-map-infos-site-col').append(siteCellsToAppend);
+                window.$('#iconem-map-infos-city-col').html(cityCellsToAppend);
+                window.$('#iconem-map-infos-site-col').html(siteCellsToAppend);
                 window.$('#iconem-map-infos').css('display','flex');
 
                 //Add text animation (vertical scroll) if necessary
