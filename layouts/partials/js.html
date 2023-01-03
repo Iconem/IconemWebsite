@@ -37,19 +37,37 @@
     );
     backgrounds = backgrounds.filter((str) => str.indexOf("01") > -1);
 
+  // function nextBackground() {
+  //   let preloaderImg = document.createElement("img");
+  //   const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
+  //   preloaderImg.addEventListener('load', (event) => {   
+  //     document.body.style.backgroundImage = `url(${imageUrl})`;
+  //     preloaderImg = null;
+  //     setTimeout(nextBackground, 10000);
+  //   });
+  //   preloaderImg.src = imageUrl;
+  // }
+  // document.body.classList.add("bg-loading");
+  // nextBackground();
+  // document.body.classList.remove("bg-loading");
+
+  const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
+
   function nextBackground() {
-    let preloaderImg = document.createElement("img");
-    const imageUrl = backgrounds[Math.floor(Math.random()*backgrounds.length)];
-    preloaderImg.addEventListener('load', (event) => {   
-      document.body.style.backgroundImage = `url(${imageUrl})`;
-      preloaderImg = null;
-      setTimeout(nextBackground, 10000);
-    });
-    preloaderImg.src = imageUrl;
+    document.body.style.backgroundImage = 'url(' + backgrounds[Math.floor(Math.random()*backgrounds.length)] + ')';
+    setTimeout(nextBackground, 10000);
   }
+
   document.body.classList.add("bg-loading");
-  nextBackground();
-  document.body.classList.remove("bg-loading");
+  let preloaderImg = document.createElement("img");
+  preloaderImg.src = imageUrl;
+
+  preloaderImg.addEventListener('load', (event) => {   
+    document.body.classList.remove("bg-loading");
+    document.body.style.backgroundImage = `url(${imageUrl})`;
+    preloaderImg = null;
+    setTimeout(nextBackground, 10000);
+  });
   
   // Deferring images without lazy loading or jQuery
   // https://varvy.com/pagespeed/defer-images.html
