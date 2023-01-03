@@ -71,14 +71,14 @@ export default createClass({
                 } 
                 });
             
-                window.$('#iconem-map-svg path#' + mapId).mouseleave((e) => {
-                window.$('#iconem-map-infos-country').empty();
-                window.$('#iconem-map-infos-city-col').empty();
-                window.$('#iconem-map-infos-site-col').empty();
-                window.$('#iconem-map-infos-description').removeClass('crawl');
-                window.$('#iconem-map-infos').css('display','none');
+                window.$('#iconem-map-svg path#' + mapId.toUpperCase()).mouseleave((e) => {
+                    window.$('#iconem-map-infos-country').empty();
+                    window.$('#iconem-map-infos-city-col').empty();
+                    window.$('#iconem-map-infos-site-col').empty();
+                    window.$('#iconem-map-infos-description').removeClass('crawl');
+                    window.$('#iconem-map-infos').css('display','none');
+                    });
                 });
-            });
         }
     },
     render: function () {        

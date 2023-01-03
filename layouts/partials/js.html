@@ -127,7 +127,7 @@
       } 
     });
  
-    $('#iconem-map-svg path#' + mapId).mouseleave((e) => {
+    $('#iconem-map-svg path#' + mapId.toUpperCase()).mouseleave((e) => {
       $('#iconem-map-infos-country').empty();
       $('#iconem-map-infos-city-col').empty();
       $('#iconem-map-infos-site-col').empty();
