@@ -10,11 +10,18 @@ export default createClass({
     render: function () {
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
-        console.log(this.props);
-        let img = this.props.widgetFor('img');
+        
+        const clientWidgets = this.props.widgetsFor('logo');
+        console.log(clientWidgets);
+        clientWidgets.map((el, index) => {
+        const iconStudioWidget = el && el.getIn(['widgets', 'black']);
+        const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
+        console.log('uuuuuuuuuuuuuuuuuuuuu');
+        console.log(iconStudio);
+        });
 
-        console.log('@@@@@@@@@@@@@@@@@@@@@@@');
-        console.log(img);
+        console.log(this.props.widgetFor('black'));
+
         const html = `
             <section id="about">
                 <section>
