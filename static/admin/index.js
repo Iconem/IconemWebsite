@@ -18,4 +18,4 @@ CMS.registerPreviewTemplate("team", teamPreview);
 CMS.registerPreviewTemplate("partners", partnersPreview);
 CMS.registerPreviewTemplate("clients", clientsPreview);
 CMS.registerPreviewTemplate("map", mapPreview);
-CMS.regristerPreviewTemplate("about", aboutPreview);
+CMS.registerPreviewTemplate("about", aboutPreview);
