@@ -16,6 +16,9 @@ export default createClass({
         const blackData = logoWidgets.getIn(['data', 'black']) || [];
         console.log(blackWidgets);
         console.log(blackData);
+
+        console.log(blackWidgets.props.getAsset(blackData, blackWidgets.props.field));
+
         // const black = blackData.map(el => {
         //     return this.props.getAsset(el, blackWidgets.props.field);
         // });
