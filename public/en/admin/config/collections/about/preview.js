@@ -15,16 +15,24 @@ export default createClass({
         console.log('uuuuuuuu');
 
         const logo = this.props.entry.getIn(['data', 'logo']);
-        console.log(logo);
-        const logoWidget = logo.widgetFor('black');
-        console.log(logoWidget);
-
+        const test = logo.map(el => {
+            return this.props.getAsset(el, clientWidgets.props.field);
+        });
+        console.log(test);
         // clientWidgets.map((el, index) => {
         //     console.log(el);
         //     const iconStudioWidget = el && el.getIn(['widgets', 'black']);
         //     console.log(iconStudioWidget);
         //     // const iconStudioWidget = el && el.widgetsFor('black');
         // });
+
+
+        const actorsWidgets = this.props.widgetsFor('actors');
+        const logosWidgets = actorsWidgets.getIn(['widgets', 'logos']);
+        const logosData = actorsWidgets.getIn(['data', 'logos']);
+        const logos = logosData.map(el => {
+            return this.props.getAsset(el, logosWidgets.props.field);
+        });
 
         const html = `
             <section id="about">
