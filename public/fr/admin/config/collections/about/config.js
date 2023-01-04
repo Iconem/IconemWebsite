@@ -53,11 +53,25 @@ export default {
             "widget": "string",
         },
         {
-            "label": "Img",
-            "name": "img",
-            "widget": "image",
-            "media_folder": "/static/img/home/",
-            "public_folder": "/img/home/"
+            "label": "Logo",
+            "name": "logo",
+            "widget": "object",
+            "fields": [
+                {
+                    "label": "Black",
+                    "name": "black",
+                    "widget": "image",
+                        "media_folder": "/static/img/home/",
+                        "public_folder": "/img/home/"
+                },
+                {
+                    "label": "White",
+                    "name": "white",
+                    "widget": "image",
+                        "media_folder": "/static/img/home/",
+                        "public_folder": "/img/home/"
+                },
+            ]
         }
     ]
 }
