@@ -13,10 +13,11 @@ export default createClass({
         
         const clientWidgets = this.props.widgetsFor('logo');
         console.log('uuuuuuuu');
-        console.log(this.props.entry);
         clientWidgets.map((el, index) => {
             console.log(el);
-            const iconStudioWidget = el && el.widgetFor('black');
+            const iconStudioWidget = el && el.getIn(['widgets', 'black']);
+            console.log(iconStudioWidget);
+            // const iconStudioWidget = el && el.widgetsFor('black');
         });
 
         const html = `
