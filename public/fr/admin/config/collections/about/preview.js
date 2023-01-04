@@ -13,13 +13,18 @@ export default createClass({
         
         const clientWidgets = this.props.widgetsFor('logo');
         console.log('uuuuuuuu');
-        console.log(this.props);
-        clientWidgets.map((el, index) => {
-            console.log(el);
-            const iconStudioWidget = el && el.getIn(['widgets', 'black']);
-            console.log(iconStudioWidget);
-            // const iconStudioWidget = el && el.widgetsFor('black');
-        });
+
+        const logo = this.props.entry.getIn(['data', 'logo']);
+        console.log(logo);
+        const logoWidget = logo.widgetFor('black');
+        console.log(logoWidget);
+
+        // clientWidgets.map((el, index) => {
+        //     console.log(el);
+        //     const iconStudioWidget = el && el.getIn(['widgets', 'black']);
+        //     console.log(iconStudioWidget);
+        //     // const iconStudioWidget = el && el.widgetsFor('black');
+        // });
 
         const html = `
             <section id="about">
