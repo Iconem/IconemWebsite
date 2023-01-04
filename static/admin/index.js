@@ -6,6 +6,7 @@ import teamPreview from "./config/collections/team/preview.js";
 import clientsPreview from "./config/collections/collaborators/preview_clients.js";
 import partnersPreview from "./config/collections/collaborators/preview_partners.js";
 import mapPreview from "./config/collections/map/preview.js";
+import aboutPreview from "./config.collections/map/preview.js";
 
 initCMS({ config });
 
@@ -17,3 +18,4 @@ CMS.registerPreviewTemplate("team", teamPreview);
 CMS.registerPreviewTemplate("partners", partnersPreview);
 CMS.registerPreviewTemplate("clients", clientsPreview);
 CMS.registerPreviewTemplate("map", mapPreview);
+CMS.regristerPreviewTemplate("about", aboutPreview);
