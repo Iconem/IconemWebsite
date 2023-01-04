@@ -10,6 +10,8 @@ export default createClass({
     render: function () {
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().about;
+        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+        console.log(about);
         const html = `
             <section id="about">
                 <section>
