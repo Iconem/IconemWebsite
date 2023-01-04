@@ -14,7 +14,7 @@ export default createClass({
         const clientWidgets = this.props.widgetsFor('logo');
         console.log('uuuuuuuu');
 
-        const logo = this.props.entry.getIn(['data', 'logo']);
+        const logo = this.props.widgetsFor('logo');
         const test = logo.map(el => {
             return this.props.getAsset(el, clientWidgets.props.field);
         });
