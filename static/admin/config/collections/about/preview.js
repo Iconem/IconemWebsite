@@ -11,13 +11,18 @@ export default createClass({
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
 
-        const actorsWidgets = this.props.widgetsFor('logo');
-        const blackWidgets = actorsWidgets.getIn(['widgets', 'black']);
-        const blackData = actorsWidgets.getIn(['data', 'black']) || [];
-        const black = blackData.map(el => {
-            return this.props.getAsset(el, blackWidgets.props.field);
-        });
-        console.log(black);
+        const logoWidgets = this.props.widgetsFor('logo');
+        console.log('@@@@@@@');
+        console.log(logoWidgets);
+        logoWidgets.map(el => {
+            console.log(el);
+        })
+        // const blackWidgets = actorsWidgets.getIn(['widgets', 'black']);
+        // const blackData = actorsWidgets.getIn(['data', 'black']) || [];
+        // const black = blackData.map(el => {
+        //     return this.props.getAsset(el, blackWidgets.props.field);
+        // });
+        // console.log(black);
 
         const html = `
             <section id="about">
