@@ -12,13 +12,10 @@ export default createClass({
         const about = this.props.entry.toJS().data;
 
         const logoWidgets = this.props.widgetsFor('logo');
-        console.log('@@@@@@@');
-        console.log(logoWidgets);
-        logoWidgets.map(el => {
-            console.log(el);
-        })
-        // const blackWidgets = actorsWidgets.getIn(['widgets', 'black']);
-        // const blackData = actorsWidgets.getIn(['data', 'black']) || [];
+        const blackWidgets = logoWidgets.getIn(['widgets', 'black']);
+        const blackData = logoWidgets.getIn(['data', 'black']) || [];
+        console.log(blackWidgets);
+        console.log(blackData);
         // const black = blackData.map(el => {
         //     return this.props.getAsset(el, blackWidgets.props.field);
         // });
