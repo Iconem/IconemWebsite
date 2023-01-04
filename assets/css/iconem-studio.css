@@ -139,7 +139,6 @@ a:visited {
 
 #iconem-map-container {
     position: relative;
-    background-image: url(../img/map/map_background.webp);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
