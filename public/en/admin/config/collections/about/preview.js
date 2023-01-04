@@ -12,13 +12,11 @@ export default createClass({
         const about = this.props.entry.toJS().data;
         
         const clientWidgets = this.props.widgetsFor('logo');
+        console.log('uuuuuuuu');
         clientWidgets.map((el, index) => {
-        // console.log('uuuuuuuuuuuuuuuuuuuuu');
-        // console.log(el);
-        // const iconStudioWidget = el && el.widgetFor('black');
+            console.log(el);
+            const iconStudioWidget = el && el.widgetFor('black');
         });
-        console.log('oooooooo');
-        console.log(this.props.widgetFor('black'));
 
         const html = `
             <section id="about">
