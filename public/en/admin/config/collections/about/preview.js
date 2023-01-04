@@ -38,7 +38,7 @@ export default createClass({
                                 <br />
                                 <br />
                                 <div class="text-uppercase text-center">
-                                <img src="${blackLogo.url}" />
+                                <img src="${whiteLogo.url}" />
                                 </div>
                                 <br />
                                 <br />
