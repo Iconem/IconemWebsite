@@ -10,29 +10,14 @@ export default createClass({
     render: function () {
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
-        
-        const clientWidgets = this.props.widgetsFor('logo');
-        console.log('uuuuuuuu');
 
-        const logo = this.props.widgetsFor('logo');
-        const test = logo.map(el => {
-            return this.props.getAsset(el, clientWidgets.props.field);
+        const actorsWidgets = this.props.widgetsFor('logo');
+        const blackWidgets = actorsWidgets.getIn(['widgets', 'black']);
+        const blackData = actorsWidgets.getIn(['data', 'black']) || [];
+        const black = blackData.map(el => {
+            return this.props.getAsset(el, blackWidgets.props.field);
         });
-        console.log(test);
-        // clientWidgets.map((el, index) => {
-        //     console.log(el);
-        //     const iconStudioWidget = el && el.getIn(['widgets', 'black']);
-        //     console.log(iconStudioWidget);
-        //     // const iconStudioWidget = el && el.widgetsFor('black');
-        // });
-
-
-        const actorsWidgets = this.props.widgetsFor('actors');
-        const logosWidgets = actorsWidgets.getIn(['widgets', 'logos']);
-        const logosData = actorsWidgets.getIn(['data', 'logos']);
-        const logos = logosData.map(el => {
-            return this.props.getAsset(el, logosWidgets.props.field);
-        });
+        console.log(black);
 
         const html = `
             <section id="about">
