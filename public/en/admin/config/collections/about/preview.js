@@ -13,6 +13,7 @@ export default createClass({
         
         const clientWidgets = this.props.widgetsFor('logo');
         console.log('uuuuuuuu');
+        console.log(this.props);
         clientWidgets.map((el, index) => {
             console.log(el);
             const iconStudioWidget = el && el.getIn(['widgets', 'black']);
