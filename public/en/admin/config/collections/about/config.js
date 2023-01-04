@@ -51,6 +51,13 @@ export default {
             "label": "Link",
             "name": "link",
             "widget": "string",
+        },
+        {
+            "label": "Img",
+            "name": "img",
+            "widget": "image",
+            "media_folder": "/static/img/home/",
+            "public_folder": "/img/home/"
         }
     ]
 }
