@@ -6,7 +6,7 @@ import teamPreview from "./config/collections/team/preview.js";
 import clientsPreview from "./config/collections/collaborators/preview_clients.js";
 import partnersPreview from "./config/collections/collaborators/preview_partners.js";
 import mapPreview from "./config/collections/map/preview.js";
-import aboutPreview from "./config.collections/map/preview.js";
+import aboutPreview from "./config.collections/about/preview.js";
 
 initCMS({ config });
 
