@@ -14,9 +14,10 @@ export default createClass({
         const clientWidgets = this.props.widgetsFor('logo');
         console.log(clientWidgets);
         clientWidgets.map((el, index) => {
-        const iconStudioWidget = el && el.getIn(['widgets', 'black']);
-        const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
         console.log('uuuuuuuuuuuuuuuuuuuuu');
+        const iconStudioWidget = el && el.getIn(['widgets', 'black']);
+        console.log(iconStudioWidget);
+        const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
         console.log(iconStudio);
         });
 
