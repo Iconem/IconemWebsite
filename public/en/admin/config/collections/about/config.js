@@ -55,7 +55,7 @@ export default {
         {
             "label": "Logo",
             "name": "logo",
-            "widget": "list",
+            "widget": "object",
             "fields": [
                 {
                     "label": "Black",
