@@ -12,15 +12,12 @@ export default createClass({
         const about = this.props.entry.toJS().data;
         
         const clientWidgets = this.props.widgetsFor('logo');
-        console.log(clientWidgets);
         clientWidgets.map((el, index) => {
         console.log('uuuuuuuuuuuuuuuuuuuuu');
-        const iconStudioWidget = el && el.getIn(['widgets', 'black']);
-        console.log(iconStudioWidget);
-        const iconStudio = this.props.getAsset(iconStudioWidget && iconStudioWidget.props.children.props.value, iconStudioWidget && iconStudioWidget.props.children.props.field);
-        console.log(iconStudio);
+        console.log(el);
+        const iconStudioWidget = el && el.widgetFor('black');
         });
-
+        console.log('oooooooo');
         console.log(this.props.widgetFor('black'));
 
         const html = `
