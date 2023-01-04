@@ -12,17 +12,9 @@ export default createClass({
         const about = this.props.entry.toJS().data;
 
         const logoWidgets = this.props.widgetsFor('logo');
-        const blackWidgets = logoWidgets.getIn(['widgets', 'black']);
-        const blackData = logoWidgets.getIn(['data', 'black']) || [];
-        console.log(blackWidgets);
-        console.log(blackData);
-
-        console.log(blackWidgets.props.getAsset(blackData, blackWidgets.props.field));
-
-        // const black = blackData.map(el => {
-        //     return this.props.getAsset(el, blackWidgets.props.field);
-        // });
-        // console.log(black);
+        const blackLogoWidgets = logoWidgets.getIn(['widgets', 'black']);
+        const blackLogoData = logoWidgets.getIn(['data', 'black']) || [];
+        const blackLogo = blackLogoWidgets.props.getAsset(blackLogoData, blackLogoWidgets.props.field)
 
         const html = `
             <section id="about">
@@ -46,7 +38,7 @@ export default createClass({
                                 <br />
                                 <br />
                                 <div class="text-uppercase text-center">
-                                <img src="${about.logo.black}" />
+                                <img src="${blackLogo.url}" />
                                 </div>
                                 <br />
                                 <br />
