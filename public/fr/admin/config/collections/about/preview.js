@@ -10,10 +10,8 @@ export default createClass({
     render: function () {
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
-        let img = this.props.widgetsFor('img').map((el, index) => {
-            const imgSrcWidget = el && el.getIn(['widgets', 'img']);
-            return this.props.getAsset(imgSrcWidget && imgSrcWidget.props.children.props.value, imgSrcWidget && imgSrcWidget.props.children.props.field);
-        });
+        console.log(this.props);
+        let img = this.props.widgetFor('img');
 
         console.log('@@@@@@@@@@@@@@@@@@@@@@@');
         console.log(img);
