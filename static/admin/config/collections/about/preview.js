@@ -12,9 +12,9 @@ export default createClass({
         const about = this.props.entry.toJS().data;
 
         const logoWidgets = this.props.widgetsFor('logo');
-        const blackLogoWidgets = logoWidgets.getIn(['widgets', 'black']);
-        const blackLogoData = logoWidgets.getIn(['data', 'black']) || [];
-        const blackLogo = blackLogoWidgets.props.getAsset(blackLogoData, blackLogoWidgets.props.field)
+        const whiteLogoWidgets = logoWidgets.getIn(['widgets', 'white']);
+        const whiteLogoData = logoWidgets.getIn(['data', 'white']) || [];
+        const whiteLogo = whiteLogoWidgets.props.getAsset(whiteLogoData, whiteLogoWidgets.props.field)
 
         const html = `
             <section id="about">
