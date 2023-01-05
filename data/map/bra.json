@@ -1,0 +1,23 @@
+{
+  "mapID": "BRA",
+  "name": {
+    "en": "test",
+    "fr": "test"
+  },
+  "places": [
+    {
+      "name": {
+        "en": "test",
+        "fr": "test"
+      },
+      "sites": [
+        {
+          "name": {
+            "en": "test",
+            "fr": "test"
+          }
+        }
+      ]
+    }
+  ]
+}
