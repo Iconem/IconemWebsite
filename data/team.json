@@ -9,8 +9,8 @@
       },
       "img": "img/team/bastien_bw.webp",
       "description": {
-        "en": "",
-        "fr": ""
+        "en": "Description",
+        "fr": "Description"
       }
     },
     {
@@ -22,20 +22,20 @@
       },
       "img": "img/team/caroline.webp",
       "description": {
-        "en": "",
-        "fr": ""
+        "en": "Description",
+        "fr": "Description"
       }
     },
     {
       "id": "etienne",
       "name": "étienne Tellier",
       "job": {
-        "en": "CFO",
-        "fr": "Directeur Financier"
+        "en": "COO",
+        "fr": "DG"
       },
       "img": "img/team/etienne_bw.webp",
       "description": {
-        "en": "",
+        "en": "A graduate of the HEC business school, Etienne Tellier has been working for thirteen years in the publishing, media and content production sectors. After being a financial manager at Flammarion Group, he was a journalist and \"Head of Content\" at several press groups, before joining Iconem in 2015. Etienne holds the position of CFO and Director of Production.",
         "fr": "Diplômé de l’école de commerce HEC, Etienne Tellier travaille depuis treize ans dans les secteurs de l’édition, des médias et de la production de contenus. Après avoir été responsable financier au sein du groupe Flammarion, il a été journaliste et « Head of Content » auprès de plusieurs groupes de presse, avant de rejoindre Iconem en 2015. Etienne y occupe les fonctions de directeur financier et directeur de la production."
       }
     },
@@ -48,8 +48,8 @@
       },
       "img": "img/team/galdric_bw.webp",
       "description": {
-        "en": "",
-        "fr": ""
+        "en": "Description",
+        "fr": "Description"
       }
     },
     {
@@ -74,8 +74,8 @@
       },
       "img": "img/team/issanou.webp",
       "description": {
-        "en": "",
-        "fr": ""
+        "en": "Description",
+        "fr": "Description"
       }
     },
     {
@@ -88,7 +88,7 @@
       "img": "img/team/jonathan_bw.webp",
       "description": {
         "en": "Jonathan is CTO at Iconem. Graduated from Supelec (France) in “Signals and systems, computer science and fundamentals science” and University college in London in “MSc Computer Graphics, Vision and Imaging”, he works mainly on data processing and the technological innovations Iconem is creating. He previously worked at Thalès, and at CEA, and was inviting to speak at the MIT as Iconem CTO. His master thesis was on the autonomous vehicles target tracking and his personal project are around robot design.",
-        "fr": ""
+        "fr": "Jonathan est directeur technique chez Iconem. Diplômé de Supelec (France) en \"Signaux et systèmes, informatique et sciences fondamentales\" et de l'University College de Londres en \"MSc Computer Graphics, Vision and Imaging\", il travaille principalement sur le traitement des données et les innovations technologiques qu'Iconem crée. Il a précédemment travaillé chez Thalès, et au CEA, et a été invité à parler au MIT en tant que CTO d'Iconem. Son mémoire de maîtrise portait sur le suivi de cible des véhicules autonomes et ses projets personnels portent sur la conception de robots."
       }
     },
     {
@@ -100,7 +100,7 @@
       },
       "img": "img/team/marjorie_bw.webp",
       "description": {
-        "en": "",
+        "en": "Marjorie is an R&D engineer. Graduated from the University of Technology of Compiègne (UTC), she worked several years on the design of embedded systems on drones, before starting a specialization in photogrammetry, positioning and image processing at the National School of Geographic Sciences (ENSG). She joined Iconem in 2018 and focuses on parallelization and virtualization of photogrammetric production, for accessibility and resource optimization.",
         "fr": "Marjorie est ingénieure R&D. Diplômée de l'Université de Technologie de Compiègne (UTC), elle a travaillé plusieurs années à la conception de systèmes embarqués sur drones, avant d'entamer une spécialisation en photogrammétrie, positionnement et traitement d'images à l'Ecole Nationale des Sciences Géographiques (ENSG). Elle a rejoint Iconem en 2018 et se consacre à la parallélisation et la virtualisation de la production photogrammétrique, à des fins d'accessibilité et d'optimisation de ressources."
       }
     },
@@ -114,7 +114,7 @@
       "img": "/img/team/paul_bw.webp",
       "description": {
         "en": "Paul is a software engineer, graduated from the University of Technology of Troyes (UTT) with a formal education in science. He then specialized in development and information system management. After previous experiences in web and 3D development, Iconem is now the opportunity for him to apply both fields of expertise. He is working on the Iconem web platform, AR/VR product, providing archaeologists and the wider audience with new way to study and discover cultural heritage.",
-        "fr": ""
+        "fr": "Paul est ingénieur logiciel, diplômé de l'Université de Technologie de Troyes (UTT) avec une formation scientifique. Il s'est ensuite spécialisé dans le développement et la gestion des systèmes d'information. Après des expériences antérieures dans le développement web et 3D, Iconem est aujourd'hui l'occasion pour lui d'appliquer ces deux domaines d'expertise. Il travaille sur la plateforme web d'Iconem, produit AR/VR, offrant aux archéologues et au grand public une nouvelle façon d'étudier et de découvrir le patrimoine culturel."
       }
     },
     {
