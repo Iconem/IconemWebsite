@@ -47,6 +47,8 @@
   "actors": {
     "en": "",
     "fr": "",
-    "logos": "/img/projects/projectname/600x400.png"
+    "logos": [
+      "/img/projects/projectname/600x400.png"
+    ]
   }
 }
