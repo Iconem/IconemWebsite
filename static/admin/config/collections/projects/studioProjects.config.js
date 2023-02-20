@@ -4,6 +4,7 @@ export default {
     "folder": "data/projects/studio",
     "format": "json",
     "extension": "json",
+    "identifier_field": "modalID",
     "create": true,
     "slug": "{{slug}}",
     "editor": {
