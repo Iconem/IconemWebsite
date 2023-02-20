@@ -42,9 +42,7 @@
     "en": "Actor names",
     "fr": "Nom des acteurs",
     "logos": [
-      {
-        "logo": "/img/projects/projectname/600x400.png"
-      }
+      "/img/projects/projectname/600x400.png"
     ]
   }
 }
