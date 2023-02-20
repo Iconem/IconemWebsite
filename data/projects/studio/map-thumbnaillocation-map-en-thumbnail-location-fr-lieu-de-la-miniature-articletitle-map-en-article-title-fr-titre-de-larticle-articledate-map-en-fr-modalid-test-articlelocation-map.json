@@ -38,6 +38,12 @@
     "en": "",
     "fr": ""
   },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=fT2SgTkLFGI",
+      "preview": "img/projects/test/600x400.png"
+    }
+  ],
   "actors": {
     "en": "Actor names",
     "fr": "Nom des acteurs"
