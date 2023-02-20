@@ -169,8 +169,19 @@ export default {
                 {
                     "label": "logos",
                     "name": "logos",
-                    "widget": "list"
-                }
+                    "required": false,
+                    "widget": "list",
+                    "summary": "{{fields.name}}",
+                    "fields": [
+                        {
+                            "label": "logo",
+                            "name": "logo",
+                            "widget": "image",
+                            "media_folder": "/assets/img/projects/{{fields.modalID}}",
+                            "public_folder": "/img/projects/{{fields.modalID}}"
+                        }
+                    ]
+                },
             ]
         },
         {
