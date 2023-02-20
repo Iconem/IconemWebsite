@@ -17,8 +17,8 @@
     }
   ],
   "articleDate": {
-    "en": "",
-    "fr": ""
+    "en": "2023-02-20T14:25:38.970Z",
+    "fr": "2023-02-20T14:25:39.876Z"
   },
   "modalID": "test",
   "articleLocation": {
@@ -32,20 +32,21 @@
   "thumbnail": "/img/projects/test/600x400.png",
   "text": {
     "en": "Text",
-    "fr": "test"
+    "fr": "Texte"
   },
   "thumbnailDate": {
-    "en": "",
-    "fr": ""
+    "en": "2023-02-20T14:25:25.974Z",
+    "fr": "2023-02-20T14:25:26.897Z"
   },
   "video": [
     {
-      "src": "https://vimeo.com/757366077",
+      "src": "https://www.youtube.com/watch?v=EELW6fBNvKo",
       "preview": "img/projects/test/600x400.png"
     }
   ],
   "actors": {
     "en": "Actor names",
-    "fr": "Nom des acteurs"
+    "fr": "Nom des acteurs",
+    "logos": "/img/projects/test/600x400.png"
   }
 }
