@@ -7,6 +7,15 @@
     "en": "Article title",
     "fr": "Titre de l'article"
   },
+  "img": [
+    {
+      "src": "/img/projects/test/600x400.png",
+      "caption": {
+        "en": "test",
+        "fr": "test"
+      }
+    }
+  ],
   "articleDate": {
     "en": "",
     "fr": ""
