@@ -121,6 +121,9 @@
               </div>
               <hr />
               <div id="project-media-description-logos">
+                {{ range $logo := .logos }}
+                  <img data-src="{{ ((resources.Get $logo).Resize "x60 webp").RelPermalink }}" />
+                {{ end }}
               </div>
             {{ end }}
           </div>

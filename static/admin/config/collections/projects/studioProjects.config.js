@@ -68,6 +68,7 @@ export default {
                     "name": "en",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -77,6 +78,7 @@ export default {
                     "name": "fr",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -143,6 +145,7 @@ export default {
                     "name": "en",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -152,6 +155,7 @@ export default {
                     "name": "fr",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
