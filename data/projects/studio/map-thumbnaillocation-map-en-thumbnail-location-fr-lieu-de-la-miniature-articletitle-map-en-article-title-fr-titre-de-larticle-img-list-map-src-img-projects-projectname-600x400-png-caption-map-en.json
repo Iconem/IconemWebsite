@@ -1,0 +1,50 @@
+{
+  "thumbnailLocation": {
+    "en": "Thumbnail location",
+    "fr": "Lieu de la miniature"
+  },
+  "articleTitle": {
+    "en": "Article title",
+    "fr": "Titre de l'article"
+  },
+  "img": [
+    {
+      "src": "/img/projects/projectname/600x400.png",
+      "caption": {
+        "en": "Caption",
+        "fr": "Légende"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "02. 2023",
+    "fr": "02. 2023"
+  },
+  "modalID": "projectname",
+  "articleLocation": {
+    "en": "Article location",
+    "fr": "Lieu de l'article"
+  },
+  "thumbnailTitle": {
+    "en": "Thumbnail title",
+    "fr": "Titre de la miniature"
+  },
+  "thumbnail": "/img/projects/projectname/600x400.png",
+  "text": {
+    "en": "Text",
+    "fr": "Texte"
+  },
+  "thumbnailDate": {
+    "en": "02. 2023",
+    "fr": "02. 2023"
+  },
+  "actors": {
+    "en": "Actor names",
+    "fr": "Nom des acteurs",
+    "logos": [
+      {
+        "logo": "/img/projects/projectname/600x400.png"
+      }
+    ]
+  }
+}
