@@ -121,6 +121,11 @@
               </div>
               <hr />
               <div id="project-media-description-logos">
+                    {{ with $project.actors.logos }}
+                        {{ range $logoIndex, $logo := . }}
+                            <img data-src="{{ ((resources.Get $logo).Resize "x60 webp").RelPermalink }}" />
+                        {{ end }}
+                    {{ end }}
               </div>
             {{ end }}
           </div>
