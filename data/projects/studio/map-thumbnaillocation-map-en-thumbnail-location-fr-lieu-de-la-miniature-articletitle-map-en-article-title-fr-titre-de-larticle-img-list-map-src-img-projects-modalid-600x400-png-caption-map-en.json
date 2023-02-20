@@ -29,7 +29,7 @@
     "en": "Thumbnail title",
     "fr": "Titre de la miniature"
   },
-  "thumbnail": "/img/projects/modalid/600x400.png",
+  "thumbnail": "/img/projects/projectname/600x400.png",
   "text": {
     "en": "Text",
     "fr": "test"
@@ -46,6 +46,7 @@
   ],
   "actors": {
     "en": "Actor names",
-    "fr": "Nom des acteurs"
+    "fr": "Nom des acteurs",
+    "logos": "/img/projects/projectname/600x400.png"
   }
 }
