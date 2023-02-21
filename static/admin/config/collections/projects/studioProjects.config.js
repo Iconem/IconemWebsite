@@ -208,7 +208,7 @@ export default {
                     "label": "logos",
                     "name": "logos",
                     "widget": "list",
-                    "field": [
+                    "field": 
                         {
                             "label": "logo",
                             "name": "logo",
@@ -218,7 +218,6 @@ export default {
                             "media_folder": "/assets/img/projects/{{fields.modalID}}",
                             "public_folder": "/img/projects/{{fields.modalID}}"
                         }
-                    ]
                 }
             ]
         },
