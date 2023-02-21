@@ -208,7 +208,7 @@ export default {
                     "label": "logos",
                     "name": "logos",
                     "widget": "list",
-                    "fields": [
+                    "field": [
                         {
                             "label": "logo",
                             "name": "logo",
