@@ -47,6 +47,8 @@
   "actors": {
     "en": "Actor1, Actor2",
     "fr": "Acteur1, Acteur2",
-    "logos": []
+    "logos": [
+      "/img/projects/projectname/logo_picture.png"
+    ]
   }
 }
