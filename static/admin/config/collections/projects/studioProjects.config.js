@@ -207,11 +207,18 @@ export default {
                 {
                     "label": "logos",
                     "name": "logos",
-                    "widget": "image",
-                    "required": false,
-                    "choose_url":  false,
-                    "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                    "public_folder": "/img/projects/{{fields.modalID}}"
+                    "widget": "list",
+                    "fields": [
+                        {
+                            "label": "logo",
+                            "name": "logo",
+                            "widget": "image",
+                            "required": false,
+                            "choose_url":  false,
+                            "media_folder": "/assets/img/projects/{{fields.modalID}}",
+                            "public_folder": "/img/projects/{{fields.modalID}}"
+                        }
+                    ]
                 }
             ]
         },
