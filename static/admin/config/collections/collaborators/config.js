@@ -34,7 +34,7 @@ export default {
                             "label": "Icon research",
                             "name": "icon_research",
                             "widget": "image",
-                            "choose_url": "false",
+                            "choose_url":  false,
                             "media_folder": "/assets/img/clients",
                             "public_folder": "/img/clients"
                         },
@@ -42,7 +42,7 @@ export default {
                             "label": "Icon studio",
                             "name": "icon_studio",
                             "widget": "image",
-                            "choose_url": "false",
+                            "choose_url":  false,
                             "media_folder": "/assets/img/clients",
                             "public_folder": "/img/clients"
                         },
@@ -50,7 +50,7 @@ export default {
                             "label": "Icon active",
                             "name": "icon_active",
                             "widget": "image",
-                            "choose_url": "false",
+                            "choose_url":  false,
                             "media_folder": "/assets/img/clients",
                             "public_folder": "/img/clients"
                         }
@@ -88,22 +88,25 @@ export default {
                             "label": "Icon research",
                             "name": "icon_research",
                             "widget": "image",
-                                "media_folder": "/assets/img/partners",
-                                "public_folder": "/img/partners"
+                            "choose_url":  false,
+                            "media_folder": "/assets/img/partners",
+                            "public_folder": "/img/partners"
                         },
                         {
                             "label": "Icon studio",
                             "name": "icon_studio",
                             "widget": "image",
-                                "media_folder": "/assets/img/partners",
-                                "public_folder": "/img/partners"
+                            "choose_url":  false,
+                            "media_folder": "/assets/img/partners",
+                            "public_folder": "/img/partners"
                         },
                         {
                             "label": "Icon active",
                             "name": "icon_active",
                             "widget": "image",
-                                "media_folder": "/assets/img/partners",
-                                "public_folder": "/img/partners"
+                            "choose_url":  false,
+                            "media_folder": "/assets/img/partners",
+                            "public_folder": "/img/partners"
                         }
                     ]
                 }

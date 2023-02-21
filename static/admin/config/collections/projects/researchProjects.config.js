@@ -177,7 +177,7 @@ export default {
                             "label": "logo",
                             "name": "logo",
                             "widget": "image",
-                            "choose_url": "false",
+                            "choose_url":  false,
                             "media_folder": "/assets/img/projects/{{fields.modalID}}",
                             "public_folder": "/img/projects/{{fields.modalID}}"
                         }
@@ -200,7 +200,7 @@ export default {
                     "label": "src",
                     "name": "src",
                     "widget": "image",
-                    "choose_url": "false",
+                    "choose_url":  false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
                 },
@@ -233,7 +233,7 @@ export default {
                     "label": "preview",
                     "name": "preview",
                     "widget": "image",
-                    "choose_url": "false",
+                    "choose_url":  false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "img/projects/{{fields.modalID}}"
                 },
