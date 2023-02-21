@@ -90,8 +90,9 @@ export default {
             "label": "Thumbnail",
             "name": "thumbnail",
             "widget": "image",
-                "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                "public_folder": "/img/projects/{{fields.modalID}}"
+            "choose_url": "false",
+            "media_folder": "/assets/img/projects/{{fields.modalID}}",
+            "public_folder": "/img/projects/{{fields.modalID}}"
             },
         {
             "label": "Article title",
@@ -214,6 +215,7 @@ export default {
                             "label": "logo",
                             "name": "logo",
                             "widget": "image",
+                            "choose_url": "false",
                             "media_folder": "/assets/img/projects/{{fields.modalID}}",
                             "public_folder": "/img/projects/{{fields.modalID}}"
                         }
@@ -231,6 +233,7 @@ export default {
                     "label": "src",
                     "name": "src",
                     "widget": "image",
+                    "choose_url": "false",
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
                 },
@@ -263,6 +266,7 @@ export default {
                     "label": "preview",
                     "name": "preview",
                     "widget": "image",
+                    "choose_url": "false",
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "img/projects/{{fields.modalID}}"
                 },

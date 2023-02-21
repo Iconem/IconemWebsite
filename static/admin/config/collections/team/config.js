@@ -59,6 +59,7 @@ export default {
                             "label": "Img",
                             "name": "img",
                             "widget": "image",
+                            "choose_url": "false",
                             "media_folder": "/assets/img/team/{{fields.id}}",
                             "public_folder": "/img/team/{{fields.id}}"
                         },

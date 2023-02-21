@@ -61,12 +61,14 @@ export default {
                     "label": "Black",
                     "name": "black",
                     "widget": "image",
+                    "choose_url": "false",
                         "media_folder": "/static/img/home/",
                         "public_folder": "/img/home/"
                 },
                 {
                     "label": "White",
                     "name": "white",
+                    "choose_url": "false",
                     "widget": "image",
                         "media_folder": "/static/img/home/",
                         "public_folder": "/img/home/"
