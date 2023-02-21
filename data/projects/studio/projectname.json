@@ -9,7 +9,7 @@
   },
   "img": [
     {
-      "src": "https://via.placeholder.com/1920x1080.png?text=Project+picture",
+      "src": "/img/projects/projectname/project_picture.png",
       "caption": {
         "en": "Project caption",
         "fr": "Légende du projet"
@@ -29,7 +29,7 @@
     "en": "Thumbnail title",
     "fr": "Titre de la miniature"
   },
-  "thumbnail": "https://via.placeholder.com/450x257.png?text=Thumbnail+picture",
+  "thumbnail": "/img/projects/projectname/thumbnail_picture.png",
   "text": {
     "en": "Text description",
     "fr": "Texte description"
@@ -41,7 +41,7 @@
   "video": [
     {
       "src": "https://www.youtube.com/watch?v=EELW6fBNvKo",
-      "preview": "https://via.placeholder.com/1920x1080.png?text=Video+picture"
+      "preview": "img/projects/projectname/video_picture.png"
     }
   ],
   "actors": {
@@ -49,7 +49,7 @@
     "fr": "Acteur1, Acteur2",
     "logos": [
       {
-        "logo": "https://via.placeholder.com/80x60.png?text=Logo+picture"
+        "logo": "/img/projects/projectname/logo_picture.png"
       }
     ]
   }
