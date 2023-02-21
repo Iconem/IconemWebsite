@@ -208,27 +208,11 @@ export default {
                     "label": "logos",
                     "name": "logos",
                     "widget": "image",
+                    "required": false,
                     "choose_url":  false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
                 }
-                // {
-                //     "label": "logos",
-                //     "name": "logos",
-                //     "required": false,
-                //     "widget": "list",
-                //     "summary": "{{fields.name}}",
-                //     "fields": [
-                //         {
-                //             "label": "logos",
-                //             "name": "logos",
-                //             "widget": "image",
-                //             "choose_url":  false,
-                //             "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                //             "public_folder": "/img/projects/{{fields.modalID}}"
-                //         }
-                //     ]
-                // },
             ]
         },
         {
