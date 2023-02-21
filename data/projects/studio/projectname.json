@@ -50,6 +50,9 @@
     "logos": [
       {
         "logo": "/img/projects/projectname/logo_picture.png"
+      },
+      {
+        "logo": "/img/projects/projectname/logo_picture.png"
       }
     ]
   }
