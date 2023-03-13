@@ -45,13 +45,15 @@ export default {
                                     "label": "En",
                                     "name": "en",
                                     "widget": "string",
-                                    "default": "Job description"
+                                    "default": "Job description",
+                                    "required": false
                                 },
                                 {
                                     "label": "Fr",
                                     "name": "fr",
                                     "widget": "string",
                                     "default": "Descriptif de poste",
+                                    "required": false
                                 }
                             ]
                         },
