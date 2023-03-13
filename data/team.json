@@ -155,6 +155,45 @@
       "id": "elina",
       "name": "Elina Thoumieux",
       "img": "/img/team/elina-thoumieux-pi.jpg"
+    },
+    {
+      "job": {
+        "en": "Software engineer",
+        "fr": "Ingénieur développement informatique"
+      },
+      "description": {
+        "en": "_",
+        "fr": "_"
+      },
+      "id": "andrea",
+      "name": "Andrea Louis",
+      "img": "/img/team/tmp.png"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "GRAPHIC DESIGNER"
+      },
+      "description": {
+        "en": "_",
+        "fr": "_"
+      },
+      "id": "yoann",
+      "name": "Yoann Siohan",
+      "img": "/img/team/yoann.jpg"
+    },
+    {
+      "job": {
+        "en": " Directrice administratrice et financière",
+        "fr": " Directrice administratrice et financière"
+      },
+      "description": {
+        "en": "_",
+        "fr": "_"
+      },
+      "id": "tamara",
+      "name": "Tamara Blaser",
+      "img": "/img/team/1640599745593-removebg-preview.png"
     }
   ]
 }
