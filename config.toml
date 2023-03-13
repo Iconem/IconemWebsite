@@ -47,7 +47,7 @@ baseUrl = "https://iconem.com/"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			link = "https://regal-rugelach-154b48.netlify.app"
+			link = "https://fr.iconem.com"
 			#link = "/fr"
 
 		[languages.fr.navigation.links]
