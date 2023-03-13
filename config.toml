@@ -3,14 +3,14 @@ googleAnalytics = ""
 DefaultContentLanguage = "en"
 #baseUrl = "https://iconem.com/fr/"
 #baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
-baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
+baseUrl = "https://iconem.com/"
 #baseUrl = "http://localhost:1313/"
 
 [languages]
 	[languages.en]
 	#baseUrl = "https://iconem.com/en/"
   	#baseUrl = "https://iconem.github.io/IconemWebsite/en/"
-  	baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
+  	baseUrl = "https://iconem.com/"
   	#baseUrl = "http://localhost:1313/"
 	name = "Iconem"
 	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
@@ -18,7 +18,7 @@ baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
 	[languages.fr]
 	  #baseUrl = "https://iconem.com/fr/"
   	#baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
-  	baseUrl = "https://regal-rugelach-154b48.netlify.app/"
+  	baseUrl = "https://fr.iconem.com"
   	#baseUrl = "http://localhost:1314/"
 	name = "Iconem"
 	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
@@ -63,7 +63,7 @@ baseUrl = "https://radiant-zabaione-e92fa0.netlify.app/"
 
 		[[languages.fr.navigation.lang]]
 			code = "en"
-			link = "https://radiant-zabaione-e92fa0.netlify.app/"
+			link = "https://iconem.com/"
 			#link = "/en"
 
 	# Home section
