@@ -1,19 +1,6 @@
 {
   "members": [
     {
-      "id": "caroline",
-      "name": "Caroline Ramond",
-      "job": {
-        "en": "Software Engineer",
-        "fr": "Ingénieur Développement Logiciel"
-      },
-      "img": "img/team/caroline.webp",
-      "description": {
-        "en": "",
-        "fr": ""
-      }
-    },
-    {
       "id": "etienne",
       "name": "étienne Tellier",
       "job": {
