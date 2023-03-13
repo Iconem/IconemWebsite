@@ -1,19 +1,6 @@
 {
   "members": [
     {
-      "id": "bastien",
-      "name": "Bastien Varoutsikos",
-      "job": {
-        "en": "Director of development",
-        "fr": "Directeur du développement"
-      },
-      "img": "img/team/bastien_bw.webp",
-      "description": {
-        "en": "Description",
-        "fr": "Description"
-      }
-    },
-    {
       "id": "caroline",
       "name": "Caroline Ramond",
       "job": {
@@ -22,8 +9,8 @@
       },
       "img": "img/team/caroline.webp",
       "description": {
-        "en": "Description",
-        "fr": "Description"
+        "en": "",
+        "fr": ""
       }
     },
     {
@@ -48,8 +35,8 @@
       },
       "img": "img/team/galdric_bw.webp",
       "description": {
-        "en": "Description",
-        "fr": "Description"
+        "en": "",
+        "fr": ""
       }
     },
     {
@@ -74,8 +61,8 @@
       },
       "img": "img/team/issanou.webp",
       "description": {
-        "en": "Description",
-        "fr": "Description"
+        "en": "",
+        "fr": ""
       }
     },
     {
@@ -136,8 +123,8 @@
         "fr": "Chargée de projet"
       },
       "description": {
-        "en": "_",
-        "fr": " _"
+        "en": "",
+        "fr": " "
       },
       "id": "bachaar",
       "name": "Bachaar Tarabay",
@@ -149,8 +136,8 @@
         "fr": "Exhibition project manager"
       },
       "description": {
-        "en": "_",
-        "fr": "__"
+        "en": "",
+        "fr": ""
       },
       "id": "elina",
       "name": "Elina Thoumieux",
@@ -162,8 +149,8 @@
         "fr": "Ingénieur développement informatique"
       },
       "description": {
-        "en": "_",
-        "fr": "_"
+        "en": "",
+        "fr": ""
       },
       "id": "andrea",
       "name": "Andrea Louis",
@@ -175,8 +162,8 @@
         "fr": "GRAPHIC DESIGNER"
       },
       "description": {
-        "en": "_",
-        "fr": "_"
+        "en": "",
+        "fr": ""
       },
       "id": "yoann",
       "name": "Yoann Siohan",
@@ -188,8 +175,8 @@
         "fr": " Directrice administratrice et financière"
       },
       "description": {
-        "en": "_",
-        "fr": "_"
+        "en": "",
+        "fr": ""
       },
       "id": "tamara",
       "name": "Tamara Blaser",
