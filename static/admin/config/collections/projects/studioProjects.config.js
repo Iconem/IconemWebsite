@@ -90,10 +90,10 @@ export default {
             "label": "Thumbnail",
             "name": "thumbnail",
             "widget": "image",
-            "choose_url":  false,
+            "choose_url": false,
             "media_folder": "/assets/img/projects/{{fields.modalID}}",
             "public_folder": "/img/projects/{{fields.modalID}}"
-            },
+        },
         {
             "label": "Article title",
             "name": "articleTitle",
@@ -208,16 +208,16 @@ export default {
                     "label": "logos",
                     "name": "logos",
                     "widget": "list",
-                    "field": 
-                        {
-                            "label": "logo",
-                            "name": "logo",
-                            "widget": "image",
-                            "required": false,
-                            "choose_url":  false,
-                            "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                            "public_folder": "/img/projects/{{fields.modalID}}"
-                        }
+                    "field":
+                    {
+                        "label": "logo",
+                        "name": "logo",
+                        "widget": "image",
+                        "required": false,
+                        "choose_url": false,
+                        "media_folder": "/assets/img/projects/{{fields.modalID}}",
+                        "public_folder": "/img/projects/{{fields.modalID}}"
+                    }
                 }
             ]
         },
@@ -231,7 +231,7 @@ export default {
                     "label": "src",
                     "name": "src",
                     "widget": "image",
-                    "choose_url":  false,
+                    "choose_url": false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
                 },
@@ -264,7 +264,7 @@ export default {
                     "label": "preview",
                     "name": "preview",
                     "widget": "image",
-                    "choose_url":  false,
+                    "choose_url": false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "img/projects/{{fields.modalID}}"
                 },
