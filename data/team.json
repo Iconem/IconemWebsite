@@ -80,7 +80,7 @@
     },
     {
       "id": "paul",
-      "name": "Paul Aubineau test",
+      "name": "Paul Aubineau",
       "job": {
         "en": "R&D Engineer, photogrammetry expert",
         "fr": "Ingénieur R&D, expert photogrammétrie"
@@ -136,8 +136,8 @@
         "fr": "Ingénieur développement informatique"
       },
       "description": {
-        "en": "",
-        "fr": ""
+        "en": "After graduating from La Sorbonne in humanities and from 42 School in computer science, Andrea started working at Iconem in the research and development team. She is implementing digital tools improving the accessibility and use of the data produced for the scientific community.",
+        "fr": "Diplômée de la Sorbonne en sciences humaines et de l'école 42 en informatique, Andréa travaille chez Iconem dans l'équipe recherche et développement. Elle participe à l'implémentation d'outils numériques facilitant l'accès et la mise en valeurs des données produites à destination de la communauté scientifique."
       },
       "id": "andrea",
       "name": "Andrea Louis",
