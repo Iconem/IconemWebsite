@@ -9,7 +9,7 @@ import about from "./collections/about/config.js";
 const config = {
   backend: {
     name: "git-gateway",
-    branch: "new",
+    branch: "master",
   },
   load_config_file: false,
   site_url: 'https://radiant-zabaione-e92fa0.netlify.app/',
