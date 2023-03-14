@@ -18,7 +18,7 @@ baseUrl = "https://iconem.com/"
 	[languages.fr]
 	  #baseUrl = "https://iconem.com/fr/"
   	#baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
-  	baseUrl = "https://fr.iconem.com"
+  	baseUrl = "https://iconem.fr"
   	#baseUrl = "http://localhost:1314/"
 	name = "Iconem"
 	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
@@ -47,7 +47,7 @@ baseUrl = "https://iconem.com/"
 
 		[[languages.en.navigation.lang]]
 			code = "fr"
-			link = "https://fr.iconem.com"
+			link = "https://iconem.fr"
 			#link = "/fr"
 
 		[languages.fr.navigation.links]
