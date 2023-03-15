@@ -1,7 +1,8 @@
 # Iconem Website
 
 ## 1. User's guide 
-User documentation is accessible on Iconem wiki : https://wiki.iconem.com/e/en/platform/documentation_utilisateurs/website-guide-utilisateur-cms
+User documentation is accessible on Iconem wiki https://wiki.iconem.com/e/en/platform/documentation_utilisateurs/website-guide-utilisateur-cms
+
 It explains how to add/modify data on the website using Netlify CMS.
 
 ## 2. Developer's guide
@@ -37,4 +38,5 @@ NetlifyCMS is added on top of the Hugo website to provide an easy way to modify 
 Every configuration related to NetlifyCMS is located in the /static/admin folder. In case we wanted to use the website as a "simple" static hugo website, we should just remove this folder.
 
 Hosting via Netlify: https://app.netlify.com/teams/iconem/overview
+
 NetlifyCMS documentation: https://decapcms.org/docs/intro/
