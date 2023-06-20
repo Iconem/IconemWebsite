@@ -105,19 +105,6 @@
       }
     },
     {
-      "job": {
-        "en": "CFO and HR Manager",
-        "fr": "CFO and HR Manager"
-      },
-      "description": {
-        "en": "",
-        "fr": ""
-      },
-      "id": "luc",
-      "name": "Luc Leconte",
-      "img": "/img/team/1676022670677-removebg-preview.png"
-    },
-    {
       "id": "marjorie",
       "name": "Marjorie Coulin",
       "job": {
