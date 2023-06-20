@@ -1,7 +1,7 @@
 {
   "thumbnailLocation": {
     "en": "Musée des Beaux Arts de Lyon",
-    "fr": "Musée des Beaux Arts de Lyon 2"
+    "fr": "Musée des Beaux Arts de Lyon"
   },
   "articleTitle": {
     "en": "Hippolyte, Paul, Auguste : Les Flandrin, Artistes et frères",
@@ -41,7 +41,7 @@
   },
   "thumbnailTitle": {
     "en": "Flandrin",
-    "fr": "Flandrinn"
+    "fr": "Flandrin"
   },
   "thumbnail": "img/projects/flandrin/flandrin_thumbnail.webp",
   "text": {
