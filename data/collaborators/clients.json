@@ -1,95 +1,102 @@
 {
-    "clients": [
-      {
-        "name": "Aga Khan Trust for Culture",
-        "link": "http://www.akdn.org/our-agencies/aga-khan-trust-culture",
-        "icon_research": "img/clients/aktc_Passifnoir.webp",
-        "icon_studio": "img/clients/aktc_Passif.webp",
-        "icon_active": "img/clients/aktc.webp"
-      },
-      {
-        "name": "Casa de Velazquez",
-        "link": "https://www.casadevelazquez.org/",
-        "icon_research": "img/clients/cdv_Passifnoir.webp",
-        "icon_studio": "img/clients/cdv_Passif.webp",
-        "icon_active": "img/clients/cdv.webp"
-      },
-      {
-        "name": "Ecole Française d'Athènes",
-        "link": "https://www.efa.gr",
-        "icon_research": "img/clients/efa_Passifnoir.webp",
-        "icon_studio": "img/clients/efa_Passif.webp",
-        "icon_active": "img/clients/efa.webp"
-      },
-      {
-        "name": "Google",
-        "link": "https://www.google.org/",
-        "icon_research": "img/clients/google_Passifnoir.webp",
-        "icon_studio": "img/clients/google_Passif.webp",
-        "icon_active": "img/clients/google.webp"
-      },
-      {
-        "name": "IMA - Institut du monde arabe",
-        "link": "https://www.imarabe.org/",
-        "icon_research": "img/clients/InstitutMondeArabe_Passifnoir.webp",
-        "icon_studio": "img/clients/InstitutMondeArabe_Passif.webp",
-        "icon_active": "img/clients/InstitutMondeArabe.webp"
-      },
-      {
-        "name": "Louvre",
-        "link": "https://www.louvre.fr/",
-        "icon_research": "img/clients/louvre_Passifnoir.webp",
-        "icon_studio": "img/clients/louvre_Passif.webp",
-        "icon_active": "img/clients/louvre.webp"
-      },
-      {
-        "name": "Ministère de la culture français",
-        "link": "http://www.culturecommunication.gouv.fr/",
-        "icon_research": "img/clients/mcc_Passifnoir.webp",
-        "icon_studio": "img/clients/mcc_Passif.webp",
-        "icon_active": "img/clients/mcc.webp"
-      },
-      {
-        "name": "MIT",
-        "link": "http://web.mit.edu/",
-        "icon_research": "img/clients/mit_Passifnoir.webp",
-        "icon_studio": "img/clients/mit_Passif.webp",
-        "icon_active": "img/clients/mit.webp"
-      },
-      {
-        "name": "Réunion des Musées Nationaux",
-        "link": "http://www.rmn.fr/",
-        "icon_research": "img/clients/rmn.webp",
-        "icon_studio": "img/clients/rmn_Passif.webp",
-        "icon_active": "img/clients/rmn.webp"
-      },
-      {
-        "name": "Société française de la direction des antiquités du Soudan",
-        "link": "http://sfdas.com/",
-        "icon_research": "img/clients/sfdas_Passifnoir.webp",
-        "icon_studio": "img/clients/sfdas_Passif.webp",
-        "icon_active": "img/clients/sfdas.webp"
-      },
-      {
-        "name": "Turquoise Moutain",
-        "link": "https://turquoisemountain.org//",
-        "icon_research": "img/clients/turquoisemountain_Passifnoir.webp",
-        "icon_studio": "img/clients/turquoisemountain_Passif.webp",
-        "icon_active": "img/clients/turquoisemountain.webp"
-      },
-      {
-        "name": "Unesco",
-        "link": "https://fr.unesco.org/",
-        "icon_research": "img/clients/unesco_Passifnoir.webp",
-        "icon_studio": "img/clients/unesco_Passif.webp",
-        "icon_active": "img/clients/unesco.webp"
-      },
-      {
-        "name": "UNIL - Université de Lausanne",
-        "link": "http://www.unil.ch/",
-        "icon_research": "img/clients/universiteLausanne_Passifnoir.webp",
-        "icon_studio": "img/clients/universiteLausanne_Passif.webp",
-        "icon_active": "img/clients/universiteLausanne.webp"
-      }
-    ]
-  }
+  "clients": [
+    {
+      "name": "Aga Khan Trust for Culture",
+      "link": "http://www.akdn.org/our-agencies/aga-khan-trust-culture",
+      "icon_research": "img/clients/aktc_Passifnoir.webp",
+      "icon_studio": "img/clients/aktc_Passif.webp",
+      "icon_active": "img/clients/aktc.webp"
+    },
+    {
+      "name": "Casa de Velazquez",
+      "link": "https://www.casadevelazquez.org/",
+      "icon_research": "img/clients/cdv_Passifnoir.webp",
+      "icon_studio": "img/clients/cdv_Passif.webp",
+      "icon_active": "img/clients/cdv.webp"
+    },
+    {
+      "name": "Ecole Française d'Athènes",
+      "link": "https://www.efa.gr",
+      "icon_research": "img/clients/efa_Passifnoir.webp",
+      "icon_studio": "img/clients/efa_Passif.webp",
+      "icon_active": "img/clients/efa.webp"
+    },
+    {
+      "name": "Google",
+      "link": "https://www.google.org/",
+      "icon_research": "img/clients/google_Passifnoir.webp",
+      "icon_studio": "img/clients/google_Passif.webp",
+      "icon_active": "img/clients/google.webp"
+    },
+    {
+      "name": "IMA - Institut du monde arabe",
+      "link": "https://www.imarabe.org/",
+      "icon_research": "img/clients/InstitutMondeArabe_Passifnoir.webp",
+      "icon_studio": "img/clients/InstitutMondeArabe_Passif.webp",
+      "icon_active": "img/clients/InstitutMondeArabe.webp"
+    },
+    {
+      "name": "Louvre",
+      "link": "https://www.louvre.fr/",
+      "icon_research": "img/clients/louvre_Passifnoir.webp",
+      "icon_studio": "img/clients/louvre_Passif.webp",
+      "icon_active": "img/clients/louvre.webp"
+    },
+    {
+      "name": "Ministère de la culture français",
+      "link": "http://www.culturecommunication.gouv.fr/",
+      "icon_research": "img/clients/mcc_Passifnoir.webp",
+      "icon_studio": "img/clients/mcc_Passif.webp",
+      "icon_active": "img/clients/mcc.webp"
+    },
+    {
+      "name": "MIT",
+      "link": "http://web.mit.edu/",
+      "icon_research": "img/clients/mit_Passifnoir.webp",
+      "icon_studio": "img/clients/mit_Passif.webp",
+      "icon_active": "img/clients/mit.webp"
+    },
+    {
+      "name": "Réunion des Musées Nationaux",
+      "link": "http://www.rmn.fr/",
+      "icon_research": "img/clients/rmn.webp",
+      "icon_studio": "img/clients/rmn_Passif.webp",
+      "icon_active": "img/clients/rmn.webp"
+    },
+    {
+      "name": "Société française de la direction des antiquités du Soudan",
+      "link": "http://sfdas.com/",
+      "icon_research": "img/clients/sfdas_Passifnoir.webp",
+      "icon_studio": "img/clients/sfdas_Passif.webp",
+      "icon_active": "img/clients/sfdas.webp"
+    },
+    {
+      "name": "Turquoise Moutain",
+      "link": "https://turquoisemountain.org//",
+      "icon_research": "img/clients/turquoisemountain_Passifnoir.webp",
+      "icon_studio": "img/clients/turquoisemountain_Passif.webp",
+      "icon_active": "img/clients/turquoisemountain.webp"
+    },
+    {
+      "name": "Unesco",
+      "link": "https://fr.unesco.org/",
+      "icon_research": "img/clients/unesco_Passifnoir.webp",
+      "icon_studio": "img/clients/unesco_Passif.webp",
+      "icon_active": "img/clients/unesco.webp"
+    },
+    {
+      "name": "UNIL - Université de Lausanne",
+      "link": "http://www.unil.ch/",
+      "icon_research": "img/clients/universiteLausanne_Passifnoir.webp",
+      "icon_studio": "img/clients/universiteLausanne_Passif.webp",
+      "icon_active": "img/clients/universiteLausanne.webp"
+    },
+    {
+      "name": "Cartier",
+      "link": "https://www.cartier.com/",
+      "icon_research": "/img/clients/cartier-logo.png",
+      "icon_active": "/img/clients/cartier-logo.png",
+      "icon_studio": "/img/clients/cartier-logo.png"
+    }
+  ]
+}
