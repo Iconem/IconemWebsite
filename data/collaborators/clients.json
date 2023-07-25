@@ -97,6 +97,13 @@
       "icon_research": "/img/clients/cartier-logo.png",
       "icon_active": "/img/clients/cartier_active.webp",
       "icon_studio": "/img/clients/cartier_white.webp"
+    },
+    {
+      "name": "Meta",
+      "link": "https://www.meta.com/",
+      "icon_research": "/img/clients/meta_black.png",
+      "icon_studio": "/img/clients/meta_white.png",
+      "icon_active": "/img/clients/meta_active.png"
     }
   ]
 }
