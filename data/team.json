@@ -118,6 +118,19 @@
       }
     },
     {
+      "job": {
+        "en": "Development Director",
+        "fr": "Directrice du Développement"
+      },
+      "description": {
+        "en": "Natalia Peters, an INSEAD MBA 99D graduate, has 20 years of experience in strategy consulting (Bain & Co, Bertelsmann AG), media (Condé Nast, Hachette), and business development for cultural institutions (V&A, RMN GP and other). She has worked for multicultural organizations in Russia, the United Kingdom, France, and Germany. Throughout her career, Natalia has been involved in all aspects of the exhibitions sector. In her role as the Development Director, she leverages her expertise to foster the growth of this direction at Iconem. ",
+        "fr": "Natalia Peters, diplômée de l'INSEAD MBA 99D, cumule 20 ans d'expérience dans le conseil en stratégie (Bain & Co, Bertelsmann AG), les médias (Condé Nast, Hachette) et le conseil en gestion d'institutions culturelles (V&A, RMN GP, etc.). Elle a travaillé au sein d'organisations multiculturelles ayant été basée en Russie, au Royaume-Uni, en France et en Allemagne. Tout au long de sa carrière, Natalia s'est impliquée dans tous les aspects du secteur des expositions. Elle occupe le poste de Directrice du Développement et compte mettre à profit son expertise afin de accroître cette orientation chez Iconem."
+      },
+      "id": "nataliacherginskayapeters",
+      "name": "Natalia Cherginskaya-Peters",
+      "img": "/img/team/natalia.png"
+    },
+    {
       "id": "paul",
       "name": "Paul Aubineau",
       "job": {
@@ -168,19 +181,6 @@
         "en": "Architect since 2006, Yves Ubelmann began his career working in the Middle East and Central Asia, where he carried out surveys of archeological sites using photogrammetry. In 2013, he founded the ICONEM start-up whose mission is to digitize endangered heritage sites around the world to ensure their transmission to future generations.",
         "fr": "Yves Ubelmann est architecte de formation, et a reçu son diplôme de l’école d’architecture de Versailles en 2006. De 2006 à 2010, il a travaillé comme architecte indépendant en Syrie, Iran, Afghanistan, au Pakistan, pour le relevé, l’étude et l’interprétation de sites archéologiques. Dans ce cadre, il a développé depuis 2009 une nouvelle approche de la photogrammétrie pour le relevé des sites archéologiques. De 2010 à 2011, il a travaillé comme ingénieur spécialisé au joint center Microsoft Research – INRIA, avec le département d’informatique de l’ENS (Ecole Normale Supérieure), pour développer et utiliser des méthodes de numérisations 3D basées sur des algorithmes de reconstruction photogrammétrique récents. En 2013, il a cofondé la société ICONEM, qui développe de nouvelles solutions de numérisation 3D d’environnements ou d’architectures, et travaille entre autres pour l’UNESCO ou la Banque Mondiale sur des projets internationaux de numérisation du patrimoine archéologique."
       }
-    },
-    {
-      "job": {
-        "en": "Development Director",
-        "fr": "Directrice du Développement"
-      },
-      "description": {
-        "en": "Natalia Peters, an INSEAD MBA 99D graduate, has 20 years of experience in strategy consulting (Bain & Co, Bertelsmann AG), media (Condé Nast, Hachette), and business development for cultural institutions (V&A, RMN GP and other). She has worked for multicultural organizations in Russia, the United Kingdom, France, and Germany. Throughout her career, Natalia has been involved in all aspects of the exhibitions sector. In her role as the Development Director, she leverages her expertise to foster the growth of this direction at Iconem. ",
-        "fr": "Natalia Peters, diplômée de l'INSEAD MBA 99D, cumule 20 ans d'expérience dans le conseil en stratégie (Bain & Co, Bertelsmann AG), les médias (Condé Nast, Hachette) et le conseil en gestion d'institutions culturelles (V&A, RMN GP, etc.). Elle a travaillé au sein d'organisations multiculturelles ayant été basée en Russie, au Royaume-Uni, en France et en Allemagne. Tout au long de sa carrière, Natalia s'est impliquée dans tous les aspects du secteur des expositions. Elle occupe le poste de Directrice du Développement et compte mettre à profit son expertise afin de accroître cette orientation chez Iconem."
-      },
-      "id": "nataliacherginskayapeters",
-      "name": "Natalia Cherginskaya-Peters",
-      "img": "/img/team/natalia.png"
     }
   ]
 }
