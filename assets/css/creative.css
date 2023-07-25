@@ -201,9 +201,9 @@ section {
     letter-spacing: 0.2em;
 }
 
-.navbar-default >div {
-  padding-left:0px;
-  padding-right:0px;
+.navbar-default > div {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .navbar-default.affix {
@@ -512,6 +512,7 @@ a.photo-box:hover img {
 /* PARTNERS / CLIENTS SECTION */
 #partners a img,
 #clients a img {
+    object-fit: contain;
     height: 50px;
     width: 100px;
     margin: 10px 15px;
@@ -537,7 +538,7 @@ a.photo-box:hover img {
 
 #contact .contact-container .contact-item img {
     min-height: 30px;
-    max-height: 30px;  
+    max-height: 30px;
     margin-bottom: 10px;
     opacity: 100%;
 }
