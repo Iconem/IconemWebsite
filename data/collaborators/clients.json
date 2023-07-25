@@ -95,8 +95,8 @@
       "name": "Cartier",
       "link": "https://www.cartier.com/",
       "icon_research": "/img/clients/cartier-logo.png",
-      "icon_active": "/img/clients/cartier-logo.png",
-      "icon_studio": "/img/clients/cartier-logo.png"
+      "icon_active": "/img/clients/cartier_active.webp",
+      "icon_studio": "/img/clients/cartier_white.webp"
     }
   ]
 }
