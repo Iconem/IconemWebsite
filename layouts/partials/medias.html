@@ -8,7 +8,7 @@
                 <div class="item">
                     {{ if eq $type "studio" }}
                         <a href="{{ .link }}" target="_blank">
-                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}">
+                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_studio).Fit "100x50").RelPermalink }}">
                                 <div class="quote-container">
                                     <span class="quote">{{ .quote }}</span>
                                     <cite class="article-title">{{ .title }}</cite>
@@ -18,7 +18,7 @@
                     {{ end }}
                     {{ if eq $type "research" }}
                         <a href="{{ .link }}" target="_blank">
-                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}">
+                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_research).Fit "100x50").RelPermalink }}">
                                 <div class="quote-container">
                                     <span class="quote">{{ .quote }}</span>
                                     <cite class="article-title">{{ .title }}</cite>
