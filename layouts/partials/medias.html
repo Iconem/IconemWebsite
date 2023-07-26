@@ -4,7 +4,7 @@
 <section id="medias">
     <div class="row text-center">
         <div class="owl-carousel medias-carousel">
-            {{ range $index, $element := .Site.Data.medias.medias.medias }} 
+            {{ range .Site.Data.medias.medias.medias }}
                 <div class="item">
                     {{ if eq $type "studio" }}
                         <a href="{{ .link }}" target="_blank">
