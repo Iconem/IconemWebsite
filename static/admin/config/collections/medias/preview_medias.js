@@ -8,13 +8,13 @@ export default createClass({
     componentDidUpdate() {
         if (typeof this.props.window.$ != "undefined") {
             typeof this.props.window.$("#medias .owl-carousel").owlCarousel({
-                nav: false,
-                dots: false,
-                autoplay: true,
-                autoWidth: true,
-                autoplayHoverPause: false,
-                autoplayTimeout: 5000,
-                rewind: true,
+              nav: false,
+              dots: false,
+              autoplay: true,
+              autoWidth: false,
+              autoplayHoverPause: false,
+              autoplayTimeout: 5000,
+              rewind: true
             });
         }
     },
