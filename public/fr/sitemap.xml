@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/research/</loc>
+    <loc>https://iconem.fr/research/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/research/"
+                href="https://iconem.com/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/research/"
+                href="https://iconem.fr/research/"
                 />
   </url><url>
-    <loc>http://localhost:1314/studio/</loc>
+    <loc>https://iconem.fr/studio/</loc>
     <lastmod>2021-01-12T11:03:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/studio/"
+                href="https://iconem.com/studio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/studio/"
+                href="https://iconem.fr/studio/"
                 />
   </url><url>
-    <loc>http://localhost:1314/categories/</loc>
+    <loc>https://iconem.fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://iconem.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/categories/"
+                href="https://iconem.fr/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1314/</loc>
+    <loc>https://iconem.fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://iconem.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/"
+                href="https://iconem.fr/"
                 />
   </url><url>
-    <loc>http://localhost:1314/tags/</loc>
+    <loc>https://iconem.fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://iconem.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1314/tags/"
+                href="https://iconem.fr/tags/"
                 />
   </url>
 </urlset>

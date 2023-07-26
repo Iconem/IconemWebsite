@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iconem</title>
-    <link>http://localhost:1313/</link>
+    <link>https://iconem.com/</link>
     <description>Recent content on Iconem</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://iconem.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://iconem.com/research/</link>
       <pubDate>Tue, 12 Jan 2021 11:03:48 +0100</pubDate>
       
-      <guid>http://localhost:1313/research/</guid>
+      <guid>https://iconem.com/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/studio/</link>
+      <link>https://iconem.com/studio/</link>
       <pubDate>Tue, 12 Jan 2021 11:03:48 +0100</pubDate>
       
-      <guid>http://localhost:1313/studio/</guid>
+      <guid>https://iconem.com/studio/</guid>
       <description></description>
     </item>
     
