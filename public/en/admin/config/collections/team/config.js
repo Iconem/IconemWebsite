@@ -45,13 +45,15 @@ export default {
                                     "label": "En",
                                     "name": "en",
                                     "widget": "string",
-                                    "default": "Job description"
+                                    "default": "Job description",
+                                    "required": false
                                 },
                                 {
                                     "label": "Fr",
                                     "name": "fr",
                                     "widget": "string",
                                     "default": "Descriptif de poste",
+                                    "required": false
                                 }
                             ]
                         },
@@ -59,6 +61,7 @@ export default {
                             "label": "Img",
                             "name": "img",
                             "widget": "image",
+                            "choose_url":  false,
                             "media_folder": "/assets/img/team/{{fields.id}}",
                             "public_folder": "/img/team/{{fields.id}}"
                         },

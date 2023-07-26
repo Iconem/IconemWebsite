@@ -1,0 +1,39 @@
+{{ "<!-- Partners -->" | safeHTML }}
+{{ $lang := .Site.Language.Lang }}
+{{ $type := .Type }}
+<section id="medias">
+    <div class="row text-center">
+        <div class="owl-carousel medias-carousel">
+            {{ range $index, $element := .Site.Data.medias.medias.medias }} 
+                <div class="item">
+                    {{ if eq $type "studio" }}
+                        <a href="{{ .link }}" target="_blank">
+                            <img src="{{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}" 
+                                onmouseenter="this.src={{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}"
+                                onmouseleave="this.src={{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}"
+                            >
+                                <div class="quote-container">
+                                    <span class="quote">{{ .quote }}</span>
+                                    <cite class="article-title">{{ .title }}</cite>
+                                </div>
+                            </img>
+                        </a>
+                    {{ end }}
+                    {{ if eq $type "research" }}
+                        <a href="{{ .link }}" target="_blank">
+                            <img src="{{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}" 
+                            onmouseenter="this.src={{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}"
+                            onmouseleave="this.src={{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}"
+                            >
+                                <div class="quote-container">
+                                    <span class="quote">{{ .quote }}</span>
+                                    <cite class="article-title">{{ .title }}</cite>
+                                </div>
+                            </img>
+                        </a>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

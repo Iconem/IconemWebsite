@@ -4,6 +4,7 @@ export default {
     "folder": "data/projects/studio",
     "format": "json",
     "extension": "json",
+    "identifier_field": "modalID",
     "create": true,
     "slug": "{{slug}}",
     "editor": {
@@ -68,6 +69,7 @@ export default {
                     "name": "en",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -77,6 +79,7 @@ export default {
                     "name": "fr",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -87,9 +90,10 @@ export default {
             "label": "Thumbnail",
             "name": "thumbnail",
             "widget": "image",
-                "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                "public_folder": "/img/projects/{{fields.modalID}}"
-            },
+            "choose_url": false,
+            "media_folder": "/assets/img/projects/{{fields.modalID}}",
+            "public_folder": "/img/projects/{{fields.modalID}}"
+        },
         {
             "label": "Article title",
             "name": "articleTitle",
@@ -143,6 +147,7 @@ export default {
                     "name": "en",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -152,6 +157,7 @@ export default {
                     "name": "fr",
                     "required": false,
                     "widget": "datetime",
+                    "format": 'MM. YYYY',
                     "date_format": "MM.YYYY",
                     "time_format": "",
                     "default": ""
@@ -201,10 +207,17 @@ export default {
                 {
                     "label": "logos",
                     "name": "logos",
-                    "required": false,
-                    "widget": "image",
-                    "media_folder": "/assets/img/projects/{{fields.modalID}}",
-                    "public_folder": "/img/projects/{{fields.modalID}}"
+                    "widget": "list",
+                    "field":
+                    {
+                        "label": "logo",
+                        "name": "logo",
+                        "widget": "image",
+                        "required": false,
+                        "choose_url": false,
+                        "media_folder": "/assets/img/projects/{{fields.modalID}}",
+                        "public_folder": "/img/projects/{{fields.modalID}}"
+                    }
                 }
             ]
         },
@@ -218,6 +231,7 @@ export default {
                     "label": "src",
                     "name": "src",
                     "widget": "image",
+                    "choose_url": false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "/img/projects/{{fields.modalID}}"
                 },
@@ -250,6 +264,7 @@ export default {
                     "label": "preview",
                     "name": "preview",
                     "widget": "image",
+                    "choose_url": false,
                     "media_folder": "/assets/img/projects/{{fields.modalID}}",
                     "public_folder": "img/projects/{{fields.modalID}}"
                 },

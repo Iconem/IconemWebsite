@@ -183,6 +183,7 @@ a:visited {
 
 /* ICONEM MAP*/
 #map {
+    margin: 80px 0;
     background: rgba(255, 255, 255, 0.9);
 }
 
@@ -544,7 +545,6 @@ header .header-footer a img:hover {
 }
 
 #about {
-    margin: 80px 0;
     padding:0;
 }
 
@@ -741,5 +741,9 @@ header .header-footer a img:hover {
 }
 
 #partners h3{
+    color:black;
+}
+
+#medias h3{
     color:black;
 }

@@ -22,6 +22,10 @@
             {{ partial "about.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.medias }}
+            {{ partial "medias.html" . }}
+        {{ end }}
+
         <!-- {{ if .Site.Params.contribute }}
             {{ partial "contribute.html" . }}
         {{ end }} -->
@@ -30,7 +34,6 @@
         {{ if .Site.Params.partners }}
             {{ partial "partners.html" . }}
         {{ end }}
-
 
         {{ if .Site.Params.contact }}
             {{ partial "contact.html" . }}

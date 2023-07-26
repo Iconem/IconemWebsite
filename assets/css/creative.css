@@ -509,8 +509,9 @@ a.photo-box:hover img {
     display: flex;
 }
 
-/* PARTNERS / CLIENTS SECTION */
+/* PARTNERS / CLIENTS / MEDIAS SECTION */
 #partners a img,
+#medias a img,
 #clients a img {
     object-fit: contain;
     height: 50px;
@@ -627,4 +628,59 @@ a.photo-box:hover img {
 
 #partners .partners-carousel .owl-stage {
     margin: auto;
+}
+
+#medias {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#medias .medias-carousel {
+    margin-bottom: 30px;
+}
+
+#medias .medias-carousel .owl-stage {
+    margin: auto;
+}
+
+#medias a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#medias .quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#medias .quote::before {
+    font-weight: bold;
+    content: "“";
+    font-size: 1.5em;
+}
+
+#medias .quote::after {
+    font-weight: bold;
+    content: "”";
+    font-size: 1.5em;
+}
+
+#medias .quote {
+    text-align: left;
+    margin-left:10px;
+}
+
+#medias .article-title {
+    font-size: 1em;
+    font-style: italic;
+    color: gray;
+    text-align: right;
+    margin-top: 5px;
 }

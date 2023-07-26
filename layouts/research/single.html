@@ -20,6 +20,10 @@
             {{ partial "about.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.medias }}
+            {{ partial "medias.html" . }}
+        {{ end }}
+
         {{ partial "map.html" . }}
 
         {{ partial "team.html" . }}

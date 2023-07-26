@@ -233,6 +233,14 @@ baseUrl = "https://iconem.com/"
 		clients = "Clients"
 		partners = "Partenaires"
 
+	# Medias
+	[params.medias]
+		enabled = true
+	[languages.en.medias]
+		medias = "Medias"
+	[languages.fr.medias]
+		medias = "Medias"
+
 	# Footer
 	[params.footer]
 		content = "© 2021 Iconem. All rights reserved."
