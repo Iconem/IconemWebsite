@@ -1,10 +1,10 @@
-
 const { CMS, initCMS: init } = window;
 import config from "./config/index.js";
 import projectPreview from "./config/collections/projects/preview.js";
 import teamPreview from "./config/collections/team/preview.js";
 import clientsPreview from "./config/collections/collaborators/preview_clients.js";
 import partnersPreview from "./config/collections/collaborators/preview_partners.js";
+import mediasPreview from "./config/collections/medias/preview_medias.js";
 import mapPreview from "./config/collections/map/preview.js";
 import aboutPreview from "./config/collections/about/preview.js";
 
@@ -17,5 +17,6 @@ CMS.registerPreviewTemplate("researchProjects", projectPreview);
 CMS.registerPreviewTemplate("team", teamPreview);
 CMS.registerPreviewTemplate("partners", partnersPreview);
 CMS.registerPreviewTemplate("clients", clientsPreview);
+CMS.registerPreviewTemplate("medias", mediasPreview);
 CMS.registerPreviewTemplate("map", mapPreview);
 CMS.registerPreviewTemplate("about", aboutPreview);
