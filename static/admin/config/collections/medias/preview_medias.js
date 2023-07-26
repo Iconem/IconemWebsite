@@ -41,25 +41,25 @@ export default createClass({
         const html = `
         <section id="medias">
           <div class="row text-center">
-            <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-                <h3 class="text-bold text-uppercase section-title">Medias</h3>
-                <hr class="light">
-                <div class="owl-carousel medias-carousel">
+              <div class="owl-carousel medias-carousel">
                 ${medias
                     .map(
                         (el) => `
-                            <div class="item">
-                                <a href="${el.link}" target="_blank">
-                                    <img src="${el.icon_studio}" onmouseenter="this.src='${el.icon_active}'" onmouseleave="this.src='${el.icon_studio}'" />
-                                </a>
-                            </div>`
+                      <div class="item">
+                        <a href="${el.link}" target="_blank">
+                            <img src="${el.icon_studio}">
+                                <div class="quote-container">
+                                    <span class="quote">${el.quote}</span>
+                                    <cite class="article-title">${el.title}</cite>
+                                </div>
+                            </img>
+                        </a>
+                      </div>`
                     )
-                    .join("")}
-                </div>
-            </div>
+                    .join("")}    
+              </div>
           </div>
-        </section>
-        `;
+        </section>`;
         return h("div", {
             dangerouslySetInnerHTML: { __html: html },
         });
