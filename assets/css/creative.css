@@ -652,32 +652,54 @@ a.photo-box:hover img {
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin-left: 50px;
 }
 
-#medias .quote-container {
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#medias a img {
+    object-fit: contain;
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.quote-container {
     display: flex;
     flex-direction: column;
+    position: relative; 
+    margin: 10px; /* Add margin to the entire container */
 }
 
-#medias .quote::before {
-    font-weight: bold;
-    content: "“";
-    font-size: 1.5em;
-}
-
-#medias .quote::after {
-    font-weight: bold;
-    content: "”";
-    font-size: 1.5em;
-}
-
-#medias .quote {
+.quote {
     text-align: left;
-    margin-left:10px;
+    position: relative;
+    padding: 10px 14px; /* Adjust this padding to create space for the large quotation marks */
 }
 
-#medias .article-title {
+.quote::before, .quote::after {
+    font-weight: bold;
+    font-size: 2em; /* Adjust size as needed */
+    position: absolute;
+    color: #ccc; /* Adjust color as needed */
+}
+
+.quote::before {
+    content: "“";
+    top: 0;
+    left: 0;
+}
+
+.quote::after {
+    content: "”";
+    bottom: 0;
+    right: 0;
+}
+
+.article-title {
     font-size: 1em;
     font-style: italic;
     color: gray;

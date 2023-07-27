@@ -8,22 +8,24 @@
                 <div class="item">
                     {{ if eq $type "studio" }}
                         <a href="{{ .link }}" target="_blank">
-                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}">
-                                <div class="quote-container">
-                                    <span class="quote">{{ .quote }}</span>
+                            <div class="quote-container">
+                                <div class="title-container">
+                                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_studio).Fit "100x50 webp").RelPermalink }}">
                                     <cite class="article-title">{{ .title }}</cite>
                                 </div>
-                            </img>
+                                <span class="quote">{{ .quote }}</span>
+                            </div>
                         </a>
                     {{ end }}
                     {{ if eq $type "research" }}
                         <a href="{{ .link }}" target="_blank">
-                            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}">
-                                <div class="quote-container">
-                                    <span class="quote">{{ .quote }}</span>
+                            <div class="quote-container">
+                                <div class="title-container">
+                                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}">
                                     <cite class="article-title">{{ .title }}</cite>
                                 </div>
-                            </img>
+                                <span class="quote">{{ .quote }}</span>
+                            </div>
                         </a>
                     {{ end }}
                 </div>
