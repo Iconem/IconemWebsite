@@ -1,96 +1,96 @@
 {
-    "modalID": "carcassonne",
-    "thumbnailTitle": {
-        "en": "Carcassonne",
-        "fr": "Carcassonne"
+  "thumbnailLocation": {
+    "en": "Carcassonne",
+    "fr": "Carcassonne"
+  },
+  "articleTitle": {
+    "en": "Carcassonne",
+    "fr": "Carcassonne"
+  },
+  "img": [
+    {
+      "src": "img/projects/carcassonne/rendu_00008.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/carcassonne/rendu_00001.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2020",
-        "fr": "2020"
+    {
+      "src": "img/projects/carcassonne/rendu_00002.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/carcassonne/rendu_00008_thumbnail.webp",
-    "articleTitle": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/carcassonne/rendu_00003.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/carcassonne/rendu_00005.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/carcassonne/rendu_00007.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "The fortifications of the City of Carcassonne were built in the Gallo-Roman era and  have experienced many upheavals over the centuries. Visitors can discover, noticing materials and architecture, the eventful episodes of the history of the City. On the other hand, it is more difficult to understand the importance of the ramparts in a broader context. Iconem was asked to propose a new visual language for representing heritage using the technique of aerial photogrammetry, by digitizing the entire City. The “Ellipse” project offers an artistic installation containing a 360° immersive space. This mediation place aims to promote local digital creation and to host an attractive program within its walls, even encouraging people from Carcassonne to re-visit this place in a new way.",
-        "fr": "Édifiée à l’époque gallo-romaine, les fortifications de la Cité de Carcassonne ont connu au cours des siècles de nombreux bouleversements. Les visiteurs peuvent encore découvrir dans leurs matériaux et architecture les épisodes mouvementés de l’histoire de la Cité. Il est en revanche plus difficile de comprendre l’importance des remparts dans un contexte plus large. Dans cette optique, Iconem a été sollicitée afin de proposer un nouveau langage visuel de représentation du patrimoine grâce à la technique de la photogrammétrie aérienne, en numérisant l’intégralité de la Cité.  Le projet “Ellipse” propose une installation artistique contenant un espace immersif à 360°. Ce lieu de médiation a pour objectif de valoriser la création numérique locale et d'accueillir en ses murs une programmation attractive incitant mêmement les carcassonnais à re-visiter ce lieu de manière inédite."
+    {
+      "src": "img/projects/carcassonne/carcassonnes_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "",
-        "fr": "",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/carcassonne/rendu_00008.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/rendu_00001.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/rendu_00002.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/rendu_00003.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/rendu_00005.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/rendu_00007.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/carcassonnes_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/carcassonne/carcassonnes_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+    {
+      "src": "img/projects/carcassonne/carcassonnes_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "carcassonne",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Carcassonne",
+    "fr": "Carcassonne"
+  },
+  "thumbnail": "img/projects/carcassonne/rendu_00008_thumbnail.webp",
+  "text": {
+    "en": "The fortifications of the City of Carcassonne were built in the Gallo-Roman era and  have experienced many upheavals over the centuries. Visitors can discover, noticing materials and architecture, the eventful episodes of the history of the City. On the other hand, it is more difficult to understand the importance of the ramparts in a broader context. Iconem was asked to propose a new visual language for representing heritage using the technique of aerial photogrammetry, by digitizing the entire City. The “Ellipse” project offers an artistic installation containing a 360° immersive space. This mediation place aims to promote local digital creation and to host an attractive program within its walls, even encouraging people from Carcassonne to re-visit this place in a new way.",
+    "fr": "Édifiées à l’époque gallo-romaine, les fortifications de la Cité de Carcassonne ont connu au cours des siècles de nombreux bouleversements. Les visiteurs peuvent encore découvrir dans leurs matériaux et architecture les épisodes mouvementés de l’histoire de la Cité. Il est en revanche plus difficile de comprendre l’importance des remparts dans un contexte plus large. Dans cette optique, Iconem a été sollicitée afin de proposer un nouveau langage visuel de représentation du patrimoine grâce à la technique de la photogrammétrie aérienne, en numérisant l’intégralité de la Cité.  Le projet “Ellipse” propose une installation artistique contenant un espace immersif à 360°. Ce lieu de médiation a pour objectif de valoriser la création numérique locale et d'accueillir en ses murs une programmation attractive incitant mêmement les carcassonnais à re-visiter ce lieu de manière inédite."
+  },
+  "thumbnailDate": {
+    "en": "2020",
+    "fr": "2020"
+  },
+  "video": [],
+  "actors": {
+    "en": "",
+    "fr": "",
+    "logos": []
+  }
 }
