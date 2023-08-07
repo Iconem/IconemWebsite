@@ -1,47 +1,47 @@
 {
-    "modalID": "compiegne",
-    "thumbnailTitle": {
-        "en": "Compiègne",
-        "fr": "Compiègne"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2020",
-        "fr": "2020"
-    },
-    "thumbnail": "img/projects/compiegne/compiegne_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitasation of the city of Compiègne",
-        "fr": "Numérisation du patrimoine bâti de la ville de Compiègne"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "At the behest of the City of Compiègne, our team was commissioned to digitize its entire historic center in February 2020. Located in Oise, north-east of Paris, the historic city center of Compiègne used to be the French Crown residence after the 6th century and includes many emblematic heritage monuments such as the Imperial Palace, the Town Hall, the King's Stables or the Saint-Jacques church. The half-timbered houses, some dating from the 15th century, also bear witness to the flourishing past of this part of the town. During our mission, we had a drone and captations par hélicoptère to cover an area of ​​150 ha. Some of these buildings are classified as historical monuments and have benefited from a greater precision digitization, including the Town Hall of Compiègne, which was erected in the 16th century. The 3D model of Compiègne created by Iconem will serve as visual documentation for heritage stakeholders and will also be presented to the general public at the Antoine-Vivenel Museum.",
-        "fr": "À la demande de la Ville de Compiègne, notre équipe a été missionnée afin de numériser l'intégralité de son centre historique en février 2020. Situé dans l’Oise, au nord-est de Paris, le centre-ville historique de Compiègne a servi dès le VIème siècle de résidence pour la couronne française et comprend de nombreux monuments patrimoniaux emblématiques tels que le château, l'hôtel de ville, les écuries du roi ou encore l'église Saint-Jacques. Les maisons à colombages, pour certaines datées du XVème siècle, témoignent elles aussi du passé florissant de cette partie de la ville. Notre mission a eu recours à un drone et a réalisé des captations par hélicoptère afin de couvrir une zone de 150 hectares. Une partie de ces édifices classés au titre des monuments historiques ont bénéficié d’une numérisation d’une plus grande précision dont l'Hôtel de Ville de Compiègne, érigé au XVIème siècle. Dans un souci de préservation, le modèle 3D de Compiègne créé par Iconem servira de documentation visuelle aux acteurs du patrimoine et sera également présenté au grand public au centre immersif historique du Musée Antoine-Vivenel."
-    },
-    "actors": {
-        "en": "Iconem, Ville de Compiègne",
-        "fr": "Iconem, Ville de Compiègne",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/compiegne/compiegne_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "Antoine Vivenel Museum, Compiègne",
+    "fr": "Musée Antoine Vivenel, Compiègne"
+  },
+  "articleTitle": {
+    "en": "Digitasation of the city of Compiègne",
+    "fr": "Numérisation du patrimoine bâti de la ville de Compiègne"
+  },
+  "img": [
+    {
+      "src": "img/projects/compiegne/compiegne_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "compiegne",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Compiègne",
+    "fr": "Compiègne"
+  },
+  "thumbnail": "img/projects/compiegne/compiegne_thumbnail.webp",
+  "text": {
+    "en": "At the behest of the City of Compiègne, our team was commissioned to digitize its entire historic center in February 2020. Located in Oise, north-east of Paris, the historic city center of Compiègne used to be the French Crown residence after the 6th century and includes many emblematic heritage monuments such as the Imperial Palace, the Town Hall, the King's Stables or the Saint-Jacques church. The half-timbered houses, some dating from the 15th century, also bear witness to the flourishing past of this part of the town. During our mission, we had a drone and captations par hélicoptère to cover an area of ​​150 ha. Some of these buildings are classified as historical monuments and have benefited from a greater precision digitization, including the Town Hall of Compiègne, which was erected in the 16th century. The 3D model of Compiègne created by Iconem will serve as visual documentation for heritage stakeholders and will also be presented to the general public at the Antoine-Vivenel Museum.",
+    "fr": "À la demande de la Ville de Compiègne, notre équipe a numérisé l'intégralité de son centre historique en février 2020. Situé dans l’Oise, au nord-est de Paris, le centre-ville historique de Compiègne a servi dès le VIème siècle de résidence pour la couronne française et comprend de nombreux monuments patrimoniaux emblématiques tels que le château, l'hôtel de ville, les écuries du roi ou encore l'église Saint-Jacques. Les maisons à colombages, pour certaines datées du XVème siècle, témoignent elles aussi du passé florissant de cette partie de la ville. Notre mission a eu recours à un drone et a réalisé des captations par hélicoptère afin de couvrir une zone de 150 hectares. Une partie de ces édifices classés au titre des monuments historiques ont bénéficié d’une numérisation d’une plus grande précision dont l'Hôtel de Ville de Compiègne, érigé au XVIème siècle. Dans un souci de préservation, le modèle 3D de Compiègne créé par Iconem servira de documentation visuelle aux acteurs du patrimoine et sera également présenté au grand public au centre immersif historique du Musée Antoine-Vivenel."
+  },
+  "thumbnailDate": {
+    "en": "2020",
+    "fr": "2020"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, Ville de Compiègne",
+    "fr": "Iconem, Ville de Compiègne",
+    "logos": []
+  }
 }
