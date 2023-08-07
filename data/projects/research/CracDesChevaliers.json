@@ -1,47 +1,47 @@
 {
-    "modalID": "cracdeschevaliers",
-    "thumbnailTitle": {
-        "en": "Crac des Chevaliers",
-        "fr": "Crac des Chevaliers"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2017",
-        "fr": "2017"
-    },
-    "thumbnail": "img/projects/cracdeschevaliers/cracdeschevaliers_thumbnail.webp",
-    "articleTitle": {
-        "en": "",
-        "fr": "Numérisation du Crac des Chevaliers"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "A military architecture jewel of the 12th and 13th century , the Crac des Chevaliers (Qal'at al-Hosn) is the most emblematic fortress of those built by the Crusaders in the Near East. Since 2013, Crac has been listed as a UNESCO World Heritage Site in Danger. Ravaged by several years of war, Syria is now facing a major challenge: the restoration and conservation of an extraordinary building. After several missions carried out by our teams to document this monument, UNESCO commissioned us to establish a new, more precise, 3D model of the entire building, in partnership with the DGAM, through the use of data sets of land and air. Given these gigantic dimensions, the 3D digitization of the building represented an unprecedented challenge. In total, the visual corpus gathered is made up of 135,000 captures. This 3D model provides valuable documentation to Syrian heritage actors responsible for preserving the monument.",
-        "fr": "Joyau de l'architecture militaire des XIIe et XIIIe siècles, le Crac des Chevaliers (Qal'at al-Hosn) est la plus emblématique des forteresses construites par les croisés au Proche-Orient. Depuis 2013, le Crac fait partie des biens inscrits par l’UNESCO sur la liste du patrimoine mondial en péril. Ravagée par plusieurs années de guerre, la Syrie est aujourd’hui confrontée à un défi de taille :  la restauration et la conservation d’un  édifice hors du commun. Après plusieurs missions réalisées par nos équipes pour documenter ce monument, l’UNESCO nous a chargé d’établir un nouveau modèle 3D plus précis de l’ensemble du bâtiment, en partenariat avec la DGAM,  grâce à l’utilisation d’ensembles de données terrestres et aériennes. Compte tenu de ces dimensions gigantesques, la numérisation 3D du bâtiment représentait un défi sans précédent. Au total, le corpus visuel rassemblé est composé de 135 000 captures, un volume d'images inédit. Ce modèle 3D permet de fournir une documentation précieuses aux acteurs du patrimoine syriens chargés de préserver le monument."
-    },
-    "actors": {
-        "en": "Iconem, UNESCO, DGAM",
-        "fr": "Iconem, UNESCO, DGAM",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/cracdeschevaliers/cracdeschevaliers_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitization of the Crac des Chevaliers",
+    "fr": "Numérisation du Crac des Chevaliers"
+  },
+  "img": [
+    {
+      "src": "img/projects/cracdeschevaliers/cracdeschevaliers_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "cracdeschevaliers",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Crac des Chevaliers",
+    "fr": "Crac des Chevaliers"
+  },
+  "thumbnail": "img/projects/cracdeschevaliers/cracdeschevaliers_thumbnail.webp",
+  "text": {
+    "en": "A military architecture jewel of the 12th and 13th century , the Crac des Chevaliers (Qal'at al-Hosn) is the most emblematic fortress of those built by the Crusaders in the Near East. Since 2013, Crac has been listed as a UNESCO World Heritage Site in Danger. Ravaged by several years of war, Syria is now facing a major challenge: the restoration and conservation of an extraordinary building. After several missions carried out by our teams to document this monument, UNESCO commissioned us to establish a new, more precise, 3D model of the entire building, in partnership with the DGAM, through the use of data sets of land and air. Given these gigantic dimensions, the 3D digitization of the building represented an unprecedented challenge. In total, the visual corpus gathered is made up of 135,000 captures. This 3D model provides valuable documentation to Syrian heritage actors responsible for preserving the monument.",
+    "fr": "Joyau de l'architecture militaire des XIIe et XIIIe siècles, le Crac des Chevaliers (Qal'at al-Hosn) est la plus emblématique des forteresses construites par les croisés au Proche-Orient. Depuis 2013, le Crac fait partie des biens inscrits par l’UNESCO sur la liste du patrimoine mondial en péril. Ravagée par plusieurs années de guerre, la Syrie est aujourd’hui confrontée à un défi de taille :  la restauration et la conservation d’un  édifice hors du commun. Après plusieurs missions réalisées par nos équipes pour documenter ce monument, l’UNESCO nous a chargé d’établir un nouveau modèle 3D plus précis de l’ensemble du bâtiment, en partenariat avec la DGAM,  grâce à l’utilisation d’ensembles de données terrestres et aériennes. Compte tenu de ces dimensions gigantesques, la numérisation 3D du bâtiment représentait un défi sans précédent. Au total, le corpus visuel rassemblé est composé de 135 000 photos, un volume d'images inédit. Ce modèle 3D permet de fournir une documentation précieuses aux acteurs du patrimoine syriens chargés de préserver le monument."
+  },
+  "thumbnailDate": {
+    "en": "2017",
+    "fr": "2017"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, UNESCO, DGAM",
+    "fr": "Iconem, UNESCO, DGAM",
+    "logos": []
+  }
 }
