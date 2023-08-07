@@ -1,86 +1,86 @@
 {
-    "modalID": "siteseternels",
-    "thumbnailTitle": {
-        "en": "Eternal Sites",
-        "fr": "Sites éternels"
+  "thumbnailLocation": {
+    "en": "Grand Palais, Paris",
+    "fr": "Grand Palais, Paris"
+  },
+  "articleTitle": {
+    "en": "Eternal Sites : From Bâmiyân to Palmyra",
+    "fr": "Sites éternels : De Bâmiyân à Palmyre"
+  },
+  "img": [
+    {
+      "src": "img/projects/siteseternels/siteseternels_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Grand Palais, Paris",
-        "fr": "Grand Palais, Paris"
+    {
+      "src": "img/projects/siteseternels/siteseternels_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2016",
-        "fr": "2016"
+    {
+      "src": "img/projects/siteseternels/siteseternels_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/siteseternels/siteseternels_thumbnail.webp",
-    "articleTitle": {
-        "en": "Eternal Sites : From Bâmiyân to Palmyra",
-        "fr": "Sites éternels : De Bâmiyân à Palmyre"
+    {
+      "src": "img/projects/siteseternels/siteseternels_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "December 14, 2016 - January 9, 2017",
+    "fr": "14 décembre 2016 - 9 janvier 2017"
+  },
+  "modalID": "siteseternels",
+  "models": [
+    "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+  ],
+  "articleLocation": {
+    "en": "The Grand Palais, Paris, France",
+    "fr": "Le Grand Palais, Paris, France"
+  },
+  "thumbnailTitle": {
+    "en": "Eternal Sites",
+    "fr": "Sites éternels"
+  },
+  "thumbnail": "img/projects/siteseternels/siteseternels_thumbnail.webp",
+  "text": {
+    "en": "The touring exhibition ‘‘Eternal Sites’’, produced by the Réunion des Musées Nationaux - Grand Palais and the Louvre Museum, in collaboration with Iconem, offers an immersion in the heart of four major endangered archaeological sites: the former capital of King Sargon in Khorsabad in Iraq, the Palmyra site, the Crac des Chevaliers and the Umayyad Great Mosque in Damascus, Syria. The mainly digital character of the exhibition facilitates its adaptation to new places. This 360° experience transports visitors to historic sites to raise awareness of heritage threatened or destroyed by armed conflict. The exhibition at the Grand Palais is organized into two sections, the Universal Site and the Images Laboratory. In the Universal Site, four films are screened, revealing on four major archeological sites, in a wide 360° panorama, allowing for an unprecedented immersive experience of the visitor.",
+    "fr": "L’exposition « Sites Eternels », produite par la Réunion des Musées Nationaux – Grand Palais et le Musée du Louvre, en collaboration avec Iconem, propose une immersion au cœur de quatre grands sites archéologiques en danger : l’ancienne capitale du roi Sargon à Khorsabad en Irak, le site de Palmyre, le Crac des Chevaliers et la Grande Mosquée des Omeyyades à Damas, en Syrie. Cette expérience transporte les visiteurs jusqu’aux sites historiques afin de les sensibiliser au patrimoine menacé ou détruit par les conflits armés."
+  },
+  "thumbnailDate": {
+    "en": "2016",
+    "fr": "2016"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=h2a1u8idW-Q",
+      "preview": "img/projects/siteseternels/siteseternels_05.webp"
     },
-    "articleLocation": {
-        "en": "The Grand Palais, Paris, France",
-        "fr": "Le Grand Palais, Paris, France"
-    },
-    "articleDate": {
-        "en": "December 14, 2016 - January 9, 2017",
-        "fr": "14 décembre 2016 - 9 janvier 2017"
-    },
-    "text": {
-        "en": "The touring exhibition ‘‘Eternal Sites’’, produced by the Réunion des Musées Nationaux - Grand Palais and the Louvre Museum, in collaboration with Iconem, offers an immersion in the heart of four major endangered archaeological sites: the former capital of King Sargon in Khorsabad in Iraq, the Palmyra site, the Crac des Chevaliers and the Umayyad Great Mosque in Damascus, Syria. The mainly digital character of the exhibition facilitates its adaptation to new places. This 360° experience transports visitors to historic sites to raise awareness of heritage threatened or destroyed by armed conflict. The exhibition at the Grand Palais is organized into two sections, the Universal Site and the Images Laboratory. In the Universal Site, four films are screened, revealing on four major archeological sites, in a wide 360° panorama, allowing for an unprecedented immersive experience of the visitor.",
-        "fr": "L’exposition itinérante « Sites Eternels », produite par la Réunion des Musées Nationaux – Grand Palais et le Musée du Louvre, en collaboration avec Iconem, propose une immersion au cœur de quatre grands sites archéologiques en danger : l’ancienne capitale du roi Sargon à Khorsabad en Irak, le site de Palmyre, le Crac des Chevaliers et la Grande Mosquée des Omeyyades à Damas, en Syrie. Le caractère essentiellement numérique de l’exposition facilite son adaptation à de nouveaux lieux. Cette expérience transporte les visiteurs jusqu’aux sites historiques afin de les sensibiliser au patrimoine menacé ou détruit par les conflits armés. L’exposition au Grand Palais s’organise en deux sections, le Site Universel et le Laboratoire des images. Dans le Site Universel, sont projetés quatre films sur quatre sites archéologiques majeurs, dans un vaste panorama à 360°, permettant une expérience immersive inédite du visiteur."
-    },
-    "actors": {
-        "en": "General curator: Jean-Luc Martinez, president and director of the Louvre museum. Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum. Scenography: Sylvain Roca and Nicolas Groult. Director: Olivier Brunet. Scientific documentation: Thomas Sagory.",
-        "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre. Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre. Scénographie : Sylvain Roca et Nicolas Groult. Réalisateur : Olivier Brunet. Documentation scientifique : Thomas Sagory.",
-        "logos": [
-            "img/projects/siteseternels/siteseternels_logo_1.webp",
-            "img/projects/siteseternels/siteseternels_logo_2.webp",
-            "img/projects/siteseternels/siteseternels_logo_3.webp",
-            "img/projects/siteseternels/siteseternels_logo_4.webp",
-            "img/projects/siteseternels/siteseternels_logo_5.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/siteseternels/siteseternels_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/siteseternels/siteseternels_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/siteseternels/siteseternels_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/siteseternels/siteseternels_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=h2a1u8idW-Q",
-            "preview": "img/projects/siteseternels/siteseternels_05.webp"
-        },
-        {
-            "src": "https://www.youtube.com/watch?v=S4WhhFXVAwI",
-            "preview": "img/projects/siteseternels/siteseternels_01.webp"
-        }
-    ],
-    "models": [
-        "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+    {
+      "src": "https://www.youtube.com/watch?v=S4WhhFXVAwI",
+      "preview": "img/projects/siteseternels/siteseternels_01.webp"
+    }
+  ],
+  "actors": {
+    "en": "General curator: Jean-Luc Martinez, president and director of the Louvre museum. Curators: Yannick Lintz, Director of the Department of Islamic Arts at the Louvre Museum. Scenography: Sylvain Roca and Nicolas Groult. Director: Olivier Brunet. Scientific documentation: Thomas Sagory.",
+    "fr": "Commissariat général : Jean-Luc Martinez, président-directeur du musée du Louvre. Commissaires : Yannick Lintz, directrice du Département des Arts de l’Islam du musée du Louvre. Scénographie : Sylvain Roca et Nicolas Groult. Réalisateur : Olivier Brunet. Documentation scientifique : Thomas Sagory.",
+    "logos": [
+      "img/projects/siteseternels/siteseternels_logo_1.webp",
+      "img/projects/siteseternels/siteseternels_logo_2.webp",
+      "img/projects/siteseternels/siteseternels_logo_3.webp",
+      "img/projects/siteseternels/siteseternels_logo_4.webp",
+      "img/projects/siteseternels/siteseternels_logo_5.webp"
     ]
+  }
 }
