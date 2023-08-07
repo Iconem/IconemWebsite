@@ -1,115 +1,115 @@
 {
-    "modalID": "saintroman",
-    "thumbnailTitle": {
-        "en": "Saint-Roman",
-        "fr": "Saint-Roman"
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitisation of Saint-Roman",
+    "fr": "Numérisation de Saint-Roman"
+  },
+  "img": [
+    {
+      "src": "img/projects/saintroman/saintroman_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/saintroman/saintroman_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2017",
-        "fr": "2017"
+    {
+      "src": "img/projects/saintroman/saintroman_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/saintroman/saintroman_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of Saint-Roman",
-        "fr": "Numérisation de Saint-Roman"
+    {
+      "src": "img/projects/saintroman/saintroman_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/saintroman/saintroman_05.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/saintroman/saintroman_06.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "The impressive Saint-Roman cave abbey in the south of France was digitised by Iconem in 2017 for the Beaucaire Terre d’Argence municipalities (CCBTA). The abbatial church, winding corridors, and former hermit cells dug into the limestone of this protected historical monument date back to the Middle Ages. This true jewel of French cultural heritage is threatened by erosion and formerly by clandestine limestone mining. Iconem’s digitisation is vital to preparation for the monastery’s stabilisation and redevelopment by the CCBTA. Iconem carried out a drone and ground scan to best capture the site’s rocky façades and interiors. This 3D model is a key resource for archaeological study of the monastery as well as conservation and promotional work. Iconem’s model will also serve as a base for digital content so the general public and experts alike may remotely study Saint Roman in all its majesty.",
-        "fr": "L’impressionnante abbaye troglodyte de Saint-Roman a été numérisée par Iconem en 2017 pour la communauté de communes Beaucaire Terre d’Argence (CCBTA). L’église abbatiale, les couloirs sinueux et les anciennes cellules d’ermites creusés dans le calcaire de ce monument historique datent du Moyen-Âge. Ce véritable trésor du patrimoine français est menacé d’érosion et a été anciennement victime de l’exploitation clandestine d’une carrière. La numérisation d’Iconem était indispensable pour préparer la stabilisation et la revalorisation du monastère réalisées par la CCBTA. Iconem a opéré un relevé drone et terrestre afin d’optimiser la capture des façades et des intérieurs rocheux du site. Ce modèle 3D est une ressource clé pour l’étude archéologique du monastère et des travaux de sauvegarde et de valorisation. La maquette 3D d’Iconem alimentera également des contenus numériques pour rendre accessible au grand public et aux experts à distance l’abbaye de Saint-Roman dans toute sa majesté."
+    {
+      "src": "img/projects/saintroman/saintroman_08.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "Iconem and the Beaucaire Terre d’Argence municipalities",
-        "fr": "Iconem et la communauté de communes de Beaucaire Terre d’Argence",
-        "logos": []
+    {
+      "src": "img/projects/saintroman/saintroman_11.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "img": [
-        {
-            "src": "img/projects/saintroman/saintroman_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_05.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_06.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_08.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_11.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_12.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/saintroman/saintroman_15.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
-            "preview": "img/projects/saintroman/saintroman_youtubethumbnail1.webp"
-        }
-    ]
+    {
+      "src": "img/projects/saintroman/saintroman_12.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/saintroman/saintroman_15.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "saintroman",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Saint-Roman",
+    "fr": "Saint-Roman"
+  },
+  "thumbnail": "img/projects/saintroman/saintroman_thumbnail.webp",
+  "text": {
+    "en": "The impressive Saint-Roman cave abbey in the south of France was digitised by Iconem in 2017 for the Beaucaire Terre d’Argence municipalities (CCBTA). The abbatial church, winding corridors, and former hermit cells dug into the limestone of this protected historical monument date back to the Middle Ages. This true jewel of French cultural heritage is threatened by erosion and formerly by clandestine limestone mining. Iconem’s digitisation is vital to preparation for the monastery’s stabilisation and redevelopment by the CCBTA. Iconem carried out a drone and ground scan to best capture the site’s rocky façades and interiors. This 3D model is a key resource for archaeological study of the monastery as well as conservation and promotional work. Iconem’s model will also serve as a base for digital content so the general public and experts alike may remotely study Saint Roman in all its majesty.",
+    "fr": "L’impressionnante abbaye troglodyte de Saint-Roman a été numérisée par Iconem en 2017 pour la communauté de communes Beaucaire Terre d’Argence (CCBTA). L’église abbatiale, les couloirs sinueux et les anciennes cellules d’ermites creusés dans le calcaire de ce monument historique datent du Moyen-Âge. Ce véritable trésor du patrimoine français est menacé d’érosion et a été anciennement victime de l’exploitation clandestine d’une carrière. La numérisation d’Iconem était indispensable pour préparer la stabilisation et la revalorisation du monastère réalisées par la CCBTA. Iconem a opéré un relevé drone et terrestre afin d’optimiser la capture des façades et des intérieurs rocheux du site. Ce modèle 3D est une ressource clé pour l’étude archéologique du monastère et des travaux de sauvegarde et de valorisation. La maquette 3D d’Iconem alimentera également des contenus numériques pour rendre l’abbaye de Saint-Roman accessible à distance, dans toute sa majesté."
+  },
+  "thumbnailDate": {
+    "en": "2017",
+    "fr": "2017"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=BALYb8gUuW8",
+      "preview": "img/projects/saintroman/saintroman_youtubethumbnail1.webp"
+    }
+  ],
+  "actors": {
+    "en": "Iconem and the Beaucaire Terre d’Argence municipalities",
+    "fr": "Iconem et la communauté de communes de Beaucaire Terre d’Argence",
+    "logos": []
+  }
 }
