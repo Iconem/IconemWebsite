@@ -1,47 +1,47 @@
 {
-    "modalID": "mossoul",
-    "thumbnailTitle": {
-        "en": "Mosul",
-        "fr": "Mossoul"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
-    },
-    "thumbnail": "img/projects/mossoul/mossoul_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of the old city of Mosul",
-        "fr": "Numérisation de la vieille ville de Mossoul"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "Located in the region of Nineveh, on the banks of the Tigris, Mosul was an important center of the Ottoman Empire in the 7th century with an architectural heritage that bears witness to great wealth. The military interventions against the Islamic State organization have seriously damaged the old city, especially in the western part. Nearly 20,000 buildings suffered damage or were destroyed, forcing residents to leave the city. Iconem was mobilized by UNESCO to urgently produce a 3D scan of the old town. During this mission, Iconem also carried out very precise GPS measurements of the area and digitized several emblematic monuments of the city, such as the Mosul museum or the old church of Tahira. This cartographic documentation will be used as part of a rehabilitation and restoration of the city with the aim of ”reviving the spirit of Mosul”.",
-        "fr": "Situé dans la région de Ninive, sur les rives du Tigre, Mossoul fut un centre important de l’empire Ottoman au VIIe siècle et dont l’héritage architectural témoigne d’une grande richesse. Les interventions militaires contre l’organisation Etat Islamique ont gravement endommagé la vieille ville, en particulier dans la partie ouest. Près de 20 000 bâtiments ont subi des dégradations ou ont été détruits, contraignant ainsi les habitants à quitter la ville. À l’initiative de l’UNESCO, Iconem a été mobilisé afin de produire en urgence un scan 3D de la vieille ville. Lors de cette mission, Iconem a également effectué des mesures GPS très précises de la zone et numérisé plusieurs monuments emblématiques de la ville comme le musée de Mossoul ou l’ancienne église de Tahira. Cette documentation cartographique sera utilisée dans le cadre d’une réhabilitation et d’une restauration de la ville avec pour objectif de « faire revivre l’esprit de Mossoul »."
-    },
-    "actors": {
-        "en": "Iconem, UNESCO",
-        "fr": "Iconem, UNESCO",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/mossoul/mossoul_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "Mosul",
+    "fr": "Mossoul"
+  },
+  "articleTitle": {
+    "en": "Digitisation of the old city of Mosul",
+    "fr": "Numérisation de la vieille ville de Mossoul"
+  },
+  "img": [
+    {
+      "src": "img/projects/mossoul/mossoul_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "mossoul",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Mosul",
+    "fr": "Mossoul"
+  },
+  "thumbnail": "img/projects/mossoul/mossoul_thumbnail.webp",
+  "text": {
+    "en": "Located in the region of Nineveh, on the banks of the Tigris, Mosul was an important center of the Ottoman Empire in the 7th century with an architectural heritage that bears witness to great wealth. The military interventions against the Islamic State organization have seriously damaged the old city, especially in the western part. Nearly 20,000 buildings suffered damage or were destroyed, forcing residents to leave the city. Iconem was mobilized by UNESCO to urgently produce a 3D scan of the old town. During this mission, Iconem also carried out very precise GPS measurements of the area and digitized several emblematic monuments of the city, such as the Mosul museum or the old church of Tahira. This cartographic documentation will be used as part of a rehabilitation and restoration of the city with the aim of ”reviving the spirit of Mosul”.",
+    "fr": "Situé dans la région de Ninive, sur les rives du Tigre, Mossoul fut un centre important de l’empire Ottoman au VIIe siècle, comme en atteste son héritage architectural d’une grande richesse. Les interventions militaires contre l’organisation Etat Islamique ont gravement endommagé la vieille ville, en particulier dans la partie ouest. Près de 20 000 bâtiments ont subi des dégradations ou ont été détruits, contraignant ainsi les habitants à quitter la ville. À l’initiative de l’UNESCO, Iconem a été mobilisé afin de produire en urgence un scan 3D de la vieille ville. Lors de cette mission, Iconem a également effectué des mesures GPS très précises de la zone et numérisé plusieurs monuments emblématiques de la ville comme le musée de Mossoul, l’ancienne église de Tahira ou encore la grande mosquée Al Nuri. Cette documentation cartographique sera utilisée dans le cadre de l’initiative « Revive the Spirit of Mosul », le grand programme de réhabilitation et de restauration supervisé par l’UNESCO »."
+  },
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, UNESCO",
+    "fr": "Iconem, UNESCO",
+    "logos": []
+  }
 }
