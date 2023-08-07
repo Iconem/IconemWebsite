@@ -1,47 +1,47 @@
 {
-    "modalID": "nereides",
-    "thumbnailTitle": {
-        "en": "Nereides Monument",
-        "fr": "Monument des Néréides"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
-    },
-    "thumbnail": "img/projects/nereides/nereides_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of the Nereides Monuments",
-        "fr": "Numérisation Monument des Néréides"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "Xanthos, an ancient Greek city-state of Lycia established in the south of Lydia in Anatolia, is known for its funerary monuments, some are exhibited in the British Museum. The rubble of the monument of the Nereids, from the beginning of the 4th century BC, and the tomb of Pavaya (375 - 360 BC) were brought back by the British archaeologist, Charles Fellows, during his excavations undertaken in the 19th century, and are subject to reconstruction. As part of a project in collaboration with the University of Bordeaux-Montaigne, our team carried out photogrammetric surveys aimed at restoring the monument of the Néréides and the tomb of Payava using current 3D tools. This project also allowed the creation of a Web visualization interface allowing the public to consult more precise 3D models of these monuments. Thanks to a close collaboration with historians, our work makes it possible to establish, using innovative technology, a better understanding of the archaeological material which tends to renew our perception of these extraordinary monuments...",
-        "fr": "Ancienne cité-État grecque de Lycie établie au sud de la Lydie en Anatolie, Xanthos est connue pour ses monuments funéraires dont certains figurent au British Museum. Ramenés par l’archéologue britannique, Charles Fellows, lors de ses fouilles entreprises au XIXe siècle, les décombres du monument des Néréides  - daté du début du IVe siècle av J-C - et du tombeau de Pavaya - ( 375 - 360 av J-C) ont fait l’objet d’une reconstruction minutieuse. Dans le cadre d’un projet en collaboration avec l’Université de Bordeaux-Montaigne, notre équipe a été chargée de réaliser des relevés photogrammétriques visant à restituer grâce aux outils actuels de la 3D, le monument des Néréides et la tombe de Payava.  Ce projet à également permis de créer une interface Web de visualisation permettant au public de consulter des modèles 3D plus précis de ces monuments. Réalisé en étroite collaboration avec des historiens, notre travail permet d’établir à l’aide d’une technologie innovante, une meilleure compréhension du matériel archéologique qui tend à renouveler notre perception de ces monuments hors du commun..."
-    },
-    "actors": {
-        "en": "Iconem, Université Bordeaux Montaigne, British Museum",
-        "fr": "Iconem, Université Bordeaux Montaigne, British Museum",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/nereides/nereides_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitisation of the Nereides Monuments",
+    "fr": "Numérisation Monument des Néréides"
+  },
+  "img": [
+    {
+      "src": "img/projects/nereides/nereides_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "nereides",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Nereides Monument",
+    "fr": "Monument des Néréides"
+  },
+  "thumbnail": "img/projects/nereides/nereides_thumbnail.webp",
+  "text": {
+    "en": "Xanthos, an ancient Greek city-state of Lycia established in the south of Lydia in Anatolia, is known for its funerary monuments, some are exhibited in the British Museum. The rubble of the monument of the Nereids, from the beginning of the 4th century BC, and the tomb of Pavaya (375 - 360 BC) were brought back by the British archaeologist, Charles Fellows, during his excavations undertaken in the 19th century, and are subject to reconstruction. As part of a project in collaboration with the University of Bordeaux-Montaigne, our team carried out photogrammetric surveys aimed at restoring the monument of the Néréides and the tomb of Payava using current 3D tools. This project also allowed the creation of a Web visualization interface allowing the public to consult more precise 3D models of these monuments. Thanks to a close collaboration with historians, our work makes it possible to establish, using innovative technology, a better understanding of the archaeological material which tends to renew our perception of these extraordinary monuments...",
+    "fr": "Ancienne cité-État grecque de Lycie établie au sud de la Lydie en Anatolie, Xanthos est connue pour ses monuments funéraires dont certains figurent au British Museum. Ramenés par l’archéologue britannique Charles Fellows, lors de ses fouilles entreprises au XIXe siècle, les décombres du monument des Néréides  - daté du début du IVe siècle av J-C - et du tombeau de Pavaya - ( 375 - 360 av J-C) ont fait l’objet d’une reconstruction minutieuse. Dans le cadre d’un projet en collaboration avec l’Université de Bordeaux-Montaigne, notre équipe a été chargée de réaliser des relevés photogrammétriques visant à restituer grâce aux outils actuels de la 3D, le monument des Néréides et la tombe de Payava.  Ce projet à également permis de créer une interface Web de visualisation permettant au public de consulter des modèles 3D plus précis de ces monuments. Réalisé en étroite collaboration avec des historiens, notre travail permet d’établir, à l’aide d’une technologie innovante, une meilleure compréhension du matériel archéologique qui tend à renouveler notre perception de ces monuments hors du commun."
+  },
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, Université Bordeaux Montaigne, British Museum",
+    "fr": "Iconem, Université Bordeaux Montaigne, British Museum",
+    "logos": []
+  }
 }
