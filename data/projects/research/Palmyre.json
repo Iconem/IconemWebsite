@@ -1,47 +1,47 @@
 {
-    "modalID": "palmyre",
-    "thumbnailTitle": {
-        "en": "Palmyra",
-        "fr": "Palmyre"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2016",
-        "fr": "2016"
-    },
-    "thumbnail": "img/projects/palmyre/palmyre_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of Palmyra",
-        "fr": "Numérisation de Palmyre"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "Since 2011, Syria has been facing a threatening conflict that is destroying its cultural heritage in considerable proportions. Invaluable sites such as the ancient city of Palmyra have been devastated and now require urgent interventions. As part of the 'Syrian Heritage' project aimed at preserving and documenting Syrian heritage, Iconem, accompanied by the General Directorate of Antiquities and Museums of Syria, went to the site in order to carry out, using photogrammetric techniques, a 3D scan of the most damaged sites. Iconem also carried out surveys using drones, as demining work had not been completed at some sites. These precise diagnoses of the destruction affecting the temples of Bêl, Baalshamin, the triumphal arch, the valley of the tombs and the museum allow those involved in Syrian heritage to consider their restoration and preserve their memory.",
-        "fr": "Depuis 2011, la Syrie fait face à un conflit menaçant et détruisant  son patrimoine culturel dans des proportions considérables. Des sites d’une valeur inestimable tels que la cité antique de Palmyre ont été dévastés et nécessitent aujourd’hui une intervention d’urgence. Dans le cadre du projet « Syrian Heritage » visant à préserver et documenter le patrimoine syrien, Iconem, accompagnée de la Direction Générale des Antiquités et des Musées de Syrie, s’est rendue sur place afin de réaliser, grâce aux techniques de la photogrammétrie, une numérisation 3D des sites les plus endommagés. Les travaux de déminage n’étant pas achevés sur certains sites, Iconem a effectué des relevés à l’aide de drones. Ces diagnostics précis des destructions touchant les temples de Bêl, de Baalshamin, l’arc de triomphe, la vallée des tombes et le musée permettent aux acteurs du patrimoine syrien d’envisager leur restauration et de préserver leur mémoire."
-    },
-    "actors": {
-        "en": "Iconem, DGAM",
-        "fr": "Iconem, DGAM (Direction Générale des Antiquités et des Musées de Syrie).",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/palmyre/palmyre_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitisation of Palmyra",
+    "fr": "Numérisation de Palmyre"
+  },
+  "img": [
+    {
+      "src": "img/projects/palmyre/palmyre_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "palmyre",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Palmyra",
+    "fr": "Palmyre"
+  },
+  "thumbnail": "img/projects/palmyre/palmyre_thumbnail.webp",
+  "text": {
+    "en": "Since 2011, Syria has been facing a threatening conflict that is destroying its cultural heritage in considerable proportions. Invaluable sites such as the ancient city of Palmyra have been devastated and now require urgent interventions. As part of the 'Syrian Heritage' project aimed at preserving and documenting Syrian heritage, Iconem, accompanied by the General Directorate of Antiquities and Museums of Syria, went to the site in order to carry out, using photogrammetric techniques, a 3D scan of the most damaged sites. Iconem also carried out surveys using drones, as demining work had not been completed at some sites. These precise diagnoses of the destruction affecting the temples of Bêl, Baalshamin, the triumphal arch, the valley of the tombs and the museum allow those involved in Syrian heritage to consider their restoration and preserve their memory.",
+    "fr": "Depuis 2011, la Syrie fait face à un conflit menaçant et détruisant  son patrimoine culturel dans des proportions considérables. Des sites d’une valeur inestimable tels que la cité antique de Palmyre ont été dévastés et nécessitent aujourd’hui une intervention d’urgence. Dans le cadre du projet « Syrian Heritage » visant à préserver et documenter le patrimoine syrien, Iconem, accompagnée de la Direction Générale des Antiquités et des Musées de Syrie, s’est rendue sur place afin de réaliser, grâce aux techniques de la photogrammétrie, une numérisation 3D des sites les plus endommagés. Iconem a effectué des relevés à l’aide de drones et de dispositifs terrestres. Les modèles 3D obtenus facilitent l’établissement des diagnostics des destructions qui ont touché les temples de Bêl, de Baalshamin, l’arc de triomphe, la vallée des tombes et le musée. Ils permettent aux acteurs du patrimoine de voir dans quelle mesure des restaurations sont envisageables et de préserver la mémoire des sites."
+  },
+  "thumbnailDate": {
+    "en": "2016",
+    "fr": "2016"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, DGAM",
+    "fr": "Iconem, DGAM (Direction Générale des Antiquités et des Musées de Syrie).",
+    "logos": []
+  }
 }
