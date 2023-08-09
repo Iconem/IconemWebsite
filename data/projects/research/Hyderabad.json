@@ -1,125 +1,125 @@
 {
-    "modalID": "hyderabad",
-    "thumbnailTitle": {
-        "en": "Hyderabad",
-        "fr": "Hyderabad"
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitisation of the Qutb Shahi Heritage Park",
+    "fr": "Numérisation du Qutb Shahi Heritage Park"
+  },
+  "img": [
+    {
+      "src": "img/projects/hyderabad/hyderabad_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/hyderabad/hyderabad_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2017",
-        "fr": "2017"
+    {
+      "src": "img/projects/hyderabad/hyderabad_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/hyderabad/hyderabad_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of the Qutb Shahi Heritage Park",
-        "fr": "Numérisation du Qutb Shahi Heritage Park"
+    {
+      "src": "img/projects/hyderabad/hyderabad_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/hyderabad/hyderabad_05.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/hyderabad/hyderabad_06.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "In June 2017, Iconem’s team travelled to southern India to scan an ensemble of ancient mausoleums. The Qutb Shahi Heritage Park in Hyderabad, India is a vast historic necropolis dating from the 16th-17th centuries. A project for the Aga Khan Trust for Culture, Iconem digitised the exterior of the tomb of Abdullah Qutb Shah, king of the Qutb Shahi dynasty; the exterior and interior of Kulsoom Begum’s mausoleum; and a “bird’s eye view” of the entire complex. Our team scanned the two burial sites, the compound’s other monuments, and their surroundings with drones and pole-mounted cameras to collect data for three 3D models. The two individual tombs were also documented with high-resolution, pole-mounted cameras to ensure an exceptionally high resolution. Our engineers merged the site-wide model with the two higher resolution 3D tomb models into one single 3D model. This multi-level data approach allows viewers to switch between large-scale overviews and details of the site’s unique architecture. These models can provide valuable information to restoration experts.",
-        "fr": "En juin 2017, l’équipe d’Iconem s’est rendue dans le sud de l’Inde pour scanner un ensemble d’anciens mausolées. Le Qutb Shahi Heritage Park à Hyderabad en Inde est une immense nécropole historique qui date des 16ᵉ et 17ᵉ siècles. Pour ce projet mené par l’Aga Khan Trust for Culture, Iconem a numérisé l’extérieur du tombeau d’Abdullah Qutb Shah, souverain de la dynastie Qutb Shahi, l’extérieur et l’intérieur du mausolée de Kulsoom Begum et une vue d’ensemble du parc. Notre équipe a scanné les deux sépultures, les autres monuments du complexe et leurs environs avec des drones et des appareils de photo fixés sur des perches afin d’acquérir les données suffisantes pour trois modèles 3D. Les deux tombeaux individuels ont été également documentés grâce aux appareils photo à haute résolution et aux perches pour garantir une très haute résolution. Nos ingénieurs ont fusionné le modèle de vue d’ensemble du complexe et les deux modèles 3D haute résolution des tombeaux dans un seul modèle. Cette approche de plusieurs couches de données permet aux utilisateurs d’alterner entre survols à grande échelle et détails de l’architecture unique du site. Ces modèles pourraient fournir de précieuses informations aux experts de la restauration."
+    {
+      "src": "img/projects/hyderabad/hyderabad_07.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "Iconem and the Aga Khan Trust for Culture",
-        "fr": "Iconem et l'Aga Khan Trust for Culture",
-        "logos": []
+    {
+      "src": "img/projects/hyderabad/hyderabad_08.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "img": [
-        {
-            "src": "img/projects/hyderabad/hyderabad_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_05.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_06.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_07.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_08.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_09.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_10.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_11.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/hyderabad/hyderabad_12.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [],
-    "models": []
+    {
+      "src": "img/projects/hyderabad/hyderabad_09.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/hyderabad/hyderabad_10.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/hyderabad/hyderabad_11.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/hyderabad/hyderabad_12.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "hyderabad",
+  "models": [],
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Hyderabad",
+    "fr": "Hyderabad"
+  },
+  "thumbnail": "img/projects/hyderabad/hyderabad_thumbnail.webp",
+  "text": {
+    "en": "In June 2017, Iconem’s team travelled to southern India to scan an ensemble of ancient mausoleums. The Qutb Shahi Heritage Park in Hyderabad, India is a vast historic necropolis dating from the 16th-17th centuries. A project for the Aga Khan Trust for Culture, Iconem digitised the exterior of the tomb of Abdullah Qutb Shah, king of the Qutb Shahi dynasty; the exterior and interior of Kulsoom Begum’s mausoleum; and a “bird’s eye view” of the entire complex. Our team scanned the two burial sites, the compound’s other monuments, and their surroundings with drones and pole-mounted cameras to collect data for three 3D models. The two individual tombs were also documented with high-resolution, pole-mounted cameras to ensure an exceptionally high resolution. Our engineers merged the site-wide model with the two higher resolution 3D tomb models into one single 3D model. This multi-level data approach allows viewers to switch between large-scale overviews and details of the site’s unique architecture. These models can provide valuable information to restoration experts.",
+    "fr": "En juin 2017, l’équipe d’Iconem s’est rendue dans le sud de l’Inde pour scanner un ensemble d’anciens mausolées. Le Qutb Shahi Heritage Park à Hyderabad en Inde est une immense nécropole historique qui date des 16ᵉ et 17ᵉ siècles. Pour ce projet commandité par l’Aga Khan Trust for Culture, Iconem a numérisé l’extérieur du tombeau d’Abdullah Qutb Shah, souverain de la dynastie Qutb Shahi, l’extérieur et l’intérieur du mausolée de Kulsoom Begum et une vue d’ensemble du parc. Notre équipe a scanné les deux sépultures, les autres monuments du complexe et leurs environs avec des drones et des appareils de photo fixés sur des perches afin d’acquérir les données suffisantes pour trois modèles 3D. Les deux tombeaux individuels ont été également documentés grâce aux appareils photo à haute résolution et aux perches pour garantir une très haute résolution. Nos ingénieurs ont fusionné le modèle de vue d’ensemble du complexe et les deux modèles 3D haute résolution des tombeaux dans un seul modèle. Cette approche de plusieurs couches de données permet aux utilisateurs d’alterner entre survols à grande échelle et détails de l’architecture unique du site. Ces modèles pourraient fournir de précieuses informations aux experts de la restauration."
+  },
+  "thumbnailDate": {
+    "en": "2017",
+    "fr": "2017"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem and the Aga Khan Trust for Culture",
+    "fr": "Iconem et l'Aga Khan Trust for Culture",
+    "logos": []
+  }
 }
