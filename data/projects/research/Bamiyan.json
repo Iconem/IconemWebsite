@@ -1,47 +1,47 @@
 {
-    "modalID": "bamiyan",
-    "thumbnailTitle": {
-        "en": "Bamyan",
-        "fr": "Bamiyan"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2015",
-        "fr": "2015"
-    },
-    "thumbnail": "img/projects/bamiyan/bamiyan_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of Bamyan",
-        "fr": "Numérisation de Bamiyan"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "The remains of the Buddhas carved into the Afghan cliffs of Bamiyan are the symbols of the destruction inflicted on our world heritage by the Taliban in 2001. Presently, there is an urge to digitize them in order to preserve their memory. In 2015, as part of a project carried out by the French artist Pascal Convert, our team went to Afghanistan to digitize in 3D the cliffs and the traces of these statues. This documentation will constitute the memory of the cliff and the destructions that were committed there. On behalf of the NGO Turquoise Mountain, supported by the British Council, our team returned to Bamiyan at the beginning of September, in order to carry out a photogrammetric survey of a caravanserai using a drone and several cameras. The Bâmiyân valley is rich in many archaeological sites, such as this caravanserai which date probably from the 15th century AD. Such as the cliff, this site built in adobe is threatened by climate change causing its erosion and degradation. Our mission is to create a map of this site and its erosion, which will be used by the restorers involved in saving the building. Moreover, during this mission, Iconem trained students from the University of Bamiyan in photogrammetry techniques.",
-        "fr": "Les vestiges des Bouddhas sculptés dans les falaises afghanes de Bamiyan sont les symboles des destructions infligées par les Talibans en 2001 à notre patrimoine mondial. Aujourd’hui, il est urgent de les numériser pour en préserver leur mémoire. En 2015,  dans le cadre d’un projet réalisé par l’artiste français Pascal Convert, notre équipe est partie en Afghanistan afin de numériser en 3D les falaises et les traces de ces statues. Cette documentation précieuse constituera la mémoire de la falaise et celle des destructions qui y furent commises. Pour le compte de l’ONG Turquoise Mountain soutenue par le British Council, notre équipe s’est à nouveau rendue à Bamiyan début septembre, afin d’effectuer un relevé photogrammétrique d’un caravansérail à l’aide d’appareils photographiques et d’un drone. La vallée de Bâmiyân est riche de nombreux sites archéologiques, comme ce caravansérail dont les premières traces semblent remonter au XVe siècle ap. J.-C. Comme la falaise, ce site construit en adobe est menacé par le changement climatique provoquant son érosion et sa dégradation. Notre mission consiste à créer une cartographie du site et de son érosion, qui sera utilisée par les restaurateurs impliqués dans la sauvegarde de l’édifice. Lors de cette mission, Iconem a également formé des étudiants de l’université de Bâmiyân aux techniques de la photogrammétrie."
-    },
-    "actors": {
-        "en": "Iconem, Turquoise Mountain",
-        "fr": "Iconem, Turquoise Mountain",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/bamiyan/bamiyan_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitisation of Bamyan",
+    "fr": "Numérisation de Bamiyan"
+  },
+  "img": [
+    {
+      "src": "img/projects/bamiyan/bamiyan_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "bamiyan",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Bamyan",
+    "fr": "Bamiyan"
+  },
+  "thumbnail": "img/projects/bamiyan/bamiyan_thumbnail.webp",
+  "text": {
+    "en": "The remains of the Buddhas carved into the Afghan cliffs of Bamiyan are the symbols of the destruction inflicted on our world heritage by the Taliban in 2001. Presently, there is an urge to digitize them in order to preserve their memory. In 2015, as part of a project carried out by the French artist Pascal Convert, our team went to Afghanistan to digitize in 3D the cliffs and the traces of these statues. This documentation will constitute the memory of the cliff and the destructions that were committed there. On behalf of the NGO Turquoise Mountain, supported by the British Council, our team returned to Bamiyan at the beginning of September, in order to carry out a photogrammetric survey of a caravanserai using a drone and several cameras. The Bâmiyân valley is rich in many archaeological sites, such as this caravanserai which date probably from the 15th century AD. Such as the cliff, this site built in adobe is threatened by climate change causing its erosion and degradation. Our mission is to create a map of this site and its erosion, which will be used by the restorers involved in saving the building. Moreover, during this mission, Iconem trained students from the University of Bamiyan in photogrammetry techniques.",
+    "fr": "Les vestiges des Bouddhas sculptés dans les falaises afghanes de Bamiyan sont les symboles des destructions infligées par les Talibans en 2001 à notre patrimoine mondial. Aujourd’hui, il est urgent de les numériser pour en préserver leur mémoire. En 2015,  dans le cadre d’un projet réalisé par l’artiste français Pascal Convert, notre équipe est partie en Afghanistan afin de numériser en 3D les falaises et les traces de ces statues. Notre équipe s’est à nouveau rendue à Bamiyan début septembre 2020, afin d’effectuer un relevé photogrammétrique du caravansérail de Shashpul pour le compte de l’ONG Turquoise Mountain soutenue par le British Council. Nous sommes revenus en mai 2022 afin de réaliser un relevé mis à jour de l’ensemble de la falaise, pour le compte de l’UNESCO. La vallée de Bâmiyân est riche de nombreux sites archéologiques, comme le caravansérail de Shashpul dont les premières traces semblent remonter au XVe siècle ap. J.-C. Comme la falaise, ce site construit en adobe est menacé par le changement climatique provoquant son érosion et sa dégradation. Notre documentation 3D de cet édifice sera utilisée par les restaurateurs impliqués dans sa sauvegarde. Lors de ces missions, Iconem a également formé des étudiants de l’université de Bâmiyân aux techniques de la photogrammétrie."
+  },
+  "thumbnailDate": {
+    "en": "2015",
+    "fr": "2015"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, Turquoise Mountain",
+    "fr": "Iconem, Turquoise Mountain",
+    "logos": []
+  }
 }
