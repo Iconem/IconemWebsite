@@ -1,122 +1,122 @@
 {
-    "modalID": "delos",
-    "thumbnailTitle": {
-        "en": "Delos",
-        "fr": "Délos"
+  "thumbnailLocation": {
+    "en": "Greece",
+    "fr": "Grèce"
+  },
+  "articleTitle": {
+    "en": "Digitisation of the island of Delos",
+    "fr": "Numérisation de l'île de Délos"
+  },
+  "img": [
+    {
+      "src": "img/projects/delos/delos_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/delos/delos_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2016",
-        "fr": "2016"
+    {
+      "src": "img/projects/delos/delos_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/delos/delos_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of the island of Delos",
-        "fr": "Numérisation de l'île de Délos"
+    {
+      "src": "img/projects/delos/delos_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/delos/delos_05.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/delos/delos_06.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "In 2016, Iconem started a project on the island of Delos, one of Greece’s most ancient cultural heritage sites. The mythological birthplace of Apollo and Artemis, Delos’s archaeological heritage dates as far back as the third millennium B.C.E. Iconem digitised the island for the Ecole française d’Athènes, recording the current state of its stunning mosaics and extensive ruins. Using small drone-planes, Iconem’s team scanned the entire island: its theatre, agora, and ancient villas. Ground level photographs taken with a multicamera pole were integrated with the drone images to build the final 3D model, which is used to create cross-sections and other architectural surveys to study the site for restoration. Iconem’s model is also an efficient and precise tool for measuring distances, area and volumes of this UNESCO World Heritage site. Finally, the extremely precise model allows people to remotely explore the remains of this incredible ancient capital of Mediterranean trade.",
-        "fr": "En 2016, Iconem a mené un projet portant sur l’île de Délos, l’un des sites patrimoniaux les plus anciens de Grèce. Berceau mythologique d’Apollon et d’Artémis, le patrimoine archéologique de Délos remonte au troisième millénaire av. J.-C. Iconem a numérisé l’île pour l’Ecole française d’Athènes, afin d’enregistrer l’état actuel des mosaïques et les ruines s’étendant sur de grandes surfaces. A l’aide de drones, l’équipe d’Iconem a scanné l’île complète : son théâtre, son agora et ses villas anciennes. Les photographies prises au niveau du sol avec une perche portant plusieurs appareils ont été fusionnées avec les images drones pour bâtir le modèle 3D final. Celui-ci est utilisé pour produire des coupes et d’autres relevés architecturaux pour étudier le site et sa restauration. Le modèle d’Iconem est également un outil efficace et précis pour mesurer des distances, des surfaces et des volumes de ce site classé au patrimoine mondial de l’UNESCO. Enfin, ce modèle d’une grande précision permet d’explorer à distance les vestiges de cet ancien nœud de circulation du commerce méditerranéen."
+    {
+      "src": "img/projects/delos/delos_07.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "Iconem and the Ecole française d’Athènes",
-        "fr": "Iconem et l’Ecole française d’Athènes",
-        "logos": []
+    {
+      "src": "img/projects/delos/delos_08.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "img": [
-        {
-            "src": "img/projects/delos/delos_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_05.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_06.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_07.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_08.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_09.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/delos/delos_10.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=N3g57AeQZ50",
-            "preview": "img/projects/delos/delos_youtubethumbnail1.webp"
-        },
-        {
-            "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
-            "preview": "img/projects/delos/delos_youtubethumbnail2.webp"
-        }
-    ],
-    "models": [
-        "https://sketchfab.com/models/9eecfcfbc43c4b58aad488367736965f/embed"
-    ]
+    {
+      "src": "img/projects/delos/delos_09.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/delos/delos_10.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "delos",
+  "models": [
+    "https://sketchfab.com/models/9eecfcfbc43c4b58aad488367736965f/embed"
+  ],
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Delos",
+    "fr": "Délos"
+  },
+  "thumbnail": "img/projects/delos/delos_thumbnail.webp",
+  "text": {
+    "en": "In 2016, Iconem started a project on the island of Delos, one of Greece’s most ancient cultural heritage sites. The mythological birthplace of Apollo and Artemis, Delos’s archaeological heritage dates as far back as the third millennium B.C.E. Iconem digitised the island for the Ecole française d’Athènes, recording the current state of its stunning mosaics and extensive ruins. Using small drone-planes, Iconem’s team scanned the entire island: its theatre, agora, and ancient villas. Ground level photographs taken with a multicamera pole were integrated with the drone images to build the final 3D model, which is used to create cross-sections and other architectural surveys to study the site for restoration. Iconem’s model is also an efficient and precise tool for measuring distances, area and volumes of this UNESCO World Heritage site. Finally, the extremely precise model allows people to remotely explore the remains of this incredible ancient capital of Mediterranean trade.",
+    "fr": "En 2016, Iconem a mené un projet portant sur l’île de Délos, l’un des sites patrimoniaux les plus anciens de Grèce. Berceau mythologique d’Apollon et d’Artémis, le patrimoine archéologique de Délos remonte au troisième millénaire av. J.-C. Iconem a numérisé l’île pour l’Ecole française d’Athènes, afin d’enregistrer l’état actuel des mosaïques et les ruines s’étendant sur de grandes surfaces. A l’aide de drones, l’équipe d’Iconem a scanné l’île complète : son théâtre, son agora et ses villas anciennes. Les photographies prises au niveau du sol avec une perche portant plusieurs appareils ont été fusionnées avec les images drones pour bâtir le modèle 3D final. Celui-ci est utilisé pour produire des coupes et d’autres relevés architecturaux pour étudier le site et sa restauration. Le modèle d’Iconem est également un outil efficace et précis pour mesurer des distances, des surfaces et des volumes de ce site classé au patrimoine mondial de l’UNESCO. Enfin, ce modèle d’une grande précision permet d’explorer à distance les vestiges de cet ancien nœud de circulation du commerce méditerranéen."
+  },
+  "thumbnailDate": {
+    "en": "2016",
+    "fr": "2016"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=N3g57AeQZ50",
+      "preview": "img/projects/delos/delos_youtubethumbnail1.webp"
+    },
+    {
+      "src": "https://www.youtube.com/watch?v=O9iFGZYFJ3o",
+      "preview": "img/projects/delos/delos_youtubethumbnail2.webp"
+    }
+  ],
+  "actors": {
+    "en": "Iconem and the Ecole française d’Athènes",
+    "fr": "Iconem et l’Ecole française d’Athènes",
+    "logos": []
+  }
 }
