@@ -1,47 +1,47 @@
 {
-    "modalID": "pavillonlamuette",
-    "thumbnailTitle": {
-        "en": "Pavillon de la Muette",
-        "fr": "Pavillon de la Muette"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2019",
-        "fr": "2019"
-    },
-    "thumbnail": "img/projects/pavillonlamuette/pavillonlamuette_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of Pavillon de la Muette",
-        "fr": "Numérisation du Pavillon de la Muette"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "La Muette, built by Ange-Jacques Gabriel in 1767 at the request of King Louis XV on the site of an old castle built for François the Ist, is located on the north of the royal forest of Saint-Germain-en-Laye. It is one of the most imposing hunting lodges of the Old Regime. Abandoned and deprived of all functions from 1970, the Royal Pavilion of La Muette was awarded to the Office National des Forêts (ONF) in 1984, which unfortunately did not have the means to maintain it, despite its prestigious history and its registration as a Historic Monument in 1921. The Pavillon de la Muette now requires substantial restoration after having been damaged by age. Under the aegis of an ambitious renovation program undertaken by Emmanuel Basse and Benoît d'Halluin, two history enthusiasts patrons, our team had the chance to digitize the building. Using photogrammetry techniques, Iconem produced a very precise 3D model to provide valuable documentation to the specialists responsible for restoring the building. Thus, the pavilion will be able to regain its former cultural influence and welcome its first visitors by 2022.",
-        "fr": "Édifié en 1767 à la demande du roi Louis XV par Ange-Jacques Gabriel sur l’emplacement d’un ancien château construit pour François Ier, la Muette, situé au nord de la forêt royale de Saint-Germain-en-Laye, il s’agit d’un des plus imposants pavillon de chasse de l’Ancien régime. Abandonné et privé de toutes fonctions à partir de 1970, le Pavillon royal de la Muette est attribué à l’Office National des Forêts (ONF) en 1984 qui n’aura malheureusement pas les moyens de l’entretenir, en dépit de son histoire prestigieuse et de son inscription au titre des Monuments Historiques en 1921. Ayant subi les outrages du temps, le pavillon de la Muette nécessite désormais une restauration conséquente. Sous l’égide d’un programme de rénovation ambitieux entrepris par Emmanuel Basse et Benoît d’Halluin, deux mécènes passionnés d’histoire, notre équipe a eu la chance de numériser l’édifice. Grâce aux techniques de la photogrammétrie, Iconem a réalisé une maquette 3D très précise permettant de fournir une précieuse documentation aux spécialistes chargés de restaurer le bâtiment. Ainsi, le pavillon pourra retrouver son rayonnement culturel d’autrefois et accueillir ses premiers visiteurs d’ici 2022."
-    },
-    "actors": {
-        "en": "Iconem, Esprimme",
-        "fr": "Iconem, Esprimme",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/pavillonlamuette/pavillonlamuette_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "France",
+    "fr": "France"
+  },
+  "articleTitle": {
+    "en": "Digitisation of Pavillon de la Muette",
+    "fr": "Numérisation du Pavillon de la Muette"
+  },
+  "img": [
+    {
+      "src": "img/projects/pavillonlamuette/pavillonlamuette_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "pavillonlamuette",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Pavillon de la Muette",
+    "fr": "Pavillon de la Muette"
+  },
+  "thumbnail": "img/projects/pavillonlamuette/pavillonlamuette_thumbnail.webp",
+  "text": {
+    "en": "La Muette, built by Ange-Jacques Gabriel in 1767 at the request of King Louis XV on the site of an old castle built for François the Ist, is located on the north of the royal forest of Saint-Germain-en-Laye. It is one of the most imposing hunting lodges of the Old Regime. Abandoned and deprived of all functions from 1970, the Royal Pavilion of La Muette was awarded to the Office National des Forêts (ONF) in 1984, which unfortunately did not have the means to maintain it, despite its prestigious history and its registration as a Historic Monument in 1921. The Pavillon de la Muette now requires substantial restoration after having been damaged by age. Under the aegis of an ambitious renovation program undertaken by Emmanuel Basse and Benoît d'Halluin, two history enthusiasts patrons, our team had the chance to digitize the building. Using photogrammetry techniques, Iconem produced a very precise 3D model to provide valuable documentation to the specialists responsible for restoring the building. Thus, the pavilion will be able to regain its former cultural influence and welcome its first visitors by 2022.",
+    "fr": "Édifié en 1767 à la demande du roi Louis XV par Ange-Jacques Gabriel sur l’emplacement d’un ancien château construit pour François Ier, la Muette, situé au nord de la forêt royale de Saint-Germain-en-Laye, il s’agit d’un des plus imposants pavillon de chasse de l’Ancien régime. Abandonné et privé de toutes fonctions à partir de 1970, le Pavillon royal de la Muette est attribué à l’Office National des Forêts (ONF) en 1984 qui n’aura malheureusement pas les moyens de l’entretenir, en dépit de son histoire prestigieuse et de son inscription au titre des Monuments Historiques en 1921. Ayant subi les outrages du temps, le pavillon de la Muette nécessite désormais une restauration conséquente. Sous l’égide d’un programme de rénovation ambitieux entrepris par Emmanuel Basse et Benoît d’Halluin, deux mécènes passionnés d’histoire, notre équipe a eu la chance de numériser l’édifice. Grâce aux techniques de la photogrammétrie, Iconem a réalisé une maquette 3D très précise permettant de fournir une précieuse documentation aux spécialistes chargés de restaurer le bâtiment. Ainsi, le pavillon pourra retrouver son rayonnement culturel d’autrefois et accueillir ses premiers visiteurs d’ici 2022."
+  },
+  "thumbnailDate": {
+    "en": "2019",
+    "fr": "2019"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, Esprimme",
+    "fr": "Iconem, Esprimme",
+    "logos": []
+  }
 }
