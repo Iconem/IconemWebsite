@@ -1,126 +1,126 @@
 {
-    "modalID": "alep",
-    "thumbnailTitle": {
-        "en": "Aleppo",
-        "fr": "Alep"
+  "thumbnailLocation": {
+    "en": "Syria",
+    "fr": "Syrie"
+  },
+  "articleTitle": {
+    "en": "Digitisation of Aleppo",
+    "fr": "Numérisation d'Alep"
+  },
+  "img": [
+    {
+      "src": "img/projects/alep/alep_10.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/alep/alep_11.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2017",
-        "fr": "2017"
+    {
+      "src": "img/projects/alep/alep_12.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/alep/alep_thumbnail_02.webp",
-    "articleTitle": {
-        "en": "Digitisation of Aleppo",
-        "fr": "Numérisation d'Alep"
+    {
+      "src": "img/projects/alep/alep_13.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/alep/alep_14.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/alep/alep_15.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "Aleppo, Syria, has been the site of major fighting. Its old city is also a UNESCO World Heritage site of incalculable cultural value. The impressive citadel of Aleppo overlooking the city; the vast souk, one of the largest covered markets in the world; and the 12th-century Great Umayyad Mosque are especially important culturally and sustained heavy damage. It was imperative that these sites be recorded before they suffer further destruction. Iconem worked with the Directorate-General of Antiquities and Museums of Syria in 2017 to document these treasured sites. Using drones, our team scanned thousands of square metres. This data was used to reconstruct a 3D model of the old city; individual 3D models of the citadel, the souk, and the Great Umayyad Mosque; and an orthophoto map of the city centre. These resources document the current state of damage. They are tools crucial to architectural evaluation and are vital to reconstruction projects.",
-        "fr": "Alep a été le théâtre de conflits armés extrêmement violents. Sa vieille ville est un site classé patrimoine mondial de l’UNESCO, d’une valeur culturelle inestimable. Des sites d’importance majeure ont subi de graves dommages : l’impressionnante citadelle d’Alep surplombant la ville, le souk - l’un des plus vastes marchés couverts au monde, la Grande Mosquée des Omeyyades du 12ème siècle… Il était impératif que ces sites soient numérisés avant d’endurer davantage de destructions. Iconem a travaillé avec la Direction Générale des Antiquités et des Musées de Syrie en 2017 pour documenter ces sites précieux. En employant des drones, notre équipe a scanné des milliers de mètres carrés. Ces données ont été utilisées pour reconstruire un modèle 3D de la vieille ville, des modèles 3D individuels de la citadelle, du souk et de la mosquée, ainsi qu’une carte orthophoto du centre de la ville. Ces sources documentent l’état actuel des dégâts. Ils sont des outils cruciaux à l’évaluation architecturale et sont indispensables pour les projets de reconstruction."
+    {
+      "src": "img/projects/alep/alep_16.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "Iconem and the Syrian Directorate-General of Antiquities & Museums (DGAM)",
-        "fr": "Iconem et la Direction Générale des Antiquités et des Musées de Syrie (DGAM)",
-        "logos": []
+    {
+      "src": "img/projects/alep/alep_17.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "img": [
-        {
-            "src": "img/projects/alep/alep_10.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_11.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_12.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_13.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_14.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_15.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_16.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_17.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_18.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/alep/alep_15.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
-            "preview": "img/projects/alep/alep_youtubethumbnail3.webp"
-        },
-        {
-            "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
-            "preview": "img/projects/alep/alep_youtubethumbnail1.webp"
-        },
-        {
-            "src": "https://www.youtube.com/watch?v=rOqTeBVaceY",
-            "preview": "img/projects/alep/alep_youtubethumbnail2.webp"
-        }
-    ],
-    "models": [
-        "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
-    ]
+    {
+      "src": "img/projects/alep/alep_18.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/alep/alep_15.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "alep",
+  "models": [
+    "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
+  ],
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Aleppo",
+    "fr": "Alep"
+  },
+  "thumbnail": "img/projects/alep/alep_thumbnail_02.webp",
+  "text": {
+    "en": "Aleppo, Syria, has been the site of major fighting. Its old city is also a UNESCO World Heritage site of incalculable cultural value. The impressive citadel of Aleppo overlooking the city; the vast souk, one of the largest covered markets in the world; and the 12th-century Great Umayyad Mosque are especially important culturally and sustained heavy damage. It was imperative that these sites be recorded before they suffer further destruction. Iconem worked with the Directorate-General of Antiquities and Museums of Syria in 2017 to document these treasured sites. Using drones, our team scanned thousands of square metres. This data was used to reconstruct a 3D model of the old city; individual 3D models of the citadel, the souk, and the Great Umayyad Mosque; and an orthophoto map of the city centre. These resources document the current state of damage. They are tools crucial to architectural evaluation and are vital to reconstruction projects.",
+    "fr": "Alep a été le théâtre de conflits armés extrêmement violents. Sa vieille ville est un site classé patrimoine mondial de l’UNESCO, d’une valeur culturelle inestimable. Des sites d’importance majeure ont subi de graves dommages : l’impressionnante citadelle d’Alep surplombant la ville, le souk - l’un des plus vastes marchés couverts au monde, la Grande Mosquée des Omeyyades du 12ème siècle… Il était impératif que ces sites soient numérisés avant d’endurer davantage de destructions. Iconem a travaillé avec la Direction Générale des Antiquités et des Musées de Syrie en 2017 pour documenter ces sites précieux. En employant des drones, notre équipe a scanné des milliers de mètres carrés. Ces données ont été utilisées pour reconstruire un modèle 3D de la vieille ville, des modèles 3D individuels de la citadelle, du souk et de la mosquée, ainsi qu’une carte orthophoto du centre de la ville. Ces sources documentent l’état actuel des dégâts. Ils sont des outils cruciaux à l’évaluation architecturale et sont indispensables pour les projets de reconstruction."
+  },
+  "thumbnailDate": {
+    "en": "2017",
+    "fr": "2017"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=yryLZqVYzjU",
+      "preview": "img/projects/alep/alep_youtubethumbnail3.webp"
+    },
+    {
+      "src": "https://www.youtube.com/watch?v=HhjWfBzbgxw",
+      "preview": "img/projects/alep/alep_youtubethumbnail1.webp"
+    },
+    {
+      "src": "https://www.youtube.com/watch?v=rOqTeBVaceY",
+      "preview": "img/projects/alep/alep_youtubethumbnail2.webp"
+    }
+  ],
+  "actors": {
+    "en": "Iconem and the Syrian Directorate-General of Antiquities & Museums (DGAM)",
+    "fr": "Iconem et la Direction Générale des Antiquités et des Musées de Syrie (DGAM)",
+    "logos": []
+  }
 }
