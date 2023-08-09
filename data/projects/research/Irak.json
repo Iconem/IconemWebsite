@@ -1,47 +1,47 @@
 {
-    "modalID": "irak",
-    "thumbnailTitle": {
-        "en": "Ninive, Khorsabad, Nimroud",
-        "fr": "Ninive, Khorsabad, Nimroud"
-    },
-    "thumbnailLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "thumbnailDate": {
-        "en": "2017",
-        "fr": "2017"
-    },
-    "thumbnail": "img/projects/irak/irak_thumbnail.webp",
-    "articleTitle": {
-        "en": "Digitisation of Ninive, Khorsabad, Nimroud",
-        "fr": "Numérisation de Ninive, Khorsabad, Nimroud"
-    },
-    "articleLocation": {
-        "en": "",
-        "fr": ""
-    },
-    "articleDate": {
-        "en": "",
-        "fr": ""
-    },
-    "text": {
-        "en": "Ancient capitals of Assyria and located near the Tigris in northern Iraq, Nineveh, Khorsabad and Nimrud represent cultural, religious and economic centers. After a rapid urban expansion in the 2000s, their growth coupled with Daesh destructions and uncontrolled excavations threatens their survival. In 2017, Iconem scanned the tunnels and made a 3D video of them as a technical service provider for UNESCO. Indeed, the Nabi Yunus tunnels that surround the ancient city have highlighted the hidden Assyrians treasures. While the reconstruction of the city is underway, it is important to ensure that it does not threaten the historic site again and further.",
-        "fr": "Anciennes capitales de l’Assyrie situé près du Tigre dans le nord de l’Irak,  Ninive, Khorsabad et Nimrud représentent des centres culturels, religieux et économiques d’importance. Ayant connu une expansion urbaine rapide dans les années 2000, sa croissance jumelée aux destructions de Daech et aux excavations sauvages menace leur survie. En 2017, Iconem a scanné les tunnels et en a réalisé une vidéo 3D en tant que prestataire technique de l’UNESCO. En effet, les tunnels de Nabi yunus qui quadrillent l’ancienne ville, ont ramené à la lumière du jour les trésors cachés des assyriens. Alors que la reconstruction de la ville est en cours, il est important de veiller à ce qu’elle ne menace pas à nouveau (davantage) le site historique."
-    },
-    "actors": {
-        "en": "Iconem, UNESCO",
-        "fr": "Iconem, UNESCO",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/irak/irak_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+  "thumbnailLocation": {
+    "en": "-",
+    "fr": "-"
+  },
+  "articleTitle": {
+    "en": "Digitisation of Ninive, Khorsabad, Nimroud",
+    "fr": "Numérisation de Ninive, Khorsabad, Nimroud"
+  },
+  "img": [
+    {
+      "src": "img/projects/irak/irak_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "irak",
+  "articleLocation": {
+    "en": "",
+    "fr": ""
+  },
+  "thumbnailTitle": {
+    "en": "Ninive, Khorsabad, Nimroud",
+    "fr": "Ninive, Khorsabad, Nimroud"
+  },
+  "thumbnail": "img/projects/irak/irak_thumbnail.webp",
+  "text": {
+    "en": "Ancient capitals of Assyria and located near the Tigris in northern Iraq, Nineveh, Khorsabad and Nimrud represent cultural, religious and economic centers. After a rapid urban expansion in the 2000s, their growth coupled with Daesh destructions and uncontrolled excavations threatens their survival. In 2017, Iconem scanned the tunnels and made a 3D video of them as a technical service provider for UNESCO. Indeed, the Nabi Yunus tunnels that surround the ancient city have highlighted the hidden Assyrians treasures. While the reconstruction of the city is underway, it is important to ensure that it does not threaten the historic site again and further.",
+    "fr": "Anciennes capitales de l’Assyrie situées près du Tigre dans le nord de l’Irak,  Ninive, Khorsabad et Nimrud représentent des centres culturels, religieux et économiques d’importance. Les excavations sauvages et les destructions de Daech combinées à la rapide expansion urbaine des années 2000 menacent leur survie. A l’automne 2015, pour le compte de l’UNESCO, Iconem a réalisé un scan à distance de Ninive, Khorsabad et Nimroud. Des drones longue portée ont alors été déployés pour pouvoir numériser des sites alors situés dans une zone contrôlée par l’organisation Etat islamique. Ces scans ont été complétés, dans le cadre de nouvelles missions supervisées pour l’UNESCO, par une série de numérisations entre 2016 et 2018, à Nimroud et Ninive, quand ces sites sont redevenus accessibles par voie terrestre. En particulier, à Ninive, Iconem a scanné des tunnels situés sous le mausolée de Nabi Yunus. Ces tunnels, creusés par l’organisation Etat islamique, ont mis au jour des vestiges assyriens, parmi lesquels de Lamassus ou taureaux ailés. Alors que la reconstruction de la ville est en cours, il est important de veiller à ce qu’elle ne menace pas à nouveau (davantage) le site historique."
+  },
+  "thumbnailDate": {
+    "en": "2017",
+    "fr": "2017"
+  },
+  "video": [],
+  "actors": {
+    "en": "Iconem, UNESCO",
+    "fr": "Iconem, UNESCO",
+    "logos": []
+  }
 }
