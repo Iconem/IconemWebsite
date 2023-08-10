@@ -155,7 +155,7 @@ baseUrl = "https://iconem.com/"
 
 	[languages.fr.about]
 		title    = "À propos d'ICONEM"
-		description = "Fondée en 2013, Iconem est une startup innovante spécialisée en numérisation 3D des sites patrimoniaux. Nous travaillons avec des organisations internationales, des gouvernements et collectivités ou des musées d’envergure internationale tels que l’UNESCO, l’Aga Khan Trust for Culture, le Sultanat d’Oman, la Mairie de Paris ou le Musée du Louvre. Nous réalisons des modèles 3D de monuments, de patrimoine urbain ou rural à grand-échelle, des expositions immersives et des formations pour les professionnels."
+		description = "Fondée en 2013, Iconem est une entreprise technologique spécialisée en numérisation 3D de sites patrimoniaux. Nous travaillons avec des organisations internationales, des gouvernements, des collectivités et des institutions culturelles d’envergure, tels que l’UNESCO, l’Aga Khan Trust for Culture, le Sultanat d’Oman, la Fondazione dei Musei Civici de Venise ou le Musée du Louvre. Nous réalisons des modèles 3D de monuments et sites à grande échelle, des expositions immersives et des formations pour les professionnels."
 
   	# Contribute section
 	[languages.en.contribute]
