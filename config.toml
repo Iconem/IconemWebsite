@@ -148,6 +148,12 @@ baseUrl = "https://iconem.com/"
     # Map section
     [params.map]
 
+	# About section
+	[languages.en.about]
+		enabled = true
+	[languages.fr.about]
+		enabled = true
+
   	# Contribute section
 	[languages.en.contribute]
 		title    = "Contribute"
