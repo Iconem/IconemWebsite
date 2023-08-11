@@ -13,9 +13,9 @@ export default createClass({
         console.log(about);
 
         const logoWidgets = this.props.widgetsFor("logo");
-        const whiteLogoWidgets = logoWidgets.getIn(["widgets", "white"]);
-        const whiteLogoData = logoWidgets.getIn(["data", "white"]) || [];
-        const whiteLogo = whiteLogoWidgets.props.getAsset(
+        const whiteLogoWidgets = logoWidgets && logoWidgets.getIn(["widgets", "white"]);
+        const whiteLogoData = logoWidgets && logoWidgets.getIn(["data", "white"]) || [];
+        const whiteLogo = whiteLogoWidgets && whiteLogoWidgets.props.getAsset(
             whiteLogoData,
             whiteLogoWidgets.props.field
         );
