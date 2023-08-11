@@ -5,20 +5,18 @@ export default createClass({
         script.src = "/js/vendors.min.js";
         document.head.appendChild(script);
     },
-    componentDidUpdate() {},
+    componentDidUpdate(){
+    },
     render: function () {
-        this.props.document.body.backgroundColor = "white";
+        this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
-        console.log("@@@@@@@@@@@@@@@@@@@@@@@");
-        console.log(about);
 
-        const logoWidgets = this.props.widgetsFor("logo");
-        const whiteLogoWidgets = logoWidgets && logoWidgets.getIn(["widgets", "white"]);
-        const whiteLogoData = logoWidgets && logoWidgets.getIn(["data", "white"]) || [];
-        const whiteLogo = whiteLogoWidgets && whiteLogoWidgets.props.getAsset(
-            whiteLogoData,
-            whiteLogoWidgets.props.field
-        );
+        if(about.order !== 0){
+            const logoWidgets = this.props.widgetsFor('logo');
+            const whiteLogoWidgets = logoWidgets.getIn(['widgets', 'white']);
+            const whiteLogoData = logoWidgets.getIn(['data', 'white']) || [];
+            const whiteLogo = whiteLogoWidgets.props.getAsset(whiteLogoData, whiteLogoWidgets.props.field)
+        }
 
         const html = `
             <section id="about">
