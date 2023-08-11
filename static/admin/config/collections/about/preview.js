@@ -10,6 +10,8 @@ export default createClass({
     render: function () {
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
+        console.log('@@@@@@@@@@@@@@@@@@@@@@');
+        console.log(about);
 
         const logoWidgets = this.props.widgetsFor('logo');
         const whiteLogoWidgets = logoWidgets.getIn(['widgets', 'white']);
