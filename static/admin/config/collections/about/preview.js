@@ -18,7 +18,7 @@ export default createClass({
             const whiteLogo = whiteLogoWidgets.props.getAsset(whiteLogoData, whiteLogoWidgets.props.field)
         }
 
-        const html = order === 0 ? `
+        const html = about.order === 0 ? `
             <section id="about">
                 <section>
                 <div class="container">
