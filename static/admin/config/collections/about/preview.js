@@ -11,11 +11,15 @@ export default createClass({
         this.props.document.body.backgroundColor = 'white';
         const about = this.props.entry.toJS().data;
 
+        let logoWidgets;
+        let whiteLogoWidgets;
+        let whiteLogoData
+        let whiteLogo;
         if(about.order !== 0){
-            const logoWidgets = this.props.widgetsFor('logo');
-            const whiteLogoWidgets = logoWidgets.getIn(['widgets', 'white']);
-            const whiteLogoData = logoWidgets.getIn(['data', 'white']) || [];
-            const whiteLogo = whiteLogoWidgets.props.getAsset(whiteLogoData, whiteLogoWidgets.props.field)
+            logoWidgets = this.props.widgetsFor('logo');
+            whiteLogoWidgets = logoWidgets.getIn(['widgets', 'white']);
+            whiteLogoData = logoWidgets.getIn(['data', 'white']) || [];
+            whiteLogo = whiteLogoWidgets.props.getAsset(whiteLogoData, whiteLogoWidgets.props.field)
         }
 
         const html = about.order === 0 ? `
