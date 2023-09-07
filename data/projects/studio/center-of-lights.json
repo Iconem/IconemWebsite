@@ -73,7 +73,16 @@
     "en": "04. 2023",
     "fr": "04. 2023"
   },
-  "video": [],
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=6Vo5kr6vjc8",
+      "preview": "img/projects/center-of-lights/maxresdefault.jpg"
+    },
+    {
+      "src": "https://www.youtube.com/watch?v=C_Hv6fu5ZHU",
+      "preview": "img/projects/center-of-lights/maxresdefault.jpg"
+    }
+  ],
   "actors": {
     "en": "Commissariat général et maîtrise d’ouvrage : Saline royale d’Arc-et-Senans, Maîtrise d’oeuvre et productions audiovisuelles : Iconem, Scénographie : Atelier Sylvain Roca, Réalisateur : Olivier Brunet, Compositions musicales  : Christian Holl ",
     "fr": "Commissariat général et maîtrise d’ouvrage : Saline royale d’Arc-et-Senans, Maîtrise d’oeuvre et productions audiovisuelles: Iconem, Scénographie : Atelier Sylvain Roca, Réalisateur : Olivier Brunet, Compositions musicales  : Christian Holl "
