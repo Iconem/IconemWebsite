@@ -7,7 +7,50 @@
     "en": "The Center of Lights",
     "fr": "Le Centre de Lumières"
   },
-  "img": [],
+  "img": [
+    {
+      "caption": {
+        "en": " ",
+        "fr": " "
+      },
+      "src": "/img/projects/center-of-lights/saline-royale-centre-lumiere-hd-yoan-jeudy-87.jpg.jpg"
+    },
+    {
+      "caption": {
+        "fr": " ",
+        "en": " "
+      },
+      "src": "/img/projects/center-of-lights/saline-royale-centre-lumiere-hd-yoan-jeudy-6.jpg"
+    },
+    {
+      "caption": {
+        "fr": " ",
+        "en": " "
+      },
+      "src": "/img/projects/center-of-lights/saline-royale-centre-lumiere-hd-yoan-jeudy-50.jpg.jpg"
+    },
+    {
+      "caption": {
+        "fr": " ",
+        "en": " "
+      },
+      "src": "/img/projects/center-of-lights/saline-royale-centre-lumiere-hd-yoan-jeudy-38-borders.jpg"
+    },
+    {
+      "caption": {
+        "en": " ",
+        "fr": " "
+      },
+      "src": "/img/projects/center-of-lights/saline-royale-centre-lumiere-hd-yoan-jeudy-28.jpg.jpg"
+    },
+    {
+      "caption": {
+        "fr": " ",
+        "en": " "
+      },
+      "src": "/img/projects/center-of-lights/saline-royale-centre-lumiere-hd-yoan-jeudy-20.jpg.jpg"
+    }
+  ],
   "articleDate": {
     "en": "04. 2023",
     "fr": "04. 2023"
@@ -30,6 +73,7 @@
     "en": "04. 2023",
     "fr": "04. 2023"
   },
+  "video": [],
   "actors": {
     "en": "Commissariat général et maîtrise d’ouvrage : Saline royale d’Arc-et-Senans, Maîtrise d’oeuvre et productions audiovisuelles : Iconem, Scénographie : Atelier Sylvain Roca, Réalisateur : Olivier Brunet, Compositions musicales  : Christian Holl ",
     "fr": "Commissariat général et maîtrise d’ouvrage : Saline royale d’Arc-et-Senans, Maîtrise d’oeuvre et productions audiovisuelles: Iconem, Scénographie : Atelier Sylvain Roca, Réalisateur : Olivier Brunet, Compositions musicales  : Christian Holl "
