@@ -95,6 +95,12 @@ export default {
             "public_folder": "/img/projects/{{fields.modalID}}"
         },
         {
+            "label": "Highlighted",
+            "name": "highlighted",
+            widget: "boolean", 
+            default: false
+        },
+        {
             "label": "Article title",
             "name": "articleTitle",
             "widget": "object",
