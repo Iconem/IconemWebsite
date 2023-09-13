@@ -69,8 +69,8 @@ export default {
                     "name": "en",
                     "required": false,
                     "widget": "datetime",
-                    "format": 'MM. YYYY',
-                    "date_format": "MM.YYYY",
+                    "format": 'YYYY',
+                    "date_format": "YYYY",
                     "time_format": "",
                     "default": ""
                 },
@@ -79,8 +79,8 @@ export default {
                     "name": "fr",
                     "required": false,
                     "widget": "datetime",
-                    "format": 'MM. YYYY',
-                    "date_format": "MM.YYYY",
+                    "format": 'YYYY',
+                    "date_format": "YYYY",
                     "time_format": "",
                     "default": ""
                 }
