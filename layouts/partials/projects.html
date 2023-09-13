@@ -27,7 +27,7 @@
               <div class="project-slide">
               <a href="#portfolioModal{{ $project.modalID }}" onClick="(function(){ gtag('config', 'UA-107915151-2', {'page_path': '#portfolioModal{{ $project.modalID }}'}); return false; })();return false;" class="photo-box" data-toggle="modal" data-keyboard="false">
                       {{ with $project.thumbnail }}
-                        <img src="{{ ((resources.Get .).Fit "340x190 webp").RelPermalink }}" class="img-responsive" alt="">
+                        <img src="{{ ((((resources.Get .).Fill "340x190").Fit "340x190 webp")).RelPermalink }}" class="img-responsive" alt="">
                       {{ end }}
                       <div class="photo-box-caption">
                           <div class="photo-box-caption-content">
