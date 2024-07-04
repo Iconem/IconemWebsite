@@ -53,19 +53,6 @@
       }
     },
     {
-      "id": "galdric",
-      "name": "Galdric Robert",
-      "job": {
-        "en": "Head of Production",
-        "fr": "Directeur de la Production"
-      },
-      "img": "img/team/galdric_bw.webp",
-      "description": {
-        "en": "",
-        "fr": ""
-      }
-    },
-    {
       "id": "ieva",
       "name": "Ieva Bogušaitė",
       "job": {
@@ -142,19 +129,6 @@
         "en": "Paul is a software engineer, graduated from the University of Technology of Troyes (UTT) with a formal education in science. He then specialized in development and information system management. After previous experiences in web and 3D development, Iconem is now the opportunity for him to apply both fields of expertise. He is working on the Iconem web platform, AR/VR product, providing archaeologists and the wider audience with new way to study and discover cultural heritage.",
         "fr": "Paul est ingénieur logiciel, diplômé de l'Université de Technologie de Troyes (UTT) avec une formation scientifique. Il s'est ensuite spécialisé dans le développement et la gestion des systèmes d'information. Après des expériences antérieures dans le développement web et 3D, Iconem est aujourd'hui l'occasion pour lui d'appliquer ces deux domaines d'expertise. Il travaille sur la plateforme web d'Iconem, produit AR/VR, offrant aux archéologues et au grand public une nouvelle façon d'étudier et de découvrir le patrimoine culturel."
       }
-    },
-    {
-      "job": {
-        "en": "Administrative and Financial Director",
-        "fr": " Directrice administrative et financière"
-      },
-      "description": {
-        "en": "",
-        "fr": ""
-      },
-      "id": "tamara",
-      "name": "Tamara Blaser",
-      "img": "/img/team/1640599745593-removebg-preview.png"
     },
     {
       "job": {
