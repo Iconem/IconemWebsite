@@ -67,6 +67,16 @@
                     <p>{{ .Site.Params.brochure.title }}</p>
                 </a>
             {{ end }}
+            {{ if .Site.Params.portfolio }}
+                <a class="text-center contact-item" href="{{ .Site.Params.portfolio.pdf }}" target="_blank">
+                    {{ if eq $type "research" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" >
+                    {{ else if eq $type "studio" }}
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" >
+                    {{ end }}
+                    <p>{{ .Site.Params.portfolio.title }}</p>
+                </a>
+            {{ end }}
             {{ if .Site.Params.rgpd }}
                 <a class="text-center contact-item" href="{{ .Site.Params.rgpd.pdf }}" target="_blank">
                     {{ if eq $type "research" }}

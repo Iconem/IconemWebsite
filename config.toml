@@ -190,6 +190,14 @@ baseUrl = "https://iconem.com/"
 		title = "Téléchargez notre plaquette"
 		pdf = "pdf/Iconem_FR.pdf"
 
+	[languages.en.portfolio]
+		title = "Download our exhibition portfolio"
+		pdf = "pdf/Iconem_Exhibition_Portfolio.pdf"
+
+	[languages.fr.portfolio]
+		title = "Téléchargez notre portfolio d'exposition"
+		pdf = "pdf/Iconem_Exhibition_Portfolio.pdf"
+
 	[languages.en.rgpd]
 		title = "Data Protection Policy"
 		pdf = "pdf/charte_rgpd.pdf"
