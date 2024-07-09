@@ -50,7 +50,7 @@
                         {{ if eq $type "research" }}
                         <a href="{{ .link }}" target="_blank">
                             <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
-                                data-src="{{ .icon_research}}" 
+                                data-src="{{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}"
                                 onmouseenter="this.src={{ ((resources.Get .icon_active).Fit "100x50 webp").RelPermalink }}"
                                 onmouseleave="this.src={{ ((resources.Get .icon_research).Fit "100x50 webp").RelPermalink }}"
                             />
