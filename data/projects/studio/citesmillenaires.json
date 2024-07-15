@@ -1,125 +1,126 @@
 {
-    "modalID": "citesmillenaires",
-    "thumbnailTitle": {
-        "en": "Age-Old Cities",
-        "fr": "Cités Millénaires"
+  "thumbnailLocation": {
+    "en": "Arab World Institute, Paris",
+    "fr": "Institut du Monde Arabe, Paris"
+  },
+  "articleTitle": {
+    "en": "Age-Old Cities",
+    "fr": "Cités Millénaires: Voyage Virtuel de Palmyre à Mossoul"
+  },
+  "img": [
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Arab World Institute, Paris",
-        "fr": "Institut du Monde Arabe, Paris"
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_10.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/citesmillenaires/citesmillenaires_thumbnail.webp",
-    "articleTitle": {
-        "en": "Age-Old Cities",
-        "fr": "Cités Millénaires: Voyage Virtuel de Palmyre à Mossoul"
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "Arab World Institute, Paris, France",
-        "fr": "Institut du Monde Arabe, Paris, France"
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "October 10, 2018 - February 17, 2019",
-        "fr": "10 octobre 2018 - 17 février 2019"
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_05.png",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "This exhibition is organized in collaboration with Iconem, who produced all the 3D models recreating the four archaeological sites presented in the exhibition: Aleppo, Mosul, Palmyra, Leptis Magna, the ‘‘Age-Old Cities’’. The exhibition is truly immersive, in that it doesn’t showcase objects, but shows projections which alternatively display virtual reconstructions and 3D images of the damaged cities. The purpose of the exhibition is to raise public awareness on the destruction of universal heritage in times of conflict, while allowing visitors to explore these archaeological sites that are difficult to access. The exhibition also highlights the work of local communities to preserve the sites through several testimonies. Ubisoft, French video game studio, used Iconem’s data to curate a virtual reality experience which immerses visitors inside these sites.",
-        "fr": "Cette exposition est organisée en collaboration avec Iconem, qui a réalisé l’ensemble des modèles 3D reconstituant les quatre sites archéologiques présentés dans l’exposition : Alep, Mossoul, Palmyre, Leptis Magna, les « Cités Millénaires ». Aucun objet n’est présenté, seulement des projections immersives destinées à toucher le plus large public possible, alternant reconstitutions virtuelles et images 3D des cités endommagées. L’exposition a pour objectif de sensibiliser le public aux destructions qui touchent le patrimoine universel en période de conflit, tout en permettant aux visiteurs une immersion dans des sites archéologiques difficiles d’accès. L’exposition met également en lumière le travail de personnes œuvrant à la préservation des sites à travers plusieurs témoignages, ainsi que des habitants de ces villes. Ubisoft, éditeur français de jeu vidéo, propose une expérience en réalité virtuelle grâce aux données d’Iconem à la fin de l’exposition, qui nous plonge à l’intérieur de ces sites."
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_06.png",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual director: Mardi 8",
-        "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Scénographie : Sylvain Roca, Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
-        "logos": [
-            "img/projects/citesmillenaires/logo_ima.webp",
-            "img/projects/citesmillenaires/logo_ministèredelaculture.webp",
-            "img/projects/citesmillenaires/logo_ubisoft.webp",
-            "img/projects/citesmillenaires/logo_unesco.webp",
-            "img/projects/citesmillenaires/logo_unil.webp"
-        ]
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_07.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "img": [
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_10.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_05.png",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_06.png",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_07.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_08.png",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/citesmillenaires/citesmillenaires_09.png",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://youtu.be/BHjcPITLcqw",
-            "preview": "img/projects/citesmillenaires/citesmillenaires_01.webp"
-        },
-        {
-            "src": "https://youtu.be/a2BawmShWYA",
-            "preview": "img/projects/citesmillenaires/citesmillenaires_02.webp"
-        }
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_08.png",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/citesmillenaires/citesmillenaires_09.png",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "October 10, 2018 - February 17, 2019",
+    "fr": "10 octobre 2018 - 17 février 2019"
+  },
+  "modalID": "2018-ima-cites-millenaires",
+  "articleLocation": {
+    "en": "Arab World Institute, Paris, France",
+    "fr": "Institut du Monde Arabe, Paris, France"
+  },
+  "thumbnailTitle": {
+    "en": "Age-Old Cities",
+    "fr": "Cités Millénaires"
+  },
+  "thumbnail": "img/projects/citesmillenaires/citesmillenaires_thumbnail.webp",
+  "text": {
+    "en": "This exhibition is organized in collaboration with Iconem, who produced all the 3D models recreating the four archaeological sites presented in the exhibition: Aleppo, Mosul, Palmyra, Leptis Magna, the ‘‘Age-Old Cities’’. The exhibition is truly immersive, in that it doesn’t showcase objects, but shows projections which alternatively display virtual reconstructions and 3D images of the damaged cities. The purpose of the exhibition is to raise public awareness on the destruction of universal heritage in times of conflict, while allowing visitors to explore these archaeological sites that are difficult to access. The exhibition also highlights the work of local communities to preserve the sites through several testimonies. Ubisoft, French video game studio, used Iconem’s data to curate a virtual reality experience which immerses visitors inside these sites.",
+    "fr": "Cette exposition est organisée en collaboration avec Iconem, qui a réalisé l’ensemble des modèles 3D reconstituant les quatre sites archéologiques présentés dans l’exposition : Alep, Mossoul, Palmyre, Leptis Magna, les « Cités Millénaires ». Aucun objet n’est présenté, seulement des projections immersives destinées à toucher le plus large public possible, alternant reconstitutions virtuelles et images 3D des cités endommagées. L’exposition a pour objectif de sensibiliser le public aux destructions qui touchent le patrimoine universel en période de conflit, tout en permettant aux visiteurs une immersion dans des sites archéologiques difficiles d’accès. L’exposition met également en lumière le travail de personnes œuvrant à la préservation des sites à travers plusieurs témoignages, ainsi que des habitants de ces villes. Ubisoft, éditeur français de jeu vidéo, propose une expérience en réalité virtuelle grâce aux données d’Iconem à la fin de l’exposition, qui nous plonge à l’intérieur de ces sites."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [
+    {
+      "src": "https://youtu.be/BHjcPITLcqw",
+      "preview": "img/projects/citesmillenaires/citesmillenaires_01.webp"
+    },
+    {
+      "src": "https://youtu.be/a2BawmShWYA",
+      "preview": "img/projects/citesmillenaires/citesmillenaires_02.webp"
+    }
+  ],
+  "actors": {
+    "en": "General curator: Aurélie Clemente Ruiz, director of exhibitions at the Institut du Monde Arabe, Exhibition manager: Nala Aloudat, Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual director: Mardi 8",
+    "fr": "Commissariat général : Aurélie Clemente Ruiz, directrice des expositions de l’Institut du Monde Arabe, Chargée d’exposition : Nala Aloudat, Scénographie : Sylvain Roca, Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
+    "logos": [
+      "img/projects/citesmillenaires/logo_ima.webp",
+      "img/projects/citesmillenaires/logo_ministèredelaculture.webp",
+      "img/projects/citesmillenaires/logo_ubisoft.webp",
+      "img/projects/citesmillenaires/logo_unesco.webp",
+      "img/projects/citesmillenaires/logo_unil.webp"
     ]
+  }
 }
