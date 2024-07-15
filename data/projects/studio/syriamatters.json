@@ -1,70 +1,71 @@
 {
-    "modalID": "syriamatters",
-    "thumbnailTitle": {
-        "en": "Syria Matters",
-        "fr": "Syria Matters"
+  "thumbnailLocation": {
+    "en": "Museum of Islamic Art, Doha",
+    "fr": "Museum of Islamic Art, Doha"
+  },
+  "articleTitle": {
+    "en": "Syria Matters",
+    "fr": "Syria Matters"
+  },
+  "img": [
+    {
+      "src": "img/projects/syriamatters/syriamatters_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Museum of Islamic Art, Doha",
-        "fr": "Museum of Islamic Art, Doha"
+    {
+      "src": "img/projects/syriamatters/syriamatters_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
+    {
+      "src": "img/projects/syriamatters/syriamatters_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/syriamatters/syriamatters_thumbnail.webp",
-    "articleTitle": {
-        "en": "Syria Matters",
-        "fr": "Syria Matters"
-    },
-    "articleLocation": {
-        "en": "Museum of Islamic Art, Doha, Qatar",
-        "fr": "Museum of Islamic Art, Doha, Qatar"
-    },
-    "articleDate": {
-        "en": "November 22, 2018 - April 30, 2019",
-        "fr": "22 novembre 2018 - 30 avril 2019"
-    },
-    "text": {
-        "en": "For over seven years, Syria has undergone one of the worst human tragedies since the beginning of this century. The Museum of Islamic Art in Doha chose to highlight this country’s extraordinary cultural heritage with a cycle of events, which ended with the “Syria Matters” exhibition. Thanks to its long-term field work with local professionals, Iconem produced a series of five immersive projections for the exhibition, using its 3D scans of Syrian monuments. With these short films, visitors are able to discover the Saladin Castle, the Azm Palace, the Aleppo Citadel, Palmyra, as well as the Umayyads Mosque in Damascus. Iconem’s 3D models invite visitors into a journey across time and space to discover Syria’s treasures.",
-        "fr": "Depuis plus de sept ans, la Syrie est le théâtre d’une guerre civile meurtrière et destructrice qui restera comme une des plus grandes tragédies humanitaires de ce début de siècle. Le Musée d’Art Islamique de Doha a choisi de mettre en avant le patrimoine culturel exceptionnel du pays au cours d’un cycle d’événements clôturé par l’exposition « Syria Matters». Fort de ses années de travail sur le terrain avec des professionnels locaux, Iconem a produit pour l’exposition une série de cinq projections immersives exploitant ses numérisations 3D de monuments syriens. Grâce à ces films de quelques minutes, les visiteurs peuvent découvrir le Château de Saladin, le Palais Azm, la Citadelle d’Alep, Palmyre et la Mosquée des Omeyyades de Damas. Les modèles 3D d’Iconem explorés par ces vidéos font voyager les visiteurs entre les époques et les lieux pour découvrir toute la richesse de la Syrie."
-    },
-    "actors": {
-        "en": "General curator: Dr Julia Gonnella, Director of the Museum of Islamic Art, Curators: Rania Abdellatif, special curator, Scenography: Marc Pelletreau",
-        "fr": "Commissariat général : Dr Julia Gonnella, Directrice du Museum of Islamic Art, Commissaires : Rania Abdellatif, commissaire spéciale, Scénographie : Marc Pelletreau",
-        "logos": [
-            "img/projects/syriamatters/logo_espai.webp",
-            "img/projects/syriamatters/logo_mia.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/syriamatters/syriamatters_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/syriamatters/syriamatters_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/syriamatters/syriamatters_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/syriamatters/syriamatters_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
+    {
+      "src": "img/projects/syriamatters/syriamatters_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "November 22, 2018 - April 30, 2019",
+    "fr": "22 novembre 2018 - 30 avril 2019"
+  },
+  "modalID": "2018-mia-syria-matters",
+  "articleLocation": {
+    "en": "Museum of Islamic Art, Doha, Qatar",
+    "fr": "Museum of Islamic Art, Doha, Qatar"
+  },
+  "thumbnailTitle": {
+    "en": "Syria Matters",
+    "fr": "Syria Matters"
+  },
+  "thumbnail": "img/projects/syriamatters/syriamatters_thumbnail.webp",
+  "text": {
+    "en": "For over seven years, Syria has undergone one of the worst human tragedies since the beginning of this century. The Museum of Islamic Art in Doha chose to highlight this country’s extraordinary cultural heritage with a cycle of events, which ended with the “Syria Matters” exhibition. Thanks to its long-term field work with local professionals, Iconem produced a series of five immersive projections for the exhibition, using its 3D scans of Syrian monuments. With these short films, visitors are able to discover the Saladin Castle, the Azm Palace, the Aleppo Citadel, Palmyra, as well as the Umayyads Mosque in Damascus. Iconem’s 3D models invite visitors into a journey across time and space to discover Syria’s treasures.",
+    "fr": "Depuis plus de sept ans, la Syrie est le théâtre d’une guerre civile meurtrière et destructrice qui restera comme une des plus grandes tragédies humanitaires de ce début de siècle. Le Musée d’Art Islamique de Doha a choisi de mettre en avant le patrimoine culturel exceptionnel du pays au cours d’un cycle d’événements clôturé par l’exposition « Syria Matters». Fort de ses années de travail sur le terrain avec des professionnels locaux, Iconem a produit pour l’exposition une série de cinq projections immersives exploitant ses numérisations 3D de monuments syriens. Grâce à ces films de quelques minutes, les visiteurs peuvent découvrir le Château de Saladin, le Palais Azm, la Citadelle d’Alep, Palmyre et la Mosquée des Omeyyades de Damas. Les modèles 3D d’Iconem explorés par ces vidéos font voyager les visiteurs entre les époques et les lieux pour découvrir toute la richesse de la Syrie."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "actors": {
+    "en": "General curator: Dr Julia Gonnella, Director of the Museum of Islamic Art, Curators: Rania Abdellatif, special curator, Scenography: Marc Pelletreau",
+    "fr": "Commissariat général : Dr Julia Gonnella, Directrice du Museum of Islamic Art, Commissaires : Rania Abdellatif, commissaire spéciale, Scénographie : Marc Pelletreau",
+    "logos": [
+      "img/projects/syriamatters/logo_espai.webp",
+      "img/projects/syriamatters/logo_mia.webp"
     ]
+  }
 }
