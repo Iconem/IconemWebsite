@@ -41,7 +41,7 @@
     "en": "December 14, 2016 - January 9, 2017",
     "fr": "14 décembre 2016 - 9 janvier 2017"
   },
-  "modalID": "siteseternels",
+  "modalID": "2016-rmngp-sites-eternels",
   "models": [
     "https://sketchfab.com/models/dceb5e51125749debef15c1a37226e11/embed"
   ],
@@ -58,6 +58,7 @@
     "en": "The touring exhibition ‘‘Eternal Sites’’, produced by the Réunion des Musées Nationaux - Grand Palais and the Louvre Museum, in collaboration with Iconem, offers an immersion in the heart of four major endangered archaeological sites: the former capital of King Sargon in Khorsabad in Iraq, the Palmyra site, the Crac des Chevaliers and the Umayyad Great Mosque in Damascus, Syria. The mainly digital character of the exhibition facilitates its adaptation to new places. This 360° experience transports visitors to historic sites to raise awareness of heritage threatened or destroyed by armed conflict. The exhibition at the Grand Palais is organized into two sections, the Universal Site and the Images Laboratory. In the Universal Site, four films are screened, revealing on four major archeological sites, in a wide 360° panorama, allowing for an unprecedented immersive experience of the visitor.",
     "fr": "L’exposition « Sites Eternels », produite par la Réunion des Musées Nationaux – Grand Palais et le Musée du Louvre, en collaboration avec Iconem, propose une immersion au cœur de quatre grands sites archéologiques en danger : l’ancienne capitale du roi Sargon à Khorsabad en Irak, le site de Palmyre, le Crac des Chevaliers et la Grande Mosquée des Omeyyades à Damas, en Syrie. Cette expérience transporte les visiteurs jusqu’aux sites historiques afin de les sensibiliser au patrimoine menacé ou détruit par les conflits armés."
   },
+  "highlighted": false,
   "thumbnailDate": {
     "en": "2016",
     "fr": "2016"
