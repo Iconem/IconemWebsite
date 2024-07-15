@@ -1,81 +1,82 @@
 {
-    "modalID": "batirunempire",
-    "thumbnailTitle": {
-        "en": "Build an Empire",
-        "fr": "Bâtir un empire"
+  "thumbnailLocation": {
+    "en": "Museum of Romanity, Nimes",
+    "fr": "Musée de la Romanité, Nimes"
+  },
+  "articleTitle": {
+    "en": "Build an Empire : A virtual exhibition of the Roman worlds",
+    "fr": "Bâtir un empire : Une exposition virtuelle des mondes romains"
+  },
+  "img": [
+    {
+      "src": "img/projects/batirunempire/batirunempire_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Museum of Romanity, Nimes",
-        "fr": "Musée de la Romanité, Nimes"
+    {
+      "src": "img/projects/batirunempire/batirunempire_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2020",
-        "fr": "2020"
+    {
+      "src": "img/projects/batirunempire/batirunempire_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/batirunempire/batirunempire_thumbnail.webp",
-    "articleTitle": {
-        "en": "Build an Empire : A virtual exhibition of the Roman worlds",
-        "fr": "Bâtir un empire : Une exposition virtuelle des mondes romains"
+    {
+      "src": "img/projects/batirunempire/batirunempire_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "December 20, 2019 - March 8, 2020",
+    "fr": "20 décembre 2019 – 8 mars 2020"
+  },
+  "modalID": "2020-romanite-batir-empire",
+  "articleLocation": {
+    "en": "Museum of Romanity, Nîmes, France",
+    "fr": "Musée de la Romanité, Nîmes, France"
+  },
+  "thumbnailTitle": {
+    "en": "Build an Empire",
+    "fr": "Bâtir un empire"
+  },
+  "thumbnail": "img/projects/batirunempire/batirunempire_thumbnail.webp",
+  "text": {
+    "en": "The Iconem-produced exhibition “Build an empire” takes the visitor in the heart of seven archaeological sites of the ancient Roman Empire: Pompeii (Italy), Aphrodisias (Turkey), Garni (Armenia), Palmyra (Syria), Lepcis Magna (Libya), Carthago (Tunisia), Baelo Claudia (Spain). Thanks to the vast immersive projections of Iconem’s 3D models, this 100% digital exhibition is an invitation to discover the urban and architectural models of roman cities around the Mediterranean Sea. The exhibition focuses on the architectural and urban standards shared by the entire roman world, but also on their adaptation to the local culture.The triptych of projection off ers a striking and collective immersion into these roman sites. The exhibition ends with a virtual reality experience “Old Age Cities”, produced by Ubisoft and based on the Iconem data, which transport the visitor to the sites of Palmyra and Lepcis Magna.",
+    "fr": "L'exposition «Bâtir un Empire», intégralement produite par Iconem et présentée en 2019 au Musée de la Romanité à Nîmes, plonge ses visiteurs au cœur de sept sites archéologiques de l'Empire romain : Pompéi (Italie), Aphrodisias (Turquie), Garni (Arménie), Palmyre (Syrie), Leptis Magna (Libye), Carthage (Tunisie), Baelo Claudia (Espagne). Grâce aux vastes projections immersives des modèles 3D d'Iconem, l'exposition invite à découvrir les modèles urbains et architecturaux de cités romaines à travers le pourtour méditerranéen. Le discours scientifique de cette exposition exclusivement numérique s'attache à découvrir les marqueurs architecturaux et urbains communs à l'ensemble du monde romain mais aussi leur métissage avec les cultures locales.Le triptyque de projection, point d'orgue du parcours, offre une immersion saisissante et collective dans les sites romains. L'exposition s'achève sur l'expérience de réalité virtuelle «Cités Millénaires» conçue par Ubisoft grâce aux données d'Iconem et qui replace le visiteur au sein des sites de Palmyre et de Leptis Magna."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2020",
+    "fr": "2020"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=-8aKhCfn5uM",
+      "preview": "img/projects/batirunempire/batirunempire_06.webp"
     },
-    "articleLocation": {
-        "en": "Museum of Romanity, Nîmes, France",
-        "fr": "Musée de la Romanité, Nîmes, France"
-    },
-    "articleDate": {
-        "en": "December 20, 2019 - March 8, 2020",
-        "fr": "20 décembre 2019 – 8 mars 2020"
-    },
-    "text": {
-        "en": "The Iconem-produced exhibition “Build an empire” takes the visitor in the heart of seven archaeological sites of the ancient Roman Empire: Pompeii (Italy), Aphrodisias (Turkey), Garni (Armenia), Palmyra (Syria), Lepcis Magna (Libya), Carthago (Tunisia), Baelo Claudia (Spain). Thanks to the vast immersive projections of Iconem’s 3D models, this 100% digital exhibition is an invitation to discover the urban and architectural models of roman cities around the Mediterranean Sea. The exhibition focuses on the architectural and urban standards shared by the entire roman world, but also on their adaptation to the local culture.The triptych of projection off ers a striking and collective immersion into these roman sites. The exhibition ends with a virtual reality experience “Old Age Cities”, produced by Ubisoft and based on the Iconem data, which transport the visitor to the sites of Palmyra and Lepcis Magna.",
-        "fr": "L'exposition «Bâtir un Empire», intégralement produite par Iconem et présentée en 2019 au Musée de la Romanité à Nîmes, plonge ses visiteurs au cœur de sept sites archéologiques de l'Empire romain : Pompéi (Italie), Aphrodisias (Turquie), Garni (Arménie), Palmyre (Syrie), Leptis Magna (Libye), Carthage (Tunisie), Baelo Claudia (Espagne). Grâce aux vastes projections immersives des modèles 3D d'Iconem, l'exposition invite à découvrir les modèles urbains et architecturaux de cités romaines à travers le pourtour méditerranéen. Le discours scientifique de cette exposition exclusivement numérique s'attache à découvrir les marqueurs architecturaux et urbains communs à l'ensemble du monde romain mais aussi leur métissage avec les cultures locales.Le triptyque de projection, point d'orgue du parcours, offre une immersion saisissante et collective dans les sites romains. L'exposition s'achève sur l'expérience de réalité virtuelle «Cités Millénaires» conçue par Ubisoft grâce aux données d'Iconem et qui replace le visiteur au sein des sites de Palmyre et de Leptis Magna."
-    },
-    "actors": {
-        "en": "Exhibition coordination: Xavier Gerard, Iconem project manager Artistic direction: Gaël Labousse, Artistic director Iconem Scientific advisor: Vivien Barrière, Lecturer in history and archeology at CY Cergy Paris University General scenography: Julien Baron",
-        "fr": "Coordination de l’exposition : Xavier Gerard, Chef de projet Iconem Direction artistique : Gaël Labousse, Directeur artistique Iconem Conseil scientifique : Vivien Barrière, Maître de conférences en histoire et archéologie à CY Cergy Paris Université Scénographie générale : Julien Baron",
-        "logos": [
-            "img/projects/batirunempire/logo_museedelaromanite.webp",
-            "img/projects/batirunempire/logo_ubisoft.webp",
-            "img/projects/batirunempire/logo_villedenimes.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/batirunempire/batirunempire_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/batirunempire/batirunempire_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/batirunempire/batirunempire_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/batirunempire/batirunempire_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=-8aKhCfn5uM",
-            "preview": "img/projects/batirunempire/batirunempire_06.webp"
-        },
-        {
-            "src": "https://www.youtube.com/watch?v=C3idAR34quM",
-            "preview": "img/projects/batirunempire/batirunempire_05.webp"
-        }
+    {
+      "src": "https://www.youtube.com/watch?v=C3idAR34quM",
+      "preview": "img/projects/batirunempire/batirunempire_05.webp"
+    }
+  ],
+  "actors": {
+    "en": "Exhibition coordination: Xavier Gerard, Iconem project manager Artistic direction: Gaël Labousse, Artistic director Iconem Scientific advisor: Vivien Barrière, Lecturer in history and archeology at CY Cergy Paris University General scenography: Julien Baron",
+    "fr": "Coordination de l’exposition : Xavier Gerard, Chef de projet Iconem Direction artistique : Gaël Labousse, Directeur artistique Iconem Conseil scientifique : Vivien Barrière, Maître de conférences en histoire et archéologie à CY Cergy Paris Université Scénographie générale : Julien Baron",
+    "logos": [
+      "img/projects/batirunempire/logo_museedelaromanite.webp",
+      "img/projects/batirunempire/logo_ubisoft.webp",
+      "img/projects/batirunempire/logo_villedenimes.webp"
     ]
+  }
 }
