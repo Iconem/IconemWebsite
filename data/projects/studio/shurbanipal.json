@@ -1,72 +1,73 @@
 {
-    "modalID": "shurbanipal",
-    "thumbnailTitle": {
-        "en": "I am Ashurbanipal",
-        "fr": "I am Ashurbanipal"
+  "thumbnailLocation": {
+    "en": "British Museum, London",
+    "fr": "British Museum, London"
+  },
+  "articleTitle": {
+    "en": "I am Ashurbanipal : King Of the World, King of Assyria",
+    "fr": "I am Ashurbanipal : King Of the World, King of Assyria"
+  },
+  "img": [
+    {
+      "src": "img/projects/shurbanipal/image_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "British Museum, London",
-        "fr": "British Museum, London"
+    {
+      "src": "img/projects/shurbanipal/image_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
+    {
+      "src": "img/projects/shurbanipal/image_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/shurbanipal/image_thumbnail.webp",
-    "articleTitle": {
-        "en": "I am Ashurbanipal : King Of the World, King of Assyria",
-        "fr": "I am Ashurbanipal : King Of the World, King of Assyria"
-    },
-    "articleLocation": {
-        "en": "The British Museum, London, United Kingdom",
-        "fr": "Le British Museum, Londres, Royaume-Uni"
-    },
-    "articleDate": {
-        "en": "November 8, 2018 - February 24, 2019",
-        "fr": "8 novembre 2018 – 24 février 2019"
-    },
-    "text": {
-        "en": "Exhibited at the British Museum, ‘‘I am Ashurbanipal: King of the World, King of Assyria’’ is a journey into the world of ancient Assyria through the life and legacy of its last great ruler, King Ashurbanipal. The exhibition explores Ashurbanipal’s world through spectacular displays that evoke his palace and highlights the importance of preserving Iraq’s rich cultural heritage for future generations. Iconem contributed to the exhibition by producing a video on Nineveh, based on data collected on-site. The produced video includes before and after effects and positions selected archives on current maps, adding some historical perspective to our geographical understanding of the region. These effects allow visitors to grasp how the ancient Assyrian city overlaps with contemporary Mosul and acts as a valuable complement to the objects showcased in the rest of ‘‘I am Ashurbanipal: King of the World, King of Assyria’’.",
-        "fr": "Exposée au British Museum, « I am Ashurbanipal: King of the World, King of Assyria » est un veritable voyage au coeur de l’Assyrie anique, à travers la vie et l’héritage de son plus grand gouvernant, le Roi Ashurbanipal. L’exposition explore le monde d’Ashurbanipal grâce à des supports spectaculaires évoquant son palais et mettant en avant l’importance de la préservation du patrimoine culturel Irakien pour les générations futures. Iconem a contribué à l’exposition en produisant une vidéo sur Ninive, basée sur un relevé effectué sur place. Le résultat vidéo contient des effets « avant et après » et met en perspective certaines archives avec des cartes actuelles, ce qui permet d’ajouter une dimension historique à notre compréhension géographique de la région. Les effets de la video permettent aux visiteurs de saisir les superpositions entre la ville Assyrienne antique et Mossoul aujourd’hui."
-    },
-    "actors": {
-        "en": "General curator: Gareth Brereton, archaeologist and curator in charge of the Mesopotamian collection of the British Museum",
-        "fr": "Commissariat général : Gareth Brereton, archéologue et curateur en charge de la collection Mésopotamienne du British Museum",
-        "logos": [
-            "img/projects/shurbanipal/logo_bp.webp",
-            "img/projects/shurbanipal/logo_britishmuseum.webp",
-            "img/projects/shurbanipal/logo_iagcargo.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/shurbanipal/image_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/shurbanipal/image_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/shurbanipal/image_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/shurbanipal/image_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+    {
+      "src": "img/projects/shurbanipal/image_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "November 8, 2018 - February 24, 2019",
+    "fr": "8 novembre 2018 – 24 février 2019"
+  },
+  "modalID": "2018-british-ashurbanipal",
+  "articleLocation": {
+    "en": "The British Museum, London, United Kingdom",
+    "fr": "Le British Museum, Londres, Royaume-Uni"
+  },
+  "thumbnailTitle": {
+    "en": "I am Ashurbanipal",
+    "fr": "I am Ashurbanipal"
+  },
+  "thumbnail": "img/projects/shurbanipal/image_thumbnail.webp",
+  "text": {
+    "en": "Exhibited at the British Museum, ‘‘I am Ashurbanipal: King of the World, King of Assyria’’ is a journey into the world of ancient Assyria through the life and legacy of its last great ruler, King Ashurbanipal. The exhibition explores Ashurbanipal’s world through spectacular displays that evoke his palace and highlights the importance of preserving Iraq’s rich cultural heritage for future generations. Iconem contributed to the exhibition by producing a video on Nineveh, based on data collected on-site. The produced video includes before and after effects and positions selected archives on current maps, adding some historical perspective to our geographical understanding of the region. These effects allow visitors to grasp how the ancient Assyrian city overlaps with contemporary Mosul and acts as a valuable complement to the objects showcased in the rest of ‘‘I am Ashurbanipal: King of the World, King of Assyria’’.",
+    "fr": "Exposée au British Museum, « I am Ashurbanipal: King of the World, King of Assyria » est un veritable voyage au coeur de l’Assyrie anique, à travers la vie et l’héritage de son plus grand gouvernant, le Roi Ashurbanipal. L’exposition explore le monde d’Ashurbanipal grâce à des supports spectaculaires évoquant son palais et mettant en avant l’importance de la préservation du patrimoine culturel Irakien pour les générations futures. Iconem a contribué à l’exposition en produisant une vidéo sur Ninive, basée sur un relevé effectué sur place. Le résultat vidéo contient des effets « avant et après » et met en perspective certaines archives avec des cartes actuelles, ce qui permet d’ajouter une dimension historique à notre compréhension géographique de la région. Les effets de la video permettent aux visiteurs de saisir les superpositions entre la ville Assyrienne antique et Mossoul aujourd’hui."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [],
+  "actors": {
+    "en": "General curator: Gareth Brereton, archaeologist and curator in charge of the Mesopotamian collection of the British Museum",
+    "fr": "Commissariat général : Gareth Brereton, archéologue et curateur en charge de la collection Mésopotamienne du British Museum",
+    "logos": [
+      "img/projects/shurbanipal/logo_bp.webp",
+      "img/projects/shurbanipal/logo_britishmuseum.webp",
+      "img/projects/shurbanipal/logo_iagcargo.webp"
+    ]
+  }
 }
