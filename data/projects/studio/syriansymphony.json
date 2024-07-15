@@ -1,73 +1,74 @@
 {
-    "modalID": "syriansymphony",
-    "thumbnailTitle": {
-        "en": "Syrian Symphony",
-        "fr": "Syrian Symphony"
+  "thumbnailLocation": {
+    "en": "Aga Khan Museum, Toronto",
+    "fr": "Aga Khan Museum, Toronto"
+  },
+  "articleTitle": {
+    "en": "Syrian Symphony : New Compositions in Sight And Sound",
+    "fr": "Syrian Symphony : New Compositions in Sight And Sound"
+  },
+  "img": [
+    {
+      "src": "img/projects/syriansymphony/syriansymphony_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Aga Khan Museum, Toronto",
-        "fr": "Aga Khan Museum, Toronto"
+    {
+      "src": "img/projects/syriansymphony/syriansymphony_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2017",
-        "fr": "2017"
+    {
+      "src": "img/projects/syriansymphony/syriansymphony_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/syriansymphony/syriansymphony_thumbnail.webp",
-    "articleTitle": {
-        "en": "Syrian Symphony : New Compositions in Sight And Sound",
-        "fr": "Syrian Symphony : New Compositions in Sight And Sound"
-    },
-    "articleLocation": {
-        "en": "Aga Khan Museum, Toronto, Canada",
-        "fr": "Aga Khan Museum, Toronto, Canada"
-    },
-    "articleDate": {
-        "en": " May 20, 2017 - August 13, 2017",
-        "fr": "20 mai 2017 - 13 août 2017"
-    },
-    "text": {
-        "en": "The exhibition ‘‘Syrian Symphony: new compositions in sight and sound” aims at exploring the roles of art and artists during conflicts, especially in Syria, through interactive and immersive works. ‘‘Syrian symphony: new compositions in sight and sound” is presented in association with Silkroad, the artistic organization created by reknown cellist Yo-Yo Ma. Similar to an orchestral symphony, the exhibition is divided into four distinct but connected ‘‘movements’’, including an immersive virtual creation entitled ‘‘Third Movement’’ and produced by Iconem. This experience presents monuments of the ancient Syrian city of Palmyra. The Temples of Bel and Baalshamin are presented, using the data collected during the intervention of Iconem on site, just days after the departure of ISIS. The video is synchronized to a soundscape composed and performed by the Silk Road Ensemble.",
-        "fr": "L’exposition « Syrian Symphony : New compositions in sight and sound » souhaite explorer les rôles de l’art et des artistes en temps de conflits, notamment en Syrie, à travers des œuvres interactives et immersives. Elle est présentée en association avec Silkroad, l’organisation artistique créée par le violoncelliste Yo-Yo Ma. Semblable à une symphonie orchestrale, l’exposition est divisée en quatre « mouvements » distincts mais liés, y compris une création virtuelle immersive, appelée « Third Movement » faite par les équipes d’Iconem, et présentant des monuments de la ville antique Syrienne de Palmyre. Le temple de Bel et le temple de Baalshamin sont présentés à partir des données collectées lors de l’intervention d’Iconem sur le site quelques jours seulement après le départ d’ISIS. La vidéo est synchronisée sur un paysage sonore composé et interprété par le Silk Road Ensemble."
-    },
-    "actors": {
-        "en": "General curator: Amirali Alibhai, director of performing arts at the Aga Khan Museum, Scenography: Origin Studio, Sound production: Silk Road Ensemble",
-        "fr": "Commissariat général : Amirali Alibhai, directrice des arts performatifs de l’Aga Khan Museum, Scénographie : Origin Studio, Réalisation sonore : Silk Road Ensemble",
-        "logos": []
-    },
-    "img": [
-        {
-            "src": "img/projects/syriansymphony/syriansymphony_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/syriansymphony/syriansymphony_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/syriansymphony/syriansymphony_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/syriansymphony/syriansymphony_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://vimeo.com/273333818",
-            "preview": "img/projects/syriansymphony/syriansymphony_01.webp"
-        }
-    ]
+    {
+      "src": "img/projects/syriansymphony/syriansymphony_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": " May 20, 2017 - August 13, 2017",
+    "fr": "20 mai 2017 - 13 août 2017"
+  },
+  "modalID": "2017-syrian-symphony",
+  "articleLocation": {
+    "en": "Aga Khan Museum, Toronto, Canada",
+    "fr": "Aga Khan Museum, Toronto, Canada"
+  },
+  "thumbnailTitle": {
+    "en": "Syrian Symphony",
+    "fr": "Syrian Symphony"
+  },
+  "thumbnail": "img/projects/syriansymphony/syriansymphony_thumbnail.webp",
+  "text": {
+    "en": "The exhibition ‘‘Syrian Symphony: new compositions in sight and sound” aims at exploring the roles of art and artists during conflicts, especially in Syria, through interactive and immersive works. ‘‘Syrian symphony: new compositions in sight and sound” is presented in association with Silkroad, the artistic organization created by reknown cellist Yo-Yo Ma. Similar to an orchestral symphony, the exhibition is divided into four distinct but connected ‘‘movements’’, including an immersive virtual creation entitled ‘‘Third Movement’’ and produced by Iconem. This experience presents monuments of the ancient Syrian city of Palmyra. The Temples of Bel and Baalshamin are presented, using the data collected during the intervention of Iconem on site, just days after the departure of ISIS. The video is synchronized to a soundscape composed and performed by the Silk Road Ensemble.",
+    "fr": "L’exposition « Syrian Symphony : New compositions in sight and sound » souhaite explorer les rôles de l’art et des artistes en temps de conflits, notamment en Syrie, à travers des œuvres interactives et immersives. Elle est présentée en association avec Silkroad, l’organisation artistique créée par le violoncelliste Yo-Yo Ma. Semblable à une symphonie orchestrale, l’exposition est divisée en quatre « mouvements » distincts mais liés, y compris une création virtuelle immersive, appelée « Third Movement » faite par les équipes d’Iconem, et présentant des monuments de la ville antique Syrienne de Palmyre. Le temple de Bel et le temple de Baalshamin sont présentés à partir des données collectées lors de l’intervention d’Iconem sur le site quelques jours seulement après le départ d’ISIS. La vidéo est synchronisée sur un paysage sonore composé et interprété par le Silk Road Ensemble."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2017",
+    "fr": "2017"
+  },
+  "video": [
+    {
+      "src": "https://vimeo.com/273333818",
+      "preview": "img/projects/syriansymphony/syriansymphony_01.webp"
+    }
+  ],
+  "actors": {
+    "en": "General curator: Amirali Alibhai, director of performing arts at the Aga Khan Museum, Scenography: Origin Studio, Sound production: Silk Road Ensemble",
+    "fr": "Commissariat général : Amirali Alibhai, directrice des arts performatifs de l’Aga Khan Museum, Scénographie : Origin Studio, Réalisation sonore : Silk Road Ensemble",
+    "logos": []
+  }
 }
