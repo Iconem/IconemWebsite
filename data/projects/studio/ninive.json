@@ -1,72 +1,73 @@
 {
-    "modalID": "ninive",
-    "thumbnailTitle": {
-        "en": "Nineveh - Nabi Yunus",
-        "fr": "Ninive - Nabi Yunus"
+  "thumbnailLocation": {
+    "en": "National Museum of Antiquities, Leyden",
+    "fr": "Rijksmuseum Van Oudheden, Leyden"
+  },
+  "articleTitle": {
+    "en": "Nineveh, Capital of a World Empire",
+    "fr": "Niniveh, Hoofdstad van een Wereldrijk"
+  },
+  "img": [
+    {
+      "src": "img/projects/ninive/image_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "National Museum of Antiquities, Leyden",
-        "fr": "Rijksmuseum Van Oudheden, Leyden"
+    {
+      "src": "img/projects/ninive/image_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
+    {
+      "src": "img/projects/ninive/image_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/ninive/image_thumbnail.webp",
-    "articleTitle": {
-        "en": "Nineveh, Capital of a World Empire",
-        "fr": "Niniveh, Hoofdstad van een Wereldrijk"
-    },
-    "articleLocation": {
-        "en": "National Museum of Antiquities, Leyden, Pays-Bas",
-        "fr": "Rijksmuseum Van Oudheden, Leyden, Pays-Bas"
-    },
-    "articleDate": {
-        "en": "October 20, 2017 - March 25, 2018",
-        "fr": "20 octobre 2017 - 25 mars 2018"
-    },
-    "text": {
-        "en": "In 2017, Iconem was in Iraq to digitize remains of Nineveh found in tunnels used by ISIS, notably two lamassi, winged-bulls carved in stone. We produced a film featuring the tunnels and lamassis’ 3D models, which was screened at an exhibition at the Dutch National Museum of Antiquities, held in 2018. The exhibition featured more than 250 objects from Nineveh, one of the world’s most powerful cities 2,700 years ago. The Assyrian capital, located in northern Iraq, was a major cultural, military and economic hub. Sponsored by the UNESCO, the exhibition showed digital reconstructions of the (now lost) old city and the royal palace, created by an international academic team.",
-        "fr": "En 2017, Iconem s’est rendu en Irak pour numériser des vestiges de la ville de Ninive découverts dans des tunnels utilisés par Daech, et plus particulièrement deux lamassi, sculptures minérales de taureaux ailés. Un film explorant notre modèle 3D des tunnels et des lamassi a été projeté au cœur d’une exposition accueillie par le musée national hollandais des Antiquités en 2018. L’exposition présente plus de 250 artefacts venant de Ninive, l’une des plus importantes cités au monde 2 700 ans plus tôt. La capitale assyrienne, située dans le nord de l’Irak, constituait un centre culturel, militaire et économique majeur. Parrainée par l’UNESCO, l’exposition présente des reconstructions numériques de la vieille ville et du palais royal, disparus aujourd’hui, recréés par une équipe internationale de chercheurs."
-    },
-    "actors": {
-        "en": "Curator: Lucas Petit and Daniele Morandi Bonacossi",
-        "fr": "Commissariat : Lucas Petit and Daniele Morandi Bonacossi",
-        "logos": [
-            "img/projects/ninive/logo_delftuniversityoftechnology.webp",
-            "img/projects/ninive/logo_rijksmuseumvanoudheden.webp",
-            "img/projects/ninive/logo_unesco.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/ninive/image_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/ninive/image_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/ninive/image_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/ninive/image_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+    {
+      "src": "img/projects/ninive/image_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "October 20, 2017 - March 25, 2018",
+    "fr": "20 octobre 2017 - 25 mars 2018"
+  },
+  "modalID": "2018-rijks-niniveh",
+  "articleLocation": {
+    "en": "National Museum of Antiquities, Leyden, Pays-Bas",
+    "fr": "Rijksmuseum Van Oudheden, Leyden, Pays-Bas"
+  },
+  "thumbnailTitle": {
+    "en": "Nineveh - Nabi Yunus",
+    "fr": "Ninive - Nabi Yunus"
+  },
+  "thumbnail": "img/projects/ninive/image_thumbnail.webp",
+  "text": {
+    "en": "In 2017, Iconem was in Iraq to digitize remains of Nineveh found in tunnels used by ISIS, notably two lamassi, winged-bulls carved in stone. We produced a film featuring the tunnels and lamassis’ 3D models, which was screened at an exhibition at the Dutch National Museum of Antiquities, held in 2018. The exhibition featured more than 250 objects from Nineveh, one of the world’s most powerful cities 2,700 years ago. The Assyrian capital, located in northern Iraq, was a major cultural, military and economic hub. Sponsored by the UNESCO, the exhibition showed digital reconstructions of the (now lost) old city and the royal palace, created by an international academic team.",
+    "fr": "En 2017, Iconem s’est rendu en Irak pour numériser des vestiges de la ville de Ninive découverts dans des tunnels utilisés par Daech, et plus particulièrement deux lamassi, sculptures minérales de taureaux ailés. Un film explorant notre modèle 3D des tunnels et des lamassi a été projeté au cœur d’une exposition accueillie par le musée national hollandais des Antiquités en 2018. L’exposition présente plus de 250 artefacts venant de Ninive, l’une des plus importantes cités au monde 2 700 ans plus tôt. La capitale assyrienne, située dans le nord de l’Irak, constituait un centre culturel, militaire et économique majeur. Parrainée par l’UNESCO, l’exposition présente des reconstructions numériques de la vieille ville et du palais royal, disparus aujourd’hui, recréés par une équipe internationale de chercheurs."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [],
+  "actors": {
+    "en": "Curator: Lucas Petit and Daniele Morandi Bonacossi",
+    "fr": "Commissariat : Lucas Petit and Daniele Morandi Bonacossi",
+    "logos": [
+      "img/projects/ninive/logo_delftuniversityoftechnology.webp",
+      "img/projects/ninive/logo_rijksmuseumvanoudheden.webp",
+      "img/projects/ninive/logo_unesco.webp"
+    ]
+  }
 }
