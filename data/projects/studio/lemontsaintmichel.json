@@ -1,82 +1,83 @@
 {
-    "modalID": "lemontsaintmichel",
-    "thumbnailTitle": {
-        "en": "The Mont Saint-Michel",
-        "fr": "Le Mont Saint-Michel"
+  "thumbnailLocation": {
+    "en": "Museum of Plans-Reliefs, Paris",
+    "fr": "Musée des Plans-Reliefs, Paris"
+  },
+  "articleTitle": {
+    "en": "The Mont Saint-Michel, “Regards numérique sur la maquette”",
+    "fr": "Le Mont Saint-Michel, Regards numérique sur la maquette"
+  },
+  "img": [
+    {
+      "src": "img/projects/lemontsaintmichel/lemontsaintmichel_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Museum of Plans-Reliefs, Paris",
-        "fr": "Musée des Plans-Reliefs, Paris"
+    {
+      "src": "img/projects/lemontsaintmichel/lemontsaintmichel_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
+    {
+      "src": "img/projects/lemontsaintmichel/lemontsaintmichel_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/lemontsaintmichel/lemontsaintmichel_thumbnail.webp",
-    "articleTitle": {
-        "en": "The Mont Saint-Michel, “Regards numérique sur la maquette”",
-        "fr": "Le Mont Saint-Michel, Regards numérique sur la maquette"
+    {
+      "src": "img/projects/lemontsaintmichel/lemontsaintmichel_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "October 11, 2018 - January 14, 2019",
+    "fr": "1 octobre 2018 - 14 janvier 2019"
+  },
+  "modalID": "2018-mpr-mont-saint-michel",
+  "articleLocation": {
+    "en": "Museum of Plans-Reliefs, Paris, France",
+    "fr": "Musée des Plans-Reliefs, Paris, France"
+  },
+  "thumbnailTitle": {
+    "en": "The Mont Saint-Michel",
+    "fr": "Le Mont Saint-Michel"
+  },
+  "thumbnail": "img/projects/lemontsaintmichel/lemontsaintmichel_thumbnail.webp",
+  "text": {
+    "en": "In 2018, the Paris-based Museum of Plans-Reliefs exhibited a mixed-reality experience for the first time. The “Mont St-Michel, regards numériques sur la maquette” exhibition enabled a renewed and innovative exploration of the scale model representing the Abbey and the city. Thanks to an exceptional partnership with Microsoft, supported by Iconem and Holoforge Interactive, the Museum offered a digital discovery of the Mont Saint-Michel and its scale model through a Hololens helmet (an independent holographic computer) to its visitors. The 12-minute experience superposed Iconem-produced images of the Mont Saint-Michel 3D model onto the physical model, exhibited in front of visitors.",
+    "fr": "En 2018, le Musée des Plans-Reliefs a enrichi pour la première fois l’une de ses expositions temporaires d’une expérience en réalité mixte. L’exposition « Mont St-Michel, regards numériques sur la maquette » permet une exploration renouvelée et novatrice de la maquette de l’abbaye et de la ville. Grâce à un partenariat exceptionnel avec Microsoft, qui a fait appel pour cela à Iconem et Holoforge Interactive, le musée a offert à ses visiteurs une découverte du Mont et de sa maquette à travers un casque HoloLens (un ordinateur holographique autonome). L’expérience de 12 minutes superpose aux yeux des utilisateurs la maquette face à eux et le modèle 3D du véritable Mont Saint-Michel numérisé par Iconem."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=MGtpe0ni_nI&t=70s",
+      "preview": "img/projects/lemontsaintmichel/lemontsaintmichel_05.webp"
     },
-    "articleLocation": {
-        "en": "Museum of Plans-Reliefs, Paris, France",
-        "fr": "Musée des Plans-Reliefs, Paris, France"
-    },
-    "articleDate": {
-        "en": "October 11, 2018 - January 14, 2019",
-        "fr": "1 octobre 2018 - 14 janvier 2019"
-    },
-    "text": {
-        "en": "In 2018, the Paris-based Museum of Plans-Reliefs exhibited a mixed-reality experience for the first time. The “Mont St-Michel, regards numériques sur la maquette” exhibition enabled a renewed and innovative exploration of the scale model representing the Abbey and the city. Thanks to an exceptional partnership with Microsoft, supported by Iconem and Holoforge Interactive, the Museum offered a digital discovery of the Mont Saint-Michel and its scale model through a Hololens helmet (an independent holographic computer) to its visitors. The 12-minute experience superposed Iconem-produced images of the Mont Saint-Michel 3D model onto the physical model, exhibited in front of visitors.",
-        "fr": "En 2018, le Musée des Plans-Reliefs a enrichi pour la première fois l’une de ses expositions temporaires d’une expérience en réalité mixte. L’exposition « Mont St-Michel, regards numériques sur la maquette » permet une exploration renouvelée et novatrice de la maquette de l’abbaye et de la ville. Grâce à un partenariat exceptionnel avec Microsoft, qui a fait appel pour cela à Iconem et Holoforge Interactive, le musée a offert à ses visiteurs une découverte du Mont et de sa maquette à travers un casque HoloLens (un ordinateur holographique autonome). L’expérience de 12 minutes superpose aux yeux des utilisateurs la maquette face à eux et le modèle 3D du véritable Mont Saint-Michel numérisé par Iconem."
-    },
-    "actors": {
-        "en": "General curator: Emmanuel Starcky, general heritage curator, director of the Plans-Reliefs museum, Curators: Isabelle Warmoes, design engineer, assistant to the director of the Plans-Reliefs museum, Scenography: Loretta Gaïtis, assisted by Irène Charrat, Scientific documentation: Mathilde de Vallée, Art historian.",
-        "fr": "Commissariat général : Emmanuel Starcky, conservateur général du patrimoine, directeur du musée des Plans-Reliefs, Commissaires : Isabelle Warmoes, ingénieur d’études, adjointe au directeur du musée des Plans-Reliefs, Scénographie : Loretta Gaïtis, assistée d’Irène Charrat, Documentation scientifique : Mathilde de Vallée, Historienne de l’art.",
-        "logos": [
-            "img/projects/lemontsaintmichel/logo_cmn.webp",
-            "img/projects/lemontsaintmichel/logo_holoforge.webp",
-            "img/projects/lemontsaintmichel/logo_map.webp",
-            "img/projects/lemontsaintmichel/logo_mpr.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/lemontsaintmichel/lemontsaintmichel_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/lemontsaintmichel/lemontsaintmichel_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/lemontsaintmichel/lemontsaintmichel_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/lemontsaintmichel/lemontsaintmichel_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=MGtpe0ni_nI&t=70s",
-            "preview": "img/projects/lemontsaintmichel/lemontsaintmichel_05.webp"
-        },
-        {
-            "src": "https://youtu.be/eajawgk3Fd8",
-            "preview": "img/projects/lemontsaintmichel/lemontsaintmichel_01.webp"
-        }
+    {
+      "src": "https://youtu.be/eajawgk3Fd8",
+      "preview": "img/projects/lemontsaintmichel/lemontsaintmichel_01.webp"
+    }
+  ],
+  "actors": {
+    "en": "General curator: Emmanuel Starcky, general heritage curator, director of the Plans-Reliefs museum, Curators: Isabelle Warmoes, design engineer, assistant to the director of the Plans-Reliefs museum, Scenography: Loretta Gaïtis, assisted by Irène Charrat, Scientific documentation: Mathilde de Vallée, Art historian.",
+    "fr": "Commissariat général : Emmanuel Starcky, conservateur général du patrimoine, directeur du musée des Plans-Reliefs, Commissaires : Isabelle Warmoes, ingénieur d’études, adjointe au directeur du musée des Plans-Reliefs, Scénographie : Loretta Gaïtis, assistée d’Irène Charrat, Documentation scientifique : Mathilde de Vallée, Historienne de l’art.",
+    "logos": [
+      "img/projects/lemontsaintmichel/logo_cmn.webp",
+      "img/projects/lemontsaintmichel/logo_holoforge.webp",
+      "img/projects/lemontsaintmichel/logo_map.webp",
+      "img/projects/lemontsaintmichel/logo_mpr.webp"
     ]
+  }
 }
