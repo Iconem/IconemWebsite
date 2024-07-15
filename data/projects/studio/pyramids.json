@@ -1,130 +1,131 @@
 {
-    "modalID": "pyramides",
-    "thumbnailTitle": {
-        "en": "Pyramids",
-        "fr": "Pyramides"
+  "thumbnailLocation": {
+    "en": "Flyview, Paris",
+    "fr": "Flyview, Paris"
+  },
+  "articleTitle": {
+    "en": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte",
+    "fr": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte"
+  },
+  "img": [
+    {
+      "src": "img/projects/pyramids/main_00008.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Flyview, Paris",
-        "fr": "Flyview, Paris"
+    {
+      "src": "img/projects/pyramids/main_00009.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2021",
-        "fr": "2021"
+    {
+      "src": "img/projects/pyramids/main_00011.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/pyramids/main_00009_thumbnail.webp",
-    "articleTitle": {
-        "en": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte",
-        "fr": "Pyramides - Un voyage immersif au coeur des pyramides d’Egypte"
+    {
+      "src": "img/projects/pyramids/main_00012.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleLocation": {
-        "en": "Flyview, Paris, France",
-        "fr": "Flyview, Paris, France"
+    {
+      "src": "img/projects/pyramids/main_00004.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "articleDate": {
-        "en": "",
-        "fr": ""
+    {
+      "src": "img/projects/pyramids/main_00006.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "text": {
-        "en": "In 2018, Iconem’s team traveled to Egypt to carry out surveys of several groups of pyramids, using terrestrial recordings and drones. These recordings made it possible to digitize the pyramids in 3D and to create an immersive journey to the heart of the pyramids of Egypt. Produced in collaboration with the cultural leisure site Fly View Paris, this 360° virtual reality tour offers the public the opportunity to discover extraordinary places from a new perspective. The visit is carried out using virtual reality glasses and lasts approximately 18 minutes. Visitors were immersed in the heart of three major UNESCO World Heritage sites, and discovered Saqqara, Meidum and the Giza Plateau. By bringing these monuments to life through the magic of digital technology, Iconem and FlyView intend to raise awareness among the widest public of the crucial issues of heritage preservation.",
-        "fr": "En 2018, l’équipe d’Iconem s’est rendue en Egypte afin de réaliser des relevés de plusieurs groupes de pyramides, à l’aide de captations terrestres et de drones. Ces captations ont permis de numériser en 3D les pyramides, et de créer ce voyage immersif au cœur des pyramides d’Egypte. Produit en collaboration avec le site de loisirs culturel FlyView Paris, cette expérience en réalité virtuelle à 360° propose au grand public de découvrir des lieux hors du commun sous une perspective nouvelle.  Le voyage s’effectue à l’aide d’un casque de réalité virtuelle et dure environ 18 minutes. Plongés au cœur de trois sites majeurs classés au Patrimoine mondial de l’UNESCO, les visiteurs découvrent tour à tour Saqqarah, Meïdoum et le Plateau de Gizeh. En faisant revivre ces monuments par la magie du numérique, Iconem et FlyView entendent sensibiliser le plus large public possible aux enjeux cruciaux de la préservation et de la sauvegarde du patrimoine."
+    {
+      "src": "img/projects/pyramids/main_00007.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "actors": {
-        "en": "",
-        "fr": "",
-        "logos": []
+    {
+      "src": "img/projects/pyramids/pyramids_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "img": [
-        {
-            "src": "img/projects/pyramids/main_00008.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00009.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00011.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00012.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00004.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00006.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00007.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/pyramids_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00000.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00002.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/pyramids/main_00003.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": [
-        {
-            "src": "https://www.youtube.com/watch?v=SkoJTTvP-Zs",
-            "preview": "img/projects/pyramids/pyramids_02.webp"
-        },
-        {
-            "src": "https://youtu.be/a_LQP0nbn4o",
-            "preview": "img/projects/pyramids/main_00007.webp"
-        },
-        {
-            "src": "https://youtu.be/X4x2g-MVpqU",
-            "preview": "img/projects/pyramids/main_00008.webp"
-        }
-    ]
+    {
+      "src": "img/projects/pyramids/main_00000.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/pyramids/main_00002.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    },
+    {
+      "src": "img/projects/pyramids/main_00003.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "",
+    "fr": ""
+  },
+  "modalID": "2021-flyview-pyramids",
+  "articleLocation": {
+    "en": "Flyview, Paris, France",
+    "fr": "Flyview, Paris, France"
+  },
+  "thumbnailTitle": {
+    "en": "Pyramids",
+    "fr": "Pyramides"
+  },
+  "thumbnail": "img/projects/pyramids/main_00009_thumbnail.webp",
+  "text": {
+    "en": "In 2018, Iconem’s team traveled to Egypt to carry out surveys of several groups of pyramids, using terrestrial recordings and drones. These recordings made it possible to digitize the pyramids in 3D and to create an immersive journey to the heart of the pyramids of Egypt. Produced in collaboration with the cultural leisure site Fly View Paris, this 360° virtual reality tour offers the public the opportunity to discover extraordinary places from a new perspective. The visit is carried out using virtual reality glasses and lasts approximately 18 minutes. Visitors were immersed in the heart of three major UNESCO World Heritage sites, and discovered Saqqara, Meidum and the Giza Plateau. By bringing these monuments to life through the magic of digital technology, Iconem and FlyView intend to raise awareness among the widest public of the crucial issues of heritage preservation.",
+    "fr": "En 2018, l’équipe d’Iconem s’est rendue en Egypte afin de réaliser des relevés de plusieurs groupes de pyramides, à l’aide de captations terrestres et de drones. Ces captations ont permis de numériser en 3D les pyramides, et de créer ce voyage immersif au cœur des pyramides d’Egypte. Produit en collaboration avec le site de loisirs culturel FlyView Paris, cette expérience en réalité virtuelle à 360° propose au grand public de découvrir des lieux hors du commun sous une perspective nouvelle.  Le voyage s’effectue à l’aide d’un casque de réalité virtuelle et dure environ 18 minutes. Plongés au cœur de trois sites majeurs classés au Patrimoine mondial de l’UNESCO, les visiteurs découvrent tour à tour Saqqarah, Meïdoum et le Plateau de Gizeh. En faisant revivre ces monuments par la magie du numérique, Iconem et FlyView entendent sensibiliser le plus large public possible aux enjeux cruciaux de la préservation et de la sauvegarde du patrimoine."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2021",
+    "fr": "2021"
+  },
+  "video": [
+    {
+      "src": "https://www.youtube.com/watch?v=SkoJTTvP-Zs",
+      "preview": "img/projects/pyramids/pyramids_02.webp"
+    },
+    {
+      "src": "https://youtu.be/a_LQP0nbn4o",
+      "preview": "img/projects/pyramids/main_00007.webp"
+    },
+    {
+      "src": "https://youtu.be/X4x2g-MVpqU",
+      "preview": "img/projects/pyramids/main_00008.webp"
+    }
+  ],
+  "actors": {
+    "en": "",
+    "fr": "",
+    "logos": []
+  }
 }
