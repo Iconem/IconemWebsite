@@ -1,72 +1,73 @@
 {
-    "modalID": "artconnexion",
-    "thumbnailTitle": {
-        "en": "Art # Connexion",
-        "fr": "Art # Connexion"
+  "thumbnailLocation": {
+    "en": "Grand Palais, Paris",
+    "fr": "Grand Palais, Paris"
+  },
+  "articleTitle": {
+    "en": "Art # Connexion",
+    "fr": "Art # Connexion"
+  },
+  "img": [
+    {
+      "src": "img/projects/artconnexion/image_01.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailLocation": {
-        "en": "Grand Palais, Paris",
-        "fr": "Grand Palais, Paris"
+    {
+      "src": "img/projects/artconnexion/image_02.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnailDate": {
-        "en": "2018",
-        "fr": "2018"
+    {
+      "src": "img/projects/artconnexion/image_03.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
     },
-    "thumbnail": "img/projects/artconnexion/image_thumbnail.webp",
-    "articleTitle": {
-        "en": "Art # Connexion",
-        "fr": "Art # Connexion"
-    },
-    "articleLocation": {
-        "en": "The Grand Palais",
-        "fr": "Le Grand Palais, Paris, France"
-    },
-    "articleDate": {
-        "en": "July 7 - 9, 2018",
-        "fr": "7 - 9 juillet 2018"
-    },
-    "text": {
-        "en": "In partnership with the Grand Palais and Google Arts & Culture, Iconem presented its immersive exhibition ‘‘Sites Eternels’’ for the Art # Connexion, a free, family-friendly event bringing together innovative and digital experiences produced by cultural institutions, start-ups and digital players. The event focused on four main themes – ‘‘Watch’’, ‘‘Understand’’, ‘‘Interact’’and ‘‘Imagine’’. Iconem was invited to present its digital innovative experiences in the Grand Palais’ Salon d’Honneur, in continuity with the ‘‘Eternal Sites’’ exhibition, to allow the public to use and interact with new technologies as a way of discovering art and heritage. In addition, an Agora allowed for debates and interviews, especially between Iconem, the Institute of the Arab World and Ubisoft.",
-        "fr": "En partenariat avec le Grand Palais et Google Arts & Culture, Iconem a recréé son exposition immersive « Sites Eternels » à l’occasion d’Art # Connexion, un événement familial gratuit réunissant en un même lieu des expériences innovantes et numériques, produites récemment par des institutions culturelles, start-ups et acteurs du numériques. Autour de quatre grands thèmes (« Regarder », « Comprendre », « Interagir » et « Imaginer »), Iconem a été invité à présenter ses expériences numériques innovantes dans le Salon d’Honneur du Grand Palais afin de permettre au public d’utiliser et d’interagir avec les nouvelles technologies pour découvrir l’art et le patrimoine. Une Agora, destinée au dialogue entre les différents acteurs de ces projets, proposait des débats et entretiens, notamment entre Iconem, l’Institut du Monde Arabe et Ubisoft."
-    },
-    "actors": {
-        "en": "Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual Director: Mardi 8",
-        "fr": "Scénographie : Sylvain Roca , Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
-        "logos": [
-            "img/projects/artconnexion/logo_googleartetculture.webp",
-            "img/projects/artconnexion/logo_ministèredelaculture.webp",
-            "img/projects/artconnexion/logo_rmn.webp"
-        ]
-    },
-    "img": [
-        {
-            "src": "img/projects/artconnexion/image_01.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/artconnexion/image_02.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/artconnexion/image_03.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        },
-        {
-            "src": "img/projects/artconnexion/image_04.webp",
-            "caption": {
-                "en": "©Iconem",
-                "fr": "©Iconem"
-            }
-        }
-    ],
-    "video": []
+    {
+      "src": "img/projects/artconnexion/image_04.webp",
+      "caption": {
+        "en": "©Iconem",
+        "fr": "©Iconem"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "July 7 - 9, 2018",
+    "fr": "7 - 9 juillet 2018"
+  },
+  "modalID": "2018-art-connexion",
+  "articleLocation": {
+    "en": "The Grand Palais",
+    "fr": "Le Grand Palais, Paris, France"
+  },
+  "thumbnailTitle": {
+    "en": "Art # Connexion",
+    "fr": "Art # Connexion"
+  },
+  "thumbnail": "img/projects/artconnexion/image_thumbnail.webp",
+  "text": {
+    "en": "In partnership with the Grand Palais and Google Arts & Culture, Iconem presented its immersive exhibition ‘‘Sites Eternels’’ for the Art # Connexion, a free, family-friendly event bringing together innovative and digital experiences produced by cultural institutions, start-ups and digital players. The event focused on four main themes – ‘‘Watch’’, ‘‘Understand’’, ‘‘Interact’’and ‘‘Imagine’’. Iconem was invited to present its digital innovative experiences in the Grand Palais’ Salon d’Honneur, in continuity with the ‘‘Eternal Sites’’ exhibition, to allow the public to use and interact with new technologies as a way of discovering art and heritage. In addition, an Agora allowed for debates and interviews, especially between Iconem, the Institute of the Arab World and Ubisoft.",
+    "fr": "En partenariat avec le Grand Palais et Google Arts & Culture, Iconem a recréé son exposition immersive « Sites Eternels » à l’occasion d’Art # Connexion, un événement familial gratuit réunissant en un même lieu des expériences innovantes et numériques, produites récemment par des institutions culturelles, start-ups et acteurs du numériques. Autour de quatre grands thèmes (« Regarder », « Comprendre », « Interagir » et « Imaginer »), Iconem a été invité à présenter ses expériences numériques innovantes dans le Salon d’Honneur du Grand Palais afin de permettre au public d’utiliser et d’interagir avec les nouvelles technologies pour découvrir l’art et le patrimoine. Une Agora, destinée au dialogue entre les différents acteurs de ces projets, proposait des débats et entretiens, notamment entre Iconem, l’Institut du Monde Arabe et Ubisoft."
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2018",
+    "fr": "2018"
+  },
+  "video": [],
+  "actors": {
+    "en": "Scenography: Sylvain Roca, Director: Olivier Brunet, Audiovisual Director: Mardi 8",
+    "fr": "Scénographie : Sylvain Roca , Réalisateur : Olivier Brunet, Réalisateur audiovisuel : Mardi 8",
+    "logos": [
+      "img/projects/artconnexion/logo_googleartetculture.webp",
+      "img/projects/artconnexion/logo_ministèredelaculture.webp",
+      "img/projects/artconnexion/logo_rmn.webp"
+    ]
+  }
 }
