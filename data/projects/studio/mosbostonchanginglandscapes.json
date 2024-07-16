@@ -1,150 +1,150 @@
 {
-  "thumbnailLocation": {
-    "en": "Museum of Science, Boston",
-    "fr": "Musée des Sciences, Boston"
-  },
-  "articleTitle": {
-    "en": "Changing Landscapes: An Immersive Journey",
-    "fr": "Paysages en mutation : Un voyage immersif"
-  },
-  "img": [
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0022.jpg"
+    "thumbnailLocation": {
+        "en": "Museum of Science, Boston",
+        "fr": "Musée des Sciences, Boston"
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0023.jpg"
+    "articleTitle": {
+        "en": "Changing Landscapes: An Immersive Journey",
+        "fr": "Paysages en mutation : Un voyage immersif"
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0024.jpg"
+    "img": [
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0022.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0023.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0024.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0025.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0026.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0027.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0027.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0029.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0030.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0031.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0032.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0035.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0036.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0041.jpg"
+        },
+        {
+            "caption": {
+                "en": "Nicolaus Czarnecki",
+                "fr": "Nicolaus Czarnecki"
+            },
+            "src": "/img/projects/mosbostonchanginglandscapes/collection_0073_0042.jpg"
+        }
+    ],
+    "articleDate": {
+        "en": "01. 2024",
+        "fr": "01. 2024"
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0025.jpg"
+    "modalID": "2024-mos-boston-changing-landscapes",
+    "articleLocation": {
+        "en": "Museum of Science, Boston",
+        "fr": "Musée of Science, Boston"
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0026.jpg"
+    "thumbnailTitle": {
+        "en": "Changing Landscapes: An Immersive Journey",
+        "fr": "Paysages en mutation : Un voyage immersif"
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0027.jpg"
+    "thumbnail": "/img/projects/mosbostonchanginglandscapes/collection_0073_0027.jpg",
+    "text": {
+        "en": "From the pyramids of Giza and the churches of Venice to the island community of Rapa Nui and the cliff dwellings of Mesa Verde – join us on an immersive journey to heritage sites facing unprecedented challenges in a changing climate.  Using cutting-edge photogrammetry technology, immersive, awe-inspiring imagery, and engaging multi-modal interactives, this exhibition introduces you to four UNESCO World Heritage Sites affected by the climate crisis. Floor-to-ceiling multimedia, hands-on interactives, and model artifacts meld history, culture, science, and technology to transport you to these culturally significant locations. At each stop, you can take a deep dive into the impacts of Earth’s rapidly changing climate on places and peoples across the globe.  As you transition between sites, you will reflect on places in the world that you value, explore the scale and distribution of different climate hazards across the globe, and connect with organizations taking action to help us all adapt to life in Earth’s changing landscapes. This exhibit is part of the Museum's Year of the Earthshot, in which the Museum of Science explores the most innovative climate solutions of our times. ",
+        "fr": "Des pyramides de Gizeh (Égypte) à la lagune de Venise (Italie), en passant par la communauté insulaire de Rapa Nui (Chili) et les habitations dans les falaises de Mesa Verde (États-Unis d'Amérique), l'exposition « Paysages en mutation : Un voyage immersif », permet aux visiteurs d'explorer des sites emblématiques du patrimoine mondial de l'UNESCO, tout en les sensibilisant à l'une des menaces qui pèsent sur eux.  Avec des images immersives créées par ICONEM, dont la mission est la préservation numérique des sites du patrimoine en péril dans le monde entier - l'entreprise a pris des images et des scans 3D détaillés pour créer les affichages et la vidéo du voyage virtuel à travers les 4 sites de l'UNESCO.   Régulièrement combiné à d'autres facteurs aggravants, le dérèglement climatique reste l'une des plus grandes menaces pour notre patrimoine commun, affectant actuellement un site naturel du patrimoine mondial sur trois et un site culturel sur six.  Pour atténuer ces menaces, l'UNESCO aide ses États membres à mettre en œuvre des mesures préventives, comme à Venise, mais agit également en réponse aux situations d'urgence, comme elle l'a fait sur l'île de Rapa Nui depuis le grand incendie.  Si les incendies de forêt, les inondations, les tempêtes et les phénomènes de blanchiment de masse sont de plus en plus fréquents, la menace qui pèse sur des lieux tels que ceux présentés dans cette exposition est constante. La sensibilisation du public, en particulier des jeunes, par le biais d'institutions telles que le Museum of Science of Boston, avec le soutien de Bloomberg Philanthropies et de l'Institute of Museum and Library Services, est devenue essentielle."
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0027.jpg"
+    "highlighted": true,
+    "thumbnailDate": {
+        "en": "2024",
+        "fr": "2024"
     },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0029.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0030.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0031.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0032.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0035.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0036.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0041.jpg"
-    },
-    {
-      "caption": {
-        "en": "Nicolaus Czarnecki",
-        "fr": "Nicolaus Czarnecki"
-      },
-      "src": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0042.jpg"
+    "video": [
+        {
+            "src": "https://www.youtube.com/watch?v=kbi1Nw8BI6o",
+            "preview": "img/projects/mosbostonchanginglandscapes/collection_0073_0034.jpg"
+        }
+    ],
+    "actors": {
+        "en": "UNESCO, MOS Boston",
+        "fr": "UNESCO, MOS Boston"
     }
-  ],
-  "articleDate": {
-    "en": "01. 2024",
-    "fr": "01. 2024"
-  },
-  "modalID": "2024-mos-boston-changing-landscapes",
-  "articleLocation": {
-    "en": "Museum of Science, Boston",
-    "fr": "Musée of Science, Boston"
-  },
-  "thumbnailTitle": {
-    "en": "Changing Landscapes: An Immersive Journey",
-    "fr": "Paysages en mutation : Un voyage immersif"
-  },
-  "thumbnail": "/img/projects/2023-mos-boston-changing-landscapes/collection_0073_0027.jpg",
-  "text": {
-    "en": "From the pyramids of Giza and the churches of Venice to the island community of Rapa Nui and the cliff dwellings of Mesa Verde – join us on an immersive journey to heritage sites facing unprecedented challenges in a changing climate.  Using cutting-edge photogrammetry technology, immersive, awe-inspiring imagery, and engaging multi-modal interactives, this exhibition introduces you to four UNESCO World Heritage Sites affected by the climate crisis. Floor-to-ceiling multimedia, hands-on interactives, and model artifacts meld history, culture, science, and technology to transport you to these culturally significant locations. At each stop, you can take a deep dive into the impacts of Earth’s rapidly changing climate on places and peoples across the globe.  As you transition between sites, you will reflect on places in the world that you value, explore the scale and distribution of different climate hazards across the globe, and connect with organizations taking action to help us all adapt to life in Earth’s changing landscapes. This exhibit is part of the Museum's Year of the Earthshot, in which the Museum of Science explores the most innovative climate solutions of our times. ",
-    "fr": "Des pyramides de Gizeh (Égypte) à la lagune de Venise (Italie), en passant par la communauté insulaire de Rapa Nui (Chili) et les habitations dans les falaises de Mesa Verde (États-Unis d'Amérique), l'exposition « Paysages en mutation : Un voyage immersif », permet aux visiteurs d'explorer des sites emblématiques du patrimoine mondial de l'UNESCO, tout en les sensibilisant à l'une des menaces qui pèsent sur eux.  Avec des images immersives créées par ICONEM, dont la mission est la préservation numérique des sites du patrimoine en péril dans le monde entier - l'entreprise a pris des images et des scans 3D détaillés pour créer les affichages et la vidéo du voyage virtuel à travers les 4 sites de l'UNESCO.   Régulièrement combiné à d'autres facteurs aggravants, le dérèglement climatique reste l'une des plus grandes menaces pour notre patrimoine commun, affectant actuellement un site naturel du patrimoine mondial sur trois et un site culturel sur six.  Pour atténuer ces menaces, l'UNESCO aide ses États membres à mettre en œuvre des mesures préventives, comme à Venise, mais agit également en réponse aux situations d'urgence, comme elle l'a fait sur l'île de Rapa Nui depuis le grand incendie.  Si les incendies de forêt, les inondations, les tempêtes et les phénomènes de blanchiment de masse sont de plus en plus fréquents, la menace qui pèse sur des lieux tels que ceux présentés dans cette exposition est constante. La sensibilisation du public, en particulier des jeunes, par le biais d'institutions telles que le Museum of Science of Boston, avec le soutien de Bloomberg Philanthropies et de l'Institute of Museum and Library Services, est devenue essentielle."
-  },
-  "highlighted": true,
-  "thumbnailDate": {
-    "en": "2024",
-    "fr": "2024"
-  },
-  "video": [
-    {
-      "src": "https://www.youtube.com/watch?v=kbi1Nw8BI6o",
-      "preview": "img/projects/2023-mos-boston-changing-landscapes/collection_0073_0034.jpg"
-    }
-  ],
-  "actors": {
-    "en": "UNESCO, MOS Boston",
-    "fr": "UNESCO, MOS Boston"
-  }
 }
