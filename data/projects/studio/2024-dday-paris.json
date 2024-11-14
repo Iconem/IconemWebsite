@@ -48,6 +48,10 @@
   },
   "actors": {
     "en": "Microsoft, Musée de l'Armée, Iconem, Mission Libération",
-    "fr": "Microsoft, Musée de l'Armée, Iconem, Mission Libération"
+    "fr": "Microsoft, Musée de l'Armée, Iconem, Mission Libération",
+    "logos": [
+      "/img/projects/2024-dday-paris/mda_logo_noir.jpg",
+      "/img/projects/2024-dday-paris/microsoft-logo_rgb_wht.png"
+    ]
   }
 }
