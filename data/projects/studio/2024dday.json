@@ -1,0 +1,103 @@
+{
+  "thumbnailLocation": {
+    "en": "Saint-Lô, Saint-Raphaël, and the Army Museum in Paris",
+    "fr": "Saint-Lô, Saint-Raphaël, et le musée de l'Armée à Paris"
+  },
+  "articleTitle": {
+    "en": "The Thread of Memory",
+    "fr": "Le Fil de la Mémoire"
+  },
+  "img": [
+    {
+      "src": "/img/projects/2024dday/icomen-boite-noire-_z9a3278-franck_cluzel.jpg",
+      "caption": {
+        "en": "©Franck CLUZEL",
+        "fr": "©Franck CLUZEL"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/icomen-boite-noire-_z9a3176-franck_cluzel.jpg",
+      "caption": {
+        "en": "©Franck CLUZEL",
+        "fr": "©Franck CLUZEL"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/img_8487.jpg",
+      "caption": {
+        "en": "©Claude BENZRIHEM",
+        "fr": "©Claude BENZRIHEM"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/2024_ecpad_262_p_001_018.jpg",
+      "caption": {
+        "en": "©ICONEM",
+        "fr": "©ICONEM"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/20240604_152051810_ios.jpg",
+      "caption": {
+        "en": "©Franck CLUZEL",
+        "fr": "©Franck CLUZEL"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/2024_ecpad_262_p_001_054.jpg",
+      "caption": {
+        "en": "©ECPAD",
+        "fr": "©ECPAD"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/2024_ecpad_262_p_001_053.jpg",
+      "caption": {
+        "en": "©ECPAD",
+        "fr": "©ECPAD"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/0637.png",
+      "caption": {
+        "en": "©ICONEM",
+        "fr": "©ICONEM"
+      }
+    },
+    {
+      "src": "/img/projects/2024dday/2306.png",
+      "caption": {
+        "en": "©ICONEM",
+        "fr": "©ICONEM"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "06. 2024",
+    "fr": "06. 2024"
+  },
+  "modalID": "2024dday",
+  "articleLocation": {
+    "en": "Saint-Lô, Saint-Raphaël, and the Army Museum in Paris",
+    "fr": "Saint-Lô, Saint-Raphaël, et le musée de l'Armée à Paris"
+  },
+  "thumbnailTitle": {
+    "en": "The Thread of Memory",
+    "fr": "Le Fil de la Mémoire"
+  },
+  "thumbnail": "/img/projects/2024dday/20240604_152051810_ios.jpg",
+  "text": {
+    "en": "In partnership with Microsoft, the traveling exhibition \"The Thread of Memory\" offered a new perspective on the three major events that led to the liberation of France: the Normandy landings, the Provence landings, and the Liberation of Paris, presented respectively in Saint-Lô in June, Saint-Raphaël in August, and at the Army Museum in Paris in November 2024. By leveraging artificial intelligence (AI), it was possible to organize, contextualize, and bring to life a selection of video and photographic archives, creating a unique immersive experience that transports you to the heart of the action during the summer of 1944. Innovative and educational, this memory mapping, the result of collaboration between historians and AI specialists, invites you to explore, understand, and feel the impact of these pivotal moments in our history by situating them within their temporal and geographical context. Learn more at: www.lefildelamemoire.com",
+    "fr": "En partenariat avec Microsoft, l’exposition itinérante \"Le Fil de la Mémoire\"  a offert une nouvelle approche des trois grands événements qui ont conduit à la libération de la France : le débarquement de Normandie, celui de la Provence et la Libération de Paris, respectivement présentés à Saint-Lô en juin, Saint-Raphaël en août et au musée de l’Armée à Paris en novembre 2024 Grâce à l'utilisation de l’intelligence artificielle (IA), il a été possible de classer, contextualiser et animer une sélection d’archives vidéo et photographiques afin de créer une immersion inédite vous plongeant au plus près de l’action de  l’été 1944. Innovante et pédagogique, cette cartographie de la mémoire, fruit de la collaboration entre historiens et spécialistes de l’IA, vous invite à explorer, comprendre et mieux ressentir l'impact de ces grands moments de notre Histoire en les resituant dans le temps et les paysages. Découvrez-en plus sur : www.lefildelamemoire.com"
+  },
+  "highlighted": false,
+  "thumbnailDate": {
+    "en": "2024",
+    "fr": "2024"
+  },
+  "video": [],
+  "actors": {
+    "en": "MICROSOFT, LA MISSION LIBERATION",
+    "fr": "MICROSOFT, LA MISSION LIBERATION"
+  }
+}
