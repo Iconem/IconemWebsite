@@ -40,19 +40,6 @@
       "img": "/img/team/elina-thoumieux-pi.jpg"
     },
     {
-      "id": "etienne",
-      "name": "étienne Tellier",
-      "job": {
-        "en": "Chief Operating Officer",
-        "fr": "Directeur des opérations"
-      },
-      "img": "img/team/etienne_bw.webp",
-      "description": {
-        "en": "A graduate of the HEC business school, Etienne Tellier has been working for eighteen years in the publishing, media and content production sectors. After being a financial manager at Flammarion Group, he was a journalist and \"Head of Content\" at several press groups, before joining Iconem in 2015. Etienne holds the position of Chief Operating Officer (COO).",
-        "fr": "Diplômé de l’école de commerce HEC, Etienne Tellier travaille depuis dix-huit ans dans les secteurs de l’édition, des médias et de la production de contenus. Après avoir été responsable financier au sein du groupe Flammarion, il a été journaliste et « Head of Content » auprès de plusieurs groupes de presse, avant de rejoindre Iconem en 2015. Etienne y occupe le poste de Directeur des opérations (COO)."
-      }
-    },
-    {
       "id": "ieva",
       "name": "Ieva Bogušaitė",
       "job": {
@@ -103,19 +90,6 @@
         "en": "Marjorie is an R&D engineer. Graduated from the University of Technology of Compiègne (UTC), she worked several years on the design of embedded systems on drones, before starting a specialization in photogrammetry, positioning and image processing at the National School of Geographic Sciences (ENSG). She joined Iconem in 2018 and focuses on parallelization and virtualization of photogrammetric production, for accessibility and resource optimization.",
         "fr": "Marjorie est ingénieure R&D. Diplômée de l'Université de Technologie de Compiègne (UTC), elle a travaillé plusieurs années à la conception de systèmes embarqués sur drones, avant d'entamer une spécialisation en photogrammétrie, positionnement et traitement d'images à l'Ecole Nationale des Sciences Géographiques (ENSG). Elle a rejoint Iconem en 2018 et se consacre à la parallélisation et la virtualisation de la production photogrammétrique, à des fins d'accessibilité et d'optimisation de ressources."
       }
-    },
-    {
-      "job": {
-        "en": "Development Director",
-        "fr": "Directrice du Développement"
-      },
-      "description": {
-        "en": "Natalia Peters, an INSEAD MBA 99D graduate, has 20 years of experience in strategy consulting (Bain & Co, Bertelsmann AG), media (Condé Nast, Hachette), and business development for cultural institutions (V&A, RMN GP and other). She has worked for multicultural organizations in Russia, the United Kingdom, France, and Germany. Throughout her career, Natalia has been involved in all aspects of the exhibitions sector. In her role as the Development Director, she leverages her expertise to foster the growth of this direction at Iconem. ",
-        "fr": "Natalia Peters, diplômée de l'INSEAD MBA 99D, cumule 20 ans d'expérience dans le conseil en stratégie (Bain & Co, Bertelsmann AG), les médias (Condé Nast, Hachette) et le conseil en gestion d'institutions culturelles (V&A, RMN GP, etc.). Elle a travaillé au sein d'organisations multiculturelles ayant été basée en Russie, au Royaume-Uni, en France et en Allemagne. Tout au long de sa carrière, Natalia s'est impliquée dans tous les aspects du secteur des expositions. Elle occupe le poste de Directrice du Développement et compte mettre à profit son expertise afin de accroître cette orientation chez Iconem."
-      },
-      "id": "nataliacherginskayapeters",
-      "name": "Natalia Cherginskaya-Peters",
-      "img": "/img/team/natalia.png"
     },
     {
       "id": "paul",
@@ -181,6 +155,19 @@
       "id": "chloe",
       "name": "Chloé Martin",
       "img": "/img/team/download.png"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "DESIGNER GRAPHIQUE"
+      },
+      "description": {
+        "en": "Job description",
+        "fr": "Descriptif de poste"
+      },
+      "id": "antonin",
+      "name": "Antonin Morler",
+      "img": "/img/team/antonin.jpg"
     }
   ]
 }
