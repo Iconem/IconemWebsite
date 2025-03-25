@@ -149,8 +149,8 @@
         "fr": "DESIGNER GRAPHIQUE"
       },
       "description": {
-        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.Job description",
-        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques.Descriptif de poste"
+        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.",
+        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques."
       },
       "id": "chloe",
       "name": "Chloé Martin",
@@ -181,6 +181,19 @@
       "id": "luc",
       "name": "Luc Leconte",
       "img": "/img/team/1676022670677-removebg-preview.png"
+    },
+    {
+      "job": {
+        "en": "Development Officer",
+        "fr": "Chargée de développement"
+      },
+      "description": {
+        "en": "Job description",
+        "fr": "Descriptif de poste"
+      },
+      "id": "agathe",
+      "name": "Agathe Salomon",
+      "img": "/img/team/download.png"
     }
   ]
 }
