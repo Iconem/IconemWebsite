@@ -168,6 +168,19 @@
       "id": "titien",
       "name": "Titien Bartette",
       "img": "/img/team/portrait_titien.jpg"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "DESIGNER GRAPHIQUE"
+      },
+      "description": {
+        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.Job description",
+        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques.Descriptif de poste"
+      },
+      "id": "chloe",
+      "name": "Chloé Martin",
+      "img": "/img/team/download.png"
     }
   ]
 }
