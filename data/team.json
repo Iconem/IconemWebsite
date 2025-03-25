@@ -168,6 +168,19 @@
       "id": "antonin",
       "name": "Antonin Morler",
       "img": "/img/team/antonin.jpg"
+    },
+    {
+      "job": {
+        "en": "CFO",
+        "fr": "DAF"
+      },
+      "description": {
+        "en": "Luc Leconte graduated from EDHEC Business School and the London School of Economics. He has over 35 years of experience in all areas of financial management, including cost control, planning, accounting, reporting, financing, cash management, legal affairs, audit, and compliance. He has been a member of executive committees and has served on the boards of several companies.  He has successfully adapted to multicultural environments across Europe, South America, and Africa, working within both leading international organizations and small to medium-sized businesses across various industries. His high-level cross-cultural management expertise and hands-on approach make him a leader known for his outstanding interpersonal skills.",
+        "fr": "Luc Leconte est diplômé de l’EDHEC Business School et de la London School of Economics. Il possède plus de 35 ans d’expérience dans tous les domaines de la gestion financière : contrôle des coûts, planification, comptabilité, reporting, financement, gestion de trésorerie, aspects juridiques, audit et conformité. Il a siégé aux comités exécutifs et aux conseils d’administration de plusieurs entreprises.  Il a su s’adapter avec succès à des environnements multiculturels en Europe, en Amérique du Sud et en Afrique, aussi bien au sein de grandes organisations internationales renommées que dans des petites et moyennes entreprises opérant dans divers secteurs d’activité. Son expertise en management interculturel de haut niveau et son approche pragmatique font de lui un dirigeant reconnu pour ses compétences relationnelles exceptionnelles."
+      },
+      "id": "luc",
+      "name": "Luc Leconte",
+      "img": "/img/team/1676022670677-removebg-preview.png"
     }
   ]
 }
