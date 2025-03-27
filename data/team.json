@@ -154,7 +154,7 @@
       },
       "id": "chloe",
       "name": "Chloé Martin",
-      "img": "/img/team/download.png"
+      "img": "/img/team/avatar.png"
     },
     {
       "job": {
@@ -193,7 +193,7 @@
       },
       "id": "agathe",
       "name": "Agathe Salomon",
-      "img": "/img/team/download.png"
+      "img": "/img/team/avatar.png"
     }
   ]
 }
