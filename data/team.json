@@ -2,12 +2,12 @@
   "members": [
     {
       "job": {
-        "en": "Software engineer",
-        "fr": "Ingénieure développement informatique"
+        "en": "Chief of Staff",
+        "fr": "Chief of Staff"
       },
       "description": {
-        "en": "After graduating from La Sorbonne in humanities and from 42 School in computer science, Andrea started working at Iconem in the research and development team. She is implementing digital tools improving the accessibility and use of the data produced for the scientific community.",
-        "fr": "Diplômée de la Sorbonne en sciences humaines et de l'école 42 en informatique, Andréa travaille chez Iconem dans l'équipe recherche et développement. Elle participe à l'implémentation d'outils numériques facilitant l'accès et la mise en valeurs des données produites à destination de la communauté scientifique."
+        "en": " After graduating from La Sorbonne in Humanities and from Paris 42 School in Computer Science, Andrea started working at Iconem within the Research and Development team, developing digital tools to improve data accessibility for the scientific community. Over time, her role expanded to include technical project management while continuing her work as a software engineer. Today, Andrea also holds the role of Chief of Staff at Iconem, combining hands-on technical expertise with strategic coordination to support the company’s growth and mission.",
+        "fr": "Diplômée de la Sorbonne en sciences humaines et de l'école 42 en informatique, Andrea a commencé à travailler chez Iconem dans l'équipe recherche et développement. Elle participe à l'implémentation d'outils numériques facilitant l'accès et la mise en valeurs des données produites à destination de la communauté scientifique. Au fil du temps, son rôle s’est élargi pour inclure la gestion technique de projets, tout en poursuivant son travail en tant qu’ingénieure logicielle. Aujourd’hui, Andrea occupe également le poste de Chief of Staff chez Iconem, combinant expertise technique opérationnelle et coordination stratégique pour accompagner la croissance et la mission de l’entreprise."
       },
       "id": "andrea",
       "name": "Andrea Louis",
