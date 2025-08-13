@@ -158,6 +158,19 @@
     },
     {
       "job": {
+        "en": "Scientific Director",
+        "fr": "Directeur Scientifique"
+      },
+      "description": {
+        "en": "Dr. Titien Bartette, PhD in Archaeology (Aix-Marseille University, Thesis Award 2013), specializes in ancient architecture, lapidary ornamentation, and 3D digitization for cultural heritage. Formerly with the Research Institute on Ancient Architecture, CNRS, Sorbonne University, and the Institute of Computational and Data Sciences, he has led projects at the intersection of archaeology, 3D modeling and digitization, simulation, and the development of protocols for the standardization and reproducibility of these initiatives. As Iconem’s Scientific Director since October 2023, he oversees research projects and fosters collaborations with academia for solutions to emerging heritage needs.",
+        "fr": "Titien Bartette, docteur en archéologie (Université d’Aix-Marseille, Prix de thèse 2013), est spécialiste de l’architecture antique, de l’ornementation lapidaire et de la numérisation 3D du patrimoine culturel. Ancien collaborateur de l’Institut de Recherche sur l’Architecture Antique, du CNRS, de Sorbonne Université et de l’Institut des Sciences du Calcul et des Données, il a dirigé des projets à la croisée de l’archéologie, de la modélisation et numérisation 3D, de la simulation et du développement de protocoles pour la normalisation et la réplicabilité de ces initiatives. Directeur scientifique d’Iconem depuis octobre 2023, il supervise les projets de recherche et collabore avec le monde académique pour des solutions adaptées aux nouveaux besoins du patrimoine."
+      },
+      "id": "titien",
+      "name": "Titien Bartette",
+      "img": "/img/team/portrait_titien.jpg"
+    },
+    {
+      "job": {
         "en": "GRAPHIC DESIGNER",
         "fr": "DESIGNER GRAPHIQUE"
       },
@@ -181,19 +194,6 @@
         "en": "Architect since 2006, Yves Ubelmann began his career working in the Middle East and Central Asia, where he carried out surveys of archeological sites using photogrammetry. In 2013, he founded the ICONEM start-up whose mission is to digitize endangered heritage sites around the world to ensure their transmission to future generations.",
         "fr": "Yves Ubelmann est architecte de formation, et a reçu son diplôme de l’école d’architecture de Versailles en 2006. De 2006 à 2010, il a travaillé comme architecte indépendant en Syrie, Iran, Afghanistan, au Pakistan, pour le relevé, l’étude et l’interprétation de sites archéologiques. Dans ce cadre, il a développé depuis 2009 une nouvelle approche de la photogrammétrie pour le relevé des sites archéologiques. De 2010 à 2011, il a travaillé comme ingénieur spécialisé au joint center Microsoft Research – INRIA, avec le département d’informatique de l’ENS (Ecole Normale Supérieure), pour développer et utiliser des méthodes de numérisations 3D basées sur des algorithmes de reconstruction photogrammétrique récents. En 2013, il a cofondé la société ICONEM, qui développe de nouvelles solutions de numérisation 3D d’environnements ou d’architectures, et travaille entre autres pour l’UNESCO ou la Banque Mondiale sur des projets internationaux de numérisation du patrimoine archéologique."
       }
-    },
-    {
-      "job": {
-        "en": "Scientific Director",
-        "fr": "Directeur Scientifique"
-      },
-      "description": {
-        "en": "Dr. Titien Bartette, PhD in Archaeology (Aix-Marseille University, Thesis Award 2013), specializes in ancient architecture, lapidary ornamentation, and 3D digitization for cultural heritage. Formerly with the Research Institute on Ancient Architecture, CNRS, Sorbonne University, and the Institute of Computational and Data Sciences, he has led projects at the intersection of archaeology, 3D modeling and digitization, simulation, and the development of protocols for the standardization and reproducibility of these initiatives. As Iconem’s Scientific Director since October 2023, he oversees research projects and fosters collaborations with academia for solutions to emerging heritage needs.",
-        "fr": "Titien Bartette, docteur en archéologie (Université d’Aix-Marseille, Prix de thèse 2013), est spécialiste de l’architecture antique, de l’ornementation lapidaire et de la numérisation 3D du patrimoine culturel. Ancien collaborateur de l’Institut de Recherche sur l’Architecture Antique, du CNRS, de Sorbonne Université et de l’Institut des Sciences du Calcul et des Données, il a dirigé des projets à la croisée de l’archéologie, de la modélisation et numérisation 3D, de la simulation et du développement de protocoles pour la normalisation et la réplicabilité de ces initiatives. Directeur scientifique d’Iconem depuis octobre 2023, il supervise les projets de recherche et collabore avec le monde académique pour des solutions adaptées aux nouveaux besoins du patrimoine."
-      },
-      "id": "titien",
-      "name": "Titien Bartette",
-      "img": "/img/team/portrait_titien.jpg"
     }
   ]
 }
