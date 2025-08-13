@@ -2,8 +2,21 @@
   "members": [
     {
       "job": {
-        "en": "Chief of Staff",
-        "fr": "Chief of Staff"
+        "en": "Development Officer",
+        "fr": "Chargée de développement"
+      },
+      "description": {
+        "en": "With a dual master’s degree from Sciences Po Paris and the École du Louvre, Agathe joined Iconem in September 2024 as a Development Officer. Passionate about innovation and cultural heritage preservation, she actively contributes to Iconem’s strategic direction by developing projects and partnerships that combine technology and heritage conservation.",
+        "fr": "Diplômée du double master Sciences Po Paris - École du Louvre, Agathe a rejoint Iconem en septembre 2024 en tant que chargée de développement. Passionnée par l’innovation et la valorisation du patrimoine, elle contribue activement à l’orientation stratégique d’Iconem en développant des projets et des partenariats qui allient technologie et préservation culturelle."
+      },
+      "id": "agathe",
+      "name": "Agathe Salomon",
+      "img": "/img/team/avatar.png"
+    },
+    {
+      "job": {
+        "en": "Chief of Staff & Technical Project Manager",
+        "fr": "Chief of Staff & Chef de Projet Technique"
       },
       "description": {
         "en": " After graduating from La Sorbonne in Humanities and from Paris 42 School in Computer Science, Andrea started working at Iconem within the Research and Development team, developing digital tools to improve data accessibility for the scientific community. Over time, her role expanded to include technical project management while continuing her work as a software engineer. Today, Andrea also holds the role of Chief of Staff at Iconem, combining hands-on technical expertise with strategic coordination to support the company’s growth and mission.",
@@ -12,6 +25,19 @@
       "id": "andrea",
       "name": "Andrea Louis",
       "img": "/img/team/tmp.png"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "DESIGNER GRAPHIQUE"
+      },
+      "description": {
+        "en": "Antonin Morlet is a 3D Technical Artist specializing in real time rendering. He holds a degree in real 3d time render graphics from Hetic and has been contributing his technological expertise to the Iconem team since 2022.Job description",
+        "fr": "Antonin Morlet est un Artiste Technique 3D spécialisé dans le rendu en temps réel. Il est diplômé en graphisme 3D temps réel de l'école HETIC et apporte son expertise technologique à l'équipe d'Iconem depuis 2022."
+      },
+      "id": "antonin",
+      "name": "Antonin Morlet",
+      "img": "/img/team/antonin.jpg"
     },
     {
       "job": {
@@ -25,6 +51,19 @@
       "id": "bachaar",
       "name": "Bachaar Tarabay",
       "img": "/img/team/bachaar-tarabay.jpg"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "DESIGNER GRAPHIQUE"
+      },
+      "description": {
+        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.",
+        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques."
+      },
+      "id": "chloe",
+      "name": "Chloé Martin",
+      "img": "/img/team/avatar.png"
     },
     {
       "job": {
@@ -43,13 +82,13 @@
       "id": "ieva",
       "name": "Ieva Bogušaitė",
       "job": {
-        "en": "Architect",
-        "fr": "Architecte"
+        "en": "Creative director",
+        "fr": "Directrice de la création"
       },
       "img": "img/team/ieva_bw.webp",
       "description": {
-        "en": "Ieva Bogušaitė is an architect, holding a bachelor's degree in architecture from technical university of Vilnius, Lithuania, and a master's degree in architecture focused on resilient and sustainable strategies from KU Leuven in Belgium. She pursued further studies in preliminary elements of restoration at La Sapienza University in Rome and scenography studies at La Villette in Paris through various exchange programs. She has diverse professional experience, having worked at Caprini & Pellerin Architects in Cannes on the renovation project of the iconic Palm Beach and private villas along the Côte d'Azur. Back in Lithuania, she contributed to the construction of the headquarters of the country's largest agricultural corporation and an urban regeneration complex at Audrius Ambrasas Architects in Vilnius. Ieva has also participated in international research on urban spaces and identities during her collaboration with the International KU Leuven Hub for Research and Practice in New York, and was awarded the \"Debut of the Year\" prize for young Lithuanian artists by the Lithuanian Ministry of Culture. Currently, she works at Iconem in Paris as an architect and head of scenography for exhibitions and immersive experiences.",
-        "fr": "Ieva Bogušaitė est architecte avec un diplôme de licence en architecture de l'Université technique de Vilnius, Lituanie et un master en architecture axé sur les stratégies résilientes et durables de la KU Leuven, Belgique. Elle a poursuivi ses études en éléments préliminaires de la restauration à l'Université La Sapienza de Rome et des études de scénographie à Paris La Villette à travers différents programmes d'échange. Elle possède une expérience professionnelle diversifiée, ayant travaillé chez Caprini & Pellerin Architects à Cannes sur un projet de rénovation de l'emblématique Palm Beach et de villas privées sur la Côte d'Azur. En Lituanie, elle a travaillé chez Audrius Ambrasas Architects à Vilnius sur la construction du siège social de la plus grande corporation agricole de Lituanie et d'un complexe de régénération urbaine. Ieva a également contribué à la recherche internationale sur les espaces urbains et les identités lors de sa collaboration avec le NY Hub for Research and Practice in Architecture, et a reçu le prix “Début de l'année” pour jeune artiste lituanienne décerné par le ministère lituanien de la Culture. Elle travaille actuellement chez Iconem à Paris en tant qu'architecte et responsable de la scénographie d'expositions et d'expériences immersives."
+        "en": "Ieva Bogušaitė is an architect specializing in scenography and immersive design. She holds a bachelor’s degree in architecture from Vilnius Tech and a master’s from KU Leuven, where she focused on resilient and sustainable strategies. She also studied restoration at La Sapienza in Rome and scenography at La Villette in Paris.  Her experience spans cultural, residential, and urban projects in France and Lithuania, including the renovation of the iconic Palm Beach in Cannes and large-scale developments in Vilnius. She has contributed to international research on urban identity with KU Leuven’s New York hub and was awarded the “Debut of the Year” prize by the Lithuanian Ministry of Culture.  Ieva is currently based in Paris, where she leads scenography and exhibition design at Iconem.",
+        "fr": "Ieva Bogušaitė est architecte, spécialisée en scénographie et en design immersif. Elle est titulaire d’un diplôme en architecture de Vilnius Tech et d’un master de la KU Leuven, où elle s’est concentrée sur les stratégies durables et résilientes. Elle a également suivi des études en restauration à l’université La Sapienza à Rome et en scénographie à l’école de La Villette à Paris.  Son parcours professionnel couvre des projets culturels, résidentiels et urbains en France et en Lituanie, notamment la rénovation du Palm Beach à Cannes et des opérations d’aménagement à grande échelle à Vilnius. Elle a également contribué à des recherches internationales sur l’identité urbaine avec le hub de recherche de la KU Leuven à New York, et a reçu le prix « Début de l’année » du ministère lituanien de la Culture.  Ieva est actuellement basée à Paris, où elle dirige la scénographie et la conception d’expositions chez Iconem."
       }
     },
     {
@@ -79,6 +118,19 @@
       }
     },
     {
+      "job": {
+        "en": "CFO",
+        "fr": "DAF"
+      },
+      "description": {
+        "en": "Luc Leconte graduated from EDHEC Business School and the London School of Economics. He has over 35 years of experience in all areas of financial management, including cost control, planning, accounting, reporting, financing, cash management, legal affairs, audit, and compliance. He has been a member of executive committees and has served on the boards of several companies.  He has successfully adapted to multicultural environments across Europe, South America, and Africa, working within both leading international organizations and small to medium-sized businesses across various industries. His high-level cross-cultural management expertise and hands-on approach make him a leader known for his outstanding interpersonal skills.",
+        "fr": "Luc Leconte est diplômé de l’EDHEC Business School et de la London School of Economics. Il possède plus de 35 ans d’expérience dans tous les domaines de la gestion financière : contrôle des coûts, planification, comptabilité, reporting, financement, gestion de trésorerie, aspects juridiques, audit et conformité. Il a siégé aux comités exécutifs et aux conseils d’administration de plusieurs entreprises.  Il a su s’adapter avec succès à des environnements multiculturels en Europe, en Amérique du Sud et en Afrique, aussi bien au sein de grandes organisations internationales renommées que dans des petites et moyennes entreprises opérant dans divers secteurs d’activité. Son expertise en management interculturel de haut niveau et son approche pragmatique font de lui un dirigeant reconnu pour ses compétences relationnelles exceptionnelles."
+      },
+      "id": "luc",
+      "name": "Luc Leconte",
+      "img": "/img/team/1676022670677-removebg-preview.png"
+    },
+    {
       "id": "marjorie",
       "name": "Marjorie Coulin",
       "job": {
@@ -106,6 +158,19 @@
     },
     {
       "job": {
+        "en": "Scientific Director",
+        "fr": "Directeur Scientifique"
+      },
+      "description": {
+        "en": "Dr. Titien Bartette, PhD in Archaeology (Aix-Marseille University, Thesis Award 2013), specializes in ancient architecture, lapidary ornamentation, and 3D digitization for cultural heritage. Formerly with the Research Institute on Ancient Architecture, CNRS, Sorbonne University, and the Institute of Computational and Data Sciences, he has led projects at the intersection of archaeology, 3D modeling and digitization, simulation, and the development of protocols for the standardization and reproducibility of these initiatives. As Iconem’s Scientific Director since October 2023, he oversees research projects and fosters collaborations with academia for solutions to emerging heritage needs.",
+        "fr": "Titien Bartette, docteur en archéologie (Université d’Aix-Marseille, Prix de thèse 2013), est spécialiste de l’architecture antique, de l’ornementation lapidaire et de la numérisation 3D du patrimoine culturel. Ancien collaborateur de l’Institut de Recherche sur l’Architecture Antique, du CNRS, de Sorbonne Université et de l’Institut des Sciences du Calcul et des Données, il a dirigé des projets à la croisée de l’archéologie, de la modélisation et numérisation 3D, de la simulation et du développement de protocoles pour la normalisation et la réplicabilité de ces initiatives. Directeur scientifique d’Iconem depuis octobre 2023, il supervise les projets de recherche et collabore avec le monde académique pour des solutions adaptées aux nouveaux besoins du patrimoine."
+      },
+      "id": "titien",
+      "name": "Titien Bartette",
+      "img": "/img/team/portrait_titien.jpg"
+    },
+    {
+      "job": {
         "en": "GRAPHIC DESIGNER",
         "fr": "DESIGNER GRAPHIQUE"
       },
@@ -129,71 +194,6 @@
         "en": "Architect since 2006, Yves Ubelmann began his career working in the Middle East and Central Asia, where he carried out surveys of archeological sites using photogrammetry. In 2013, he founded the ICONEM start-up whose mission is to digitize endangered heritage sites around the world to ensure their transmission to future generations.",
         "fr": "Yves Ubelmann est architecte de formation, et a reçu son diplôme de l’école d’architecture de Versailles en 2006. De 2006 à 2010, il a travaillé comme architecte indépendant en Syrie, Iran, Afghanistan, au Pakistan, pour le relevé, l’étude et l’interprétation de sites archéologiques. Dans ce cadre, il a développé depuis 2009 une nouvelle approche de la photogrammétrie pour le relevé des sites archéologiques. De 2010 à 2011, il a travaillé comme ingénieur spécialisé au joint center Microsoft Research – INRIA, avec le département d’informatique de l’ENS (Ecole Normale Supérieure), pour développer et utiliser des méthodes de numérisations 3D basées sur des algorithmes de reconstruction photogrammétrique récents. En 2013, il a cofondé la société ICONEM, qui développe de nouvelles solutions de numérisation 3D d’environnements ou d’architectures, et travaille entre autres pour l’UNESCO ou la Banque Mondiale sur des projets internationaux de numérisation du patrimoine archéologique."
       }
-    },
-    {
-      "job": {
-        "en": "Scientific Director",
-        "fr": "Directeur Scientifique"
-      },
-      "description": {
-        "en": "Dr. Titien Bartette, PhD in Archaeology (Aix-Marseille University, Thesis Award 2013), specializes in ancient architecture, lapidary ornamentation, and 3D digitization for cultural heritage. Formerly with the Research Institute on Ancient Architecture, CNRS, Sorbonne University, and the Institute of Computational and Data Sciences, he has led projects at the intersection of archaeology, 3D modeling and digitization, simulation, and the development of protocols for the standardization and reproducibility of these initiatives. As Iconem’s Scientific Director since October 2023, he oversees research projects and fosters collaborations with academia for solutions to emerging heritage needs.",
-        "fr": "Titien Bartette, docteur en archéologie (Université d’Aix-Marseille, Prix de thèse 2013), est spécialiste de l’architecture antique, de l’ornementation lapidaire et de la numérisation 3D du patrimoine culturel. Ancien collaborateur de l’Institut de Recherche sur l’Architecture Antique, du CNRS, de Sorbonne Université et de l’Institut des Sciences du Calcul et des Données, il a dirigé des projets à la croisée de l’archéologie, de la modélisation et numérisation 3D, de la simulation et du développement de protocoles pour la normalisation et la réplicabilité de ces initiatives. Directeur scientifique d’Iconem depuis octobre 2023, il supervise les projets de recherche et collabore avec le monde académique pour des solutions adaptées aux nouveaux besoins du patrimoine."
-      },
-      "id": "titien",
-      "name": "Titien Bartette",
-      "img": "/img/team/portrait_titien.jpg"
-    },
-    {
-      "job": {
-        "en": "GRAPHIC DESIGNER",
-        "fr": "DESIGNER GRAPHIQUE"
-      },
-      "description": {
-        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.",
-        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques."
-      },
-      "id": "chloe",
-      "name": "Chloé Martin",
-      "img": "/img/team/avatar.png"
-    },
-    {
-      "job": {
-        "en": "GRAPHIC DESIGNER",
-        "fr": "DESIGNER GRAPHIQUE"
-      },
-      "description": {
-        "en": "Antonin Morlet is a 3D Technical Artist specializing in real time rendering. He holds a degree in real 3d time render graphics from Hetic and has been contributing his technological expertise to the Iconem team since 2022.Job description",
-        "fr": "Antonin Morlet est un Artiste Technique 3D spécialisé dans le rendu en temps réel. Il est diplômé en graphisme 3D temps réel de l'école HETIC et apporte son expertise technologique à l'équipe d'Iconem depuis 2022."
-      },
-      "id": "antonin",
-      "name": "Antonin Morler",
-      "img": "/img/team/antonin.jpg"
-    },
-    {
-      "job": {
-        "en": "CFO",
-        "fr": "DAF"
-      },
-      "description": {
-        "en": "Luc Leconte graduated from EDHEC Business School and the London School of Economics. He has over 35 years of experience in all areas of financial management, including cost control, planning, accounting, reporting, financing, cash management, legal affairs, audit, and compliance. He has been a member of executive committees and has served on the boards of several companies.  He has successfully adapted to multicultural environments across Europe, South America, and Africa, working within both leading international organizations and small to medium-sized businesses across various industries. His high-level cross-cultural management expertise and hands-on approach make him a leader known for his outstanding interpersonal skills.",
-        "fr": "Luc Leconte est diplômé de l’EDHEC Business School et de la London School of Economics. Il possède plus de 35 ans d’expérience dans tous les domaines de la gestion financière : contrôle des coûts, planification, comptabilité, reporting, financement, gestion de trésorerie, aspects juridiques, audit et conformité. Il a siégé aux comités exécutifs et aux conseils d’administration de plusieurs entreprises.  Il a su s’adapter avec succès à des environnements multiculturels en Europe, en Amérique du Sud et en Afrique, aussi bien au sein de grandes organisations internationales renommées que dans des petites et moyennes entreprises opérant dans divers secteurs d’activité. Son expertise en management interculturel de haut niveau et son approche pragmatique font de lui un dirigeant reconnu pour ses compétences relationnelles exceptionnelles."
-      },
-      "id": "luc",
-      "name": "Luc Leconte",
-      "img": "/img/team/1676022670677-removebg-preview.png"
-    },
-    {
-      "job": {
-        "en": "Development Officer",
-        "fr": "Chargée de développement"
-      },
-      "description": {
-        "en": "With a dual master’s degree from Sciences Po Paris and the École du Louvre, Agathe joined Iconem in September 2024 as a Development Officer. Passionate about innovation and cultural heritage preservation, she actively contributes to Iconem’s strategic direction by developing projects and partnerships that combine technology and heritage conservation.",
-        "fr": "Diplômée du double master Sciences Po Paris - École du Louvre, Agathe a rejoint Iconem en septembre 2024 en tant que chargée de développement. Passionnée par l’innovation et la valorisation du patrimoine, elle contribue activement à l’orientation stratégique d’Iconem en développant des projets et des partenariats qui allient technologie et préservation culturelle."
-      },
-      "id": "agathe",
-      "name": "Agathe Salomon",
-      "img": "/img/team/avatar.png"
     }
   ]
 }
