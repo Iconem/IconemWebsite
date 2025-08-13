@@ -366,13 +366,13 @@ circle:hover,
     margin: 14px 15px;
     height: 22px;
     width: 74px;
-    background-image: url("../img/navbar/navbar_logo_studio_white.webp");
+    background-image: url("../img/navbar/navbar_logo_iconem_white.webp");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand {
-    background-image: url("../img/navbar/navbar_logo_studio_white.webp");
+    background-image: url("../img/navbar/navbar_logo_iconem_white.webp");
 }
 
 .navbar-default .nav > li > a,
