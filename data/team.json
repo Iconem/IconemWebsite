@@ -2,8 +2,21 @@
   "members": [
     {
       "job": {
-        "en": "Chief of Staff",
-        "fr": "Chief of Staff"
+        "en": "Development Officer",
+        "fr": "Chargée de développement"
+      },
+      "description": {
+        "en": "With a dual master’s degree from Sciences Po Paris and the École du Louvre, Agathe joined Iconem in September 2024 as a Development Officer. Passionate about innovation and cultural heritage preservation, she actively contributes to Iconem’s strategic direction by developing projects and partnerships that combine technology and heritage conservation.",
+        "fr": "Diplômée du double master Sciences Po Paris - École du Louvre, Agathe a rejoint Iconem en septembre 2024 en tant que chargée de développement. Passionnée par l’innovation et la valorisation du patrimoine, elle contribue activement à l’orientation stratégique d’Iconem en développant des projets et des partenariats qui allient technologie et préservation culturelle."
+      },
+      "id": "agathe",
+      "name": "Agathe Salomon",
+      "img": "/img/team/avatar.png"
+    },
+    {
+      "job": {
+        "en": "Chief of Staff & Technical Project Manager",
+        "fr": "Chief of Staff & Chef de Projet Technique"
       },
       "description": {
         "en": " After graduating from La Sorbonne in Humanities and from Paris 42 School in Computer Science, Andrea started working at Iconem within the Research and Development team, developing digital tools to improve data accessibility for the scientific community. Over time, her role expanded to include technical project management while continuing her work as a software engineer. Today, Andrea also holds the role of Chief of Staff at Iconem, combining hands-on technical expertise with strategic coordination to support the company’s growth and mission.",
@@ -12,6 +25,19 @@
       "id": "andrea",
       "name": "Andrea Louis",
       "img": "/img/team/tmp.png"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "DESIGNER GRAPHIQUE"
+      },
+      "description": {
+        "en": "Antonin Morlet is a 3D Technical Artist specializing in real time rendering. He holds a degree in real 3d time render graphics from Hetic and has been contributing his technological expertise to the Iconem team since 2022.Job description",
+        "fr": "Antonin Morlet est un Artiste Technique 3D spécialisé dans le rendu en temps réel. Il est diplômé en graphisme 3D temps réel de l'école HETIC et apporte son expertise technologique à l'équipe d'Iconem depuis 2022."
+      },
+      "id": "antonin",
+      "name": "Antonin Morlet",
+      "img": "/img/team/antonin.jpg"
     },
     {
       "job": {
@@ -25,6 +51,19 @@
       "id": "bachaar",
       "name": "Bachaar Tarabay",
       "img": "/img/team/bachaar-tarabay.jpg"
+    },
+    {
+      "job": {
+        "en": "GRAPHIC DESIGNER",
+        "fr": "DESIGNER GRAPHIQUE"
+      },
+      "description": {
+        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.",
+        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques."
+      },
+      "id": "chloe",
+      "name": "Chloé Martin",
+      "img": "/img/team/avatar.png"
     },
     {
       "job": {
@@ -77,6 +116,19 @@
         "en": "Jonathan is CTO at Iconem. Graduated from Supelec (France) in “Signals and systems, computer science and fundamentals science” and University college in London in “MSc Computer Graphics, Vision and Imaging”, he works mainly on data processing and the technological innovations Iconem is creating. He previously worked at Thalès, and at CEA, and was inviting to speak at the MIT as Iconem CTO. His master thesis was on the autonomous vehicles target tracking and his personal project are around robot design.",
         "fr": "Jonathan est directeur technique chez Iconem. Diplômé de Supelec (France) en \"Signaux et systèmes, informatique et sciences fondamentales\" et de l'University College de Londres en \"MSc Computer Graphics, Vision and Imaging\", il travaille principalement sur le traitement des données et les innovations technologiques qu'Iconem crée. Il a précédemment travaillé chez Thalès, et au CEA, et a été invité à parler au MIT en tant que CTO d'Iconem. Son mémoire de maîtrise portait sur le suivi de cible des véhicules autonomes et ses projets personnels portent sur la conception de robots."
       }
+    },
+    {
+      "job": {
+        "en": "CFO",
+        "fr": "DAF"
+      },
+      "description": {
+        "en": "Luc Leconte graduated from EDHEC Business School and the London School of Economics. He has over 35 years of experience in all areas of financial management, including cost control, planning, accounting, reporting, financing, cash management, legal affairs, audit, and compliance. He has been a member of executive committees and has served on the boards of several companies.  He has successfully adapted to multicultural environments across Europe, South America, and Africa, working within both leading international organizations and small to medium-sized businesses across various industries. His high-level cross-cultural management expertise and hands-on approach make him a leader known for his outstanding interpersonal skills.",
+        "fr": "Luc Leconte est diplômé de l’EDHEC Business School et de la London School of Economics. Il possède plus de 35 ans d’expérience dans tous les domaines de la gestion financière : contrôle des coûts, planification, comptabilité, reporting, financement, gestion de trésorerie, aspects juridiques, audit et conformité. Il a siégé aux comités exécutifs et aux conseils d’administration de plusieurs entreprises.  Il a su s’adapter avec succès à des environnements multiculturels en Europe, en Amérique du Sud et en Afrique, aussi bien au sein de grandes organisations internationales renommées que dans des petites et moyennes entreprises opérant dans divers secteurs d’activité. Son expertise en management interculturel de haut niveau et son approche pragmatique font de lui un dirigeant reconnu pour ses compétences relationnelles exceptionnelles."
+      },
+      "id": "luc",
+      "name": "Luc Leconte",
+      "img": "/img/team/1676022670677-removebg-preview.png"
     },
     {
       "id": "marjorie",
@@ -142,58 +194,6 @@
       "id": "titien",
       "name": "Titien Bartette",
       "img": "/img/team/portrait_titien.jpg"
-    },
-    {
-      "job": {
-        "en": "GRAPHIC DESIGNER",
-        "fr": "DESIGNER GRAPHIQUE"
-      },
-      "description": {
-        "en": "With a Master's degree in Graphic Design from New3dge, Chloé Martin joined the Iconem team as a 3D Graphic Designer in 2019. She works on film creation at Iconem and has specialized in the production of architectural and historical 3D restitutions.",
-        "fr": "Avec un Master en graphisme de l'école New3dge, Chloé Martin a rejoint l'équipe d'Iconem en tant que graphiste 3D en 2019. Elle travaille à la création de films au sein d'Iconem et s'est spécialisée dans la réalisation de restitutions 3D architecturales et historiques."
-      },
-      "id": "chloe",
-      "name": "Chloé Martin",
-      "img": "/img/team/avatar.png"
-    },
-    {
-      "job": {
-        "en": "GRAPHIC DESIGNER",
-        "fr": "DESIGNER GRAPHIQUE"
-      },
-      "description": {
-        "en": "Antonin Morlet is a 3D Technical Artist specializing in real time rendering. He holds a degree in real 3d time render graphics from Hetic and has been contributing his technological expertise to the Iconem team since 2022.Job description",
-        "fr": "Antonin Morlet est un Artiste Technique 3D spécialisé dans le rendu en temps réel. Il est diplômé en graphisme 3D temps réel de l'école HETIC et apporte son expertise technologique à l'équipe d'Iconem depuis 2022."
-      },
-      "id": "antonin",
-      "name": "Antonin Morler",
-      "img": "/img/team/antonin.jpg"
-    },
-    {
-      "job": {
-        "en": "CFO",
-        "fr": "DAF"
-      },
-      "description": {
-        "en": "Luc Leconte graduated from EDHEC Business School and the London School of Economics. He has over 35 years of experience in all areas of financial management, including cost control, planning, accounting, reporting, financing, cash management, legal affairs, audit, and compliance. He has been a member of executive committees and has served on the boards of several companies.  He has successfully adapted to multicultural environments across Europe, South America, and Africa, working within both leading international organizations and small to medium-sized businesses across various industries. His high-level cross-cultural management expertise and hands-on approach make him a leader known for his outstanding interpersonal skills.",
-        "fr": "Luc Leconte est diplômé de l’EDHEC Business School et de la London School of Economics. Il possède plus de 35 ans d’expérience dans tous les domaines de la gestion financière : contrôle des coûts, planification, comptabilité, reporting, financement, gestion de trésorerie, aspects juridiques, audit et conformité. Il a siégé aux comités exécutifs et aux conseils d’administration de plusieurs entreprises.  Il a su s’adapter avec succès à des environnements multiculturels en Europe, en Amérique du Sud et en Afrique, aussi bien au sein de grandes organisations internationales renommées que dans des petites et moyennes entreprises opérant dans divers secteurs d’activité. Son expertise en management interculturel de haut niveau et son approche pragmatique font de lui un dirigeant reconnu pour ses compétences relationnelles exceptionnelles."
-      },
-      "id": "luc",
-      "name": "Luc Leconte",
-      "img": "/img/team/1676022670677-removebg-preview.png"
-    },
-    {
-      "job": {
-        "en": "Development Officer",
-        "fr": "Chargée de développement"
-      },
-      "description": {
-        "en": "With a dual master’s degree from Sciences Po Paris and the École du Louvre, Agathe joined Iconem in September 2024 as a Development Officer. Passionate about innovation and cultural heritage preservation, she actively contributes to Iconem’s strategic direction by developing projects and partnerships that combine technology and heritage conservation.",
-        "fr": "Diplômée du double master Sciences Po Paris - École du Louvre, Agathe a rejoint Iconem en septembre 2024 en tant que chargée de développement. Passionnée par l’innovation et la valorisation du patrimoine, elle contribue activement à l’orientation stratégique d’Iconem en développant des projets et des partenariats qui allient technologie et préservation culturelle."
-      },
-      "id": "agathe",
-      "name": "Agathe Salomon",
-      "img": "/img/team/avatar.png"
     }
   ]
 }
