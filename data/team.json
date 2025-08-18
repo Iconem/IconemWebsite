@@ -158,6 +158,19 @@
     },
     {
       "job": {
+        "en": "Cultural Heritage 3D Artist",
+        "fr": "Artiste 3D spécialisé en Patrimoine Culturel"
+      },
+      "description": {
+        "en": "Raül Garrido Campoy is an art historian specialized in ancient and medieval art, holding a bachelor’s degree in Art History and a master’s degree in Digital Humanities from the University of Barcelona. He has furthered his training with advanced studies in Blender and Unreal Engine, focused on 3D reconstruction and virtual re-creation of cultural heritage. His career combines historical research with technical skills in 3D modeling, compositing, and visual effects, aimed at the accurate restitution of heritage. In 2025, he joined Iconem to contribute his expertise in historical architecture and digital techniques to the reconstruction of lost monuments.",
+        "fr": "Raül Garrido Campoy est historien de l’art, spécialisé dans l’art antique et médiéval. Il est titulaire d’une licence en Histoire de l’Art et d’un master en Humanités Numériques de l’Université de Barcelone. Il a complété sa formation par des études avancées en Blender et Unreal Engine, appliquées à la reconstruction et à la reconstitution virtuelle en 3D du patrimoine culturel. Son parcours associe la recherche historique à des compétences techniques en modélisation 3D, composition et effets visuels, orientées vers la restitution rigoureuse du patrimoine. En 2025, il a rejoint Iconem afin d’apporter son savoir-faire en architecture historique et en techniques numériques à la reconstruction de monuments disparus."
+      },
+      "id": "raul",
+      "name": "Raül Garrido Campoy",
+      "img": "/img/team/raul_nb.png"
+    },
+    {
+      "job": {
         "en": "Scientific Director",
         "fr": "Directeur Scientifique"
       },
