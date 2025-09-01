@@ -54,6 +54,19 @@
     },
     {
       "job": {
+        "en": "Salaried PhD student",
+        "fr": "Doctorant salarié"
+      },
+      "description": {
+        "en": "Camille Boblet-Ledoyen is a doctoral candidate in Art History and Heritage at Sorbonne University, in partnership with Iconem. After a Master’s degree in Political Science and International Relations at the Université Libre de Bruxelles, he specialised in heritage studies. His research examines the heritage-making of the Athenian Acropolis, focusing on restoration practices, especially anastylosis, and their role in shaping an idealised vision of Classical Greece. The Parthenon, central to this process, is studied both as a symbolic monument and through Iconem’s proposed digital documentation using multi-scale photogrammetry to aid conservation.",
+        "fr": "Camille Boblet-Ledoyen est doctorant en histoire de l’art et du patrimoine à Sorbonne Université, en partenariat avec Iconem. Après un master en science politique et relations internationales à l’Université Libre de Bruxelles, il s’est spécialisé dans les études patrimoniales. Sa recherche porte sur la patrimonialisation de l’Acropole d’Athènes, en particulier sur les pratiques de restauration, notamment l’anastylose, et leur rôle dans la construction d’une vision idéalisée de la Grèce classique. Le Parthénon, au cœur de ce processus, est étudié à la fois comme monument symbolique et à travers le projet de numérisation proposé par Iconem, utilisant la photogrammétrie multiscalaire pour soutenir l’analyse et la conservation."
+      },
+      "img": "/img/team/camille_nb_quare-min.png",
+      "name": "Camille Boblet-Ledoyen",
+      "id": "camille"
+    },
+    {
+      "job": {
         "en": "GRAPHIC DESIGNER",
         "fr": "DESIGNER GRAPHIQUE"
       },
