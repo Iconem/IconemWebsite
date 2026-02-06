@@ -2,19 +2,6 @@
   "members": [
     {
       "job": {
-        "en": "Development Officer",
-        "fr": "Chargée de développement"
-      },
-      "description": {
-        "en": "With a dual master’s degree from Sciences Po Paris and the École du Louvre, Agathe joined Iconem in September 2024 as a Development Officer. Passionate about innovation and cultural heritage preservation, she actively contributes to Iconem’s strategic direction by developing projects and partnerships that combine technology and heritage conservation.",
-        "fr": "Diplômée du double master Sciences Po Paris - École du Louvre, Agathe a rejoint Iconem en septembre 2024 en tant que chargée de développement. Passionnée par l’innovation et la valorisation du patrimoine, elle contribue activement à l’orientation stratégique d’Iconem en développant des projets et des partenariats qui allient technologie et préservation culturelle."
-      },
-      "id": "agathe",
-      "name": "Agathe Salomon",
-      "img": "/img/team/avatar.png"
-    },
-    {
-      "job": {
         "en": "Chief of Staff & Technical Project Manager",
         "fr": "Chief of Staff & Chef de Projet Technique"
       },
@@ -79,19 +66,6 @@
       "img": "/img/team/avatar.png"
     },
     {
-      "job": {
-        "en": "Exhibitions project manager",
-        "fr": "Chargée des projets d'expositions"
-      },
-      "description": {
-        "en": "With a master's degree in Management of Cultural Organisations from the University of Paris-Dauphine, Elina specialises in the production and coordination of exhibitions. She worked in the art projects department of the Galeries Lafayette group before joining the Iconem team as exhibition project manager in 2022.",
-        "fr": "Diplômée d'un Master en Management des organisations culturelles de l'Université Paris-Dauphine, Elina s'est spécialisée dans la production et la coordination d'expositions. Elle a travaillé au département des projets artistiques du groupe Galeries Lafayette avant de rejoindre, en 2022, les équipes d'Iconem en tant que chargée des projets d'expositions."
-      },
-      "id": "elina",
-      "name": "Elina Thoumieux",
-      "img": "/img/team/elina-thoumieux-pi.jpg"
-    },
-    {
       "id": "ieva",
       "name": "Ieva Bogušaitė",
       "job": {
@@ -102,19 +76,6 @@
       "description": {
         "en": "Ieva Bogušaitė is an architect specializing in scenography and immersive design. She holds a bachelor’s degree in architecture from Vilnius Tech and a master’s from KU Leuven, where she focused on resilient and sustainable strategies. She also studied restoration at La Sapienza in Rome and scenography at La Villette in Paris.  Her experience spans cultural, residential, and urban projects in France and Lithuania, including the renovation of the iconic Palm Beach in Cannes and large-scale developments in Vilnius. She has contributed to international research on urban identity with KU Leuven’s New York hub and was awarded the “Debut of the Year” prize by the Lithuanian Ministry of Culture.  Ieva is currently based in Paris, where she leads scenography and exhibition design at Iconem.",
         "fr": "Ieva Bogušaitė est architecte, spécialisée en scénographie et en design immersif. Elle est titulaire d’un diplôme en architecture de Vilnius Tech et d’un master de la KU Leuven, où elle s’est concentrée sur les stratégies durables et résilientes. Elle a également suivi des études en restauration à l’université La Sapienza à Rome et en scénographie à l’école de La Villette à Paris.  Son parcours professionnel couvre des projets culturels, résidentiels et urbains en France et en Lituanie, notamment la rénovation du Palm Beach à Cannes et des opérations d’aménagement à grande échelle à Vilnius. Elle a également contribué à des recherches internationales sur l’identité urbaine avec le hub de recherche de la KU Leuven à New York, et a reçu le prix « Début de l’année » du ministère lituanien de la Culture.  Ieva est actuellement basée à Paris, où elle dirige la scénographie et la conception d’expositions chez Iconem."
-      }
-    },
-    {
-      "id": "issanou",
-      "name": "Issanou Kamardine Ousseni",
-      "job": {
-        "en": "Graphic Designer",
-        "fr": "Designer Graphique"
-      },
-      "img": "img/team/issanou.webp",
-      "description": {
-        "en": "Having graduated in applied arts and visual communication, Ousseni Issanou joined the Iconem team in 2015 as a 3D artist and an expert in Blender. With his experience at Iconem, particularly in the creation of 3D films and scans, he has evolved and now holds the position of Artistic Director. Furthermore, Ousseni Issanou has a passion for programming and has created several motion design tools (such as Gravity Rope, bSnow, particles-link, textFx) for the Blender community.",
-        "fr": "Ousseni Issanou a suivi une formation en arts appliqués et en communication visuelle. En 2015, il a rejoint l'équipe d'Iconem en tant que graphiste 3D généraliste et expert en Blender. Grâce à son expérience chez Iconem, notamment dans la réalisation de films et de scans 3D, Ousseni Issanou a pu évoluer et occupe aujourd'hui le poste de Directeur Artistique. En outre, il est passionné par la programmation et a créé plusieurs outils de motion design (tels que Gravity Rope, bSnow, particles-link, textFx) pour la communauté Blender."
       }
     },
     {
@@ -142,19 +103,6 @@
       "id": "luc",
       "name": "Luc Leconte",
       "img": "/img/team/1676022670677-removebg-preview.png"
-    },
-    {
-      "id": "marjorie",
-      "name": "Marjorie Coulin",
-      "job": {
-        "en": "R&D Engineer, photogrammetry expert",
-        "fr": "Ingénieure R&D, experte photogrammétrie"
-      },
-      "img": "img/team/marjorie_bw.webp",
-      "description": {
-        "en": "Marjorie is an R&D engineer. Graduated from the University of Technology of Compiègne (UTC), she worked several years on the design of embedded systems on drones, before starting a specialization in photogrammetry, positioning and image processing at the National School of Geographic Sciences (ENSG). She joined Iconem in 2018 and focuses on parallelization and virtualization of photogrammetric production, for accessibility and resource optimization.",
-        "fr": "Marjorie est ingénieure R&D. Diplômée de l'Université de Technologie de Compiègne (UTC), elle a travaillé plusieurs années à la conception de systèmes embarqués sur drones, avant d'entamer une spécialisation en photogrammétrie, positionnement et traitement d'images à l'Ecole Nationale des Sciences Géographiques (ENSG). Elle a rejoint Iconem en 2018 et se consacre à la parallélisation et la virtualisation de la production photogrammétrique, à des fins d'accessibilité et d'optimisation de ressources."
-      }
     },
     {
       "id": "paul",
