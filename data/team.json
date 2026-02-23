@@ -2,6 +2,19 @@
   "members": [
     {
       "job": {
+        "en": "3D Designer",
+        "fr": "Designer 3D"
+      },
+      "description": {
+        "en": "Andrea Bracciali is a 3D designer based in Paris, specializing in modeling and scenography. He earned a craft diploma in cabinetmaking from the École Boulle, before going on to study interior architecture at Saint-Luc in Liège and then in Paris. His career path led him to a scenographer position at the agency Auditoire, where he designed large-scale installations for leading brands and institutions, both in France and internationally. Now at Iconem, he puts his expertise to work in the digital preservation of cultural heritage. At the heart of his practice, Andrea brings together the demands of traditional craftsmanship and the power of cutting-edge technologies, engaging as much in the creative vision as in the technical production processes.",
+        "fr": "Andrea Bracciali est designer 3D basé à Paris, spécialisé en modélisation et scénographie. Il obtient un brevet de métier d’art en ébénisterie à l’école Boulle, avant de poursuivre sur une formation d’architecture d’intérieur à Saint-Luc de Liège puis à Paris. Son parcours l'amène à occuper le poste de scénographe au sein de l'agence Auditoire, où il conçoit des dispositifs d'envergure pour des marques et institutions de premier plan, en France et à l'international. Désormais chez Iconem, il met son savoir-faire au service de la préservation numérique du patrimoine. Au cœur de sa pratique, Andrea fait converger l'exigence de l'artisanat traditionnel et la force des technologies de pointe, s'impliquant dans la vision créative que dans les processus de fabrication technique."
+      },
+      "id": "andreab",
+      "name": "Andrea Bracciali",
+      "img": "/img/team/img_3275-2.jpg"
+    },
+    {
+      "job": {
         "en": "Chief of Staff & Technical Project Manager",
         "fr": "Chief of Staff & Chef de Projet Technique"
       },
@@ -9,7 +22,7 @@
         "en": " After graduating from La Sorbonne in Humanities and from Paris 42 School in Computer Science, Andrea started working at Iconem within the Research and Development team, developing digital tools to improve data accessibility for the scientific community. Over time, her role expanded to include technical project management while continuing her work as a software engineer. Today, Andrea also holds the role of Chief of Staff at Iconem, combining hands-on technical expertise with strategic coordination to support the company’s growth and mission.",
         "fr": "Diplômée de la Sorbonne en sciences humaines et de l'école 42 en informatique, Andrea a commencé à travailler chez Iconem dans l'équipe recherche et développement. Elle participe à l'implémentation d'outils numériques facilitant l'accès et la mise en valeurs des données produites à destination de la communauté scientifique. Au fil du temps, son rôle s’est élargi pour inclure la gestion technique de projets, tout en poursuivant son travail en tant qu’ingénieure logicielle. Aujourd’hui, Andrea occupe également le poste de Chief of Staff chez Iconem, combinant expertise technique opérationnelle et coordination stratégique pour accompagner la croissance et la mission de l’entreprise."
       },
-      "id": "andrea",
+      "id": "andreal",
       "name": "Andrea Louis",
       "img": "/img/team/tmp.png"
     },
@@ -93,6 +106,19 @@
     },
     {
       "job": {
+        "en": "3D Artist",
+        "fr": "Infographiste 3D"
+      },
+      "description": {
+        "en": "Holding a Master’s degree in Digital Production with a specialization in 3D (IIM) since 2015, Léo Kerjean dedicated his artistic and technical expertise to the preservation and reconstruction of cultural heritage. Driven by a passion for history, he has been breathing life into ancient sites for over 10 years, mastering both pre-rendered pipelines and real-time environments in Unreal Engine.",
+        "fr": "Titulaire depuis 2015 d'un Master en réalisation numérique spécialisé en 3D (IIM), Léo Kerjean met son expertise artistique et technique au service de la préservation et de la reconstitution du patrimoine. Passionné d'histoire, il redonne vie aux sites anciens depuis plus de 10 ans, maîtrisant aussi bien les pipelines de rendu pré calculé que les environnements temps réel sous Unreal Engine."
+      },
+      "id": "leo",
+      "name": "Léo Kerjean",
+      "img": "/img/team/photo-iconem_leo_k_bw.png"
+    },
+    {
+      "job": {
         "en": "CFO",
         "fr": "DAF"
       },
@@ -103,6 +129,19 @@
       "id": "luc",
       "name": "Luc Leconte",
       "img": "/img/team/1676022670677-removebg-preview.png"
+    },
+    {
+      "job": {
+        "en": "Exhibition and Immersive Experience Project Manager",
+        "fr": "Cheffe de projet Exposition et Contenu Immersif"
+      },
+      "description": {
+        "en": "Marine Bouillon is a project manager specializing in the digital enhancement of cultural heritage. A graduate of the Sorbonne in Art History, Heritage Promotion, and Cultural Project Management, she brings a strong commitment to storytelling and transmission, placing them at the service of safeguarding and preserving the memory of global heritage. With nearly ten years of experience in cultural institutions, notably at the Musée national de la Marine, she has led innovative projects combining scholarly content, interactive experiences, and audiovisual production. As a Project Manager at Iconem, she contributes to the development of projects that combine technological innovation with high heritage standards.",
+        "fr": "Marine Bouillon est cheffe de projet spécialisée dans la valorisation numérique du patrimoine. Diplômée de la Sorbonne en Histoire de l’art, en valorisation du patrimoine et en gestion de projets culturels, elle nourrit une attention particulière aux récits et à la transmission, qu'elle met au service de la sauvegarde et de la mémoire du patrimoine mondial. Forte de près de dix ans d’expérience dans les institutions culturelles, notamment au Musée national de la Marine, elle a piloté des projets innovants associant contenus scientifiques, dispositifs interactifs et production audiovisuelle. Cheffe de projet chez Iconem, elle contribue au développement de projets qui allient innovation technologique et haute exigence patrimoniale."
+      },
+      "id": "marine",
+      "name": "Marine Bouillon",
+      "img": "/img/team/img_3272_bw.png"
     },
     {
       "id": "paul",
