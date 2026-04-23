@@ -7,6 +7,29 @@
     "en": "Digital Preservation of Historic Buildings in Agadez",
     "fr": "Conservation numérique de monuments historiques à Agadez"
   },
+  "img": [
+    {
+      "src": "/img/projects/agadez/dji_0134.jpg",
+      "caption": {
+        "en": "Agadez 2021",
+        "fr": "Agadez 2021"
+      }
+    },
+    {
+      "src": "/img/projects/agadez/dji_0032.jpg",
+      "caption": {
+        "en": "Agadez 2021",
+        "fr": "Agadez 2021"
+      }
+    },
+    {
+      "src": "/img/projects/agadez/agadez_potree_02.jpg",
+      "caption": {
+        "en": "Agadez 2021",
+        "fr": "Agadez 2021"
+      }
+    }
+  ],
   "articleDate": {
     "en": "",
     "fr": ""
