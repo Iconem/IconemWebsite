@@ -125,6 +125,27 @@
       "icon_research": "/img/partners/inrap1.png",
       "icon_studio": "/img/partners/inrap1.png",
       "icon_active": "/img/partners/inrap1.png"
+    },
+    {
+      "name": "Centre des Monuments Nationaux",
+      "icon_research": "/img/partners/images-1-.jpg",
+      "icon_studio": "/img/partners/images-1-.jpg",
+      "icon_active": "/img/partners/images-1-.jpg",
+      "link": "https://www.monuments-nationaux.fr/"
+    },
+    {
+      "name": "Museum of Science Boston",
+      "link": "https://www.mos.org/",
+      "icon_research": "/img/partners/images-6-.png",
+      "icon_studio": "/img/partners/images-6-.png",
+      "icon_active": "/img/partners/images-6-.png"
+    },
+    {
+      "name": "Institut du Monde Arabe",
+      "link": "https://www.imarabe.org/en",
+      "icon_research": "/img/partners/images-5-.png",
+      "icon_studio": "/img/partners/images-5-.png",
+      "icon_active": "/img/partners/images-5-.png"
     }
   ]
 }
