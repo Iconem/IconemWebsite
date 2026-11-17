@@ -9,35 +9,35 @@
   },
   "img": [
     {
-      "src": "/img/projects/palmyre-métro.png",
+      "src": "/img/projects/2026capa/palmyre-métro.png",
       "caption": {
         "en": "© Iconem",
         "fr": "© Iconem"
       }
     },
     {
-      "src": "/img/projects/260526_capa_patrimoines-en-resistance_001_©-phot.-nicolas-du-pasquier.jpg",
+      "src": "/img/projects/2026capa/260526_capa_patrimoines-en-resistance_001_©-phot.-nicolas-du-pasquier.jpg",
       "caption": {
         "en": "© Phot. Nicolas Du Pasquier",
         "fr": "© Phot. Nicolas Du Pasquier"
       }
     },
     {
-      "src": "/img/projects/21._expo_patrimoines_en_ry_sistance_©d._plowy_capa_2026.jpg",
+      "src": "/img/projects/2026capa/21._expo_patrimoines_en_ry_sistance_©d._plowy_capa_2026.jpg",
       "caption": {
         "en": "© Phot. Nicolas Du Pasquier",
         "fr": "© Phot. Nicolas Du Pasquier"
       }
     },
     {
-      "src": "/img/projects/260526_capa_patrimoines-en-resistance_025_©-phot.-nicolas-du-pasquier.jpg",
+      "src": "/img/projects/2026capa/260526_capa_patrimoines-en-resistance_025_©-phot.-nicolas-du-pasquier.jpg",
       "caption": {
         "en": "© Phot. Nicolas Du Pasquier",
         "fr": "© Phot. Nicolas Du Pasquier"
       }
     },
     {
-      "src": "/img/projects/bamiyan_1.jpg",
+      "src": "/img/projects/2026capa/bamiyan_1.jpg",
       "caption": {
         "en": "© Phot. Nicolas Du Pasquier",
         "fr": "© Phot. Nicolas Du Pasquier"
@@ -71,9 +71,9 @@
     "en": "Cité de l'architecture et du patrimoine, UNESCO, Grand Palais - RMN",
     "fr": "Cité de l'architecture et du patrimoine, UNESCO, Grand Palais - RMN",
     "logos": [
-      "/img/projects/logo_capa.svg",
-      "/img/projects/unesco_logo_english_white.png",
-      "/img/projects/images.png"
+      "/img/projects/2026capa/logo_capa.svg",
+      "/img/projects/2026capa/unesco_logo_english_white.png",
+      "/img/projects/2026capa/images.png"
     ]
   }
 }

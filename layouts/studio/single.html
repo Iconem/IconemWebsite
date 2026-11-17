@@ -4,11 +4,11 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top" class="bg-lazy">        
-        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
+        {{ if (index .Site.Data.settings .Site.Language.Lang).navigation }}
             {{ partial "nav.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.home }}
+        {{ if .Site.Data.settings.shared.home }}
             {{ partial "home.html" . }}
         {{ end }}
 
@@ -16,30 +16,25 @@
             {{ partial "projects.html" . }}
         {{ end }}
 
-        <!-- {{ partial "map.html" . }} -->
-
-        {{ if .Site.Params.about }}
+        {{ if .Site.Params.about.enabled }}
             {{ partial "about.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.medias }}
+        {{ if .Site.Params.medias.enabled }}
             {{ partial "medias.html" . }}
         {{ end }}
 
-        <!-- {{ if .Site.Params.contribute }}
-            {{ partial "contribute.html" . }}
-        {{ end }} -->
         {{ partial "team.html" . }}
 
-        {{ if .Site.Params.partners }}
+        {{ if .Site.Params.partners.enabled }}
             {{ partial "partners.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.contact }}
+        {{ if .Site.Data.settings.shared.contact }}
             {{ partial "contact.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.footer }}
+        {{ if .Site.Data.settings.shared.footer }}
             {{ partial "footer.html" . }}
         {{ end }}
 

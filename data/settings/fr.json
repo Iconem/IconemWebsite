@@ -1,0 +1,50 @@
+{
+    "description": "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain.",
+    "navigation": {
+        "projects": "Projets",
+        "map": "Carte",
+        "about": "À propos",
+        "contribute": "Contribuer",
+        "contact": "Contact",
+        "studio": "Studio",
+        "research": "Recherche",
+        "exploration": "Exploration"
+    },
+    "projects": {
+        "title": "Nos projets",
+        "modal": {
+            "pictures": "Photos",
+            "videos": "Vidéos",
+            "models": "Modèles 3D",
+            "actors": ""
+        }
+    },
+    "team": {
+        "title": "Notre équipe",
+        "subtitle": "",
+        "description": "Basée à Paris, Iconem se compose d'une équipe pluri-disciplinaire d'environ dix personnes : architectes, ingénieurs, graphistes 3D et archéologues dont les efforts partagés visent à aider dans la tâche complexe de la préservation du patrimoine archéologie et culturel."
+    },
+    "partners": {
+        "clients": "Clients",
+        "partners": "Partenaires"
+    },
+    "downloads": {
+        "brochure": {
+            "title": "Téléchargez notre plaquette",
+            "pdf": "/pdf/Iconem_FR.pdf"
+        },
+        "portfolio": {
+            "title": "Téléchargez notre portfolio d'exposition",
+            "pdf": "/pdf/Iconem_Exhibition_Portfolio.pdf"
+        },
+        "rgpd": {
+            "title": "Charte de Protection des Données",
+            "pdf": "/pdf/charte_rgpd.pdf"
+        }
+    },
+    "newsletter": {
+        "title": "Inscrivez-vous pour recevoir notre newsletter",
+        "placeholder": "Adresse Email",
+        "button_label": "Valider"
+    }
+}

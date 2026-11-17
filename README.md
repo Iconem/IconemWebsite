@@ -5,6 +5,8 @@ User documentation is accessible on Iconem wiki https://wiki.iconem.com/e/en/pla
 
 It explains how to add/modify data on the website using Netlify CMS.
 
+In `/admin`, open **Site settings** and choose **Shared settings** for contact details, the map link, home slogans, social links and icons, the author, and the footer. Choose **English** or **French** for the meta description, navigation labels, section headings, team introduction, newsletter text, and downloadable PDFs. The **About** collection supplies the Studio and Research header logos and the Exploration and Contribute link destinations.
+
 ## 2. Developer's guide
 
 ### 2.1. Static website - Hugo
@@ -31,7 +33,7 @@ The site is hosted on Netlify. To deploy, just push your modification to this re
 
 #### 2.1.4. Add a language
 
-In `./config.toml`, search for any field of the type `[languages.en.$param]`. Simply copy it under the name `[languages.$language_code.$param]` to add a new language to the site.
+Use the English language settings in `config.toml` as a starting point for the new language's domain, language switcher, and newsletter integration. Copy `data/settings/en.json` to `data/settings/<language-code>.json`, translate the copy, and register the file in `static/admin/config/collections/settings/config.js` so editors can update it.
 
 ### 2.2. CMS - NetlifyCMS
 NetlifyCMS is added on top of the Hugo website to provide an easy way to modify some variable parts of the website (projects, team member, partners, etc.).

@@ -1,90 +1,68 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
-{{ $lang := .Site.Language.Lang }}
+{{ $copy := index .Site.Data.settings .Site.Language.Lang }}
+{{ $contact := .Site.Data.settings.shared.contact }}
 {{ $type := .Type }}
 <section id="contact">
     <div class="container">
-        <!-- {{ with .Site.Params.contact.title }}
-            <h3 class="text-uppercase text-center section-title">
-                {{ . }}
-            </h3>
-            <br>
-        {{ end }} -->
         <div class="contact-container">
-            {{ if .Site.Params.contact.phone }}
-                <a class="text-center contact-item" href="tel:{{ .Site.Params.contact.href }}">
+            {{ if $contact.phone }}
+                <a class="text-center contact-item" href="tel:{{ $contact.phone_link }}">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_black.webp" >
                     {{ else if eq $type "studio" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/phone_white.webp" >
                     {{ end }}
-                    <p>{{ .Site.Params.contact.phone }}</p>
+                    <p>{{ $contact.phone }}</p>
                 </a>
             {{ end }}
-            {{ if .Site.Params.contact.adress }}
-                <a class="text-center contact-item" href="https://www.google.fr/maps/place/Iconem/@48.8723435,2.3555447,17z/data=!3m1!4b1!4m6!3m5!1s0x47e671cf13f24fff:0xf42887a91f182d2a!8m2!3d48.87234!4d2.3577334!16s%2Fg%2F11f62h1yqt" target="_blank">
+            {{ if $contact.address }}
+                <a class="text-center contact-item" href="{{ $contact.map_url }}" target="_blank">
                   {{ if eq $type "research" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_black.webp" >
                   {{ else if eq $type "studio" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/location_white.webp" >
                   {{ end }}
-                  <p>{{ .Site.Params.contact.adress }}</p>
+                  <p>{{ $contact.address }}</p>
                 </a>
             {{ end }}
-            {{ if .Site.Params.contact.email }}
-                <a class="text-center contact-item" href="mailto:{{ .Site.Params.contact.email }}">
+            {{ if $contact.email }}
+                <a class="text-center contact-item" href="mailto:{{ $contact.email }}">
                   {{ if eq $type "research" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_black.webp" >
                   {{ else if eq $type "studio" }}
                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail_white.webp" >
                   {{ end }}
-                  <p>{{ .Site.Params.contact.email }}</p> 
+                  <p>{{ $contact.email }}</p>
                 </a>
             {{ end }}
-            <!-- {{ if .Site.Params.press_kit }}
-                <a class="text-center contact-item" href="{{ .Site.Params.press_kit.pdf }}" target="_blank">
-                    {{ if eq $type "research" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_black.webp" >
-                    {{ else if eq $type "studio" }}
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/presskit_white.webp" >
-                    {{ end }}
-                    <p>{{ .Site.Params.press_kit.title }}</p>
-                </a>
-            {{ end }} -->
-            <!-- {{ if .Site.Params.press_kit }}
-                <div class="text-center contact-item">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/mail.webp"  onmouseenter="this.src='img/contact/mail_hover.webp'"
-                    onmouseleave="this.src='img/contact/mail.webp'">
-                    <p>{{ .Site.Params.press_kit.title }}</p>
-                </div>
-            {{ end }} -->
-            {{ if .Site.Params.brochure }}
-                <a class="text-center contact-item" href="{{ .Site.Params.brochure.pdf }}" target="_blank">
+            {{ with $copy.downloads.brochure }}
+                <a class="text-center contact-item" href="{{ .pdf }}" target="_blank">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" >
                     {{ else if eq $type "studio" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" >
                     {{ end }}
-                    <p>{{ .Site.Params.brochure.title }}</p>
+                    <p>{{ .title }}</p>
                 </a>
             {{ end }}
-            {{ if .Site.Params.portfolio }}
-                <a class="text-center contact-item" href="{{ .Site.Params.portfolio.pdf }}" target="_blank">
+            {{ with $copy.downloads.portfolio }}
+                <a class="text-center contact-item" href="{{ .pdf }}" target="_blank">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" >
                     {{ else if eq $type "studio" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" >
                     {{ end }}
-                    <p>{{ .Site.Params.portfolio.title }}</p>
+                    <p>{{ .title }}</p>
                 </a>
             {{ end }}
-            {{ if .Site.Params.rgpd }}
-                <a class="text-center contact-item" href="{{ .Site.Params.rgpd.pdf }}" target="_blank">
+            {{ with $copy.downloads.rgpd }}
+                <a class="text-center contact-item" href="{{ .pdf }}" target="_blank">
                     {{ if eq $type "research" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_black.webp" >
                     {{ else if eq $type "studio" }}
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/contact/brochure_white.webp" >
                     {{ end }}
-                    <p>{{ .Site.Params.rgpd.title }}</p>
+                    <p>{{ .title }}</p>
                 </a>
             {{ end }}
             <!-- Begin MailChimp Signup Form -->
@@ -103,10 +81,10 @@
             <div id="mc_embed_signup">
             <form action="{{ .Site.Params.newsletter.link }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                <label for="mce-EMAIL">{{ .Site.Params.newsletter.title }}</label>
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ .Site.Params.newsletter.placeholder }}" required>
+                <label for="mce-EMAIL">{{ $copy.newsletter.title }}</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ $copy.newsletter.placeholder }}" required>
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{ .Site.Params.newsletter.input_name }}" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="{{ .Site.Params.newsletter.button_label }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <div class="clear"><input type="submit" value="{{ $copy.newsletter.button_label }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                 </div>
             </form>
             </div>

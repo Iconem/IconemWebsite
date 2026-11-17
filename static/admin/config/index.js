@@ -5,6 +5,7 @@ import collaborators from "./collections/collaborators/config.js";
 import medias from "./collections/medias/config.js";
 import map from "./collections/map/config.js";
 import about from "./collections/about/config.js";
+import settings from "./collections/settings/config.js";
 
 const config = {
     backend: {
@@ -24,6 +25,7 @@ const config = {
         collaborators,
         medias,
         about,
+        settings,
     ],
 };
 

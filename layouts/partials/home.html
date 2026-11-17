@@ -1,37 +1,23 @@
 {{ "<!-- HEADER -->" | safeHTML }}
-  <!-- <div id="iconem-video-overlay">
-    <video autoplay muted loop>
-        <source
-            src="video/Iconem_Rethink_Human_Heritage.mp4"
-            type="video/mp4"
-        />
-    </video>
-  </div> -->
-    <!-- <div class="video-background">
-        <div class="video-foreground">
-          <div id="youtubeIframe"></div>  
-        </div>
-    </div> -->
+{{ $home := .Site.Data.settings.shared.home }}
     <header>
       <div id="header-content" class="header-content">
         <div class="header-content-inner">
             {{ if eq .Type "research" }}
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_research}}" class="header-draw"/>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .Site.Data.about.research.logo.black }}" class="header-draw"/>
             {{ else if eq .Type "studio" }}
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{.Site.Params.home.logo_studio}}" class="header-draw"/>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .Site.Data.about.studio.logo.white }}" class="header-draw"/>
             {{ end }}
-            {{ $slogan_prefix := .Site.Params.home.slogan_research_prefix }}
+            {{ $slogan_prefix := $home.slogan_research_prefix }}
             {{ if eq .Type "studio" }}
-              {{ $slogan_prefix = .Site.Params.home.slogan_studio_prefix }}
+              {{ $slogan_prefix = $home.slogan_studio_prefix }}
             {{ end }}
-            {{ with .Site.Params.home }}
-                <span><span class="text-uppercase text-bolder">{{ $slogan_prefix | markdownify }}</span><span class="text-uppercase">{{ .slogan | markdownify }}</span></span>
-            {{ end }}
+            <span><span class="text-uppercase text-bolder">{{ $slogan_prefix | markdownify }}</span><span class="text-uppercase">{{ $home.slogan | markdownify }}</span></span>
         </div>
       </div>
       <div class="header-footer">
           {{ $type := .Type }}
-          {{ range.Site.Params.home.social }}
+          {{ range $home.social }}
           <a href="{{ .link }}" target="_blank">
               {{ if eq $type "research" }}
                 <img src="{{ .icon_black}}" />
@@ -42,4 +28,3 @@
           {{ end }}
       </div>
     </header>
-</div>

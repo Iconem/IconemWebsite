@@ -1,4 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
+{{ $team := (index .Site.Data.settings $lang).team }}
 {{ $team_members := .Site.Data.team.members }}
 <section id="team">
   <div class="container-fluid">
@@ -7,7 +8,7 @@
         <div style="display:flex;justify-content: space-around;">
             <!-- grow shrink basis -->
             <div style="flex:1 1 100%;min-width:50%;">
-            {{ with .Site.Params.team }}
+            {{ with $team }}
                 <div>
                 <h3 class="text-center text-uppercase text-bolder section-title">
                     {{ .title }}
@@ -17,7 +18,7 @@
                 </div>
             {{ end }}
 
-            {{ with .Site.Params.team.description }}
+            {{ with $team.description }}
                 <p class="text-justify">{{ . | markdownify }}</p>
             {{ end }}
             </div>

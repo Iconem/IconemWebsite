@@ -1,5 +1,6 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
+{{ $labels := (index .Site.Data.settings $lang).projects.modal }}
 {{ $type := .Type }}
 
 {{ $projects := .Site.Data.projects.research }}
@@ -57,7 +58,7 @@
                 <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/icons/img_black.webp" 
                     data-toggle="tooltip"
                     data-placement="bottom"
-                    title="{{ $.Site.Params.projects.modal.pictures }}" 
+                    title="{{ $labels.pictures }}"
                 />
             </a>
             {{ if $project.video }}
@@ -71,7 +72,7 @@
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/icons/video_black.webp"
                         data-toggle="tooltip"
                         data-placement="bottom"
-                        title="{{ $.Site.Params.projects.modal.videos }}" 
+                        title="{{ $labels.videos }}"
                     />
                 </a>
             {{ end }}
@@ -86,7 +87,7 @@
                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/icons/3ds_black.webp"
                         data-toggle="tooltip"
                         data-placement="bottom"
-                        title="{{ $.Site.Params.projects.modal.models }}"
+                        title="{{ $labels.models }}"
                     />
                 </a>
             {{ end }}
@@ -116,15 +117,17 @@
             <hr />
             {{ with $project.actors }}
               <div class="text-justify text-sm">
-                <strong>{{ $.Site.Params.projects.modal.actors }}</strong>
+                <strong>{{ $labels.actors }}</strong>
                 <span>{{ index $project.actors $lang }}</span>
               </div>
               <hr />
               <div id="project-media-description-logos">
-                    {{ with $project.actors.logos }}
-                        {{ range $logo := . }}
-                            <img data-src="{{ ((resources.Get $logo).Resize "x60 webp").RelPermalink }}" />
+                    {{ range $project.actors.logos }}
+                        {{ $logo := resources.Get . }}
+                        {{ if ne $logo.MediaType.Type "image/svg+xml" }}
+                            {{ $logo = $logo.Resize "x60 webp" }}
                         {{ end }}
+                        <img data-src="{{ $logo.RelPermalink }}" />
                     {{ end }}
               </div>
             {{ end }}
@@ -218,4 +221,4 @@
             close_modal_button[i].classList.toggle('modal-content-hidden');
         }
     }
-</script> 
+</script>

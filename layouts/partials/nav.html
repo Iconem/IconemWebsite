@@ -1,4 +1,5 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
+{{ $nav := (index .Site.Data.settings .Site.Language.Lang).navigation }}
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
@@ -14,40 +15,40 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                {{ if and .Site.Data.projects .Site.Params.navigation.links.projects }}
+                {{ if and .Site.Data.projects $nav.projects }}
                     <li>
-                        <a class="page-scroll text-uppercase" href="#projects">{{ .Site.Params.navigation.links.projects }}</a>
+                        <a class="page-scroll text-uppercase" href="#projects">{{ $nav.projects }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
+                {{ if and .Site.Params.about.enabled $nav.about }}
                     <li>
-                        <a class="page-scroll text-uppercase" href="#about">{{ .Site.Params.navigation.links.about }}</a>
+                        <a class="page-scroll text-uppercase" href="#about">{{ $nav.about }}</a>
                     </li>
                 {{ end }}
                 {{ if eq .Type "research" }}
                     <li>
-                      <a class="page-scroll text-uppercase" href="#map">{{ .Site.Params.navigation.links.map }}</a>
+                      <a class="page-scroll text-uppercase" href="#map">{{ $nav.map }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
+                {{ if and .Site.Data.settings.shared.contact $nav.contact }}
                     <li>
-                        <a class="page-scroll text-uppercase" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
+                        <a class="page-scroll text-uppercase" href="#contact">{{ $nav.contact }}</a>
                     </li>
                 {{ end }}
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a class="page-scroll text-uppercase" href="{{.Site.Params.baseUrl}}research">{{ .Site.Params.navigation.links.research }}</a>
+                <a class="page-scroll text-uppercase" href="{{.Site.Params.baseUrl}}research">{{ $nav.research }}</a>
               </li>
               <li>
-                <a class="page-scroll text-uppercase" href="{{.Site.Params.baseUrl}}studio">{{ .Site.Params.navigation.links.studio }}</a>
+                <a class="page-scroll text-uppercase" href="{{.Site.Params.baseUrl}}studio">{{ $nav.studio }}</a>
               </li>
               <li>
-                <a class="page-scroll text-uppercase" href="https://app.iconem.com" target="_blank">{{ .Site.Params.navigation.links.exploration }}</a>
+                <a class="page-scroll text-uppercase" href="{{ .Site.Data.about.exploration.link }}" target="_blank">{{ $nav.exploration }}</a>
               </li>
-              {{ if and .Site.Params.contribute .Site.Params.navigation.links.contribute }}
+              {{ if and .Site.Data.about.fund.link $nav.contribute }}
                   <li>
-                      <a class="page-scroll text-uppercase" href="https://www.helloasso.com/associations/fonds-iconem-pour-la-protection-du-patrimoine-menace" target="_blank">{{ .Site.Params.navigation.links.contribute }}</a>
+                      <a class="page-scroll text-uppercase" href="{{ .Site.Data.about.fund.link }}" target="_blank">{{ $nav.contribute }}</a>
                   </li>
               {{ end }}
               <li>

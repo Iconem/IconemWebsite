@@ -1,251 +1,42 @@
 title = "Iconem"
 googleAnalytics = ""
 DefaultContentLanguage = "en"
-#baseUrl = "https://iconem.com/fr/"
-#baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
 baseUrl = "https://iconem.com/"
-#baseUrl = "http://localhost:1313/"
 
-[languages]
-	[languages.en]
-	#baseUrl = "https://iconem.com/en/"
-  	#baseUrl = "https://iconem.github.io/IconemWebsite/en/"
-  	baseUrl = "https://iconem.com/"
-  	#baseUrl = "http://localhost:1313/"
-	name = "Iconem"
-	description = "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow."
-
-	[languages.fr]
-	  #baseUrl = "https://iconem.com/fr/"
-  	#baseUrl = "https://iconem.github.io/IconemWebsite/fr/"
-  	baseUrl = "https://iconem.fr/"
-  	#baseUrl = "http://localhost:1314/"
-	name = "Iconem"
-	description = "La mission d'Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l'exploration et l'étude, aujourd'hui et demain."
-
-
+# Site settings editable in /admin are stored in data/settings.
 [params]
+    favicon = "img/favicons/favicon.ico"
 
-	# The path must be relative to the static folder
-	favicon = "img/favicons/favicon.ico"
-	
+[params.partners]
+    enabled = true
 
-	# Navigation
-	[params.navigation]
-		brand = "Iconem"
+[params.medias]
+    enabled = true
 
-		[languages.en.navigation.links]
-			projects = "Projects"
-			map  = "Map"
-			about = "About"
-      		contribute = "Contribute"
-			contact   = "Contact"
-			language = "Language"
-      		studio = "Studio"
-      		research = "Research"
-      		exploration = "Exploration"
+[languages.en]
+    baseUrl = "https://iconem.com/"
 
-		[[languages.en.navigation.lang]]
-			code = "fr"
-			link = "https://iconem.fr/"
-			#link = "/fr"
+[[languages.en.navigation.lang]]
+    code = "fr"
+    link = "https://iconem.fr/"
 
-		[languages.fr.navigation.links]
-			projects = "Projets"
-			map  = "Carte"
-			about = "À propos"
-      		contribute = "Contribuer"
-			contact   = "Contact"
-			language = "Langue"
-      		studio = "Studio"
-     		research = "Recherche"
-      		exploration = "Exploration"
+[languages.en.about]
+    enabled = true
 
-		[[languages.fr.navigation.lang]]
-			code = "en"
-			link = "https://iconem.com/"
-			#link = "/en"
+[languages.en.newsletter]
+    link = "https://iconem.us12.list-manage.com/subscribe/post?u=749f610ff78ee22f7360e7b72&amp;id=6256e49fdb"
+    input_name = "b_749f610ff78ee22f7360e7b72_6256e49fdb"
 
-	# Home section
-	[params.home]
-    slogan_research_prefix     = "Explore"
-    slogan_studio_prefix     = "Experience"
-    slogan     = " human heritage"
-		logo_research = "img/home/logo_research_black.webp"
-    logo_studio = "img/home/logo_studio_white.webp"
+[languages.fr]
+    baseUrl = "https://iconem.fr/"
 
-    [[params.home.social]]
-        id = "facebook"
-        icon_black = "img/home/social/facebook_black.webp"
-        icon_white = "img/home/social/facebook_white.webp"
-        link = "https://fr-fr.facebook.com/Iconem.corp/"
+[[languages.fr.navigation.lang]]
+    code = "en"
+    link = "https://iconem.com/"
 
-    [[params.home.social]]
-        id = "instagram"
-        icon_black = "img/home/social/instagram_black.webp"
-        icon_white = "img/home/social/instagram_white.webp"
-        link = "https://www.instagram.com/ic0nem/"
+[languages.fr.about]
+    enabled = true
 
-    [[params.home.social]]
-        id = "twitter"
-        icon_black = "img/home/social/twitter_black.webp"
-        icon_white = "img/home/social/twitter_white.webp"
-        link = "https://twitter.com/iconem"
-
-    [[params.home.social]]
-        id = "linkedin"
-        icon_black = "img/home/social/linkedin_black.webp"
-        icon_white = "img/home/social/linkedin_white.webp"
-        link = "https://fr.linkedin.com/company/iconem"
-
-    [[params.home.social]]
-        id = "youtube"
-        icon_black = "img/home/social/youtube_black.webp"
-        icon_white = "img/home/social/youtube_white.webp"
-        link = "https://www.youtube.com/user/iconem"
-
-		[[params.home.social]]
-            id = "tumblr"
-            icon_black = "img/home/social/tumblr_black.webp"
-            icon_white = "img/home/social/tumblr_white.webp"
-            link = "http://iconem.tumblr.com/"
-
-    [[params.home.social]]
-        id = "vimeo"
-        icon_black = "img/home/social/vimeo_black.webp"
-        icon_white = "img/home/social/vimeo_white.webp"
-        link = "https://vimeo.com/iconem"
-
-    [[params.home.social]]
-        id = "sketchfab"
-        icon_black = "img/home/social/sketchfab_black.webp"
-        icon_white = "img/home/social/sketchfab_white.webp"
-        link = "https://sketchfab.com/iconem"
-
-    # Projects section
-    [languages.en.projects]
-    	title="Projects"
-    	description = "Our world’s cultural heritage is threatened. Looting, urbanisation, mass tourism, armed conflict, and climate change damage and destroy irreplaceable sites where cultures emerged, languages developed, civilisations thrived. These imperilled heritage sites embody humanity’s rich cultural diversity. It is crucial that we document and preserve them now. Iconem’s mission is to further conservation of these endangered places by digitising them for exploration and study, today and tomorrow. Our expert team travels the globe, combining the large-scale scanning capacity of drones and the photorealistic quality of 3D to create digital replicas of our most treasured places, record them for future generations, and champion them today."
-
-    [languages.fr.projects]
-    	title="Nos projets"
-    	description = "Le patrimoine mondial est en danger. Le pillage, l’urbanisation, les conflits armés et le changement climatique endommagent et détruisent des sites irremplaçables où des cultures ont émergé, des langues se sont développées, des civilisations ont prospéré. Ces sites patrimoniaux mis en péril incarnent l’incroyable diversité culturelle de l’humanité. Il est essentiel que nous les documentions et les préservions maintenant. La mission d’Iconem est de contribuer à la conservation de ces endroits menacés en les numérisant pour l’exploration et l’étude, aujourd’hui et demain. Notre équipe expérimentée travaille à travers le monde, associant la capacité de scan à grande échelle des drones et le photoréalisme de la 3D afin de réaliser des doubles numériques des sites les plus précieux, afin d’assurer leur transmission aux générations futures et leur défense aujourd’hui."
-
-   	# Projects modals
-	[languages.en.projects.modal]
-        pictures="Pictures"
-        videos="Videos"
-        models="3D Models"
-        actors=""
-        partners=""
-	[languages.fr.projects.modal]
-        pictures="Photos"
-        videos="Vidéos"
-        models="Modèles 3D"
-        actors=""
-        partners=""
-
-    # Map section
-    [params.map]
-
-	# About section
-	[languages.en.about]
-		enabled = true
-	[languages.fr.about]
-		enabled = true
-
-  	# Contribute section
-	[languages.en.contribute]
-		title    = "Contribute"
-		description = "If you want to support our work, you can help us ! Send your digitised photographies of heritage sites all around the world to <a href=\"mailto:contact@iconem.com\">contact@iconem.com</a>. We will use the pictures within our photogrammetric process or as scientific archives in order to protect and preserve the memory of endangered heritage sites."
-
-	[languages.fr.contribute]
-		title    = "Contribuer"
-		description = "Si vous souhaitez soutenir notre travail, vous pouvez nous aider ! Envoyez à <a href=\"mailto:contact@iconem.com\">contact@iconem.com</a> vos photographies numérisées de sites patrimoniaux du monde entier. Nous utiliserons vos photos comme matériau pour nos algorithmes de photogrammétrie ou comme archives scientifiques afin de protéger et préserver la mémoire de sites historiques menacés."
-
-	# Team section
-	[languages.en.team]
-		title = "Our team"
-		subtitle = ""
-		description = "Based in Paris, Iconem currently brings together a multidisciplinary team of about ten employees: architects, computer scientists, engineers, 3D graphic designers and archeologists whose strength lies in working together to solve the complex issue of safeguarding the historical and archeological heritage."
-
-	[languages.fr.team]
-		title = "Notre équipe"
-		subtitle = ""
-		description = "Basée à Paris, Iconem se compose d'une équipe pluri-disciplinaire d'environ dix personnes : architectes, ingénieurs, graphistes 3D et archéologues dont les efforts partagés visent à aider dans la tâche complexe de la préservation du patrimoine archéologie et culturel."
-
-	# Contact section
-	[params.contact]
-		title = "Contact"
-		phone = "+33 (0)1 42 49 76 04"
-		href = "+33142497604"
-		adress = "82 rue du Faubourg St-Martin 75010 Paris"
-		email = "contact@iconem.com"
-
-	[languages.en.brochure]
-		title = "Download our brochure"
-		pdf = "pdf/Iconem_EN.pdf"
-
-	[languages.fr.brochure]
-		title = "Téléchargez notre plaquette"
-		pdf = "pdf/Iconem_FR.pdf"
-
-	[languages.en.portfolio]
-		title = "Download our exhibition portfolio"
-		pdf = "pdf/Iconem_Exhibition_Portfolio.pdf"
-
-	[languages.fr.portfolio]
-		title = "Téléchargez notre portfolio d'exposition"
-		pdf = "pdf/Iconem_Exhibition_Portfolio.pdf"
-
-	[languages.en.rgpd]
-		title = "Data Protection Policy"
-		pdf = "pdf/charte_rgpd.pdf"
-
-	[languages.fr.rgpd]
-		title = "Charte de Protection des Données"
-		pdf = "pdf/charte_rgpd.pdf"
-
-	[languages.en.press_kit]
-		title = "Document press"
-		pdf = "pdf/press_kit.pdf"
-
-	[languages.fr.press_kit]
-		title = "Document press"
-		pdf = "pdf/press_kit.pdf"
-
-	[languages.en.newsletter]
-		title = "Subscribe to our newsletter"
-		placeholder = "Email Adress"
-		button_label = "Subscribe"
-		link = "https://iconem.us12.list-manage.com/subscribe/post?u=749f610ff78ee22f7360e7b72&amp;id=6256e49fdb"
-		input_name="b_749f610ff78ee22f7360e7b72_6256e49fdb"
-
-	[languages.fr.newsletter]
-		title = "Inscrivez-vous pour recevoir notre newsletter"
-		placeholder = "Adresse Email"
-		button_label = "Valider"
-		link = "https://iconem.us12.list-manage.com/subscribe/post?u=749f610ff78ee22f7360e7b72&amp;id=d589848b1b"
-		input_name="b_749f610ff78ee22f7360e7b72_d589848b1b"
-
-	# Partners
-	[params.partners]
-		enabled = true
-	[languages.en.partners]
-		clients = "Clients"
-		partners = "Partners"
-	[languages.fr.partners]
-		clients = "Clients"
-		partners = "Partenaires"
-
-	# Medias
-	[params.medias]
-		enabled = true
-	[languages.en.medias]
-		medias = "Medias"
-	[languages.fr.medias]
-		medias = "Medias"
-
-	# Footer
-	[params.footer]
-		content = "© 2021 Iconem. All rights reserved."
+[languages.fr.newsletter]
+    link = "https://iconem.us12.list-manage.com/subscribe/post?u=749f610ff78ee22f7360e7b72&amp;id=d589848b1b"
+    input_name = "b_749f610ff78ee22f7360e7b72_d589848b1b"

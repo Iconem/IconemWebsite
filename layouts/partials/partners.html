@@ -1,10 +1,11 @@
 {{ "<!-- Partners -->" | safeHTML }}
 {{ $lang := .Site.Language.Lang }}
+{{ $labels := (index .Site.Data.settings $lang).partners }}
 {{ $type := .Type }}
 <section id="partners">
     <div class="row text-center">
         <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-            <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.partners }}</h3>
+            <h3 class="text-bold text-uppercase section-title">{{ $labels.partners }}</h3>
             <hr class="light">
             <div class="owl-carousel partners-carousel">
                 {{ range .Site.Data.collaborators.partners.partners }}
@@ -33,7 +34,7 @@
     <br>
     <div class="row text-center">
         <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-            <h3 class="text-bold text-uppercase section-title">{{ .Site.Params.partners.clients }}</h3>
+            <h3 class="text-bold text-uppercase section-title">{{ $labels.clients }}</h3>
             <hr class="light">
             <div class="owl-carousel partners-carousel">
                 {{ range .Site.Data.collaborators.clients.clients }}

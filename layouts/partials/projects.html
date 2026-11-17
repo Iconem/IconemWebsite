@@ -5,19 +5,13 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
-                {{ with .Site.Params.projects.title }}
+                {{ with (index .Site.Data.settings $lang).projects.title }}
                     <h4 class="text-center text-uppercase text-bolder">{{ . }}</h4>
-                    <!-- <hr> -->
                 {{ end }}
-                    <!-- <br>
-                {{ with .Site.Params.projects.description }}
-                    <p class="text-justify">{{ . | markdownify }}</p>
-                {{ end }} -->
             </div>
         </div>
       </div>
     </section>
-    <!-- <div class="container"> -->
       <div id="main-projects-carousel">
         {{ $projects := .Site.Data.projects.research }}
         {{ if eq $type "studio" }}
@@ -38,7 +32,6 @@
                               <div class="text-uppercase">
                                   {{ index $project.thumbnailTitle $lang}}
                               </div>
-                              <!-- <hr/> -->
                               <div class="text-sm">
                                   {{ index $project.thumbnailLocation $lang}}
                               </div>
@@ -53,5 +46,4 @@
       </div>
       <div id="main-projects-carousel-dots-container"></div>
       <br />
-      <!-- </div> -->
 </section>
