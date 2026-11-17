@@ -8,6 +8,13 @@
       "icon_active": "img/partners/ens.webp"
     },
     {
+      "name": "ALIPH",
+      "link": "https://www.aliph-foundation.org/",
+      "icon_active": "/img/partners/logo-aliph.png",
+      "icon_studio": "/img/partners/aliph-white.png",
+      "icon_research": "/img/partners/aliph-white.png"
+    },
+    {
       "name": "Factum Foundation",
       "link": "http://www.factumfoundation.org/",
       "icon_research": "img/partners/factum_Passifnoir.webp",
@@ -22,13 +29,6 @@
       "icon_active": "img/partners/inria.webp"
     },
     {
-      "name": "MAE",
-      "link": "https://www.diplomatie.gouv.fr/fr/",
-      "icon_research": "img/partners/MAE_Passifnoir.webp",
-      "icon_studio": "img/partners/MAE_Passif.webp",
-      "icon_active": "img/partners/MAE.webp"
-    },
-    {
       "name": "Microsoft",
       "link": "https://www.microsoft.com",
       "icon_research": "img/partners/microsoft_Passifnoir.webp",
@@ -36,11 +36,11 @@
       "icon_active": "img/partners/microsoft.webp"
     },
     {
-      "name": "Parrot",
-      "link": "https://www.parrot.com",
-      "icon_research": "img/partners/parrot_Passifnoir.webp",
-      "icon_studio": "img/partners/parrot_Passif.webp",
-      "icon_active": "img/partners/parrot.webp"
+      "name": "MAE",
+      "link": "https://www.diplomatie.gouv.fr/fr/",
+      "icon_research": "img/partners/MAE_Passifnoir.webp",
+      "icon_studio": "img/partners/MAE_Passif.webp",
+      "icon_active": "img/partners/MAE.webp"
     },
     {
       "name": "PSL",
@@ -48,13 +48,6 @@
       "icon_research": "img/partners/psl_Passifnoir.webp",
       "icon_studio": "img/partners/psl_Passif.webp",
       "icon_active": "img/partners/psl.webp"
-    },
-    {
-      "name": "Sketchfab",
-      "link": "https://sketchfab.com/",
-      "icon_research": "img/partners/sketchfab_Passifnoir.webp",
-      "icon_studio": "img/partners/sketchfab_Passif.webp",
-      "icon_active": "img/partners/sketchfab.webp"
     },
     {
       "name": "Time Machine",
@@ -71,11 +64,53 @@
       "icon_active": "img/partners/ubisoft.webp"
     },
     {
-      "name": "ALIPH",
-      "link": "https://www.aliph-foundation.org/",
-      "icon_active": "/img/partners/logo-aliph.png",
-      "icon_studio": "/img/partners/aliph-white.png",
-      "icon_research": "/img/partners/aliph-white.png"
+      "name": "Fondation Boghossian",
+      "link": "https://villaempain.com/",
+      "icon_research": "/img/partners/fondation-boghossian-logo.jpg",
+      "icon_studio": "/img/partners/fondation-boghossian-logo.jpg",
+      "icon_active": "/img/partners/fondation-boghossian-logo.jpg"
+    },
+    {
+      "name": "UNESCO",
+      "link": "https://www.unesco.org/",
+      "icon_research": "/img/partners/unesco_logo_english_white.png",
+      "icon_studio": "/img/partners/unesco_logo_english_white.png",
+      "icon_active": "/img/partners/unesco_logo_english_white.png"
+    },
+    {
+      "icon_research": "/img/partners/aga-khan-trust-for-culture-logo.png",
+      "name": "Aga Khan Trust for Culture",
+      "link": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture",
+      "icon_studio": "/img/partners/aga-khan-trust-for-culture-logo.png",
+      "icon_active": "/img/partners/aga-khan-trust-for-culture-logo.png"
+    },
+    {
+      "name": "Fondazione Musei Civici di Venezia",
+      "link": "https://www.visitmuve.it/en/",
+      "icon_research": "/img/partners/muve-logo.jpg",
+      "icon_studio": "/img/partners/muve-logo.jpg",
+      "icon_active": "/img/partners/muve-logo.jpg"
+    },
+    {
+      "name": "La Fabbrica di San Pietro",
+      "link": "https://www.basilicasanpietro.va/it/san-pietro/la-fabbrica-di-san-pietro",
+      "icon_research": "/img/partners/basilica_di_san_pietro_v2_23c4ffc7d4.svg",
+      "icon_studio": "/img/partners/basilica_di_san_pietro_v2_23c4ffc7d4.svg",
+      "icon_active": "/img/partners/basilica_di_san_pietro_v2_23c4ffc7d4.svg"
+    },
+    {
+      "name": "APSARA",
+      "link": "https://apsaraauthority.gov.kh/",
+      "icon_research": "/img/partners/apsara-small-logo.png",
+      "icon_studio": "/img/partners/apsara-small-logo.png",
+      "icon_active": "/img/partners/apsara-small-logo.png"
+    },
+    {
+      "name": "Direction Générale des Antiquités et des Musées de Syrie",
+      "link": "https://dgam.gov.sy/?page_id=10483&lang=en",
+      "icon_research": "/img/partners/dgam_syria_black.jpg",
+      "icon_studio": "/img/partners/dgam_syria_black.jpg",
+      "icon_active": "/img/partners/dgam_syria_black.jpg"
     }
   ]
 }
