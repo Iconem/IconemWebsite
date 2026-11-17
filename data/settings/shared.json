@@ -1,66 +1,48 @@
 {
-    "author": "Iconem",
-    "home": {
-        "slogan_research_prefix": "Explore",
-        "slogan_studio_prefix": "Experience",
-        "slogan": "human heritage",
-        "social": [
-            {
-                "id": "facebook",
-                "icon_black": "/img/home/social/facebook_black.webp",
-                "icon_white": "/img/home/social/facebook_white.webp",
-                "link": "https://fr-fr.facebook.com/Iconem.corp/"
-            },
-            {
-                "id": "instagram",
-                "icon_black": "/img/home/social/instagram_black.webp",
-                "icon_white": "/img/home/social/instagram_white.webp",
-                "link": "https://www.instagram.com/ic0nem/"
-            },
-            {
-                "id": "twitter",
-                "icon_black": "/img/home/social/twitter_black.webp",
-                "icon_white": "/img/home/social/twitter_white.webp",
-                "link": "https://twitter.com/iconem"
-            },
-            {
-                "id": "linkedin",
-                "icon_black": "/img/home/social/linkedin_black.webp",
-                "icon_white": "/img/home/social/linkedin_white.webp",
-                "link": "https://fr.linkedin.com/company/iconem"
-            },
-            {
-                "id": "youtube",
-                "icon_black": "/img/home/social/youtube_black.webp",
-                "icon_white": "/img/home/social/youtube_white.webp",
-                "link": "https://www.youtube.com/user/iconem"
-            },
-            {
-                "id": "tumblr",
-                "icon_black": "/img/home/social/tumblr_black.webp",
-                "icon_white": "/img/home/social/tumblr_white.webp",
-                "link": "http://iconem.tumblr.com/"
-            },
-            {
-                "id": "vimeo",
-                "icon_black": "/img/home/social/vimeo_black.webp",
-                "icon_white": "/img/home/social/vimeo_white.webp",
-                "link": "https://vimeo.com/iconem"
-            },
-            {
-                "id": "sketchfab",
-                "icon_black": "/img/home/social/sketchfab_black.webp",
-                "icon_white": "/img/home/social/sketchfab_white.webp",
-                "link": "https://sketchfab.com/iconem"
-            }
-        ]
-    },
-    "contact": {
-        "phone": "+33 (0)1 42 49 76 04",
-        "phone_link": "+33142497604",
-        "address": "82 rue du Faubourg St-Martin 75010 Paris",
-        "map_url": "https://www.google.fr/maps/place/Iconem/@48.8723435,2.3555447,17z/data=!3m1!4b1!4m6!3m5!1s0x47e671cf13f24fff:0xf42887a91f182d2a!8m2!3d48.87234!4d2.3577334!16s%2Fg%2F11f62h1yqt",
-        "email": "contact@iconem.com"
-    },
-    "footer": "© 2021 Iconem. All rights reserved."
+  "author": "Iconem",
+  "home": {
+    "slogan_research_prefix": "Explore",
+    "slogan_studio_prefix": "Experience",
+    "slogan": "human heritage",
+    "social": [
+      {
+        "id": "instagram",
+        "icon_black": "/img/home/social/instagram_black.webp",
+        "icon_white": "/img/home/social/instagram_white.webp",
+        "link": "https://www.instagram.com/ic0nem/"
+      },
+      {
+        "id": "linkedin",
+        "icon_black": "/img/home/social/linkedin_black.webp",
+        "icon_white": "/img/home/social/linkedin_white.webp",
+        "link": "https://fr.linkedin.com/company/iconem"
+      },
+      {
+        "id": "youtube",
+        "icon_black": "/img/home/social/youtube_black.webp",
+        "icon_white": "/img/home/social/youtube_white.webp",
+        "link": "https://www.youtube.com/user/iconem"
+      },
+      {
+        "id": "vimeo",
+        "icon_black": "/img/home/social/vimeo_black.webp",
+        "icon_white": "/img/home/social/vimeo_white.webp",
+        "link": "https://vimeo.com/iconem"
+      },
+      {
+        "id": "sketchfab",
+        "icon_black": "/img/home/social/sketchfab_black.webp",
+        "icon_white": "/img/home/social/sketchfab_white.webp",
+        "link": "https://sketchfab.com/iconem"
+      }
+    ]
+  },
+  "contact": {
+    "phone": "+33782868957",
+    "phone_link": "+33782868957",
+    "address": "82 rue du Faubourg St-Martin 75010 Paris",
+    "map_url": "https://www.google.fr/maps/place/Iconem/@48.8723435,2.3555447,17z/data=!3m1!4b1!4m6!3m5!1s0x47e671cf13f24fff:0xf42887a91f182d2a!8m2!3d48.87234!4d2.3577334!16s%2Fg%2F11f62h1yqt",
+    "email": "contact@iconem.com"
+  },
+  "footer": "© 2021 Iconem. All rights reserved."
 }
