@@ -1,0 +1,79 @@
+{
+  "thumbnailLocation": {
+    "en": "Cité de l'architecture et du patrimoine, Paris",
+    "fr": "Cité de l'architecture et du patrimoine, Paris"
+  },
+  "articleTitle": {
+    "en": "Heritage in Resistance, from Timbuktu to Odesa",
+    "fr": "Patrimoines en résistance, de Tombouctou à Odessa"
+  },
+  "img": [
+    {
+      "src": "/img/projects/palmyre-métro.png",
+      "caption": {
+        "en": "© Iconem",
+        "fr": "© Iconem"
+      }
+    },
+    {
+      "src": "/img/projects/260526_capa_patrimoines-en-resistance_001_©-phot.-nicolas-du-pasquier.jpg",
+      "caption": {
+        "en": "© Phot. Nicolas Du Pasquier",
+        "fr": "© Phot. Nicolas Du Pasquier"
+      }
+    },
+    {
+      "src": "/img/projects/21._expo_patrimoines_en_ry_sistance_©d._plowy_capa_2026.jpg",
+      "caption": {
+        "en": "© Phot. Nicolas Du Pasquier",
+        "fr": "© Phot. Nicolas Du Pasquier"
+      }
+    },
+    {
+      "src": "/img/projects/260526_capa_patrimoines-en-resistance_025_©-phot.-nicolas-du-pasquier.jpg",
+      "caption": {
+        "en": "© Phot. Nicolas Du Pasquier",
+        "fr": "© Phot. Nicolas Du Pasquier"
+      }
+    },
+    {
+      "src": "/img/projects/bamiyan_1.jpg",
+      "caption": {
+        "en": "© Phot. Nicolas Du Pasquier",
+        "fr": "© Phot. Nicolas Du Pasquier"
+      }
+    }
+  ],
+  "articleDate": {
+    "en": "05. 2026",
+    "fr": "01. 2026"
+  },
+  "modalID": "2026capa",
+  "articleLocation": {
+    "en": "Cité de l'architecture et du patrimoine, Paris",
+    "fr": "Cité de l'architecture et du patrimoine, Paris"
+  },
+  "thumbnailTitle": {
+    "en": "Heritage in Resistance",
+    "fr": "Patrimoines en résistance"
+  },
+  "thumbnail": "/img/projects/2026capa/palmyre-métro.png",
+  "text": {
+    "en": "While war has always brought destruction, the beginning of the 21st century reveals an intensification and a systematization of attacks on cultural and natural heritage. The exhibition sheds light on this contemporary reality and raises an essential question: how does war reveal what is irretrievably lost, while at the same time bringing forth acts of resistance that make future repair possible? Through a set of archives, contemporary artworks, and digital replicas produced by Iconem, the exhibition offers a journey in three sequences : Erasing, Resisting, Restoring. Bringing together the perspectives of architects, artists, researchers, field actors, and witnesses, it weaves a documented, visual, and sensitive narrative.",
+    "fr": "Si la guerre a toujours entraîné des destructions, le début du XXIᵉ siècle révèle une intensification et une systématisation des atteintes portées au patrimoine culturel et naturel. L’exposition met en lumière cette réalité contemporaine et pose une question essentielle : comment la guerre révèle-t-elle ce qui est irrémédiablement perdu, tout en faisant émerger les gestes de résistance qui rendent possible une réparation future ?  À travers un ensemble d’archives, d’**œuvres contemporaines** et de modélisations **numériques** réalisées par Iconem, l’exposition propose un parcours en trois séquences : Effacer, Résister, Réparer. Conçue comme un grand reportage, elle tisse un récit documenté, visuel et sensible, croisant les regards d’architectes, d’artistes, de chercheurs, d’acteurs de terrain et de témoins."
+  },
+  "highlighted": true,
+  "thumbnailDate": {
+    "en": "2026",
+    "fr": "2026"
+  },
+  "actors": {
+    "en": "Cité de l'architecture et du patrimoine, UNESCO, Grand Palais - RMN",
+    "fr": "Cité de l'architecture et du patrimoine, UNESCO, Grand Palais - RMN",
+    "logos": [
+      "/img/projects/logo_capa.svg",
+      "/img/projects/unesco_logo_english_white.png",
+      "/img/projects/images.png"
+    ]
+  }
+}
