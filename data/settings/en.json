@@ -1,50 +1,50 @@
 {
-    "description": "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow.",
-    "navigation": {
-        "projects": "Projects",
-        "map": "Map",
-        "about": "About",
-        "contribute": "Contribute",
-        "contact": "Contact",
-        "studio": "Studio",
-        "research": "Research",
-        "exploration": "Exploration"
-    },
-    "projects": {
-        "title": "Projects",
-        "modal": {
-            "pictures": "Pictures",
-            "videos": "Videos",
-            "models": "3D Models",
-            "actors": ""
-        }
-    },
-    "team": {
-        "title": "Our team",
-        "subtitle": "",
-        "description": "Based in Paris, Iconem currently brings together a multidisciplinary team of about ten employees: architects, computer scientists, engineers, 3D graphic designers and archeologists whose strength lies in working together to solve the complex issue of safeguarding the historical and archeological heritage."
-    },
-    "partners": {
-        "clients": "Clients",
-        "partners": "Partners"
-    },
-    "downloads": {
-        "brochure": {
-            "title": "Download our brochure",
-            "pdf": "/pdf/Iconem_EN.pdf"
-        },
-        "portfolio": {
-            "title": "Download our exhibition portfolio",
-            "pdf": "/pdf/Iconem_Exhibition_Portfolio.pdf"
-        },
-        "rgpd": {
-            "title": "Data Protection Policy",
-            "pdf": "/pdf/charte_rgpd.pdf"
-        }
-    },
-    "newsletter": {
-        "title": "Subscribe to our newsletter",
-        "placeholder": "Email Adress",
-        "button_label": "Subscribe"
+  "description": "Iconem's mission is to contribute to heritage conservation. By scanning threatened sites, we hope to facilitate their exploration and study, for today and tomorrow.",
+  "navigation": {
+    "projects": "Projects",
+    "map": "Map",
+    "about": "About",
+    "contribute": "Contribute",
+    "contact": "Contact",
+    "studio": "Studio",
+    "research": "Research",
+    "exploration": "Exploration"
+  },
+  "projects": {
+    "title": "Projects",
+    "modal": {
+      "pictures": "Pictures",
+      "videos": "Videos",
+      "models": "3D Models",
+      "actors": ""
     }
+  },
+  "team": {
+    "title": "Our team",
+    "subtitle": "",
+    "description": "Based in Paris, Iconem currently brings together a multidisciplinary team of architects, computer scientists, engineers, 3D graphic designers and archeologists whose strength lies in working together to solve the complex issue of safeguarding cultural and archeological heritage."
+  },
+  "partners": {
+    "clients": "Clients",
+    "partners": "Partners"
+  },
+  "downloads": {
+    "brochure": {
+      "title": "Download our brochure",
+      "pdf": "/pdf/portfolio_architecture_iconem_en_2026_light.pdf"
+    },
+    "portfolio": {
+      "title": "Download our exhibition portfolio",
+      "pdf": "/pdf/Iconem_Exhibition_Portfolio.pdf"
+    },
+    "rgpd": {
+      "title": "Data Protection Policy",
+      "pdf": "/pdf/charte_rgpd.pdf"
+    }
+  },
+  "newsletter": {
+    "title": "Subscribe to our newsletter",
+    "placeholder": "Email Adress",
+    "button_label": "Subscribe"
+  }
 }
